@@ -5,53 +5,79 @@
 </header>
 
 <div class="contact-grid">
-  <div class="contact-card">
-    {{ with .Params.email }}
-    <div class="contact-row">
-      <span class="icon">{{ partial "icons/mail.html" $ }}</span>
-      <div>
-        <div class="label">{{ i18n "email" | default "Email" }}</div>
-        <div class="value"><a href="mailto:{{ . }}">{{ . }}</a></div>
+  <div class="contact-col">
+    <div class="contact-card">
+      {{ with .Params.email }}
+      <div class="contact-row">
+        <span class="icon">{{ partial "icons/mail.html" $ }}</span>
+        <div>
+          <div class="label">{{ i18n "email" | default "Email" }}</div>
+          <div class="value"><a href="mailto:{{ . }}">{{ . }}</a></div>
+        </div>
       </div>
-    </div>
-    {{ end }}
-    {{ with .Params.phone }}
-    <div class="contact-row">
-      <span class="icon">{{ partial "icons/phone.html" $ }}</span>
-      <div>
-        <div class="label">{{ i18n "phone" | default "Phone / WhatsApp" }}</div>
-        <div class="value">{{ . }}</div>
+      {{ end }}
+      {{ with .Params.phone }}
+      <div class="contact-row">
+        <span class="icon">{{ partial "icons/phone.html" $ }}</span>
+        <div>
+          <div class="label">{{ i18n "phone" | default "Phone / WhatsApp" }}</div>
+          <div class="value">{{ . }}</div>
+        </div>
       </div>
-    </div>
-    {{ end }}
-    {{ with .Params.location }}
-    <div class="contact-row">
-      <span class="icon">{{ partial "icons/pin.html" $ }}</span>
-      <div>
-        <div class="label">{{ i18n "location" | default "Location" }}</div>
-        <div class="value">{{ . }}</div>
+      {{ end }}
+      {{ with .Params.location }}
+      <div class="contact-row">
+        <span class="icon">{{ partial "icons/pin.html" $ }}</span>
+        <div>
+          <div class="label">{{ i18n "location" | default "Location" }}</div>
+          <div class="value">{{ . }}</div>
+        </div>
       </div>
-    </div>
-    {{ end }}
-    {{ with .Params.youtube }}
-    <div class="contact-row">
-      <span class="icon">{{ partial "icons/youtube.html" $ }}</span>
-      <div>
-        <div class="label">{{ i18n "youtube_channel" | default "YouTube Channel" }}</div>
-        <div class="value"><a href="https://www.youtube.com/{{ . }}" target="_blank" rel="noopener">{{ . }}</a></div>
+      {{ end }}
+      {{ with .Params.youtube }}
+      <div class="contact-row">
+        <span class="icon">{{ partial "icons/youtube.html" $ }}</span>
+        <div>
+          <div class="label">{{ i18n "youtube_channel" | default "YouTube Channel" }}</div>
+          <div class="value"><a href="https://www.youtube.com/{{ . }}" target="_blank" rel="noopener">{{ . }}</a></div>
+        </div>
       </div>
+      {{ end }}
     </div>
-    {{ end }}
+
+    <div class="contact-card">
+      <h3>{{ i18n "coaching_enquiries" | default "Coaching Enquiries" }}</h3>
+      <p class="muted">{{ .Content | plainify }}</p>
+    </div>
   </div>
 
-  <div class="contact-card">
-    <h3>{{ i18n "coaching_enquiries" | default "Coaching Enquiries" }}</h3>
-    <p style="color: var(--text-muted); font-size: 14px; margin: 0 0 16px;">{{ .Content | plainify }}</p>
-    {{ with .Params.email }}
-      <a class="btn btn-primary" href="mailto:{{ . }}?subject={{ i18n "coaching_enquiry_subject" | default "Coaching enquiry" | urlquery }}">
-        {{ partial "icons/send.html" $ }}{{ i18n "send_email" | default "Send Email" }}
-      </a>
-    {{ end }}
+  <div class="contact-col">
+    <div class="contact-card">
+      <h3>{{ i18n "send_message" | default "Send a Message" }}</h3>
+      <form class="contact-form" action="mailto:{{ .Params.email }}" method="post" enctype="text/plain">
+        <div class="field-row">
+          <label class="field">
+            <span class="field-label">{{ i18n "your_name" | default "Your Name" }} *</span>
+            <input type="text" name="Name" required placeholder="{{ i18n "name_placeholder" | default "Name" }}">
+          </label>
+          <label class="field">
+            <span class="field-label">{{ i18n "email" | default "Email" }} *</span>
+            <input type="email" name="Email" required placeholder="you@email.com">
+          </label>
+        </div>
+        <label class="field">
+          <span class="field-label">{{ i18n "subject" | default "Subject" }} *</span>
+          <input type="text" name="Subject" required placeholder="{{ i18n "subject_placeholder" | default "Coaching enquiry, Workshop, etc." }}">
+        </label>
+        <label class="field">
+          <span class="field-label">{{ i18n "message" | default "Message" }} *</span>
+          <textarea name="Message" rows="5" required placeholder="{{ i18n "message_placeholder" | default "Tell us about yourself, your experience level, and what you’re looking for…" }}"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block">
+          {{ partial "icons/send.html" . }}{{ i18n "send_message" | default "Send Message" }}
+        </button>
+      </form>
+    </div>
   </div>
 </div>
 {{ end }}

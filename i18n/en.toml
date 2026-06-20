@@ -75,3 +75,24 @@ other = "Coming soon"
 
 [coming_soon_body]
 other = "This section is being prepared. In the meantime, head to the Videos page or get in touch via the Contact page."
+
+[send_message]
+other = "Send a Message"
+
+[your_name]
+other = "Your Name"
+
+[name_placeholder]
+other = "Name"
+
+[subject]
+other = "Subject"
+
+[subject_placeholder]
+other = "Coaching enquiry, Workshop, etc."
+
+[message]
+other = "Message"
+
+[message_placeholder]
+other = "Tell us about yourself, your experience level, and what you’re looking for…"

@@ -12,8 +12,17 @@
   <nav class="nav" aria-label="Primary">
     <ul>
       {{ $current := . }}
+      {{ $home := $current.Site.Home }}
       {{ range .Site.Menus.main }}
-        {{ $isActive := or (eq $current.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $current.RelPermalink .URL)) }}
+        {{- /* Look up the page by its identifier (one of: "home", "videos", "books", "gallery", "contact"). */ -}}
+        {{ $page := "" }}
+        {{ if eq .Identifier "home" }}
+          {{ $page = $home }}
+        {{ else }}
+          {{ $page = $current.Site.GetPage .Identifier }}
+        {{ end }}
+        {{ $url := cond (eq $page "") "#" $page.RelPermalink }}
+        {{ $isActive := and (ne $page "") (or (eq $current.RelPermalink $page.RelPermalink) (and (ne .Identifier "home") (hasPrefix $current.RelPermalink $page.RelPermalink))) }}
         {{ $disabled := .Params.comingSoon }}
         <li>
           {{ if $disabled }}
@@ -23,7 +32,7 @@
               <span class="nav-badge">{{ i18n "soon" | default "Soon" }}</span>
             </span>
           {{ else }}
-            <a href="{{ .URL | relLangURL }}" class="nav-link{{ if $isActive }} is-active{{ end }}">
+            <a href="{{ $url }}" class="nav-link{{ if $isActive }} is-active{{ end }}">
               <span class="nav-icon" aria-hidden="true">{{ partial (printf "icons/%s.html" (.Params.icon | default "circle")) . }}</span>
               <span>{{ .Name }}</span>
             </a>

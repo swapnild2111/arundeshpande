@@ -75,3 +75,24 @@ other = "Kommer snart"
 
 [coming_soon_body]
 other = "Dette område er under forberedelse. I mellemtiden kan du se Videoer eller kontakte os via Kontakt-siden."
+
+[send_message]
+other = "Send en besked"
+
+[your_name]
+other = "Dit navn"
+
+[name_placeholder]
+other = "Navn"
+
+[subject]
+other = "Emne"
+
+[subject_placeholder]
+other = "Coachingforespørgsel, workshop, m.v."
+
+[message]
+other = "Besked"
+
+[message_placeholder]
+other = "Fortæl os lidt om dig selv, dit niveau og hvad du leder efter…"

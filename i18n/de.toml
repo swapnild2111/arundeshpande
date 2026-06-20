@@ -75,3 +75,24 @@ other = "In Vorbereitung"
 
 [coming_soon_body]
 other = "Dieser Bereich wird gerade vorbereitet. Bis dahin gerne auf der Videos-Seite stöbern oder über die Kontakt-Seite Kontakt aufnehmen."
+
+[send_message]
+other = "Nachricht senden"
+
+[your_name]
+other = "Ihr Name"
+
+[name_placeholder]
+other = "Name"
+
+[subject]
+other = "Betreff"
+
+[subject_placeholder]
+other = "Trainingsanfrage, Workshop usw."
+
+[message]
+other = "Nachricht"
+
+[message_placeholder]
+other = "Erzählen Sie uns kurz von sich, Ihrem Niveau und worum es Ihnen geht…"

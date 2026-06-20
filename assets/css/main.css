@@ -692,6 +692,11 @@ h1, h2, h3, h4 {
   gap: 16px;
   align-items: flex-start;
 }
+.contact-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 .contact-card {
   padding: 22px;
   border-radius: var(--radius);
@@ -699,6 +704,7 @@ h1, h2, h3, h4 {
   border: 1px solid var(--border);
 }
 .contact-card h3 { font-size: 16px; margin: 0 0 16px; }
+.contact-card p.muted { color: var(--text-muted); font-size: 14px; margin: 0; line-height: 1.6; }
 .contact-row {
   display: flex; align-items: center; gap: 12px;
   padding: 8px 0;
@@ -715,6 +721,52 @@ h1, h2, h3, h4 {
 .contact-row .label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
 .contact-row .value { font-weight: 600; font-size: 14px; }
 .contact-row .value a { color: var(--text); }
+.contact-row .value a:hover { color: var(--accent); }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.contact-form .field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.contact-form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.contact-form .field-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+.contact-form input,
+.contact-form textarea {
+  font: inherit;
+  width: 100%;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  transition: border-color .15s, background .15s;
+  resize: vertical;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--text-dim);
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: rgba(168, 85, 247, 0.04);
+}
+.contact-form textarea { min-height: 120px; }
+.btn-block { width: 100%; justify-content: center; }
 
 /* ---------- chapter / book pages ---------- */
 .book-index .chapter-grid {
@@ -817,6 +869,7 @@ h1, h2, h3, h4 {
   .explore-grid { grid-template-columns: 1fr; }
   .about-cols { grid-template-columns: 1fr; gap: 0; }
   .contact-grid { grid-template-columns: 1fr; }
+  .contact-form .field-row { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {

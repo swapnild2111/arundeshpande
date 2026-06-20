@@ -8,6 +8,6 @@
   <div class="icon-pill">{{ partial "icons/book.html" . }}</div>
   <h2>{{ i18n "coming_soon" | default "Coming soon" }}</h2>
   <p>{{ i18n "coming_soon_body" | default "This section is being prepared. In the meantime, head to the Videos page or get in touch via the Contact page." }}</p>
-  <a class="btn btn-primary" href="{{ "/videos/" | relLangURL }}">{{ partial "icons/play.html" . }}{{ i18n "watch_videos" | default "Watch Videos" }}</a>
+  {{ with .Site.GetPage "/videos" }}<a class="btn btn-primary" href="{{ .RelPermalink }}">{{ partial "icons/play.html" $ }}{{ i18n "watch_videos" | default "Watch Videos" }}</a>{{ end }}
 </div>
 {{ end }}

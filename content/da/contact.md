@@ -2,6 +2,8 @@
 title: "Kontakt"
 description: "Kontakt os for coachingforespørgsler, workshops eller spørgsmål."
 date: 2026-01-01
+type: "contact"
+layout: "contact"
 email: "arundeshpande.carrom@gmail.com"
 phone: "+91 88790 51402"
 location: "Thane, Maharashtra, Indien"
