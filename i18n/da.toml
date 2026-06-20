@@ -1,3 +1,6 @@
+[home_title]
+other = "Carrom-træner Arun Deshpande"
+
 [hero_first_name]
 other = "Arun "
 
@@ -58,14 +61,68 @@ other = "Coachingforespørgsler"
 [coaching_enquiry_subject]
 other = "Coachingforespørgsel"
 
+[contact_information]
+other = "Kontaktoplysninger"
+
 [send_email]
 other = "Send e-mail"
 
 [pages]
 other = "sider"
 
+[page_count]
+other = "sider"
+
+[book_pages]
+other = "Sider"
+
+[book_loading]
+other = "Indlæser bog…"
+
+[book_load_error]
+other = "Bogen kunne ikke indlæses."
+
+[book_page]
+other = "Side"
+
+[book_of]
+other = "af"
+
+[book_fit_width]
+other = "Fuld bredde"
+
+[book_zoom_in]
+other = "Zoom ind"
+
+[book_zoom_out]
+other = "Zoom ud"
+
+[book_fullscreen]
+other = "Fuld skærm"
+
 [read_online]
 other = "Læs online"
+
+[download_pdf]
+other = "Download PDF"
+
+[original_source]
+other = "Original kilde"
+
+[no_books_yet]
+other = "Ingen bøger tilgængelige endnu."
+
+[problem_label]
+other = "Problem"
+
+[solution_label]
+other = "Løsning"
+
+[ps_jump_to]
+other = "Gå til"
+
+[ps_index_label]
+other = "Problemliste"
 
 [soon]
 other = "Snart"

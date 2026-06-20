@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ $pdf := .Params.pdf | relURL }}
+<nav class="book-back">
+  <a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a>
+</nav>
+
+<header class="page-header book-view-header">
+  <h1><span class="icon-pill">{{ partial "icons/book.html" . }}</span>{{ .Title }}</h1>
+  <div class="book-view-meta">
+    {{ with .Params.author }}<span>{{ . }}</span>{{ end }}
+    {{ with .Params.pageCount }}<span>{{ . }} {{ i18n "page_count" | default "pages" }}</span>{{ end }}
+    {{ with .Params.tagLabel }}<span class="tag --amber">{{ . }}</span>{{ end }}
+  </div>
+  {{ with .Description }}<p>{{ . }}</p>{{ end }}
+</header>
+
+{{ if .Content }}
+<article class="book-prose">
+  {{ .Content }}
+</article>
+{{ end }}
+
+{{ if .Params.pdf }}
+<div class="book-toolbar">
+  <a class="btn btn-download btn-sm" href="{{ $pdf }}" download>{{ partial "icons/download.html" . }}{{ i18n "download_pdf" }}</a>
+  {{ with .Params.sourceUrl }}
+  <a class="btn btn-ghost btn-sm" href="{{ . }}" target="_blank" rel="noopener">{{ i18n "original_source" }}</a>
+  {{ end }}
+</div>
+
+<div class="pdf-viewer">
+  <iframe src="{{ $pdf }}" title="{{ .Title }}" loading="lazy"></iframe>
+</div>
+{{ end }}
+{{ end }}

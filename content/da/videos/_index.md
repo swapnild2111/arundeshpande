@@ -1,7 +1,18 @@
 ---
 title: "Videobibliotek"
-description: "Carrom-tutorials af Arun Deshpande — komplet begynder-, mellemtrins- og mester-kursus, optaget med Denmark Carrom Federation."
-filters: ["Alle", "Begynder", "Mellem", "Mester"]
+filters:
+  - label: "Alle"
+    id: all
+  - label: "Begynder"
+    id: beginner
+  - label: "Mellem"
+    id: intermediate
+  - label: "Mester"
+    id: champion
+  - label: "Problemer & løsninger"
+    id: problems-solutions
+  - label: "Diverse"
+    id: misc
 videos:
   - id: "Rm17_RqoikQ"
     title: "Videnskab bag spillet, opsætning af brikker, åbninger"
@@ -180,4 +191,7 @@ videos:
   - id: "h_67KxeDtzc"
     title: "Rullende striker"
     tags: ["mester"]
+  - id: "aw2JB5YLc5k"
+    title: "Golden Carrom Treasure by Sir Arun Deshpande"
+    tags: ["misc"]
 ---

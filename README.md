@@ -253,14 +253,11 @@ When new videos are found, the workflow commits an updated `data/problem-solutio
 ### Manual (local)
 
 ```bash
-# With YouTube API key (full channel history)
+# Sync from YouTube (requires API key)
 YOUTUBE_API_KEY=your_key python3 scripts/sync-problem-solutions.py
 
-# Without API key — uses base44 Video API fallback
-python3 scripts/sync-problem-solutions.py
-
 # Preview without writing
-python3 scripts/sync-problem-solutions.py --dry-run
+YOUTUBE_API_KEY=your_key python3 scripts/sync-problem-solutions.py --dry-run
 ```
 
 Then commit and push `data/problem-solutions.yaml` if it changed.

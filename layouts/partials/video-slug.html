@@ -1,0 +1,8 @@
+{{/* URL slug for video anchors — pass dict: title, slug (optional), tag (optional) */}}
+{{- if .slug -}}
+  {{- .slug -}}
+{{- else if .tag -}}
+  {{- printf "%s-%s" .tag (.title | urlize) -}}
+{{- else -}}
+  {{- .title | urlize -}}
+{{- end -}}

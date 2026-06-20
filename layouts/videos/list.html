@@ -1,28 +1,88 @@
 {{ define "main" }}
 <header class="page-header">
   <h1><span class="icon-pill">{{ partial "icons/play.html" . }}</span>{{ .Title }}</h1>
-  <p>{{ .Description }}</p>
+  {{ with .Description }}<p>{{ . }}</p>{{ end }}
 </header>
 
 {{ with .Params.filters }}
 <div class="chips" data-filter-target="video-grid">
   {{ range $i, $f := . }}
-    <button class="chip{{ if eq $i 0 }} is-active{{ end }}" data-filter="{{ if eq $i 0 }}all{{ else }}{{ $f | urlize }}{{ end }}">{{ $f }}</button>
+    {{ $id := $f.id }}
+    {{ $label := $f.label }}
+    <button type="button" class="chip{{ if eq $i 0 }} is-active{{ end }}" data-filter="{{ $id }}">{{ $label }}</button>
   {{ end }}
 </div>
 {{ end }}
 
-<div class="video-grid" id="video-grid">
+<div class="video-grid" id="video-grid" data-show-for="all beginner intermediate champion misc">
   {{ range .Params.videos }}
-    {{ $thumb := printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" .id }}
     {{ $tags := .tags | default slice }}
-    <a class="video-card" href="https://www.youtube.com/watch?v={{ .id }}" target="_blank" rel="noopener" data-tags="{{ delimit $tags " " | urlize }}">
-      <img src="{{ $thumb }}" alt="{{ .title }}" loading="lazy">
-      <span class="play-btn">{{ partial "icons/play.html" $ }}</span>
+    {{ $tag := index $tags 0 | default "video" }}
+    {{ $slug := partial "video-slug.html" (dict "title" .title "tag" $tag "slug" .slug) }}
+    <a class="video-card" id="v-{{ $slug }}" href="#v-{{ $slug }}" data-youtube="https://www.youtube.com/watch?v={{ .id }}" data-video-id="{{ .id }}" data-tags="{{ delimit $tags " " | urlize }}" rel="noopener">
+      <div class="video-thumb">
+        <img src="https://i.ytimg.com/vi/{{ .id }}/hqdefault.jpg" alt="{{ .title }}" loading="lazy">
+        <span class="play-btn" title="Play on YouTube">{{ partial "icons/play.html" $ }}</span>
+      </div>
       <div class="video-title">{{ .title }}</div>
     </a>
   {{ end }}
 </div>
+
+{{ $pairs := (index hugo.Data "problem-solutions").pairs }}
+{{ $pairTotal := len $pairs }}
+<div class="ps-browser pair-grid" id="pair-grid" data-show-for="problems-solutions" hidden>
+  <div class="ps-toolbar">
+    <div class="ps-toolbar-nav">
+      <button type="button" class="ps-toolbar-btn" data-ps-prev aria-label="{{ i18n "previous" | default "Previous" }}">←</button>
+      <label class="ps-jump">
+        <span class="ps-jump-label">{{ i18n "ps_jump_to" | default "Jump to" }}</span>
+        <input type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" value="1" data-ps-jump>
+      </label>
+      <button type="button" class="ps-toolbar-btn" data-ps-next aria-label="{{ i18n "next" | default "Next" }}">→</button>
+    </div>
+    <span class="ps-counter" data-ps-counter>1 / {{ $pairTotal }}</span>
+  </div>
+
+  <div class="ps-layout">
+    <aside class="ps-index" aria-label="{{ i18n "ps_index_label" | default "Problem list" }}">
+      <ul>
+        {{ range $pairs }}
+          {{ $partial := or (not .problem) (not .solution) }}
+          <li>
+            <button
+              type="button"
+              class="ps-index-item{{ if eq .num 1 }} is-active{{ end }}{{ if $partial }} is-partial{{ end }}"
+              data-ps-num="{{ .num }}"
+            >{{ .num }}</button>
+          </li>
+        {{ end }}
+      </ul>
+    </aside>
+
+    <div class="ps-stage">
+      {{ range $pairs }}
+      <article
+        class="ps-pair{{ if eq .num 1 }} is-active{{ end }}"
+        data-ps-panel="{{ .num }}"
+        data-tags="problems-solutions"
+        {{ if ne .num 1 }}hidden{{ end }}
+      >
+        <header class="ps-pair-header">
+          <h2 class="ps-pair-title">{{ i18n "problem_label" | default "Problem" }} {{ .num }}</h2>
+          <span class="ps-pair-of">{{ i18n "book_of" | default "of" }} {{ $pairTotal }}</span>
+        </header>
+        <div class="ps-pair-row">
+          {{ partial "video-slot.html" (dict "id" .problem "title" (printf "%s %d" (i18n "problem_label" | default "Problem") .num) "slug" (printf "problem-%d" .num) "kind" "problem") }}
+          {{ partial "video-slot.html" (dict "id" .solution "title" (printf "%s %d" (i18n "solution_label" | default "Solution") .num) "slug" (printf "solution-%d" .num) "kind" "solution") }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<script src="{{ "js/problem-solutions.js" | relURL }}" defer></script>
 
 {{ if not .Params.videos }}
   <p style="color: var(--text-dim); margin-top: 16px;">

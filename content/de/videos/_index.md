@@ -1,7 +1,18 @@
 ---
 title: "Video-Bibliothek"
-description: "Carrom-Tutorials von Arun Deshpande — vollständige Anfänger-, Fortgeschrittenen- und Champion-Kurse, aufgenommen mit der Denmark Carrom Federation."
-filters: ["Alle", "Anfänger", "Fortgeschritten", "Champion"]
+filters:
+  - label: "Alle"
+    id: all
+  - label: "Anfänger"
+    id: beginner
+  - label: "Fortgeschritten"
+    id: intermediate
+  - label: "Champion"
+    id: champion
+  - label: "Probleme & Lösungen"
+    id: problems-solutions
+  - label: "Sonstiges"
+    id: misc
 videos:
   - id: "Rm17_RqoikQ"
     title: "Wissenschaft hinter dem Spiel, Steine anordnen, Eröffnungen"
@@ -180,4 +191,7 @@ videos:
   - id: "h_67KxeDtzc"
     title: "Rollender Schläger"
     tags: ["champion"]
+  - id: "aw2JB5YLc5k"
+    title: "Golden Carrom Treasure by Sir Arun Deshpande"
+    tags: ["misc"]
 ---

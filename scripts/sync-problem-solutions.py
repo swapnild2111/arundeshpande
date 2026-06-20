@@ -2,9 +2,7 @@
 """
 Regenerate data/problem-solutions.yaml from YouTube uploads.
 
-Sources (first match wins):
-  1. YouTube Data API v3 — set YOUTUBE_API_KEY (recommended for CI)
-  2. base44 Video API — fallback when no API key (local dev)
+Requires YOUTUBE_API_KEY (YouTube Data API v3).
 
 Titles must contain "Problem N" or "Solution N" (case-insensitive).
 Missing partners are written as null (site shows Coming Soon).
@@ -22,7 +20,6 @@ import urllib.request
 from pathlib import Path
 
 CHANNEL_ID = "UC5Wiove6pc54zODl8JgUuyg"
-BASE44_VIDEO_URL = "https://arun-deshpande-carrom-coach.base44.app/api/entities/Video"
 OUTPUT = Path(__file__).resolve().parent.parent / "data" / "problem-solutions.yaml"
 
 
@@ -82,17 +79,6 @@ def fetch_from_youtube(api_key: str) -> list[dict[str, str]]:
     return videos
 
 
-def fetch_from_base44() -> list[dict[str, str]]:
-    data = fetch_json(BASE44_VIDEO_URL)
-    if not isinstance(data, list):
-        raise RuntimeError("Unexpected base44 API response")
-    return [
-        {"title": v["title"], "youtube_id": v["youtube_id"]}
-        for v in data
-        if v.get("category") == "problem_solution" and v.get("title") and v.get("youtube_id")
-    ]
-
-
 def build_pairs(videos: list[dict[str, str]]) -> list[dict]:
     problems: dict[int, str] = {}
     solutions: dict[int, str] = {}
@@ -134,14 +120,12 @@ def main() -> int:
     dry_run = "--dry-run" in sys.argv
     api_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
 
-    if api_key:
-        print("Fetching from YouTube Data API…")
-        videos = fetch_from_youtube(api_key)
-        source = "YouTube Data API"
-    else:
-        print("YOUTUBE_API_KEY not set — using base44 Video API fallback…")
-        videos = fetch_from_base44()
-        source = "base44 API"
+    if not api_key:
+        print("YOUTUBE_API_KEY is required.", file=sys.stderr)
+        return 1
+
+    print("Fetching from YouTube Data API…")
+    videos = fetch_from_youtube(api_key)
 
     pairs = build_pairs(videos)
     if not pairs:
@@ -152,7 +136,6 @@ def main() -> int:
     missing_p = [p["num"] for p in pairs if p["solution"] and not p["problem"]]
     missing_s = [p["num"] for p in pairs if p["problem"] and not p["solution"]]
 
-    print(f"Source: {source}")
     print(f"Pairs: {len(pairs)} ({complete} complete)")
     if missing_p:
         print(f"  Missing problem: {missing_p}")

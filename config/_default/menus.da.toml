@@ -21,7 +21,6 @@
   weight = 30
   [main.params]
     icon = "book"
-    comingSoon = true
 
 [[main]]
   identifier = "gallery"

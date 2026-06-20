@@ -1,7 +1,18 @@
 ---
 title: "Video Library"
-description: "Carrom tutorials by Arun Deshpande — full Beginner, Intermediate and Champion courses, recorded with the Denmark Carrom Federation."
-filters: ["All", "Beginner", "Intermediate", "Champion"]
+filters:
+  - label: "All"
+    id: all
+  - label: "Beginner"
+    id: beginner
+  - label: "Intermediate"
+    id: intermediate
+  - label: "Champion"
+    id: champion
+  - label: "Problems & Solutions"
+    id: problems-solutions
+  - label: "Misc"
+    id: misc
 videos:
   - id: "Rm17_RqoikQ"
     title: "Science Behind the game, How to arrange coins, Breaks"
@@ -180,4 +191,7 @@ videos:
   - id: "h_67KxeDtzc"
     title: "Rolling of striker"
     tags: ["champion"]
+  - id: "aw2JB5YLc5k"
+    title: "Golden Carrom Treasure by Sir Arun Deshpande"
+    tags: ["misc"]
 ---

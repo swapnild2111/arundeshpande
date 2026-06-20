@@ -1,3 +1,6 @@
+[home_title]
+other = "Carrom Coach Arun Deshpande"
+
 [hero_first_name]
 other = "Arun "
 
@@ -58,14 +61,68 @@ other = "Coaching Enquiries"
 [coaching_enquiry_subject]
 other = "Coaching enquiry"
 
+[contact_information]
+other = "Contact Information"
+
 [send_email]
 other = "Send Email"
 
 [pages]
+other = "Pages"
+
+[page_count]
 other = "pages"
+
+[book_pages]
+other = "Pages"
+
+[book_loading]
+other = "Loading book…"
+
+[book_load_error]
+other = "Could not load this book."
+
+[book_page]
+other = "Page"
+
+[book_of]
+other = "of"
+
+[book_fit_width]
+other = "Full width"
+
+[book_zoom_in]
+other = "Zoom in"
+
+[book_zoom_out]
+other = "Zoom out"
+
+[book_fullscreen]
+other = "Fullscreen"
 
 [read_online]
 other = "Read online"
+
+[download_pdf]
+other = "Download PDF"
+
+[original_source]
+other = "Original source"
+
+[no_books_yet]
+other = "No books available yet."
+
+[problem_label]
+other = "Problem"
+
+[solution_label]
+other = "Solution"
+
+[ps_jump_to]
+other = "Jump to"
+
+[ps_index_label]
+other = "Problem list"
 
 [soon]
 other = "Soon"
