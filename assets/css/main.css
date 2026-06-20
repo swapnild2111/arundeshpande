@@ -1,20 +1,20 @@
 /* ---------- design tokens ---------- */
 :root {
-  --bg: #0e0a1a;
-  --bg-elev: #15102a;
-  --bg-card: #1a1430;
-  --bg-card-2: #221a3d;
-  --border: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.14);
+  --bg: #0a0a0c;
+  --bg-elev: #111114;
+  --bg-card: #16161a;
+  --bg-card-2: #1c1c22;
+  --border: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.12);
 
-  --text: #f3f0fa;
-  --text-muted: #b8b3c9;
-  --text-dim: #847c9a;
+  --text: #f5f5f7;
+  --text-muted: #a8a8b0;
+  --text-dim: #6e6e78;
 
   --accent: #a855f7;
   --accent-strong: #9333ea;
-  --accent-soft: rgba(168, 85, 247, 0.18);
-  --accent-glow: rgba(168, 85, 247, 0.35);
+  --accent-soft: rgba(168, 85, 247, 0.14);
+  --accent-glow: rgba(168, 85, 247, 0.30);
 
   --gradient-purple: linear-gradient(135deg, #a855f7 0%, #6366f1 100%);
   --gradient-amber: linear-gradient(135deg, #f59e0b 0%, #b45309 100%);
@@ -43,10 +43,7 @@ body {
   font-size: 15px;
   line-height: 1.6;
   color: var(--text);
-  background: radial-gradient(ellipse 80% 60% at 70% -10%, rgba(168, 85, 247, 0.18), transparent 60%),
-              radial-gradient(ellipse 60% 40% at 20% 110%, rgba(99, 102, 241, 0.10), transparent 60%),
-              var(--bg);
-  background-attachment: fixed;
+  background: var(--bg);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -133,9 +130,7 @@ h1, h2, h3, h4 {
 
 /* ---------- sidebar ---------- */
 .sidebar {
-  background: rgba(15, 11, 30, 0.65);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: var(--bg);
   border-right: 1px solid var(--border);
   padding: 24px 16px;
   position: sticky;
@@ -152,7 +147,7 @@ h1, h2, h3, h4 {
   gap: 12px;
   padding: 10px 12px;
   border-radius: var(--radius);
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.16), rgba(99, 102, 241, 0.08));
+  background: var(--bg-card);
   border: 1px solid var(--border);
 }
 .brand-mark {
@@ -241,8 +236,8 @@ h1, h2, h3, h4 {
   margin-bottom: 32px;
   border-radius: var(--radius-lg);
   background:
-    radial-gradient(ellipse 70% 100% at 0% 50%, rgba(168, 85, 247, 0.18), transparent 60%),
-    linear-gradient(135deg, rgba(168, 85, 247, 0.10), rgba(99, 102, 241, 0.04));
+    radial-gradient(ellipse 50% 80% at 100% 50%, rgba(168, 85, 247, 0.10), transparent 60%),
+    var(--bg-card);
   border: 1px solid var(--border);
   overflow: hidden;
 }
