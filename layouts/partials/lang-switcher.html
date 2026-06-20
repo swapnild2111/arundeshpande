@@ -1,0 +1,22 @@
+{{- /* Build a map of <lang> -> <permalink for the current page in that lang> */ -}}
+{{- $current := . -}}
+{{- $perms := dict (.Language.Lang) .Permalink -}}
+{{- range .Translations -}}
+  {{- $perms = merge $perms (dict (.Language.Lang) .Permalink) -}}
+{{- end -}}
+
+<div class="lang-switcher-top" aria-label="Language">
+  <span class="lang-globe" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
+  {{- range .Site.Languages }}
+    {{- $perm := index $perms .Lang -}}
+    {{- if not $perm }}
+      {{- /* Fall back to that language's home if no translation exists for this page */ -}}
+      {{- if eq .Lang $current.Site.Language.Lang -}}
+        {{- $perm = "/" | relLangURL -}}
+      {{- else -}}
+        {{- $perm = printf "/%s/" .Lang | relURL -}}
+      {{- end -}}
+    {{- end -}}
+    <a href="{{ $perm }}" class="lang{{ if eq .Lang $current.Language.Lang }} is-active{{ end }}" hreflang="{{ .Lang }}">{{ .Lang | upper }}</a>
+  {{- end }}
+</div>

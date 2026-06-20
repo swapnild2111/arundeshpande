@@ -1,6 +1,6 @@
 [[main]]
   identifier = "home"
-  name = "Accueil"
+  name = "Hjem"
   url = "/"
   weight = 10
   [main.params]
@@ -8,7 +8,7 @@
 
 [[main]]
   identifier = "videos"
-  name = "Vidéos"
+  name = "Videoer"
   url = "/videos/"
   weight = 20
   [main.params]
@@ -16,7 +16,7 @@
 
 [[main]]
   identifier = "books"
-  name = "Livres"
+  name = "Bøger"
   url = "/books/"
   weight = 30
   [main.params]
@@ -24,7 +24,7 @@
 
 [[main]]
   identifier = "gallery"
-  name = "Galerie"
+  name = "Galleri"
   url = "/gallery/"
   weight = 40
   [main.params]
@@ -32,7 +32,7 @@
 
 [[main]]
   identifier = "contact"
-  name = "Contact"
+  name = "Kontakt"
   url = "/contact/"
   weight = 50
   [main.params]

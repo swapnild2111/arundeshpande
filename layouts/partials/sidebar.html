@@ -24,23 +24,6 @@
     </ul>
   </nav>
 
-  {{ if .IsTranslated }}
-  <div class="lang-switcher" aria-label="Language">
-    <span class="lang-globe" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
-    <a href="{{ .Permalink }}" class="lang is-active">{{ .Language.Lang | upper }}</a>
-    {{ range .Translations }}
-      <a href="{{ .Permalink }}" class="lang">{{ .Language.Lang | upper }}</a>
-    {{ end }}
-  </div>
-  {{ else }}
-  <div class="lang-switcher" aria-label="Language">
-    <span class="lang-globe" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
-    {{ range .Site.Languages }}
-      <a href="{{ if eq .Lang $.Site.Language.Lang }}{{ "/" | relLangURL }}{{ else }}{{ printf "/%s/" .Lang | relURL }}{{ end }}"
-         class="lang{{ if eq .Lang $.Site.Language.Lang }} is-active{{ end }}">{{ .Lang | upper }}</a>
-    {{ end }}
-  </div>
-  {{ end }}
 </aside>
 
 <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">

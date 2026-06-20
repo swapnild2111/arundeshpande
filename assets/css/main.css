@@ -86,10 +86,49 @@ h1, h2, h3, h4 {
 }
 
 .main {
+  position: relative;
   padding: 48px 56px;
   max-width: calc(var(--sidebar-w) + var(--content-max) + 112px);
   margin: 0 auto;
   width: 100%;
+}
+
+/* ---------- top-right language switcher ---------- */
+.lang-switcher-top {
+  position: absolute;
+  top: 24px;
+  right: 56px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  font-size: 12px;
+  z-index: 30;
+}
+.lang-switcher-top .lang-globe {
+  width: 14px; height: 14px;
+  color: var(--text-dim);
+  display: inline-flex;
+  margin-right: 2px;
+}
+.lang-switcher-top .lang-globe svg { width: 100%; height: 100%; }
+.lang-switcher-top .lang {
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: var(--text-dim);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: background .15s, color .15s;
+}
+.lang-switcher-top .lang:hover { color: var(--text); }
+.lang-switcher-top .lang.is-active {
+  background: var(--accent-soft);
+  color: var(--accent);
 }
 
 /* ---------- sidebar ---------- */
@@ -150,27 +189,6 @@ h1, h2, h3, h4 {
 .nav-icon { width: 18px; height: 18px; display: inline-flex; }
 .nav-icon svg { width: 100%; height: 100%; }
 
-.lang-switcher {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 10px 12px;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.02);
-  font-size: 12px;
-}
-.lang-globe { width: 14px; height: 14px; color: var(--text-dim); display: inline-flex; }
-.lang-globe svg { width: 100%; height: 100%; }
-.lang-switcher .lang {
-  padding: 2px 6px;
-  border-radius: 4px;
-  color: var(--text-dim);
-  font-weight: 600;
-  letter-spacing: 0.05em;
-}
-.lang-switcher .lang:hover { color: var(--text); }
-.lang-switcher .lang.is-active { color: var(--accent); background: var(--accent-soft); }
 
 /* ---------- mobile nav toggle ---------- */
 .nav-toggle {
@@ -727,6 +745,7 @@ h1, h2, h3, h4 {
   .sidebar.is-open { transform: translateX(0); }
   .nav-toggle { display: flex; }
   .main { padding: 80px 20px 40px; }
+  .lang-switcher-top { top: 16px; right: 16px; }
   .hero { grid-template-columns: 1fr; padding: 24px; }
   .hero-photo { width: 100%; max-width: 240px; margin: 0 auto; }
   .hero-photo img, .hero-photo-placeholder { width: 100%; max-width: 240px; margin: 0 auto; }
