@@ -1,0 +1,19 @@
+[[main]]
+  name = "Buch"
+  url = "/book/"
+  weight = 10
+
+[[main]]
+  name = "Über"
+  url = "/about/"
+  weight = 20
+
+[[main]]
+  name = "Galerie"
+  url = "/gallery/"
+  weight = 30
+
+[[main]]
+  name = "Kontakt"
+  url = "/contact/"
+  weight = 40

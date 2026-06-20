@@ -1,0 +1,50 @@
+baseURL = "https://arundeshpandecarrom.com/"
+title = "Arun Deshpande — Carrom Coach"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+enableGitInfo = false
+
+[languages]
+
+  [languages.en]
+    label = "English"
+    locale = "en"
+    weight = 1
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "Carrom coaching, technique and book by Arun Deshpande"
+
+  [languages.de]
+    label = "Deutsch"
+    locale = "de"
+    weight = 2
+    contentDir = "content/de"
+    [languages.de.params]
+      description = "Carrom Coaching, Technik und Buch von Arun Deshpande"
+
+  [languages.fr]
+    label = "Français"
+    locale = "fr"
+    weight = 3
+    contentDir = "content/fr"
+    [languages.fr.params]
+      description = "Coaching de carrom, technique et livre par Arun Deshpande"
+
+  [languages.it]
+    label = "Italiano"
+    locale = "it"
+    weight = 4
+    contentDir = "content/it"
+    [languages.it.params]
+      description = "Coaching di carrom, tecnica e libro di Arun Deshpande"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    style = "github"

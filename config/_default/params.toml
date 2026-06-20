@@ -1,0 +1,27 @@
+author = "Arun Deshpande"
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowToc = true
+TocOpen = false
+assets.disableHLJS = false
+
+[profileMode]
+  enabled = true
+  title = "Arun Deshpande"
+  subtitle = "International Carrom Coach & Author"
+  imageUrl = "/images/arun-profile.jpg"
+  imageTitle = "Arun Deshpande"
+
+  [[profileMode.buttons]]
+    name = "Read the Book"
+    url = "/book/"
+
+  [[profileMode.buttons]]
+    name = "Gallery"
+    url = "/gallery/"
+
+  [[profileMode.buttons]]
+    name = "About"
+    url = "/about/"
