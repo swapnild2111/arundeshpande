@@ -181,5 +181,3 @@ videos:
     title: "Rolling of striker"
     tags: ["champion"]
 ---
-
-Full carrom training library, recorded by **Arun Deshpande** for the **Denmark Carrom Federation**. Use the filter chips above to switch between the Beginner, Intermediate and Champion courses.

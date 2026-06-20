@@ -7,16 +7,12 @@
 
 <div class="lang-switcher-top" aria-label="Language">
   <span class="lang-globe" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
-  {{- range .Site.Languages }}
-    {{- $perm := index $perms .Lang -}}
+  {{- range hugo.Sites }}
+    {{- $lang := .Language -}}
+    {{- $perm := index $perms $lang.Lang -}}
     {{- if not $perm }}
-      {{- /* Fall back to that language's home if no translation exists for this page */ -}}
-      {{- if eq .Lang $current.Site.Language.Lang -}}
-        {{- $perm = "/" | relLangURL -}}
-      {{- else -}}
-        {{- $perm = printf "/%s/" .Lang | relURL -}}
-      {{- end -}}
+      {{- $perm = .Home.RelPermalink -}}
     {{- end -}}
-    <a href="{{ $perm }}" class="lang{{ if eq .Lang $current.Language.Lang }} is-active{{ end }}" hreflang="{{ .Lang }}">{{ .Lang | upper }}</a>
+    <a href="{{ $perm }}" class="lang{{ if eq $lang.Lang $current.Language.Lang }} is-active{{ end }}" hreflang="{{ $lang.Lang }}">{{ $lang.Lang | upper }}</a>
   {{- end }}
 </div>

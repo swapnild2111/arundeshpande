@@ -1,3 +1,6 @@
 <footer class="footer">
   <small>{{ .Site.Params.copyright }}</small>
+  {{ with .Site.Params.siteCredit }}
+  <small class="footer-credit">{{ . }}</small>
+  {{ end }}
 </footer>

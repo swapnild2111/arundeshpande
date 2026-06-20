@@ -181,5 +181,3 @@ videos:
     title: "Rullende striker"
     tags: ["mester"]
 ---
-
-Komplet carrom-træningsbibliotek, optaget af **Arun Deshpande** for **Denmark Carrom Federation**. Brug filterchipsene ovenfor til at skifte mellem begynder-, mellem- og mester-kurset.

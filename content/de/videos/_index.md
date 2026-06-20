@@ -181,5 +181,3 @@ videos:
     title: "Rollender Schläger"
     tags: ["champion"]
 ---
-
-Vollständige Carrom-Trainingsbibliothek, aufgenommen von **Arun Deshpande** für die **Denmark Carrom Federation**. Mit den Filterchips oben kannst du zwischen Anfänger-, Fortgeschrittenen- und Champion-Kurs wechseln.

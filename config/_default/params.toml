@@ -6,6 +6,10 @@ heroPhoto = "/images/arun-profile.jpg"
 # Tagged on the hero section as a "ribbon" pill (small text above the name)
 heroBadge = "Former Coach – India National Carrom Team"
 
+# Footer (must be above [[array]] sections — bare keys after [[...]] append to the last item)
+copyright = "© 2026 Arun Deshpande Academy"
+siteCredit = "© 2026 Swapnil Deshpande"
+
 # Stat cards on home page (top row of 4)
 [[stats]]
   value = "7×"
@@ -43,6 +47,3 @@ heroBadge = "Former Coach – India National Carrom Team"
   icon = "award"
   title = "World Championship"
   subtitle = "Led India to every Worlds"
-
-# Footer
-copyright = "© 2026 Arun Deshpande Academy"
