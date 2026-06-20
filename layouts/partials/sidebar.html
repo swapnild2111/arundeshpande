@@ -1,0 +1,48 @@
+<aside class="sidebar">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">
+      {{ partial "icons/trophy.html" . }}
+    </div>
+    <div class="brand-text">
+      <strong>{{ .Site.Params.brandName }}</strong>
+      <span>{{ .Site.Params.brandTagline }}</span>
+    </div>
+  </div>
+
+  <nav class="nav" aria-label="Primary">
+    <ul>
+      {{ $current := . }}
+      {{ range .Site.Menus.main }}
+        {{ $isActive := or (eq $current.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $current.RelPermalink .URL)) }}
+        <li>
+          <a href="{{ .URL | relLangURL }}" class="nav-link{{ if $isActive }} is-active{{ end }}">
+            <span class="nav-icon" aria-hidden="true">{{ partial (printf "icons/%s.html" (.Params.icon | default "circle")) . }}</span>
+            <span>{{ .Name }}</span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  {{ if .IsTranslated }}
+  <div class="lang-switcher" aria-label="Language">
+    <span class="lang-globe" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
+    <a href="{{ .Permalink }}" class="lang is-active">{{ .Language.Lang | upper }}</a>
+    {{ range .Translations }}
+      <a href="{{ .Permalink }}" class="lang">{{ .Language.Lang | upper }}</a>
+    {{ end }}
+  </div>
+  {{ else }}
+  <div class="lang-switcher" aria-label="Language">
+    <span class="lang-globe" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
+    {{ range .Site.Languages }}
+      <a href="{{ if eq .Lang $.Site.Language.Lang }}{{ "/" | relLangURL }}{{ else }}{{ printf "/%s/" .Lang | relURL }}{{ end }}"
+         class="lang{{ if eq .Lang $.Site.Language.Lang }} is-active{{ end }}">{{ .Lang | upper }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</aside>
+
+<button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>

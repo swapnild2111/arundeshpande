@@ -1,13 +1,11 @@
 ---
 title: "Kontakt"
-description: "Kontaktieren Sie Arun Deshpande für Coaching, Workshops oder Vorträge."
+description: "Anfragen für Coaching, Workshops oder weitere Fragen."
 date: 2026-01-01
+email: "arundeshpande.carrom@gmail.com"
+phone: "+91 88790 51402"
+location: "Thane, Maharashtra, Indien"
+youtube: "@Shrikant_Potharkar_carrom"
 ---
 
-Für Anfragen zu Coaching, Workshops, Verbandskooperationen oder Vorträgen nehmen Sie bitte Kontakt auf.
-
-- **E-Mail:** *wird ergänzt*
-- **Telefon:** *wird ergänzt*
-- **Standort:** *wird ergänzt*
-
-Sie erreichen Arun auch über den jeweiligen nationalen Carrom-Verband.
+Arun Deshpande gibt persönliche Trainingseinheiten für Spielerinnen und Spieler aller Niveaus — von absoluten Einsteigern bis zu Turnierhoffnungen. Gruppenworkshops und Trainingscamps sind weltweit für Vereine und Akademien verfügbar.

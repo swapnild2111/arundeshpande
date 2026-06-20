@@ -1,24 +1,15 @@
 ---
-title: "Über Arun Deshpande"
-description: "Internationaler Carrom-Trainer, Autor und Botschafter des Sports in Europa und darüber hinaus."
+title: "Über"
+description: "Internationaler Carrom-Trainer, Autor und Botschafter des Sports."
 date: 2026-01-01
+sitemap_exclude: true
 translatedBy: "Geprüft von der Deutschen Carrom-Vereinigung"
 ---
 
-## Über
+Geboren und aufgewachsen in **Thane, Maharashtra**, begann Arun Deshpandes Carrom-Laufbahn in den späten 1950er-Jahren. Er entwickelte sich zu einem der erfolgreichsten Spieler in der Geschichte des indischen Carrom.
 
-Arun Deshpande ist internationaler Carrom-Trainer und Autor mit jahrzehntelanger Erfahrung in der Förderung des Sports in ganz Europa. Er hat eng mit nationalen Verbänden zusammengearbeitet, um Spieler auszubilden, Trainer zu schulen und das Erbe und die Technik des Carrom an ein neues Publikum zu vermitteln.
+Er gewann **1969 die nationalen Herren-Einzelmeisterschaft** für Maharashtra und 1972 das Mixed-Doppel der Senior National. 1981 sicherte er sich zudem den Veteranen-Titel — ein Beleg für seine Klasse über mehrere Jahrzehnte hinweg.
 
-## Erfolge
+Als Trainer der indischen Nationalmannschaft führte Arun Indien bei den **ersten beiden Carrom-Weltmeisterschaften zur klaren Dominanz** — Indien gewann jede verfügbare Medaille. Auch beim Carrom World Cup 2006 stand er an der Seitenlinie.
 
-- *Hier Titel, Turniere und Auszeichnungen ergänzen.*
-- *Hier Trainings-Meilensteine ergänzen.*
-- *Hier Verbandsrollen und Mitgliedschaften ergänzen.*
-
-## Trainingsphilosophie
-
-*Hier folgt ein kurzer Absatz, der Aruns Ansatz im Carrom-Training vorstellt — die Balance aus Geduld, Präzision und Spiel, die er in jede Sitzung einbringt.*
-
-## Kontakt
-
-Wenn Sie möchten, dass Arun in Ihrem Verein trainiert, einen Workshop leitet oder bei einer Veranstaltung spricht, nutzen Sie bitte die Seite [Kontakt](/contact/).
+Sein internationales Trainerleben umspannt **Sri Lanka, Malediven, Frankreich, Deutschland, Schweiz, Großbritannien, Kanada** und weitere Länder. Pierre Dubois aus Frankreich gewann unter seiner Anleitung die Europameisterschaft. Er ist lebenslanges Mitglied der **Indian Carrom Federation**.

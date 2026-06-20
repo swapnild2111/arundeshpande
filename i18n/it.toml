@@ -1,0 +1,56 @@
+[hero_first_name]
+other = "Arun "
+
+[hero_last_name]
+other = "Deshpande"
+
+[watch_videos]
+other = "Guarda i video"
+
+[youtube_channel]
+other = "Canale YouTube"
+
+[about_legend]
+other = "Sulla leggenda"
+
+[explore]
+other = "Esplora"
+
+[video_library]
+other = "Videoteca"
+
+[carrom_books]
+other = "Libri di carrom"
+
+[photo_gallery]
+other = "Galleria fotografica"
+
+[chapter]
+other = "Capitolo"
+
+[previous]
+other = "Precedente"
+
+[next]
+other = "Successivo"
+
+[email]
+other = "E-mail"
+
+[phone]
+other = "Telefono / WhatsApp"
+
+[location]
+other = "Località"
+
+[coaching_enquiries]
+other = "Richieste di coaching"
+
+[send_email]
+other = "Invia e-mail"
+
+[pages]
+other = "pagine"
+
+[read_online]
+other = "Leggi online"

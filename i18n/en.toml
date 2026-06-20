@@ -1,0 +1,68 @@
+[hero_first_name]
+other = "Arun "
+
+[hero_last_name]
+other = "Deshpande"
+
+[watch_videos]
+other = "Watch Videos"
+
+[youtube_channel]
+other = "YouTube Channel"
+
+[about_legend]
+other = "About the Legend"
+
+[explore]
+other = "Explore"
+
+[video_library]
+other = "Video Library"
+
+[video_library_desc]
+other = "Watch carrom tutorials categorised by skill level — from Beginner to Champion."
+
+[carrom_books]
+other = "Carrom Books"
+
+[carrom_books_desc]
+other = "Download exclusive PDF books for students and coaches by Arun Deshpande."
+
+[photo_gallery]
+other = "Photo Gallery"
+
+[photo_gallery_desc]
+other = "Relive the journey — championships, coaching camps and iconic moments."
+
+[chapter]
+other = "Chapter"
+
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+[email]
+other = "Email"
+
+[phone]
+other = "Phone / WhatsApp"
+
+[location]
+other = "Location"
+
+[coaching_enquiries]
+other = "Coaching Enquiries"
+
+[coaching_enquiry_subject]
+other = "Coaching enquiry"
+
+[send_email]
+other = "Send Email"
+
+[pages]
+other = "pages"
+
+[read_online]
+other = "Read online"

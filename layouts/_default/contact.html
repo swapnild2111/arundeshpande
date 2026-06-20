@@ -1,0 +1,57 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Description }}</p>
+</header>
+
+<div class="contact-grid">
+  <div class="contact-card">
+    {{ with .Params.email }}
+    <div class="contact-row">
+      <span class="icon">{{ partial "icons/mail.html" $ }}</span>
+      <div>
+        <div class="label">{{ i18n "email" | default "Email" }}</div>
+        <div class="value"><a href="mailto:{{ . }}">{{ . }}</a></div>
+      </div>
+    </div>
+    {{ end }}
+    {{ with .Params.phone }}
+    <div class="contact-row">
+      <span class="icon">{{ partial "icons/phone.html" $ }}</span>
+      <div>
+        <div class="label">{{ i18n "phone" | default "Phone / WhatsApp" }}</div>
+        <div class="value">{{ . }}</div>
+      </div>
+    </div>
+    {{ end }}
+    {{ with .Params.location }}
+    <div class="contact-row">
+      <span class="icon">{{ partial "icons/pin.html" $ }}</span>
+      <div>
+        <div class="label">{{ i18n "location" | default "Location" }}</div>
+        <div class="value">{{ . }}</div>
+      </div>
+    </div>
+    {{ end }}
+    {{ with .Params.youtube }}
+    <div class="contact-row">
+      <span class="icon">{{ partial "icons/youtube.html" $ }}</span>
+      <div>
+        <div class="label">{{ i18n "youtube_channel" | default "YouTube Channel" }}</div>
+        <div class="value"><a href="https://www.youtube.com/{{ . }}" target="_blank" rel="noopener">{{ . }}</a></div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="contact-card">
+    <h3>{{ i18n "coaching_enquiries" | default "Coaching Enquiries" }}</h3>
+    <p style="color: var(--text-muted); font-size: 14px; margin: 0 0 16px;">{{ .Content | plainify }}</p>
+    {{ with .Params.email }}
+      <a class="btn btn-primary" href="mailto:{{ . }}?subject={{ i18n "coaching_enquiry_subject" | default "Coaching enquiry" | urlquery }}">
+        {{ partial "icons/send.html" $ }}{{ i18n "send_email" | default "Send Email" }}
+      </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

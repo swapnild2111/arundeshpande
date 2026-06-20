@@ -1,27 +1,48 @@
 author = "Arun Deshpande"
-ShowReadingTime = false
-ShowShareButtons = false
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowToc = true
-TocOpen = false
-assets.disableHLJS = false
+brandName = "Arun Deshpande"
+brandTagline = "Carrom Academy"
+heroPhoto = "/images/arun-profile.jpg"
 
-[profileMode]
-  enabled = true
-  title = "Arun Deshpande"
-  subtitle = "International Carrom Coach & Author"
-  imageUrl = "/images/arun-profile.jpg"
-  imageTitle = "Arun Deshpande"
+# Tagged on the hero section as a "ribbon" pill (small text above the name)
+heroBadge = "Former Coach – India National Carrom Team"
 
-  [[profileMode.buttons]]
-    name = "Read the Book"
-    url = "/book/"
+# Stat cards on home page (top row of 4)
+[[stats]]
+  value = "7×"
+  label = "Maharashtra Champion"
 
-  [[profileMode.buttons]]
-    name = "Gallery"
-    url = "/gallery/"
+[[stats]]
+  value = "2×"
+  label = "World Championship Coach"
 
-  [[profileMode.buttons]]
-    name = "About"
-    url = "/about/"
+[[stats]]
+  value = "20+"
+  label = "Years of Coaching"
+
+[[stats]]
+  value = "10+"
+  label = "Countries Trained"
+
+# Achievement cards (lower row, with icons)
+[[achievements]]
+  icon = "trophy"
+  title = "7× Maharashtra Champion"
+  subtitle = "State Record (since 1957)"
+
+[[achievements]]
+  icon = "medal"
+  title = "National Champion"
+  subtitle = "(Singles 1969 · Veteran 1981)"
+
+[[achievements]]
+  icon = "globe"
+  title = "International Coach"
+  subtitle = "10+ Countries Coached"
+
+[[achievements]]
+  icon = "award"
+  title = "World Championship"
+  subtitle = "Led India to every Worlds"
+
+# Footer
+copyright = "© 2026 Arun Deshpande Academy"

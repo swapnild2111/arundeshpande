@@ -1,0 +1,87 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-photo">
+    {{ $photo := resources.Get (printf "%s" (.Site.Params.heroPhoto | default "/images/arun-profile.jpg")) }}
+    {{ if fileExists (printf "static%s" (.Site.Params.heroPhoto | default "/images/arun-profile.jpg")) }}
+      <img src="{{ .Site.Params.heroPhoto | relURL }}" alt="{{ .Site.Params.brandName }}" width="220" height="220">
+    {{ else }}
+      <div class="hero-photo-placeholder">
+        <span>Add photo at<br><code>static{{ .Site.Params.heroPhoto }}</code></span>
+      </div>
+    {{ end }}
+    {{ with .Site.Params.heroPhotoBadge }}
+      <span class="hero-photo-badge">{{ . }}</span>
+    {{ end }}
+  </div>
+
+  <div class="hero-body">
+    {{ with .Site.Params.heroBadge }}
+      <span class="hero-badge">{{ . }}</span>
+    {{ end }}
+    <h1>{{ i18n "hero_first_name" | default "Arun" }}<span class="accent">{{ i18n "hero_last_name" | default "Deshpande" }}</span></h1>
+    <p class="hero-lead">{{ .Content | plainify | default .Site.Params.description }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ "/videos/" | relLangURL }}">{{ partial "icons/play.html" . }}{{ i18n "watch_videos" | default "Watch Videos" }}</a>
+      {{ with .Site.Params.youtubeURL }}
+        <a class="btn btn-ghost" href="{{ . }}" target="_blank" rel="noopener">{{ partial "icons/youtube.html" $ }}{{ i18n "youtube_channel" | default "YouTube Channel" }}</a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ with .Site.Params.stats }}
+<div class="stat-grid">
+  {{ range . }}
+    <div class="stat">
+      <div class="stat-value">{{ .value }}</div>
+      <div class="stat-label">{{ .label }}</div>
+    </div>
+  {{ end }}
+</div>
+{{ end }}
+
+{{ with .Site.Params.achievements }}
+<div class="ach-grid">
+  {{ range . }}
+    <div class="ach">
+      <div class="ach-icon">{{ partial (printf "icons/%s.html" (.icon | default "award")) . }}</div>
+      <div class="ach-text">
+        <span class="ach-title">{{ .title }}</span>
+        <span class="ach-sub">{{ .subtitle }}</span>
+      </div>
+    </div>
+  {{ end }}
+</div>
+{{ end }}
+
+{{ with .Site.GetPage "/about" }}
+<section class="about-box">
+  <h3>{{ i18n "about_legend" | default "About the Legend" }}</h3>
+  <div class="about-cols">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}
+
+<h2 class="section-title">{{ i18n "explore" | default "Explore" }}</h2>
+<div class="explore-grid">
+  <a class="explore-card --purple" href="{{ "/videos/" | relLangURL }}">
+    <span class="ec-arrow">{{ partial "icons/arrow-right.html" . }}</span>
+    <div class="ec-icon">{{ partial "icons/play.html" . }}</div>
+    <h4>{{ i18n "video_library" | default "Video Library" }}</h4>
+    <p>{{ i18n "video_library_desc" | default "Watch carrom tutorials categorised by skill level — from Beginner to Champion." }}</p>
+  </a>
+  <a class="explore-card --amber" href="{{ "/books/" | relLangURL }}">
+    <span class="ec-arrow">{{ partial "icons/arrow-right.html" . }}</span>
+    <div class="ec-icon">{{ partial "icons/book.html" . }}</div>
+    <h4>{{ i18n "carrom_books" | default "Carrom Books" }}</h4>
+    <p>{{ i18n "carrom_books_desc" | default "Download exclusive PDF books for students and coaches by Arun Deshpande." }}</p>
+  </a>
+  <a class="explore-card --emerald" href="{{ "/gallery/" | relLangURL }}">
+    <span class="ec-arrow">{{ partial "icons/arrow-right.html" . }}</span>
+    <div class="ec-icon">{{ partial "icons/image.html" . }}</div>
+    <h4>{{ i18n "photo_gallery" | default "Photo Gallery" }}</h4>
+    <p>{{ i18n "photo_gallery_desc" | default "Relive the journey — championships, coaching camps and iconic moments." }}</p>
+  </a>
+</div>
+{{ end }}

@@ -1,19 +1,39 @@
 [[main]]
-  name = "Book"
-  url = "/book/"
+  identifier = "home"
+  name = "Home"
+  url = "/"
   weight = 10
+  [main.params]
+    icon = "home"
 
 [[main]]
-  name = "About"
-  url = "/about/"
+  identifier = "videos"
+  name = "Videos"
+  url = "/videos/"
   weight = 20
+  [main.params]
+    icon = "play"
 
 [[main]]
+  identifier = "books"
+  name = "Books"
+  url = "/books/"
+  weight = 30
+  [main.params]
+    icon = "book"
+
+[[main]]
+  identifier = "gallery"
   name = "Gallery"
   url = "/gallery/"
-  weight = 30
+  weight = 40
+  [main.params]
+    icon = "image"
 
 [[main]]
+  identifier = "contact"
   name = "Contact"
   url = "/contact/"
-  weight = 40
+  weight = 50
+  [main.params]
+    icon = "mail"

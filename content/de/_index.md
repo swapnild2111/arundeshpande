@@ -1,6 +1,6 @@
 ---
 title: "Arun Deshpande — Carrom-Trainer"
-description: "Carrom-Coaching, Technik und Buch von Arun Deshpande, Internationaler Carrom-Trainer und Autor."
+description: "Eine lebende Legende des indischen Carrom — 7-facher Maharashtra-Meister, Nationalmeister und der Trainer, der Indien zur Dominanz bei den ersten beiden Carrom-Weltmeisterschaften führte. Mit über zwei Jahrzehnten Trainingserfahrung in 10+ Ländern hebt Arun Deshpande den Sport weltweit auf ein neues Niveau."
 ---
 
-Willkommen. Diese Website ist die Heimat von **Arun Deshpande**, internationalem Carrom-Trainer und Autor. Über die Schaltflächen oben können Sie das Buch lesen, die Galerie ansehen oder mehr über Aruns Trainingsarbeit erfahren.
+Eine lebende Legende des indischen Carrom — **7-facher Maharashtra-Meister**, **Nationalmeister** und der Trainer, der Indien zur Dominanz bei den ersten beiden Carrom-Weltmeisterschaften führte. Mit über zwei Jahrzehnten Trainingserfahrung in 10+ Ländern hebt Arun Deshpande den Sport weltweit auf ein neues Niveau.

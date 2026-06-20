@@ -1,9 +1,0 @@
-{{ if .IsTranslated }}
-<div class="lang-switcher">
-  <span>🌐</span>
-  <a href="{{ .Permalink }}" class="active">{{ .Language.Label }}</a>
-  {{ range .Translations }}
-    <a href="{{ .Permalink }}">{{ .Language.Label }}</a>
-  {{ end }}
-</div>
-{{ end }}

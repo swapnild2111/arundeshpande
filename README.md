@@ -1,8 +1,8 @@
 # Arun Deshpande Carrom
 
-A multilingual static site for **Arun Deshpande** — international carrom coach and author. Hosts his bio, gallery, contact details, and the full carrom book in English, German, French, and Italian (added progressively).
+A multilingual static site for **Arun Deshpande** — international carrom coach and author. Hosts his bio, video library, books, photo gallery, contact details, and the full carrom book in English, German, French, and Italian (added progressively).
 
-Built with **Hugo (Extended)** + **PaperMod** theme, deployed to **GitHub Pages** via GitHub Actions on every push to `main`.
+Built with **Hugo (Extended)** and a custom theme (dark / purple, sidebar navigation), deployed to **GitHub Pages** via GitHub Actions on every push to `main`.
 
 ---
 
@@ -11,7 +11,7 @@ Built with **Hugo (Extended)** + **PaperMod** theme, deployed to **GitHub Pages*
 | Layer | Tool |
 |---|---|
 | Site generator | [Hugo Extended](https://gohugo.io/) |
-| Theme | [PaperMod](https://github.com/adityatelange/hugo-PaperMod) (git submodule) |
+| Theme | Custom — `layouts/` + `assets/css/main.css` |
 | Hosting | GitHub Pages |
 | CI/CD | GitHub Actions (`.github/workflows/deploy.yml`) |
 | Translation workflow | AI first draft → national federation human review |
@@ -39,16 +39,12 @@ Recommended VSCode extensions: *Hugo Language and Syntax*, *Markdown All in One*
 ## Getting started
 
 ```bash
-# Clone with the theme submodule
-git clone --recurse-submodules git@github.com:swapnild2111/arundeshpande.git
+git clone git@github.com:swapnild2111/arundeshpande.git
 cd arundeshpande
-
-# If you already cloned without --recurse-submodules:
-git submodule update --init --recursive
 
 # Run the dev server
 hugo server
-# → http://localhost:1313/
+# → http://localhost:1313/arundeshpande/
 ```
 
 Build for production locally:
@@ -65,28 +61,38 @@ hugo --minify
 ```
 arundeshpande/
 ├── config/_default/
-│   ├── hugo.toml           # site config + all 4 languages declared
-│   ├── params.toml         # theme params, profile photo, home buttons
-│   └── menus.{en,de,fr,it}.toml  # nav per language
+│   ├── hugo.toml                 # site config + 4 languages declared
+│   ├── params.toml               # author, hero, stats, achievements
+│   └── menus.{en,de,fr,it}.toml  # sidebar nav per language
 ├── content/
-│   ├── en/                 # English (source — always done first)
-│   │   ├── _index.md
-│   │   ├── about.md, gallery.md, contact.md
-│   │   └── book/{_index,chapter-01,chapter-02,...}.md
-│   ├── de/                 # German (mirrors EN structure exactly)
-│   ├── fr/                 # French (Phase 5)
-│   └── it/                 # Italian (Phase 5)
+│   ├── en/                       # English (source — always done first)
+│   │   ├── _index.md             # homepage hero copy
+│   │   ├── about.md              # bio, rendered inside homepage
+│   │   ├── contact.md            # email/phone/location, rendered inside contact card
+│   │   ├── videos/_index.md      # YouTube video list
+│   │   ├── books/_index.md       # PDF book list
+│   │   ├── gallery/_index.md     # photo list
+│   │   └── book/_index.md, chapter-01.md, chapter-02.md, ...
+│   ├── de/                       # German (mirrors EN structure exactly)
+│   ├── fr/                       # French (Phase 5)
+│   └── it/                       # Italian (Phase 5)
+├── i18n/{en,de,fr,it}.toml       # UI strings (button labels, etc.)
+├── layouts/
+│   ├── _default/{baseof,list,single,contact}.html
+│   ├── index.html                # homepage
+│   ├── videos/list.html
+│   ├── books/list.html
+│   ├── gallery/list.html
+│   ├── book/{list,single}.html   # book index + chapter pages
+│   └── partials/
+│       ├── sidebar.html, footer.html
+│       └── icons/{home,play,book,image,mail,trophy,medal,...}.html
+├── assets/css/main.css           # entire theme CSS
 ├── static/
 │   ├── images/{arun-profile.jpg, gallery/, chapters/}
-│   ├── downloads/{carrom-book-en.pdf, carrom-book-de.pdf}
-│   └── CNAME               # custom domain (added after purchase)
-├── layouts/partials/
-│   ├── language-switcher.html
-│   ├── chapter-nav.html
-│   ├── extend_head.html    # injects custom.css
-│   └── extend_footer.html  # renders language switcher
-├── assets/css/custom.css
-├── themes/PaperMod/        # git submodule — do not edit directly
+│   ├── downloads/*.pdf           # PDFs referenced by content/{lang}/books
+│   ├── js/app.js                 # mobile nav toggle + filter chips
+│   └── CNAME                     # custom domain (after purchase)
 └── .github/workflows/deploy.yml
 ```
 

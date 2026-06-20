@@ -1,6 +1,5 @@
 baseURL = "https://swapnild2111.github.io/arundeshpande/"
 title = "Arun Deshpande — Carrom Coach"
-theme = "PaperMod"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
@@ -47,4 +46,7 @@ enableGitInfo = false
   [markup.goldmark.renderer]
     unsafe = true
   [markup.highlight]
-    style = "github"
+    style = "github-dark"
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
