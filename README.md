@@ -231,7 +231,39 @@ git commit -m "Update PaperMod theme"
 
 # Create a new content file with default frontmatter
 hugo new content content/en/book/chapter-03.md
+
+# Sync Problems & Solutions pairs from YouTube (see below)
+python3 scripts/sync-problem-solutions.py
 ```
+
+---
+
+## Sync Problems & Solutions (YouTube)
+
+Arun uploads **Problem N** / **Solution N** videos to the [Carrom Guru YouTube channel](https://www.youtube.com/@Shrikant_Potharkar_carrom). The site reads pairs from `data/problem-solutions.yaml`. Missing partners show a **Coming Soon** placeholder.
+
+### Automatic (recommended)
+
+1. Create a [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) key (free quota is enough).
+2. Add it as a GitHub repository secret: **Settings → Secrets → Actions → `YOUTUBE_API_KEY`**
+3. The workflow [`.github/workflows/sync-problem-solutions.yml`](.github/workflows/sync-problem-solutions.yml) runs **every Sunday at 06:00 UTC** and can be triggered manually from the **Actions** tab.
+
+When new videos are found, the workflow commits an updated `data/problem-solutions.yaml` and the deploy workflow republishes the site.
+
+### Manual (local)
+
+```bash
+# With YouTube API key (full channel history)
+YOUTUBE_API_KEY=your_key python3 scripts/sync-problem-solutions.py
+
+# Without API key — uses base44 Video API fallback
+python3 scripts/sync-problem-solutions.py
+
+# Preview without writing
+python3 scripts/sync-problem-solutions.py --dry-run
+```
+
+Then commit and push `data/problem-solutions.yaml` if it changed.
 
 ---
 
