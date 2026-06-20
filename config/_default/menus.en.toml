@@ -21,6 +21,7 @@
   weight = 30
   [main.params]
     icon = "book"
+    comingSoon = true
 
 [[main]]
   identifier = "gallery"
@@ -29,6 +30,7 @@
   weight = 40
   [main.params]
     icon = "image"
+    comingSoon = true
 
 [[main]]
   identifier = "contact"

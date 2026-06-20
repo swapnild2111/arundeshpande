@@ -66,3 +66,12 @@ other = "sider"
 
 [read_online]
 other = "Læs online"
+
+[soon]
+other = "Snart"
+
+[coming_soon]
+other = "Kommer snart"
+
+[coming_soon_body]
+other = "Dette område er under forberedelse. I mellemtiden kan du se Videoer eller kontakte os via Kontakt-siden."

@@ -4,32 +4,10 @@
   <p>{{ .Description }}</p>
 </header>
 
-{{ with .Params.filters }}
-<div class="chips">
-  {{ range $i, $f := . }}
-    <button class="chip{{ if eq $i 0 }} is-active{{ end }}" data-filter="{{ if eq $i 0 }}all{{ else }}{{ $f | urlize }}{{ end }}">{{ $f }}</button>
-  {{ end }}
+<div class="coming-soon-panel">
+  <div class="icon-pill">{{ partial "icons/image.html" . }}</div>
+  <h2>{{ i18n "coming_soon" | default "Coming soon" }}</h2>
+  <p>{{ i18n "coming_soon_body" | default "This section is being prepared. In the meantime, head to the Videos page or get in touch via the Contact page." }}</p>
+  <a class="btn btn-primary" href="{{ "/videos/" | relLangURL }}">{{ partial "icons/play.html" . }}{{ i18n "watch_videos" | default "Watch Videos" }}</a>
 </div>
-{{ end }}
-
-<div class="gallery-grid">
-  {{ range .Params.photos }}
-    {{ $tags := .tags | default slice }}
-    <div class="gallery-item" data-tags="{{ delimit $tags " " | urlize }}">
-      {{ if .src }}
-        <img src="{{ .src | relURL }}" alt="{{ .alt | default "Gallery photo" }}" loading="lazy">
-      {{ else }}
-        <div class="placeholder">{{ partial "icons/image.html" $ }}</div>
-      {{ end }}
-    </div>
-  {{ end }}
-</div>
-
-{{ if not .Params.photos }}
-  <p style="color: var(--text-dim); margin-top: 16px;">
-    Add photos in <code>static/images/gallery/</code> and reference them under the <code>photos</code> frontmatter list in <code>content/{{ .Site.Language.Lang }}/gallery/_index.md</code>.
-  </p>
-{{ end }}
-
-{{ .Content }}
 {{ end }}

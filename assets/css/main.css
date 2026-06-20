@@ -186,6 +186,24 @@ h1, h2, h3, h4 {
   color: var(--accent);
   box-shadow: inset 0 0 0 1px rgba(168, 85, 247, 0.3);
 }
+.nav-link.is-disabled {
+  color: var(--text-dim);
+  opacity: 0.5;
+  cursor: not-allowed;
+  position: relative;
+}
+.nav-link.is-disabled:hover { background: transparent; color: var(--text-dim); }
+.nav-badge {
+  margin-left: auto;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-muted);
+}
 .nav-icon { width: 18px; height: 18px; display: inline-flex; }
 .nav-icon svg { width: 100%; height: 100%; }
 
@@ -467,6 +485,52 @@ h1, h2, h3, h4 {
   transition: transform .2s, color .2s;
 }
 .explore-card:hover .ec-arrow { transform: translateX(2px); color: var(--text); }
+.explore-card.is-disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  filter: grayscale(0.4);
+  pointer-events: none;
+  display: block;
+}
+.explore-card.is-disabled:hover { transform: none; border-color: var(--border); }
+.ec-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.10);
+  color: var(--text);
+  border: 1px solid var(--border-strong);
+}
+
+/* ---------- coming soon panel ---------- */
+.coming-soon-panel {
+  margin-top: 24px;
+  padding: 48px 32px;
+  border-radius: var(--radius);
+  background:
+    radial-gradient(ellipse 60% 80% at 50% 0%, rgba(168, 85, 247, 0.10), transparent 70%),
+    var(--bg-card);
+  border: 1px dashed var(--border-strong);
+  text-align: center;
+}
+.coming-soon-panel .icon-pill {
+  width: 56px; height: 56px;
+  border-radius: 16px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  display: inline-grid; place-items: center;
+  margin: 0 auto 16px;
+}
+.coming-soon-panel .icon-pill svg { width: 28px; height: 28px; }
+.coming-soon-panel h2 { font-size: 22px; margin: 0 0 8px; }
+.coming-soon-panel p { color: var(--text-muted); margin: 0 auto; max-width: 50ch; font-size: 14px; }
+.coming-soon-panel .btn { margin-top: 20px; }
 
 /* ---------- generic page header ---------- */
 .page-header {

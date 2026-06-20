@@ -71,17 +71,17 @@
     <h4>{{ i18n "video_library" | default "Video Library" }}</h4>
     <p>{{ i18n "video_library_desc" | default "Watch carrom tutorials categorised by skill level — from Beginner to Champion." }}</p>
   </a>
-  <a class="explore-card --amber" href="{{ "/books/" | relLangURL }}">
-    <span class="ec-arrow">{{ partial "icons/arrow-right.html" . }}</span>
+  <span class="explore-card --amber is-disabled" aria-disabled="true">
+    <span class="ec-badge">{{ i18n "soon" | default "Soon" }}</span>
     <div class="ec-icon">{{ partial "icons/book.html" . }}</div>
     <h4>{{ i18n "carrom_books" | default "Carrom Books" }}</h4>
     <p>{{ i18n "carrom_books_desc" | default "Download exclusive PDF books for students and coaches by Arun Deshpande." }}</p>
-  </a>
-  <a class="explore-card --emerald" href="{{ "/gallery/" | relLangURL }}">
-    <span class="ec-arrow">{{ partial "icons/arrow-right.html" . }}</span>
+  </span>
+  <span class="explore-card --emerald is-disabled" aria-disabled="true">
+    <span class="ec-badge">{{ i18n "soon" | default "Soon" }}</span>
     <div class="ec-icon">{{ partial "icons/image.html" . }}</div>
     <h4>{{ i18n "photo_gallery" | default "Photo Gallery" }}</h4>
     <p>{{ i18n "photo_gallery_desc" | default "Relive the journey — championships, coaching camps and iconic moments." }}</p>
-  </a>
+  </span>
 </div>
 {{ end }}

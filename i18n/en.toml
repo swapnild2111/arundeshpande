@@ -66,3 +66,12 @@ other = "pages"
 
 [read_online]
 other = "Read online"
+
+[soon]
+other = "Soon"
+
+[coming_soon]
+other = "Coming soon"
+
+[coming_soon_body]
+other = "This section is being prepared. In the meantime, head to the Videos page or get in touch via the Contact page."

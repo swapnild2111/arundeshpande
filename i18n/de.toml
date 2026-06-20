@@ -66,3 +66,12 @@ other = "Seiten"
 
 [read_online]
 other = "Online lesen"
+
+[soon]
+other = "Bald"
+
+[coming_soon]
+other = "In Vorbereitung"
+
+[coming_soon_body]
+other = "Dieser Bereich wird gerade vorbereitet. Bis dahin gerne auf der Videos-Seite stöbern oder über die Kontakt-Seite Kontakt aufnehmen."

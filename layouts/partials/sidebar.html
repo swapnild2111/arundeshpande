@@ -14,11 +14,20 @@
       {{ $current := . }}
       {{ range .Site.Menus.main }}
         {{ $isActive := or (eq $current.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $current.RelPermalink .URL)) }}
+        {{ $disabled := .Params.comingSoon }}
         <li>
-          <a href="{{ .URL | relLangURL }}" class="nav-link{{ if $isActive }} is-active{{ end }}">
-            <span class="nav-icon" aria-hidden="true">{{ partial (printf "icons/%s.html" (.Params.icon | default "circle")) . }}</span>
-            <span>{{ .Name }}</span>
-          </a>
+          {{ if $disabled }}
+            <span class="nav-link is-disabled" aria-disabled="true">
+              <span class="nav-icon" aria-hidden="true">{{ partial (printf "icons/%s.html" (.Params.icon | default "circle")) . }}</span>
+              <span>{{ .Name }}</span>
+              <span class="nav-badge">{{ i18n "soon" | default "Soon" }}</span>
+            </span>
+          {{ else }}
+            <a href="{{ .URL | relLangURL }}" class="nav-link{{ if $isActive }} is-active{{ end }}">
+              <span class="nav-icon" aria-hidden="true">{{ partial (printf "icons/%s.html" (.Params.icon | default "circle")) . }}</span>
+              <span>{{ .Name }}</span>
+            </a>
+          {{ end }}
         </li>
       {{ end }}
     </ul>

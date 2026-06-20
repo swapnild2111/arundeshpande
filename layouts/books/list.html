@@ -4,51 +4,10 @@
   <p>{{ .Description }}</p>
 </header>
 
-{{ with .Params.filters }}
-<div class="chips">
-  {{ range $i, $f := . }}
-    <button class="chip{{ if eq $i 0 }} is-active{{ end }}" data-filter="{{ if eq $i 0 }}all{{ else }}{{ $f | urlize }}{{ end }}">{{ $f }}</button>
-  {{ end }}
+<div class="coming-soon-panel">
+  <div class="icon-pill">{{ partial "icons/book.html" . }}</div>
+  <h2>{{ i18n "coming_soon" | default "Coming soon" }}</h2>
+  <p>{{ i18n "coming_soon_body" | default "This section is being prepared. In the meantime, head to the Videos page or get in touch via the Contact page." }}</p>
+  <a class="btn btn-primary" href="{{ "/videos/" | relLangURL }}">{{ partial "icons/play.html" . }}{{ i18n "watch_videos" | default "Watch Videos" }}</a>
 </div>
-{{ end }}
-
-<div class="book-grid">
-  {{ range .Params.books }}
-    {{ $href := .url | default (printf "/downloads/%s" .file) }}
-    {{ $tags := .tags | default (slice .tag) }}
-    <a class="book-card" href="{{ $href | relURL }}" target="_blank" rel="noopener" data-tags="{{ delimit $tags " " | urlize }}">
-      <div class="cover">
-        {{ if .cover }}
-          <img src="{{ .cover | relURL }}" alt="{{ .title }} cover" loading="lazy">
-        {{ else }}
-          <span class="placeholder">{{ partial "icons/book.html" $ }}</span>
-        {{ end }}
-      </div>
-      <div class="body">
-        <span class="title">{{ .title }}</span>
-        <span class="meta">
-          {{ if .author }}{{ .author }}{{ end }}
-          {{ if .pages }}<span>· {{ .pages }} {{ i18n "pages" | default "pages" }}</span>{{ end }}
-        </span>
-        {{ if .tag }}<span class="tag {{ if eq .tag "techniques" }}--amber{{ else if eq .tag "strategy" }}--emerald{{ end }}">{{ .tag }}</span>{{ end }}
-      </div>
-    </a>
-  {{ end }}
-</div>
-
-{{ .Content }}
-
-{{ $hasChapters := where (where .Site.RegularPages "Section" "book") "Type" "book" }}
-{{ if $hasChapters }}
-<h2 class="section-title">{{ i18n "read_online" | default "Read online" }}</h2>
-<div class="chapter-grid">
-  {{ range $hasChapters.ByWeight }}
-    <a class="chapter-card" href="{{ .RelPermalink }}">
-      <span class="number">{{ i18n "chapter" | default "Chapter" }} {{ .Params.weight }}</span>
-      <h3>{{ .Title }}</h3>
-      <p>{{ .Description }}</p>
-    </a>
-  {{ end }}
-</div>
-{{ end }}
 {{ end }}
