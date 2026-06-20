@@ -9,4 +9,6 @@ tagLabel: "Regeln"
 pdf: "downloads/carrom-official-rules.pdf"
 sourceUrl: "https://www.iakc.org/wp-content/uploads/2020/02/Carrom-Official-Rules.pdf"
 translatedBy: "Geprüft von der Deutschen Carrom-Vereinigung"
+aliases:
+  - /books/official-carrom-rules/
 ---

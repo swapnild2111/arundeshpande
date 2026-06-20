@@ -118,11 +118,11 @@ other = "Problem"
 [solution_label]
 other = "Løsning"
 
-[ps_jump_to]
-other = "Gå til"
+[ps_section_label]
+other = "Problemer og løsninger"
 
 [ps_index_label]
-other = "Problemliste"
+other = "Problegrupper"
 
 [soon]
 other = "Snart"

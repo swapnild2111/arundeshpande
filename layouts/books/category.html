@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ $books := site.GetPage "section" "books" }}
+{{ $bookPages := partial "book-pages.html" . }}
+{{ $category := .Params.category | default "all" }}
+<nav class="book-back">
+  <a href="{{ $books.RelPermalink }}">← {{ $books.Title }}</a>
+</nav>
+
+<header class="page-header">
+  <h1><span class="icon-pill">{{ partial "icons/book.html" . }}</span>{{ .Title }}</h1>
+  {{ with .Description }}<p>{{ . }}</p>{{ end }}
+</header>
+
+{{ partial "book-chips.html" (dict "current" $category "books" $books) }}
+
+{{ partial "book-grid.html" (dict "pages" $bookPages "filter" $category) }}
+
+<span hidden data-books-root="{{ "books/" | relURL }}"></span>
+
+{{ $count := len (where $bookPages "Params.category" $category) }}
+{{ if and (ne $category "all") (eq $count 0) }}
+  <p class="empty-note">{{ i18n "no_books_yet" | default "No books available yet." }}</p>
+{{ end }}
+
+{{ .Content }}
+{{ end }}

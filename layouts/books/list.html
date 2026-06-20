@@ -1,59 +1,18 @@
 {{ define "main" }}
+{{ $books := site.GetPage "section" "books" }}
+{{ $bookPages := partial "book-pages.html" . }}
 <header class="page-header">
   <h1><span class="icon-pill">{{ partial "icons/book.html" . }}</span>{{ .Title }}</h1>
   <p>{{ .Description }}</p>
 </header>
 
-{{ with .Params.filters }}
-<div class="chips" data-filter-target="book-grid">
-  {{ range $i, $f := . }}
-    {{ $id := $f.id | default "all" }}
-    {{ $label := $f.label | default $f }}
-    {{ $enabled := false }}
-    {{ if eq $id "all" }}
-      {{ $enabled = gt (len $.Pages) 0 }}
-    {{ else }}
-      {{ $enabled = gt (len (where $.Pages "Params.category" $id)) 0 }}
-    {{ end }}
-    {{ if $enabled }}
-      <button type="button" class="chip{{ if eq $i 0 }} is-active{{ end }}" data-filter="{{ $id }}">{{ $label }}</button>
-    {{ else }}
-      <span class="chip is-disabled" aria-disabled="true">{{ $label }}<span class="chip-badge">{{ i18n "soon" }}</span></span>
-    {{ end }}
-  {{ end }}
-</div>
-{{ end }}
+{{ partial "book-chips.html" (dict "current" "all" "books" $books) }}
 
-<div class="book-grid" id="book-grid">
-  {{ range .Pages.ByWeight }}
-    {{ $pdf := .Params.pdf | relURL }}
-    {{ $tagClass := "tag" }}
-    {{ if eq .Params.category "rules" }}{{ $tagClass = "tag --amber" }}{{ end }}
-    <article class="book-card" id="book-{{ .File.ContentBaseName }}" data-tags="{{ .Params.category }}">
-      <a class="book-card-link" href="{{ .RelPermalink }}">
-        <div class="cover">
-          <div class="cover-icon">{{ partial "icons/book.html" . }}</div>
-        </div>
-        <div class="body">
-          <h2 class="title">{{ .Title }}</h2>
-          <div class="meta">
-            {{ with .Params.author }}<span>{{ . }}</span>{{ end }}
-            {{ with .Params.pageCount }}<span>{{ . }} {{ i18n "page_count" | default "pages" }}</span>{{ end }}
-            {{ with .Params.tagLabel }}<span class="{{ $tagClass }}">{{ . }}</span>{{ end }}
-          </div>
-          {{ with .Description }}<p class="desc">{{ . }}</p>{{ end }}
-        </div>
-      </a>
-      {{ if .Params.pdf }}
-      <div class="book-card-footer">
-        <a class="btn btn-download btn-sm" href="{{ $pdf }}" download>{{ partial "icons/download.html" . }}{{ i18n "download_pdf" }}</a>
-      </div>
-      {{ end }}
-    </article>
-  {{ end }}
-</div>
+{{ partial "book-grid.html" (dict "pages" $bookPages "filter" "all") }}
 
-{{ if not .Pages }}
+<span hidden data-books-root="{{ "books/" | relURL }}"></span>
+
+{{ if not $bookPages }}
   <p class="empty-note">{{ i18n "no_books_yet" | default "No books available yet." }}</p>
 {{ end }}
 

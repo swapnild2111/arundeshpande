@@ -1,0 +1,30 @@
+{{/* Video grid — pass dict: videos (list), filter (category id or "all"), empty (optional note) */}}
+{{ $filter := .filter | default "all" }}
+{{ $videosPage := site.GetPage "section" "videos" }}
+<div class="video-grid" id="video-grid">
+  {{ range .videos }}
+    {{ $tags := .tags | default slice }}
+    {{ $tag := index $tags 0 | default "misc" }}
+    {{ $catID := $tag }}
+    {{ range $videosPage.Params.filters }}
+      {{ if or (eq $tag .id) (eq $tag (.label | urlize)) }}
+        {{ $catID = .id }}
+      {{ end }}
+    {{ end }}
+    {{ if and (ne $filter "all") (ne $catID $filter) }}
+      {{ continue }}
+    {{ end }}
+    {{ $slug := partial "video-slug.html" (dict "title" .title "tag" $tag "slug" .slug) }}
+    {{ $catURL := printf "videos/%s/" $catID | relURL }}
+    <a class="video-card" id="v-{{ $slug }}" href="{{ $catURL }}#{{ $slug }}" data-anchor="{{ $slug }}" data-youtube="https://www.youtube.com/watch?v={{ .id }}" data-video-id="{{ .id }}" data-tags="{{ delimit $tags " " | urlize }}" data-category="{{ $catID }}" rel="noopener">
+      <div class="video-thumb">
+        <img src="https://i.ytimg.com/vi/{{ .id }}/hqdefault.jpg" alt="{{ .title }}" loading="lazy">
+        <span class="play-btn" title="Play on YouTube">{{ partial "icons/play.html" $ }}</span>
+      </div>
+      <div class="video-title">{{ .title }}</div>
+    </a>
+  {{ end }}
+</div>
+{{ with .empty }}
+  <p class="empty-note">{{ . }}</p>
+{{ end }}

@@ -1,0 +1,28 @@
+{{/* Book category chips — pass dict: current (filter id), books (section page) */}}
+{{ $books := .books | default (site.GetPage "section" "books") }}
+{{ $bookPages := where $books.RegularPages "Layout" "!=" "category" }}
+{{ $current := .current | default "all" }}
+{{ with $books.Params.filters }}
+<div class="chips">
+  {{ range $f := . }}
+    {{ $id := $f.id | default "all" }}
+    {{ $label := $f.label | default $f }}
+    {{ $hasBooks := false }}
+    {{ if eq $id "all" }}
+      {{ $hasBooks = gt (len $bookPages) 0 }}
+    {{ else }}
+      {{ $hasBooks = gt (len (where $bookPages "Params.category" $id)) 0 }}
+    {{ end }}
+    {{ $enabled := or $hasBooks (eq $id $current) }}
+    {{ if eq $id $current }}
+      <span class="chip is-active" aria-current="page">{{ $label }}</span>
+    {{ else if not $enabled }}
+      <span class="chip is-disabled" aria-disabled="true">{{ $label }}<span class="chip-badge">{{ i18n "soon" }}</span></span>
+    {{ else if eq $id "all" }}
+      <a class="chip" href="{{ $books.RelPermalink }}">{{ $label }}</a>
+    {{ else }}
+      <a class="chip" href="{{ printf "books/%s/" $id | relURL }}">{{ $label }}</a>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

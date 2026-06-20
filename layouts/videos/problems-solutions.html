@@ -1,21 +1,23 @@
 {{ define "main" }}
 {{ $videos := site.GetPage "section" "videos" }}
+<nav class="book-back">
+  <a href="{{ $videos.RelPermalink }}">← {{ $videos.Title }}</a>
+</nav>
+
 <header class="page-header">
   <h1><span class="icon-pill">{{ partial "icons/play.html" . }}</span>{{ .Title }}</h1>
   {{ with .Description }}<p>{{ . }}</p>{{ end }}
 </header>
 
-{{ partial "video-chips.html" (dict "current" "all" "videos" $videos) }}
+{{ partial "video-chips.html" (dict "current" "problems-solutions" "videos" $videos) }}
 
-{{ partial "video-grid.html" (dict "videos" $videos.Params.videos "filter" "all") }}
+{{ partial "ps-browser.html" (dict "standalone" true) }}
 
 <span hidden data-videos-root="{{ "videos/" | relURL }}" data-ps-base="{{ "videos/problems-solutions/" | relURL }}"></span>
 
-{{ if not $videos.Params.videos }}
-  <p class="empty-note">
-    Add YouTube video IDs in <code>content/{{ .Site.Language.Lang }}/videos/_index.md</code> under the <code>videos</code> frontmatter list.
-  </p>
+{{ .Content }}
 {{ end }}
 
-{{ .Content }}
+{{ define "scripts" }}
+<script src="{{ "js/problem-solutions.js" | relURL }}" defer></script>
 {{ end }}

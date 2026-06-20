@@ -25,6 +25,8 @@
   {{ range .AllTranslations }}
     <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
   {{ end }}
+
+  <script src="{{ "js/url-routes.js" | relURL }}"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -36,6 +38,7 @@
       {{ partial "footer.html" . }}
     </main>
   </div>
+  {{ block "scripts" . }}{{ end }}
   <script src="{{ "js/app.js" | relURL }}" defer></script>
   <script src="{{ "js/deep-links.js" | relURL }}" defer></script>
 </body>

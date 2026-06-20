@@ -1,0 +1,36 @@
+{{/* Book grid — pass dict: pages (book pages), filter (category id or "all") */}}
+{{ $filter := .filter | default "all" }}
+{{ $pages := .pages }}
+<div class="book-grid" id="book-grid">
+  {{ range $pages.ByWeight }}
+    {{ $catID := .Params.category | default "other" }}
+    {{ if and (ne $filter "all") (ne $catID $filter) }}
+      {{ continue }}
+    {{ end }}
+    {{ $pdf := .Params.pdf | relURL }}
+    {{ $tagClass := "tag" }}
+    {{ if eq $catID "rules" }}{{ $tagClass = "tag --amber" }}{{ end }}
+    {{ $slug := .File.ContentBaseName }}
+    <article class="book-card" id="book-{{ $slug }}" data-anchor="{{ $slug }}" data-tags="{{ $catID }}" data-category="{{ $catID }}">
+      <a class="book-card-link" href="{{ .RelPermalink }}">
+        <div class="cover">
+          <div class="cover-icon">{{ partial "icons/book.html" . }}</div>
+        </div>
+        <div class="body">
+          <h2 class="title">{{ .Title }}</h2>
+          <div class="meta">
+            {{ with .Params.author }}<span>{{ . }}</span>{{ end }}
+            {{ with .Params.pageCount }}<span>{{ . }} {{ i18n "page_count" | default "pages" }}</span>{{ end }}
+            {{ with .Params.tagLabel }}<span class="{{ $tagClass }}">{{ . }}</span>{{ end }}
+          </div>
+          {{ with .Description }}<p class="desc">{{ . }}</p>{{ end }}
+        </div>
+      </a>
+      {{ if .Params.pdf }}
+      <div class="book-card-footer">
+        <a class="btn btn-download btn-sm" href="{{ $pdf }}" download>{{ partial "icons/download.html" . }}{{ i18n "download_pdf" }}</a>
+      </div>
+      {{ end }}
+    </article>
+  {{ end }}
+</div>

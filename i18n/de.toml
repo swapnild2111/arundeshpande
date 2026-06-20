@@ -118,11 +118,11 @@ other = "Problem"
 [solution_label]
 other = "Lösung"
 
-[ps_jump_to]
-other = "Springe zu"
+[ps_section_label]
+other = "Probleme & Lösungen"
 
 [ps_index_label]
-other = "Problemliste"
+other = "Problemgruppen"
 
 [soon]
 other = "Bald"

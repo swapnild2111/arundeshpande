@@ -1,7 +1,8 @@
 {{ define "main" }}
 {{ $pdf := .Params.pdf | relURL }}
 <nav class="book-back">
-  <a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a>
+  {{ $books := site.GetPage "section" "books" }}
+  <a href="{{ .Parent.RelPermalink }}">← {{ $books.Title }}</a>
 </nav>
 
 <header class="page-header book-view-header">

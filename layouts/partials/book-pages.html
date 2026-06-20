@@ -1,0 +1,8 @@
+{{/* All book content pages (excludes category branch pages). */}}
+{{ $books := site.GetPage "section" "books" }}
+{{ $bookPages := slice }}
+{{ range $books.Sections }}
+  {{ $bookPages = $bookPages | append .RegularPages }}
+{{ end }}
+{{ $bookPages = $bookPages | append $books.RegularPages }}
+{{ return $bookPages }}

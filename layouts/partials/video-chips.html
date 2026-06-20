@@ -1,0 +1,20 @@
+{{/* Video category chips — pass dict: current (filter id), videos (section page) */}}
+{{ $videos := .videos | default (site.GetPage "section" "videos") }}
+{{ $current := .current | default "all" }}
+{{ with $videos.Params.filters }}
+<div class="chips">
+  {{ range $f := . }}
+    {{ $id := $f.id }}
+    {{ $label := $f.label }}
+    {{ if eq $id $current }}
+      <span class="chip is-active" aria-current="page">{{ $label }}</span>
+    {{ else if eq $id "all" }}
+      <a class="chip" href="{{ $videos.RelPermalink }}">{{ $label }}</a>
+    {{ else if eq $id "problems-solutions" }}
+      <a class="chip" href="{{ "videos/problems-solutions/" | relURL }}#ps1-10">{{ $label }}</a>
+    {{ else }}
+      <a class="chip" href="{{ printf "videos/%s/" $id | relURL }}">{{ $label }}</a>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

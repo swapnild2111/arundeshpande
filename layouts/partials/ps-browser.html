@@ -1,0 +1,73 @@
+{{ $pairs := (index hugo.Data "problem-solutions").pairs }}
+{{ $pairTotal := len $pairs }}
+{{ $groupSize := 10 }}
+{{ $groupCount := div (add $pairTotal (sub $groupSize 1)) $groupSize }}
+{{ $standalone := .standalone | default false }}
+<div
+  class="ps-browser pair-grid{{ if $standalone }} is-visible{{ end }}"
+  id="pair-grid"
+  data-ps-base="{{ "videos/problems-solutions/" | relURL }}"
+  data-standalone="{{ $standalone }}"
+  data-group-size="{{ $groupSize }}"
+  data-group-count="{{ $groupCount }}"
+  {{ if not $standalone }}data-show-for="problems-solutions" hidden{{ end }}
+>
+  <div class="ps-rail-wrap" aria-label="{{ i18n "ps_index_label" | default "Problem groups" }}">
+    <div class="ps-rail" role="tablist">
+      {{ range $g := seq 1 $groupCount }}
+        {{ $start := add (mul (sub $g 1) $groupSize) 1 }}
+        {{ $end := $pairTotal }}
+        {{ if lt (mul $g $groupSize) $pairTotal }}
+          {{ $end = mul $g $groupSize }}
+        {{ end }}
+        <button
+          type="button"
+          role="tab"
+          class="ps-rail-item{{ if eq $g 1 }} is-active{{ end }}"
+          data-ps-rail="{{ $g }}"
+          data-ps-start="{{ $start }}"
+          data-ps-end="{{ $end }}"
+          aria-selected="{{ if eq $g 1 }}true{{ else }}false{{ end }}"
+        >{{ $start }}–{{ $end }}</button>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="ps-stage">
+    {{ range $g := seq 1 $groupCount }}
+      {{ $start := add (mul (sub $g 1) $groupSize) 1 }}
+      {{ $end := $pairTotal }}
+      {{ if lt (mul $g $groupSize) $pairTotal }}
+        {{ $end = mul $g $groupSize }}
+      {{ end }}
+      <section
+        class="ps-group{{ if eq $g 1 }} is-active{{ end }}"
+        data-ps-group-panel="{{ $g }}"
+        data-ps-start="{{ $start }}"
+        data-ps-end="{{ $end }}"
+        {{ if ne $g 1 }}hidden{{ end }}
+      >
+        {{ range $pairs }}
+          {{ if and (ge .num $start) (le .num $end) }}
+            {{ $partial := or (not .problem) (not .solution) }}
+            <div class="ps-pair{{ if $partial }} is-partial{{ end }}" id="ps-{{ .num }}" data-ps-panel="{{ .num }}" aria-label="{{ i18n "problem_label" | default "Problem" }} {{ .num }} & {{ i18n "solution_label" | default "Solution" }} {{ .num }}">
+              <div class="ps-pair-meta">
+                <span class="ps-pair-tag ps-pair-tag--problem">{{ i18n "problem_label" | default "Problem" }}</span>
+                <span class="ps-pair-num">{{ .num }}</span>
+                <span class="ps-pair-tag ps-pair-tag--solution">{{ i18n "solution_label" | default "Solution" }}</span>
+              </div>
+              <div class="ps-pair-body">
+                <div class="ps-pair-slot ps-pair-slot--problem">
+                  {{ partial "video-slot.html" (dict "id" .problem "title" (printf "%s %d" (i18n "problem_label" | default "Problem") .num) "slug" (printf "problem-%d" .num) "kind" "problem" "hideTitle" true) }}
+                </div>
+                <div class="ps-pair-slot ps-pair-slot--solution">
+                  {{ partial "video-slot.html" (dict "id" .solution "title" (printf "%s %d" (i18n "solution_label" | default "Solution") .num) "slug" (printf "solution-%d" .num) "kind" "solution" "hideTitle" true) }}
+                </div>
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+      </section>
+    {{ end }}
+  </div>
+</div>

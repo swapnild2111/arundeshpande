@@ -15,12 +15,42 @@
     });
   }
 
-  // Filter chips: toggle grids and filter items by data-tags
+  function psBasePath() {
+    var el = document.querySelector('[data-ps-base]');
+    return el ? el.getAttribute('data-ps-base') : null;
+  }
+
+  function categoryFromHash() {
+    var hash = location.hash.slice(1);
+    if (!hash || !window.SiteUrls) return null;
+    var target = window.SiteUrls.parse(hash);
+    if (!target) return null;
+    if (target.type === 'video-category') return target.id;
+    if (target.type === 'book-category') return target.id;
+    if (target.type === 'ps-group' || target.type === 'ps-item' || target.type === 'ps-home') {
+      return null;
+    }
+    if (document.querySelector('.chip[data-filter="' + hash + '"]')) return hash;
+    return null;
+  }
+
+  function setCategoryHash(filter) {
+    var base = location.pathname + location.search;
+    if (filter === 'all') {
+      if (location.hash) history.replaceState(null, '', base);
+      return;
+    }
+    history.replaceState(null, '', base + '#' + filter);
+  }
+
   document.querySelectorAll('.chips').forEach(function (chips) {
+    // Link-only chip nav (videos/books categories) is server-filtered — skip client filter.
+    if (!chips.querySelector('.chip[data-filter]')) return;
+
     var el = chips.nextElementSibling;
     var grids = [];
     while (el) {
-      if (el.matches && el.matches('.video-grid, .book-grid, .gallery-grid, .chapter-grid, .pair-grid, .ps-browser')) {
+      if (el.matches && el.matches('.video-grid, .book-grid, .gallery-grid, .chapter-grid')) {
         grids.push(el);
       }
       el = el.nextElementSibling;
@@ -30,23 +60,12 @@
     function applyFilter(filter) {
       grids.forEach(function (grid) {
         var showForAttr = grid.getAttribute('data-show-for');
-        var isPairBrowser = grid.classList.contains('pair-grid') || grid.classList.contains('ps-browser');
-        var showGrid;
-        if (isPairBrowser) {
-          showGrid = showForAttr && showForAttr.split(/\s+/).indexOf(filter) !== -1;
-        } else if (showForAttr) {
-          showGrid = showForAttr.split(/\s+/).indexOf(filter) !== -1;
-        } else {
-          showGrid = true;
-        }
-        if (isPairBrowser) {
-          grid.classList.toggle('is-visible', showGrid);
-          grid.hidden = !showGrid;
-        } else {
-          grid.style.display = showGrid ? '' : 'none';
-          grid.hidden = !showGrid;
-        }
-        if (!showGrid || isPairBrowser) return;
+        var showGrid = showForAttr
+          ? showForAttr.split(/\s+/).indexOf(filter) !== -1
+          : true;
+        grid.style.display = showGrid ? '' : 'none';
+        grid.hidden = !showGrid;
+        if (!showGrid) return;
 
         var items = Array.prototype.slice.call(grid.children);
         items.forEach(function (it) {
@@ -57,15 +76,31 @@
       });
     }
 
-    chips.querySelectorAll('.chip').forEach(function (chip) {
+    function activateChip(filter, options) {
+      options = options || {};
+      var chip = chips.querySelector('.chip[data-filter="' + filter + '"]');
+      if (!chip) return;
+      chips.querySelectorAll('.chip').forEach(function (c) { c.classList.remove('is-active'); });
+      chip.classList.add('is-active');
+      applyFilter(filter);
+      if (options.updateHash !== false) setCategoryHash(filter);
+    }
+
+    window.__applyVideoFilter = applyFilter;
+    window.__activateVideoCategory = activateChip;
+
+    chips.querySelectorAll('.chip[data-filter]').forEach(function (chip) {
       chip.addEventListener('click', function () {
-        chips.querySelectorAll('.chip').forEach(function (c) { c.classList.remove('is-active'); });
-        chip.classList.add('is-active');
-        applyFilter(chip.getAttribute('data-filter'));
+        activateChip(chip.getAttribute('data-filter'));
       });
     });
 
-    var active = chips.querySelector('.chip.is-active');
-    applyFilter(active ? active.getAttribute('data-filter') : 'all');
+    var fromHash = categoryFromHash();
+    if (fromHash) {
+      activateChip(fromHash, { updateHash: false });
+    } else {
+      var active = chips.querySelector('.chip.is-active[data-filter]');
+      applyFilter(active ? active.getAttribute('data-filter') : 'all');
+    }
   });
 })();
