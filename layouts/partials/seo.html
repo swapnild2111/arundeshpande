@@ -1,0 +1,50 @@
+{{- $desc := "" -}}
+{{- with .Description -}}
+  {{- $desc = . | plainify -}}
+{{- else with .Summary -}}
+  {{- $desc = . | plainify -}}
+{{- else -}}
+  {{- $desc = .Site.Params.description | plainify -}}
+{{- end -}}
+{{- $desc = $desc | truncate 160 -}}
+
+{{- $pageTitle := cond .IsHome .Site.Title (printf "%s — %s" .Title .Site.Title) -}}
+{{- $ogTitle := cond .IsHome .Site.Title .Title -}}
+
+{{- $imagePath := .Site.Params.heroPhoto | default "/images/arun-profile.jpg" | strings.TrimPrefix "/" -}}
+{{- $imageURL := $imagePath | absURL -}}
+{{- $imageAlt := printf "%s — %s" .Site.Params.brandName (.Site.Params.brandTagline | default "Carrom Academy") -}}
+
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="description" content="{{ $desc }}">
+<meta name="author" content="{{ .Site.Params.author }}">
+
+<meta property="og:type" content="{{ cond .IsHome "website" "article" }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:locale" content="{{ replace (.Site.Language.Locale | default .Site.Language.Lang) "-" "_" }}">
+<meta property="og:title" content="{{ $ogTitle }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $imageURL }}">
+<meta property="og:image:alt" content="{{ $imageAlt }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $ogTitle }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $imageURL }}">
+<meta name="twitter:image:alt" content="{{ $imageAlt }}">
+
+<title>{{ $pageTitle }}</title>
+
+{{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{ end }}
+{{- $xDefault := .Permalink -}}
+{{- if ne .Language.Lang "en" -}}
+  {{- range .AllTranslations -}}
+    {{- if eq .Language.Lang "en" -}}
+      {{- $xDefault = .Permalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<link rel="alternate" hreflang="x-default" href="{{ $xDefault }}">

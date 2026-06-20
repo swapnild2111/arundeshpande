@@ -4,6 +4,11 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 enableGitInfo = false
+disableKinds = ["taxonomy", "term"]
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
 
 [languages]
 

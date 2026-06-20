@@ -4,7 +4,7 @@
     {{ $photoPath := .Site.Params.heroPhoto | default "/images/arun-profile.jpg" }}
     {{ $relPath := strings.TrimPrefix "/" $photoPath }}
     {{ if fileExists (printf "static/%s" $relPath) }}
-      <img src="{{ $relPath | relURL }}" alt="{{ .Site.Params.brandName }}" width="220" height="220">
+      <img src="{{ $relPath | relURL }}" alt="{{ i18n "home_title" | default "Carrom Coach Arun Deshpande" }}" width="220" height="220">
     {{ else }}
       <div class="hero-photo-placeholder">
         <span>Add photo at<br><code>static{{ $photoPath }}</code></span>

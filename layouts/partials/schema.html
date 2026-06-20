@@ -1,0 +1,59 @@
+{{- $siteURL := strings.TrimSuffix "/" .Site.BaseURL -}}
+{{- $desc := .Description | default .Site.Params.description | plainify | truncate 160 -}}
+{{- $imageURL := (.Site.Params.heroPhoto | default "/images/arun-profile.jpg" | strings.TrimPrefix "/" | absURL) -}}
+
+{{- $graph := slice -}}
+
+{{- $person := dict
+  "@type" "Person"
+  "@id" (printf "%s/#person" $siteURL)
+  "name" .Site.Params.author
+  "jobTitle" "Carrom Coach"
+  "description" (.Site.Params.description | plainify)
+  "image" $imageURL
+  "url" $siteURL
+-}}
+{{- $graph = $graph | append $person -}}
+
+{{- $website := dict
+  "@type" "WebSite"
+  "@id" (printf "%s/#website" $siteURL)
+  "name" .Site.Title
+  "url" $siteURL
+  "description" (.Site.Params.description | plainify)
+  "publisher" (dict "@id" (printf "%s/#person" $siteURL))
+-}}
+{{- $graph = $graph | append $website -}}
+
+{{- $webpage := dict
+  "@type" "WebPage"
+  "@id" (printf "%s#webpage" .Permalink)
+  "url" .Permalink
+  "name" (cond .IsHome .Site.Title .Title)
+  "description" $desc
+  "isPartOf" (dict "@id" (printf "%s/#website" $siteURL))
+  "inLanguage" (.Site.Language.Lang)
+-}}
+{{- if .IsHome -}}
+  {{- $webpage = merge $webpage (dict "about" (dict "@id" (printf "%s/#person" $siteURL))) -}}
+{{- end -}}
+{{- $graph = $graph | append $webpage -}}
+
+{{- if and (eq .Section "books") (eq .Kind "page") -}}
+  {{- $book := dict
+    "@type" "Book"
+    "name" .Title
+    "description" $desc
+    "author" (dict "@type" "Organization" "name" (.Params.author | default .Site.Params.author))
+    "url" .Permalink
+    "inLanguage" (.Site.Language.Lang)
+  -}}
+  {{- with .Params.pageCount -}}
+    {{- $book = merge $book (dict "numberOfPages" .) -}}
+  {{- end -}}
+  {{- $graph = $graph | append $book -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{{- dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS -}}
+</script>

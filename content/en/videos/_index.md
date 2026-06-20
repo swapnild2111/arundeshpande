@@ -1,5 +1,6 @@
 ---
 title: "Video Library"
+description: "Watch carrom coaching videos by Arun Deshpande — beginner to champion technique, plus 95 problems and solutions."
 filters:
   - label: "All"
     id: all
