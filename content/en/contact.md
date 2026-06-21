@@ -1,6 +1,8 @@
 ---
 title: "Contact"
 description: "Reach out for coaching enquiries, workshops, or any questions."
+aliases:
+  - /contact/
 date: 2026-01-01
 type: "contact"
 layout: "contact"

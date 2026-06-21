@@ -1,7 +1,7 @@
 baseURL = "https://swapnild2111.github.io/arundeshpande/"
 title = "Carrom Coach Arun Deshpande"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 enableGitInfo = false
 disableKinds = ["taxonomy", "term"]

@@ -1,35 +1,60 @@
-{{/* Book grid — pass dict: pages (book pages), filter (category id or "all") */}}
+{{/* Book grid — pass dict: catalog (from book-catalog.html), filter (category id or "all") */}}
 {{ $filter := .filter | default "all" }}
-{{ $pages := .pages }}
+{{ $catalog := .catalog | default slice }}
 <div class="book-grid" id="book-grid">
-  {{ range $pages.ByWeight }}
-    {{ $catID := .Params.category | default "other" }}
+  {{ range sort $catalog "weight" }}
+    {{ $catID := .category | default "other" }}
     {{ if and (ne $filter "all") (ne $catID $filter) }}
       {{ continue }}
     {{ end }}
-    {{ $pdf := .Params.pdf | relURL }}
     {{ $tagClass := "tag" }}
     {{ if eq $catID "rules" }}{{ $tagClass = "tag --amber" }}{{ end }}
-    {{ $slug := .File.ContentBaseName }}
-    <article class="book-card" id="book-{{ $slug }}" data-anchor="{{ $slug }}" data-tags="{{ $catID }}" data-category="{{ $catID }}">
-      <a class="book-card-link" href="{{ .RelPermalink }}">
-        <div class="cover">
-          <div class="cover-icon">{{ partial "icons/book.html" . }}</div>
-        </div>
-        <div class="body">
-          <h2 class="title">{{ .Title }}</h2>
-          <div class="meta">
-            {{ with .Params.author }}<span>{{ . }}</span>{{ end }}
-            {{ with .Params.pageCount }}<span>{{ . }} {{ i18n "page_count" | default "pages" }}</span>{{ end }}
-            {{ with .Params.tagLabel }}<span class="{{ $tagClass }}">{{ . }}</span>{{ end }}
+    {{ $slug := .slug }}
+    {{ $available := .available | default false }}
+    <article
+      class="book-card{{ if not $available }} book-card--soon{{ end }}"
+      id="book-{{ $slug }}"
+      data-anchor="{{ $slug }}"
+      data-tags="{{ $catID }}"
+      data-category="{{ $catID }}"
+      {{ if not $available }}aria-disabled="true"{{ end }}
+    >
+      {{ if $available }}
+        <a class="book-card-link" href="{{ .url }}">
+          <div class="cover">
+            <div class="cover-icon">{{ partial "icons/book.html" $ }}</div>
           </div>
-          {{ with .Description }}<p class="desc">{{ . }}</p>{{ end }}
+          <div class="body">
+            <h2 class="title">{{ .title }}</h2>
+            <div class="meta">
+              {{ with .author }}<span>{{ . }}</span>{{ end }}
+              {{ with .pageCount }}<span>{{ . }} {{ i18n "page_count" | default "pages" }}</span>{{ end }}
+              {{ with .tagLabel }}<span class="{{ $tagClass }}">{{ . }}</span>{{ end }}
+            </div>
+            {{ with .description }}<p class="desc">{{ . }}</p>{{ end }}
+          </div>
+        </a>
+        {{ if .pdf }}
+        <div class="book-card-footer">
+          <a class="btn btn-download btn-sm" href="{{ .pdf | relURL }}" download>{{ partial "icons/download.html" $ }}{{ i18n "download_pdf" }}</a>
         </div>
-      </a>
-      {{ if .Params.pdf }}
-      <div class="book-card-footer">
-        <a class="btn btn-download btn-sm" href="{{ $pdf }}" download>{{ partial "icons/download.html" . }}{{ i18n "download_pdf" }}</a>
-      </div>
+        {{ end }}
+      {{ else }}
+        <div class="book-card-link">
+          <div class="cover">
+            <div class="book-soon">{{ i18n "coming_soon" | default "Coming soon" }}</div>
+          </div>
+          <div class="body">
+            <h2 class="title">{{ .title }}</h2>
+            <div class="meta">
+              {{ with .author }}<span>{{ . }}</span>{{ end }}
+              {{ with .pageCount }}<span>{{ . }} {{ i18n "page_count" | default "pages" }}</span>{{ end }}
+              {{ with .tagLabel }}<span class="{{ $tagClass }}">{{ . }}</span>{{ end }}
+              <span class="tag">{{ i18n "coming_soon" | default "Coming soon" }}</span>
+            </div>
+            {{ with .description }}<p class="desc">{{ . }}</p>{{ end }}
+          </div>
+        </div>
       {{ end }}
     </article>
   {{ end }}

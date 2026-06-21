@@ -1,18 +1,18 @@
 {{ define "main" }}
 {{ $books := site.GetPage "section" "books" }}
-{{ $bookPages := partial "book-pages.html" . }}
+{{ $catalog := partial "book-catalog.html" . }}
 <header class="page-header">
   <h1><span class="icon-pill">{{ partial "icons/book.html" . }}</span>{{ .Title }}</h1>
   <p>{{ .Description }}</p>
 </header>
 
-{{ partial "book-chips.html" (dict "current" "all" "books" $books) }}
+{{ partial "book-chips.html" (dict "current" "all" "books" $books "catalog" $catalog) }}
 
-{{ partial "book-grid.html" (dict "pages" $bookPages "filter" "all") }}
+{{ partial "book-grid.html" (dict "catalog" $catalog "filter" "all") }}
 
 <span hidden data-books-root="{{ "books/" | relURL }}"></span>
 
-{{ if not $bookPages }}
+{{ if not $catalog }}
   <p class="empty-note">{{ i18n "no_books_yet" | default "No books available yet." }}</p>
 {{ end }}
 

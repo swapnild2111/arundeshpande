@@ -1,6 +1,8 @@
 ---
 title: "About"
 description: "International Carrom Coach, author, and ambassador for the sport."
+aliases:
+  - /about/
 date: 2026-01-01
 sitemap_exclude: true
 ---

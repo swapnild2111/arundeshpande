@@ -11,9 +11,13 @@
     {{ else if eq $id "all" }}
       <a class="chip" href="{{ $videos.RelPermalink }}">{{ $label }}</a>
     {{ else if eq $id "problems-solutions" }}
-      <a class="chip" href="{{ "videos/problems-solutions/" | relURL }}#ps1-10">{{ $label }}</a>
+      {{ with site.GetPage "/videos/problems-solutions" }}
+        <a class="chip" href="{{ .RelPermalink }}#ps1-10">{{ $label }}</a>
+      {{ end }}
     {{ else }}
-      <a class="chip" href="{{ printf "videos/%s/" $id | relURL }}">{{ $label }}</a>
+      {{ with site.GetPage (printf "/videos/%s" $id) }}
+        <a class="chip" href="{{ .RelPermalink }}">{{ $label }}</a>
+      {{ end }}
     {{ end }}
   {{ end }}
 </div>

@@ -12,5 +12,4 @@ filters:
     id: rules
   - label: "Sonstige"
     id: other
-translatedBy: "Geprüft von der Deutschen Carrom-Vereinigung"
 ---

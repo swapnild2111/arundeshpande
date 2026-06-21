@@ -1,6 +1,6 @@
-{{/* Book category chips — pass dict: current (filter id), books (section page) */}}
+{{/* Book category chips — pass dict: current (filter id), books (section page), catalog (optional) */}}
 {{ $books := .books | default (site.GetPage "section" "books") }}
-{{ $bookPages := where $books.RegularPages "Layout" "!=" "category" }}
+{{ $catalog := .catalog | default (partial "book-catalog.html" $books) }}
 {{ $current := .current | default "all" }}
 {{ with $books.Params.filters }}
 <div class="chips">
@@ -9,9 +9,9 @@
     {{ $label := $f.label | default $f }}
     {{ $hasBooks := false }}
     {{ if eq $id "all" }}
-      {{ $hasBooks = gt (len $bookPages) 0 }}
+      {{ $hasBooks = gt (len $catalog) 0 }}
     {{ else }}
-      {{ $hasBooks = gt (len (where $bookPages "Params.category" $id)) 0 }}
+      {{ $hasBooks = gt (len (where $catalog "category" $id)) 0 }}
     {{ end }}
     {{ $enabled := or $hasBooks (eq $id $current) }}
     {{ if eq $id $current }}
@@ -21,7 +21,9 @@
     {{ else if eq $id "all" }}
       <a class="chip" href="{{ $books.RelPermalink }}">{{ $label }}</a>
     {{ else }}
-      <a class="chip" href="{{ printf "books/%s/" $id | relURL }}">{{ $label }}</a>
+      {{ with site.GetPage (printf "/books/%s" $id) }}
+        <a class="chip" href="{{ .RelPermalink }}">{{ $label }}</a>
+      {{ end }}
     {{ end }}
   {{ end }}
 </div>

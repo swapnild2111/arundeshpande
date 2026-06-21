@@ -1,0 +1,24 @@
+books:
+  - id: official-carrom-rules
+    category: rules
+    weight: 1
+    author: "International Association of Kilic Carrom (IAKC)"
+    pageCount: 13
+    pdf: "downloads/carrom-official-rules.pdf"
+    sourceUrl: "https://www.iakc.org/wp-content/uploads/2020/02/Carrom-Official-Rules.pdf"
+    titles:
+      en: "Official Carrom Rules & Regulations"
+      da: "Officielle carrom-regler"
+      de: "Offizielle Carrom-Regeln"
+    descriptions:
+      en: "The official international carrom rules published by the International Association of Kilic Carrom (IAKC)."
+      da: "De officielle internationale carrom-regler udgivet af International Association of Kilic Carrom (IAKC)."
+      de: "Die offiziellen internationalen Carrom-Regeln der International Association of Kilic Carrom (IAKC)."
+    tagLabels:
+      en: "Rules"
+      da: "Regler"
+      de: "Regeln"
+    languages:
+      en: true
+      da: false
+      de: false

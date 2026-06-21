@@ -1,0 +1,32 @@
+{{/* Master book catalog localized for the current site language. */}}
+{{ $lang := .Site.Language.Lang }}
+{{ $entries := hugo.Data.books.books | default slice }}
+{{ $items := slice }}
+{{ range $entries }}
+  {{ $available := index .languages $lang | default false }}
+  {{ $title := index .titles $lang | default (index .titles "en") }}
+  {{ $desc := index .descriptions $lang | default (index .descriptions "en") }}
+  {{ $tag := index .tagLabels $lang | default (index .tagLabels "en") }}
+  {{ $url := "" }}
+  {{ if $available }}
+    {{ with site.GetPage (printf "/books/%s/%s" .category .id) }}
+      {{ $url = .RelPermalink }}
+    {{ end }}
+  {{ end }}
+  {{ $items = $items | append (dict
+    "id" .id
+    "slug" .id
+    "title" $title
+    "description" $desc
+    "category" .category
+    "tagLabel" $tag
+    "author" .author
+    "pageCount" .pageCount
+    "pdf" .pdf
+    "sourceUrl" .sourceUrl
+    "weight" (.weight | default 0)
+    "available" $available
+    "url" $url
+  ) }}
+{{ end }}
+{{ return $items }}

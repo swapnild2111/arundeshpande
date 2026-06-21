@@ -1,6 +1,8 @@
 ---
 title: "Carrom Books"
 description: "Download and read carrom books — rules, techniques, and coaching guides."
+aliases:
+  - /books/
 filters:
   - label: "All Books"
     id: all

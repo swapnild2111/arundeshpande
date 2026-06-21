@@ -10,4 +10,5 @@ pdf: "downloads/carrom-official-rules.pdf"
 sourceUrl: "https://www.iakc.org/wp-content/uploads/2020/02/Carrom-Official-Rules.pdf"
 aliases:
   - /books/official-carrom-rules/
+  - /books/rules/official-carrom-rules/
 ---

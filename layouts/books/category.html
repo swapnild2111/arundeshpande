@@ -1,7 +1,11 @@
 {{ define "main" }}
 {{ $books := site.GetPage "section" "books" }}
-{{ $bookPages := partial "book-pages.html" . }}
+{{ $catalog := partial "book-catalog.html" . }}
 {{ $category := .Params.category | default "all" }}
+{{ $filtered := $catalog }}
+{{ if ne $category "all" }}
+  {{ $filtered = where $catalog "category" $category }}
+{{ end }}
 <nav class="book-back">
   <a href="{{ $books.RelPermalink }}">← {{ $books.Title }}</a>
 </nav>
@@ -11,14 +15,13 @@
   {{ with .Description }}<p>{{ . }}</p>{{ end }}
 </header>
 
-{{ partial "book-chips.html" (dict "current" $category "books" $books) }}
+{{ partial "book-chips.html" (dict "current" $category "books" $books "catalog" $catalog) }}
 
-{{ partial "book-grid.html" (dict "pages" $bookPages "filter" $category) }}
+{{ partial "book-grid.html" (dict "catalog" $catalog "filter" $category) }}
 
 <span hidden data-books-root="{{ "books/" | relURL }}"></span>
 
-{{ $count := len (where $bookPages "Params.category" $category) }}
-{{ if and (ne $category "all") (eq $count 0) }}
+{{ if and (ne $category "all") (eq (len $filtered) 0) }}
   <p class="empty-note">{{ i18n "no_books_yet" | default "No books available yet." }}</p>
 {{ end }}
 
