@@ -6,7 +6,7 @@ youtubeURL = "https://www.youtube.com/@Shrikant_Potharkar_carrom"
 
 # Analytics & Search Console (uncomment and fill in to enable)
 googleAnalyticsId = "G-17C0Y74790"
-# googleSiteVerification = "your-google-search-console-token"
+googleSiteVerification = "1ufKYs6cMk2ZvBoFX1uZUQ5yGcK9OUPkWnTqvWwnMJE"
 
 # Tagged on the hero section as a "ribbon" pill (small text above the name)
 heroBadge = "Former Coach – India National Carrom Team"
