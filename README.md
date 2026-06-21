@@ -70,9 +70,9 @@ arundeshpande/
 │   │   ├── about.md              # bio, rendered inside homepage
 │   │   ├── contact.md            # email/phone/location, rendered inside contact card
 │   │   ├── videos/_index.md      # YouTube video list
-│   │   ├── books/_index.md       # PDF book list
+│   │   ├── books/_index.md       # PDF library — many downloadable books (plural)
 │   │   ├── gallery/_index.md     # photo list
-│   │   └── book/_index.md, chapter-01.md, chapter-02.md, ...
+│   │   └── read/_index.md, chapter-01.md, ...  # The book — Arun's Carrom Techniques & Skills, as readable chapters (singular)
 │   ├── de/                       # German (mirrors EN structure exactly)
 │   ├── fr/                       # French (Phase 5)
 │   └── it/                       # Italian (Phase 5)
@@ -83,7 +83,7 @@ arundeshpande/
 │   ├── videos/list.html
 │   ├── books/list.html
 │   ├── gallery/list.html
-│   ├── book/{list,single}.html   # book index + chapter pages
+│   ├── read/{list,single}.html   # book chapter index + per-chapter pages
 │   └── partials/
 │       ├── sidebar.html, footer.html
 │       └── icons/{home,play,book,image,mail,trophy,medal,...}.html
@@ -102,7 +102,7 @@ arundeshpande/
 
 ### A new English chapter
 
-Create `content/en/book/chapter-NN.md` with this frontmatter:
+Create `content/en/read/chapter-NN.md` with this frontmatter:
 
 ```markdown
 ---
@@ -121,7 +121,7 @@ Chapter body in markdown.
 
 ### Translating an existing chapter to German
 
-1. Copy `content/en/book/chapter-NN.md` → `content/de/book/chapter-NN.md`.
+1. Copy `content/en/read/chapter-NN.md` → `content/de/read/chapter-NN.md`.
 2. Translate title, description, and body.
 3. Add the `translatedBy` field to frontmatter:
    ```yaml
@@ -147,20 +147,115 @@ The book index page already links to these.
 
 ## Carrom glossary (locked terminology)
 
-Lock this with each national federation **before** translating Chapter 1 in their language. Add rows as new terms appear during translation.
+This glossary is the source of truth for both the English book text and any translation. **English column** is cross-checked against the [IAKC Official Rules PDF](https://www.iakc.org/wp-content/uploads/2020/02/Carrom-Official-Rules.pdf). **German column** is cross-checked against the [Deutscher Carrom Verband (carrom.de)](https://www.carrom.de/das-ist-carrom) rules page. The DCV may override any cell during Phase 4 review — when they do, update this table, then re-grep all DE chapters.
 
-| English | German | French | Italian |
-|---|---|---|---|
-| Striker | Schläger | Frappeur | Battitore |
-| Queen | Königin | Reine | Regina |
-| Coin | Spielstein | Pion | Pedina |
-| Baseline | Grundlinie | Ligne de base | Linea di base |
-| Thumb shot | Daumentechnik | Coup du pouce | Colpo del pollice |
-| Board | Brett | Plateau | Tavola |
-| Pocket | Tasche | Poche | Buca |
-| Break | Eröffnung | Ouverture | Apertura |
-| Due | Aufschlagrecht | Droit de frappe | Diritto di battuta |
-| Covering | Abdecken | Couvrir | Coprire |
+### Equipment
+
+| English | German | Notes |
+|---|---|---|
+| Carrom | Carrom | proper noun |
+| Carrom Board (C/B) | Carrombrett (also Carromboard) | DCV uses both |
+| Carromman / Coin (C/m) | Spielstein | IAKC's formal term is "Carromman"; the book uses "coin" — we keep "coin" for readability |
+| Striker | Striker | DCV keeps in English (parenthesises "Schuss-Stein") |
+| Queen (red coin) | Queen (roter Stein) | DCV keeps in English |
+| Pocket | Eckloch (also Loch) | DCV's word for the corner hole |
+| Nets | Netze | |
+| Base Line | Grundlinie | |
+| Base Circle | Grundkreis | |
+| Centre Circle | Mittelkreis | |
+| Outer Circle | Außenkreis | |
+| Frame | Rahmen | |
+| Arrow (between base circles) | Pfeil | |
+| Imaginary Lines | gedachte Linien | |
+| Stand / Table | Ständer / Tisch | |
+| Stool / Chair | Hocker / Stuhl | |
+| Powder | Carrompulver (Gleitpulver) | |
+| Light / Lamp | Lampe | |
+| Cushion (the side, for rebounds) | Bande | DCV uses "über Bande spielen" |
+
+### Match structure
+
+| English | German | Notes |
+|---|---|---|
+| Match | Match (also Partie) | |
+| Game (race to 25 points) | Game | DCV keeps in English |
+| Board (one round) | Board | DCV keeps in English |
+| Singles | Einzel | |
+| Doubles | Doppel | |
+| Trial Board | Probespiel | |
+| Toss | Auslosen | |
+| Change of Sides | Seitenwechsel | |
+| Player | Spieler / Spielerin | |
+| Opponent | Gegner | |
+| Umpire | Schiedsrichter | |
+| Chief Referee | Hauptschiedsrichter | |
+
+### Actions and scoring
+
+| English | German | Notes |
+|---|---|---|
+| Stroke | Schuss | |
+| Proper stroke | regelgerechter Schuss | |
+| Improper stroke | Fehlschuss / regelwidriger Schuss | |
+| Push (jerk of elbow) | Stoß / Schieben | IAKC #11 — illegal motion |
+| Thumbing (thumb shot) | Daumentechnik | |
+| Break (the opening) | Anstoß | |
+| Finish | Abschluss | |
+| To pocket (verb) | versenken (also einlochen) | |
+| Pocketing (noun) | Versenken | |
+| Placing (a coin) | Platzieren | |
+| Turn | Spielzug | |
+| Concede | aufgeben | |
+| Shot | Shot / Schlag | |
+| Pair | Pair | |
+| Cannon | Cannon | spelled with two n's — corrects the docx's "CANON" |
+| Covering (the Queen) | Bestätigung | DCV's term |
+| Due (striker-only pocket) | Strafstein | |
+| Penalty | Strafe / Strafstein | |
+| Foul | Fehlschuss | |
+| Simple foul | einfacher Fehlschuss | |
+| Technical foul | technischer Fehlschuss | |
+| White Slam | White Slam | universal carrom term |
+| Black Slam | Black Slam | universal carrom term |
+
+### Grips (from Arun's book — not in IAKC)
+
+| English | German |
+|---|---|
+| Grip | Griff |
+| Natural grip | natürlicher Griff |
+| Scissor grip | Scherengriff |
+| Locking grip | Sperrgriff |
+| Middle finger flat grip | Mittelfinger-Flachgriff |
+
+### Strokes (coaching vocabulary — kept in English globally, in both EN and DE chapters)
+
+`Shower of Strokes`, `Straight Cut`, `Cross Cut` (also Minus Cut), `Double`, `Cross Double`, `Press`, `Touch`, `Double Touch`, `Glance`, `Double Glance`, `Brush`, `Rebound`, `Simple Rebound`, `Langda Rebound`, `Hook`, `Third Pocket`, `Cross Third Pocket`, `Second Pocket`, `Cross Second Pocket`, `Turning`, `Slip`, `Striker Slip`, `Bomb` (also `Bum`), `Force`, `Spin`.
+
+`Third/Second Pocket` becomes `Drittes/Zweites Eckloch` in DE bodies (since DCV uses "Eckloch"); the stroke name itself stays English.
+
+### Strategy and mental qualities
+
+| English | German |
+|---|---|
+| Defence | Verteidigung |
+| Direct Defence | direkte Verteidigung |
+| Indirect Defence | indirekte Verteidigung |
+| Offence | Angriff |
+| Concentration | Konzentration |
+| Observation | Beobachtung |
+| Patience / Stability | Geduld |
+| Over-confidence | Überheblichkeit |
+| Open mind | Offenheit |
+| Practice | Übung |
+
+### Organisations
+
+| English | German |
+|---|---|
+| International Carrom Federation (ICF) | Internationaler Carrom-Verband |
+| German Carrom Federation (DCV) | Deutscher Carrom Verband (DCV) |
+| German Championship | Deutsche Meisterschaft |
 
 ---
 
@@ -196,7 +291,7 @@ Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the site
 ## Adding a new language (Phase 5: French / Italian)
 
 1. The language is already declared in `config/_default/hugo.toml` and `config/_default/menus.{fr,it}.toml`.
-2. Create `content/{fr,it}/_index.md`, `about.md`, `gallery.md`, `contact.md`, `book/_index.md`, then chapters one by one.
+2. Create `content/{fr,it}/_index.md`, `about.md`, `gallery.md`, `contact.md`, `read/_index.md`, then chapters one by one.
 3. Confirm glossary terms with the relevant national federation **before** translating Chapter 1.
 4. Add `translatedBy` to every translated chapter's frontmatter.
 5. Drop the translated PDF at `static/downloads/carrom-book-{fr,it}.pdf`.
@@ -230,7 +325,7 @@ git add themes/PaperMod
 git commit -m "Update PaperMod theme"
 
 # Create a new content file with default frontmatter
-hugo new content content/en/book/chapter-03.md
+hugo new content content/en/read/chapter-03.md
 
 # Sync Problems & Solutions pairs from YouTube (see below)
 python3 scripts/sync-problem-solutions.py
