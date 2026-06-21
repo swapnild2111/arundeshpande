@@ -1,13 +1,5 @@
 <aside class="sidebar">
-  <div class="brand">
-    <div class="brand-mark" aria-hidden="true">
-      {{ partial "icons/trophy.html" . }}
-    </div>
-    <div class="brand-text">
-      <strong>{{ .Site.Params.brandName }}</strong>
-      <span>{{ .Site.Params.brandTagline }}</span>
-    </div>
-  </div>
+  {{ partial "brand.html" . }}
 
   <nav class="nav" aria-label="Primary">
     <ul>
@@ -47,7 +39,3 @@
     <small>{{ .Site.Params.copyrightReserved }}</small>
   </div>
 </aside>
-
-<button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
-  <span></span><span></span><span></span>
-</button>

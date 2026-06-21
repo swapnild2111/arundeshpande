@@ -13,6 +13,12 @@
         toggle.setAttribute('aria-expanded', 'false');
       }
     });
+    sidebar.querySelectorAll('.nav-link[href]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        sidebar.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
   }
 
   function psBasePath() {

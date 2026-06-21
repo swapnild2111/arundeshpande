@@ -127,6 +127,9 @@ other = "Problemgruppen"
 [soon]
 other = "Bald"
 
+[language_label]
+other = "Sprache"
+
 [coming_soon]
 other = "In Vorbereitung"
 

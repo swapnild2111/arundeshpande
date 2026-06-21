@@ -34,7 +34,7 @@
             {{ with .description }}<p class="desc">{{ . }}</p>{{ end }}
           </div>
         </a>
-        {{ if .pdf }}
+        {{ if and $available .pdf }}
         <div class="book-card-footer">
           <a class="btn btn-download btn-sm" href="{{ .pdf | relURL }}" download>{{ partial "icons/download.html" $ }}{{ i18n "download_pdf" }}</a>
         </div>

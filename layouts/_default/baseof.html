@@ -20,6 +20,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="app">
     {{ partial "sidebar.html" . }}
+    {{ partial "mobile-header.html" . }}
     <main id="main" class="main">
       {{ partial "lang-switcher.html" . }}
       {{ block "main" . }}{{ end }}

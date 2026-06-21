@@ -13,6 +13,13 @@
       {{ $url = .RelPermalink }}
     {{ end }}
   {{ end }}
+  {{ $pdfPath := index .pdfs $lang | default "" }}
+  {{ if $pdfPath }}
+    {{ $rel := strings.TrimPrefix "/" $pdfPath | strings.TrimPrefix "downloads/" }}
+    {{ if not (fileExists (printf "static/downloads/%s" $rel)) }}
+      {{ $pdfPath = "" }}
+    {{ end }}
+  {{ end }}
   {{ $items = $items | append (dict
     "id" .id
     "slug" .id
@@ -22,7 +29,7 @@
     "tagLabel" $tag
     "author" .author
     "pageCount" .pageCount
-    "pdf" .pdf
+    "pdf" $pdfPath
     "sourceUrl" .sourceUrl
     "weight" (.weight | default 0)
     "available" $available

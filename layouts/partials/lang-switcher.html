@@ -1,18 +1,34 @@
-{{- /* Build a map of <lang> -> <permalink for the current page in that lang> */ -}}
 {{- $current := . -}}
 {{- $perms := dict (.Language.Lang) .Permalink -}}
 {{- range .Translations -}}
   {{- $perms = merge $perms (dict (.Language.Lang) .Permalink) -}}
 {{- end -}}
+{{- $sitesByLang := dict -}}
+{{- range hugo.Sites -}}
+  {{- $sitesByLang = merge $sitesByLang (dict .Language.Lang .) -}}
+{{- end -}}
 
-<div class="lang-switcher-top" aria-label="Language">
-  <span class="lang-globe" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
-  {{- range hugo.Sites }}
-    {{- $lang := .Language -}}
-    {{- $perm := index $perms $lang.Lang -}}
-    {{- if not $perm }}
-      {{- $perm = .Home.RelPermalink -}}
+<nav class="lang-switcher" aria-label="{{ i18n "language_label" | default "Language" }}">
+  <div class="lang-switcher-track" role="list">
+    {{- range site.Languages -}}
+      {{- $code := .Lang -}}
+      {{- $perm := index $perms $code -}}
+      {{- if not $perm -}}
+        {{- with index $sitesByLang $code -}}
+          {{- $perm = .Home.RelPermalink -}}
+        {{- end -}}
+      {{- end -}}
+      <a
+        href="{{ $perm }}"
+        class="lang-switcher-option{{ if eq $code $current.Language.Lang }} is-active{{ end }}"
+        hreflang="{{ $code }}"
+        lang="{{ $code }}"
+        role="listitem"
+        {{ if eq $code $current.Language.Lang }}aria-current="page"{{ end }}
+      >
+        <span class="lang-switcher-short" aria-hidden="true">{{ $code | upper }}</span>
+        <span class="lang-switcher-long">{{ .Label }}</span>
+      </a>
     {{- end -}}
-    <a href="{{ $perm }}" class="lang{{ if eq $lang.Lang $current.Language.Lang }} is-active{{ end }}" hreflang="{{ $lang.Lang }}">{{ $lang.Lang | upper }}</a>
-  {{- end }}
-</div>
+  </div>
+</nav>
