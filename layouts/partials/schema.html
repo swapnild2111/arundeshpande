@@ -4,6 +4,11 @@
 
 {{- $graph := slice -}}
 
+{{- $sameAs := slice -}}
+{{- with .Site.Params.youtubeURL -}}
+  {{- $sameAs = $sameAs | append . -}}
+{{- end -}}
+
 {{- $person := dict
   "@type" "Person"
   "@id" (printf "%s/#person" $siteURL)
@@ -13,7 +18,15 @@
   "image" $imageURL
   "url" $siteURL
 -}}
+{{- if $sameAs -}}
+  {{- $person = merge $person (dict "sameAs" $sameAs) -}}
+{{- end -}}
 {{- $graph = $graph | append $person -}}
+
+{{- $langs := slice -}}
+{{- range site.Languages -}}
+  {{- $langs = $langs | append .Lang -}}
+{{- end -}}
 
 {{- $website := dict
   "@type" "WebSite"
@@ -22,6 +35,7 @@
   "url" $siteURL
   "description" (.Site.Params.description | plainify)
   "publisher" (dict "@id" (printf "%s/#person" $siteURL))
+  "inLanguage" $langs
 -}}
 {{- $graph = $graph | append $website -}}
 
@@ -38,6 +52,52 @@
   {{- $webpage = merge $webpage (dict "about" (dict "@id" (printf "%s/#person" $siteURL))) -}}
 {{- end -}}
 {{- $graph = $graph | append $webpage -}}
+
+{{- if and (not .IsHome) (ne .Kind "home") -}}
+  {{- $crumbs := slice -}}
+  {{- $pos := 1 -}}
+  {{- $crumbs = $crumbs | append (dict
+    "@type" "ListItem"
+    "position" $pos
+    "name" "Home"
+    "item" .Site.Home.Permalink
+  ) -}}
+  {{- $pos = add $pos 1 -}}
+  {{- if and .Section (ne .Section .Type) -}}
+    {{- with .Site.GetPage "section" .Section -}}
+      {{- $crumbs = $crumbs | append (dict
+        "@type" "ListItem"
+        "position" $pos
+        "name" .Title
+        "item" .Permalink
+      ) -}}
+      {{- $pos = add $pos 1 -}}
+    {{- end -}}
+  {{- else if .Section -}}
+    {{- with .Site.GetPage "section" .Section -}}
+      {{- if not (eq .Permalink $.Permalink) -}}
+        {{- $crumbs = $crumbs | append (dict
+          "@type" "ListItem"
+          "position" $pos
+          "name" .Title
+          "item" .Permalink
+        ) -}}
+        {{- $pos = add $pos 1 -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $crumbs = $crumbs | append (dict
+    "@type" "ListItem"
+    "position" $pos
+    "name" .Title
+    "item" .Permalink
+  ) -}}
+  {{- $graph = $graph | append (dict
+    "@type" "BreadcrumbList"
+    "@id" (printf "%s#breadcrumb" .Permalink)
+    "itemListElement" $crumbs
+  ) -}}
+{{- end -}}
 
 {{- if and (eq .Section "books") (eq .Kind "page") -}}
   {{- $book := dict

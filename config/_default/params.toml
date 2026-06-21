@@ -2,6 +2,11 @@ author = "Arun Deshpande"
 brandName = "Arun Deshpande"
 brandTagline = "Carrom Academy"
 heroPhoto = "/images/arun-profile.jpg"
+youtubeURL = "https://www.youtube.com/@Shrikant_Potharkar_carrom"
+
+# Analytics & Search Console (uncomment and fill in to enable)
+googleAnalyticsId = "G-17C0Y74790"
+# googleSiteVerification = "your-google-search-console-token"
 
 # Tagged on the hero section as a "ribbon" pill (small text above the name)
 heroBadge = "Former Coach – India National Carrom Team"

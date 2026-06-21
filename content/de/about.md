@@ -2,7 +2,9 @@
 title: "Über"
 description: "Internationaler Carrom-Trainer, Autor und Botschafter des Sports."
 date: 2026-01-01
-sitemap_exclude: true
+sitemap:
+  disable: true
+seoNoindex: true
 translatedBy: "Geprüft von der Deutschen Carrom-Vereinigung"
 ---
 

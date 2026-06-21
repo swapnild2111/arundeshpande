@@ -15,9 +15,31 @@
 {{- $imageURL := $imagePath | absURL -}}
 {{- $imageAlt := printf "%s — %s" .Site.Params.brandName (.Site.Params.brandTagline | default "Carrom Academy") -}}
 
+{{- $perms := dict (.Language.Lang) .Permalink -}}
+{{- range .Translations -}}
+  {{- $perms = merge $perms (dict (.Language.Lang) .Permalink) -}}
+{{- end -}}
+{{- $sitesByLang := dict -}}
+{{- range hugo.Sites -}}
+  {{- $sitesByLang = merge $sitesByLang (dict .Language.Lang .) -}}
+{{- end -}}
+
+{{- $noindex := or .Params.seoNoindex (eq .Section "gallery") -}}
+{{- with .Params.sitemap -}}
+  {{- if .disable -}}
+    {{- $noindex = true -}}
+  {{- end -}}
+{{- end -}}
+
 <link rel="canonical" href="{{ .Permalink }}">
 <meta name="description" content="{{ $desc }}">
 <meta name="author" content="{{ .Site.Params.author }}">
+{{- if $noindex -}}
+<meta name="robots" content="noindex, follow">
+{{- end -}}
+{{- with .Site.Params.googleSiteVerification -}}
+<meta name="google-site-verification" content="{{ . }}">
+{{- end -}}
 
 <meta property="og:type" content="{{ cond .IsHome "website" "article" }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
@@ -27,6 +49,12 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="{{ $imageURL }}">
 <meta property="og:image:alt" content="{{ $imageAlt }}">
+{{- range site.Languages -}}
+  {{- $code := .Lang -}}
+  {{- if ne $code $.Language.Lang -}}
+    <meta property="og:locale:alternate" content="{{ replace (.Locale | default .Lang) "-" "_" }}">
+  {{- end -}}
+{{- end -}}
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $ogTitle }}">
@@ -36,15 +64,20 @@
 
 <title>{{ $pageTitle }}</title>
 
-{{ range .AllTranslations }}
-  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
-{{ end }}
+{{- range site.Languages -}}
+  {{- $code := .Lang -}}
+  {{- $perm := index $perms $code -}}
+  {{- if not $perm -}}
+    {{- with index $sitesByLang $code -}}
+      {{- $perm = .Home.RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+  <link rel="alternate" hreflang="{{ $code }}" href="{{ $perm }}">
+{{- end -}}
 {{- $xDefault := .Permalink -}}
 {{- if ne .Language.Lang "en" -}}
-  {{- range .AllTranslations -}}
-    {{- if eq .Language.Lang "en" -}}
-      {{- $xDefault = .Permalink -}}
-    {{- end -}}
+  {{- with index $sitesByLang "en" -}}
+    {{- $xDefault = .Home.RelPermalink -}}
   {{- end -}}
 {{- end -}}
 <link rel="alternate" hreflang="x-default" href="{{ $xDefault }}">

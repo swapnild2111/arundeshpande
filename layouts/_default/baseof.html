@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   {{ partial "seo.html" . }}
   {{ partial "schema.html" . }}
+  {{ with .OutputFormats.Get "RSS" }}
+    <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">
+  {{ end }}
 
   <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +30,7 @@
     </main>
   </div>
   {{ block "scripts" . }}{{ end }}
+  {{ partial "analytics.html" . }}
   <script src="{{ "js/app.js" | relURL }}" defer></script>
   <script src="{{ "js/deep-links.js" | relURL }}" defer></script>
 </body>
