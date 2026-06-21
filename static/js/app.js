@@ -11,6 +11,7 @@
       if (!sidebar.contains(e.target) && !toggle.contains(e.target)) {
         sidebar.classList.remove('is-open');
         toggle.setAttribute('aria-expanded', 'false');
+        closeLangSwitchers();
       }
     });
     sidebar.querySelectorAll('.nav-link[href]').forEach(function (link) {
@@ -42,6 +43,47 @@
       if (text) url += '?text=' + encodeURIComponent(text);
       window.open(url, '_blank', 'noopener,noreferrer');
     });
+  });
+
+  function closeLangSwitchers(except) {
+    document.querySelectorAll('.lang-switcher.is-open').forEach(function (root) {
+      if (except && root === except) return;
+      root.classList.remove('is-open');
+      var toggle = root.querySelector('.lang-switcher-toggle');
+      if (toggle) toggle.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  document.querySelectorAll('.lang-switcher').forEach(function (root) {
+    var toggle = root.querySelector('.lang-switcher-toggle');
+    var menu = root.querySelector('.lang-switcher-menu');
+    if (!toggle || !menu) return;
+
+    toggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = !root.classList.contains('is-open');
+      closeLangSwitchers();
+      if (open) {
+        root.classList.add('is-open');
+        toggle.setAttribute('aria-expanded', 'true');
+      } else {
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        closeLangSwitchers();
+      });
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.lang-switcher')) closeLangSwitchers();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLangSwitchers();
   });
 
   function psBasePath() {

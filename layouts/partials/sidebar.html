@@ -30,6 +30,11 @@
             </a>
           {{ end }}
         </li>
+        {{ if eq .Identifier "contact" }}
+        <li class="sidebar-lang">
+          {{ partial "lang-switcher.html" $current }}
+        </li>
+        {{ end }}
       {{ end }}
     </ul>
   </nav>

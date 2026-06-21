@@ -7,9 +7,26 @@
 {{- range hugo.Sites -}}
   {{- $sitesByLang = merge $sitesByLang (dict .Language.Lang .) -}}
 {{- end -}}
+{{- $currentLabel := $current.Language.Lang | upper -}}
+{{- range site.Languages -}}
+  {{- if eq .Lang $current.Language.Lang -}}
+    {{- $currentLabel = .Label -}}
+  {{- end -}}
+{{- end -}}
 
-<nav class="lang-switcher" aria-label="{{ i18n "language_label" | default "Language" }}">
-  <div class="lang-switcher-track" role="list">
+<div class="lang-switcher">
+  <button
+    type="button"
+    class="lang-switcher-toggle"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="{{ i18n "language_label" | default "Language" }}: {{ $currentLabel }}"
+  >
+    <span class="lang-switcher-globe" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
+    <span class="lang-switcher-current">{{ $currentLabel }}</span>
+    <span class="lang-switcher-chevron" aria-hidden="true">{{ partial "icons/chevron-down.html" . }}</span>
+  </button>
+  <ul class="lang-switcher-menu" role="menu">
     {{- range site.Languages -}}
       {{- $code := .Lang -}}
       {{- $perm := index $perms $code -}}
@@ -18,17 +35,19 @@
           {{- $perm = .Home.RelPermalink -}}
         {{- end -}}
       {{- end -}}
-      <a
-        href="{{ $perm }}"
-        class="lang-switcher-option{{ if eq $code $current.Language.Lang }} is-active{{ end }}"
-        hreflang="{{ $code }}"
-        lang="{{ $code }}"
-        role="listitem"
-        {{ if eq $code $current.Language.Lang }}aria-current="page"{{ end }}
-      >
-        <span class="lang-switcher-short" aria-hidden="true">{{ $code | upper }}</span>
-        <span class="lang-switcher-long">{{ .Label }}</span>
-      </a>
+      <li role="none">
+        {{- if eq $code $current.Language.Lang -}}
+          <span class="lang-switcher-item is-active" role="menuitem" aria-current="true">{{ .Label }}</span>
+        {{- else -}}
+          <a
+            href="{{ $perm }}"
+            class="lang-switcher-item"
+            role="menuitem"
+            hreflang="{{ $code }}"
+            lang="{{ $code }}"
+          >{{ .Label }}</a>
+        {{- end -}}
+      </li>
     {{- end -}}
-  </div>
-</nav>
+  </ul>
+</div>
