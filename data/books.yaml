@@ -5,6 +5,10 @@ books:
     author: "Arun Deshpande"
     pageCount: 14
     chapters: true
+    pdfs:
+      en: "downloads/carrom-techniques-and-skills-en.pdf"
+      da: "downloads/carrom-techniques-and-skills-da.pdf"
+      de: "downloads/carrom-techniques-and-skills-de.pdf"
     titles:
       en: "Carrom Techniques and Skills"
       da: "Carrom-teknik og færdigheder"
@@ -17,8 +21,12 @@ books:
       en: "Read online"
       da: "Læs online"
       de: "Online lesen"
+    # Marked false while content is still in review. The pages still
+    # render at /en/books/students/carrom-techniques-and-skills/... so
+    # local development continues to work; the library card just shows a
+    # "Coming soon" state to public visitors.
     languages:
-      en: true
+      en: false
       da: false
       de: false
 

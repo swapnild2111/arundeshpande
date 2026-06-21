@@ -15,7 +15,11 @@
       {{ continue }}
     {{ end }}
     {{ $slug := partial "video-slug.html" (dict "title" .title "tag" $tag "slug" .slug) }}
-    {{ $catURL := printf "videos/%s/" $catID | relURL }}
+    {{- /* Look up the actual category page so .RelPermalink carries the language prefix. */ -}}
+    {{ $catURL := "" }}
+    {{ with site.GetPage (printf "/videos/%s" $catID) }}
+      {{ $catURL = .RelPermalink }}
+    {{ end }}
     <a class="video-card" id="v-{{ $slug }}" href="{{ $catURL }}#{{ $slug }}" data-anchor="{{ $slug }}" data-youtube="https://www.youtube.com/watch?v={{ .id }}" data-video-id="{{ .id }}" data-tags="{{ delimit $tags " " | urlize }}" data-category="{{ $catID }}" rel="noopener">
       <div class="video-thumb">
         <img src="https://i.ytimg.com/vi/{{ .id }}/hqdefault.jpg" alt="{{ .title }}" loading="lazy">

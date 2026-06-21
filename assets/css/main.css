@@ -1224,6 +1224,26 @@ a.chip {
   margin-bottom: 16px;
 }
 .book-toolbar .btn svg { width: 14px; height: 14px; }
+.book-toolbar .btn.is-disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.book-toolbar .badge-soon {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  margin-left: 4px;
+}
 
 /* ---------- book viewer (embedded PDF) ---------- */
 .book-prose {

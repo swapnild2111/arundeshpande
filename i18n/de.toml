@@ -136,6 +136,9 @@ other = "Problemgruppen"
 [soon]
 other = "Bald"
 
+[pdf_coming_soon]
+other = "PDF folgt in Kürze"
+
 [language_label]
 other = "Sprache"
 

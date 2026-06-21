@@ -136,6 +136,9 @@ other = "Problegrupper"
 [soon]
 other = "Snart"
 
+[pdf_coming_soon]
+other = "PDF kommer snart"
+
 [language_label]
 other = "Sprog"
 

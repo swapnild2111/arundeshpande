@@ -136,6 +136,9 @@ other = "Problem groups"
 [soon]
 other = "Soon"
 
+[pdf_coming_soon]
+other = "PDF coming soon"
+
 [language_label]
 other = "Language"
 

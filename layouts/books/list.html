@@ -12,6 +12,25 @@
 {{ if .Params.chapters }}
 
   {{- /* B) Chapter index page */ -}}
+
+  {{- /* Look up the matching entry in data/books.yaml so we can show a
+         Download PDF button when the PDF for the current language exists. */ -}}
+  {{- $bookId := path.Base .RelPermalink -}}
+  {{- $lang := .Site.Language.Lang -}}
+  {{- $pdfPath := "" -}}
+  {{- range (hugo.Data.books.books | default slice) -}}
+    {{- if eq .id $bookId -}}
+      {{- $pdfPath = index .pdfs $lang | default "" -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $pdfExists := false -}}
+  {{- if $pdfPath -}}
+    {{- $rel := strings.TrimPrefix "/" $pdfPath -}}
+    {{- if fileExists (printf "static/%s" $rel) -}}
+      {{- $pdfExists = true -}}
+    {{- end -}}
+  {{- end -}}
+
   <nav class="book-back">
     <a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a>
   </nav>
@@ -25,6 +44,19 @@
     </div>
     {{ with .Description }}<p>{{ . }}</p>{{ end }}
   </header>
+
+  <div class="book-toolbar">
+    {{ if $pdfExists }}
+      <a class="btn btn-download btn-sm" href="{{ $pdfPath | relURL }}" download>
+        {{ partial "icons/download.html" . }}{{ i18n "download_pdf" | default "Download PDF" }}
+      </a>
+    {{ else }}
+      <span class="btn btn-ghost btn-sm is-disabled" aria-disabled="true" title="{{ i18n "pdf_coming_soon" | default "PDF coming soon" }}">
+        {{ partial "icons/download.html" . }}{{ i18n "download_pdf" | default "Download PDF" }}
+        <span class="badge-soon">{{ i18n "soon" | default "Soon" }}</span>
+      </span>
+    {{ end }}
+  </div>
 
   {{ if .Content }}
   <article class="book-prose">

@@ -6,7 +6,9 @@
 <div
   class="ps-browser pair-grid{{ if $standalone }} is-visible{{ end }}"
   id="pair-grid"
-  data-ps-base="{{ "videos/problems-solutions/" | relURL }}"
+  {{- $psBase := "" -}}
+  {{- with site.GetPage "/videos/problems-solutions" -}}{{ $psBase = .RelPermalink }}{{- end -}}
+  data-ps-base="{{ $psBase }}"
   data-standalone="{{ $standalone }}"
   data-group-size="{{ $groupSize }}"
   data-group-count="{{ $groupCount }}"
