@@ -7,6 +7,9 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-08.jpg"
   alt: "The Break"
+aliases:
+  - /read/chapter-05/
+  - /en/read/chapter-05/
 ---
 
 ## Break from left base circle

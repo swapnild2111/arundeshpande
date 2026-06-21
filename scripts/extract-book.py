@@ -6,8 +6,8 @@ Reads:
   CarromTechniqandSkills.docx
   (already extracted to /tmp/docx-extract/)
 Writes:
-  content/en/read/chapter-NN.md  (overwriting any previous content)
-  content/en/read/_index.md      (updated chapter list + intro)
+  content/en/books/students/carrom-techniques-and-skills/chapter-NN.md
+  (the _index.md is hand-maintained and not regenerated)
 
 Image handling:
   - 52 images were already copied to static/images/book/fig-NN.jpg (resized).
@@ -28,7 +28,7 @@ import xml.etree.ElementTree as ET
 
 DOCX_DIR = "/tmp/docx-extract"
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-EN_OUT = os.path.join(REPO, "content/en/read")
+EN_OUT = os.path.join(REPO, "content/en/books/students/carrom-techniques-and-skills")
 
 W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 R = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
@@ -297,6 +297,12 @@ def write_chapter_file(chap, weight, paras):
             f"  alt: \"{alt}\"\n"
         )
 
+    aliases_block = (
+        "aliases:\n"
+        f"  - /read/{slug}/\n"
+        f"  - /en/read/{slug}/\n"
+    )
+
     frontmatter = (
         "---\n"
         f"title: \"{title}\"\n"
@@ -305,6 +311,7 @@ def write_chapter_file(chap, weight, paras):
         "date: 2026-01-01\n"
         "author: \"Arun Deshpande\"\n"
         f"{cover_block}"
+        f"{aliases_block}"
         "---\n\n"
     )
     out_path = os.path.join(EN_OUT, f"{slug}.md")

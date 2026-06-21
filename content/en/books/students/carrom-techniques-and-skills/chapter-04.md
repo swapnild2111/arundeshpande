@@ -7,6 +7,9 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-03.jpg"
   alt: "Grips"
+aliases:
+  - /read/chapter-04/
+  - /en/read/chapter-04/
 ---
 
 ## Grips

@@ -7,6 +7,9 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-19.jpg"
   alt: "Pockets and Turning"
+aliases:
+  - /read/chapter-09/
+  - /en/read/chapter-09/
 ---
 
 ## Third Pocket

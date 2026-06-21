@@ -7,6 +7,9 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-23.jpg"
   alt: "Bomb and Force"
+aliases:
+  - /read/chapter-11/
+  - /en/read/chapter-11/
 ---
 
 ## Bomb (bum)

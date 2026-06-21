@@ -7,6 +7,9 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-36.jpg"
   alt: "Advanced Stroke Positions"
+aliases:
+  - /read/chapter-14/
+  - /en/read/chapter-14/
 ---
 
 ADVANCED STROKES

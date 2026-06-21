@@ -7,6 +7,9 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-01.jpg"
   alt: "Introduction: What is Carrom"
+aliases:
+  - /read/chapter-01/
+  - /en/read/chapter-01/
 ---
 
 ## Carrom Techniques and Skills

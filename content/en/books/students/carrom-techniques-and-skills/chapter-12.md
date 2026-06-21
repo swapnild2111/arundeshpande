@@ -7,6 +7,9 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-33.jpg"
   alt: "Defence and Offence"
+aliases:
+  - /read/chapter-12/
+  - /en/read/chapter-12/
 ---
 
 DEFENCE AND OFFENSE

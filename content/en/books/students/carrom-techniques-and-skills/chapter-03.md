@@ -4,6 +4,9 @@ description: "How a game is set up and scored, the rules around the Queen, fouls
 weight: 3
 date: 2026-01-01
 author: "Arun Deshpande"
+aliases:
+  - /read/chapter-03/
+  - /en/read/chapter-03/
 ---
 
 ## Basic rules

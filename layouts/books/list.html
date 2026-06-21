@@ -1,20 +1,68 @@
 {{ define "main" }}
-{{ $books := site.GetPage "section" "books" }}
-{{ $catalog := partial "book-catalog.html" . }}
-<header class="page-header">
-  <h1><span class="icon-pill">{{ partial "icons/book.html" . }}</span>{{ .Title }}</h1>
-  <p>{{ .Description }}</p>
-</header>
+{{- /*
+  This template renders three kinds of section pages under /books/:
+    A) The Books library landing page (/en/books/) and category indexes
+       (/en/books/students/, /en/books/rules/, etc.) -> show the book catalog.
+    B) An individual chapter-book index page (e.g.
+       /en/books/students/carrom-techniques-and-skills/) -> show the chapter
+       grid, NOT the catalog. Distinguished by `chapters: true` in the page's
+       own frontmatter.
+*/ -}}
 
-{{ partial "book-chips.html" (dict "current" "all" "books" $books "catalog" $catalog) }}
+{{ if .Params.chapters }}
 
-{{ partial "book-grid.html" (dict "catalog" $catalog "filter" "all") }}
+  {{- /* B) Chapter index page */ -}}
+  <nav class="book-back">
+    <a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a>
+  </nav>
 
-<span hidden data-books-root="{{ "books/" | relURL }}"></span>
+  <header class="page-header book-view-header">
+    <h1><span class="icon-pill">{{ partial "icons/book.html" . }}</span>{{ .Title }}</h1>
+    <div class="book-view-meta">
+      {{ with .Params.author }}<span>{{ . }}</span>{{ end }}
+      <span>{{ len .Pages }} {{ i18n "chapter" | default "Chapter" }}s</span>
+      {{ with .Params.tagLabel }}<span class="tag --amber">{{ . }}</span>{{ end }}
+    </div>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </header>
 
-{{ if not $catalog }}
-  <p class="empty-note">{{ i18n "no_books_yet" | default "No books available yet." }}</p>
+  {{ if .Content }}
+  <article class="book-prose">
+    {{ .Content }}
+  </article>
+  {{ end }}
+
+  <div class="chapter-grid">
+    {{ range .Pages.ByWeight }}
+      <a class="chapter-card" href="{{ .RelPermalink }}">
+        <span class="number">{{ i18n "chapter" | default "Chapter" }} {{ .Params.weight }}</span>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Description }}</p>
+      </a>
+    {{ end }}
+  </div>
+
+{{ else }}
+
+  {{- /* A) Library landing / category index */ -}}
+  {{ $books := site.GetPage "section" "books" }}
+  {{ $catalog := partial "book-catalog.html" . }}
+  <header class="page-header">
+    <h1><span class="icon-pill">{{ partial "icons/book.html" . }}</span>{{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+  </header>
+
+  {{ partial "book-chips.html" (dict "current" "all" "books" $books "catalog" $catalog) }}
+
+  {{ partial "book-grid.html" (dict "catalog" $catalog "filter" "all") }}
+
+  <span hidden data-books-root="{{ "books/" | relURL }}"></span>
+
+  {{ if not $catalog }}
+    <p class="empty-note">{{ i18n "no_books_yet" | default "No books available yet." }}</p>
+  {{ end }}
+
+  {{ .Content }}
+
 {{ end }}
-
-{{ .Content }}
 {{ end }}

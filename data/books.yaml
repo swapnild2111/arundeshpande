@@ -1,7 +1,30 @@
 books:
+  - id: carrom-techniques-and-skills
+    category: students
+    weight: 1
+    author: "Arun Deshpande"
+    pageCount: 14
+    chapters: true
+    titles:
+      en: "Carrom Techniques and Skills"
+      da: "Carrom-teknik og færdigheder"
+      de: "Carrom Techniken und Fertigkeiten"
+    descriptions:
+      en: "Arun Deshpande's complete coaching book — grips, breaks, every major stroke, defence, offence, and advanced board positions."
+      da: "Arun Deshpandes komplette træningsbog — greb, åbningsslag, alle hovedslag, forsvar, angreb og avancerede stillinger."
+      de: "Arun Deshpandes vollständiges Trainerbuch — Griff, Anstoß, alle Hauptschläge, Verteidigung, Angriff und fortgeschrittene Stellungen."
+    tagLabels:
+      en: "Read online"
+      da: "Læs online"
+      de: "Online lesen"
+    languages:
+      en: true
+      da: false
+      de: false
+
   - id: official-carrom-rules
     category: rules
-    weight: 1
+    weight: 10
     author: "International Association of Kilic Carrom (IAKC)"
     pageCount: 13
     sourceUrl: "https://www.iakc.org/wp-content/uploads/2020/02/Carrom-Official-Rules.pdf"
