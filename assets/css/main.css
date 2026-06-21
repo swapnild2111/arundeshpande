@@ -1252,12 +1252,6 @@ a.chip {
 }
 
 /* ---------- contact ---------- */
-.contact-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
-  gap: 20px;
-  align-items: stretch;
-}
 .contact-card {
   padding: 24px;
   border-radius: var(--radius);
@@ -1265,7 +1259,7 @@ a.chip {
   border: 1px solid var(--border);
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  max-width: 640px;
 }
 .contact-card > h3 {
   font-size: 16px;
@@ -1329,58 +1323,29 @@ a.chip {
   line-height: 1.65;
 }
 
-.contact-form-card .contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  flex: 1;
+.contact-actions {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
 }
-.contact-form .field-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-}
-.contact-form .field {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-.contact-form .field-grow {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-.contact-form .field-grow textarea {
-  flex: 1;
-  min-height: 160px;
-}
-.contact-form .field-label {
-  font-size: 12px;
-  color: var(--text-muted);
-  font-weight: 500;
-}
-.contact-form input,
-.contact-form textarea {
-  font: inherit;
-  width: 100%;
-  padding: 11px 13px;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  color: var(--text);
-  transition: border-color .15s, background .15s;
-  resize: vertical;
-}
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
+.contact-actions-hint {
+  margin: 10px 0 0;
+  font-size: 13px;
   color: var(--text-dim);
+  line-height: 1.5;
 }
-.contact-form input:focus,
-.contact-form textarea:focus {
-  outline: none;
-  border-color: var(--accent);
-  background: rgba(168, 85, 247, 0.04);
+.btn-whatsapp {
+  background: rgba(37, 211, 102, 0.14);
+  color: #6ee7a0 !important;
+  border: 1px solid rgba(37, 211, 102, 0.35);
+  box-shadow: none;
 }
+.btn-whatsapp:hover {
+  color: #86efac !important;
+  background: rgba(37, 211, 102, 0.22);
+  border-color: rgba(37, 211, 102, 0.5);
+}
+
 .btn-block { width: 100%; justify-content: center; }
 
 /* ---------- chapter / book pages ---------- */
@@ -1534,8 +1499,6 @@ a.chip {
   .stat-grid, .ach-grid { grid-template-columns: repeat(2, 1fr); }
   .explore-grid { grid-template-columns: 1fr; }
   .about-cols { grid-template-columns: 1fr; gap: 0; }
-  .contact-grid { grid-template-columns: 1fr; }
-  .contact-form .field-row { grid-template-columns: 1fr; }
   .video-grid { grid-template-columns: repeat(2, 1fr); }
   .ps-browser .ps-group.is-active {
     grid-template-columns: 1fr;

@@ -21,6 +21,29 @@
     });
   }
 
+  function decodeWaPayload(encoded) {
+    if (!encoded) return '';
+    try {
+      var binary = atob(encoded);
+      var bytes = Uint8Array.from(binary, function (c) { return c.charCodeAt(0); });
+      return new TextDecoder().decode(bytes);
+    } catch (err) {
+      return '';
+    }
+  }
+
+  document.querySelectorAll('.js-wa-contact').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      if (!e.isTrusted) return;
+      var phone = decodeWaPayload(btn.getAttribute('data-wa-phone'));
+      if (!phone) return;
+      var text = decodeWaPayload(btn.getAttribute('data-wa-text'));
+      var url = 'https://wa.me/' + phone;
+      if (text) url += '?text=' + encodeURIComponent(text);
+      window.open(url, '_blank', 'noopener,noreferrer');
+    });
+  });
+
   function psBasePath() {
     var el = document.querySelector('[data-ps-base]');
     return el ? el.getAttribute('data-ps-base') : null;

@@ -61,11 +61,20 @@ other = "Coachingforespørgsler"
 [coaching_enquiry_subject]
 other = "Coachingforespørgsel"
 
+[whatsapp_message]
+other = "Hej Arun sir, jeg fandt Carrom Academy-hjemmesiden og er interesseret i carrom-coaching."
+
 [contact_information]
 other = "Kontaktoplysninger"
 
 [send_email]
 other = "Send e-mail"
+
+[message_on_whatsapp]
+other = "Skriv på WhatsApp"
+
+[whatsapp_hint]
+other = "Den hurtigste måde at kontakte Arun om coaching og workshops."
 
 [pages]
 other = "sider"

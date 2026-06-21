@@ -61,11 +61,20 @@ other = "Trainingsanfragen"
 [coaching_enquiry_subject]
 other = "Trainingsanfrage"
 
+[whatsapp_message]
+other = "Hallo Arun sir, ich habe die Carrom Academy Website gefunden und interessiere mich für Carrom-Coaching."
+
 [contact_information]
 other = "Kontaktinformationen"
 
 [send_email]
 other = "E-Mail senden"
+
+[message_on_whatsapp]
+other = "Per WhatsApp schreiben"
+
+[whatsapp_hint]
+other = "Der schnellste Weg, Arun für Coaching-Anfragen und Workshops zu erreichen."
 
 [pages]
 other = "Seiten"

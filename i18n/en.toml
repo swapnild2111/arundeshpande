@@ -61,11 +61,20 @@ other = "Coaching Enquiries"
 [coaching_enquiry_subject]
 other = "Coaching enquiry"
 
+[whatsapp_message]
+other = "Hello Arun sir, I found Carrom Academy website and I'm interested in carrom coaching."
+
 [contact_information]
 other = "Contact Information"
 
 [send_email]
 other = "Send Email"
+
+[message_on_whatsapp]
+other = "Message on WhatsApp"
+
+[whatsapp_hint]
+other = "Fastest way to reach Arun for coaching enquiries and workshops."
 
 [pages]
 other = "Pages"
