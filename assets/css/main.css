@@ -36,7 +36,7 @@
 
 /* ---------- reset ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; overflow-x: clip; }
 body {
   margin: 0;
   font-family: var(--font-sans);
@@ -45,6 +45,7 @@ body {
   color: var(--text);
   background: var(--bg);
   min-height: 100vh;
+  overflow-x: clip;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -80,6 +81,8 @@ h1, h2, h3, h4 {
   display: grid;
   grid-template-columns: var(--sidebar-w) 1fr;
   min-height: 100vh;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 .main {
@@ -88,6 +91,8 @@ h1, h2, h3, h4 {
   max-width: calc(var(--sidebar-w) + var(--content-max) + 112px);
   margin: 0 auto;
   width: 100%;
+  min-width: 0;
+  overflow-x: clip;
 }
 
 /* ---------- top-right language switcher ---------- */
@@ -702,6 +707,8 @@ a.chip {
   display: none;
   flex-direction: column;
   gap: 14px;
+  min-width: 0;
+  max-width: 100%;
 }
 .pair-grid.is-visible,
 .ps-browser.is-visible { display: flex; }
@@ -714,14 +721,16 @@ a.chip {
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
+  min-width: 0;
+  max-width: 100%;
+  overscroll-behavior-x: contain;
 }
 .ps-rail {
-  display: flex;
+  display: inline-flex;
   flex-wrap: nowrap;
   gap: 4px;
   padding: 10px 12px;
   width: max-content;
-  min-width: 100%;
 }
 .ps-rail-item {
   flex: 0 0 auto;
@@ -757,6 +766,8 @@ a.chip {
   border-radius: 0;
   padding: 0;
   min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .ps-group {
@@ -1437,8 +1448,14 @@ a.chip {
   .contact-form .field-row { grid-template-columns: 1fr; }
   .video-grid { grid-template-columns: repeat(2, 1fr); }
   .ps-browser .ps-group.is-active {
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    grid-template-columns: 1fr;
     gap: 12px;
+  }
+  .ps-pair-body {
+    grid-template-columns: 1fr;
+  }
+  .ps-pair-body::after {
+    display: none;
   }
   .ps-pair-slot {
     padding: 8px;
@@ -1454,7 +1471,9 @@ a.chip {
   .stat-value { font-size: 24px; }
   .page-header h1 { font-size: 28px; }
   .video-grid { grid-template-columns: 1fr; }
-  .ps-browser .ps-group.is-active {
-    grid-template-columns: 1fr;
+  .main { padding-left: 16px; padding-right: 16px; }
+  .ps-pair-tag {
+    font-size: 9px;
+    letter-spacing: 0.04em;
   }
 }
