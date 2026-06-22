@@ -11,17 +11,30 @@
 {{- $pageTitle := cond .IsHome .Site.Title (printf "%s — %s" .Title .Site.Title) -}}
 {{- $ogTitle := cond .IsHome .Site.Title .Title -}}
 
+{{- /* Resolve book id and catalog entry for /books/ pages */ -}}
+{{- $bookId := "" -}}
+{{- $bookEntry := dict -}}
+{{- if eq .Section "books" -}}
+  {{- if .Parent.Params.chapters -}}
+    {{- $bookId = path.Base .Parent.RelPermalink -}}
+  {{- else if .Params.chapters -}}
+    {{- $bookId = path.Base .RelPermalink -}}
+  {{- end -}}
+  {{- range hugo.Data.books.books -}}
+    {{- if eq .id $bookId -}}
+      {{- $bookEntry = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
 {{- $imagePath := .Site.Params.heroPhoto | default "/images/arun-profile.jpg" | strings.TrimPrefix "/" -}}
+{{- with index $bookEntry "coverImage" -}}
+  {{- $imagePath = . | strings.TrimPrefix "/" -}}
+{{- end -}}
 {{- $imageURL := $imagePath | absURL -}}
 {{- $imageAlt := printf "%s — %s" .Site.Params.brandName (.Site.Params.brandTagline | default "Carrom Academy") -}}
-
-{{- $perms := dict (.Language.Lang) .Permalink -}}
-{{- range .Translations -}}
-  {{- $perms = merge $perms (dict (.Language.Lang) .Permalink) -}}
-{{- end -}}
-{{- $sitesByLang := dict -}}
-{{- range hugo.Sites -}}
-  {{- $sitesByLang = merge $sitesByLang (dict .Language.Lang .) -}}
+{{- if $bookId -}}
+  {{- $imageAlt = cond .IsHome $imageAlt .Title -}}
 {{- end -}}
 
 {{- $noindex := or .Params.seoNoindex (eq .Section "gallery") -}}
@@ -30,10 +43,16 @@
     {{- $noindex = true -}}
   {{- end -}}
 {{- end -}}
+{{- if $bookEntry -}}
+  {{- $lang := .Site.Language.Lang -}}
+  {{- if not (index $bookEntry.languages $lang | default false) -}}
+    {{- $noindex = true -}}
+  {{- end -}}
+{{- end -}}
 
 <link rel="canonical" href="{{ .Permalink }}">
 <meta name="description" content="{{ $desc }}">
-<meta name="author" content="{{ .Site.Params.author }}">
+<meta name="author" content="{{ .Params.author | default .Site.Params.author }}">
 {{- if $noindex -}}
 <meta name="robots" content="noindex, follow">
 {{- end -}}
@@ -64,20 +83,29 @@
 
 <title>{{ $pageTitle }}</title>
 
-{{- range site.Languages -}}
-  {{- $code := .Lang -}}
-  {{- $perm := index $perms $code -}}
-  {{- if not $perm -}}
-    {{- with index $sitesByLang $code -}}
-      {{- $perm = .Home.RelPermalink -}}
-    {{- end -}}
-  {{- end -}}
+{{- /* hreflang: only languages with an actual translation of this page */ -}}
+{{- $hreflangs := dict (.Language.Lang) .Permalink -}}
+{{- range .Translations -}}
+  {{- $hreflangs = merge $hreflangs (dict (.Language.Lang) .Permalink) -}}
+{{- end -}}
+{{- range $code, $perm := $hreflangs -}}
   <link rel="alternate" hreflang="{{ $code }}" href="{{ $perm }}">
 {{- end -}}
 {{- $xDefault := .Permalink -}}
 {{- if ne .Language.Lang "en" -}}
-  {{- with index $sitesByLang "en" -}}
-    {{- $xDefault = .Home.RelPermalink -}}
+  {{- $foundEn := false -}}
+  {{- range .Translations -}}
+    {{- if eq .Language.Lang "en" -}}
+      {{- $xDefault = .Permalink -}}
+      {{- $foundEn = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $foundEn -}}
+    {{- range hugo.Sites -}}
+      {{- if eq .Language.Lang "en" -}}
+        {{- $xDefault = .Home.Permalink -}}
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 <link rel="alternate" hreflang="x-default" href="{{ $xDefault }}">

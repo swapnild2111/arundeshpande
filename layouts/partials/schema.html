@@ -86,6 +86,15 @@
       {{- end -}}
     {{- end -}}
   {{- end -}}
+  {{- if and (eq .Section "books") (.Parent.Params.chapters | default false) -}}
+    {{- $crumbs = $crumbs | append (dict
+      "@type" "ListItem"
+      "position" $pos
+      "name" .Parent.Title
+      "item" .Parent.Permalink
+    ) -}}
+    {{- $pos = add $pos 1 -}}
+  {{- end -}}
   {{- $crumbs = $crumbs | append (dict
     "@type" "ListItem"
     "position" $pos
@@ -100,18 +109,43 @@
 {{- end -}}
 
 {{- if and (eq .Section "books") (eq .Kind "page") -}}
-  {{- $book := dict
-    "@type" "Book"
-    "name" .Title
-    "description" $desc
-    "author" (dict "@type" "Organization" "name" (.Params.author | default .Site.Params.author))
-    "url" .Permalink
-    "inLanguage" (.Site.Language.Lang)
-  -}}
-  {{- with .Params.pageCount -}}
-    {{- $book = merge $book (dict "numberOfPages" .) -}}
+  {{- $isChapter := .Parent.Params.chapters | default false -}}
+  {{- $authorName := .Params.author | default .Site.Params.author -}}
+  {{- if $isChapter -}}
+    {{- $chapter := dict
+      "@type" "Chapter"
+      "name" .Title
+      "description" $desc
+      "url" .Permalink
+      "inLanguage" (.Site.Language.Lang)
+      "isPartOf" (dict
+        "@type" "Book"
+        "name" .Parent.Title
+        "url" .Parent.Permalink
+      )
+    -}}
+    {{- $graph = $graph | append $chapter -}}
+  {{- else if .Params.chapters -}}
+    {{- $book := dict
+      "@type" "Book"
+      "name" .Title
+      "description" $desc
+      "author" (dict "@type" "Person" "name" $authorName)
+      "url" .Permalink
+      "inLanguage" (.Site.Language.Lang)
+    -}}
+    {{- with .Params.pageCount -}}
+      {{- $book = merge $book (dict "numberOfPages" .) -}}
+    {{- end -}}
+    {{- range hugo.Data.books.books -}}
+      {{- if eq .id (path.Base $.RelPermalink) -}}
+        {{- with .coverImage -}}
+          {{- $book = merge $book (dict "image" (strings.TrimPrefix "/" . | absURL)) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $graph = $graph | append $book -}}
   {{- end -}}
-  {{- $graph = $graph | append $book -}}
 {{- end -}}
 
 <script type="application/ld+json">

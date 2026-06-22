@@ -7,6 +7,9 @@ pageCount: 73
 category: "students"
 tagLabel: "Read online"
 chapters: true
+cascade:
+  - sitemap:
+      disable: true
 aliases:
   - /book/
   - /en/read/

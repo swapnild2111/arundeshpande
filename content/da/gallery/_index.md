@@ -1,6 +1,8 @@
 ---
 title: "Fotogalleri"
 description: "Træningssessioner, turneringer og rejser."
+sitemap:
+  disable: true
 filters: ["Alle", "Træning", "Turneringer", "Lejre", "International"]
 photos:
   - alt: "Træningssession, Mumbai"

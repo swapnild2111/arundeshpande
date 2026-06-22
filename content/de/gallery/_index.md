@@ -1,6 +1,8 @@
 ---
 title: "Fotogalerie"
 description: "Trainingseinheiten, Turniere und Reisen."
+sitemap:
+  disable: true
 filters: ["Alle", "Training", "Turniere", "Camps", "International"]
 photos:
   - alt: "Trainingseinheit, Mumbai"

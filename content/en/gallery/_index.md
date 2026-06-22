@@ -1,6 +1,8 @@
 ---
 title: "Photo Gallery"
 description: "Coaching sessions, tournaments, and travels."
+sitemap:
+  disable: true
 filters: ["All", "Coaching", "Tournaments", "Camps", "International"]
 photos:
   - alt: "Coaching session, Mumbai"
