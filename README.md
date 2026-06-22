@@ -87,14 +87,31 @@ arundeshpande/
 │   └── partials/
 │       ├── sidebar.html, footer.html
 │       └── icons/{home,play,book,image,mail,trophy,medal,...}.html
-├── assets/css/main.css           # entire theme CSS
+├── assets/css/main.css           # files Hugo PROCESSES (minify, fingerprint, etc.) — see note below
 ├── static/
-│   ├── images/{arun-profile.jpg, gallery/, chapters/}
+│   ├── images/{arun-profile.jpg, gallery/, book/fig-NN.jpg}
 │   ├── downloads/*.pdf           # PDFs referenced by content/{lang}/books
 │   ├── js/app.js                 # mobile nav toggle + filter chips
 │   └── CNAME                     # custom domain (after purchase)
 └── .github/workflows/deploy.yml
 ```
+
+### `static/` vs `assets/` — when to use which
+
+Both folders are tracked in git and both end up in the deployed site. They differ in **what Hugo does at build time**:
+
+| | `static/` | `assets/` |
+|---|---|---|
+| **What happens at build** | Bytes copied 1:1 into `public/` | Run through Hugo Pipes (minify, fingerprint, SCSS compile, image resize, ...) |
+| **Reference from markdown / HTML** | Direct path: `<img src="/images/foo.jpg">`, `[Download](/downloads/x.pdf)` | Through `resources.Get` in a template: `{{ (resources.Get "css/main.css") | minify | fingerprint }}` then `.RelPermalink` |
+| **Output filename** | Same as input (`main.css`) | Can be fingerprinted (`main.min.96a05d4...css`) for cache busting |
+| **Put files here when...** | They're already in their final form: photos, PDFs, hand-written JS, favicon, CNAME | Hugo needs to do something to them: CSS minification + fingerprinting, SCSS compilation, image variants |
+
+In this project: only `assets/css/main.css` lives in `assets/` (it gets minified and fingerprinted so browsers cache it for a year but pick up changes the moment we deploy a new version). Everything else — figures, the IAKC PDF, profile photo, app.js, favicon — sits in `static/` because none of it benefits from Hugo's processing.
+
+Don't merge the two. Photos and PDFs in `assets/` would need their references rewritten through `resources.Get`, and CSS in `static/` would lose its cache-busting fingerprint.
+
+---
 
 ---
 
