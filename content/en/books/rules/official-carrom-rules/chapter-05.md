@@ -8,6 +8,12 @@ author: "International Carrom Federation"
 
 *Carrom is played in matches of three games. Each game is a sequence of boards. Each board is worth points, and the first to 25 points (or whoever leads after eight boards) wins the game. This chapter is the scorekeeping reference.*
 
+<div class="callout">
+  <div class="callout-title">Beginner's guide — how scoring works</div>
+  <p>When you clear all your coins first, you <strong>win the board</strong>. Your points for that board equal the number of your opponent's coins still on the board (each worth <strong>1 point</strong>). If you also pocketed and <strong>covered</strong> the Queen while winning the board, add <strong>3 more points</strong> — but only while your running total in the game is <strong>21 or below</strong> (Rule 54).</p>
+  <p>A full <strong>game</strong> is won at <strong>25 points</strong> or after <strong>eight boards</strong>, whichever comes first. A <strong>match</strong> is best of three games. Informal guides sometimes play to 29 points; tournament and ICF play use 25.</p>
+</div>
+
 ## Point Values
 
 | Coin | Points |

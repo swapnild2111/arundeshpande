@@ -23,6 +23,18 @@ author: "International Carrom Federation"
   </div>
 </div>
 
+<div class="callout">
+  <div class="callout-title">Beginner's guide — common fouls</div>
+  <p>Most everyday fouls cost you <strong>one coin returned to the board</strong> and you <strong>lose your turn</strong>:</p>
+  <ul>
+    <li>Pocketing the <strong>striker</strong>, or knocking the striker or any coin off the board</li>
+    <li>Pocketing an <strong>opponent's coin</strong> — if you had covered the Queen, she is also returned</li>
+    <li>Pocketing your <strong>last coin before the Queen</strong> is pocketed and covered — two coins come back</li>
+    <li>Touching any coin other than the striker with your hand during a stroke</li>
+  </ul>
+  <p>A <strong>technical foul</strong> (before your stroke, or when it is not your turn) also brings one coin out, but you keep your turn. See Rules 62–64 for the full list.</p>
+</div>
+
 **64.** &nbsp;&nbsp;b) While pocketing the C/m and/or Queen, if a Foul is committed, the number of C/m and/or Queen pocketed with an additional C/m shall be brought out for placing and the turn of the player shall be lost.
 
 ## C/m Overboard

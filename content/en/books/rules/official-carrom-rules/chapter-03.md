@@ -24,6 +24,12 @@ author: "International Carrom Federation"
 
 **32.** No part of the body, except the hand of the player, shall go beyond the imaginary lines of the arrows.
 
+<div class="callout">
+  <div class="callout-title">Beginner's guide — sitting and striking</div>
+  <p>In singles, sit <strong>directly opposite</strong> your opponent. In doubles, partners sit opposite each other so all four sides of the board are used. Keep your chair still during your turn — only your playing arm may reach over the board.</p>
+  <p>Rest the striker in your base rectangle before each shot. The striker must be <strong>flicked</strong>, not pushed. Most beginners use a <strong>straight grip</strong> (palm down, index finger behind the striker). A <strong>scissors grip</strong> (side-on, middle finger snapping forward) is also legal if you find it more comfortable — see Rules 34–38 for elbow and body limits.</p>
+</div>
+
 ## How to Strike
 
 <div class="callout">

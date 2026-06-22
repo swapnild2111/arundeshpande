@@ -1,0 +1,25 @@
+<div class="video-player" id="video-player" role="dialog" aria-modal="true" aria-labelledby="video-player-title" hidden>
+  <div class="video-player-backdrop" data-video-player-close></div>
+  <div class="video-player-panel">
+    <div class="video-player-header">
+      <h2 id="video-player-title" class="video-player-title"></h2>
+      <button type="button" class="video-player-close" data-video-player-close aria-label="{{ i18n "close_video" | default "Close" }}">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="video-player-embed">
+      <iframe
+        id="video-player-iframe"
+        title="{{ i18n "play_video" | default "Play video" }}"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
+    </div>
+    <div class="video-player-actions">
+      <a class="btn btn-youtube video-player-youtube" id="video-player-youtube" href="#" target="_blank" rel="noopener">
+        {{ partial "icons/youtube.html" . }}{{ i18n "watch_on_youtube" | default "Watch on YouTube" }}
+      </a>
+    </div>
+  </div>
+</div>

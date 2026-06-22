@@ -3,11 +3,11 @@
 Extract Carrom Techniques and Skills (.docx) into Hugo markdown chapters.
 
 Reads:
-  CarromTechniqandSkills.docx
-  (already extracted to /tmp/docx-extract/)
+  static/downloads/CarromTechniqandSkills.docx
+  (unzipped on demand to .cache/docx-extract/)
 Writes:
   content/en/books/students/carrom-techniques-and-skills/chapter-NN.md
-  (the _index.md is hand-maintained and not regenerated)
+    (the _index.md is hand-maintained and not regenerated)
 
 Image handling:
   - 52 images were already copied to static/images/book/fig-NN.jpg (resized).
@@ -23,16 +23,39 @@ Chapter mapping (locked in plan-translation.md):
 import re
 import os
 import sys
-import html
+import shutil
+import zipfile
 import xml.etree.ElementTree as ET
 
-DOCX_DIR = "/tmp/docx-extract"
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DOCX_PATH = os.path.join(REPO, "static", "downloads", "CarromTechniqandSkills.docx")
+DOCX_CACHE = os.path.join(REPO, ".cache", "docx-extract")
+DOCX_DIR = DOCX_CACHE  # set by ensure_docx_extracted() before parsing
+# Hand-maintained chapters — not overwritten by the extractor.
+SKIP_REGENERATE = {"chapter-01.md"}
+
 EN_OUT = os.path.join(REPO, "content/en/books/students/carrom-techniques-and-skills")
 
 W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 R = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
 PIC_NS = {"a": "http://schemas.openxmlformats.org/drawingml/2006/main"}
+
+
+def ensure_docx_extracted() -> str:
+    """Unzip the source docx into .cache when missing or stale."""
+    if not os.path.isfile(DOCX_PATH):
+        sys.exit(f"Source not found: {DOCX_PATH}")
+    marker = os.path.join(DOCX_CACHE, "word", "document.xml")
+    docx_mtime = os.path.getmtime(DOCX_PATH)
+    cache_mtime = os.path.getmtime(marker) if os.path.isfile(marker) else 0
+    if cache_mtime < docx_mtime:
+        if os.path.isdir(DOCX_CACHE):
+            shutil.rmtree(DOCX_CACHE)
+        os.makedirs(DOCX_CACHE, exist_ok=True)
+        with zipfile.ZipFile(DOCX_PATH) as zf:
+            zf.extractall(DOCX_CACHE)
+        print(f"Extracted {DOCX_PATH}", file=sys.stderr)
+    return DOCX_CACHE
 
 
 def load_rels():
@@ -102,8 +125,8 @@ CHAPTERS = [
     # (slug, title, description, last_para_idx_inclusive)
     # Boundaries are locked from the heading scan; the next chapter starts at
     # the heading paragraph that follows.
-    ("chapter-01", "Chapter 1 — Introduction: What is Carrom",
-        "Arun Deshpande's note to the reader, a short history of carrom, and what makes the game special.",
+    ("chapter-01", "Chapter 1 — The Mantra",
+        "Arun Deshpande's note to the reader — the spirit in which to approach carrom, and why your relationship with the game matters more than any single match.",
         15),
     ("chapter-02", "Chapter 2 — Equipment",
         "Every part of the carrom set — board, frames, pockets, base lines, circles, coins, striker, stand, lamp.",
@@ -113,7 +136,7 @@ CHAPTERS = [
         44),
     ("chapter-04", "Chapter 4 — Grips",
         "Natural grip, scissor grip, locking grip, middle finger flat grip — when and how to use each one.",
-        62),
+        61),
     ("chapter-05", "Chapter 5 — The Break",
         "Breaking from the left base circle, breaking from near the base circle — the opening shot of every board.",
         69),
@@ -162,6 +185,21 @@ SUPPRESSED_HEADINGS = {
     "chapter-6",
     "chapter-7",
     "advanced strokes",
+    # The Title style on the cover page renders the book's own title; the
+    # chapter page already shows a title, so drop it.
+    "carrom techniques and skills",
+}
+
+# Body-text paragraphs that should also be suppressed (title-page artifacts,
+# bare TOC fragments, attribution lines that appear without context).
+SUPPRESSED_BODY = {
+    "shri. arun deshpande",
+    "--author",
+    "arun deshpande",
+    "index",
+    "sitting position shower of strokes defence and offence qualities of the players advanced strokes",
+    "what exactly is \"carrom\"",
+    "what exactly is carrom",
 }
 
 
@@ -187,6 +225,8 @@ def normalise_text(t):
     t = re.sub(r" {2,}", " ", t)
     # Normalise "Fig." / "fig." spacing
     t = re.sub(r"\bfig\.\s*(\d+)", lambda m: f"Fig. {m.group(1)}", t, flags=re.IGNORECASE)
+    t = t.replace("\ufffd", "")
+    t = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", t)
     return t.strip()
 
 
@@ -227,6 +267,10 @@ def is_suppressed_heading(text):
     return text.lower().rstrip(":–- ").strip() in SUPPRESSED_HEADINGS
 
 
+def is_suppressed_body(text):
+    return text.lower().rstrip(".:–- ").strip() in SUPPRESSED_BODY
+
+
 def render_chapter(chap, paras):
     """Emit a chapter's markdown body (no frontmatter)."""
     slug, title, desc, _ = chap
@@ -247,12 +291,10 @@ def render_chapter(chap, paras):
         # Body paragraph
         text = normalise_text(p["text"])
         # Skip stray bare labels like "Arun Deshpande" / "Fig. 37" that appear
-        # by themselves in the docx after page breaks
-        if text and is_stray_label(text):
+        # by themselves in the docx after page breaks, or title-page artifacts.
+        if text and (is_stray_label(text) or is_suppressed_body(text)):
             text = ""
-        if text:
-            lines.append(text + "\n")
-        # Then image references
+        # Image before description (book layout)
         for fig in p["images"]:
             fig_count += 1
             alt = f"Figure {fig_count}"
@@ -260,6 +302,8 @@ def render_chapter(chap, paras):
             if m:
                 alt = f"Figure {m.group(1)}"
             lines.append(f"\n![{alt}](/images/book/{fig})\n")
+        if text:
+            lines.append(text + "\n")
     body = "\n".join(lines)
     # Collapse 3+ blank lines to 2
     body = re.sub(r"\n{3,}", "\n\n", body)
@@ -314,13 +358,23 @@ def write_chapter_file(chap, weight, paras):
         f"{aliases_block}"
         "---\n\n"
     )
+
+    # Italic lead intro — mirrors the Rules chapters' style. Uses the
+    # chapter description as the in-page lead so the page reads naturally
+    # below the chapter title rendered by the layout.
+    lead = f"*{desc}*\n\n"
+
     out_path = os.path.join(EN_OUT, f"{slug}.md")
+    if os.path.basename(out_path) in SKIP_REGENERATE:
+        return None, 0, 0
     with open(out_path, "w", encoding="utf-8") as f:
-        f.write(frontmatter + body)
+        f.write(frontmatter + lead + body)
     return out_path, len(paras), len(body.split())
 
 
 def main():
+    global DOCX_DIR
+    DOCX_DIR = ensure_docx_extracted()
     rels = load_rels()
     all_paras = list(walk_paragraphs(rels))
     print(f"Parsed {len(all_paras)} paragraphs.", file=sys.stderr)
@@ -341,7 +395,11 @@ def main():
         if not paras:
             print(f"{i:3} {chap[0]:<14}      0 (skipped, empty range)")
             continue
-        path, n, wc = write_chapter_file(chap, i, paras)
+        result = write_chapter_file(chap, i, paras)
+        if result[0] is None:
+            print(f"{i:3} {chap[0]:<14}      — (skipped, hand-maintained)")
+            continue
+        path, n, wc = result
         print(f"{i:3} {chap[0]:<14} {n:>6} {wc:>6}  {chap[1]}")
 
 

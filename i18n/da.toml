@@ -10,6 +10,15 @@ other = "Deshpande"
 [watch_videos]
 other = "Se videoer"
 
+[play_video]
+other = "Afspil video"
+
+[watch_on_youtube]
+other = "Se på YouTube"
+
+[close_video]
+other = "Luk"
+
 [youtube_channel]
 other = "YouTube-kanal"
 
@@ -118,6 +127,9 @@ other = "Download PDF"
 [original_source]
 other = "Original kilde"
 
+[original_sources]
+other = "Originale kilder"
+
 [no_books_yet]
 other = "Ingen bøger tilgængelige endnu."
 
@@ -153,6 +165,21 @@ other = "Indholdsfortegnelse"
 
 [language_label]
 other = "Sprog"
+
+[preference_label]
+other = "Præference"
+
+[theme_light]
+other = "Lys"
+
+[theme_dark]
+other = "Mørk"
+
+[theme_switch_light]
+other = "Skift til lys tilstand"
+
+[theme_switch_dark]
+other = "Skift til mørk tilstand"
 
 [coming_soon]
 other = "Kommer snart"

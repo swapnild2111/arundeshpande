@@ -31,6 +31,8 @@
     "pageCount" .pageCount
     "pdf" $pdfPath
     "sourceUrl" .sourceUrl
+    "sources" (.sources | default slice)
+    "coverImage" .coverImage
     "weight" (.weight | default 0)
     "available" $available
     "url" $url

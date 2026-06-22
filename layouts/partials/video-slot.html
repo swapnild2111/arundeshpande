@@ -2,13 +2,22 @@
 {{ $kind := .kind | default "" }}
 {{ $slug := partial "video-slug.html" . }}
 {{ if .id }}
-<a class="video-card video-card--compact{{ if $kind }} video-card--{{ $kind }}{{ end }}" id="v-{{ $slug }}" href="#{{ $slug }}" data-anchor="{{ $slug }}" data-youtube="https://www.youtube.com/watch?v={{ .id }}" data-video-id="{{ .id }}" rel="noopener">
-  <div class="video-thumb">
-    <img src="https://i.ytimg.com/vi/{{ .id }}/hqdefault.jpg" alt="{{ .title }}" loading="lazy">
-    <span class="play-btn" title="Play on YouTube">{{ partial "icons/play.html" . }}</span>
-  </div>
-  {{ if not .hideTitle }}<div class="video-title">{{ .title }}</div>{{ end }}
-</a>
+<article
+  class="video-card video-card--compact{{ if $kind }} video-card--{{ $kind }}{{ end }}"
+  id="v-{{ $slug }}"
+  data-anchor="{{ $slug }}"
+  data-title="{{ .title }}"
+  data-youtube="https://www.youtube.com/watch?v={{ .id }}"
+  data-video-id="{{ .id }}"
+>
+  <button type="button" class="video-play-trigger" aria-label="{{ i18n "play_video" | default "Play video" }}: {{ .title }}">
+    <span class="video-thumb">
+      <img src="https://i.ytimg.com/vi/{{ .id }}/hqdefault.jpg" alt="" loading="lazy" decoding="async">
+      <span class="play-btn" aria-hidden="true">{{ partial "icons/play.html" . }}</span>
+    </span>
+  </button>
+  {{ if not .hideTitle }}<a class="video-title" href="#{{ $slug }}">{{ .title }}</a>{{ end }}
+</article>
 {{ else }}
 <div class="video-card video-card--compact video-card--soon{{ if $kind }} video-card--{{ $kind }}{{ end }}" id="v-{{ $slug }}" aria-disabled="true">
   <div class="video-thumb">

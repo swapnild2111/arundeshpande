@@ -8,6 +8,12 @@ author: "International Carrom Federation"
 
 *Every tournament begins with the equipment. This chapter sets out the exact specifications for the coins, the striker, the table on which the board sits, the chair the player sits on, the powder used to keep the surface smooth, the nets that catch pocketed coins, and the light overhead.*
 
+<div class="callout">
+  <div class="callout-title">Beginner's guide — the board and pieces</div>
+  <p>A standard board has <strong>four corner pockets</strong> (each with a net), <strong>foul lines</strong> along the sides, a <strong>centre circle</strong> for the Queen, and a larger <strong>outer circle</strong> where coins are arranged for the break. Each player has a rectangular <strong>base</strong> at their end of the board — the striker must be placed there before every shot.</p>
+  <p>The set is <strong>9 white, 9 black, 1 red Queen</strong>, plus two strikers (one per player). White and black pieces are smooth wooden discs; the Queen is red. You use the striker to flick your pieces into the pockets — never push it.</p>
+</div>
+
 ## Carrommen
 
 <div class="definition-grid">

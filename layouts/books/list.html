@@ -18,10 +18,14 @@
   {{- $lang := .Site.Language.Lang -}}
   {{- $pdfPath := "" -}}
   {{- $sourceUrl := .Params.sourceUrl | default "" -}}
+  {{- $sources := slice -}}
+  {{- $coverImage := "" -}}
   {{- range (hugo.Data.books.books | default slice) -}}
     {{- if eq .id $bookId -}}
       {{- $pdfPath = index .pdfs $lang | default "" -}}
       {{- with .sourceUrl -}}{{ $sourceUrl = . }}{{- end -}}
+      {{- with .sources -}}{{ $sources = . }}{{- end -}}
+      {{- with .coverImage -}}{{ $coverImage = . }}{{- end -}}
     {{- end -}}
   {{- end -}}
   {{- $pdfExists := false -}}
@@ -47,7 +51,11 @@
   <section class="book-hero">
     <div class="book-hero-info">
       <div class="book-hero-kicker">
-        <span class="kicker-icon">{{ partial "icons/book.html" . }}</span>
+        {{ with $coverImage }}
+          <span class="kicker-cover"><img src="{{ . | relURL }}" alt="" loading="lazy" decoding="async"></span>
+        {{ else }}
+          <span class="kicker-icon">{{ partial "icons/book.html" . }}</span>
+        {{ end }}
         {{ with .Params.tagLabel }}<span class="tag --amber">{{ . }}</span>{{ end }}
       </div>
       <h1>{{ .Title }}</h1>
@@ -83,10 +91,19 @@
           </span>
         {{ end }}
 
-        {{ with $sourceUrl }}
-          <a class="source-link" href="{{ . }}" target="_blank" rel="noopener">
-            {{ i18n "original_source" | default "Original source" }} ↗
-          </a>
+        {{ if $sources }}
+          <div class="source-links">
+            <span class="source-links-label">{{ i18n "original_sources" | default "Original sources" }}</span>
+            {{ range $sources }}
+              <a class="source-link" href="{{ .url }}" target="_blank" rel="noopener">{{ .title }} ↗</a>
+            {{ end }}
+          </div>
+        {{ else }}
+          {{ with $sourceUrl }}
+            <a class="source-link" href="{{ . }}" target="_blank" rel="noopener">
+              {{ i18n "original_source" | default "Original source" }} ↗
+            </a>
+          {{ end }}
         {{ end }}
       </div>
     </aside>

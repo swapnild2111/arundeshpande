@@ -12,17 +12,42 @@ aliases:
   - /en/read/chapter-09/
 ---
 
+*Third Pocket, Cross Third Pocket, Turning, Second Pocket, and Cross Second Pocket.*
+
 ## Third Pocket
+
+![Figure 1](/images/book/fig-19.jpg)
+
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Third Pocket</span>
+    <p class="def">Pocketing to the opposite right pocket by hitting the side frame.</p>
+  </div>
+</div>
 
 As shown in figure 13-A, a coin is near the left frame can be pocketed to the opposite right pocket by hitting it on the side frame by the striker. This stroke is called third pocket. The striker also hits the side frame after hitting the coin.
 
 ## Cross Third Pocket
 
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Cross Third Pocket</span>
+    <p class="def">Third pocket played from a cross line with deflection off the opposite frame.</p>
+  </div>
+</div>
+
 As shown in figure 13-B, a coin near the side frame can be third pocketed by placing the striker in cross Iine and hitting the coin in such a way that the striker gets a deflection and rebounds by hitting the opposite frame. The stroke is called cross third pocket. By playing this stroke, many times our difficult coin in the path of rebound can be made easy or can be pocketed. When there is no coin in the rebound path and cross third is to be played, and then the direction of the striker after hitting the coin should not be towards the pocket while rebounding from the opposite frame. Otherwise there is a chance of a due or double due. Sometimes by this stroke, a front blocked pocket can be opened. When a double due is placed as shown in figure 13-C then by hitting hard on the quarter portion of the right coin the left coin can be pocketed into the opposite right pocket. If there is a gap in between these two coins, however small it may be, this stroke cannot be played. While playing this stroke [shown in, Fig. 13-C] care should be taken that the striker should not come in the way of a coin which is returning from the left frame. You should hit in such a way that the striker should hit the opposite frame after hitting the coin and should come before the coin returns.
 
-![Figure 1](/images/book/fig-19.jpg)
-
 ## Turning
+
+![Figure 2](/images/book/fig-20.jpg)
+
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Turning</span>
+    <p class="def">Pocketing your coin by hitting through an opponent's coin blocking the path.</p>
+  </div>
+</div>
 
 As shown in figure 14-A and B, if the opponent's coin is in front of our coin and these two coins are joint together then by hitting our coin at the center point with medium speed, placing the striker in a straight line with these two coins, our coin can be pocketed. In this case the opponent's coin strikes the side frame and is removed thereby giving way to our coin to move into the pocket. This stroke is called turning. Near our base frame even if there is a gap in between these two coins this stroke can be played. There should not be much gap in between these two coins in front of our base lines.
 
@@ -34,9 +59,14 @@ As shown in figure l4- C there is a gap in between two coins
 
 Here the striker should be placed in a straight line with these two coins and the pocket. The speed of the striker should be such that our coin replaces the opponent's coin by pocketing it and then the striker follows and pockets our coin. If there is powder in between these two coins there is a chance of a double due because both the coins get pocketed without the follow of the striker and when the striker follows there is no coin left to stop the striker going into the pocket.
 
-![Figure 2](/images/book/fig-20.jpg)
-
 ## Second
+
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Second</span>
+    <p class="def">Pocketing to the opposite pocket by hitting the base frame when the opponent blocks the pocket.</p>
+  </div>
+</div>
 
 As shown in figure 15-A the opponent's coin is near the pocket, blocking the way of our coin. In this position, the striker can be placed in cross line with our coin and coin can be pocketed in the opposite pocket by hitting the base frame. This stroke is called a second. This situation arises often and therefore this stroke is very useful. This stroke is not so difficult if the proper angle is taken. The nearer the coin is to the base frame the straighter should the angle of the striker be with the coin the striker should go in the direction opposite to that of the coin.
 
@@ -52,8 +82,15 @@ The difficult coin at the opposite frame can also be made easy. The coin at the 
 
 ## Cross Second
 
+![Figure 3](/images/book/fig-21.jpg)
+
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Cross Second</span>
+    <p class="def">Second pocket played from the base circle with a cross hit on the blocking coin.</p>
+  </div>
+</div>
+
 As shown in figure 15-B the opponent's coin is on the pocket and our coin is behind it. In this position the striker should be placed on the base red circle and should hit our coin at a lower point, so that this coin will hit the side frame and will go into opposite side base pocket and the striker will strike the lower portion of the pocket removing opponent's coin from the pocket.
 
 This stroke is called a cross second.
-
-![Figure 3](/images/book/fig-21.jpg)

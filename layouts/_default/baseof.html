@@ -3,6 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+      } catch (e) {}
+    })();
+  </script>
   {{ partial "seo.html" . }}
   {{ partial "schema.html" . }}
   {{ with .OutputFormats.Get "RSS" }}
@@ -29,9 +37,11 @@
       {{ partial "footer.html" . }}
     </main>
   </div>
+  {{ partial "video-player.html" . }}
   {{ block "scripts" . }}{{ end }}
   {{ partial "analytics.html" . }}
   <script src="{{ "js/app.js" | relURL }}" defer></script>
+  <script src="{{ "js/video-player.js" | relURL }}" defer></script>
   <script src="{{ "js/deep-links.js" | relURL }}" defer></script>
 </body>
 </html>

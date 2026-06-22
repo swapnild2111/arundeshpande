@@ -9,34 +9,71 @@ aliases:
   - /en/read/chapter-02/
 ---
 
-## Equipment
+*Every part of the carrom set — board, frames, pockets, base lines, circles, coins, striker, stand, and lamp. Know your equipment before you learn your strokes.*
 
-## Carrom board
+## Carrom Board
 
-Plywood – The playing surface of the carrom board is made of plywood and it is 29 inches square. The thickness is generally from 12 mm to 16 mm
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Playing surface</span>
+    <p class="def">Plywood, <strong>29 inches</strong> square. Thickness generally <strong>12–16 mm</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Frames</span>
+    <p class="def">Four sides, <strong>3 inches</strong> wide, <strong>2 inches</strong> thick.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Pockets</span>
+    <p class="def">Four corner pockets, each <strong>4.45 cm</strong> in diameter.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Base lines</span>
+    <p class="def">Four lines; distance between the two lines is <strong>3.18 cm</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Base circles</span>
+    <p class="def">Eight circles, <strong>3.18 cm</strong> diameter, painted red.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Centre circle</span>
+    <p class="def">Red circle, <strong>3.18 cm</strong> in diameter.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Outer circle</span>
+    <p class="def"><strong>17 cm</strong> in diameter.</p>
+  </div>
+</div>
 
-Frames – There are four frames on four sides of carrom board. The size of the frame is three inches in width. The thickness of the frame is two inches.
+## Coins and Striker
 
-Pockets – There are four pockets on four corners of the carrom board. The size of every pocket is 4.45 cms in diameter.
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Coins</span>
+    <p class="def"><strong>9 white, 9 black, 1 red</strong> (Queen) — 19 in total. Diameter <strong>3.18 cm</strong>; weight <strong>5.25–5.50 g</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Striker</span>
+    <p class="def">Weight not more than <strong>15 g</strong>. Maximum diameter <strong>4.13 cm</strong>.</p>
+  </div>
+</div>
 
-Base lines – There are four base lines. The distance between these two lines is 3.18cms.
+## Stand, Seat, and Light
 
-Base circles – There are eight base circles measuring 3.18 cms in diameter and painted in red colour.
-
-Centre circle – There is a centre circle in red colour which is 3.18 in diameter.
-
-Outer circle – There is outer circle of 17cms in diameter.
-
-Coins – There are 9 white, 9 black and one red coin. Red coin is called Queen.
-
-Total there are 19 coins. The diameter of each coin is 3.18 cms. They are between 5.25 cms to 5.50 cms.
-
-Striker – The weight of the striker should not exceed 15gms. Maximum diameter of the striker is 4.13cms.
-
-Stand – The height of the stand is between 63 cms to 70 cms.
-
-Stool or chair – The height of the stool or chair should be between 40 cms to 50 cms.
-
-Lamp – Lamp with the shed should be hung at the center of the carrom board in such a way that the naked light should not fall on the eyes of players.
-
-Sitting position – In singles players sit opposite to each others. In doubles Partners sit opposite to each others.
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Stand</span>
+    <p class="def">Height between <strong>63 cm</strong> and <strong>70 cm</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Stool or chair</span>
+    <p class="def">Height between <strong>40 cm</strong> and <strong>50 cm</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Lamp</span>
+    <p class="def">Hung at the centre of the board so naked light does not fall on the players' eyes.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Sitting position</span>
+    <p class="def">Singles: players sit opposite each other. Doubles: partners sit opposite each other.</p>
+  </div>
+</div>

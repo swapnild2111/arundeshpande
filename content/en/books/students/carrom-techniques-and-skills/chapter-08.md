@@ -12,7 +12,18 @@ aliases:
   - /en/read/chapter-08/
 ---
 
+*Glance, Double Glance, Brush, Rebound, Simple Rebound, Langda Rebound, and Hook.*
+
 ## Glance
+
+![Figure 1](/images/book/fig-17.jpg)
+
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Glance</span>
+    <p class="def">Pocket the second coin while the first coin hits the opposite frame and comes near the base frame.</p>
+  </div>
+</div>
 
 As shown in figure 11-A, a striker is released on the first coin and the second coin is pocketed while the first comes near the base frame by hitting opposite frame. This stroke is called a glance. While playing a glance care should be taken. Many
 
@@ -30,27 +41,58 @@ One can see from the above fig. that the position of coin for the glance is very
 
 ## Double Glance
 
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Double Glance</span>
+    <p class="def">Glancing two coins one after the other when one glance cannot reach the target.</p>
+  </div>
+</div>
+
 Sometimes the position of the coins is such that a player cannot aim the striker on the intended coin by glancing one coin. Thus, if there is a chance of glancing two coins one after the other, this stroke is called a double glance. A triple glance is very rare occurrence.
 
 ## Brush
 
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Brush</span>
+    <p class="def">Like a glance, but the first coin goes to the opposite or side frame instead of the base frame.</p>
+  </div>
+</div>
+
 This is just like a glance. The difference is that the coin which striker hits first, goes to the opposite or side frame instead of coming to the base frame. This stroke does not require much force. For playing a brush the striker should hit the first coin at side point. This stroke is easier than glance. If there is any obstruction for our coin, it can be removed by brushing it and pocketing our coin. This stroke is used in offensive game. By playing the brush the position of the coin on the board always changes and therefore the opponent finds it difficult to anticipate any thing and he cannot plan for his next turn. This stroke is very essential because a player can create a lot of favourable positions by applying this stroke.
 
-![Figure 1](/images/book/fig-17.jpg)
-
 ## Rebound
+
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Rebound</span>
+    <p class="def">Pocketing a coin near the left or right frame by hitting the opposite frame.</p>
+  </div>
+</div>
 
 If a coin near our left or right frame is pocketed by hitting on the opposite frame, the stroke is called a rebound.
 
 ## Simple Rebound
 
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Simple Rebound</span>
+    <p class="def">A coin near the left frame pocketed by hitting the striker on the opposite frame.</p>
+  </div>
+</div>
+
 As shown in figure l2-A, a coin near to the left frame is pocketed by hitting the striker on the opposite frame. For aiming, two straight imaginary lines can be drawn from the coin and the striker position can be chosen as a point for aiming rebound. There should not be powder near the opposite frame, while playing rebound. The striker will return slowly if there is powder near the opposite frame as it does not get a stroke. If there is powder near the opposite frame which cannot be removed in a current board, then the rebound should be played with a little more force.
 
 ## Langda Rebound or Off the Side Rebound
 
-As shown in figure 12-B, when a coin is pocketed by hitting the striker on the opposite and side frame the stroke is called langda rebound. There should not be excess powder near the opposite or side frame when this stroke is to be
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Langda Rebound or Off the Side Rebound</span>
+    <p class="def">Pocketing by hitting the opposite and side frame.</p>
+  </div>
+</div>
 
-played. If there is powder near the side frame the striker will not get a deflection, will not hit the outer portion of the coin will hit the outer portion of the coin but will hit its inner portion and there will be every chance of a due. After deflecting from the inner portion of the coin the striker will travel towards the pocket.
+As shown in figure 12-B, when a coin is pocketed by hitting the striker on the opposite and side frame the stroke is called langda rebound. There should not be excess powder near the opposite or side frame when this stroke is to be played. If there is powder near the side frame the striker will not get a deflection, will not hit the outer portion of the coin will hit the outer portion of the coin but will hit its inner portion and there will be every chance of a due. After deflecting from the inner portion of the coin the striker will travel towards the pocket.
 
 If there are two coins as shown in figure 12-B this stroke is advantageous. There are three advantages to it.
 
@@ -64,8 +106,13 @@ Sometimes there is a different position. The striker touches the opponent's coin
 
 ## Hook
 
-As shown in figure 12 - C, when a coin is pocketed by a rebound except on the left or right frame side, the stroke is called a hook. When there is a obstruction for our coin to travel to the front pocket or the base pocket by double, this stroke is used
-
-to pocket the coin into our base pocket. When a coin from the opposite base, is to be pocketed by a cut then a player should take such an angle that if he misses his cut, the striker will hit the opposite frame and drag the coin to his base pocket by a hook.
-
 ![Figure 2](/images/book/fig-18.jpg)
+
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Hook</span>
+    <p class="def">Pocketing by rebound except off the left or right frame side.</p>
+  </div>
+</div>
+
+As shown in figure 12 - C, when a coin is pocketed by a rebound except on the left or right frame side, the stroke is called a hook. When there is a obstruction for our coin to travel to the front pocket or the base pocket by double, this stroke is used to pocket the coin into our base pocket. When a coin from the opposite base, is to be pocketed by a cut then a player should take such an angle that if he misses his cut, the striker will hit the opposite frame and drag the coin to his base pocket by a hook.

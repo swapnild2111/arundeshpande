@@ -13,6 +13,7 @@ author: "International Carrom Federation"
 <div class="callout">
   <div class="callout-title">The covering rule</div>
   <p>A player may pocket the Queen only after at least one of his own C/m has already been pocketed. To <strong>cover</strong> the Queen, he must pocket one of his own C/m in the same stroke or the immediately following stroke.</p>
+  <p>If you pocket the Queen <strong>before</strong> any of your own coins, or without covering her on the next shot, the Queen is taken out and placed in the centre — you lose your turn. A board cannot end while the Queen is still on the table; she must be pocketed and covered by the winner.</p>
 </div>
 
 **93.** The Queen shall be placed by the Umpire only in the Centre Circle. If a shot is automatically formed when placed, it cannot be altered.

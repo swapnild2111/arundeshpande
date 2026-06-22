@@ -9,28 +9,68 @@ aliases:
   - /en/read/chapter-03/
 ---
 
-## Basic rules
+*How a game is set up and scored, the rules around the Queen, fouls, and dues — the framework every stroke in this book assumes you already know.*
 
-Arrangements of coins – Red coin (Queen) should be placed in the centre circle. Then black and white coins are placed alternately adjacent to the queen making a small circle. Then make the other circle in such a way that white coins will look like a letter 'Y'.
+## Setting Up and Scoring
 
-Turn of play. As long as a player pockets his/her coins, the turn of the player shall be continued.
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Arrangement</span>
+    <p class="def">Queen in the centre circle. Black and white coins placed alternately around her in a small circle, then an outer circle so whites form a letter <strong>Y</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Turn of play</span>
+    <p class="def">As long as a player pockets his or her coins, the turn continues.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Game length</span>
+    <p class="def"><strong>25 points</strong> to win.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Scoring</span>
+    <p class="def">Each coin = <strong>1 point</strong>; Queen = <strong>3 points</strong>. Winner of a board scores opponent's remaining coins plus 3 for the Queen if pocketed.</p>
+  </div>
+</div>
 
-Game – The game is of 25 points.
+## The Queen
 
-How to score – Each coin has one point and the Queen has three points. The player who pockets all of his/her coins he/she wins the board. The player gets points equal to his opponent's coins on the board plus three points for the Queen if he/she has pocketed it.
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Cover</span>
+    <p class="def">After pocketing the Queen, the player must pocket one of his or her own coins in the same or next stroke.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Failure to cover</span>
+    <p class="def">Queen is removed from the pocket and placed in the centre circle by the umpire.</p>
+  </div>
+</div>
 
-Queen – Queen has three points. After pocketing Queen a player must pocket his/her coin. It is called cover. If a player does not pocket coin after pocketing Queen then Queen is taken out of the pocket and placed in the center circle by the umpire.
+## Fouls and Dues
 
-Fouls – There are two types of fouls, Simple foul and technical foul. A technical foul is a foul before pocketing coin. In technical foul player's turn continues.
-
-Simple foul is when a player makes foul after or during pocketing coin.
-
-Dues – If while pocketing coin, only striker is pocketed it is called a due.One coin of the player who makes a due is taken out and is placed by the opponent in the outer circle. Player loses turn. If the player pockets striker with the coin then it is called a double due. In this case two coins are placed by the opponent in the outer circle. Player's turn is continued
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Technical foul</span>
+    <p class="def">A foul <em>before</em> pocketing a coin. The player's turn continues.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Simple foul</span>
+    <p class="def">A foul during or after pocketing a coin.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Due</span>
+    <p class="def">Striker pocketed alone or with a coin. One coin is placed in the outer circle by the opponent; player loses turn.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Double due</span>
+    <p class="def">Striker and coin pocketed together. Two coins placed in the outer circle; player's turn continues.</p>
+  </div>
+</div>
 
 ## Other Rules
 
-A player should touch both the lines while playing. Red base circle should be fully covered while playing from it.
+<div class="callout">
+  <div class="callout-title">At the table</div>
+  <p>A player should touch both base lines while playing. The red base circle must be fully covered when playing from it. The elbow must not come onto the playing surface; feet must not cross the imaginary lines.</p>
+</div>
 
-While playing elbow should not come on to the playing surface. While playing feet should not cross the imaginary lines.
-
-If a coin is jumped out of the carrom board then it is placed in the center circle by the umpire. If the coin is in standing position, it is kept as it is. Overlapped coins are kept as it is.
+If a coin jumps off the board, the umpire places it in the centre circle. A coin in a standing position is kept as it is. Overlapped coins are left undisturbed.

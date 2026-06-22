@@ -7,8 +7,6 @@
     {{ if and (ne $filter "all") (ne $catID $filter) }}
       {{ continue }}
     {{ end }}
-    {{ $tagClass := "tag" }}
-    {{ if eq $catID "rules" }}{{ $tagClass = "tag --amber" }}{{ end }}
     {{ $slug := .slug }}
     {{ $available := .available | default false }}
     <article
@@ -22,14 +20,18 @@
       {{ if $available }}
         <a class="book-card-link" href="{{ .url }}">
           <div class="cover">
-            <div class="cover-icon">{{ partial "icons/book.html" $ }}</div>
+            {{ with .coverImage }}
+              <img src="{{ . | relURL }}" alt="{{ $.title }}" loading="lazy" decoding="async">
+            {{ else }}
+              <div class="cover-icon">{{ partial "icons/book.html" $ }}</div>
+            {{ end }}
           </div>
           <div class="body">
             <h2 class="title">{{ .title }}</h2>
             <div class="meta">
-              {{ with .author }}<span>{{ . }}</span>{{ end }}
-              {{ with .pageCount }}<span>{{ . }} {{ i18n "page_count" | default "pages" }}</span>{{ end }}
-              {{ with .tagLabel }}<span class="{{ $tagClass }}">{{ . }}</span>{{ end }}
+              <span class="meta-row meta-author">{{ with .author }}{{ . }}{{ end }}</span>
+              <span class="meta-row meta-pages">{{ with .pageCount }}{{ . }} {{ i18n "page_count" | default "pages" }}{{ end }}</span>
+              <span class="meta-row meta-tag">{{ with .tagLabel }}<span class="tag --amber">{{ . }}</span>{{ end }}</span>
             </div>
             {{ with .description }}<p class="desc">{{ . }}</p>{{ end }}
           </div>
@@ -47,10 +49,12 @@
           <div class="body">
             <h2 class="title">{{ .title }}</h2>
             <div class="meta">
-              {{ with .author }}<span>{{ . }}</span>{{ end }}
-              {{ with .pageCount }}<span>{{ . }} {{ i18n "page_count" | default "pages" }}</span>{{ end }}
-              {{ with .tagLabel }}<span class="{{ $tagClass }}">{{ . }}</span>{{ end }}
-              <span class="tag">{{ i18n "coming_soon" | default "Coming soon" }}</span>
+              <span class="meta-row meta-author">{{ with .author }}{{ . }}{{ end }}</span>
+              <span class="meta-row meta-pages">{{ with .pageCount }}{{ . }} {{ i18n "page_count" | default "pages" }}{{ end }}</span>
+              <span class="meta-row meta-tag">
+                {{ with .tagLabel }}<span class="tag --amber">{{ . }}</span>{{ end }}
+                <span class="tag">{{ i18n "coming_soon" | default "Coming soon" }}</span>
+              </span>
             </div>
             {{ with .description }}<p class="desc">{{ . }}</p>{{ end }}
           </div>

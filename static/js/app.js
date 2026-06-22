@@ -1,4 +1,36 @@
 (function () {
+  // Theme (dark default, light optional)
+  var THEME_KEY = 'theme';
+
+  function currentTheme() {
+    return document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+  }
+
+  function updateThemeToggleLabels(theme) {
+    document.querySelectorAll('[data-theme-toggle]').forEach(function (btn) {
+      var isLight = theme === 'light';
+      btn.setAttribute('aria-label', btn.getAttribute(isLight ? 'data-aria-dark' : 'data-aria-light') || '');
+    });
+  }
+
+  function applyTheme(theme) {
+    if (theme === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+      theme = 'dark';
+    }
+    try { localStorage.setItem(THEME_KEY, theme); } catch (err) {}
+    updateThemeToggleLabels(theme);
+  }
+
+  document.querySelectorAll('[data-theme-toggle]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      applyTheme(currentTheme() === 'light' ? 'dark' : 'light');
+    });
+  });
+  updateThemeToggleLabels(currentTheme());
+
   // Mobile sidebar toggle
   var toggle = document.querySelector('.nav-toggle');
   var sidebar = document.querySelector('.sidebar');

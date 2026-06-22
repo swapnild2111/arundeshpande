@@ -2,8 +2,9 @@ books:
   - id: carrom-techniques-and-skills
     category: students
     weight: 1
+    coverImage: "images/book/fig-02.jpg"
     author: "Arun Deshpande"
-    pageCount: 14
+    pageCount: 73
     chapters: true
     pdfs:
       en: "downloads/carrom-techniques-and-skills-en.pdf"
@@ -21,10 +22,6 @@ books:
       en: "Read online"
       da: "Læs online"
       de: "Online lesen"
-    # Marked false while content is still in review. The pages still
-    # render at /en/books/students/carrom-techniques-and-skills/... so
-    # local development continues to work; the library card just shows a
-    # "Coming soon" state to public visitors.
     languages:
       en: false
       da: false
@@ -33,10 +30,16 @@ books:
   - id: official-carrom-rules
     category: rules
     weight: 10
+    coverImage: "images/book/official-rules-cover.jpg"
     author: "International Carrom Federation (ICF)"
     pageCount: 13
     chapters: true
     sourceUrl: "https://www.iakc.org/wp-content/uploads/2020/02/Carrom-Official-Rules.pdf"
+    sources:
+      - title: "ICF Official Rules (PDF)"
+        url: "https://www.iakc.org/wp-content/uploads/2020/02/Carrom-Official-Rules.pdf"
+      - title: "wikiHow — Play Carrom for Beginners"
+        url: "https://www.wikihow.com/Play-Carrom-for-Beginners"
     pdfs:
       en: "downloads/carrom-official-rules-en.pdf"
       da: "downloads/carrom-official-rules-da.pdf"

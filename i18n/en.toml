@@ -10,6 +10,15 @@ other = "Deshpande"
 [watch_videos]
 other = "Watch Videos"
 
+[play_video]
+other = "Play video"
+
+[watch_on_youtube]
+other = "Watch on YouTube"
+
+[close_video]
+other = "Close"
+
 [youtube_channel]
 other = "YouTube Channel"
 
@@ -118,6 +127,9 @@ other = "Download PDF"
 [original_source]
 other = "Original source"
 
+[original_sources]
+other = "Original sources"
+
 [no_books_yet]
 other = "No books available yet."
 
@@ -153,6 +165,21 @@ other = "Table of contents"
 
 [language_label]
 other = "Language"
+
+[preference_label]
+other = "Preference"
+
+[theme_light]
+other = "Light"
+
+[theme_dark]
+other = "Dark"
+
+[theme_switch_light]
+other = "Switch to light mode"
+
+[theme_switch_dark]
+other = "Switch to dark mode"
 
 [coming_soon]
 other = "Coming soon"

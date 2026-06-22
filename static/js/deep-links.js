@@ -250,6 +250,11 @@
           detail: { num: psCtx.num, updateHash: false }
         }));
         window.setTimeout(function () { highlightAndScroll(el); }, 120);
+        if (el.getAttribute('data-video-id') && window.VideoPlayer) {
+          window.setTimeout(function () {
+            window.VideoPlayer.openFromCard(el);
+          }, 320);
+        }
         return true;
       }
 
@@ -270,21 +275,16 @@
         return true;
       }
       highlightAndScroll(el);
+      if (el.getAttribute('data-video-id') && window.VideoPlayer) {
+        window.setTimeout(function () {
+          window.VideoPlayer.openFromCard(el);
+        }, 200);
+      }
       return true;
     }
 
     return false;
   }
-
-  document.addEventListener('click', function (e) {
-    var play = e.target.closest('.play-btn');
-    var card = e.target.closest('.video-card[data-youtube]');
-    if (play && card) {
-      e.preventDefault();
-      e.stopPropagation();
-      window.open(card.getAttribute('data-youtube'), '_blank', 'noopener');
-    }
-  });
 
   window.addEventListener('hashchange', applyDeepLink);
   document.addEventListener('DOMContentLoaded', applyDeepLink);

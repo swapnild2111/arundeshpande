@@ -8,6 +8,12 @@ author: "International Carrom Federation"
 
 *Every board begins with the Break — the opening shot that scatters the cluster of 19 coins. This chapter covers how the coins are arranged, who takes the Break, what counts as a valid Break, and how turns alternate through the rest of the board, the game, and the match.*
 
+<div class="callout">
+  <div class="callout-title">Beginner's guide — setting up the break</div>
+  <p>Place the <strong>Queen in the centre circle</strong>. Arrange the other 18 coins in two compact rings around her, <strong>alternating black and white</strong>, all touching each other inside the outer circle. ICF Law also specifies a <strong>"Y" of three white coins</strong> in the second row — see Rule 41.</p>
+  <p>The player who breaks plays <strong>white</strong> for that board; the opponent has black. After the umpire calls <em>Play</em>, the breaker has <strong>15 seconds</strong> to strike. In casual play, a coin toss decides who breaks first; turns continue as long as you pocket your own coins.</p>
+</div>
+
 ## Arranging the Coins for the Break
 
 **41.** &nbsp;&nbsp;a) Before the break, the C/m are so arranged, in a flat position, that the **Queen shall occupy the Centre Circle** and the rest of the C/m are placed around the Queen in the first row, keeping the Black and White C/m alternately.

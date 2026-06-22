@@ -10,6 +10,15 @@ other = "Deshpande"
 [watch_videos]
 other = "Videos ansehen"
 
+[play_video]
+other = "Video abspielen"
+
+[watch_on_youtube]
+other = "Auf YouTube ansehen"
+
+[close_video]
+other = "Schließen"
+
 [youtube_channel]
 other = "YouTube-Kanal"
 
@@ -118,6 +127,9 @@ other = "PDF herunterladen"
 [original_source]
 other = "Originalquelle"
 
+[original_sources]
+other = "Originalquellen"
+
 [no_books_yet]
 other = "Noch keine Bücher verfügbar."
 
@@ -153,6 +165,21 @@ other = "Inhaltsverzeichnis"
 
 [language_label]
 other = "Sprache"
+
+[preference_label]
+other = "Einstellung"
+
+[theme_light]
+other = "Hell"
+
+[theme_dark]
+other = "Dunkel"
+
+[theme_switch_light]
+other = "Zum hellen Modus wechseln"
+
+[theme_switch_dark]
+other = "Zum dunklen Modus wechseln"
 
 [coming_soon]
 other = "In Vorbereitung"

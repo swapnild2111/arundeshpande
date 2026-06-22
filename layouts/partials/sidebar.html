@@ -31,8 +31,16 @@
           {{ end }}
         </li>
         {{ if eq .Identifier "contact" }}
-        <li class="sidebar-lang">
-          {{ partial "lang-switcher.html" $current }}
+        <li class="sidebar-prefs">
+          <p class="sidebar-prefs-label" id="sidebar-prefs-label">{{ i18n "preference_label" | default "Preference" }}</p>
+          <div class="sidebar-prefs-controls" aria-labelledby="sidebar-prefs-label">
+            <div class="sidebar-lang">
+              {{ partial "lang-switcher.html" $current }}
+            </div>
+            <div class="sidebar-theme">
+              {{ partial "theme-switcher.html" $current }}
+            </div>
+          </div>
         </li>
         {{ end }}
       {{ end }}
