@@ -1,10 +1,9 @@
 ---
 title: "Om"
 description: "International carrom-træner, forfatter og ambassadør for sporten."
+aliases:
+  - /about/
 date: 2026-01-01
-sitemap:
-  disable: true
-seoNoindex: true
 ---
 
 Født og opvokset i **Thane, Maharashtra**, begyndte Arun Deshpandes carrom-rejse i slutningen af 1950'erne, og han voksede til en af de mest dekorerede spillere i indisk carrom-historie.

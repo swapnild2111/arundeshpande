@@ -4,9 +4,6 @@ description: "International Carrom Coach, author, and ambassador for the sport."
 aliases:
   - /about/
 date: 2026-01-01
-sitemap:
-  disable: true
-seoNoindex: true
 ---
 
 Born and raised in **Thane, Maharashtra**, Arun Deshpande began his carrom journey in the late 1950s, rising to become one of the most decorated players in Indian carrom history.

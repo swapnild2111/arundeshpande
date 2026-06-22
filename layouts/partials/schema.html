@@ -53,6 +53,38 @@
 {{- end -}}
 {{- $graph = $graph | append $webpage -}}
 
+{{- if eq .Layout "contact" -}}
+  {{- $contact := dict
+    "@type" "ContactPage"
+    "name" .Title
+    "description" $desc
+    "url" .Permalink
+    "inLanguage" (.Site.Language.Lang)
+    "isPartOf" (dict "@id" (printf "%s/#website" $siteURL))
+  -}}
+  {{- with .Params.email -}}
+    {{- $contact = merge $contact (dict "email" .) -}}
+  {{- end -}}
+  {{- with .Params.phone -}}
+    {{- $contact = merge $contact (dict "telephone" .) -}}
+  {{- end -}}
+  {{- with .Params.location -}}
+    {{- $contact = merge $contact (dict "address" (dict "@type" "PostalAddress" "addressLocality" .)) -}}
+  {{- end -}}
+  {{- $graph = $graph | append $contact -}}
+{{- else if eq .File.ContentBaseName "about" -}}
+  {{- $profile := dict
+    "@type" "ProfilePage"
+    "name" .Title
+    "description" $desc
+    "url" .Permalink
+    "inLanguage" (.Site.Language.Lang)
+    "isPartOf" (dict "@id" (printf "%s/#website" $siteURL))
+    "mainEntity" (dict "@id" (printf "%s/#person" $siteURL))
+  -}}
+  {{- $graph = $graph | append $profile -}}
+{{- end -}}
+
 {{- if and (not .IsHome) (ne .Kind "home") -}}
   {{- $crumbs := slice -}}
   {{- $pos := 1 -}}
