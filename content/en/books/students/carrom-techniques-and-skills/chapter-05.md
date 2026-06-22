@@ -7,9 +7,6 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-07.jpg"
   alt: "The Break"
-aliases:
-  - /read/chapter-05/
-  - /en/read/chapter-05/
 ---
 
 *The break sets the tone for every board. Arun shows two reliable methods from the left base circle — and when to try the reverse break for a slam chance.*

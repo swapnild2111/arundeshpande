@@ -7,9 +7,6 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-10.jpg"
   alt: "Strokes: Cut, Double, Press"
-aliases:
-  - /read/chapter-06/
-  - /en/read/chapter-06/
 ---
 
 *Shower of Strokes, Straight Cut, Cross Cut, Double, Cross Double, and the Press.*

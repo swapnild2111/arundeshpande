@@ -341,12 +341,6 @@ def write_chapter_file(chap, weight, paras):
             f"  alt: \"{alt}\"\n"
         )
 
-    aliases_block = (
-        "aliases:\n"
-        f"  - /read/{slug}/\n"
-        f"  - /en/read/{slug}/\n"
-    )
-
     frontmatter = (
         "---\n"
         f"title: \"{title}\"\n"
@@ -355,7 +349,6 @@ def write_chapter_file(chap, weight, paras):
         "date: 2026-01-01\n"
         "author: \"Arun Deshpande\"\n"
         f"{cover_block}"
-        f"{aliases_block}"
         "---\n\n"
     )
 

@@ -1,78 +1,136 @@
-# Plan: Publish the book in EN, then translate to DE
+# Plan: Publish books in EN, then translate
 
-Source: `CarromTechniqandSkills.docx` — *Carrom Techniques and Skills* by Arun Deshpande.
+Original scope: *Carrom Techniques and Skills* (Arun Deshpande) — English first, German second with federation review.
+
+**Current scope:** both site books in **8 languages** — EN, DA, DE, MR, IT, FR, SI, HI. AI first drafts are done for all languages; human federation review is still pending for non-English.
+
+| Book | EN source | Chapters | Images |
+|---|---|---|---|
+| **Carrom Techniques and Skills** | `static/downloads/CarromTechniqandSkills.docx` | 14 | 52 (`static/images/book/fig-NN.jpg`) |
+| **Official Carrom Rules & Regulations** | ICF PDF + wikiHow callouts | 8 | cover only |
+
+Techniques book stats (from .docx parse):
 
 | Property | Value |
 |---|---|
 | Word count | ~16,830 words |
 | Paragraphs | 270 |
 | Embedded images | 52 |
-| Native structure | Already uses Heading1 / Heading2 styles |
+| Native structure | Heading1 / Heading2 styles |
+
+---
+
+## Status at a glance
+
+| Phase | What | Status |
+|---|---|---|
+| **0** | Extract .docx → images + chapter mapping | **Done** — `scripts/extract-book.py`, images at `static/images/book/fig-NN.jpg` |
+| **1** | English chapter pages live on site | **Done** — `content/en/books/…`, Hugo builds clean |
+| **2** | Glossary locked in README | **Done** (DE-focused; federation may still adjust) |
+| **3** | AI translation drafts | **Done** — all 8 langs × both books via `scripts/translate-books.py` |
+| **4** | Federation / native-speaker review | **Pending** — every non-EN chapter still has AI-draft `translatedBy` |
+| **5** | PDFs per language | **Partial** — EN PDFs only; other langs auto-disable download until file exists |
+| **6** | Arun sign-off on EN techniques book | **Pending** — editorial review before treating EN as final |
 
 ---
 
 ## Workflow rules (locked)
 
-1. **English first, German second.** No DE chapter is written until its EN counterpart is finalised and merged.
-2. **Glossary is locked before any DE chapter is translated.** Approve all carrom terms with the German Carrom Federation upfront.
-3. **AI first draft, federation review second.** Claude generates the German translation. Arun hands it to the German Carrom Federation for a corrections pass. The reviewer's name goes in `translatedBy` frontmatter on every chapter.
-4. **Images shared across languages.** All extracted images live at `static/images/book/` and are referenced by identical paths from EN and DE.
+1. **English first.** No translation work starts until the English source chapter is finalised.
+2. **Glossary before human translation.** For German, agree carrom terms with the Deutscher Carrom Verband (DCV) before federation review. Extend the same principle to other languages where a national federation exists.
+3. **AI first draft, human review second.** `scripts/translate-books.py` generates drafts. Reviewer's name replaces the generic `translatedBy` after sign-off.
+4. **Images shared across languages.** All figures live at `static/images/book/` and are referenced identically from every language (`/images/book/fig-NN.jpg`).
+5. **One chapter per commit** during federation review — keeps git history traceable.
+6. **EN edit triggers a revisit.** Any material change to a published English chapter must be mirrored to every enabled translation (and re-reviewed if substantive).
 
 ---
 
-## Phase 0 — Extract & restructure (Claude, ~1 session)
+## Content paths
 
-Goal: get the .docx contents into a Hugo-friendly form **without translating yet**.
+Books live under Hugo's `books` section (not the retired `/read` or `/book` URL trees):
 
-- **0.1** Extract all 52 images from the .docx into `static/images/book/` with stable filenames (`book-fig-01.png`, `book-fig-02.png`, ...). Build a list of which image was anchored to which paragraph so we can place them in the right markdown later.
-- **0.2** Parse the .docx XML into a structured JSON: every paragraph with its style (`Heading1`, `Heading2`, `BodyText`, `-`), text, and any image anchor.
-- **0.3** Map the heading structure to chapter pages. **Final mapping (locked after parsing all 270 paragraphs and 52 image anchors):**
+```
+content/{lang}/books/
+├── students/carrom-techniques-and-skills/
+│   ├── _index.md
+│   └── chapter-01.md … chapter-14.md
+└── rules/official-carrom-rules/
+    ├── _index.md
+    └── chapter-01.md … chapter-08.md
+```
 
-| # | Slug | Title | Words | Images |
+Catalog metadata (titles, descriptions, PDF paths, per-lang enable flags): `data/books.yaml`.
+
+Site layouts: `layouts/books/{list,single,category}.html`.
+
+---
+
+## Tooling
+
+| Script | Purpose |
+|---|---|
+| `scripts/generate-book-pdfs.py` | Translate `CarromTechniqandSkills.docx` to all 8 languages and export `static/downloads/carrom-techniques-and-skills-{lang}.pdf` (requires LibreOffice) |
+| `scripts/translate-books.py` | Translate both books EN → `da` / `de` / `mr` / `it` / `fr` / `si` / `hi`. Preserves HTML, image paths, URLs, and carrom terms. Use `--force` to overwrite. |
+| `scripts/setup-language.py` | Scaffold i18n, about bio, and non-book pages for a new language |
+| `scripts/beautify-techniques-book.py` | One-off HTML/markdown cleanup pass on techniques chapters |
+
+Translation deps: `python3 -m venv .venv && pip install deep-translator pyyaml`
+
+---
+
+## Phase 0 — Extract & restructure ✅ Done
+
+Goal: get the .docx contents into a Hugo-friendly form **without translating**.
+
+- **0.1** ✅ Extract 52 images → `static/images/book/fig-01.jpg` … `fig-52.jpg` (resized JPEGs; original docx names `image1.png` … `image52.png`).
+- **0.2** ✅ Parse docx XML paragraph-by-paragraph (styles, text, image anchors) inside `extract-book.py`.
+- **0.3** ✅ Chapter mapping locked:
+
+| # | Slug | Title (as published) | ~Words | ~Images |
 |---|---|---|---|---|
-|  1 | `chapter-01` | Introduction: What is Carrom | 112 | 6 |
-|  2 | `chapter-02` | Equipment | 277 | 1 |
-|  3 | `chapter-03` | Basic Rules | 363 | 0 |
-|  4 | `chapter-04` | Grips | 511 | 9 |
-|  5 | `chapter-05` | The Break | 299 | 5 |
-|  6 | `chapter-06` | Strokes — Cut, Double, Press | 1,158 | 9 |
-|  7 | `chapter-07` | Touch, Shot, Pair, Canon | 1,231 | 7 |
-|  8 | `chapter-08` | Glance, Brush, Rebound, Hook | 1,147 | 6 |
-|  9 | `chapter-09` | Pockets and Turning | 985 | 8 |
+| 1 | `chapter-01` | The Mantra | 112 | 6 |
+| 2 | `chapter-02` | Equipment | 277 | 1 |
+| 3 | `chapter-03` | Basic Rules | 363 | 0 |
+| 4 | `chapter-04` | Grips | 511 | 9 |
+| 5 | `chapter-05` | The Break | 299 | 5 |
+| 6 | `chapter-06` | Strokes: Cut, Double, Press | 1,158 | 9 |
+| 7 | `chapter-07` | Touch, Shot, Pair, Cannon | 1,231 | 7 |
+| 8 | `chapter-08` | Glance, Brush, Rebound, Hook | 1,147 | 6 |
+| 9 | `chapter-09` | Pockets and Turning | 985 | 8 |
 | 10 | `chapter-10` | Slip, Striker Slip, Double Touch | 413 | 3 |
 | 11 | `chapter-11` | Bomb and Force | 1,060 | 17 |
 | 12 | `chapter-12` | Defence and Offence | 3,602 | 12 |
 | 13 | `chapter-13` | Mental Qualities of a Player | 3,802 | 9 |
 | 14 | `chapter-14` | Advanced Stroke Positions | 1,798 | 32 |
-|   |   | **TOTAL** | **16,758** | **52*** |
+| | | **TOTAL** | **~16,758** | **52** |
 
-\* Some images are anchored to paragraphs that fall on a chapter boundary; the final placement happens during Phase 1 when we walk the docx XML paragraph-by-paragraph. The 52 image count is the total in the docx; per-chapter counts above are best estimates from paragraph windows.
-
----
-
-## Phase 1 — English chapter pages (Claude, ~1 session)
-
-Goal: every chapter listed above lives at `content/en/read/<slug>.md` and renders cleanly with images.
-
-- **1.1** Generate the markdown for every chapter from the structured JSON. Each chapter file gets frontmatter (`title`, `weight`, `cover`, `date`, `author`) plus the body in markdown with image references at their original positions.
-- **1.2** Light editorial pass — fix any OCR-style glitches the docx has, normalise carrom punctuation (e.g. "Carrom" capitalised, smart quotes, em dashes), but **do not change meaning or remove content**. Anything ambiguous gets flagged in a comment for Arun.
-- **1.3** Update `content/en/read/_index.md` so the chapter list reflects the new structure.
-- **1.4** Update the read/single layout if needed so cover images render and prev/next nav stays correct.
-- **1.5** Verify `hugo --minify` builds cleanly, all chapter pages return 200, all images load. Screenshot a sample chapter to confirm.
-- **1.6** Commit. Arun reviews the English version end-to-end before we start German.
-
-**Stop point:** Arun's sign-off on English content. Don't proceed to Phase 2 without it.
+Note: chapter 1 title changed from the original docx heading ("Introduction: What is Carrom") to **The Mantra** during editorial pass — Arun's preface letter.
 
 ---
 
-## Phase 2 — Glossary lock (Arun + German Carrom Federation, async)
+## Phase 1 — English chapter pages ✅ Done
 
-Goal: every carrom-specific term has an agreed German word **before** any chapter is translated.
+Goal: every chapter renders cleanly with images at `content/en/books/students/carrom-techniques-and-skills/<slug>.md`.
 
-- **2.1** Claude proposes a glossary table. I'll seed it from the strokes already named in the book; the federation finalises.
-- **2.2** Lock the glossary in `README.md` (the table already there gets filled in for German).
+- **1.1** ✅ Markdown generated from docx with frontmatter (`title`, `weight`, `cover`, `date`, `author`) and inline figures.
+- **1.2** ✅ Light editorial pass — punctuation, "Cannon" spelling (not "Canon"), callout HTML preserved.
+- **1.3** ✅ `_index.md` updated; book registered in `data/books.yaml`.
+- **1.4** ✅ `layouts/books/single.html` — cover images, prev/next chapter nav.
+- **1.5** ✅ `hugo --minify` builds cleanly; legacy `/read` and `/book` URL aliases removed.
+- **1.6** ⏳ **Arun sign-off on English** — treat as stop point before calling EN "final".
 
-**Seed glossary (Claude proposes, Federation confirms):**
+**Second book (rules):** EN rules book also complete at `content/en/books/rules/official-carrom-rules/` — 8 chapters adapted from ICF PDF with beginner callouts.
+
+---
+
+## Phase 2 — Glossary lock ✅ Done (DE seed; federation may refine)
+
+Goal: every carrom-specific term has an agreed translation **before** human review begins.
+
+- **2.1** ✅ Glossary proposed and expanded — see **Carrom glossary** section in `README.md` (equipment, match structure, strokes, strategy, organisations). Cross-checked against IAKC rules PDF and DCV terminology.
+- **2.2** ✅ Locked in README as source of truth.
+
+**Seed glossary (original DE proposal — DCV may override during Phase 4):**
 
 | English | Proposed German |
 |---|---|
@@ -97,7 +155,7 @@ Goal: every carrom-specific term has an agreed German word **before** any chapte
 | Press | Press |
 | Touch | Touch |
 | Pair | Pair |
-| Canon | Canon |
+| Cannon | Cannon |
 | Glance | Glance |
 | Brush | Brush |
 | Rebound | Rebound |
@@ -118,50 +176,102 @@ Goal: every carrom-specific term has an agreed German word **before** any chapte
 | Patience | Geduld |
 | Practice | Übung |
 
-Note: I've leaned toward keeping the international stroke names in English (Press, Touch, Pair, Glance, Brush, Hook, Slip, Bomb, Force) because they're the words German players actually use at the table. The Federation will adjust where they prefer a German equivalent.
+International stroke names stay in English at the table — they're what German players use in practice. DCV adjusts during review.
 
-**Stop point:** Federation-approved glossary committed to README.
-
----
-
-## Phase 3 — German first draft (Claude, ~1 session per pass)
-
-Goal: every EN chapter has a DE translation that follows the locked glossary.
-
-- **3.1** For each chapter under `content/en/read/`, generate `content/de/read/<same-slug>.md` with the same structure, frontmatter (translated where appropriate), images (same paths), and a German body.
-- **3.2** Strictly honour the glossary. If a term is encountered that isn't in the glossary, leave it in English with a `<!-- TODO: glossary term -->` comment for the Federation to settle.
-- **3.3** Add `translatedBy: "Reviewed by the German Carrom Federation"` to every chapter's frontmatter (final reviewer name fills in during Phase 4).
-- **3.4** Build and verify all DE pages render. Commit.
-
-**Stop point:** All DE chapters published as a draft for review. Don't go live yet.
+**Stop point for new languages:** agree terms with the relevant federation before Phase 4 review begins.
 
 ---
 
-## Phase 4 — Federation review (Arun + DCF, async)
+## Phase 3 — Translation first drafts ✅ Done (all 8 languages)
 
-Goal: every German chapter is reviewed by the Federation, corrections applied.
+Goal: every EN chapter has a translation draft in each enabled language.
 
-- **4.1** Federation reviews each chapter, sends back annotated changes (PDF / Word comments / GitHub PR — whichever they prefer).
-- **4.2** Apply corrections one chapter at a time. **One chapter per commit**, message format `de: review of chapter-NN — <topic>`. Replace the generic `translatedBy` value with the named reviewer.
-- **4.3** If the Federation finds a glossary term we got wrong, update the glossary in README, then re-grep all DE chapters and apply the correction site-wide before moving on. Glossary drift is the one thing we cannot tolerate.
+- **3.1** ✅ `content/{lang}/books/students/carrom-techniques-and-skills/<slug>.md` for DA, DE, MR, IT, FR, SI, HI — same structure, translated frontmatter, shared image paths.
+- **3.2** ✅ Glossary terms and `KEEP_TERMS` list honoured by `translate-books.py`; unknown terms stay English.
+- **3.3** ✅ Each chapter has AI-draft `translatedBy` (e.g. DE: `"Aus dem Englischen übersetzt (KI-Entwurf)."`).
+- **3.4** ✅ Same for rules book — 8 chapters × 8 languages.
+- **3.5** ✅ All langs enabled in `data/books.yaml`; site shell (menus, i18n, about) via `setup-language.py`.
 
-**Stop point:** All DE chapters reviewed and live. Done.
+**Stop point:** drafts are live on site for reading; treat as **draft** until Phase 4 review.
+
+To regenerate a language after EN changes:
+
+```bash
+source .venv/bin/activate
+python3 scripts/translate-books.py de --force
+```
 
 ---
 
-## Phase 5 — Maintenance rules going forward
+## Phase 4 — Federation / native-speaker review ⏳ Pending
 
-- **EN edit triggers a DE revisit.** Any future edit to a published English chapter must be mirrored to the German version (and re-reviewed if it's material).
-- **New chapters follow the same path:** EN draft → Arun sign-off → DE draft → DCF review.
-- **The glossary is the source of truth.** If we ever find ourselves translating a carrom term in two different ways, the glossary wins.
+Goal: every non-English chapter is reviewed by a qualified reviewer; corrections applied.
+
+Priority order (original plan):
+
+1. **German (DE)** — Deutscher Carrom Verband review of techniques + rules books.
+2. **Other languages** — engage national federations or trusted native speakers as available.
+
+Per chapter:
+
+- **4.1** Reviewer reads chapter, sends annotated changes (PDF / Word / GitHub PR).
+- **4.2** Apply corrections. **One chapter per commit**, e.g. `de: review chapter-06 — strokes`. Replace generic `translatedBy` with named reviewer.
+- **4.3** If a glossary term was wrong, update README glossary first, then grep all chapters in that language and fix site-wide before moving on.
+
+**Stop point:** all reviewed chapters live with named `translatedBy`. DE was the original "done" milestone; extend to each language as reviewers become available.
 
 ---
 
-## What I'll do next (and what I'm waiting on)
+## Phase 5 — PDFs per language ⏳ Partial
 
-1. **Phase 0** — extract images, parse XML, finalise the chapter mapping. **Ready to start now.**
-2. **Phase 1** — generate the English markdown chapter pages. **Ready to start after Phase 0.**
-3. **Arun sign-off on English** — *waiting on you / Arun.*
-4. **Phase 2 glossary lock with the German Carrom Federation** — *waiting on Arun to send the seed list above to the Federation.*
-5. **Phase 3 German draft** — Claude, **only after step 4 is locked**.
-6. **Phase 4 Federation review** — *waiting on the German Carrom Federation.*
+Goal: downloadable PDF for each book in each enabled language.
+
+| File | EN | DA | DE | MR | IT | FR | SI | HI |
+|---|---|---|---|---|---|---|---|---|
+| `carrom-techniques-and-skills-{lang}.pdf` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `carrom-official-rules-{lang}.pdf` | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+
+Paths are declared in `data/books.yaml`. Hugo disables the download button automatically when the file is missing from `static/downloads/`.
+
+After Phase 4 review, export reviewed markdown → PDF and drop at the path for that language.
+
+---
+
+## Phase 6 — Maintenance going forward
+
+- **EN edit → all langs.** Material EN change → re-translate affected chapters (`translate-books.py --force`) → re-review if substantive.
+- **New chapter path:** EN draft → Arun sign-off → AI translate → federation review → PDF export.
+- **New language path:** declare in `hugo.toml` → `setup-language.py` → `translate-books.py` → register in `data/books.yaml` → federation review → PDF.
+- **Glossary wins.** If the same term appears two ways, update README and fix all chapters — never let drift accumulate.
+- **Retired URLs.** Do not re-add `/read/` or `/book/` aliases; canonical paths are under `/books/`.
+
+---
+
+## What remains (action list)
+
+| # | Owner | Action | Blocks |
+|---|---|---|---|
+| 1 | Arun | End-to-end review of EN *Techniques* book; flag editorial fixes | Calling EN "final" |
+| 2 | Arun | Send DE seed glossary to DCV for confirmation | DE Phase 4 |
+| 3 | DCV | Review DE chapters (techniques + rules); return corrections | DE going from draft → signed-off |
+| 4 | Swapnil | Apply DCV corrections one chapter per commit; update `translatedBy` | — |
+| 5 | Arun / federations | Identify reviewers for DA, MR, IT, FR, SI, HI | Non-DE Phase 4 |
+| 6 | Arun | Provide translated PDFs (or approve export from reviewed markdown) | Download buttons for non-EN |
+| 7 | Swapnil | Re-run `translate-books.py --force` after any material EN edit | Keeping langs in sync |
+
+---
+
+## Language matrix (site enablement)
+
+All languages declared in `config/_default/hugo.toml` with matching `menus.{lang}.toml`, `i18n/{lang}.toml`, and `data/about.yaml` entries.
+
+| Code | Language | Techniques (online) | Rules (online) | PDF | Federation review |
+|---|---|---|---|---|---|
+| `en` | English | ✅ published | ✅ published | ✅ | source |
+| `da` | Danish | ✅ AI draft | ✅ AI draft | ⏳ | ⏳ |
+| `de` | German | ✅ AI draft | ✅ AI draft | ⏳ | ⏳ DCV |
+| `mr` | Marathi | ✅ AI draft | ✅ AI draft | ⏳ | ⏳ |
+| `it` | Italian | ✅ AI draft | ✅ AI draft | ⏳ | ⏳ |
+| `fr` | French | ✅ AI draft | ✅ AI draft | ⏳ | ⏳ |
+| `si` | Sinhala | ✅ AI draft | ✅ AI draft | ⏳ | ⏳ |
+| `hi` | Hindi | ✅ AI draft | ✅ AI draft | ⏳ | ⏳ |

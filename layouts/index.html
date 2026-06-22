@@ -57,7 +57,7 @@
 </div>
 {{ end }}
 
-{{ $about := index site.Data.about .Site.Language.Lang | default site.Data.about.en }}
+{{ $about := index hugo.Data.about .Site.Language.Lang | default hugo.Data.about.en }}
 {{ with $about }}
 <section class="about-box">
   <h3>{{ i18n "about_legend" | default "About the Legend" }}</h3>

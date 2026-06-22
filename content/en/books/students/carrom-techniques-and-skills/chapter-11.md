@@ -7,9 +7,6 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-23.jpg"
   alt: "Bomb and Force"
-aliases:
-  - /read/chapter-11/
-  - /en/read/chapter-11/
 ---
 
 *The Bomb (Bum) and Force strokes — powerful shots used to break up clusters and reset the board.*

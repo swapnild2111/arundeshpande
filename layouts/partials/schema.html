@@ -24,8 +24,8 @@
 {{- $graph = $graph | append $person -}}
 
 {{- $langs := slice -}}
-{{- range site.Languages -}}
-  {{- $langs = $langs | append .Lang -}}
+{{- range hugo.Sites -}}
+  {{- $langs = $langs | append .Language.Lang -}}
 {{- end -}}
 
 {{- $website := dict

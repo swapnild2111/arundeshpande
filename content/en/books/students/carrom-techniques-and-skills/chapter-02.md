@@ -4,9 +4,6 @@ description: "Every part of the carrom set — board, frames, pockets, base line
 weight: 2
 date: 2026-01-01
 author: "Arun Deshpande"
-aliases:
-  - /read/chapter-02/
-  - /en/read/chapter-02/
 ---
 
 *Every part of the carrom set — board, frames, pockets, base lines, circles, coins, striker, stand, and lamp. Know your equipment before you learn your strokes.*

@@ -7,9 +7,6 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-36.jpg"
   alt: "Advanced Stroke Positions"
-aliases:
-  - /read/chapter-14/
-  - /en/read/chapter-14/
 ---
 
 *Walkthroughs of advanced board positions — figures 32 through 47 — and how Arun plays them.*

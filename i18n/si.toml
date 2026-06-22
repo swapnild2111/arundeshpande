@@ -1,0 +1,215 @@
+[home_title]
+other = "Carrom පුහුණුකරු Arun Deshpande"
+
+[hero_first_name]
+other = "අරුන්"
+
+[hero_last_name]
+other = "දේශපාන්ඩේ"
+
+[watch_videos]
+other = "වීඩියෝ බලන්න"
+
+[play_video]
+other = "වීඩියෝ වාදනය කරන්න"
+
+[watch_on_youtube]
+other = "YouTube හි නරඹන්න"
+
+[close_video]
+other = "වසන්න"
+
+[youtube_channel]
+other = "YouTube නාලිකාව"
+
+[play_store_label]
+other = "Google Play හි යෙදුම ලබා ගන්න"
+
+[google_play_app]
+other = "Google Play යෙදුම"
+
+[about_legend]
+other = "පුරාවෘත්තය ගැන"
+
+[explore]
+other = "ගවේෂණය කරන්න"
+
+[video_library]
+other = "වීඩියෝ පුස්තකාලය"
+
+[video_library_desc]
+other = "නිපුණතා මට්ටම අනුව වර්ගීකරණය කරන ලද carrom නිබන්ධන නරඹන්න - ආරම්භකයාගේ සිට ශූරයා දක්වා."
+
+[carrom_books]
+other = "පොත් තබා ගන්න 0000"
+
+[carrom_books_desc]
+other = "Arun Deshpande මගින් සිසුන් සහ පුහුණුකරුවන් සඳහා සුවිශේෂී PDF පොත් බාගන්න."
+
+[photo_gallery]
+other = "ඡායාරූප ගැලරිය"
+
+[photo_gallery_desc]
+other = "ගමන නැවත පණ ගන්වන්න - ශූරතා, පුහුණු කඳවුරු සහ සුවිශේෂී අවස්ථා."
+
+[chapter]
+other = "පරිච්ඡේදය"
+
+[previous]
+other = "පෙර"
+
+[next]
+other = "ඊළඟ"
+
+[email]
+other = "ඊමේල් කරන්න"
+
+[phone]
+other = "දුරකථන / WhatsApp"
+
+[location]
+other = "ස්ථානය"
+
+[coaching_enquiries]
+other = "පුහුණු විමසීම්"
+
+[coaching_enquiry_subject]
+other = "පුහුණු විමසීම"
+
+[whatsapp_message]
+other = "ආයුබෝවන් අරුන් සර්, මම Carrom ඇකඩමි වෙබ් අඩවිය සොයා ගත් අතර මම carrom පුහුණු කිරීම ගැන උනන්දු වෙමි."
+
+[contact_information]
+other = "සබඳතා තොරතුරු"
+
+[send_email]
+other = "ඊමේල් යවන්න"
+
+[message_on_whatsapp]
+other = "WhatsApp මත පණිවිඩය"
+
+[whatsapp_hint]
+other = "පුහුණු විමසීම් සහ වැඩමුළු සඳහා අරුන් වෙත ළඟා වීමට වේගවත්ම මාර්ගය."
+
+[pages]
+other = "පිටු"
+
+[page_count]
+other = "පිටු"
+
+[book_pages]
+other = "පිටු"
+
+[book_loading]
+other = "පොත පූරණය කරමින්..."
+
+[book_load_error]
+other = "මෙම පොත පූරණය කළ නොහැකි විය."
+
+[book_page]
+other = "පිටුව"
+
+[book_of]
+other = "හි"
+
+[book_fit_width]
+other = "සම්පූර්ණ පළල"
+
+[book_zoom_in]
+other = "විශාලනය කරන්න"
+
+[book_zoom_out]
+other = "විශාලනය කරන්න"
+
+[book_fullscreen]
+other = "පුන් තිරය"
+
+[read_online]
+other = "අන්තර්ජාලයෙන් කියවන්න"
+
+[download_pdf]
+other = "PDF බාගන්න"
+
+[original_source]
+other = "මුල් මූලාශ්රය"
+
+[original_sources]
+other = "මුල් මූලාශ්ර"
+
+[no_books_yet]
+other = "තවමත් පොත් නොමැත."
+
+[problem_label]
+other = "ගැටලුව"
+
+[solution_label]
+other = "විසඳුම"
+
+[ps_section_label]
+other = "ගැටළු සහ විසඳුම්"
+
+[ps_index_label]
+other = "ගැටළු කණ්ඩායම්"
+
+[soon]
+other = "ඉක්මනින්"
+
+[pdf_coming_soon]
+other = "PDF ළඟදීම"
+
+[author]
+other = "කර්තෘ"
+
+[ready_to_read]
+other = "කියවීමට සූදානම්"
+
+[start_reading]
+other = "කියවීම ආරම්භ කරන්න"
+
+[table_of_contents]
+other = "අන්තර්ගත වගුව"
+
+[language_label]
+other = "භාෂාව"
+
+[preference_label]
+other = "මනාපය"
+
+[theme_light]
+other = "ආලෝකය"
+
+[theme_dark]
+other = "අඳුරු"
+
+[theme_switch_light]
+other = "ආලෝක මාදිලියට මාරු වන්න"
+
+[theme_switch_dark]
+other = "අඳුරු මාදිලිය වෙත මාරු වන්න"
+
+[coming_soon]
+other = "ඉක්මණින් පැමිණෙන"
+
+[coming_soon_body]
+other = "මෙම කොටස සකස් වෙමින් පවතී. මේ අතරතුර, වීඩියෝ පිටුවට යන්න හෝ සම්බන්ධතා පිටුව හරහා touch වෙත යන්න."
+
+[send_message]
+other = "පණිවිඩයක් යවන්න"
+
+[your_name]
+other = "ඔයාගේ නම"
+
+[name_placeholder]
+other = "නම"
+
+[subject]
+other = "විෂය"
+
+[subject_placeholder]
+other = "පුහුණු විමසීම්, වැඩමුළුව, ආදිය."
+
+[message]
+other = "පණිවිඩය"
+
+[message_placeholder]
+other = "ඔබ ගැන, ඔබේ අත්දැකීම් මට්ටම සහ ඔබ සොයන දේ ගැන අපට කියන්න..."

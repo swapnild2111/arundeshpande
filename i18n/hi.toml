@@ -1,0 +1,215 @@
+[home_title]
+other = "Carrom कोच Arun Deshpande"
+
+[hero_first_name]
+other = "अरुण"
+
+[hero_last_name]
+other = "देशपांडे"
+
+[watch_videos]
+other = "वीडियो देखें"
+
+[play_video]
+other = "वीडियो चलाएं"
+
+[watch_on_youtube]
+other = "YouTube पर देखें"
+
+[close_video]
+other = "बंद करना"
+
+[youtube_channel]
+other = "YouTube चैनल"
+
+[play_store_label]
+other = "Google Play पर ऐप प्राप्त करें"
+
+[google_play_app]
+other = "गूगल प्ले ऐप"
+
+[about_legend]
+other = "किंवदंती के बारे में"
+
+[explore]
+other = "अन्वेषण करना"
+
+[video_library]
+other = "वीडियो लाइब्रेरी"
+
+[video_library_desc]
+other = "शुरुआती से चैंपियन तक कौशल स्तर के आधार पर वर्गीकृत carrom ट्यूटोरियल देखें।"
+
+[carrom_books]
+other = "Carrom पुस्तकें"
+
+[carrom_books_desc]
+other = "Arun Deshpande द्वारा छात्रों और प्रशिक्षकों के लिए विशेष पीडीएफ पुस्तकें डाउनलोड करें।"
+
+[photo_gallery]
+other = "फोटो गैलरी"
+
+[photo_gallery_desc]
+other = "यात्रा को फिर से याद करें - चैंपियनशिप, कोचिंग कैंप और प्रतिष्ठित क्षण।"
+
+[chapter]
+other = "अध्याय"
+
+[previous]
+other = "पहले का"
+
+[next]
+other = "अगला"
+
+[email]
+other = "ईमेल"
+
+[phone]
+other = "फ़ोन/व्हाट्सएप"
+
+[location]
+other = "जगह"
+
+[coaching_enquiries]
+other = "कोचिंग पूछताछ"
+
+[coaching_enquiry_subject]
+other = "कोचिंग पूछताछ"
+
+[whatsapp_message]
+other = "नमस्कार अरुण सर, मुझे Carrom अकादमी की वेबसाइट मिली और मुझे carrom कोचिंग में रुचि है।"
+
+[contact_information]
+other = "संपर्क जानकारी"
+
+[send_email]
+other = "ईमेल भेजें"
+
+[message_on_whatsapp]
+other = "व्हाट्सएप पर मैसेज करें"
+
+[whatsapp_hint]
+other = "कोचिंग पूछताछ और कार्यशालाओं के लिए अरुण तक पहुंचने का सबसे तेज़ तरीका।"
+
+[pages]
+other = "पृष्ठों"
+
+[page_count]
+other = "पृष्ठों"
+
+[book_pages]
+other = "पृष्ठों"
+
+[book_loading]
+other = "पुस्तक लोड हो रही है..."
+
+[book_load_error]
+other = "इस पुस्तक को लोड नहीं किया जा सका."
+
+[book_page]
+other = "पेज"
+
+[book_of]
+other = "का"
+
+[book_fit_width]
+other = "पूरी चौड़ाई"
+
+[book_zoom_in]
+other = "ज़ूम इन"
+
+[book_zoom_out]
+other = "ज़ूम आउट"
+
+[book_fullscreen]
+other = "पूर्ण स्क्रीन"
+
+[read_online]
+other = "ऑनलाइन पढ़ें"
+
+[download_pdf]
+other = "पीडीएफ डाउनलोड करें"
+
+[original_source]
+other = "मूल स्रोत"
+
+[original_sources]
+other = "मूल स्रोत"
+
+[no_books_yet]
+other = "अभी तक कोई किताब उपलब्ध नहीं है."
+
+[problem_label]
+other = "संकट"
+
+[solution_label]
+other = "समाधान"
+
+[ps_section_label]
+other = "समस्याएँ एवं समाधान"
+
+[ps_index_label]
+other = "समस्या समूह"
+
+[soon]
+other = "जल्द ही"
+
+[pdf_coming_soon]
+other = "पीडीएफ जल्द ही आ रहा है"
+
+[author]
+other = "लेखक"
+
+[ready_to_read]
+other = "पढ़ने के लिए तैयार"
+
+[start_reading]
+other = "पढ़ना शुरू करें"
+
+[table_of_contents]
+other = "विषयसूची"
+
+[language_label]
+other = "भाषा"
+
+[preference_label]
+other = "वरीयता"
+
+[theme_light]
+other = "रोशनी"
+
+[theme_dark]
+other = "अँधेरा"
+
+[theme_switch_light]
+other = "लाइट मोड पर स्विच करें"
+
+[theme_switch_dark]
+other = "डार्क मोड पर स्विच करें"
+
+[coming_soon]
+other = "जल्द आ रहा है"
+
+[coming_soon_body]
+other = "यह अनुभाग तैयार किया जा रहा है. इस बीच, वीडियो पृष्ठ पर जाएं या संपर्क पृष्ठ के माध्यम से touch में प्रवेश करें।"
+
+[send_message]
+other = "एक संदेश भेजो"
+
+[your_name]
+other = "आपका नाम"
+
+[name_placeholder]
+other = "नाम"
+
+[subject]
+other = "विषय"
+
+[subject_placeholder]
+other = "कोचिंग पूछताछ, कार्यशाला, आदि।"
+
+[message]
+other = "संदेश"
+
+[message_placeholder]
+other = "हमें अपने बारे में, अपने अनुभव के स्तर और आप क्या खोज रहे हैं, इसके बारे में बताएं..."

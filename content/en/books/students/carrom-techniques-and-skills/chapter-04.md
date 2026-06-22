@@ -7,9 +7,6 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-03.jpg"
   alt: "Grips"
-aliases:
-  - /read/chapter-04/
-  - /en/read/chapter-04/
 ---
 
 *Grip is the foundation of every stroke in this book. Arun describes four grips — develop a natural one first, then add the others as your game grows.*

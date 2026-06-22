@@ -1,0 +1,215 @@
+[home_title]
+other = "Carrom Autocar Arun Deshpande"
+
+[hero_first_name]
+other = "Arun"
+
+[hero_last_name]
+other = "Deshpandé"
+
+[watch_videos]
+other = "Regarder des vidéos"
+
+[play_video]
+other = "Lire la vidéo"
+
+[watch_on_youtube]
+other = "Regarder sur YouTube"
+
+[close_video]
+other = "Fermer"
+
+[youtube_channel]
+other = "YouTube Canal"
+
+[play_store_label]
+other = "Téléchargez l'application sur Google Play"
+
+[google_play_app]
+other = "Application Google Play"
+
+[about_legend]
+other = "À propos de la légende"
+
+[explore]
+other = "Explorer"
+
+[video_library]
+other = "Vidéothèque"
+
+[video_library_desc]
+other = "Regardez les didacticiels carrom classés par niveau de compétence, du débutant au champion."
+
+[carrom_books]
+other = "Carrom Livres"
+
+[carrom_books_desc]
+other = "Téléchargez des livres PDF exclusifs pour les étudiants et les entraîneurs par Arun Deshpande."
+
+[photo_gallery]
+other = "Galerie de photos"
+
+[photo_gallery_desc]
+other = "Revivez le voyage : championnats, camps d'entraînement et moments emblématiques."
+
+[chapter]
+other = "Chapitre"
+
+[previous]
+other = "Précédent"
+
+[next]
+other = "Suivant"
+
+[email]
+other = "E-mail"
+
+[phone]
+other = "Téléphone/WhatsApp"
+
+[location]
+other = "Emplacement"
+
+[coaching_enquiries]
+other = "Demandes de renseignements sur les entraîneurs"
+
+[coaching_enquiry_subject]
+other = "Demande de coaching"
+
+[whatsapp_message]
+other = "Bonjour Monsieur Arun, j'ai trouvé le site de l'Académie Carrom et je suis intéressé par le coaching carrom."
+
+[contact_information]
+other = "Coordonnées"
+
+[send_email]
+other = "Envoyer un e-mail"
+
+[message_on_whatsapp]
+other = "Message sur WhatsApp"
+
+[whatsapp_hint]
+other = "Le moyen le plus rapide d'atteindre Arun pour des demandes de coaching et des ateliers."
+
+[pages]
+other = "Pages"
+
+[page_count]
+other = "pages"
+
+[book_pages]
+other = "Pages"
+
+[book_loading]
+other = "Chargement du livre…"
+
+[book_load_error]
+other = "Impossible de charger ce livre."
+
+[book_page]
+other = "Page"
+
+[book_of]
+other = "de"
+
+[book_fit_width]
+other = "Pleine largeur"
+
+[book_zoom_in]
+other = "Zoomer"
+
+[book_zoom_out]
+other = "Zoom arrière"
+
+[book_fullscreen]
+other = "Plein écran"
+
+[read_online]
+other = "Lire en ligne"
+
+[download_pdf]
+other = "Télécharger le PDF"
+
+[original_source]
+other = "Source originale"
+
+[original_sources]
+other = "Sources originales"
+
+[no_books_yet]
+other = "Aucun livre disponible pour l'instant."
+
+[problem_label]
+other = "Problème"
+
+[solution_label]
+other = "Solution"
+
+[ps_section_label]
+other = "Problèmes et solutions"
+
+[ps_index_label]
+other = "Groupes à problèmes"
+
+[soon]
+other = "Bientôt"
+
+[pdf_coming_soon]
+other = "PDF à venir"
+
+[author]
+other = "Auteur"
+
+[ready_to_read]
+other = "Prêt à lire"
+
+[start_reading]
+other = "Commencez à lire"
+
+[table_of_contents]
+other = "Table des matières"
+
+[language_label]
+other = "Langue"
+
+[preference_label]
+other = "Préférence"
+
+[theme_light]
+other = "Lumière"
+
+[theme_dark]
+other = "Sombre"
+
+[theme_switch_light]
+other = "Passer en mode lumière"
+
+[theme_switch_dark]
+other = "Passer en mode sombre"
+
+[coming_soon]
+other = "À venir"
+
+[coming_soon_body]
+other = "Cette rubrique est en cours de préparation. En attendant, rendez-vous sur la page Vidéos ou entrez touch via la page Contact."
+
+[send_message]
+other = "Envoyer un message"
+
+[your_name]
+other = "Votre nom"
+
+[name_placeholder]
+other = "Nom"
+
+[subject]
+other = "Sujet"
+
+[subject_placeholder]
+other = "Demande de coaching, Atelier, etc."
+
+[message]
+other = "Message"
+
+[message_placeholder]
+other = "Parlez-nous de vous, de votre niveau d’expérience et de ce que vous recherchez…"

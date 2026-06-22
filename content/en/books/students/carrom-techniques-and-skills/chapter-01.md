@@ -7,9 +7,6 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-01.jpg"
   alt: "Carrom Techniques and Skills"
-aliases:
-  - /read/chapter-01/
-  - /en/read/chapter-01/
 ---
 
 *A short letter from Arun Deshpande to every reader of this book — written before the technique begins. Read this first; the rest of the book makes more sense afterwards.*

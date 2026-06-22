@@ -4,9 +4,6 @@ description: "Concentration, Observation, the danger of over-confidence, Stabili
 weight: 13
 date: 2026-01-01
 author: "Arun Deshpande"
-aliases:
-  - /read/chapter-13/
-  - /en/read/chapter-13/
 ---
 
 *Concentration, observation, patience, and practice — the mental side of carrom that separates champions from talented players.*

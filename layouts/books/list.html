@@ -125,7 +125,7 @@
       <a class="toc-card" href="{{ .RelPermalink }}">
         <span class="toc-num">{{ .Params.weight }}</span>
         <span class="toc-label">{{ i18n "chapter" | default "Chapter" }} {{ .Params.weight }}</span>
-        <h3>{{ replaceRE `^Chapter \d+\s*[—-]\s*` "" .Title }}</h3>
+        <h3>{{ replaceRE `^(Chapter|Kapitel|Capitolo|Chapitre|अध्याय|අධ්‍යාය)\s+\d+\s*[—-]\s*` "" .Title }}</h3>
         {{ with .Description }}<p>{{ . }}</p>{{ end }}
       </a>
     {{ end }}

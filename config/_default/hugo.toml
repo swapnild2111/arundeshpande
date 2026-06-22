@@ -36,6 +36,46 @@ disableKinds = ["taxonomy", "term"]
     [languages.de.params]
       description = "Carrom Coaching, Technik und Buch von Arun Deshpande"
 
+  [languages.mr]
+    label = "मराठी"
+    locale = "mr"
+    weight = 4
+    contentDir = "content/mr"
+    [languages.mr.params]
+      description = "अरुण देशपांडे यांचे कॅरम प्रशिक्षण, तंत्र आणि पुस्तक"
+
+  [languages.it]
+    label = "Italiano"
+    locale = "it"
+    weight = 5
+    contentDir = "content/it"
+    [languages.it.params]
+      description = "Coaching, tecnica e libro di carrom di Arun Deshpande"
+
+  [languages.fr]
+    label = "Français"
+    locale = "fr"
+    weight = 6
+    contentDir = "content/fr"
+    [languages.fr.params]
+      description = "Coaching, technique et livre de carrom par Arun Deshpande"
+
+  [languages.si]
+    label = "සිංහල"
+    locale = "si"
+    weight = 7
+    contentDir = "content/si"
+    [languages.si.params]
+      description = "Arun Deshpande විසින් Carrom පුහුණුව, තාක්ෂණය සහ පොත"
+
+  [languages.hi]
+    label = "हिन्दी"
+    locale = "hi"
+    weight = 8
+    contentDir = "content/hi"
+    [languages.hi.params]
+      description = "अरुण देशपांडे द्वारा कैरम कोचिंग, तकनीक और पुस्तक"
+
 [outputs]
   home = ["HTML", "RSS"]
 

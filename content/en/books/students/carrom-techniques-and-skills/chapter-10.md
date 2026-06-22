@@ -7,9 +7,6 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-22.jpg"
   alt: "Slip, Striker Slip, Double Touch"
-aliases:
-  - /read/chapter-10/
-  - /en/read/chapter-10/
 ---
 
 *Slip, Striker Slip, and Double Touch — fine-control strokes used when coins overlap.*

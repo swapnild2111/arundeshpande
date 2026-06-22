@@ -1,6 +1,6 @@
 # Arun Deshpande Carrom
 
-A multilingual static site for **Arun Deshpande** — international carrom coach and author. Hosts his bio, video library, books, photo gallery, contact details, and the full carrom book in English, German, French, and Italian (added progressively).
+A multilingual static site for **Arun Deshpande** — international carrom coach and author. Hosts his bio, video library, books, photo gallery, and contact details. The coaching book *Carrom Techniques and Skills* and the ICF rules book are available to read online in **English, Danish, German, Marathi, Italian, French, Sinhala, and Hindi**.
 
 Built with **Hugo (Extended)** and a custom theme (dark / purple, sidebar navigation), deployed to **GitHub Pages** via GitHub Actions on every push to `main`.
 
@@ -61,38 +61,45 @@ hugo --minify
 ```
 arundeshpande/
 ├── config/_default/
-│   ├── hugo.toml                 # site config + 4 languages declared
+│   ├── hugo.toml                 # site config + 8 languages
 │   ├── params.toml               # author, hero, stats, achievements
-│   └── menus.{en,de,fr,it}.toml  # sidebar nav per language
+│   └── menus.{en,da,de,mr,it,fr,si,hi}.toml  # sidebar nav per language
 ├── content/
 │   ├── en/                       # English (source — always done first)
 │   │   ├── _index.md             # homepage hero copy
-│   │   ├── about.md              # bio, rendered inside homepage
-│   │   ├── contact.md            # email/phone/location, rendered inside contact card
-│   │   ├── videos/_index.md      # YouTube video list
-│   │   ├── books/_index.md       # PDF library — many downloadable books (plural)
+│   │   ├── contact.md            # email/phone/location
+│   │   ├── videos/               # YouTube video categories
 │   │   ├── gallery/_index.md     # photo list
-│   │   └── read/_index.md, chapter-01.md, ...  # The book — Arun's Carrom Techniques & Skills, as readable chapters (singular)
-│   ├── de/                       # German (mirrors EN structure exactly)
-│   ├── fr/                       # French (Phase 5)
-│   └── it/                       # Italian (Phase 5)
-├── i18n/{en,de,fr,it}.toml       # UI strings (button labels, etc.)
+│   │   └── books/
+│   │       ├── _index.md         # book catalog landing
+│   │       ├── students/
+│   │       │   └── carrom-techniques-and-skills/   # 14 chapters + _index.md
+│   │       └── rules/
+│   │           └── official-carrom-rules/          # 8 chapters + _index.md
+│   ├── da/ de/ mr/ it/ fr/ si/ hi/   # mirror EN structure
+├── data/
+│   ├── books.yaml                # catalog metadata, PDF paths, per-lang titles
+│   ├── about.yaml                # bio text per language
+│   └── problem-solutions.yaml    # YouTube Problem/Solution pairs
+├── i18n/{en,da,de,mr,it,fr,si,hi}.toml   # UI strings
 ├── layouts/
 │   ├── _default/{baseof,list,single,contact}.html
 │   ├── index.html                # homepage
-│   ├── videos/list.html
-│   ├── books/list.html
+│   ├── videos/                   # video list + problems-solutions
+│   ├── books/{list,single,category}.html   # book catalog + chapter pages
 │   ├── gallery/list.html
-│   ├── read/{list,single}.html   # book chapter index + per-chapter pages
-│   └── partials/
-│       ├── sidebar.html, footer.html
-│       └── icons/{home,play,book,image,mail,trophy,medal,...}.html
-├── assets/css/main.css           # files Hugo PROCESSES (minify, fingerprint, etc.) — see note below
+│   └── partials/                 # sidebar, footer, book-grid, seo, ...
+├── assets/css/main.css           # Hugo-processed CSS (minify + fingerprint)
+├── scripts/
+│   ├── extract-book.py           # .docx → EN markdown chapters
+│   ├── generate-book-pdfs.py     # docx → translate → PDF for all languages
+│   ├── translate-books.py        # EN → da/de/mr/it/fr/si/hi book markdown
+│   ├── setup-language.py         # i18n + about + non-book pages for a new lang
+│   └── sync-problem-solutions.py # YouTube → data/problem-solutions.yaml
 ├── static/
 │   ├── images/{arun-profile.jpg, gallery/, book/fig-NN.jpg}
-│   ├── downloads/*.pdf           # PDFs referenced by content/{lang}/books
-│   ├── js/app.js                 # mobile nav toggle + filter chips
-│   └── CNAME                     # custom domain (after purchase)
+│   ├── downloads/*.pdf           # book PDFs (see data/books.yaml)
+│   └── js/app.js                 # mobile nav toggle + filter chips
 └── .github/workflows/deploy.yml
 ```
 
@@ -119,7 +126,7 @@ Don't merge the two. Photos and PDFs in `assets/` would need their references re
 
 ### A new English chapter
 
-Create `content/en/read/chapter-NN.md` with this frontmatter:
+Create `content/en/books/students/carrom-techniques-and-skills/chapter-NN.md` with this frontmatter:
 
 ```markdown
 ---
@@ -129,36 +136,48 @@ weight: N
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
-  image: "/images/chapters/chapter-NN-cover.jpg"
+  image: "/images/book/fig-NN.jpg"
   alt: "Alt text"
 ---
 
 Chapter body in markdown.
 ```
 
-### Translating an existing chapter to German
+### Translating chapters to another language
 
-1. Copy `content/en/read/chapter-NN.md` → `content/de/read/chapter-NN.md`.
-2. Translate title, description, and body.
-3. Add the `translatedBy` field to frontmatter:
-   ```yaml
-   translatedBy: "Geprüft von der Deutschen Carrom-Vereinigung"
-   ```
-4. Keep `weight`, `date`, `cover.image` identical to the English file (images are shared across languages).
+**Automated (recommended):** use the translation script after English is finalised:
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install deep-translator pyyaml
+
+# Translate both books to German (also: da, mr, it, fr, si, hi)
+python3 scripts/translate-books.py de
+
+# Overwrite existing translated files
+python3 scripts/translate-books.py de --force
+```
+
+The script preserves images, HTML, URLs, and international carrom terms. Each translated chapter gets a `translatedBy` frontmatter line noting it is an AI draft.
+
+**Manual:** copy `content/en/books/students/carrom-techniques-and-skills/chapter-NN.md` → `content/{lang}/books/students/carrom-techniques-and-skills/chapter-NN.md`, translate title/description/body, and add `translatedBy`. Keep `weight`, `date`, and `cover.image` identical (images are shared).
 
 ### Adding photos
 
 - Profile photo: `static/images/arun-profile.jpg`
-- Gallery photos: `static/images/gallery/photo-NN.jpg`, then add `<img>` tags inside the `<div class="gallery-grid">` in `content/{lang}/gallery.md`
-- Chapter covers/diagrams: `static/images/chapters/`
+- Gallery photos: `static/images/gallery/photo-NN.jpg`, then add `<img>` tags inside the `<div class="gallery-grid">` in `content/{lang}/gallery/_index.md`
+- Book figures: `static/images/book/fig-NN.jpg` — referenced as `/images/book/fig-NN.jpg` from every language
 - Images live in `static/` and are referenced the same way from every language's markdown — never duplicate.
 
-### Adding the book PDF
+### Adding book PDFs
 
-- `static/downloads/carrom-book-en.pdf`
-- `static/downloads/carrom-book-de.pdf`
+PDF download buttons are driven by `data/books.yaml`. Drop files at the paths listed there, e.g.:
 
-The book index page already links to these.
+- `static/downloads/carrom-techniques-and-skills-en.pdf`
+- `static/downloads/carrom-techniques-and-skills-de.pdf`
+- `static/downloads/carrom-official-rules-en.pdf`
+
+If a PDF file is missing for a language, the download button is automatically disabled for that locale.
 
 ---
 
@@ -305,13 +324,23 @@ Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the site
 
 ---
 
-## Adding a new language (Phase 5: French / Italian)
+## Adding a new language
 
-1. The language is already declared in `config/_default/hugo.toml` and `config/_default/menus.{fr,it}.toml`.
-2. Create `content/{fr,it}/_index.md`, `about.md`, `gallery.md`, `contact.md`, `read/_index.md`, then chapters one by one.
-3. Confirm glossary terms with the relevant national federation **before** translating Chapter 1.
-4. Add `translatedBy` to every translated chapter's frontmatter.
-5. Drop the translated PDF at `static/downloads/carrom-book-{fr,it}.pdf`.
+1. **Declare the language** in `config/_default/hugo.toml` and create `config/_default/menus.{lang}.toml` (copy an existing menu file and translate labels).
+2. **Scaffold site pages** (i18n, about bio, contact, videos, gallery — not the books):
+   ```bash
+   source .venv/bin/activate   # needs deep-translator + pyyaml
+   python3 scripts/setup-language.py {lang}
+   ```
+3. **Translate the books:**
+   ```bash
+   python3 scripts/translate-books.py {lang}
+   ```
+4. **Register books** in `data/books.yaml` — add `{lang}` entries under `titles`, `descriptions`, `tagLabels`, `pdfs`, and set `languages.{lang}: true`.
+5. **Add the bio** in `data/about.yaml` for the new language.
+6. Confirm glossary terms with the relevant national federation before publishing translated chapters.
+7. Drop translated PDFs at `static/downloads/carrom-techniques-and-skills-{lang}.pdf` (and rules PDF if applicable).
+8. Run `hugo --minify` and verify all pages build.
 
 ---
 
@@ -336,13 +365,20 @@ hugo server -D
 hugo --minify
 ls public/
 
-# Update PaperMod theme to latest
-git submodule update --remote themes/PaperMod
-git add themes/PaperMod
-git commit -m "Update PaperMod theme"
+# Extract EN book chapters from the .docx (images must already be in static/images/book/)
+python3 scripts/extract-book.py
+
+# Generate downloadable PDFs from the source docx (all 8 languages; needs LibreOffice)
+pip install -r requirements.txt   # python-docx, deep-translator
+brew install --cask libreoffice    # once, for soffice
+python3 scripts/generate-book-pdfs.py
+python3 scripts/generate-book-pdfs.py da --force   # re-translate one language
+
+# Translate books to a language
+python3 scripts/translate-books.py de
 
 # Create a new content file with default frontmatter
-hugo new content content/en/read/chapter-03.md
+hugo new content content/en/books/students/carrom-techniques-and-skills/chapter-03.md
 
 # Sync Problems & Solutions pairs from YouTube (see below)
 python3 scripts/sync-problem-solutions.py
@@ -378,4 +414,4 @@ Then commit and push `data/problem-solutions.yaml` if it changed.
 
 ## License & credits
 
-Content © Arun Deshpande. Site built and maintained by Swapnil Deshpande. Theme: [PaperMod](https://github.com/adityatelange/hugo-PaperMod) (MIT).
+Content © Arun Deshpande. Site built and maintained by Swapnil Deshpande.

@@ -3,14 +3,10 @@
 {{- range .Translations -}}
   {{- $perms = merge $perms (dict (.Language.Lang) .Permalink) -}}
 {{- end -}}
-{{- $sitesByLang := dict -}}
-{{- range hugo.Sites -}}
-  {{- $sitesByLang = merge $sitesByLang (dict .Language.Lang .) -}}
-{{- end -}}
 {{- $currentLabel := $current.Language.Lang | upper -}}
-{{- range site.Languages -}}
-  {{- if eq .Lang $current.Language.Lang -}}
-    {{- $currentLabel = .Label -}}
+{{- range hugo.Sites -}}
+  {{- if eq .Language.Lang $current.Language.Lang -}}
+    {{- $currentLabel = .Language.Label -}}
   {{- end -}}
 {{- end -}}
 
@@ -27,17 +23,15 @@
     <span class="lang-switcher-chevron" aria-hidden="true">{{ partial "icons/chevron-down.html" . }}</span>
   </button>
   <ul class="lang-switcher-menu" role="menu">
-    {{- range site.Languages -}}
-      {{- $code := .Lang -}}
+    {{- range hugo.Sites -}}
+      {{- $code := .Language.Lang -}}
       {{- $perm := index $perms $code -}}
       {{- if not $perm -}}
-        {{- with index $sitesByLang $code -}}
-          {{- $perm = .Home.RelPermalink -}}
-        {{- end -}}
+        {{- $perm = .Home.RelPermalink -}}
       {{- end -}}
       <li role="none">
         {{- if eq $code $current.Language.Lang -}}
-          <span class="lang-switcher-item is-active" role="menuitem" aria-current="true">{{ .Label }}</span>
+          <span class="lang-switcher-item is-active" role="menuitem" aria-current="true">{{ .Language.Label }}</span>
         {{- else -}}
           <a
             href="{{ $perm }}"
@@ -45,7 +39,7 @@
             role="menuitem"
             hreflang="{{ $code }}"
             lang="{{ $code }}"
-          >{{ .Label }}</a>
+          >{{ .Language.Label }}</a>
         {{- end -}}
       </li>
     {{- end -}}

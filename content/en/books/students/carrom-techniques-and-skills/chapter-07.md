@@ -7,9 +7,6 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-14.jpg"
   alt: "Touch, Shot, Pair, Cannon"
-aliases:
-  - /read/chapter-07/
-  - /en/read/chapter-07/
 ---
 
 *Touch and its variations, Shot, Pair, and Cannon — strokes that set up multiple coins at once.*

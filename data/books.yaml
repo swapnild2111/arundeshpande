@@ -10,22 +10,47 @@ books:
       en: "downloads/carrom-techniques-and-skills-en.pdf"
       da: "downloads/carrom-techniques-and-skills-da.pdf"
       de: "downloads/carrom-techniques-and-skills-de.pdf"
+      mr: "downloads/carrom-techniques-and-skills-mr.pdf"
+      it: "downloads/carrom-techniques-and-skills-it.pdf"
+      fr: "downloads/carrom-techniques-and-skills-fr.pdf"
+      si: "downloads/carrom-techniques-and-skills-si.pdf"
+      hi: "downloads/carrom-techniques-and-skills-hi.pdf"
     titles:
       en: "Carrom Techniques and Skills"
       da: "Carrom-teknik og færdigheder"
       de: "Carrom Techniken und Fertigkeiten"
+      mr: "कॅरम तंत्र आणि कौशल्य"
+      it: "Tecniche e abilità del Carrom"
+      fr: "Techniques et compétences du Carrom"
+      si: "Carrom තාක්ෂණික කුසලතා"
+      hi: "कैरम तकनीक और कौशल"
     descriptions:
       en: "Arun Deshpande's complete coaching book — grips, breaks, every major stroke, defence, offence, and advanced board positions."
       da: "Arun Deshpandes komplette træningsbog — greb, åbningsslag, alle hovedslag, forsvar, angreb og avancerede stillinger."
       de: "Arun Deshpandes vollständiges Trainerbuch — Griff, Anstoß, alle Hauptschläge, Verteidigung, Angriff und fortgeschrittene Stellungen."
+      mr: "अरुण देशपांडे यांचे संपूर्ण प्रशिक्षण पुस्तक — पकड, ब्रेक, सर्व मुख्य स्ट्रोक, संरक्षण, हल्ला आणि प्रगत बोर्ड स्थिती."
+      it: "Il libro completo di coaching di Arun Deshpande — impugnature, break, tutti i colpi principali, difesa, attacco e posizioni avanzate."
+      fr: "Le livre d'entraînement complet d'Arun Deshpande — prises, breaks, tous les coups majeurs, défense, attaque et positions avancées."
+      si: "Arun Deshpande ගේ සම්පූර්ණ පුහුණු පොත — grip, break, සියලු ප්‍රධාන stroke, ආරක්ෂණය, ප්‍රහාරය සහ උසස් board positions."
+      hi: "अरुण देशपांडे की संपूर्ण कोचिंग पुस्तक — ग्रिप, ब्रेक, सभी प्रमुख स्ट्रोक, रक्षा, आक्रमण और उन्नत बोर्ड स्थितियाँ।"
     tagLabels:
       en: "Read online"
       da: "Læs online"
       de: "Online lesen"
+      mr: "ऑनलाइन वाचा"
+      it: "Leggi online"
+      fr: "Lire en ligne"
+      si: "ඔන්ලයින් කියවන්න"
+      hi: "ऑनलाइन पढ़ें"
     languages:
       en: true
-      da: false
-      de: false
+      da: true
+      de: true
+      mr: true
+      it: true
+      fr: true
+      si: true
+      hi: true
 
   - id: official-carrom-rules
     category: rules
@@ -44,19 +69,44 @@ books:
       en: "downloads/carrom-official-rules-en.pdf"
       da: "downloads/carrom-official-rules-da.pdf"
       de: "downloads/carrom-official-rules-de.pdf"
+      mr: "downloads/carrom-official-rules-mr.pdf"
+      it: "downloads/carrom-official-rules-it.pdf"
+      fr: "downloads/carrom-official-rules-fr.pdf"
+      si: "downloads/carrom-official-rules-si.pdf"
+      hi: "downloads/carrom-official-rules-hi.pdf"
     titles:
       en: "Official Carrom Rules & Regulations"
       da: "Officielle carrom-regler"
       de: "Offizielle Carrom-Regeln"
+      mr: "अधिकृत कॅरम नियम आणि नियमावली"
+      it: "Regolamento ufficiale del Carrom"
+      fr: "Règlement officiel du Carrom"
+      si: "Carrom නිල නීති සහ regulations"
+      hi: "आधिकारिक कैरम नियम और विनियम"
     descriptions:
       en: "The complete laws of carrom as published by the International Carrom Federation — equipment, definitions, match procedure, scoring, fouls, and the Queen rules."
       da: "De officielle internationale carrom-regler udgivet af International Carrom Federation."
       de: "Die offiziellen internationalen Carrom-Regeln der International Carrom Federation."
+      mr: "International Carrom Federation द्वारे प्रकाशित कॅरमचे संपूर्ण नियम — उपकरण, व्याख्या, सामना प्रक्रिया, गुण, फाऊल आणि Queen नियम."
+      it: "Le regole complete del carrom pubblicate dalla International Carrom Federation — attrezzatura, definizioni, procedura di gara, punteggio, falli e regole della Queen."
+      fr: "Les règles complètes du carrom publiées par la Fédération internationale de carrom — équipement, définitions, déroulement des matchs, score, fautes et règles de la Queen."
+      si: "International Carrom Federation විසින් පළ කරන ලද Carrom නීති සම්පූර්ණය — equipment, definitions, match procedure, scoring, fouls සහ Queen rules."
+      hi: "International Carrom Federation द्वारा प्रकाशित कैरम के संपूर्ण नियम — उपकरण, परिभाषाएँ, मैच प्रक्रिया, स्कोरिंग, फ़ाउल और Queen नियम।"
     tagLabels:
       en: "Read online"
       da: "Læs online"
       de: "Online lesen"
+      mr: "ऑनलाइन वाचा"
+      it: "Leggi online"
+      fr: "Lire en ligne"
+      si: "ඔන්ලයින් කියවන්න"
+      hi: "ऑनलाइन पढ़ें"
     languages:
       en: true
-      da: false
-      de: false
+      da: true
+      de: true
+      mr: true
+      it: true
+      fr: true
+      si: true
+      hi: true

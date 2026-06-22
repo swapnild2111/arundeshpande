@@ -7,9 +7,6 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-17.jpg"
   alt: "Glance, Brush, Rebound, Hook"
-aliases:
-  - /read/chapter-08/
-  - /en/read/chapter-08/
 ---
 
 *Glance, Double Glance, Brush, Rebound, Simple Rebound, Langda Rebound, and Hook.*
