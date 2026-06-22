@@ -23,7 +23,7 @@ books:
       da: "Læs online"
       de: "Online lesen"
     languages:
-      en: false
+      en: true
       da: false
       de: false
 
