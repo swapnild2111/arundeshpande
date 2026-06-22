@@ -48,6 +48,9 @@
   </nav>
 
   <div class="sidebar-footer">
+    {{ if .Site.Params.playStoreEnabled }}
+      {{ partial "play-store-badge.html" . }}
+    {{ end }}
     <small>{{ .Site.Params.copyright }}</small>
     <small>{{ .Site.Params.copyrightReserved }}</small>
   </div>

@@ -1,0 +1,11 @@
+{{ if and .Site.Params.playStoreEnabled .Site.Params.playStoreURL }}
+<a
+  class="play-store-badge"
+  href="{{ .Site.Params.playStoreURL }}"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="{{ i18n "play_store_label" | default "Get the app on Google Play" }}"
+>
+  <span class="visually-hidden">{{ i18n "play_store_label" | default "Get the app on Google Play" }}</span>
+</a>
+{{ end }}

@@ -7,7 +7,11 @@
     (function () {
       try {
         var t = localStorage.getItem('theme');
-        if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+        if (t === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        } else {
+          document.documentElement.removeAttribute('data-theme');
+        }
       } catch (e) {}
     })();
   </script>
@@ -22,6 +26,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 
+  <style>
+    html { --play-badge-img: url('{{ "images/google-play-badge-light.svg" | relURL }}'); }
+    html[data-theme="light"] { --play-badge-img: url('{{ "images/google-play-badge-dark.svg" | relURL }}'); }
+  </style>
   {{- $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 

@@ -22,6 +22,12 @@ other = "Schließen"
 [youtube_channel]
 other = "YouTube-Kanal"
 
+[play_store_label]
+other = "App bei Google Play holen"
+
+[google_play_app]
+other = "Google Play App"
+
 [about_legend]
 other = "Über die Legende"
 

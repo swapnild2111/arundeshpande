@@ -22,6 +22,12 @@ other = "Close"
 [youtube_channel]
 other = "YouTube Channel"
 
+[play_store_label]
+other = "Get the app on Google Play"
+
+[google_play_app]
+other = "Google Play App"
+
 [about_legend]
 other = "About the Legend"
 

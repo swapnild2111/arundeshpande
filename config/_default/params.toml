@@ -3,6 +3,8 @@ brandName = "Arun Deshpande"
 brandTagline = "Carrom Academy"
 heroPhoto = "/images/arun-profile.jpg"
 youtubeURL = "https://www.youtube.com/@Shrikant_Potharkar_carrom"
+playStoreEnabled = false
+playStoreURL = "https://play.google.com/store/apps/details?id=com.snp.arun_deshpande"
 
 # Analytics & Search Console (uncomment and fill in to enable)
 googleAnalyticsId = "G-17C0Y74790"

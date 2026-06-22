@@ -43,6 +43,17 @@
       </div>
     </div>
     {{ end }}
+    {{ if and .Site.Params.playStoreEnabled .Site.Params.playStoreURL }}
+    <div class="contact-row">
+      <span class="icon">{{ partial "icons/google-play.html" $ }}</span>
+      <div class="contact-row-body">
+        <div class="label">{{ i18n "google_play_app" | default "Google Play App" }}</div>
+        <div class="value contact-play-store">
+          {{ partial "play-store-badge.html" $ }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
   </div>
 
   {{ with .Params.phone }}

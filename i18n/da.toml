@@ -22,6 +22,12 @@ other = "Luk"
 [youtube_channel]
 other = "YouTube-kanal"
 
+[play_store_label]
+other = "Hent appen på Google Play"
+
+[google_play_app]
+other = "Google Play-app"
+
 [about_legend]
 other = "Om legenden"
 
