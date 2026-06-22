@@ -6,25 +6,59 @@ date: 2026-01-01
 author: "International Carrom Federation"
 ---
 
+*Every tournament begins with the equipment. This chapter sets out the exact specifications for the coins, the striker, the table on which the board sits, the chair the player sits on, the powder used to keep the surface smooth, the nets that catch pocketed coins, and the light overhead.*
+
 ## Carrommen
 
-The Carrommen used in play shall be of good quality wood and circular in shape. The diameter of a Carromman shall not be more than 3.18 cm and not less than 3.02 cm. A Carromman shall be of not less than 0.70 cm and not more than 0.90 cm in thickness. The edge shall be round and plain. The weight of a Carromman shall not be less than 5.25 grams and not more than 5.50 grams. Thus there shall be nine white, nine black and one red Carrommen, and they shall be uniform.
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Diameter</span>
+    <p class="def">Not more than <strong>3.18 cm</strong> and not less than <strong>3.02 cm</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Thickness</span>
+    <p class="def">Between <strong>0.70 cm</strong> and <strong>0.90 cm</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Weight</span>
+    <p class="def">Between <strong>5.25 g</strong> and <strong>5.50 g</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Set</span>
+    <p class="def"><strong>9 white, 9 black, 1 red</strong> — all uniform.</p>
+  </div>
+</div>
 
-The Carrommen shall have a smooth movement in a flat position on the playing surface of the Carrom Board when struck by a striker of standard specifications.
+The Carrommen used in play shall be of good quality wood and circular in shape. The edge shall be round and plain. The Carrommen shall have a smooth movement in a flat position on the playing surface of the Carrom Board when struck by a striker of standard specifications.
 
 ## Striker
 
-The Striker shall be smooth and round with a diameter of not more than 4.13 cm and weighing not more than 15.00 gms. A Striker made of any material other than ivory and metal, with the specifications prescribed above, may be used. A Striker, with metal fixed and visible to the eyes shall not be allowed. Engraved decent designs on the Striker are permissible.
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Diameter</span>
+    <p class="def">Not more than <strong>4.13 cm</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Weight</span>
+    <p class="def">Not more than <strong>15.00 g</strong>.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Material</span>
+    <p class="def">Anything except ivory and metal. Strikers with visible metal fixed to them are not allowed.</p>
+  </div>
+</div>
+
+The Striker shall be smooth and round. Engraved decent designs on the Striker are permissible.
 
 ## Stand or Table
 
-The Stand or Table on which the Carrom Board is placed for play shall not be less than 63.00 cm and not more than 70.00 cm in height. The Carrom Board, when placed on it, shall not be uneven or shaky.
+The Stand or Table on which the Carrom Board is placed for play shall not be less than **63.00 cm** and not more than **70.00 cm** in height. The Carrom Board, when placed on it, shall not be uneven or shaky.
 
-However, padding below the Carrom Board and/or the Table or Stand on which the Carrom Board is placed, may be used to make the playing surface of the Carrom Board level and firm as far as possible.
+Padding below the Carrom Board and/or the Table or Stand on which the Carrom Board is placed may be used to make the playing surface level and firm as far as possible.
 
 ## Stool or Chair
 
-The Stool or Chair on which the player sits for playing shall not be less than 40.00 cm and not more than 50.00 cm in height. The Chair, if used, shall be armless.
+The Stool or Chair on which the player sits for playing shall not be less than **40.00 cm** and not more than **50.00 cm** in height. The Chair, if used, shall be armless.
 
 ## Powder
 
@@ -32,8 +66,13 @@ The powder used shall be of high quality to keep the playing surface smooth and 
 
 ## Nets
 
-The pockets shall be fully covered from beneath by nets fixed at the bottom of the Carrom Board. Each net shall have the capacity of holding at least 10 c/m.
+The pockets shall be fully covered from beneath by nets fixed at the bottom of the Carrom Board. Each net shall have the capacity of holding at least **10 c/m**.
 
 ## Light
 
-The light shall be hung or fitted at a convenient height above the Carrom Board so that, when a conical or square shade — preferably of metal — is used, the light shall fall only on the Carrom Board including the frame. The shade shall be one with the inner side completely snow-white in colour. The bulb used, preferably transparent white, shall be between 60 and 100 watts. However, the height of the light can be altered at the request of a player in such a manner that the naked light does not strike the eyes of the player or players.
+The light shall be hung or fitted at a convenient height above the Carrom Board so that, when a conical or square shade — preferably of metal — is used, the light shall fall only on the Carrom Board including the frame. The shade shall be one with the inner side completely snow-white in colour. The bulb used, preferably transparent white, shall be **between 60 and 100 watts**.
+
+<div class="callout">
+  <div class="callout-title">Player accommodation</div>
+  <p>The height of the light can be altered at the request of a player so that the naked light does not strike their eyes.</p>
+</div>

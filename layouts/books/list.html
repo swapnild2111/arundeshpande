@@ -11,52 +11,86 @@
 
 {{ if .Params.chapters }}
 
-  {{- /* B) Chapter index page */ -}}
+  {{- /* B) Chapter index page — new layout: 2-column hero + table of contents */ -}}
 
-  {{- /* Look up the matching entry in data/books.yaml so we can show a
-         Download PDF button when the PDF for the current language exists. */ -}}
+  {{- /* Look up the matching entry in data/books.yaml for PDF info. */ -}}
   {{- $bookId := path.Base .RelPermalink -}}
   {{- $lang := .Site.Language.Lang -}}
   {{- $pdfPath := "" -}}
+  {{- $sourceUrl := .Params.sourceUrl | default "" -}}
   {{- range (hugo.Data.books.books | default slice) -}}
     {{- if eq .id $bookId -}}
       {{- $pdfPath = index .pdfs $lang | default "" -}}
+      {{- with .sourceUrl -}}{{ $sourceUrl = . }}{{- end -}}
     {{- end -}}
   {{- end -}}
   {{- $pdfExists := false -}}
+  {{- $pdfSizeKB := 0 -}}
   {{- if $pdfPath -}}
     {{- $rel := strings.TrimPrefix "/" $pdfPath -}}
-    {{- if fileExists (printf "static/%s" $rel) -}}
+    {{- with (resources.Get (printf "/%s" $rel)) -}}
       {{- $pdfExists = true -}}
+      {{- $pdfSizeKB = div (len .Content) 1024 -}}
+    {{- else -}}
+      {{- if fileExists (printf "static/%s" $rel) -}}
+        {{- $pdfExists = true -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
+
+  {{- $firstChapter := index (.Pages.ByWeight) 0 -}}
 
   <nav class="book-back">
     <a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a>
   </nav>
 
-  <header class="page-header book-view-header">
-    <h1><span class="icon-pill">{{ partial "icons/book.html" . }}</span>{{ .Title }}</h1>
-    <div class="book-view-meta">
-      {{ with .Params.author }}<span>{{ . }}</span>{{ end }}
-      <span>{{ len .Pages }} {{ i18n "chapter" | default "Chapter" }}s</span>
-      {{ with .Params.tagLabel }}<span class="tag --amber">{{ . }}</span>{{ end }}
+  <section class="book-hero">
+    <div class="book-hero-info">
+      <div class="book-hero-kicker">
+        <span class="kicker-icon">{{ partial "icons/book.html" . }}</span>
+        {{ with .Params.tagLabel }}<span class="tag --amber">{{ . }}</span>{{ end }}
+      </div>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="book-hero-description">{{ . }}</p>{{ end }}
+      <div class="book-hero-facts">
+        {{ with .Params.author }}<span>{{ . }}</span>{{ end }}
+        <span><strong>{{ len .Pages }}</strong> {{ i18n "chapter" | default "Chapter" }}s</span>
+        {{ with .Params.pageCount }}<span><strong>{{ . }}</strong> {{ i18n "page_count" | default "pages" }}</span>{{ end }}
+      </div>
     </div>
-    {{ with .Description }}<p>{{ . }}</p>{{ end }}
-  </header>
 
-  <div class="book-toolbar">
-    {{ if $pdfExists }}
-      <a class="btn btn-download btn-sm" href="{{ $pdfPath | relURL }}" download>
-        {{ partial "icons/download.html" . }}{{ i18n "download_pdf" | default "Download PDF" }}
-      </a>
-    {{ else }}
-      <span class="btn btn-ghost btn-sm is-disabled" aria-disabled="true" title="{{ i18n "pdf_coming_soon" | default "PDF coming soon" }}">
-        {{ partial "icons/download.html" . }}{{ i18n "download_pdf" | default "Download PDF" }}
-        <span class="badge-soon">{{ i18n "soon" | default "Soon" }}</span>
-      </span>
-    {{ end }}
-  </div>
+    <aside class="book-hero-action">
+      <h3>{{ i18n "ready_to_read" | default "Ready to read" }}</h3>
+
+      {{ with $firstChapter }}
+        <a class="start-cta" href="{{ .RelPermalink }}">
+          <span class="start-cta-label">
+            {{ partial "icons/play.html" $ }}{{ i18n "start_reading" | default "Start reading" }}
+          </span>
+          <span class="start-cta-title">{{ .Title }}</span>
+        </a>
+      {{ end }}
+
+      <div class="secondary-actions">
+        {{ if $pdfExists }}
+          <a class="btn btn-download btn-sm" href="{{ $pdfPath | relURL }}" download>
+            {{ partial "icons/download.html" . }}{{ i18n "download_pdf" | default "Download PDF" }}{{ if gt $pdfSizeKB 0 }} <span style="opacity:.7; font-weight:500;">({{ $pdfSizeKB }} KB)</span>{{ end }}
+          </a>
+        {{ else }}
+          <span class="btn btn-ghost btn-sm is-disabled" aria-disabled="true" title="{{ i18n "pdf_coming_soon" | default "PDF coming soon" }}">
+            {{ partial "icons/download.html" . }}{{ i18n "download_pdf" | default "Download PDF" }}
+            <span class="badge-soon">{{ i18n "soon" | default "Soon" }}</span>
+          </span>
+        {{ end }}
+
+        {{ with $sourceUrl }}
+          <a class="source-link" href="{{ . }}" target="_blank" rel="noopener">
+            {{ i18n "original_source" | default "Original source" }} ↗
+          </a>
+        {{ end }}
+      </div>
+    </aside>
+  </section>
 
   {{ if .Content }}
   <article class="book-prose">
@@ -64,12 +98,18 @@
   </article>
   {{ end }}
 
-  <div class="chapter-grid">
+  <header class="toc-heading">
+    <h2>{{ i18n "table_of_contents" | default "Table of contents" }}</h2>
+    <span class="toc-count">{{ len .Pages }} {{ i18n "chapter" | default "Chapter" }}s</span>
+  </header>
+
+  <div class="toc-grid">
     {{ range .Pages.ByWeight }}
-      <a class="chapter-card" href="{{ .RelPermalink }}">
-        <span class="number">{{ i18n "chapter" | default "Chapter" }} {{ .Params.weight }}</span>
-        <h3>{{ .Title }}</h3>
-        <p>{{ .Description }}</p>
+      <a class="toc-card" href="{{ .RelPermalink }}">
+        <span class="toc-num">{{ .Params.weight }}</span>
+        <span class="toc-label">{{ i18n "chapter" | default "Chapter" }} {{ .Params.weight }}</span>
+        <h3>{{ replaceRE `^Chapter \d+\s*[—-]\s*` "" .Title }}</h3>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
       </a>
     {{ end }}
   </div>

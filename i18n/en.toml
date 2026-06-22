@@ -139,6 +139,18 @@ other = "Soon"
 [pdf_coming_soon]
 other = "PDF coming soon"
 
+[author]
+other = "Author"
+
+[ready_to_read]
+other = "Ready to read"
+
+[start_reading]
+other = "Start reading"
+
+[table_of_contents]
+other = "Table of contents"
+
 [language_label]
 other = "Language"
 

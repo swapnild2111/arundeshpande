@@ -6,92 +6,89 @@ date: 2026-01-01
 author: "International Carrom Federation"
 ---
 
-## Pocketing and Covering the Queen
+*The Queen is the red coin in the centre of the board and the centrepiece of carrom strategy. She's worth 3 points — but only if "covered" by one of your own coins on the same or the next stroke. This chapter covers every situation involving the Queen.*
 
-92. A player has the right to pocket the Queen and to cover it provided a c/m of his own has already been pocketed.
+## Pocketing and Covering
 
-93. The Queen shall be placed by the Umpire only in the Centre Circle. While placing so, however, if a shot is automatically formed, it cannot be altered.
+<div class="callout">
+  <div class="callout-title">The covering rule</div>
+  <p>A player may pocket the Queen only after at least one of his own C/m has already been pocketed. To <strong>cover</strong> the Queen, he must pocket one of his own C/m in the same stroke or the immediately following stroke.</p>
+</div>
 
-94. If the Centre Circle is partially or completely covered by other C/m, the Queen shall be placed so as to occupy most of the uncovered portion or in any position adjacent to the Centre Circle in such a way so that it is not easy to pocket for the player having his turn. The placing of the Queen by the Umpire, in such a situation, shall be final.
+**93.** The Queen shall be placed by the Umpire only in the Centre Circle. If a shot is automatically formed when placed, it cannot be altered.
 
-95. a) If the Queen is pocketed before any C/m of the player is pocketed, the Queen shall be taken out for placing and the player shall lose his turn.
+**94.** If the Centre Circle is partially or completely covered by other C/m, the Queen is placed so as to occupy most of the uncovered portion, or in any position adjacent to the Centre Circle in such a way that it is not easy for the player having his turn to pocket. **The Umpire's placement decision is final.**
 
-    b) If a player pockets the Queen, while there is a Due against him, the Queen shall be taken out for placing and the player shall lose his turn.
+**95.** &nbsp;&nbsp;a) If the Queen is pocketed before any of the player's own C/m, the Queen is taken out for placing and the player loses his turn.
 
-    c) However, if after recovery of Due and/or penalty, all the nine C/m are on the C/B, a player shall have the right to pocket the Queen and to cover it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) If the Queen is pocketed while there is a Due against the player, the Queen is taken out for placing and the player loses his turn.
 
-    d) If, at the break or in a subsequent stroke when all his nine C/m are on the C/B, the Queen is pocketed along with the Striker, the Queen shall be taken out for placing and a Due shall be declared. The player shall lose his turn.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) **However**, if after recovery of Due/Penalty all nine of the player's C/m are still on the C/B, he has the right to pocket and cover the Queen.
 
-96. If the Queen is pocketed by a stroke and is not covered, the Queen shall be taken out for placing. If not noticed by the Umpire or by the opponent, before the next stroke is made, the Queen shall be recorded as properly covered.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) If, at the break or in a subsequent stroke when all nine C/m are on the C/B, the Queen is pocketed along with the Striker, the Queen is taken out for placing and a Due is declared. The player loses his turn.
 
-97. a) If the Queen and the C/m of a player are pocketed together in one stroke, the Queen shall be considered covered.
+**96.** If the Queen is pocketed by a stroke and is not covered, the Queen is taken out for placing. If not noticed by the Umpire or the opponent before the next stroke is made, the Queen is recorded as properly covered.
 
-    b) However, at the Break and/or in any subsequent stroke, when all nine C/m of the player are on the C/B, if the Queen and one of the C/m are pocketed together, the Queen has to be covered. If more than one C/m and the Queen are pocketed together, the Queen shall be considered covered.
+**97.** &nbsp;&nbsp;a) **Queen + one of your C/m pocketed together** — the Queen is considered covered.
 
-## Queen and Striker Together
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) However, at the Break (or any stroke when all nine of your C/m are on the C/B), if **only one** of your C/m and the Queen are pocketed together, you must still cover. If **more than one** of your C/m and the Queen are pocketed together, the Queen is considered covered.
 
-98. a) If the Queen, C/m of a player and the Striker are pocketed together by a proper stroke the Queen and the C/m so pocketed with an additional one as Due, shall be taken out for placing and player shall continue his turn.
+## When the Queen and Striker Meet
 
-    b) If the Queen, C/m of a player and Striker are pocketed together by an improper stroke, Queen and the C/m so pocketed with additional two C/m as due and penalty shall be taken out for placing and the player shall lose his turn.
+The most error-prone situations: the player pockets the Queen together with the Striker, and/or with one or more own C/m. Here's the matrix.
 
-99. a) If the Queen and the Striker are pocketed together by a proper stroke, the Queen shall be taken out for placing by the Umpire. An additional C/m shall be taken out for placing by the opponent and the player shall continue his turn.
+| Pocketed together | Stroke type | Queen | Penalty | Turn |
+|---|---|---|---|---|
+| Queen + Striker | Proper | Taken out for placing | +1 C/m | Continues |
+| Queen + Striker | Improper | Taken out for placing | +2 C/m | Lost |
+| Queen + own C/m + Striker | Proper | Out for placing | +1 Due C/m | Continues |
+| Queen + own C/m + Striker | Improper | Out for placing | +2 C/m (Due + Penalty) | Lost |
 
-    b) If the Queen and the Striker are pocketed together by an improper stroke, the Queen shall be taken out by the Umpire for placing. Additional two C/m shall be taken out for placing by the opponent and the player shall lose his turn.
+**100.** &nbsp;&nbsp;a) **While covering the Queen**, if the Striker alone is pocketed by a proper stroke — the Queen is taken out for placing, a C/m is taken out as Due, the turn is lost.
 
-100. a) While covering the Queen, if the Striker alone is pocketed by a proper stroke, the Queen shall be taken out placing. A C/m of the offending player shall be taken out as Due for placing by the opponent and the player shall lose his turn.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Same, by an improper stroke — Queen taken out for placing, **two** C/m taken out (Due + Penalty), the turn is lost.
 
-     b) While covering the Queen, if the Striker alone is pocketed, by an improper stroke the Queen shall be taken out for placing. Two C/m of the offending player shall be taken out as Due and Penalty for placing by the opponent and the player shall lose his turn.
+**101.** &nbsp;&nbsp;a) **While covering the Queen** by a proper stroke, if the player pockets the Striker along with his own C/m — the C/m is taken out plus 1 Due. The player **continues** his turn. If, in the subsequent stroke, no C/m is pocketed, the Queen is **not** considered covered and is taken out for placing.
 
-101. a) While covering the Queen by a proper stroke, if a player pockets the striker along with his C/m, the C/m so pocketed plus one C/m as Due shall be taken out for placing by the opponent. The player shall however, continue his turn. If in that subsequent stroke no C/m of the player is pocketed, the Queen shall not be considered to have been covered and it shall be taken out for placing.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Same, by an improper stroke — C/m + 2 (Due + Penalty) out; turn **lost**; Queen taken out by Umpire.
 
-     b) While covering the Queen, if a player pockets his Striker along with his C/m by an improper stroke, the C/m so pocketed plus two C/m as due and penalty shall be taken out for placing by the opponent and the player shall lose his turn. The Queen shall be taken out for placing by the Umpire.
+## Endgame Scenarios
 
-## Endgame and the Queen
+The remaining 13 rules (102–114) cover edge cases where the last C/m of either player, the Queen, and the Striker all interact. The principle is consistent: a *proper* stroke scores or loses by the **value on the board** (C/m + Queen if applicable); an *improper* stroke triggers an extra penalty on top.
 
-102. a) While covering the Queen a player pockets the last C/m of his own together with the last C/m of his opponent by a proper stroke, he shall be awarded 3 points. If the score is 22 or more he shall win by 1 point.
+**102.** **Player pockets his last C/m and the opponent's last C/m together** while covering the Queen:
 
-     b) While covering the Queen, if a player pockets the last C/m of his own together with the last C/m of his opponent by an improper stroke the opponent shall win by three points. If the score is 22 or more he shall win by one point. If demanded, an additional point for the improper stroke shall be awarded to the opponent.
+- Proper: he wins by 3 points (1 point if at 22+).
+- Improper: opponent wins by 3 points (1 if at 22+). One additional point if demanded.
 
-103. a) While covering the Queen, if a player pockets the last C/m of his opponent by a proper stroke, he shall lose the Board by the number of his C/m lying on the C/B together with the points for the Queen. If the score of the opponent is 22 or more, he shall lose by the number of C/m only.
+**103.** **Player pockets only the opponent's last C/m** while covering the Queen:
 
-     b) While covering the Queen, if a player pockets the last C/m of his opponent by an improper stroke, he shall lose the Board by the number of his C/m lying on the C/B together with the points for the Queen. If the score of the opponent is 22 or more, he shall lose by the number of C/m only. If demanded, an additional point shall be awarded to the opponent.
+- Proper: he loses by the number of his C/m on the C/B plus the Queen's points (or just by C/m if opponent at 22+).
+- Improper: same, plus an additional point to the opponent if demanded.
 
-104. a) If a player pockets the Queen along with his last C/m and the last C/m of his opponent by a proper stroke, the player shall win the Board by 3 points. If the score is 22 or more he shall win by 1 point.
+**104.** **Queen + own last C/m + opponent's last C/m pocketed together**:
 
-     b) If a player pockets the Queen along with his last C/m and the last C/m of his opponent by an improper stroke, the opponent shall win the board by 3 points. If the score is 22 or more he shall win by 1 point. If demanded one additional point shall be awarded.
+- Proper: the player wins by 3 points (1 if at 22+).
+- Improper: opponent wins by 3 points (1 if at 22+), plus one additional if demanded.
 
-105. a) If a player pockets the last C/m of his own and of his opponent by a proper stroke while the Queen is on the C/B, the opponent shall be awarded 3 points. If the score is 22 or more he shall be awarded only 1 point.
+**105.** **Own last C/m + opponent's last C/m together, Queen still on the C/B**: opponent wins by 3 points (1 if at 22+) regardless of stroke type. Improper adds an additional point if demanded.
 
-     b) If a player pockets the last C/m of his own and of his opponent by an improper stroke while the Queen is on the C/B, the opponent shall be awarded 3 points. If the score is 22 or more he shall be awarded only 1 point. If demanded, the opponent shall be awarded 1 additional point.
+**106.** **Opponent's last C/m alone, Queen still on the C/B**: player loses by his C/m on the board + Queen value (or just by C/m if opponent at 22+). Improper adds an additional point if demanded.
 
-106. a) If a player pockets the last C/m of his opponent by a proper stroke, when the Queen is on the C/B, he shall lose the Board by the number of his own C/m lying on the C/B together with the points for the Queen. If the opponents score is 22 or more he shall lose by the number of C/m only.
+**107.** **Player pockets his own last C/m, leaves the Queen on the C/B**: player loses by 3 points (1 if opponent at 22+). Improper adds one if demanded.
 
-     b) If a player pockets the last C/m of his opponent by an improper stroke when the Queen is on the C/B, he shall lose the Board by the number of his own C/m lying on the C/B together with the points for the Queen. If the opponents score is 22 or more he shall lose the Board by the number of C/m only. If demanded, the opponent shall be awarded one point in addition.
+**108.** **Own last C/m + Striker, Queen still on the C/B**: lose by 3 points (1 if opponent at 22+). Improper: opponent gets 2 additional if demanded.
 
-107. a) If a player pockets his last C/m by a proper stroke leaving the Queen on the C/B, he shall lose the Board by 3 points. If the opponents score is 22 or more he shall lose by one point.
+**109.** **Queen + own last C/m + opponent's last C/m + Striker, all together**: player loses by 3 points (1 if opponent at 22+). Proper stroke: +1 additional if demanded. Improper: +2 additional if demanded.
 
-     b) If a player pockets his last C/m by an improper stroke leaving the Queen on the C/B, he shall lose the Board by 3 points. If the opponents score is 22 or more he shall lose by one point. If demanded, the opponent shall be awarded one additional point.
+**110.** **Own last C/m + opponent's last C/m + Striker, Queen already covered by player**: lose by 1 point. Proper: +1 additional if demanded. Improper: +2 additional if demanded.
 
-108. a) If a player pockets his last C/m along with the Striker leaving the Queen on the C/B by a proper stroke, he shall lose the Board by 3 points. If the score of the opponent is 22 or more, he shall lose by one point. One additional point shall be awarded, if demanded by the opponent.
+**111.** **Opponent's last C/m + Striker, leaves Queen on C/B**: lose by C/m on board + Queen (or just by C/m if at 22+). Proper: +1 for the Striker if demanded. Improper: +2 if demanded.
 
-     b) If a player pockets his last C/m along with the Striker leaving the Queen on the C/B by an improper stroke, he shall lose the Board by 3 points. If the score of the opponent is 22 or more, he shall lose by one point. If demanded, the opponent shall be awarded two additional points.
+**112.** **Own last C/m + opponent's last C/m + Striker, Queen already covered by opponent**: player loses by 3 points (gets 1 if opponent at 22+). Proper: +1 additional if demanded. Improper: +2 if demanded.
 
-109. a) If a player pockets the Queen, his last C/m, the last C/m of his opponent by a proper stroke together with the Striker, the player shall lose the Board by 3 points. If the score of the opponent is 22 or more, he shall lose by one point. One additional point for the pocketed striker shall be awarded, if demanded by the opponent.
+## Final Queen Rules
 
-     b) If a player pockets the Queen, his last C/m, the last C/m of his opponent together with the Striker by an improper stroke, the player shall lose the Board by 3 points. If the score of the opponent is 22 or more, he shall lose by one point. If demanded, the opponent shall be awarded two additional points.
+**113.** If the Queen rests perilously at the mouth of a pocket and actually falls in for any reason, she is considered to have been (duly) pocketed.
 
-110. a) If a player pockets the last C/m of his own and of his opponent together with the Striker by a proper stroke he shall lose the Board by one point, if the Queen has been covered by him. One additional point for the pocketed Striker shall be awarded if demanded by the opponent.
-
-     b) If a player pockets the last C/m of his own and of his opponent together with the Striker by an improper stroke, he shall lose the Board by one point, if the Queen has been covered by him. Two additional points shall be awarded, if demanded by the opponent.
-
-111. a) If a player pockets the last C/m of his opponent along with the Striker leaving the Queen on the C/B by a proper stroke, he shall lose the Board by the number of his C/m lying on the C/B plus the value of the Queen. If the score is 22 or more, he shall lose by the number of C/m only. One additional point for the pocketed Striker shall be awarded, if demanded by the opponent.
-
-     b) If a player pockets the last C/m of his opponent along with the Striker leaving the Queen on the C/B by an improper stroke he shall lose the Board by the number of his C/m lying on the C/B plus the value of the Queen. If the score is 22 or more he shall lose by number of his C/m only. If demanded, the opponent shall be awarded two additional points.
-
-112. a) If a player pockets the last C/m of his own and of his opponent together with the Striker by a proper stroke, he shall lose the Board by 3 points, if the Queen has been covered by the opponent. If the score of the opponent is 22 or more, he shall get one point. One additional point shall be awarded, if demanded by the opponent.
-
-     b) If a player pockets the last C/m of his own and of his opponent together with the Striker by an improper stroke he shall lose the Board by 3 points, if the Queen has been covered by the opponent. If the score is 22 or more he shall get one point. Two additional points shall be awarded, if demanded by the opponent.
-
-113. If the Queen resting perilously at the mouth of the pocket and actually falls into the pocket for any reason, it shall be considered to have been (duly) pocketed.
-
-114. A player shall not utilise the due and/or penalty C/m to make a shot with the Queen. If utilised, he shall be asked by the Umpire to rectify. A Foul shall be declared as per Laws.
+**114.** A player **shall not use a Due or Penalty C/m to make a shot with the Queen**. If used, the Umpire asks him to rectify. A Foul is declared.

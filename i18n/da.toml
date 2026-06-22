@@ -139,6 +139,18 @@ other = "Snart"
 [pdf_coming_soon]
 other = "PDF kommer snart"
 
+[author]
+other = "Forfatter"
+
+[ready_to_read]
+other = "Klar til at læse"
+
+[start_reading]
+other = "Begynd at læse"
+
+[table_of_contents]
+other = "Indholdsfortegnelse"
+
 [language_label]
 other = "Sprog"
 

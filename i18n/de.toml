@@ -139,6 +139,18 @@ other = "Bald"
 [pdf_coming_soon]
 other = "PDF folgt in Kürze"
 
+[author]
+other = "Autor"
+
+[ready_to_read]
+other = "Bereit zum Lesen"
+
+[start_reading]
+other = "Lesen starten"
+
+[table_of_contents]
+other = "Inhaltsverzeichnis"
+
 [language_label]
 other = "Sprache"
 

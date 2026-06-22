@@ -6,112 +6,126 @@ date: 2026-01-01
 author: "International Carrom Federation"
 ---
 
-## General
+*The remaining laws — covering equipment changes during a match, timing, powder etiquette, and the offences that can cost a player the entire match.*
 
-115. A stroke shall be taken by means of a Striker only. The Striker shall be brought by the player and certified by the Chief Referee or Umpire before play.
+## Equipment During Play
 
-116. While taking a stroke, if the Striker jumps over the C/B, the turn of the player shall continue if he pockets his own C/m and/or Queen in that stroke.
+**115.** A stroke shall be taken by means of a **Striker only**. The Striker is brought by the player and certified by the Chief Referee or Umpire before play.
 
-117. A changed new Striker, duly approved by the Chief Referee or Umpire, shall be allowed in a match, after the particular Board is completed. However, if in the middle of the board, the Striker is damaged, it is permitted to change the same only after completion of that particular stroke.
+**116.** While taking a stroke, if the Striker jumps over the C/B, the turn of the player continues if he pockets his own C/m and/or Queen in that stroke.
 
-118. a) Once set, the position of the C/B shall not be changed in the middle of the match.
+**117.** A changed new Striker, duly approved by the Chief Referee or Umpire, is allowed in a match **after the particular Board is completed**. If the Striker is damaged mid-board, it may be changed **only after completion of that particular stroke**.
 
-     b) However, the sole authority to make any change after examination, on an appeal by any player, lies with the Umpire.
+**118.** &nbsp;&nbsp;a) Once set, the position of the C/B shall not be changed in the middle of the match.
 
-119. The C/B, table or stand on which the C/B is placed, allotted for a match can be changed only after the completion of a Board. The sole authority for deciding the condition of the C/B, stand or table rests with the Umpire.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) The sole authority to make any change after examination, on an appeal by any player, lies with the Umpire.
 
-120. Any damaged C/m, if appealed for replacement, shall be replaced by the Umpire in the original position of the damaged C/m as far as possible.
+**119.** The C/B, table or stand on which the C/B is placed can be changed only after the completion of a Board. The sole authority for deciding the condition of the C/B, stand or table rests with the Umpire.
 
-121. a) The time count stops when there is an appeal to the Umpire by a player, during the play. The play shall not continue unless the Umpire has ordered Play.
+**120.** Any damaged C/m, if appealed for replacement, shall be replaced by the Umpire in the original position of the damaged C/m as far as possible.
 
-     b) The player who violates this, shall lose the entire board with the number of his C/m lying on the C/B with the points of the Queen, as per Laws, if it is lying on the C/B.
+## Time and Appeals
 
-## Powder Rules
+**121.** &nbsp;&nbsp;a) The time count **stops** when there is an appeal to the Umpire during play. Play shall not continue unless the Umpire has ordered *Play*.
 
-122. a) The powder shall be applied evenly, by the player having the turn, over the playing surface before break. The use of powder shall be neither excessive nor scanty.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) The player who violates this loses the entire board by the number of his C/m on the C/B with the Queen's points (if she is on the C/B).
 
-     b) i) The powder shall not be applied or removed after the Umpire has announced Play.
+## Powder
 
-        ii) Any wilful attempt to remove or wipe powder from the playing surface shall not be permitted.
+<div class="callout">
+  <div class="callout-title">Powder rules</div>
+  <p>The powder must be applied evenly by the player having the turn, before the break — neither excessive nor scanty.</p>
+</div>
 
-        iii) The removal of powder from the playing surface by way of blowing, wiping or any other way shall not be permitted. For any infringement, as stated above in 122(b)(i), (ii) and (iii) a Foul shall be declared against the offending player as per Laws.
+**122.** &nbsp;&nbsp;b)
 
-     c) However, excess powder, if any, along the Base Lines and Base Circles of his side, may be removed, by a player during his turn of play with the help of the Striker only.
+  - (i) The powder shall **not** be applied or removed after the Umpire has announced *Play*.
+  - (ii) Any wilful attempt to remove or wipe powder from the playing surface is **not** permitted.
+  - (iii) The removal of powder by way of blowing, wiping or any other way is **not** permitted. Any infringement above is a Foul.
 
-     d) The Umpire shall have the right to control the even application of powder on the playing surface.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) However, **excess powder** along the player's own Base Lines and Base Circles may be removed during his turn — using the Striker only.
 
-     e) The Umpire should be requested for removal of dust, insects, etc., from the C/B during the course of play.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) The Umpire has the right to control the even application of powder.
 
-## Strokes, Time Limits, and Score
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e) The Umpire should be requested for removal of dust, insects, etc.
 
-123. A stroke is considered completed only after the Striker, C/m and/or Queen disturbed by the Striker comes to rest. The Striker shall be removed by the player from the C/B immediately after the stroke is completed. The Umpire may assist on request.
+## Strokes, Timing, and Score
 
-124. a) As long as a player pockets his own C/m and/or Queen, the time count starts as soon as the stroke is completed.
+**123.** A stroke is considered completed only after the Striker, C/m and/or Queen disturbed by the Striker comes to rest. The Striker shall be removed by the player from the C/B immediately. The Umpire may assist on request.
 
-     b) However, in a stroke, when a player fails to pocket his C/m and/or Queen, the time count for the opponent shall start only after the Striker has been removed from the C/B.
+**124.** &nbsp;&nbsp;a) As long as a player pockets his own C/m and/or Queen, the time count starts as soon as the stroke is completed.
 
-     c) A player shall not make the stroke before the opponent picks up his Striker from the C/B.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) When a player fails to pocket his C/m, the time count for the opponent starts only after the Striker has been removed.
 
-125. a) When a player pockets the C/m of his opponent knowingly or unknowingly, the Umpire shall stop the player from playing further.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) A player shall not make the stroke before the opponent picks up his Striker from the C/B.
 
-     b) If unnoticed by the Umpire or by the opponent, the C/m pocketed shall be considered to have been properly pocketed. The turn of the player shall be lost as and when noticed.
+**125.** &nbsp;&nbsp;a) When a player pockets the C/m of his opponent knowingly or unknowingly, the Umpire stops the player.
 
-126. a) The player shall not hit, tap or disturb the C/B wilfully or otherwise. If done, a Foul shall be declared against the offending player, as per Laws.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) If unnoticed, the C/m is considered properly pocketed. The turn is lost as and when noticed.
 
-     b) However, if it is done by the player or players in such a way that rearrangement of the C/m becomes impossible, he shall lose the entire Board with the number of C/m lying on the C/B with the points for the Queen as per Laws.
+**126.** &nbsp;&nbsp;a) Hitting, tapping or disturbing the C/B wilfully or otherwise is a Foul.
 
-127. a) A stroke shall be considered to have been made, if the Striker slips, leaving any Base Line or Base Circle, irrespective of whether it has touched any C/m or not.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) If done in such a way that rearrangement of the C/m becomes impossible, the offender loses the entire Board by his C/m on the C/B with the Queen's points.
 
-     b) However, if the Striker slips and does not leave any Base Line or Base Circle or moves any C/m, stroke shall not be considered to have been made.
+**127.** &nbsp;&nbsp;a) A stroke is considered made if the Striker slips, leaving any Base Line or Base Circle, regardless of whether it touched any C/m.
 
-128. A player may find out the score from the Umpire only during his turn of play.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) If the Striker slips but doesn't leave any Base Line/Circle or move any C/m, no stroke is considered made.
 
-129. A player shall not distract the attention of the opponent by any act.
+**128.** A player may find out the score from the Umpire only during his turn.
 
-## Striker Position and Communication
+**129.** A player shall not distract the attention of the opponent by any act.
 
-130. a) While taking a stroke, the Striker must touch both the Base Lines.
+## Striker Position
 
-     b) If the stroke is made from the Base Circle, the Striker must cover the Base Circle fully but shall not touch the arrow.
+**130.** &nbsp;&nbsp;a) The Striker must touch **both Base Lines** when taking a stroke.
 
-131. In doubles, during the course of a Board, the partners are not allowed to talk or communicate with each other by gestures. Any violation in this regard shall be penalised with a Foul as per Laws.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) If the stroke is made from the Base Circle, the Striker must cover the Base Circle fully but **shall not touch the arrow**.
 
-132. Players shall not talk to the spectators during the course of a game without the permission of the Umpire.
+## Communication
 
-133. The player shall not hold any solid material(s), except the Striker in either hand during the course of his turn.
+**131.** In doubles, during a Board, partners may **not** talk or communicate by gestures. Any violation is a Foul.
 
-134. The C/m and/or Queen shall not be moved or disturbed after the Break, except by way of a stroke. If touched, moved or disturbed the same shall be replaced in the original position by the Umpire, as far as possible and a Foul shall be declared against the offending player as per Laws.
+**132.** Players shall not talk to spectators during a game without the permission of the Umpire.
 
-135. The run of the Striker shall not be tested on the playing surface during the course of a Board.
+**133.** A player shall not hold any solid material in either hand, except the Striker, during his turn.
 
-136. a) The player shall not keep his Striker on the frame or in the pocket of the C/B during the board.
+**134.** C/m and Queen shall **not be moved or disturbed** after the Break except by way of a stroke. If touched, the position is restored by the Umpire and a Foul is declared.
 
-     b) However, the player shall be permitted to place the Striker and/or C/m on the playing surface of the C/B, near his base lines only, while placing the Due and/or penalty C/m.
+**135.** The run of the Striker shall **not be tested** on the playing surface during a Board.
 
-## Board Replay and Match Procedure
+**136.** &nbsp;&nbsp;a) The player shall not keep his Striker on the frame or in the pocket during the board.
 
-137. If the players pass over their turn consecutively for 3 times each, that particular Board shall be cancelled and be replayed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) The Striker may be placed near his base lines while placing a Due or Penalty C/m.
 
-138. There shall be an interval of 10 minutes in between the second and third games.
+## Board Replay and Procedural
 
-139. A player is permitted to concede a game and/or match at any stage.
+**137.** If players pass over their turn consecutively **3 times each**, that Board is cancelled and replayed.
 
-140. In case of any unforeseen circumstances beyond the control of umpire that particular Board shall be replayed.
+**138.** There shall be an interval of **10 minutes** between the second and third games.
 
-141. If a C/m is damaged by a stroke during the course of the Board, the position of the bigger part of the damaged C/m is considered for all purposes and the Umpires decision shall be final.
+**139.** A player may concede a game and/or match at any stage.
 
-142. In the event of any C/m lying on the Base lines or Base Circles, preventing the player from taking a stroke for want of space for placement of his Striker, that board shall be replayed.
+**140.** In case of unforeseen circumstances beyond the Umpire's control, that Board is replayed.
+
+**141.** If a C/m is damaged by a stroke, the position of the bigger part of the damaged C/m is considered for all purposes; the Umpire's decision is final.
+
+**142.** If a C/m lies on the Base Lines or Base Circles preventing a player from taking a stroke for want of space, that board is replayed.
 
 ## Loss of Entire Match
 
-143. A player shall be liable to lose the entire match for any act of indiscipline and/or any of the following:
+<div class="callout">
+  <div class="callout-title">Grounds for losing the entire match</div>
+  <p>Rule 143 lists nine conduct breaches serious enough that a player loses the match outright, not just a board.</p>
+</div>
 
-  - a) Leaves match board area (10 square feet) during the game without the permission of the Umpire.
-  - b) Fails to abide by the time limit given for the rest in the deciding game during a match.
-  - c) Refuses to abide by the decision of the Umpire and/or Chief Referee.
-  - d) Passes insulting remarks against the Umpire, Chief Referee and/or authorities before or during or immediately after the match.
-  - e) Smokes or smells Foul while at play due to intoxicating drinks and/or is under the influence of drugs.
-  - f) Plays with an uncertified Striker.
-  - g) Discontinues play during the course of a match, without the permission of the Umpire.
-  - h) Disturbs and distracts the attention of the opponent while at play more than twice, despite Umpires warning.
-  - i) Fails to report to the Umpire at his match Board within 15 minutes after the match is announced.
+**143.** A player shall lose the entire match for any act of indiscipline and/or any of:
+
+  a. Leaves the match board area (10 square feet) during the game without the Umpire's permission.
+  b. Fails to abide by the time limit given for the rest in the deciding game.
+  c. Refuses to abide by the decision of the Umpire and/or Chief Referee.
+  d. Passes insulting remarks against the Umpire, Chief Referee or authorities — before, during, or immediately after the match.
+  e. Smokes or smells Foul while at play due to intoxicating drinks, and/or is under the influence of drugs.
+  f. Plays with an uncertified Striker.
+  g. Discontinues play during a match without the Umpire's permission.
+  h. Disturbs or distracts the opponent more than twice, despite the Umpire's warning.
+  i. Fails to report to the Umpire at his match Board within **15 minutes** after the match is announced.

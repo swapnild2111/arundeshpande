@@ -29,18 +29,35 @@
       {{ end }}
     </header>
 
-    <article>
+    <article class="book-prose">
       {{ .Content }}
     </article>
 
+    {{- /*
+      Hugo's .PrevInSection / .NextInSection follow the section's default
+      ordering, which sorts pages by Weight DESCENDING. That makes
+      .PrevInSection point to the chapter with the higher weight (= the
+      next chapter in reading order), so the labels appear reversed.
+      Compute prev/next explicitly from .Parent.Pages.ByWeight instead.
+    */ -}}
+    {{- $pages := .Parent.Pages.ByWeight -}}
+    {{- $cur := -1 -}}
+    {{- range $i, $p := $pages -}}
+      {{- if eq $p.RelPermalink $.RelPermalink -}}{{- $cur = $i -}}{{- end -}}
+    {{- end -}}
+    {{- $prev := "" -}}
+    {{- $next := "" -}}
+    {{- if gt $cur 0 -}}{{- $prev = index $pages (sub $cur 1) -}}{{- end -}}
+    {{- if and (ge $cur 0) (lt $cur (sub (len $pages) 1)) -}}{{- $next = index $pages (add $cur 1) -}}{{- end -}}
+
     <nav class="chapter-nav">
-      {{ with .PrevInSection }}
+      {{ with $prev }}
         <a class="prev" href="{{ .RelPermalink }}">
           <span class="label">← {{ i18n "previous" | default "Previous" }}</span>
           <span class="title">{{ .Title }}</span>
         </a>
       {{ end }}
-      {{ with .NextInSection }}
+      {{ with $next }}
         <a class="next" href="{{ .RelPermalink }}">
           <span class="label">{{ i18n "next" | default "Next" }} →</span>
           <span class="title">{{ .Title }}</span>

@@ -6,112 +6,107 @@ date: 2026-01-01
 author: "International Carrom Federation"
 ---
 
+*This is the longest chapter of the Laws. It covers what counts as a foul, what happens when coins leave the playing surface, and the elaborate system of Dues and Penalty coins. If a board ever turns contentious, the answer is almost always in this chapter.*
+
 ## Foul
 
-62. In general, any act of violation of Laws or anything done contrary to what is stated specifically or implied (as understood commonly) in these Laws, shall be broadly classified as:
+**62.** Any act of violation of the Laws — or anything done contrary to what is stated specifically or implied in these Laws — shall be broadly classified as a foul. Two kinds of foul are recognised:
 
-### A. Technical Foul
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Technical Foul</span>
+    <p class="def">Committed <em>before</em> the first stroke of the player's turn, or by the player presently <em>not having</em> his turn. Penalty: <strong>one C/m</strong> of the offender is brought out for placing. The turn continues.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Foul</span>
+    <p class="def">Committed during or after the first stroke of the player's turn. Penalty: <strong>one C/m</strong> is brought out for placing, and the <strong>turn is lost</strong>.</p>
+  </div>
+</div>
 
-63. a) Any act of violation of the Laws committed by the player before the first stroke of his turn shall be deemed as a Technical Foul. A Technical Foul shall entail one C/m of the offending player being brought out for placing by the opponent and his turn shall continue.
-
-    b) Any act of violation of the Laws committed by the player presently not having his turn shall also be deemed as a Technical Foul. A penalty shall be imposed as per Rule 63(a).
-
-### B. Foul
-
-64. a) Any act of violation of the Laws committed by the player during or after the first stroke of his turn shall be deemed as Foul. A Foul shall entail one C/m of the offending player being brought out for placing by the opponent and the turn to play shall be lost.
-
-    b) While pocketing the C/m and/or Queen, if a Foul is committed, the number of C/m and/or Queen pocketed with an additional C/m shall be brought out for placing and the turn of the player shall be lost.
+**64.** &nbsp;&nbsp;b) While pocketing the C/m and/or Queen, if a Foul is committed, the number of C/m and/or Queen pocketed with an additional C/m shall be brought out for placing and the turn of the player shall be lost.
 
 ## C/m Overboard
 
-65. a) If a C/m and/or Queen jump out of the playing surface, the jumped C/m and/or the Queen shall be placed by the Umpire in the Centre Circle, if space permits, covering it fully or the maximum portion of it that is available.
+When coins or the Queen jump off the playing surface, the Umpire restores them according to a precise priority.
 
-    b) If both the Queen and a c/m jump in the same stroke preference shall be given to place the Queen first and the jumped c/m shall be placed, touching the Queen, in the opposite direction of the player presently having his turn.
+**65.** &nbsp;&nbsp;a) A jumped C/m and/or Queen is placed by the Umpire in the **Centre Circle**, if space permits — covering it fully or to the maximum extent possible.
 
-    c) If both White and Black c/m jump in the same stroke, preference shall be given to place the c/m of the player who made that stroke first and the other c/m shall be placed, touching the first c/m in the manner described in Rule 65(b).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) **If both the Queen and a c/m jump in the same stroke** — the Queen is placed first; the jumped c/m is placed touching the Queen, in the opposite direction of the player presently having his turn.
 
-    d) If more than 2 c/m jump in the same stroke, the placing of the first 2 c/m shall be in accordance with Rule 65(b) and Rule 65(c). The rest of the c/m shall be placed, touching the first 2 c/m, as far as possible.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) **If both white and black c/m jump in the same stroke** — preference is given to place the c/m of the player who made that stroke first; the other c/m is placed touching the first c/m as in 65(b).
 
-66. a) If c/m and/or Queen jump out and fall back on the playing surface, the c/m and/or Queen shall be placed by the Umpire in the Centre Circle as per Laws. The position of the disturbed c/m, if any, shall be corrected by the Umpire, as far as possible, at his discretion.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) **If more than 2 c/m jump in the same stroke** — the first 2 are placed per 65(b) and 65(c). The rest are placed touching the first 2, as far as possible.
 
-    b) If, however, c/m and/or Queen jump out and fall back on the playing surface after hitting the shade, bulb or light fittings, it shall be considered to have naturally travelled. Disturbed c/m, if any, shall not be rearranged.
+**66.** &nbsp;&nbsp;a) If c/m and/or Queen jump out and fall back on the playing surface, they are placed by the Umpire in the Centre Circle. Any disturbed c/m are corrected by the Umpire at his discretion.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) However, if c/m fall back on the playing surface after hitting the **shade, bulb or light fittings**, the travel is considered natural. Disturbed c/m shall not be rearranged.
 
 ## C/m Rolling and Overlapping
 
-67. If c/m and/or Queen stands on its rim, it shall be allowed to remain as it is.
+**67.** If a c/m and/or Queen stands on its rim, it shall be allowed to remain as it is.
 
-68. If two C/m and/or Queen overlap each other, they shall be left undisturbed.
+**68.** If two C/m and/or Queen overlap each other, they shall be left undisturbed.
 
-69. a) If the Striker rests on c/m and/or Queen, the Striker shall be removed without disturbance to the C/m and/or Queen by the Umpire. If disturbed, the original position of the c/m and/or Queen shall be restored, as far as possible, by the Umpire.
+**69.** &nbsp;&nbsp;a) If the Striker rests on c/m and/or Queen, the Striker is removed without disturbing them. If disturbed, the original position is restored by the Umpire as far as possible.
 
-    b) If this happens at the mouth of the pocket and in the process of removal of the Striker the C/m and/or Queen lose its centre of gravity and fall into the pocket, they shall be deemed to have been pocketed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) If this happens at the mouth of a pocket and, during removal of the Striker, the C/m and/or Queen lose their centre of gravity and fall into the pocket, they are **deemed pocketed**.
 
-70. a) If C/m and/or Queen rest on the striker, the Striker shall be removed by the Umpire by lifting the C/m and/or Queen and replacing them, as far as possible, in the original position where they would rest if the Striker was not there.
+**70.** &nbsp;&nbsp;a) If C/m and/or Queen rest **on** the Striker, the Striker is removed by the Umpire by lifting the C/m and/or Queen and replacing them where they would rest if the Striker were not there.
 
-    b) If, however, this happens at the mouth of the pocket and in the process of removal of the c/m and/or Queen, the Striker loses its centre of gravity and falls into the pocket, it shall be deemed to have been pocketed. A Due shall be declared to be imposed as per Laws.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) If at the mouth of a pocket and, during removal of the C/m/Queen, the Striker loses its centre of gravity and falls into the pocket, the Striker is deemed pocketed and a Due is declared.
 
-71. If a C/m resting perilously at the mouth of the pocket and actually falls into the pocket for any reason, it shall be considered to have been properly pocketed.
+**71.** If a C/m resting perilously at the mouth of the pocket actually falls into the pocket for any reason, it shall be considered to have been properly pocketed.
 
 ## Dues and Penalties
 
-72. a) If in a proper stroke a player pockets his Striker alone, his turn shall be lost and one of his C/m will be taken out as penalty by his opponent for placing. Such penalty C/m shall be called Due.
+The Due system administers what happens when a player pockets the Striker, or pockets coins improperly. The general rule: a proper stroke that goes wrong costs **one coin** (a Due); an improper stroke costs **two coins** (Due + Penalty).
 
-    b) If in an improper stroke a player pockets his Striker alone, his turn shall be lost and two of his C/m will be taken out by his opponent for placing. Such penalty C/m shall be called Due and foul.
+### Pocketing the Striker
 
-    c) If this happens before any of his C/m is pocketed the penalty and Due shall remain outstanding and shall be taken out as soon as they are available.
+| Situation | Stroke type | Consequence |
+|---|---|---|
+| Striker alone | Proper | Turn lost, **1 C/m** taken out as **Due** |
+| Striker alone | Improper | Turn lost, **2 C/m** taken out (Due + Penalty) |
+| Striker + own C/m | Proper | Pocketed C/m + **1 Due C/m** out for placing; turn **continues** |
+| Striker + opponent's C/m | Proper | Opponent's C/m stays pocketed; **1 Due** out; turn **lost** |
+| Striker + own + opponent's C/m | Proper | Own C/m + **1 Due** out; turn **continues** |
+| Own C/m pocketed | Improper | C/m + Penalty C/m out; turn **lost** |
+| Own C/m + Striker | Improper | C/m + **2 C/m** (Due + Penalty) out; turn **lost** |
+| Opponent's C/m pocketed | Improper | Stays pocketed; Penalty C/m out; turn **lost** |
 
-73. If a player pockets the Striker with his own C/m by a proper stroke, the number of C/m so pocketed, with a Due C/m, shall be taken out for placing and the player shall continue his turn.
+**72.** &nbsp;&nbsp;c) If a Due/Penalty becomes payable before any of the player's C/m have been pocketed, it remains outstanding and is taken out as soon as available.
 
-74. If a player pockets the Striker with the C/m of his opponent by a proper stroke, the C/m so pocketed shall be deemed to have been pocketed. The Due as per Rule 72(a) shall be taken out for placing and the player shall lose his turn.
+### Placing Due and Penalty Coins
 
-75. If a player pockets the Striker with C/m of his own and of his opponent by a proper stroke, the number of his own C/m so pocketed, with a due C/m shall be taken out for placing by the opponent and the player shall continue his turn.
+**78.** &nbsp;&nbsp;a) Due or penalty C/m shall be taken out for placing immediately after being available — but only after the completion of the stroke (though it may be during the turn of the same player).
 
-76. If a player pockets the C/m of his opponent by an improper stroke, the C/m so pocketed shall be deemed to have been pocketed. The Penalty C/m shall be taken out for placing by the opponent and the player shall lose his turn.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) **In doubles** — the Due and/or penalty C/m is always taken out for placing by the player sitting to the **right hand side** of the player having his turn. Exception: if the player pockets the opponent's C/m and the Due/Penalty becomes available, the player himself takes out the C/m for placing.
 
-77. a) If a player pockets his own C/m by an improper stroke, the C/m so pocketed with a Penalty C/m shall be taken out for placing by the opponent and the player shall lose his turn.
+**79.** If a Due/Penalty is available for placing but there is not enough space, the player is permitted to place it immediately after space becomes available.
 
-    b) If a player pockets his own C/m with the striker by an improper stroke, the C/m so pocketed with two C/m, one as Due and the other for Penalty shall be taken out for placing by the opponent and the player shall lose his turn.
+**80.** If space is available but the player does not desire to risk a Foul, he loses his chance to place and his claim for placing stands forfeited.
 
-78. a) Due or penalty C/m shall be taken out for placing immediately after being available, but only after the completion of the stroke, though it may be during the turn of the same player.
+**84.** &nbsp;&nbsp;a) **Placing is considered complete** once the finger is removed from the C/m, provided the C/m is inside the Outer Circle.
 
-    b) i) In Doubles the Due and/or penalty C/m shall always be taken out for placing by the player who is sitting on the right hand side of the player having his turn at the time of availability of C/m.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Holding any other C/m or the striker while placing is **not permitted**.
 
-       ii) If, however, during the turn of a player, he pockets the C/m of the opponent with or without his C/m and the Due and/or penalty C/m becomes available, the player himself shall takeout the C/m for placing.
+**85.** If a player places or moves the Due/Penalty away from the Outer Circle, he is asked to place it inside. A Foul is declared.
 
-79. a) If Due and/or penalty C/m is available for placing but sufficient space is not available, the player who has to place the C/m shall be permitted to do so immediately after space becomes available.
+**86.** The placing must not disturb any other C/m or the Queen. If it does, the Umpire replaces them in the original position and a Foul is declared.
 
-    b) In Doubles, however, if the eligibility to place the Due and/or penalty C/m, has passed on to the partner, the partner alone shall have the right to take out and place the C/m.
+<div class="callout">
+  <div class="callout-title">Forgo the Due</div>
+  <p>A player may choose to forgo the Due and/or penalty C/m <strong>in total only</strong>, not partially. The decision must be communicated to the Umpire within <strong>15 seconds</strong>, failing which the right to place is forfeited (Rule 87).</p>
+</div>
 
-80. If space is available for placing the Due and/or penalty C/m, but the player who has to place the C/m does not desire to risk a Foul, he shall lose his chance to place and his claim for placing shall stand forfeited.
+**88.** &nbsp;&nbsp;a) The time limit for placing Due/Penalty C/m is **15 seconds** after the Umpire's announcement.
 
-81. If the space becomes available for placing the Due and/or penalty C/m, during the turn of the player, eligible to place, the placing shall be made immediately.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) If placing is not completed within the period, the C/m already placed may be ordered to be removed and a foul declared against the offender.
 
-82. a) While placing the Due and/or penalty C/m, if a player places his own C/m by mistake, it has to be rectified if pointed out by the umpire or the opponent. A Foul shall be declared as per Laws.
+**89.** &nbsp;&nbsp;a) Due and Penalty C/m **cannot be set off against each other**.
 
-    b) If not noticed either by the umpire or the opponent before the next stroke is made, the C/m so placed shall be regarded as valid.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Due and Penalty C/m shall not be placed covering the Centre Circle wholly or partially. If placed, the player is asked to rectify. A Foul is declared.
 
-83. If more than one C/m are to be placed by a player as Due and/or penalty, the C/m available shall be placed immediately and rest of the C/m have to be placed as soon as available. If on availability, rest of the C/m is or are not placed by the player concerned before the next stroke is made and the same remains unnoticed by the opponent or Umpire the due shall be deemed to have been forfeited.
+**90.** In doubles, a player shall not take out the penalty/Due C/m for his partner. If his partner doesn't find the required C/m in adjoining pockets, he shall request the Umpire to provide the correct colour and number.
 
-84. a) Placing shall be considered as complete once the finger is removed from the C/m provided the C/m placed is inside the Outer Circle.
-
-    b) However, while placing Due and/or penalty C/m holding of any other C/m and/or striker is not permitted.
-
-85. If a player places or moves the Due and/or penalty C/m away from the Outer Circle, he shall be asked to place the C/m inside the Outer Circle. A Foul shall be declared as per Laws.
-
-86. While placing the Due and/or penalty C/m the player should not move any other C/m and/or Queen. The C/m so placed shall not disturb any other C/m. If it so happens, the same shall be replaced by the Umpire in the original position, as far as possible. A Foul shall be declared against the offending player as per Laws.
-
-87. a) A player may choose to forego the Due and/or penalty C/m in total only and not partially. Such decision shall be communicated to the Umpire within 15 seconds, failing which the right to place the Due and/or penalty C/m shall be forfeited.
-
-    b) The additional points on completion of the Board available on demand, may at the option of the beneficiary be demanded fully or partially.
-
-88. a) The time limit for placing Due and/or penalty C/m shall be 15 seconds after the announcement made by the Umpire.
-
-    b) If the placing of all the due and/or penalty C/m is not completed within the stipulated period, the C/m already placed may be ordered to be removed and a foul declared against the offender.
-
-89. a) Due and/or penalty C/m cannot be set off against each other.
-
-    b) Due and/or penalty C/m shall not be placed covering the Centre Circle wholly or partially. If placed, the player shall be asked to rectify. A Foul shall be declared against the offending player as per Laws.
-
-90. In Doubles, a player shall not take out the penalty and/or Due C/m for his partner, who has to place it. In case his partner does not find the required C/m in the pockets adjoining his side, he shall request the Umpire to provide, specifying the colour and number of C/m he needs for placing.
-
-91. During the course of the Board, if a player gets up from the seat during his turn or of his opponents turn, for any reason, he shall lose the Board with the number of his C/m and/or Queen lying on the Board. If the score of the opponent is 22 or more he shall lose the Board by the number of C/m only.
+**91.** During the course of the board, if a player **gets up from the seat** during his or his opponent's turn, for any reason, he loses the board by the number of his C/m and/or Queen lying on the board. If the opponent's score is 22 or more, he loses by the number of C/m only.
