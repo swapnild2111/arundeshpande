@@ -1076,7 +1076,9 @@ body.video-player-open { overflow: hidden; }
   padding: 0;
   min-width: 0;
   max-width: 100%;
-  overflow: hidden;
+  /* `overflow: visible` lets the ps-pair box-shadow spill outside the
+     stage, giving cards their drop-shadow lift on hover. Don't clip. */
+  overflow: visible;
 }
 
 .ps-group {
