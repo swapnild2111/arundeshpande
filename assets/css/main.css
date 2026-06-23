@@ -1021,7 +1021,10 @@ body.video-player-open { overflow: hidden; }
 
 .ps-rail-wrap {
   border-radius: var(--radius);
-  background: var(--bg-card);
+  /* Match the page background so the rail doesn't read as a darker
+     surface behind the page-group buttons. The buttons themselves
+     stand out via their own backgrounds + the wrap's border. */
+  background: var(--bg);
   border: 1px solid var(--border);
   overflow-x: auto;
   overflow-y: hidden;
