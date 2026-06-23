@@ -1093,7 +1093,9 @@ body.video-player-open { overflow: hidden; }
   min-width: 0;
   border-radius: var(--radius);
   border: 1px solid rgba(168, 85, 247, 0.28);
-  background: var(--bg-card);
+  /* Match the page background so the ps-pair wrapper doesn't read as
+     a second, darker card behind the two video cards inside it. */
+  background: var(--bg);
   overflow: hidden;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.16);
   transition: border-color .25s, box-shadow .25s, transform .25s;
@@ -2081,6 +2083,20 @@ body.video-player-open { overflow: hidden; }
   color: #86efac !important;
   background: rgba(37, 211, 102, 0.22);
   border-color: rgba(37, 211, 102, 0.5);
+}
+
+/* Light theme — the pastel green that reads well on dark is invisible
+   on the light surface. Use WhatsApp's brand green (#25D366 -> deeper
+   #128C7E for text) over a slightly more saturated tint. */
+[data-theme="light"] .btn-whatsapp {
+  background: rgba(37, 211, 102, 0.18);
+  color: #128C7E !important;
+  border: 1px solid rgba(18, 140, 126, 0.55);
+}
+[data-theme="light"] .btn-whatsapp:hover {
+  color: #075E54 !important;
+  background: rgba(37, 211, 102, 0.28);
+  border-color: rgba(7, 94, 84, 0.75);
 }
 
 .btn-block { width: 100%; justify-content: center; }
