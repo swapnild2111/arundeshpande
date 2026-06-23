@@ -206,4 +206,7 @@
       applyFilter(active ? active.getAttribute('data-filter') : 'all');
     }
   });
+
+  // (The previous tier-tab toggle for "Watch in action" cards was removed —
+  //  cards now stack all videos at once, no JS needed.)
 })();

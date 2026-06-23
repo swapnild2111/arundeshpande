@@ -1905,58 +1905,129 @@ body.video-player-open { overflow: hidden; }
   line-height: 1.5;
 }
 
-/* ---------- "Watch in action" video strip below H2 in book chapters ---------- */
-.watch-in-action {
-  margin: 14px 0 28px;
-  padding: 14px 16px;
-  border-radius: var(--radius);
-  background: linear-gradient(180deg, rgba(168, 85, 247, 0.05), rgba(168, 85, 247, 0.02));
-  border: 1px solid rgba(168, 85, 247, 0.18);
+/* ===========================================================================
+   "Watch in action" — flexible tier strip at the end of each chapter section.
+   ===========================================================================
+
+   The strip is emitted by the render-heading hook at the next H2 (or by
+   the chapter layout at end of page for the last section). Each tier
+   with ≥1 video becomes a column; the grid auto-balances regardless of
+   how many tiers are present.
+
+   The thumbnail rule includes `!important` because a later
+   `.book-prose img` rule sets max-width:560px on chapter images and
+   would otherwise letterbox the YouTube thumbnails.
+*/
+.section-video {
+  margin: 18px 0 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
-.watch-in-action-label {
+.section-video-eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: 10px;
   letter-spacing: 0.10em;
   text-transform: uppercase;
   font-weight: 700;
   color: var(--accent);
-  margin-bottom: 10px;
+  opacity: 0.85;
 }
-.watch-in-action-label svg { width: 14px; height: 14px; }
-.watch-in-action-grid {
+.section-video-eyebrow svg { width: 12px; height: 12px; }
+
+.section-video-tiers {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+}
+/* When only ONE tier is present, the tier card spans the full width
+   and its body becomes a wrapping 3-up grid so videos use the horizontal
+   space instead of stacking in a thin column. */
+.section-video-tiers--1col { grid-template-columns: minmax(0, 1fr); }
+.section-video-tiers--1col .section-video-tier-body {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
 }
-.watch-in-action-card {
+.section-video-tiers--2col { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.section-video-tiers--3col { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+.section-video-tier {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border-radius: var(--radius);
+  background: var(--surface-inset);
+  border: 1px solid var(--border);
+}
+.section-video-tier-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.section-video-tier-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+.section-video-tier-name {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.section-video-tier--beginner     .section-video-tier-dot  { background: #34d399; }
+.section-video-tier--intermediate  .section-video-tier-dot  { background: #fbbf24; }
+.section-video-tier--champion      .section-video-tier-dot  { background: var(--accent); }
+.section-video-tier--beginner     .section-video-tier-name { color: #34d399; }
+.section-video-tier--intermediate  .section-video-tier-name { color: #fbbf24; }
+.section-video-tier--champion      .section-video-tier-name { color: var(--accent); }
+
+.section-video-tier-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-video-item {
   border-radius: var(--radius-sm);
   background: var(--bg-card);
   border: 1px solid var(--border);
   overflow: hidden;
-  text-decoration: none;
-  color: var(--text) !important;
-  transition: transform .15s, border-color .15s;
+  transition: border-color .15s, transform .15s;
 }
-.watch-in-action-card:hover {
-  transform: translateY(-2px);
+.section-video-item:hover {
   border-color: var(--accent);
+  transform: translateY(-1px);
 }
-.watch-in-action-card .video-thumb {
+.section-video-thumb {
   position: relative;
-  aspect-ratio: 16 / 9;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: var(--bg);
+  cursor: pointer;
   overflow: hidden;
-  border-radius: 0;
-}
-.watch-in-action-card .video-thumb img {
+  aspect-ratio: 16 / 9;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
-.watch-in-action-card .play-btn {
+/* Higher-specificity rule to override `.book-prose img` max-width. */
+.section-video .section-video-thumb img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: cover !important;
+  object-position: center 45%;
+  display: block;
+  margin: 0;
+}
+.section-video-play {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1970,33 +2041,39 @@ body.video-player-open { overflow: hidden; }
   align-items: center;
   justify-content: center;
   pointer-events: none;
+  transition: transform .15s, background .15s;
 }
-.watch-in-action-card .play-btn svg { width: 14px; height: 14px; }
-.watch-in-action-level {
-  position: absolute;
-  top: 6px;
-  left: 6px;
-  font-size: 10px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 2px 8px;
-  border-radius: 999px;
-  background: rgba(0, 0, 0, 0.55);
-  color: #fff;
-  font-weight: 600;
+.section-video-thumb:hover .section-video-play {
+  transform: translate(-50%, -50%) scale(1.08);
+  background: var(--accent);
 }
-.watch-in-action-card.video-card--beginner .watch-in-action-level { background: rgba(16, 185, 129, 0.92); }
-.watch-in-action-card.video-card--intermediate .watch-in-action-level { background: rgba(245, 158, 11, 0.92); }
-.watch-in-action-card.video-card--champion .watch-in-action-level { background: rgba(168, 85, 247, 0.92); }
-.watch-in-action-card .video-title {
-  padding: 8px 10px 10px;
-  font-size: 12px;
-  line-height: 1.3;
-  color: var(--text-muted);
+.section-video-play svg { width: 14px; height: 14px; }
+
+.section-video-meta {
+  padding: 8px 12px 10px;
 }
-@media (max-width: 480px) {
-  .watch-in-action-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
-  .watch-in-action-card .video-title { font-size: 11px; padding: 6px 8px 8px; }
+.section-video-title {
+  font-size: 12.5px;
+  line-height: 1.35;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* Responsive: collapse multi-tier grids on narrow viewports, and drop the
+   single-tier inner grid to 2-up / 1-up. */
+@media (max-width: 860px) {
+  .section-video-tiers--3col,
+  .section-video-tiers--2col {
+    grid-template-columns: 1fr;
+  }
+  .section-video-tiers--1col .section-video-tier-body {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 540px) {
+  .section-video-tiers--1col .section-video-tier-body {
+    grid-template-columns: 1fr;
+  }
 }
 
 .book-prose table {

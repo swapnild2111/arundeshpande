@@ -1,0 +1,73 @@
+{{- /*
+  "Watch in action" — flexible 1/2/3-column tier strip for a chapter section.
+
+  Args (dict):
+    key     — chapter-videos.yaml mapping key (DOM key)
+    videos  — list of {id, title, level} dicts
+
+  Renders one column per tier that has at least one video. So:
+    - Section with only Champion videos → 1 column.
+    - Section with Beginner + Champion → 2 columns.
+    - Section with all three → 3 columns.
+  CSS grid handles equal-width columns regardless of count.
+*/ -}}
+{{- $key := .key -}}
+{{- $videos := .videos -}}
+
+{{- $beg := slice -}}
+{{- $int := slice -}}
+{{- $cha := slice -}}
+{{- range $videos -}}
+  {{- if eq .level "beginner" -}}{{- $beg = $beg | append . -}}{{- end -}}
+  {{- if eq .level "intermediate" -}}{{- $int = $int | append . -}}{{- end -}}
+  {{- if eq .level "champion" -}}{{- $cha = $cha | append . -}}{{- end -}}
+{{- end -}}
+
+{{- $present := slice -}}
+{{- with $beg -}}{{- $present = $present | append (dict "level" "beginner" "videos" $beg) -}}{{- end -}}
+{{- with $int -}}{{- $present = $present | append (dict "level" "intermediate" "videos" $int) -}}{{- end -}}
+{{- with $cha -}}{{- $present = $present | append (dict "level" "champion" "videos" $cha) -}}{{- end -}}
+{{- $cols := len $present -}}
+
+{{- if gt $cols 0 -}}
+<div class="section-video" data-section-key="{{ $key }}" data-cols="{{ $cols }}">
+  <div class="section-video-eyebrow">
+    {{ partial "icons/play.html" . }}
+    <span>{{ i18n "watch_in_action" | default "Watch in action" }}</span>
+  </div>
+  <div class="section-video-tiers section-video-tiers--{{ $cols }}col">
+    {{- range $present -}}
+      {{- $tlevel := .level -}}
+      <div class="section-video-tier section-video-tier--{{ $tlevel }}">
+        <div class="section-video-tier-head">
+          <span class="section-video-tier-dot" aria-hidden="true"></span>
+          <span class="section-video-tier-name">{{ i18n (printf "video_level_%s" $tlevel) | default $tlevel }}</span>
+        </div>
+        <div class="section-video-tier-body">
+          {{- range .videos -}}
+            {{- $vid := .id -}}
+            {{- $title := .title -}}
+            {{- $slug := printf "topic-%s-%s" $key $vid | urlize -}}
+            <article
+              class="video-card section-video-item"
+              id="v-{{ $slug }}"
+              data-anchor="{{ $slug }}"
+              data-title="{{ $title }}"
+              data-youtube="https://www.youtube.com/watch?v={{ $vid }}"
+              data-video-id="{{ $vid }}"
+            >
+              <button type="button" class="video-play-trigger section-video-thumb" aria-label="{{ i18n "play_video" | default "Play video" }}: {{ $title }}">
+                <img src="https://i.ytimg.com/vi/{{ $vid }}/hqdefault.jpg" alt="" loading="lazy" decoding="async">
+                <span class="section-video-play" aria-hidden="true">{{ partial "icons/play.html" $ }}</span>
+              </button>
+              <div class="section-video-meta">
+                <span class="section-video-title">{{ $title }}</span>
+              </div>
+            </article>
+          {{- end -}}
+        </div>
+      </div>
+    {{- end -}}
+  </div>
+</div>
+{{- end -}}

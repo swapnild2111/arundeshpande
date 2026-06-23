@@ -1,11 +1,10 @@
 {{- /*
   Image render hook.
-  Markdown like ![Alt](/images/book/fig-10.jpg) must work both locally
-  (baseURL = .../arundeshpande/) and once deployed to GitHub Pages.
-  Hugo's `relURL` only prepends the site path when its input is a
-  relative path — an already-leading-slash path is treated as host-absolute
-  and returned unchanged. So we strip the leading slash first, then
-  pipe through relURL.
+
+  Markdown `![Alt](/images/book/fig-10.jpg)` must work both locally
+  (baseURL = .../arundeshpande/) and on GitHub Pages. Hugo's `relURL`
+  skips paths that already start with "/" (treats them as host-absolute),
+  so we strip the leading slash and pipe through relURL.
 */ -}}
 {{- $src := .Destination -}}
 {{- if and (hasPrefix $src "/") (not (hasPrefix $src "//")) -}}

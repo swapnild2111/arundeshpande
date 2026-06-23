@@ -31,6 +31,16 @@
 
     <article class="book-prose">
       {{ .Content }}
+      {{- /*
+        Flush the final section's pending video strip — render-heading
+        flushes between sections at every new H2, but the LAST section
+        of a chapter has no following H2 to trigger the flush.
+      */ -}}
+      {{- $pending := .Store.Get "pending-section-video" -}}
+      {{- if $pending -}}
+        {{ partial "section-video-card.html" (dict "key" $pending.key "videos" $pending.videos) }}
+        {{- .Store.Set "pending-section-video" nil -}}
+      {{- end -}}
     </article>
 
     {{- /*

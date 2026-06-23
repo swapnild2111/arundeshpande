@@ -1,62 +1,81 @@
 {{- /*
-  Markdown heading render hook.
+  Markdown heading render hook for Carrom Techniques chapters.
 
-  After each `## Section Heading` inside a Carrom Techniques chapter, look up
-  matching videos in data/chapter-videos.yaml and render a small "Watch in
-  action" strip below the heading. Other pages render headings normally.
+  When an H2 has matching tutorial videos (data/chapter-videos.yaml),
+  emit a 3-column tier strip at the END of that section — i.e.
+  immediately before the NEXT H2.
 
-  Mapping key: "<chapter-slug>#<heading-slug>"
-    e.g.  chapter-06.md  +  "## Cut"  ->  "chapter-06#cut"
-
-  Videos are shared across all languages — the source is /en/ only.
+  Multilingual handling:
+    The YAML keys are English heading slugs. For non-English pages,
+    we resolve the EN slug by POSITION — count H2s in this page,
+    look up the same index in the English source markdown, and use
+    that EN slug as the YAML key.
+    If the non-EN translation dropped or added H2s, the index counts
+    diverge and that section simply renders without a video strip.
+    Most languages keep the H2 count identical to EN.
 */ -}}
 {{- $level := .Level -}}
 {{- $text := .Text -}}
 {{- $anchor := .Anchor -}}
+{{- $page := .Page -}}
 
-{{- /* Emit the heading itself */ -}}
+{{- /* Flush pending strip from previous section before rendering new H2. */ -}}
+{{- if eq $level 2 -}}
+  {{- $pending := $page.Store.Get "pending-section-video" -}}
+  {{- if $pending -}}
+    {{- partial "section-video-card.html" (dict "key" $pending.key "videos" $pending.videos) -}}
+    {{- $page.Store.Set "pending-section-video" nil -}}
+  {{- end -}}
+{{- end -}}
+
 <h{{ $level }} id="{{ $anchor }}">{{ $text | safeHTML }}</h{{ $level }}>
 
-{{- /* Only emit a video strip for H2s inside a Carrom Techniques chapter. */ -}}
+{{- /* Only Techniques chapters carry video matches. */ -}}
 {{- $isTechniques := and
     (eq $level 2)
-    (hasPrefix .Page.File.Path "books/students/carrom-techniques-and-skills/")
-    (hasPrefix .Page.File.LogicalName "chapter-")
+    (hasPrefix $page.File.Path "books/students/carrom-techniques-and-skills/")
+    (hasPrefix $page.File.LogicalName "chapter-")
 -}}
 {{- if $isTechniques -}}
-  {{- $chapter := strings.TrimSuffix ".md" .Page.File.LogicalName -}}
-  {{- $key := printf "%s#%s" $chapter $anchor -}}
-  {{- $mappings := (index hugo.Data "chapter-videos").mappings | default dict -}}
-  {{- $videos := index $mappings $key -}}
-  {{- if $videos -}}
-    <aside class="watch-in-action" aria-label="{{ i18n "watch_in_action" | default "Watch in action" }}">
-      <div class="watch-in-action-label">
-        {{ partial "icons/play.html" . }}
-        <span>{{ i18n "watch_in_action" | default "Watch in action" }}</span>
-      </div>
-      <div class="watch-in-action-grid">
-        {{- range $videos -}}
-          {{- $vid := .id -}}
-          {{- $title := .title -}}
-          {{- $level := .level -}}
-          {{- $slug := printf "topic-%s-%s" $key $vid | urlize -}}
-          <a class="video-card video-card--compact watch-in-action-card video-card--{{ $level }}"
-             id="v-{{ $slug }}"
-             data-anchor="{{ $slug }}"
-             data-title="{{ $title }}"
-             data-youtube="https://www.youtube.com/watch?v={{ $vid }}"
-             data-video-id="{{ $vid }}"
-             href="https://www.youtube.com/watch?v={{ $vid }}"
-             target="_blank" rel="noopener">
-            <div class="video-thumb">
-              <img src="https://i.ytimg.com/vi/{{ $vid }}/hqdefault.jpg" alt="{{ $title }}" loading="lazy">
-              <span class="play-btn" aria-hidden="true">{{ partial "icons/play.html" $ }}</span>
-              <span class="watch-in-action-level">{{ i18n (printf "video_level_%s" $level) | default $level }}</span>
-            </div>
-            <div class="video-title">{{ $title }}</div>
-          </a>
-        {{- end -}}
-      </div>
-    </aside>
+  {{- $chapter := strings.TrimSuffix ".md" $page.File.LogicalName -}}
+
+  {{- /* Per-page H2 counter (0-based). */ -}}
+  {{- $count := $page.Store.Get "h2-index" -}}
+  {{- if not $count -}}{{- $count = 0 -}}{{- end -}}
+
+  {{- /* Resolve the EN slug for this H2's position. */ -}}
+  {{- $enSlug := "" -}}
+  {{- if eq $page.Site.Language.Lang "en" -}}
+    {{- $enSlug = $anchor -}}
+  {{- else -}}
+    {{- $cached := $page.Store.Get "en-h2-slugs" -}}
+    {{- if not $cached -}}
+      {{- $enPath := printf "content/en/books/students/carrom-techniques-and-skills/%s.md" $chapter -}}
+      {{- $enText := "" -}}
+      {{- with try (os.ReadFile $enPath) -}}
+        {{- if not .Err -}}{{- $enText = .Value -}}{{- end -}}
+      {{- end -}}
+      {{- $slugs := slice -}}
+      {{- range findRE `(?m)^##\s+(.+)$` $enText -}}
+        {{- $h := strings.TrimPrefix "## " . | strings.TrimSpace -}}
+        {{- $slugs = $slugs | append (anchorize $h) -}}
+      {{- end -}}
+      {{- $cached = $slugs -}}
+      {{- $page.Store.Set "en-h2-slugs" $cached -}}
+    {{- end -}}
+    {{- if lt $count (len $cached) -}}
+      {{- $enSlug = index $cached $count -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $page.Store.Set "h2-index" (add $count 1) -}}
+
+  {{- if $enSlug -}}
+    {{- $key := printf "%s#%s" $chapter $enSlug -}}
+    {{- $mappings := (index hugo.Data "chapter-videos").mappings | default dict -}}
+    {{- $videos := index $mappings $key -}}
+    {{- if $videos -}}
+      {{- $page.Store.Set "pending-section-video" (dict "key" $key "videos" $videos) -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
