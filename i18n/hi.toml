@@ -213,3 +213,15 @@ other = "संदेश"
 
 [message_placeholder]
 other = "हमें अपने बारे में, अपने अनुभव के स्तर और आप क्या खोज रहे हैं, इसके बारे में बताएं..."
+
+[watch_in_action]
+other = "क्रिया में देखें"
+
+[video_level_beginner]
+other = "शुरुआती"
+
+[video_level_intermediate]
+other = "मध्यवर्ती"
+
+[video_level_champion]
+other = "चैंपियन"

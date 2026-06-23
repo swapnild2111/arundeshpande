@@ -213,3 +213,15 @@ other = "පණිවිඩය"
 
 [message_placeholder]
 other = "ඔබ ගැන, ඔබේ අත්දැකීම් මට්ටම සහ ඔබ සොයන දේ ගැන අපට කියන්න..."
+
+[watch_in_action]
+other = "ක්‍රියාවෙන් බලන්න"
+
+[video_level_beginner]
+other = "ආරම්භක"
+
+[video_level_intermediate]
+other = "මැදි"
+
+[video_level_champion]
+other = "ශූරයා"

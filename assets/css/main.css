@@ -1905,6 +1905,100 @@ body.video-player-open { overflow: hidden; }
   line-height: 1.5;
 }
 
+/* ---------- "Watch in action" video strip below H2 in book chapters ---------- */
+.watch-in-action {
+  margin: 14px 0 28px;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.05), rgba(168, 85, 247, 0.02));
+  border: 1px solid rgba(168, 85, 247, 0.18);
+}
+.watch-in-action-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.watch-in-action-label svg { width: 14px; height: 14px; }
+.watch-in-action-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+}
+.watch-in-action-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text) !important;
+  transition: transform .15s, border-color .15s;
+}
+.watch-in-action-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+.watch-in-action-card .video-thumb {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 0;
+}
+.watch-in-action-card .video-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.watch-in-action-card .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+.watch-in-action-card .play-btn svg { width: 14px; height: 14px; }
+.watch-in-action-level {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-weight: 600;
+}
+.watch-in-action-card.video-card--beginner .watch-in-action-level { background: rgba(16, 185, 129, 0.92); }
+.watch-in-action-card.video-card--intermediate .watch-in-action-level { background: rgba(245, 158, 11, 0.92); }
+.watch-in-action-card.video-card--champion .watch-in-action-level { background: rgba(168, 85, 247, 0.92); }
+.watch-in-action-card .video-title {
+  padding: 8px 10px 10px;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--text-muted);
+}
+@media (max-width: 480px) {
+  .watch-in-action-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .watch-in-action-card .video-title { font-size: 11px; padding: 6px 8px 8px; }
+}
+
 .book-prose table {
   width: 100%;
   border-collapse: collapse;

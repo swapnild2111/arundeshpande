@@ -213,3 +213,15 @@ other = "Messaggio"
 
 [message_placeholder]
 other = "Raccontaci di te, del tuo livello di esperienza e di cosa stai cercando..."
+
+[watch_in_action]
+other = "Guarda in azione"
+
+[video_level_beginner]
+other = "Principiante"
+
+[video_level_intermediate]
+other = "Intermedio"
+
+[video_level_champion]
+other = "Campione"

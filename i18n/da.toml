@@ -213,3 +213,15 @@ other = "Besked"
 
 [message_placeholder]
 other = "Fortæl os lidt om dig selv, dit niveau og hvad du leder efter…"
+
+[watch_in_action]
+other = "Se det i praksis"
+
+[video_level_beginner]
+other = "Begynder"
+
+[video_level_intermediate]
+other = "Øvet"
+
+[video_level_champion]
+other = "Mester"

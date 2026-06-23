@@ -1,0 +1,164 @@
+# Mapping: book chapter section -> matching tutorial videos.
+# Key: "<chapter-slug>#<heading-slug>"  (e.g. "chapter-06#cut")
+# Value: list of video IDs (in display order — typically beginner -> intermediate -> champion).
+# Auto-seeded from a keyword-overlap pass against content/en/videos/_index.md.
+# Review and remove false positives; add hand-picked extras as needed.
+# Only EN sections are mapped; videos are shared across all 8 languages.
+
+mappings:
+
+  # ----- chapter-02 -----
+  "chapter-02#coins-and-striker":
+    - { id: "Rm17_RqoikQ", title: "Science Behind the game, How to arrange coins, Breaks", level: "beginner" }
+    - { id: "fx_RqJu4h4w", title: "Thumbing and straight coins – 1", level: "beginner" }
+    - { id: "N_aXdUnc0jo", title: "Slip, Striker slip, Double touch", level: "intermediate" }
+    - { id: "2toKjVwJohw", title: "How to level striker", level: "intermediate" }
+    - { id: "QvW-Pd-FTow", title: "How to level striker", level: "champion" }
+
+  # ----- chapter-03 -----
+  "chapter-03#other-rules":
+    - { id: "8sJhAiqZflA", title: "Equipment and Rules", level: "beginner" }
+
+  # ----- chapter-04 -----
+  "chapter-04#grips":
+    - { id: "WMgKG4_QdkQ", title: "Science behind the game, sitting posion grips, Spin", level: "intermediate" }
+  "chapter-04#natural-grip":
+    - { id: "FSmw8VuAYss", title: "Grip", level: "beginner" }
+  "chapter-04#scissor-grip":
+    - { id: "FSmw8VuAYss", title: "Grip", level: "beginner" }
+  "chapter-04#locking-grip":
+    - { id: "FSmw8VuAYss", title: "Grip", level: "beginner" }
+
+  # ----- chapter-05 -----
+  "chapter-05#reverse-break":
+    - { id: "1BjaxJAWo6w", title: "Break", level: "beginner" }
+    - { id: "C7dJTZpO-ZY", title: "Break", level: "intermediate" }
+
+  # ----- chapter-06 -----
+  "chapter-06#shower-of-strokes":
+    - { id: "SCY7KuCBT7Q", title: "Advance strokes", level: "champion" }
+    - { id: "PJG08khutoA", title: "Winning strokes", level: "champion" }
+    - { id: "86Y52mCU7a4", title: "Exhibition strokes", level: "champion" }
+  "chapter-06#cut":
+    - { id: "SHY0TIumWlU", title: "Cut, Straight cut", level: "beginner" }
+    - { id: "JxIeJXYLCQI", title: "Cut, Straight cut, Cross cut – 1", level: "intermediate" }
+    - { id: "6t1kn2wzNOo", title: "Cut, Straight cut, Cross cut", level: "champion" }
+  "chapter-06#straight-cut":
+    - { id: "SHY0TIumWlU", title: "Cut, Straight cut", level: "beginner" }
+    - { id: "fx_RqJu4h4w", title: "Thumbing and straight coins – 1", level: "beginner" }
+    - { id: "yBSCnm8ZnV8", title: "Straight Shot", level: "beginner" }
+    - { id: "JxIeJXYLCQI", title: "Cut, Straight cut, Cross cut – 1", level: "intermediate" }
+    - { id: "XOGjzZWC2iU", title: "Straight shot, Wrong shot", level: "intermediate" }
+  "chapter-06#cross-cut-or-minus-cut":
+    - { id: "JxIeJXYLCQI", title: "Cut, Straight cut, Cross cut – 1", level: "intermediate" }
+    - { id: "6t1kn2wzNOo", title: "Cut, Straight cut, Cross cut", level: "champion" }
+  "chapter-06#double":
+    - { id: "d_aTDpLBXM8", title: "Double", level: "beginner" }
+    - { id: "SrJ1eZnvetE", title: "Double", level: "intermediate" }
+    - { id: "N_aXdUnc0jo", title: "Slip, Striker slip, Double touch", level: "intermediate" }
+    - { id: "97stbPKDJPs", title: "Combination of pair and Double", level: "intermediate" }
+    - { id: "rTVzsvknhOA", title: "Double, Cross double", level: "champion" }
+  "chapter-06#cross-double":
+    - { id: "d_aTDpLBXM8", title: "Double", level: "beginner" }
+    - { id: "JxIeJXYLCQI", title: "Cut, Straight cut, Cross cut – 1", level: "intermediate" }
+    - { id: "SrJ1eZnvetE", title: "Double", level: "intermediate" }
+    - { id: "N_aXdUnc0jo", title: "Slip, Striker slip, Double touch", level: "intermediate" }
+    - { id: "97stbPKDJPs", title: "Combination of pair and Double", level: "intermediate" }
+  "chapter-06#press":
+    - { id: "QKbE4Op9kdE", title: "Press", level: "intermediate" }
+    - { id: "CCUxYst3nac", title: "Side Press", level: "intermediate" }
+    - { id: "GpOykL199gU", title: "Press – 1", level: "champion" }
+    - { id: "q0jlG9OXKLI", title: "Press – 2", level: "champion" }
+
+  # ----- chapter-07 -----
+  "chapter-07#touch":
+    - { id: "N_aXdUnc0jo", title: "Slip, Striker slip, Double touch", level: "intermediate" }
+    - { id: "Jyk5FQB6gxY", title: "Touch", level: "intermediate" }
+    - { id: "bJWs4zAS6xI", title: "Combination of touch and Third pocket", level: "intermediate" }
+    - { id: "fBb0agfqcwo", title: "Touch", level: "champion" }
+    - { id: "InPNee7HV4c", title: "Advantages of Touch", level: "champion" }
+  "chapter-07#shot":
+    - { id: "yBSCnm8ZnV8", title: "Straight Shot", level: "beginner" }
+    - { id: "wkVw3asSn58", title: "Wrong Shot", level: "beginner" }
+    - { id: "XOGjzZWC2iU", title: "Straight shot, Wrong shot", level: "intermediate" }
+    - { id: "uvqYRLRcIAQ", title: "Wrong shot", level: "champion" }
+  "chapter-07#pair":
+    - { id: "JUvhQPLyq4w", title: "Pair, Wrong pair", level: "intermediate" }
+    - { id: "97stbPKDJPs", title: "Combination of pair and Double", level: "intermediate" }
+    - { id: "I-Yf9PghHA0", title: "Wrong pair", level: "champion" }
+
+  # ----- chapter-08 -----
+  "chapter-08#glance":
+    - { id: "T-QcVCGfPcE", title: "Brush, Glance", level: "beginner" }
+    - { id: "7fk1KvxpWOM", title: "Brush, Glance, Deflection", level: "intermediate" }
+    - { id: "uKJJHu9cWZc", title: "Glance", level: "champion" }
+  "chapter-08#double-glance":
+    - { id: "d_aTDpLBXM8", title: "Double", level: "beginner" }
+    - { id: "T-QcVCGfPcE", title: "Brush, Glance", level: "beginner" }
+    - { id: "SrJ1eZnvetE", title: "Double", level: "intermediate" }
+    - { id: "N_aXdUnc0jo", title: "Slip, Striker slip, Double touch", level: "intermediate" }
+    - { id: "7fk1KvxpWOM", title: "Brush, Glance, Deflection", level: "intermediate" }
+  "chapter-08#brush":
+    - { id: "T-QcVCGfPcE", title: "Brush, Glance", level: "beginner" }
+    - { id: "7fk1KvxpWOM", title: "Brush, Glance, Deflection", level: "intermediate" }
+  "chapter-08#rebound":
+    - { id: "D0obzouKqGA", title: "Rebound", level: "beginner" }
+    - { id: "yb9np9KPXV4", title: "Rebound and Langda Rebound", level: "intermediate" }
+    - { id: "aJkKdyOjJjs", title: "Langda Rebound", level: "champion" }
+  "chapter-08#simple-rebound":
+    - { id: "D0obzouKqGA", title: "Rebound", level: "beginner" }
+    - { id: "yb9np9KPXV4", title: "Rebound and Langda Rebound", level: "intermediate" }
+    - { id: "aJkKdyOjJjs", title: "Langda Rebound", level: "champion" }
+  "chapter-08#langda-rebound-or-off-the-side-rebound":
+    - { id: "yb9np9KPXV4", title: "Rebound and Langda Rebound", level: "intermediate" }
+    - { id: "aJkKdyOjJjs", title: "Langda Rebound", level: "champion" }
+  "chapter-08#hook":
+    - { id: "bQlODS_M5Hc", title: "Hook", level: "intermediate" }
+
+  # ----- chapter-09 -----
+  "chapter-09#third-pocket":
+    - { id: "bJWs4zAS6xI", title: "Combination of touch and Third pocket", level: "intermediate" }
+    - { id: "4VnYN81vPE4", title: "Third pocket, Cross third pocket", level: "intermediate" }
+    - { id: "78mP_-FbTa4", title: "Second pocket, Cross second pocket", level: "intermediate" }
+    - { id: "LKgGD94MhJc", title: "Second, cross second, cross third", level: "champion" }
+  "chapter-09#cross-third-pocket":
+    - { id: "4VnYN81vPE4", title: "Third pocket, Cross third pocket", level: "intermediate" }
+    - { id: "bJWs4zAS6xI", title: "Combination of touch and Third pocket", level: "intermediate" }
+    - { id: "78mP_-FbTa4", title: "Second pocket, Cross second pocket", level: "intermediate" }
+    - { id: "LKgGD94MhJc", title: "Second, cross second, cross third", level: "champion" }
+  "chapter-09#turning":
+    - { id: "cpVkLMfFl6g", title: "Turning", level: "beginner" }
+    - { id: "XvZAwjLy_ZY", title: "Turning, follow", level: "intermediate" }
+  "chapter-09#second":
+    - { id: "78mP_-FbTa4", title: "Second pocket, Cross second pocket", level: "intermediate" }
+    - { id: "LKgGD94MhJc", title: "Second, cross second, cross third", level: "champion" }
+  "chapter-09#cross-second":
+    - { id: "78mP_-FbTa4", title: "Second pocket, Cross second pocket", level: "intermediate" }
+    - { id: "JxIeJXYLCQI", title: "Cut, Straight cut, Cross cut – 1", level: "intermediate" }
+    - { id: "4VnYN81vPE4", title: "Third pocket, Cross third pocket", level: "intermediate" }
+    - { id: "LKgGD94MhJc", title: "Second, cross second, cross third", level: "champion" }
+    - { id: "6t1kn2wzNOo", title: "Cut, Straight cut, Cross cut", level: "champion" }
+
+  # ----- chapter-10 -----
+  "chapter-10#slip":
+    - { id: "N_aXdUnc0jo", title: "Slip, Striker slip, Double touch", level: "intermediate" }
+  "chapter-10#the-striker-slip":
+    - { id: "N_aXdUnc0jo", title: "Slip, Striker slip, Double touch", level: "intermediate" }
+    - { id: "2toKjVwJohw", title: "How to level striker", level: "intermediate" }
+    - { id: "QvW-Pd-FTow", title: "How to level striker", level: "champion" }
+    - { id: "h_67KxeDtzc", title: "Rolling of striker", level: "champion" }
+  "chapter-10#double-touch":
+    - { id: "d_aTDpLBXM8", title: "Double", level: "beginner" }
+    - { id: "N_aXdUnc0jo", title: "Slip, Striker slip, Double touch", level: "intermediate" }
+    - { id: "SrJ1eZnvetE", title: "Double", level: "intermediate" }
+    - { id: "Jyk5FQB6gxY", title: "Touch", level: "intermediate" }
+    - { id: "bJWs4zAS6xI", title: "Combination of touch and Third pocket", level: "intermediate" }
+
+  # ----- chapter-11 -----
+  "chapter-11#bomb-bum":
+    - { id: "Ixb_Oa_j9JQ", title: "Bomb", level: "intermediate" }
+    - { id: "CL64i7ExkSc", title: "Bomb", level: "champion" }
+  "chapter-11#force":
+    - { id: "8vMzXC56nEM", title: "Force 1", level: "intermediate" }
+    - { id: "th00dfyS4xw", title: "Force 2", level: "intermediate" }
+    - { id: "8A1cZ-yMZEI", title: "Force", level: "champion" }

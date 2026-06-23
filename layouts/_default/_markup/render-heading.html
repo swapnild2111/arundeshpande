@@ -1,0 +1,62 @@
+{{- /*
+  Markdown heading render hook.
+
+  After each `## Section Heading` inside a Carrom Techniques chapter, look up
+  matching videos in data/chapter-videos.yaml and render a small "Watch in
+  action" strip below the heading. Other pages render headings normally.
+
+  Mapping key: "<chapter-slug>#<heading-slug>"
+    e.g.  chapter-06.md  +  "## Cut"  ->  "chapter-06#cut"
+
+  Videos are shared across all languages — the source is /en/ only.
+*/ -}}
+{{- $level := .Level -}}
+{{- $text := .Text -}}
+{{- $anchor := .Anchor -}}
+
+{{- /* Emit the heading itself */ -}}
+<h{{ $level }} id="{{ $anchor }}">{{ $text | safeHTML }}</h{{ $level }}>
+
+{{- /* Only emit a video strip for H2s inside a Carrom Techniques chapter. */ -}}
+{{- $isTechniques := and
+    (eq $level 2)
+    (hasPrefix .Page.File.Path "books/students/carrom-techniques-and-skills/")
+    (hasPrefix .Page.File.LogicalName "chapter-")
+-}}
+{{- if $isTechniques -}}
+  {{- $chapter := strings.TrimSuffix ".md" .Page.File.LogicalName -}}
+  {{- $key := printf "%s#%s" $chapter $anchor -}}
+  {{- $mappings := (index hugo.Data "chapter-videos").mappings | default dict -}}
+  {{- $videos := index $mappings $key -}}
+  {{- if $videos -}}
+    <aside class="watch-in-action" aria-label="{{ i18n "watch_in_action" | default "Watch in action" }}">
+      <div class="watch-in-action-label">
+        {{ partial "icons/play.html" . }}
+        <span>{{ i18n "watch_in_action" | default "Watch in action" }}</span>
+      </div>
+      <div class="watch-in-action-grid">
+        {{- range $videos -}}
+          {{- $vid := .id -}}
+          {{- $title := .title -}}
+          {{- $level := .level -}}
+          {{- $slug := printf "topic-%s-%s" $key $vid | urlize -}}
+          <a class="video-card video-card--compact watch-in-action-card video-card--{{ $level }}"
+             id="v-{{ $slug }}"
+             data-anchor="{{ $slug }}"
+             data-title="{{ $title }}"
+             data-youtube="https://www.youtube.com/watch?v={{ $vid }}"
+             data-video-id="{{ $vid }}"
+             href="https://www.youtube.com/watch?v={{ $vid }}"
+             target="_blank" rel="noopener">
+            <div class="video-thumb">
+              <img src="https://i.ytimg.com/vi/{{ $vid }}/hqdefault.jpg" alt="{{ $title }}" loading="lazy">
+              <span class="play-btn" aria-hidden="true">{{ partial "icons/play.html" $ }}</span>
+              <span class="watch-in-action-level">{{ i18n (printf "video_level_%s" $level) | default $level }}</span>
+            </div>
+            <div class="video-title">{{ $title }}</div>
+          </a>
+        {{- end -}}
+      </div>
+    </aside>
+  {{- end -}}
+{{- end -}}
