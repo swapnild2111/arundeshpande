@@ -105,6 +105,12 @@
 
     menu.querySelectorAll('a').forEach(function (link) {
       link.addEventListener('click', function () {
+        // Remember the user's pick so the root-URL auto-detect respects it
+        // on future visits. The hreflang attribute carries the locale code.
+        try {
+          var code = link.getAttribute('hreflang');
+          if (code) localStorage.setItem('site-lang', code);
+        } catch (err) {}
         closeLangSwitchers();
       });
     });

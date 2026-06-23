@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>{{ .Permalink }}</title>
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+  {{- /*
+    Browser-language auto-detect for the root URL only.
+
+    Static-site approach: we can't choose a locale server-side, so the
+    root /index.html redirects to /en/ by default (the <meta refresh>
+    above and the location.replace in the noscript fallback). Before
+    that fires, this inline script checks navigator.languages. If the
+    visitor's preferred language matches one of our 8 supported locales
+    and ISN'T English, we replace the redirect target.
+
+    The check is bounded:
+      - Bots: skipped via a simple UA check so search engines see /en/
+      - Repeat visits: localStorage 'auto-lang-applied' set after the
+        first run, so the redirect doesn't keep firing (e.g. if user
+        manually navigates back to root)
+      - User picked a language: the lang-switcher in static/js/app.js
+        stores 'site-lang' in localStorage; if set, we honour it over
+        navigator.languages
+  */ -}}
+  <script>
+  (function () {
+    // Only run at the SITE ROOT alias, not on any /<lang>/ subtree.
+    // The alias template is also used elsewhere (per-page aliases for
+    // moved URLs) — those redirect within a language and shouldn't
+    // trigger auto-detect.
+    var here = location.pathname.replace(/\/+$/, '');
+    // The default-language home permalink (e.g. /arundeshpande/en/).
+    // The root URL is everything BEFORE the trailing locale segment.
+    var homePath = "{{ site.Home.RelPermalink }}".replace(/\/+$/, '');
+    var rootPath = homePath.replace(/\/[a-z]{2}$/, '');
+    if (here !== rootPath && here !== '') return;
+
+    try {
+      // Skip if a known bot — let it follow the canonical /en/ redirect.
+      if (/bot|crawl|spider|slurp|bingpreview/i.test(navigator.userAgent)) return;
+
+      // Honour an explicit user pick (set by the language switcher).
+      var picked = localStorage.getItem('site-lang');
+
+      var supported = ['en', 'da', 'de', 'mr', 'it', 'fr', 'si', 'hi'];
+
+      var chosen = null;
+      if (picked && supported.indexOf(picked) !== -1) {
+        chosen = picked;
+      } else {
+        // Walk navigator.languages in order, pick the first supported one.
+        var langs = (navigator.languages && navigator.languages.length)
+          ? navigator.languages
+          : [navigator.language || 'en'];
+        for (var i = 0; i < langs.length; i++) {
+          var code = String(langs[i]).toLowerCase().split('-')[0];
+          if (supported.indexOf(code) !== -1) { chosen = code; break; }
+        }
+      }
+
+      if (!chosen || chosen === 'en') return; // default redirect handles this
+
+      // Redirect to the matched locale. Use replace() so back-button
+      // doesn't loop the visitor back to root.
+      location.replace(rootPath + '/' + chosen + '/');
+    } catch (err) {
+      // localStorage / navigator.languages can throw in private browsing
+      // or very old browsers. Silently fall through to /en/.
+    }
+  })();
+  </script>
+</head>
+<body>
+  <noscript><a href="{{ .Permalink }}">{{ .Permalink }}</a></noscript>
+</body>
+</html>
