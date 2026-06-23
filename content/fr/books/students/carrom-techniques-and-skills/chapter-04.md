@@ -30,7 +30,7 @@ Il existe de nombreux types de poignées. La prise la plus courante est la combi
 
 Cette prise présente de nombreux avantages. Avec cette poignée, un joueur peut garder un contrôle maximal sur le striker. Cette prise reste stable et ferme car tous les autres doigts reçoivent le soutien du contreplaqué. Un joueur de cette poignée peut jouer avec un minimum d'espace.
 
-Parfois, lorsqu'il n'y a pas suffisamment d'espace disponible pour placer la poignée, un joueur peut jouer avec l'index en soulevant tous les autres doigts du contreplaqué. Avec cette poignée, un joueur peut jouer avec la même facilité des deux côtés (gauche ou droite) du carrom board. Par conséquent, le jeu du joueur ne reste faible d’aucun côté. Dans cette prise, les ongles de tous les doigts touch le contreplaqué. Par conséquent, si un ongle a poussé plus que d’habitude, il y aura un changement dans l’adhérence. Ces éléments mineurs sont très importants dans carrom.
+Parfois, lorsqu'il n'y a pas suffisamment d'espace disponible pour placer la poignée, un joueur peut jouer avec l'index en soulevant tous les autres doigts du contreplaqué. Avec cette poignée, un joueur peut jouer avec la même facilité des deux côtés (gauche ou droite) du carrom board. Par conséquent, le jeu du joueur ne reste faible d’aucun côté. Dans cette prise, les ongles de tous les doigts touch le contreplaqué. Par conséquent, si un ongle a poussé plus que d’habitude, il y aura un changement dans l’adhérence. Ces choses mineures sont très importantes dans carrom.
 
 ## Poignée en ciseaux
 
@@ -52,11 +52,11 @@ Il est utilisé essentiellement pour le break en Inde. Il est utilisé comme gri
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Poignée de verrouillage</span>
-    <p class="def">Pouce, index et petit doigt (ou troisième doigt pour force supplémentaire). Premier doigt verrouillé entre le pouce et l’annulaire ; ne GARDE souvent pas la surface de jeu.</p>
+    <p class="def">Pouce, index et petit doigt (ou majeur pour un force supplémentaire). Premier doigt verrouillé entre le pouce et l’annulaire ; souvent, la surface de jeu ne touch pas.</p>
   </div>
 </div>
 
-Vous devriez apprendre cette prise si vous n’avez pas de prise verrouillable comme prise naturelle. Avec cette poignée, vous pouvez obtenir la puissance nécessaire pour jouer des coups puissants. J'étais avec Suhas Kambli en 1982 à Delhi pendant un mois et nous nous entraînions dur pour jouer à des jeux de démonstration aux Jeux asiatiques lorsque j'ai observé Suhas Kambli jouer de nombreux coups puissants avec sa prise naturelle. Sa préhension naturelle est une combinaison de pouce, d'index et d'auriculaire, mais chaque fois qu'il avait besoin de force supplémentaire, il changeait son auriculaire en troisième. Je viens de l'essayer et j'ai commencé à frapper fort avec ce grip. J'ai aimé l'utiliser et chaque fois que j'ai eu l'occasion de l'utiliser, je l'ai utilisé. Suhas se moquait de moi parce que je ne parvenais pas à viser correctement avec cette prise. J'ai dû mettre tous mes efforts pour maîtriser cette prise. Vous devez bloquer votre index entre le pouce et l’annulaire pour ce type de prise. Généralement dans cette prise le premier doigt par lequel le coup est joué ne GARDETERM0000 la surface de jeu.
+Vous devriez apprendre cette prise si vous n’avez pas de prise verrouillable comme prise naturelle. Avec cette poignée, vous pouvez obtenir la puissance nécessaire pour jouer des coups puissants. J'étais avec Suhas Kambli en 1982 à Delhi pendant un mois et nous nous entraînions dur pour jouer à des jeux de démonstration aux Jeux asiatiques lorsque j'ai observé Suhas Kambli jouer de nombreux coups puissants avec sa prise naturelle. Sa préhension naturelle est une combinaison du pouce, de l'index et de l'auriculaire, mais chaque fois qu'il avait besoin de force supplémentaire, il changeait son petit doigt en troisième. Je viens de l'essayer et j'ai commencé à frapper fort avec ce grip. J'ai aimé l'utiliser et chaque fois que j'ai eu l'occasion de l'utiliser, je l'ai utilisé. Suhas se moquait de moi parce que je ne parvenais pas à viser correctement avec cette prise. J'ai dû mettre tous mes efforts pour maîtriser cette prise. Vous devez bloquer votre index entre le pouce et l’annulaire pour ce type de prise. Généralement dans cette prise, le premier doigt par lequel le coup est joué ne touche pas la surface de jeu.
 
 ## Poignée plate du majeur
 

@@ -22,7 +22,7 @@ Cher lecteur, je voudrais vous dire ceci **"MANTRA"** avant de commencer à lire
   <p>Soyez sincère avec carrom. Traitez-le comme un membre très proche de votre famille. Ne le commercialisez pas. Ne pariez pas là-dessus. Tout comme votre dispute avec un membre proche de votre famille est de nature très temporaire, considérez votre défaite dans ce jeu comme un revers temporaire. Ne soyez pas en colère contre le carrom board ou le striker à cause de la défaite. Restez fidèle à carrom, et vous obtiendrez alors les meilleurs résultats attendus.</p>
 </div>
 
-— *GARDERTERM0000*
+— *Arun Deshpande*
 
 ## Vidéos compagnons
 

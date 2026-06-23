@@ -69,13 +69,34 @@ KEEP_TERMS = [
 SKIP_KEYS = {"date", "weight", "pageCount", "category", "chapters", "cover", "aliases", "author"}
 
 
+# Sentinels used to protect terms and HTML attributes from Google Translate.
+#
+# Earlier attempts:
+#   - `KEEPTERMnnnn` — French translated the `KEEP` prefix to `GARDER`
+#     ("to keep" in French), corrupting every sentinel.
+#   - `zQzNNNNzQz` — survived French/Hindi but Marathi and Sinhala
+#     translators inserted spaces between the digits, splitting one
+#     sentinel into multiple fragments.
+#
+# Self-closing XML tag style (`<x42/>`) is the most robust pattern: every
+# translator we tested (Google's PBMT and NMT models for de, da, mr, it,
+# fr, si, hi) preserves tags verbatim because they're recognised as
+# untranslatable markup, even when the surrounding language script is
+# completely different from Latin.
+SENTINEL_RE = re.compile(r"<x(\d{1,4})/>")
+
+
+def _make_key(idx: int) -> str:
+    return f"<x{idx}/>"
+
+
 def protect(text: str) -> tuple[str, dict[str, str]]:
     placeholders: dict[str, str] = {}
     idx = 0
 
     def stash(match: re.Match[str]) -> str:
         nonlocal idx
-        key = f"KEEPTERM{idx:04d}"
+        key = _make_key(idx)
         placeholders[key] = match.group(0)
         idx += 1
         return key
@@ -96,7 +117,7 @@ def protect(text: str) -> tuple[str, dict[str, str]]:
     for term in sorted(KEEP_TERMS, key=len, reverse=True):
         def term_repl(m: re.Match[str], t: str = term) -> str:
             nonlocal idx
-            key = f"KEEPTERM{idx:04d}"
+            key = _make_key(idx)
             placeholders[key] = m.group(0)
             idx += 1
             return key
@@ -111,9 +132,14 @@ def protect(text: str) -> tuple[str, dict[str, str]]:
 
 
 def restore(text: str, placeholders: dict[str, str]) -> str:
-    for key, val in placeholders.items():
-        text = text.replace(key, val)
-    return text
+    # Translators sometimes lower-case the entire output (e.g. for some
+    # short fragments). Match sentinels case-insensitively, and replace
+    # whatever case-variant the translator returned with the original.
+    def repl(m: re.Match[str]) -> str:
+        n = int(m.group(1))
+        key = _make_key(n)
+        return placeholders.get(key, m.group(0))
+    return SENTINEL_RE.sub(repl, text)
 
 
 def translate_text(text: str, translator: GoogleTranslator, retries: int = 3) -> str:

@@ -10,17 +10,17 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 
 ## Équipement pendant le jeu
 
-**115.** Un trait doit être pris au moyen d'un **Striker uniquement**. Le Striker est apporté par le joueur et certifié par l'arbitre en chef ou l'arbitre avant le jeu.
+**115.** Un coup doit être effectué au moyen d'un **Striker uniquement**. Le Striker est apporté par le joueur et certifié par l'arbitre en chef ou l'arbitre avant le jeu.
 
 **116.** Pendant qu'il exécute un coup, si le Striker saute par-dessus le C/B, le tour du joueur continue s'il empoche son propre C/m et/ou Queen dans ce coup.
 
-**117.** Un nouveau Striker modifié, dûment approuvé par l'arbitre en chef ou l'arbitre, est autorisé dans un match **une fois le tableau particulier terminé**. Si le Striker est endommagé au milieu du panneau, il peut être changé **uniquement après la fin de cette course particulière**.
+**117.** Un nouveau Striker modifié, dûment approuvé par l'arbitre en chef ou l'arbitre, est autorisé dans un match **une fois le tableau particulier terminé**. Si le Striker est endommagé au milieu du plateau, il peut être changé **seulement après avoir terminé cette course particulière**.
 
 **118.** &nbsp;&nbsp;a) Une fois définie, la position du C/B ne doit pas être modifiée au milieu du match.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) La seule autorité pour apporter des modifications après examen, suite à un appel d'un joueur, appartient à l'arbitre.
 
-**119.** Le C/B, la table ou le support sur lequel le C/B est placé ne peuvent être modifiés qu'après la réalisation d'un tableau. La seule autorité pour décider de l’état du C/B, du support ou de la table appartient à l’arbitre.
+**119.** Le C/B, la table ou le support sur lequel le C/B est placé ne peuvent être modifiés qu'après la réalisation d'un tableau. La seule autorité pour décider de l’état du C/B, du stand ou de la table appartient à l’arbitre.
 
 **120.** Tout C/m endommagé, en cas de appel pour remplacement, doit être remplacé par l'arbitre dans la position d'origine du C/m endommagé dans la mesure du possible.
 
@@ -28,7 +28,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 
 **121.** &nbsp;&nbsp;a) Le décompte du temps **s'arrête** lorsqu'il y a un appel à l'arbitre pendant le jeu. Le jeu ne doit pas continuer à moins que l'arbitre n'ait ordonné *Jouer*.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Le joueur qui enfreint cela perd tout le plateau du numéro de son C/m sur le C/B avec les points du Queen (s'il est sur le C/B).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Le joueur qui enfreint cela perd tout le plateau du nombre de ses C/m sur le C/B avec les points du Queen (s'il est sur le C/B).
 
 ## Poudre
 
@@ -43,7 +43,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
   - (ii) Toute tentative délibérée d'enlever ou d'essuyer la poudre de la surface de jeu n'est **pas** autorisée.
   - (iii) L'élimination de la poudre par soufflage, essuyage ou de toute autre manière n'est **pas** autorisée. Toute infraction ci-dessus est une faute.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Cependant, **l'excès de poudre** le long des lignes de base et des cercles de base du joueur peut être retiré pendant son tour - en utilisant uniquement le Striker.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Cependant, l'**excédent de poudre** le long des lignes de base et des cercles de base du joueur peut être retiré pendant son tour — en utilisant uniquement le Striker.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) L'arbitre a le droit de contrôler l'application uniforme de la poudre.
 
@@ -51,25 +51,25 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 
 ## Coups, timing et score
 
-**123.** Une course est considérée comme terminée seulement après l'arrêt du Striker, du C/m et/ou du Queen perturbé par le Striker. Le Striker doit être immédiatement retiré du C/B par le joueur. L'arbitre peut aider sur demande.
+**123.** Un coup est considéré comme terminé seulement après que le Striker, le C/m et/ou le Queen perturbé par le Striker s'immobilise. Le Striker doit être immédiatement supprimé par le joueur du C/B. L'arbitre peut aider sur demande.
 
-**124.** &nbsp;&nbsp;a) Tant qu'un joueur empoche son propre C/m et/ou Queen, le décompte du temps commence dès que le coup est terminé.
+**124.** &nbsp;&nbsp;a) Tant qu'un joueur empoche ses propres C/m et/ou Queen, le décompte du temps commence dès que le coup est terminé.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Lorsqu'un joueur ne parvient pas à empocher son C/m, le décompte du temps pour l'adversaire ne commence qu'après que le Striker ait été retiré.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Un joueur ne doit pas effectuer le coup avant que l'adversaire n'ait récupéré son Striker du C/B.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Un joueur ne doit pas effectuer le coup avant que l'adversaire n'ait récupéré son Striker sur le C/B.
 
-**125.** &nbsp;&nbsp;a) Lorsqu'un joueur empoche le C/m de son adversaire sciemment ou inconsciemment, l'arbitre arrête le joueur.
+**125.** &nbsp;&nbsp;a) Lorsqu'un joueur empoche le C/m de son adversaire, sciemment ou inconsciemment, l'arbitre arrête le joueur.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) S'il passe inaperçu, le C/m est considéré comme correctement empoché. Le tour est perdu au fur et à mesure que l'on s'en aperçoit.
 
 **126.** &nbsp;&nbsp;a) Frapper, tapoter ou déranger le C/B volontairement ou non est une faute.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Si cela est fait de telle manière que le réarrangement du C/m devient impossible, le contrevenant perd la totalité du tableau par son C/m sur le C/B avec les points du Queen.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Si cela est fait de telle manière que le réarrangement du C/m devient impossible, le contrevenant perd la totalité du tableau de son C/m sur le C/B avec les points du Queen.
 
 **127.** &nbsp;&nbsp;a) Un coup est considéré comme effectué si le Striker glisse, quittant une ligne de base ou un cercle de base, qu'il ait touché ou non un C/m.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Si le Striker glisse mais ne quitte aucune ligne/cercle de base ou ne déplace aucun C/m, aucun coup n'est considéré comme effectué.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Si le Striker glisse mais ne quitte aucune ligne/cercle de base ni ne déplace aucun C/m, aucun coup n'est considéré comme effectué.
 
 **128.** Un joueur ne peut connaître le score auprès de l'arbitre que pendant son tour.
 
@@ -77,7 +77,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 
 ## Striker Position
 
-**130.** &nbsp;&nbsp;a) Le Striker doit GARDERTERM0001 **les deux lignes de base** lors d'un coup.
+**130.** &nbsp;&nbsp;a) Le Striker doit touch **les deux lignes de base** lors d'un coup.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Si le trait est effectué à partir du cercle de base, le Striker doit couvrir entièrement le cercle de base mais **ne doit pas touch la flèche**.
 
@@ -89,7 +89,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 
 **133.** Un joueur ne doit tenir aucun objet solide dans aucune de ses mains, à l'exception du Striker, pendant son tour.
 
-**134.** C/m et Queen ne doivent **pas être déplacés ou dérangés** après la pause, sauf par le biais d'un coup. S'il est touché, la position est rétablie par l'arbitre et une faute est déclarée.
+**134.** C/m et Queen ne doivent **pas être déplacés ou dérangés** après la pause, sauf au moyen d'un coup. S'il est touché, la position est rétablie par l'arbitre et une faute est déclarée.
 
 **135.** La course du Striker ne doit **pas être testée** sur la surface de jeu lors d'un Board.
 
@@ -109,7 +109,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 
 **141.** Si un C/m est endommagé par un accident vasculaire cérébral, la position de la plus grande partie du C/m endommagé est prise en compte à toutes fins ; la décision de l'arbitre est définitive.
 
-**142.** Si un C/m se trouve sur les lignes de base ou les cercles de base empêchant un joueur de jouer un coup faute d'espace, ce tableau est rejoué.
+**142.** Si un C/m repose sur les lignes de base ou les cercles de base empêchant un joueur de jouer un coup faute d'espace, ce plateau est rejoué.
 
 ## Perte de la partie entière
 

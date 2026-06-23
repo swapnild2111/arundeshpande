@@ -22,7 +22,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
   </div>
 </div>
 
-Cette méthode est la meilleure et est utilisée par la majorité des joueurs. De nombreux joueurs visent à l’aveugle depuis le cadre opposé pour la pause. Si vous placez votre striker sur le cercle de base gauche alors votre striker doit passer par la première flèche du demi-cercle gauche opposé comme indiqué dans la figure ci-dessus. Vous pouvez voir le point réel à partir duquel votre striker doit passer et vous pouvez donc jouer le coup avec précision. Si vous n'utilisez pas cette méthode et essayez de prendre un point imaginaire sur l'image opposée, il y a alors un risque de faire varier ce point imaginaire, ce qui entraînerait l'échec de la cassure. Cette cassure doit être réalisée de préférence par prise en ciseaux ou par toute prise plate.
+Cette méthode est la meilleure et est utilisée par la majorité des joueurs. De nombreux joueurs visent à l’aveugle depuis le cadre opposé pour la pause. Si vous placez votre striker sur le cercle de base gauche alors votre striker devrait passer par la première flèche du demi-cercle gauche opposé, comme indiqué dans la figure ci-dessus. Vous pouvez voir le point réel d'où votre striker doit passer et vous pouvez donc jouer le coup avec précision. Si vous n'utilisez pas cette méthode et essayez de prendre un point imaginaire sur l'image opposée, il y a alors un risque de faire varier ce point imaginaire, ce qui entraînerait l'échec de la cassure. Cette cassure doit être réalisée de préférence par prise en ciseaux ou par toute prise plate.
 
 ## Rupture à proximité du cercle de base gauche
 
@@ -48,9 +48,9 @@ Si vous avez peur de jouer le coup depuis le cercle de gauche en raison d'une po
   </div>
 </div>
 
-Dans ce type de break, vous pouvez organiser un tir du break dans votre poche gauche et un break depuis le côté gauche. Si vous cassez avec précision, vous remarquerez qu'il reste un tas de quatre pièces de telle manière que vous pouvez jouer un coup touch et ouvrir le plateau, obtenant ainsi une chance de slam blanc.
+Dans ce type de break, vous pouvez organiser un tir du break dans votre poche gauche et un break depuis le côté gauche. Si vous cassez avec précision, vous remarquerez qu'il reste un tas de quatre pièces de telle manière que vous pouvez jouer un coup touch et ouvrir le plateau, obtenant ainsi une chance de faire un slam blanc.
 
 <div class="callout">
   <div class="callout-title">Risque</div>
-  <p>Si vous ne parvenez pas à casser correctement, vous risquez de toucher d'autres pièces ou votre striker peut simplement GARDERM0001 vos pièces blanches ciblées - une mauvaise cassure et une opportunité perdue.</p>
+  <p>Si vous ne parvenez pas à casser correctement, vous risquez de toucher d'autres pièces ou votre striker peut simplement touch vos pièces blanches ciblées – une mauvaise cassure et une opportunité perdue.</p>
 </div>

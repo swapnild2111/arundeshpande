@@ -16,9 +16,9 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 
 **29.** La position adoptée pour s'asseoir par un joueur avant de prendre son tour de frapper peut être modifiée à tout moment, à condition que la chaise ou le tabouret sur lequel il est assis ne soit pas soulevé, déplacé et/ou dérangé pendant son tour de jeu.
 
-**30.** &nbsp;&nbsp;a) Pendant le jeu, aucune partie du corps d'un joueur, à l'exception du bras de jeu, ne doit GARDER le touch, le support ou la table sur lequel le C/B est placé.
+**30.** &nbsp;&nbsp;a) Pendant le jeu, aucune partie du corps d'un joueur, à l'exception du bras de jeu, ne doit touch le Carrom Board, le support ou la table sur laquelle le C/B est placé.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Toutefois, les vêtements, bagues, bracelets et/ou montres portés par un joueur sont exemptés pendant son tour de jeu, mais ceux-ci ne doivent pas GARDERTERM0000 la surface de jeu.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Toutefois, les vêtements, bagues, bracelets et/ou montres portés par un joueur sont exemptés pendant son tour de jeu, mais ceux-ci ne doivent pas touch la surface de jeu.
 
 **31.** L'utilisation de tout matériau pour élever et/ou ajuster la hauteur du siège est autorisée après l'achèvement de la planche uniquement, à condition que la hauteur du siège ainsi surélevé ne dépasse pas **50 cm**.
 
@@ -41,13 +41,13 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 
 **35.** N'importe quelle main peut être utilisée dans le jeu.
 
-**36.** Pendant l'exécution d'un coup, la main peut GARDERTERM0000 la surface de jeu.
+**36.** Pendant l'exécution d'un coup, la main peut touch la surface de jeu.
 
 **37.** &nbsp;&nbsp;a) Pendant l'exécution d'un coup, le coude de la main qui joue ne doit pas entrer dans la surface de jeu ni dépasser les lignes imaginaires de la flèche.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) La main peut cependant croiser la flèche.
 
-**38.** &nbsp;&nbsp;a) Pendant l'exécution d'un coup, il n'est pas permis au joueur de prendre appui sur le tabouret, la chaise, le support ou la table du C/B et/ou de maintenir les pieds sur le bord du support ou de la table.
+**38.** &nbsp;&nbsp;a) Pendant l'exécution d'un coup, il n'est pas permis au joueur de prendre appui sur le tabouret, la chaise, le support ou la table du C/B et/ou de garder les jambes sur le bord du support ou de la table.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Cependant, les mains peuvent reposer sur son corps et les jambes peuvent reposer sur le rebord du tabouret ou de la chaise sur lequel il est assis.
 

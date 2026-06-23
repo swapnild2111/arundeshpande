@@ -8,7 +8,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 ---
 *Dans ces lois, sauf s'il y a quoi que ce soit de répugnant au sujet ou au contexte, les termes donnés ci-dessous auront les interprétations suivantes. Lisez ce chapitre une fois et le reste des lois se lit naturellement.*
 
-## Lois et Carrom Board
+## Les lois et le Carrom Board
 
 <div class="definition-grid">
   <div class="definition-card">
@@ -24,11 +24,11 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
     <p class="def">Contrairement aux lois.</p>
   </div>
   <div class="definition-card">
-    <span class="term">GARDERTERM0000</span>
-    <p class="def">GARDERTERM0000.</p>
+    <span class="term">C/B</span>
+    <p class="def">Carrom Board.</p>
   </div>
   <div class="definition-card">
-    <span class="term">GARDERTERM0000</span>
+    <span class="term">C/m</span>
     <p class="def">Carromman ou Carrommen.</p>
   </div>
 </div>
@@ -38,7 +38,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Conseil</span>
-    <p class="def">Dès le début d'un tableau, après que l'arbitre ait annoncé<em>Jouer</em>, jusqu'à son achèvement lors de l'empochage du dernier C/m de n'importe quel joueur.</p>
+    <p class="def">Dès le début d'un tableau, après que l'arbitre ait annoncé<em>Jouer</em>, jusqu'à son achèvement en empochant le dernier C/m de n'importe quel joueur.</p>
   </div>
   <div class="definition-card">
     <span class="term">Casser</span>
@@ -62,12 +62,12 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">GARDERTERM0000</span>
+    <span class="term">Queen</span>
     <p class="def">Le C/m rouge.</p>
   </div>
   <div class="definition-card">
     <span class="term">Placement</span>
-    <p class="def">Garder une pénalité et/ou un dû C/m à plat sur la surface de jeu, à l'intérieur du cercle extérieur uniquement, par le joueur autorisé à le faire. Le Queen et tout c/m sauté sont toujours placés par l'arbitre dans le cercle central.</p>
+    <p class="def">Garder une pénalité et/ou un C/m dû à plat sur la surface de jeu, à l'intérieur du cercle extérieur uniquement, par le joueur autorisé à le faire. Le Queen et tout c/m sauté sont toujours placés par l'arbitre dans le cercle central.</p>
   </div>
   <div class="definition-card">
     <span class="term">Poche</span>
@@ -75,7 +75,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
   </div>
   <div class="definition-card">
     <span class="term">Revêtement</span>
-    <p class="def">Empocher un de ses propres C/m par un joueur dans le même coup ou immédiatement après que le Queen ait été empoché.</p>
+    <p class="def">Empocher l'un de ses propres C/m par un joueur dans le même coup ou immédiatement après que le Queen ait été empoché.</p>
   </div>
 </div>
 
@@ -84,7 +84,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Exigible</span>
-    <p class="def">Empocher le Striker avec ou sans C/m et/ou Queen, et/ou tout c/m en suspens contre le joueur selon le cas.</p>
+    <p class="def">Empocher le Striker avec ou sans C/m et/ou Queen, et/ou tout c/m en circulation contre le joueur selon le cas.</p>
   </div>
   <div class="definition-card">
     <span class="term">Peine</span>
@@ -105,14 +105,14 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
   </div>
   <div class="definition-card">
     <span class="term">Tir</span>
-    <p class="def">Un pair ou un cannon.</p>
+    <p class="def">Un pair ou cannon.</p>
   </div>
   <div class="definition-card">
-    <span class="term">GARDERTERM0000</span>
+    <span class="term">Pair</span>
     <p class="def">Deux C/m, ou un C/m et Queen, face à la direction générale de la poche avec un espace entre eux.</p>
   </div>
   <div class="definition-card">
-    <span class="term">GARDERTERM0000</span>
+    <span class="term">Cannon</span>
     <p class="def">Deux C/m, ou un C/m et Queen, face à la direction générale de la poche<em>sans</em>n'importe quel espace entre eux.</p>
   </div>
   <div class="definition-card">

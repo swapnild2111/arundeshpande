@@ -6,7 +6,7 @@ date: 2026-01-01
 author: "Arun Deshpande"
 translatedBy: "Traduit de l'anglais (brouillon IA)."
 ---
-*Chaque partie de l'ensemble carrom : plateau, cadres, pochettes, lignes de base, cercles, pièces de monnaie, striker, support et lampe. Connaissez votre équipement avant d’apprendre vos mouvements.*
+*Chaque partie de l'ensemble carrom : plateau, cadres, poches, lignes de base, cercles, pièces de monnaie, striker, support et lampe. Connaissez votre équipement avant d’apprendre vos mouvements.*
 
 ## Carrom Board
 
@@ -49,7 +49,7 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
     <p class="def"><strong>9 blancs, 9 noirs, 1 rouge</strong>(Queen) – 19 au total. Diamètre<strong>3,18 cm</strong>; poids<strong>5,25 à 5,50 g</strong>.</p>
   </div>
   <div class="definition-card">
-    <span class="term">GARDERTERM0000</span>
+    <span class="term">Striker</span>
     <p class="def">Poids pas plus de<strong>15g</strong>. Diamètre maximum<strong>4,13 cm</strong>.</p>
   </div>
 </div>

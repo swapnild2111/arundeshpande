@@ -42,22 +42,22 @@ videos:
     title: "Tir droit"
     tags: ["beginner"]
   - id: "d_aTDpLBXM8"
-    title: "GARDERTERM0000"
+    title: "Double"
     tags: ["beginner"]
   - id: "D0obzouKqGA"
-    title: "GARDERTERM0000"
+    title: "Rebound"
     tags: ["beginner"]
   - id: "cpVkLMfFl6g"
     title: "Tournant"
     tags: ["beginner"]
   - id: "T-QcVCGfPcE"
-    title: "GARDERTERM0001, GARDERTERM0000"
+    title: "Brush, Glance"
     tags: ["beginner"]
   - id: "wkVw3asSn58"
     title: "Mauvais coup"
     tags: ["beginner"]
   - id: "QKbE4Op9kdE"
-    title: "GARDERTERM0000"
+    title: "Press"
     tags: ["intermediate"]
   - id: "WMgKG4_QdkQ"
     title: "La science derrière le jeu, les poignées en position assise, Spin"
@@ -69,25 +69,25 @@ videos:
     title: "Casser"
     tags: ["intermediate"]
   - id: "8vMzXC56nEM"
-    title: "GARDERTERM0000 1"
+    title: "Force 1"
     tags: ["intermediate"]
   - id: "JxIeJXYLCQI"
-    title: "Cut, Droit cut, Cross cut – 1"
+    title: "Cut, droit cut, Cross cut – 1"
     tags: ["intermediate"]
   - id: "th00dfyS4xw"
-    title: "GARDERTERM0000 2"
+    title: "Force 2"
     tags: ["intermediate"]
   - id: "SrJ1eZnvetE"
-    title: "GARDERTERM0000"
+    title: "Double"
     tags: ["intermediate"]
   - id: "N_aXdUnc0jo"
     title: "Slip, Striker slip, Double touch"
     tags: ["intermediate"]
   - id: "bQlODS_M5Hc"
-    title: "GARDERTERM0000"
+    title: "Hook"
     tags: ["intermediate"]
   - id: "Ixb_Oa_j9JQ"
-    title: "GARDERTERM0000"
+    title: "Bomb"
     tags: ["intermediate"]
   - id: "yb9np9KPXV4"
     title: "Rebound et Langda Rebound"
@@ -105,13 +105,13 @@ videos:
     title: "Brush, Glance, Déflexion"
     tags: ["intermediate"]
   - id: "2toKjVwJohw"
-    title: "Comment niveler striker"
+    title: "Comment mettre à niveau striker"
     tags: ["intermediate"]
   - id: "JUvhQPLyq4w"
-    title: "Pair, mauvais pair"
+    title: "Pair, Faux pair"
     tags: ["intermediate"]
   - id: "Jyk5FQB6gxY"
-    title: "GARDERTERM0000"
+    title: "Touch"
     tags: ["intermediate"]
   - id: "bJWs4zAS6xI"
     title: "Combinaison de touch et de troisième poche"
@@ -132,7 +132,7 @@ videos:
     title: "Défense"
     tags: ["champion"]
   - id: "6t1kn2wzNOo"
-    title: "Cut, Droit cut, Cross cut"
+    title: "Cut, droit cut, Cross cut"
     tags: ["champion"]
   - id: "SCY7KuCBT7Q"
     title: "Avancer les coups"
@@ -144,7 +144,7 @@ videos:
     title: "Rotation"
     tags: ["champion"]
   - id: "aJkKdyOjJjs"
-    title: "GARDERTERM0001 GARDERTERM0000"
+    title: "Langda Rebound"
     tags: ["champion"]
   - id: "PJG08khutoA"
     title: "Coups gagnants"
@@ -156,19 +156,19 @@ videos:
     title: "Coups d'exposition"
     tags: ["champion"]
   - id: "uKJJHu9cWZc"
-    title: "GARDERTERM0000"
+    title: "Glance"
     tags: ["champion"]
   - id: "uehqA-vy8g8"
     title: "Exercices physiques"
     tags: ["champion"]
   - id: "I-Yf9PghHA0"
-    title: "Mauvais pair"
+    title: "Erreur pair"
     tags: ["champion"]
   - id: "QvW-Pd-FTow"
-    title: "Comment niveler striker"
+    title: "Comment mettre à niveau striker"
     tags: ["champion"]
   - id: "fBb0agfqcwo"
-    title: "GARDERTERM0000"
+    title: "Touch"
     tags: ["champion"]
   - id: "InPNee7HV4c"
     title: "Avantages de Touch"
@@ -177,16 +177,16 @@ videos:
     title: "Deuxièmement, croisez le deuxième, croisez le troisième"
     tags: ["champion"]
   - id: "GpOykL199gU"
-    title: "GARDERTERM0000 – 1"
+    title: "Press – 1"
     tags: ["champion"]
   - id: "q0jlG9OXKLI"
-    title: "GARDERTERM0000 – 2"
+    title: "Press – 2"
     tags: ["champion"]
   - id: "8A1cZ-yMZEI"
-    title: "GARDERTERM0000"
+    title: "Force"
     tags: ["champion"]
   - id: "CL64i7ExkSc"
-    title: "GARDERTERM0000"
+    title: "Bomb"
     tags: ["champion"]
   - id: "lGIEPr4z9NI"
     title: "Roulement de pièce de monnaie"
