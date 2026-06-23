@@ -1,12 +1,6 @@
 [home_title]
 other = "Carrom Coach Arun Deshpande"
 
-[hero_first_name]
-other = "Arun "
-
-[hero_last_name]
-other = "Deshpande"
-
 [watch_videos]
 other = "Watch Videos"
 
@@ -73,17 +67,11 @@ other = "Location"
 [coaching_enquiries]
 other = "Coaching Enquiries"
 
-[coaching_enquiry_subject]
-other = "Coaching enquiry"
-
 [whatsapp_message]
 other = "Hello Arun sir, I found Carrom Academy website and I'm interested in carrom coaching."
 
 [contact_information]
 other = "Contact Information"
-
-[send_email]
-other = "Send Email"
 
 [message_on_whatsapp]
 other = "Message on WhatsApp"
@@ -91,41 +79,8 @@ other = "Message on WhatsApp"
 [whatsapp_hint]
 other = "Fastest way to reach Arun for coaching enquiries and workshops."
 
-[pages]
-other = "Pages"
-
 [page_count]
 other = "pages"
-
-[book_pages]
-other = "Pages"
-
-[book_loading]
-other = "Loading book…"
-
-[book_load_error]
-other = "Could not load this book."
-
-[book_page]
-other = "Page"
-
-[book_of]
-other = "of"
-
-[book_fit_width]
-other = "Full width"
-
-[book_zoom_in]
-other = "Zoom in"
-
-[book_zoom_out]
-other = "Zoom out"
-
-[book_fullscreen]
-other = "Fullscreen"
-
-[read_online]
-other = "Read online"
 
 [download_pdf]
 other = "Download PDF"
@@ -145,9 +100,6 @@ other = "Problem"
 [solution_label]
 other = "Solution"
 
-[ps_section_label]
-other = "Problems & Solutions"
-
 [ps_index_label]
 other = "Problem groups"
 
@@ -156,9 +108,6 @@ other = "Soon"
 
 [pdf_coming_soon]
 other = "PDF coming soon"
-
-[author]
-other = "Author"
 
 [ready_to_read]
 other = "Ready to read"
@@ -192,27 +141,6 @@ other = "Coming soon"
 
 [coming_soon_body]
 other = "This section is being prepared. In the meantime, head to the Videos page or get in touch via the Contact page."
-
-[send_message]
-other = "Send a Message"
-
-[your_name]
-other = "Your Name"
-
-[name_placeholder]
-other = "Name"
-
-[subject]
-other = "Subject"
-
-[subject_placeholder]
-other = "Coaching enquiry, Workshop, etc."
-
-[message]
-other = "Message"
-
-[message_placeholder]
-other = "Tell us about yourself, your experience level, and what you’re looking for…"
 
 [watch_in_action]
 other = "Watch in action"

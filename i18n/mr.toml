@@ -1,12 +1,6 @@
 [home_title]
 other = "Carrom प्रशिक्षक Arun Deshpande"
 
-[hero_first_name]
-other = "अरुण"
-
-[hero_last_name]
-other = "देशपांडे"
-
 [watch_videos]
 other = "व्हिडिओ पहा"
 
@@ -73,17 +67,11 @@ other = "स्थान"
 [coaching_enquiries]
 other = "कोचिंग चौकशी"
 
-[coaching_enquiry_subject]
-other = "कोचिंग चौकशी"
-
 [whatsapp_message]
 other = "नमस्कार अरुण सर, मला Carrom Academy वेबसाइट सापडली आहे आणि मला carrom कोचिंगमध्ये रस आहे."
 
 [contact_information]
 other = "संपर्क माहिती"
-
-[send_email]
-other = "ईमेल पाठवा"
 
 [message_on_whatsapp]
 other = "व्हॉट्सॲपवर मेसेज"
@@ -91,41 +79,8 @@ other = "व्हॉट्सॲपवर मेसेज"
 [whatsapp_hint]
 other = "कोचिंग चौकशी आणि कार्यशाळेसाठी अरुणपर्यंत पोहोचण्याचा जलद मार्ग."
 
-[pages]
-other = "पृष्ठे"
-
 [page_count]
 other = "पृष्ठे"
-
-[book_pages]
-other = "पृष्ठे"
-
-[book_loading]
-other = "पुस्तक लोड करत आहे..."
-
-[book_load_error]
-other = "हे पुस्तक लोड करू शकलो नाही."
-
-[book_page]
-other = "पान"
-
-[book_of]
-other = "च्या"
-
-[book_fit_width]
-other = "पूर्ण रुंदी"
-
-[book_zoom_in]
-other = "झूम वाढवा"
-
-[book_zoom_out]
-other = "झूम कमी करा"
-
-[book_fullscreen]
-other = "फुलस्क्रीन"
-
-[read_online]
-other = "ऑनलाइन वाचा"
 
 [download_pdf]
 other = "PDF डाउनलोड करा"
@@ -145,9 +100,6 @@ other = "समस्या"
 [solution_label]
 other = "उपाय"
 
-[ps_section_label]
-other = "समस्या आणि उपाय"
-
 [ps_index_label]
 other = "समस्या गट"
 
@@ -156,9 +108,6 @@ other = "लवकरच"
 
 [pdf_coming_soon]
 other = "PDF लवकरच येत आहे"
-
-[author]
-other = "लेखक"
 
 [ready_to_read]
 other = "वाचायला तयार"
@@ -192,27 +141,6 @@ other = "लवकरच येत आहे"
 
 [coming_soon_body]
 other = "हा विभाग तयार केला जात आहे. यादरम्यान, व्हिडिओ पृष्ठावर जा किंवा संपर्क पृष्ठाद्वारे touch मध्ये जा."
-
-[send_message]
-other = "एक संदेश पाठवा"
-
-[your_name]
-other = "तुमचे नाव"
-
-[name_placeholder]
-other = "नाव"
-
-[subject]
-other = "विषय"
-
-[subject_placeholder]
-other = "कोचिंग चौकशी, कार्यशाळा इ."
-
-[message]
-other = "संदेश"
-
-[message_placeholder]
-other = "आम्हाला तुमच्याबद्दल, तुमच्या अनुभवाची पातळी आणि तुम्ही काय शोधत आहात याबद्दल सांगा..."
 
 [watch_in_action]
 other = "कृतीत पहा"

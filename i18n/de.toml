@@ -1,12 +1,6 @@
 [home_title]
 other = "Carrom-Trainer Arun Deshpande"
 
-[hero_first_name]
-other = "Arun "
-
-[hero_last_name]
-other = "Deshpande"
-
 [watch_videos]
 other = "Videos ansehen"
 
@@ -73,17 +67,11 @@ other = "Standort"
 [coaching_enquiries]
 other = "Trainingsanfragen"
 
-[coaching_enquiry_subject]
-other = "Trainingsanfrage"
-
 [whatsapp_message]
 other = "Hallo Arun sir, ich habe die Carrom Academy Website gefunden und interessiere mich für Carrom-Coaching."
 
 [contact_information]
 other = "Kontaktinformationen"
-
-[send_email]
-other = "E-Mail senden"
 
 [message_on_whatsapp]
 other = "Per WhatsApp schreiben"
@@ -91,41 +79,8 @@ other = "Per WhatsApp schreiben"
 [whatsapp_hint]
 other = "Der schnellste Weg, Arun für Coaching-Anfragen und Workshops zu erreichen."
 
-[pages]
-other = "Seiten"
-
 [page_count]
 other = "Seiten"
-
-[book_pages]
-other = "Seiten"
-
-[book_loading]
-other = "Buch wird geladen…"
-
-[book_load_error]
-other = "Dieses Buch konnte nicht geladen werden."
-
-[book_page]
-other = "Seite"
-
-[book_of]
-other = "von"
-
-[book_fit_width]
-other = "Volle Breite"
-
-[book_zoom_in]
-other = "Vergrößern"
-
-[book_zoom_out]
-other = "Verkleinern"
-
-[book_fullscreen]
-other = "Vollbild"
-
-[read_online]
-other = "Online lesen"
 
 [download_pdf]
 other = "PDF herunterladen"
@@ -145,9 +100,6 @@ other = "Problem"
 [solution_label]
 other = "Lösung"
 
-[ps_section_label]
-other = "Probleme & Lösungen"
-
 [ps_index_label]
 other = "Problemgruppen"
 
@@ -156,9 +108,6 @@ other = "Bald"
 
 [pdf_coming_soon]
 other = "PDF folgt in Kürze"
-
-[author]
-other = "Autor"
 
 [ready_to_read]
 other = "Bereit zum Lesen"
@@ -192,27 +141,6 @@ other = "In Vorbereitung"
 
 [coming_soon_body]
 other = "Dieser Bereich wird gerade vorbereitet. Bis dahin gerne auf der Videos-Seite stöbern oder über die Kontakt-Seite Kontakt aufnehmen."
-
-[send_message]
-other = "Nachricht senden"
-
-[your_name]
-other = "Ihr Name"
-
-[name_placeholder]
-other = "Name"
-
-[subject]
-other = "Betreff"
-
-[subject_placeholder]
-other = "Trainingsanfrage, Workshop usw."
-
-[message]
-other = "Nachricht"
-
-[message_placeholder]
-other = "Erzählen Sie uns kurz von sich, Ihrem Niveau und worum es Ihnen geht…"
 
 [watch_in_action]
 other = "So sieht es aus"

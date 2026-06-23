@@ -1,12 +1,6 @@
 [home_title]
 other = "Carrom कोच Arun Deshpande"
 
-[hero_first_name]
-other = "अरुण"
-
-[hero_last_name]
-other = "देशपांडे"
-
 [watch_videos]
 other = "वीडियो देखें"
 
@@ -73,17 +67,11 @@ other = "जगह"
 [coaching_enquiries]
 other = "कोचिंग पूछताछ"
 
-[coaching_enquiry_subject]
-other = "कोचिंग पूछताछ"
-
 [whatsapp_message]
 other = "नमस्कार अरुण सर, मुझे Carrom अकादमी की वेबसाइट मिली और मुझे carrom कोचिंग में रुचि है।"
 
 [contact_information]
 other = "संपर्क जानकारी"
-
-[send_email]
-other = "ईमेल भेजें"
 
 [message_on_whatsapp]
 other = "व्हाट्सएप पर मैसेज करें"
@@ -91,41 +79,8 @@ other = "व्हाट्सएप पर मैसेज करें"
 [whatsapp_hint]
 other = "कोचिंग पूछताछ और कार्यशालाओं के लिए अरुण तक पहुंचने का सबसे तेज़ तरीका।"
 
-[pages]
-other = "पृष्ठों"
-
 [page_count]
 other = "पृष्ठों"
-
-[book_pages]
-other = "पृष्ठों"
-
-[book_loading]
-other = "पुस्तक लोड हो रही है..."
-
-[book_load_error]
-other = "इस पुस्तक को लोड नहीं किया जा सका."
-
-[book_page]
-other = "पेज"
-
-[book_of]
-other = "का"
-
-[book_fit_width]
-other = "पूरी चौड़ाई"
-
-[book_zoom_in]
-other = "ज़ूम इन"
-
-[book_zoom_out]
-other = "ज़ूम आउट"
-
-[book_fullscreen]
-other = "पूर्ण स्क्रीन"
-
-[read_online]
-other = "ऑनलाइन पढ़ें"
 
 [download_pdf]
 other = "पीडीएफ डाउनलोड करें"
@@ -145,9 +100,6 @@ other = "संकट"
 [solution_label]
 other = "समाधान"
 
-[ps_section_label]
-other = "समस्याएँ एवं समाधान"
-
 [ps_index_label]
 other = "समस्या समूह"
 
@@ -156,9 +108,6 @@ other = "जल्द ही"
 
 [pdf_coming_soon]
 other = "पीडीएफ जल्द ही आ रहा है"
-
-[author]
-other = "लेखक"
 
 [ready_to_read]
 other = "पढ़ने के लिए तैयार"
@@ -192,27 +141,6 @@ other = "जल्द आ रहा है"
 
 [coming_soon_body]
 other = "यह अनुभाग तैयार किया जा रहा है. इस बीच, वीडियो पृष्ठ पर जाएं या संपर्क पृष्ठ के माध्यम से touch में प्रवेश करें।"
-
-[send_message]
-other = "एक संदेश भेजो"
-
-[your_name]
-other = "आपका नाम"
-
-[name_placeholder]
-other = "नाम"
-
-[subject]
-other = "विषय"
-
-[subject_placeholder]
-other = "कोचिंग पूछताछ, कार्यशाला, आदि।"
-
-[message]
-other = "संदेश"
-
-[message_placeholder]
-other = "हमें अपने बारे में, अपने अनुभव के स्तर और आप क्या खोज रहे हैं, इसके बारे में बताएं..."
 
 [watch_in_action]
 other = "क्रिया में देखें"

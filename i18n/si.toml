@@ -1,12 +1,6 @@
 [home_title]
 other = "Carrom පුහුණුකරු Arun Deshpande"
 
-[hero_first_name]
-other = "අරුන්"
-
-[hero_last_name]
-other = "දේශපාන්ඩේ"
-
 [watch_videos]
 other = "වීඩියෝ බලන්න"
 
@@ -73,17 +67,11 @@ other = "ස්ථානය"
 [coaching_enquiries]
 other = "පුහුණු විමසීම්"
 
-[coaching_enquiry_subject]
-other = "පුහුණු විමසීම"
-
 [whatsapp_message]
 other = "ආයුබෝවන් අරුන් සර්, මම Carrom ඇකඩමි වෙබ් අඩවිය සොයා ගත් අතර මම carrom පුහුණු කිරීම ගැන උනන්දු වෙමි."
 
 [contact_information]
 other = "සබඳතා තොරතුරු"
-
-[send_email]
-other = "ඊමේල් යවන්න"
 
 [message_on_whatsapp]
 other = "WhatsApp මත පණිවිඩය"
@@ -91,41 +79,8 @@ other = "WhatsApp මත පණිවිඩය"
 [whatsapp_hint]
 other = "පුහුණු විමසීම් සහ වැඩමුළු සඳහා අරුන් වෙත ළඟා වීමට වේගවත්ම මාර්ගය."
 
-[pages]
-other = "පිටු"
-
 [page_count]
 other = "පිටු"
-
-[book_pages]
-other = "පිටු"
-
-[book_loading]
-other = "පොත පූරණය කරමින්..."
-
-[book_load_error]
-other = "මෙම පොත පූරණය කළ නොහැකි විය."
-
-[book_page]
-other = "පිටුව"
-
-[book_of]
-other = "හි"
-
-[book_fit_width]
-other = "සම්පූර්ණ පළල"
-
-[book_zoom_in]
-other = "විශාලනය කරන්න"
-
-[book_zoom_out]
-other = "විශාලනය කරන්න"
-
-[book_fullscreen]
-other = "පුන් තිරය"
-
-[read_online]
-other = "අන්තර්ජාලයෙන් කියවන්න"
 
 [download_pdf]
 other = "PDF බාගන්න"
@@ -145,9 +100,6 @@ other = "ගැටලුව"
 [solution_label]
 other = "විසඳුම"
 
-[ps_section_label]
-other = "ගැටළු සහ විසඳුම්"
-
 [ps_index_label]
 other = "ගැටළු කණ්ඩායම්"
 
@@ -156,9 +108,6 @@ other = "ඉක්මනින්"
 
 [pdf_coming_soon]
 other = "PDF ළඟදීම"
-
-[author]
-other = "කර්තෘ"
 
 [ready_to_read]
 other = "කියවීමට සූදානම්"
@@ -192,27 +141,6 @@ other = "ඉක්මණින් පැමිණෙන"
 
 [coming_soon_body]
 other = "මෙම කොටස සකස් වෙමින් පවතී. මේ අතරතුර, වීඩියෝ පිටුවට යන්න හෝ සම්බන්ධතා පිටුව හරහා touch වෙත යන්න."
-
-[send_message]
-other = "පණිවිඩයක් යවන්න"
-
-[your_name]
-other = "ඔයාගේ නම"
-
-[name_placeholder]
-other = "නම"
-
-[subject]
-other = "විෂය"
-
-[subject_placeholder]
-other = "පුහුණු විමසීම්, වැඩමුළුව, ආදිය."
-
-[message]
-other = "පණිවිඩය"
-
-[message_placeholder]
-other = "ඔබ ගැන, ඔබේ අත්දැකීම් මට්ටම සහ ඔබ සොයන දේ ගැන අපට කියන්න..."
 
 [watch_in_action]
 other = "ක්‍රියාවෙන් බලන්න"

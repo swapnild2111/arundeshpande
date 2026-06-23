@@ -1,12 +1,6 @@
 [home_title]
 other = "Carrom-træner Arun Deshpande"
 
-[hero_first_name]
-other = "Arun "
-
-[hero_last_name]
-other = "Deshpande"
-
 [watch_videos]
 other = "Se videoer"
 
@@ -73,17 +67,11 @@ other = "Lokation"
 [coaching_enquiries]
 other = "Coachingforespørgsler"
 
-[coaching_enquiry_subject]
-other = "Coachingforespørgsel"
-
 [whatsapp_message]
 other = "Hej Arun sir, jeg fandt Carrom Academy-hjemmesiden og er interesseret i carrom-coaching."
 
 [contact_information]
 other = "Kontaktoplysninger"
-
-[send_email]
-other = "Send e-mail"
 
 [message_on_whatsapp]
 other = "Skriv på WhatsApp"
@@ -91,41 +79,8 @@ other = "Skriv på WhatsApp"
 [whatsapp_hint]
 other = "Den hurtigste måde at kontakte Arun om coaching og workshops."
 
-[pages]
-other = "sider"
-
 [page_count]
 other = "sider"
-
-[book_pages]
-other = "Sider"
-
-[book_loading]
-other = "Indlæser bog…"
-
-[book_load_error]
-other = "Bogen kunne ikke indlæses."
-
-[book_page]
-other = "Side"
-
-[book_of]
-other = "af"
-
-[book_fit_width]
-other = "Fuld bredde"
-
-[book_zoom_in]
-other = "Zoom ind"
-
-[book_zoom_out]
-other = "Zoom ud"
-
-[book_fullscreen]
-other = "Fuld skærm"
-
-[read_online]
-other = "Læs online"
 
 [download_pdf]
 other = "Download PDF"
@@ -145,9 +100,6 @@ other = "Problem"
 [solution_label]
 other = "Løsning"
 
-[ps_section_label]
-other = "Problemer og løsninger"
-
 [ps_index_label]
 other = "Problegrupper"
 
@@ -156,9 +108,6 @@ other = "Snart"
 
 [pdf_coming_soon]
 other = "PDF kommer snart"
-
-[author]
-other = "Forfatter"
 
 [ready_to_read]
 other = "Klar til at læse"
@@ -192,27 +141,6 @@ other = "Kommer snart"
 
 [coming_soon_body]
 other = "Dette område er under forberedelse. I mellemtiden kan du se Videoer eller kontakte os via Kontakt-siden."
-
-[send_message]
-other = "Send en besked"
-
-[your_name]
-other = "Dit navn"
-
-[name_placeholder]
-other = "Navn"
-
-[subject]
-other = "Emne"
-
-[subject_placeholder]
-other = "Coachingforespørgsel, workshop, m.v."
-
-[message]
-other = "Besked"
-
-[message_placeholder]
-other = "Fortæl os lidt om dig selv, dit niveau og hvad du leder efter…"
 
 [watch_in_action]
 other = "Se det i praksis"

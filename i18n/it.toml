@@ -1,12 +1,6 @@
 [home_title]
 other = "Carrom Allenatore Arun Deshpande"
 
-[hero_first_name]
-other = "Arun"
-
-[hero_last_name]
-other = "Deshpande"
-
 [watch_videos]
 other = "Guarda i video"
 
@@ -73,17 +67,11 @@ other = "Posizione"
 [coaching_enquiries]
 other = "Richieste di coaching"
 
-[coaching_enquiry_subject]
-other = "Inchiesta di coaching"
-
 [whatsapp_message]
 other = "Ciao Arun signore, ho trovato il sito web dell'Accademia Carrom e sono interessato al coaching carrom."
 
 [contact_information]
 other = "Informazioni sui contatti"
-
-[send_email]
-other = "Invia e-mail"
 
 [message_on_whatsapp]
 other = "Messaggio su WhatsApp"
@@ -91,41 +79,8 @@ other = "Messaggio su WhatsApp"
 [whatsapp_hint]
 other = "Il modo più veloce per raggiungere Arun per richieste di coaching e workshop."
 
-[pages]
-other = "Pagine"
-
 [page_count]
 other = "pagine"
-
-[book_pages]
-other = "Pagine"
-
-[book_loading]
-other = "Caricamento libro..."
-
-[book_load_error]
-other = "Impossibile caricare questo libro."
-
-[book_page]
-other = "Pagina"
-
-[book_of]
-other = "Di"
-
-[book_fit_width]
-other = "Tutta la larghezza"
-
-[book_zoom_in]
-other = "Ingrandisci"
-
-[book_zoom_out]
-other = "Rimpicciolisci"
-
-[book_fullscreen]
-other = "A schermo intero"
-
-[read_online]
-other = "Leggi in linea"
 
 [download_pdf]
 other = "Scarica PDF"
@@ -145,9 +100,6 @@ other = "Problema"
 [solution_label]
 other = "Soluzione"
 
-[ps_section_label]
-other = "Problemi e soluzioni"
-
 [ps_index_label]
 other = "Gruppi problematici"
 
@@ -156,9 +108,6 @@ other = "Presto"
 
 [pdf_coming_soon]
 other = "PDF in arrivo"
-
-[author]
-other = "Autore"
 
 [ready_to_read]
 other = "Pronto per leggere"
@@ -192,27 +141,6 @@ other = "Prossimamente"
 
 [coming_soon_body]
 other = "Questa sezione è in fase di preparazione. Nel frattempo, vai alla pagina Video o accedi a touch tramite la pagina Contatti."
-
-[send_message]
-other = "Invia un messaggio"
-
-[your_name]
-other = "Il tuo nome"
-
-[name_placeholder]
-other = "Nome"
-
-[subject]
-other = "Soggetto"
-
-[subject_placeholder]
-other = "Richiesta di coaching, workshop, ecc."
-
-[message]
-other = "Messaggio"
-
-[message_placeholder]
-other = "Raccontaci di te, del tuo livello di esperienza e di cosa stai cercando..."
 
 [watch_in_action]
 other = "Guarda in azione"

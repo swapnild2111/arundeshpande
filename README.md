@@ -80,15 +80,20 @@ arundeshpande/
 ├── data/
 │   ├── books.yaml                # catalog metadata, PDF paths, per-lang titles
 │   ├── about.yaml                # bio text per language
+│   ├── chapter-videos.yaml       # maps book chapter sections → tutorial videos
 │   └── problem-solutions.yaml    # YouTube Problem/Solution pairs
 ├── i18n/{en,da,de,mr,it,fr,si,hi}.toml   # UI strings
 ├── layouts/
-│   ├── _default/{baseof,list,single,contact}.html
+│   ├── _default/
+│   │   ├── {baseof,list,single,contact}.html
+│   │   └── _markup/
+│   │       ├── render-heading.html   # injects "Watch in action" strip below H2s
+│   │       └── render-image.html     # baseURL fix for /images/... in markdown
 │   ├── index.html                # homepage
 │   ├── videos/                   # video list + problems-solutions
 │   ├── books/{list,single,category}.html   # book catalog + chapter pages
 │   ├── gallery/list.html
-│   └── partials/                 # sidebar, footer, book-grid, seo, ...
+│   └── partials/                 # sidebar, footer, book-grid, section-video-card, seo, ...
 ├── assets/css/main.css           # Hugo-processed CSS (minify + fingerprint)
 ├── scripts/
 │   ├── extract-book.py           # .docx → EN markdown chapters
@@ -120,6 +125,50 @@ In this project: only `assets/css/main.css` lives in `assets/` (it gets minified
 Don't merge the two. Photos and PDFs in `assets/` would need their references rewritten through `resources.Get`, and CSS in `static/` would lose its cache-busting fingerprint.
 
 ---
+
+## Linking book chapters to tutorial videos
+
+Each `##` section heading inside a *Carrom Techniques and Skills* chapter can show a **"Watch in action"** strip with matching YouTube tutorials, grouped by tier (Beginner / Intermediate / Champion).
+
+### How it works
+
+| File | Role |
+|---|---|
+| `data/chapter-videos.yaml` | Maps `"<chapter-slug>#<heading-slug>"` (e.g. `"chapter-06#cut"`) to a list of `{id, title, level}` video entries |
+| `layouts/_default/_markup/render-heading.html` | Markdown render hook that emits the strip at the end of each matched section |
+| `layouts/partials/section-video-card.html` | Renders the flexible 1/2/3-column tier grid |
+
+The strip is emitted at the **end of the section** (immediately before the next H2), so it sits below image + prose, not between them.
+
+### Tier columns adapt to what's available
+
+- **1 tier present** (e.g. only Champion videos for "Shower of Strokes") — single tier card spans the full width and videos wrap as a 3-up row.
+- **2 tiers present** (e.g. "Straight Cut" has no Champion videos) — two side-by-side columns.
+- **3 tiers present** ("Cut", "Double") — three columns.
+
+### Multilingual coverage
+
+The YAML keys are English slugs only. The render hook resolves the EN slug for non-English chapters by reading `content/en/.../<chapter>.md` and matching the Nth H2 by **position**. So if a German chapter's H2 is "Gerade Cut" (slug `gerade-cut`), it still finds the videos under `chapter-06#straight-cut`.
+
+| Language | Sections matched |
+|---|---|
+| en, da, mr, fr, si, hi | 34 / 34 |
+| de | 33 / 34 |
+| it | 23 / 34 (Italian translation dropped a few H2s) |
+
+### Editing the mapping
+
+To add or remove videos for a section, edit `data/chapter-videos.yaml` directly. Example:
+
+```yaml
+"chapter-06#press":
+  - { id: "QKbE4Op9kdE", title: "Press", level: "intermediate" }
+  - { id: "CCUxYst3nac", title: "Side Press", level: "intermediate" }
+  - { id: "GpOykL199gU", title: "Press – 1", level: "champion" }
+  - { id: "q0jlG9OXKLI", title: "Press – 2", level: "champion" }
+```
+
+**Be careful with similarly-named strokes:** "Double" ≠ "Double Touch", "Touch" ≠ "Double Touch", "Second Pocket" ≠ "Cross Second". Only include videos that actually demonstrate the section's stroke.
 
 ---
 
