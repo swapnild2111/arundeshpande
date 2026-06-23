@@ -92,7 +92,8 @@ arundeshpande/
 ├── assets/css/main.css           # Hugo-processed CSS (minify + fingerprint)
 ├── scripts/
 │   ├── extract-book.py           # .docx → EN markdown chapters
-│   ├── generate-book-pdfs.py     # docx → translate → PDF for all languages
+│   ├── generate-book-pdfs.py     # docx → translate → PDF (techniques book)
+│   ├── generate-rules-pdfs.py    # markdown chapters → PDF (official rules)
 │   ├── translate-books.py        # EN → da/de/mr/it/fr/si/hi book markdown
 │   ├── setup-language.py         # i18n + about + non-book pages for a new lang
 │   └── sync-problem-solutions.py # YouTube → data/problem-solutions.yaml
@@ -369,10 +370,14 @@ ls public/
 python3 scripts/extract-book.py
 
 # Generate downloadable PDFs from the source docx (all 8 languages; needs LibreOffice)
-pip install -r requirements.txt   # python-docx, deep-translator
+pip install -r requirements.txt   # python-docx, deep-translator, markdown
 brew install --cask libreoffice    # once, for soffice
 python3 scripts/generate-book-pdfs.py
 python3 scripts/generate-book-pdfs.py da --force   # re-translate one language
+
+# Generate official rules PDFs from Hugo markdown chapters (all 8 languages)
+python3 scripts/generate-rules-pdfs.py
+python3 scripts/generate-rules-pdfs.py de --force
 
 # Translate books to a language
 python3 scripts/translate-books.py de

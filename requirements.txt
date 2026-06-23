@@ -1,2 +1,3 @@
 deep-translator
 python-docx
+markdown

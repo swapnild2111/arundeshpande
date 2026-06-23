@@ -70,6 +70,7 @@ Site layouts: `layouts/books/{list,single,category}.html`.
 | Script | Purpose |
 |---|---|
 | `scripts/generate-book-pdfs.py` | Translate `CarromTechniqandSkills.docx` to all 8 languages and export `static/downloads/carrom-techniques-and-skills-{lang}.pdf` (requires LibreOffice) |
+| `scripts/generate-rules-pdfs.py` | Export `content/{lang}/books/rules/official-carrom-rules/` markdown to `static/downloads/carrom-official-rules-{lang}.pdf` |
 | `scripts/translate-books.py` | Translate both books EN → `da` / `de` / `mr` / `it` / `fr` / `si` / `hi`. Preserves HTML, image paths, URLs, and carrom terms. Use `--force` to overwrite. |
 | `scripts/setup-language.py` | Scaffold i18n, about bio, and non-book pages for a new language |
 | `scripts/beautify-techniques-book.py` | One-off HTML/markdown cleanup pass on techniques chapters |
@@ -229,7 +230,7 @@ Goal: downloadable PDF for each book in each enabled language.
 | File | EN | DA | DE | MR | IT | FR | SI | HI |
 |---|---|---|---|---|---|---|---|---|
 | `carrom-techniques-and-skills-{lang}.pdf` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| `carrom-official-rules-{lang}.pdf` | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `carrom-official-rules-{lang}.pdf` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 Paths are declared in `data/books.yaml`. Hugo disables the download button automatically when the file is missing from `static/downloads/`.
 
