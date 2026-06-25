@@ -159,3 +159,6 @@ other = "Untertitel"
 
 [video_lang_hint_body]
 other = "Die Videos sind auf Marathi mit englischen Carrom-Begriffen. Tippe im Player auf CC und wähle deine Sprache unter Untertitel → Automatisch übersetzen."
+
+[available_in_n_languages]
+other = 'In {{ .Count }} Sprachen verfügbar'

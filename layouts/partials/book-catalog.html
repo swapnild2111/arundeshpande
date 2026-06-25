@@ -20,6 +20,12 @@
       {{ $pdfPath = "" }}
     {{ end }}
   {{ end }}
+  {{- /* List of languages for which this book is available (used for
+       the "Available in N languages" tag on each book card). */ -}}
+  {{ $availLangs := slice }}
+  {{ range $code, $on := .languages }}
+    {{ if $on }}{{ $availLangs = $availLangs | append $code }}{{ end }}
+  {{ end }}
   {{ $items = $items | append (dict
     "id" .id
     "slug" .id
@@ -35,6 +41,7 @@
     "coverImage" .coverImage
     "weight" (.weight | default 0)
     "available" $available
+    "availableLanguages" $availLangs
     "url" $url
   ) }}
 {{ end }}

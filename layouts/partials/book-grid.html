@@ -34,6 +34,13 @@
               <span class="meta-row meta-tag">{{ with .tagLabel }}<span class="tag --amber">{{ . }}</span>{{ end }}</span>
             </div>
             {{ with .description }}<p class="desc">{{ . }}</p>{{ end }}
+            {{ $nlangs := len (.availableLanguages | default slice) }}
+            {{ if gt $nlangs 1 }}
+              <div class="book-card-langs" aria-label="{{ i18n "available_languages" | default "Available languages" }}">
+                {{ partial "icons/globe.html" $ }}
+                <span>{{ i18n "available_in_n_languages" (dict "Count" $nlangs) }}</span>
+              </div>
+            {{ end }}
           </div>
         </a>
         {{ if and $available .pdf }}

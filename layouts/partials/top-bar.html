@@ -1,0 +1,8 @@
+{{- /*
+  Floating top-right strip on desktop. Holds the language switcher
+  so it's discoverable without opening the sidebar. Hidden on mobile
+  (the mobile-header partial includes its own lang switcher).
+*/ -}}
+<div class="top-bar" aria-label="Site preferences">
+  {{ partial "lang-switcher.html" . }}
+</div>

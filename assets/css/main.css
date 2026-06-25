@@ -183,11 +183,13 @@ h1, h2, h3, h4 {
   gap: 2px;
 }
 
-/* ---------- language switcher (sidebar) ---------- */
+/* ---------- language switcher (sidebar) ----------
+   Sidebar copy is hidden on desktop (the top-bar partial shows it
+   instead, much more discoverable). On mobile we hide the sidebar
+   one too (see the @media block below — mobile-header has it).
+*/
 .nav .sidebar-lang {
-  margin-top: 0;
-  padding-top: 0;
-  border-top: none;
+  display: none;
 }
 .sidebar-lang .lang-switcher {
   position: relative;
@@ -400,6 +402,82 @@ h1, h2, h3, h4 {
 /* ---------- mobile top header ---------- */
 .mobile-header {
   display: none;
+}
+
+/* ---------- top bar (desktop only) ---------- */
+/* Floating top-right strip holding the language switcher so visitors
+   can find their language without opening the sidebar. */
+.top-bar {
+  position: fixed;
+  top: 16px;
+  right: 24px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.top-bar .lang-switcher-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.top-bar .lang-switcher-toggle:hover {
+  background: var(--bg-card-2);
+  border-color: var(--accent);
+}
+.top-bar .lang-switcher-globe { display: inline-flex; }
+.top-bar .lang-switcher-globe svg { width: 16px; height: 16px; }
+.top-bar .lang-switcher-chevron svg { width: 12px; height: 12px; }
+.top-bar .lang-switcher-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 200px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  display: none;
+}
+.top-bar .lang-switcher.is-open .lang-switcher-menu {
+  display: block;
+}
+.top-bar .lang-switcher-item {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 14px;
+  text-decoration: none;
+  transition: background .12s;
+}
+.top-bar .lang-switcher-item:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+.top-bar .lang-switcher-item.is-active {
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-weight: 600;
+}
+.top-bar .lang-switcher.is-open .lang-switcher-chevron {
+  transform: rotate(180deg);
+}
+.top-bar .lang-switcher-chevron {
+  transition: transform .2s;
+  color: var(--text-dim);
 }
 
 /* ---------- mobile nav toggle ---------- */
@@ -1476,6 +1554,23 @@ body.video-player-open { overflow: hidden; }
   margin: 0;
 }
 .book-card .cover-icon svg { width: 48px; height: 48px; opacity: 0.85; }
+
+/* "Available in N languages" line at the bottom of each book card */
+.book-card-langs {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  align-self: flex-start;
+}
+.book-card-langs svg { width: 12px; height: 12px; }
 .book-card-footer {
   padding: 0 14px 14px;
   margin-top: auto;
@@ -2437,6 +2532,61 @@ body.video-player-open { overflow: hidden; }
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+  /* Language switcher in the mobile header — right-aligned, compact */
+  .mobile-header-lang { flex-shrink: 0; }
+  .mobile-header-lang .lang-switcher-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 10px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-strong);
+    border-radius: 999px;
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .mobile-header-lang .lang-switcher-globe svg { width: 14px; height: 14px; }
+  .mobile-header-lang .lang-switcher-chevron svg { width: 10px; height: 10px; }
+  .mobile-header-lang .lang-switcher-menu {
+    position: absolute;
+    top: calc(var(--mobile-header-h) - 4px);
+    right: 12px;
+    min-width: 180px;
+    margin: 0;
+    padding: 6px;
+    list-style: none;
+    background: var(--bg-card);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 90;
+  }
+  .mobile-header-lang .lang-switcher.is-open .lang-switcher-menu {
+    display: block;
+  }
+  .mobile-header-lang .lang-switcher-item {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .mobile-header-lang .lang-switcher-item:hover {
+    background: var(--surface-hover);
+  }
+  .mobile-header-lang .lang-switcher-item.is-active {
+    color: var(--accent);
+    background: var(--accent-soft);
+    font-weight: 600;
+  }
+  /* Hide the desktop top-bar on mobile */
+  .top-bar { display: none; }
+  /* Hide the sidebar-prefs lang switcher on mobile since the header has it */
+  .sidebar-lang { display: none; }
   .sidebar {
     position: fixed;
     top: var(--mobile-header-h);

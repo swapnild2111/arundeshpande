@@ -159,3 +159,6 @@ other = "Undertekster"
 
 [video_lang_hint_body]
 other = "Videoerne er på marathi med engelske carrom-udtryk. Tryk på CC-knappen i afspilleren, og vælg dit sprog under Undertekster → Oversæt automatisk."
+
+[available_in_n_languages]
+other = 'Findes på {{ .Count }} sprog'
