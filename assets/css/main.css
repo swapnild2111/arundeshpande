@@ -817,6 +817,37 @@ a.chip {
   letter-spacing: 0.04em;
 }
 
+/* ---------- video language hint (Auto-translated CC) ---------- */
+.video-lang-hint {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  margin: 0 0 16px;
+  border-radius: var(--radius);
+  background: var(--surface-inset);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.video-lang-hint-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-lang-hint-icon svg { width: 16px; height: 16px; }
+.video-lang-hint-text {
+  margin: 0;
+}
+.video-lang-hint-text strong { color: var(--text); font-weight: 600; }
+
 /* ---------- video grid ---------- */
 .video-grid {
   display: grid;

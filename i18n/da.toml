@@ -153,3 +153,9 @@ other = "Øvet"
 
 [video_level_champion]
 other = "Mester"
+
+[video_lang_hint_label]
+other = "Undertekster"
+
+[video_lang_hint_body]
+other = "Videoerne er på marathi med engelske carrom-udtryk. Tryk på CC-knappen i afspilleren, og vælg dit sprog under Undertekster → Oversæt automatisk."

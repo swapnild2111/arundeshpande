@@ -153,3 +153,9 @@ other = "මැදි"
 
 [video_level_champion]
 other = "ශූරයා"
+
+[video_lang_hint_label]
+other = "උපසිරැසි"
+
+[video_lang_hint_body]
+other = "වීඩියෝ මරාති භාෂාවෙන් ඇත, ඉංග්‍රීසි carrom වචන සමඟ. ධාවකයේ CC බොත්තම ඔබා, උපසිරැසි → ස්වයංක්‍රීය පරිවර්තනය යටතේ ඔබේ භාෂාව තෝරන්න."

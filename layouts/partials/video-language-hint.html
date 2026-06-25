@@ -1,0 +1,14 @@
+{{- /*
+  Captions hint banner shown above the video grid.
+
+  The videos themselves are recorded in Arun's native language (mostly
+  Marathi with English carrom terms). Viewers can get subtitles in any
+  of YouTube's 100+ supported languages via the player's CC button —
+  this banner just makes that discoverable.
+*/ -}}
+<aside class="video-lang-hint" aria-label="{{ i18n "video_lang_hint_label" | default "Captions" }}">
+  <span class="video-lang-hint-icon" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
+  <p class="video-lang-hint-text">
+    {{ i18n "video_lang_hint_body" | default "Videos are in Marathi with English carrom terms. Click the CC button inside the YouTube player and pick your language under Subtitles → Auto-translate." }}
+  </p>
+</aside>

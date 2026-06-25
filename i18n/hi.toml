@@ -153,3 +153,9 @@ other = "मध्यवर्ती"
 
 [video_level_champion]
 other = "चैंपियन"
+
+[video_lang_hint_label]
+other = "कैप्शन"
+
+[video_lang_hint_body]
+other = "वीडियो मराठी में हैं, अंग्रेज़ी carrom शब्दों के साथ। प्लेयर में CC बटन दबाएँ और उपशीर्षक → स्वतः-अनुवाद के अंतर्गत अपनी भाषा चुनें।"

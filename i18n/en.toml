@@ -153,3 +153,9 @@ other = "Intermediate"
 
 [video_level_champion]
 other = "Champion"
+
+[video_lang_hint_label]
+other = "Captions"
+
+[video_lang_hint_body]
+other = "Videos are in Marathi with English carrom terms. Tap the CC button in the player and choose your language under Subtitles → Auto-translate."

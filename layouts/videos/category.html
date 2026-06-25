@@ -12,6 +12,8 @@
 
 {{ partial "video-chips.html" (dict "current" $category "videos" $videos) }}
 
+{{ partial "video-language-hint.html" . }}
+
 {{ partial "video-grid.html" (dict "videos" $videos.Params.videos "filter" $category) }}
 
 <span hidden data-videos-root="{{ "videos/" | relURL }}" data-ps-base="{{ "videos/problems-solutions/" | relURL }}"></span>

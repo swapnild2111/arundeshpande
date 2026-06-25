@@ -153,3 +153,9 @@ other = "Intermédiaire"
 
 [video_level_champion]
 other = "Champion"
+
+[video_lang_hint_label]
+other = "Sous-titres"
+
+[video_lang_hint_body]
+other = "Les vidéos sont en marathi avec des termes de carrom en anglais. Appuyez sur CC dans le lecteur et choisissez votre langue dans Sous-titres → Traduction automatique."

@@ -153,3 +153,9 @@ other = "मध्यम"
 
 [video_level_champion]
 other = "चॅम्पियन"
+
+[video_lang_hint_label]
+other = "उपशीर्षके"
+
+[video_lang_hint_body]
+other = "व्हिडिओ मराठीत आहेत, इंग्रजी carrom शब्दांसह. प्लेअरमधील CC बटण दाबा आणि उपशीर्षके → स्वयं-भाषांतर अंतर्गत आपली भाषा निवडा."
