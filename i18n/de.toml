@@ -121,21 +121,6 @@ other = "Inhaltsverzeichnis"
 [language_label]
 other = "Sprache"
 
-[preference_label]
-other = "Einstellung"
-
-[theme_light]
-other = "Hell"
-
-[theme_dark]
-other = "Dunkel"
-
-[theme_switch_light]
-other = "Zum hellen Modus wechseln"
-
-[theme_switch_dark]
-other = "Zum dunklen Modus wechseln"
-
 [coming_soon]
 other = "In Vorbereitung"
 

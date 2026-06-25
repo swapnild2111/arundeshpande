@@ -121,21 +121,6 @@ other = "विषयसूची"
 [language_label]
 other = "भाषा"
 
-[preference_label]
-other = "वरीयता"
-
-[theme_light]
-other = "रोशनी"
-
-[theme_dark]
-other = "अँधेरा"
-
-[theme_switch_light]
-other = "लाइट मोड पर स्विच करें"
-
-[theme_switch_dark]
-other = "डार्क मोड पर स्विच करें"
-
 [coming_soon]
 other = "जल्द आ रहा है"
 

@@ -121,21 +121,6 @@ other = "අන්තර්ගත වගුව"
 [language_label]
 other = "භාෂාව"
 
-[preference_label]
-other = "මනාපය"
-
-[theme_light]
-other = "ආලෝකය"
-
-[theme_dark]
-other = "අඳුරු"
-
-[theme_switch_light]
-other = "ආලෝක මාදිලියට මාරු වන්න"
-
-[theme_switch_dark]
-other = "අඳුරු මාදිලිය වෙත මාරු වන්න"
-
 [coming_soon]
 other = "ඉක්මණින් පැමිණෙන"
 

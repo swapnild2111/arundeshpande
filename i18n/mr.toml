@@ -121,21 +121,6 @@ other = "सामग्री सारणी"
 [language_label]
 other = "भाषा"
 
-[preference_label]
-other = "पसंती"
-
-[theme_light]
-other = "प्रकाश"
-
-[theme_dark]
-other = "गडद"
-
-[theme_switch_light]
-other = "लाईट मोडवर स्विच करा"
-
-[theme_switch_dark]
-other = "गडद मोडवर स्विच करा"
-
 [coming_soon]
 other = "लवकरच येत आहे"
 

@@ -121,21 +121,6 @@ other = "Indholdsfortegnelse"
 [language_label]
 other = "Sprog"
 
-[preference_label]
-other = "Præference"
-
-[theme_light]
-other = "Lys"
-
-[theme_dark]
-other = "Mørk"
-
-[theme_switch_light]
-other = "Skift til lys tilstand"
-
-[theme_switch_dark]
-other = "Skift til mørk tilstand"
-
 [coming_soon]
 other = "Kommer snart"
 

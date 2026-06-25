@@ -3,18 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <script>
-    (function () {
-      try {
-        var t = localStorage.getItem('theme');
-        if (t === 'light') {
-          document.documentElement.setAttribute('data-theme', 'light');
-        } else {
-          document.documentElement.removeAttribute('data-theme');
-        }
-      } catch (e) {}
-    })();
-  </script>
   {{ partial "seo.html" . }}
   {{ partial "schema.html" . }}
   {{ with .OutputFormats.Get "RSS" }}
@@ -28,7 +16,6 @@
 
   <style>
     html { --play-badge-img: url('{{ "images/google-play-badge-light.svg" | relURL }}'); }
-    html[data-theme="light"] { --play-badge-img: url('{{ "images/google-play-badge-dark.svg" | relURL }}'); }
   </style>
   {{- $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">

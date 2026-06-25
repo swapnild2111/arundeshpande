@@ -121,21 +121,6 @@ other = "Sommario"
 [language_label]
 other = "Lingua"
 
-[preference_label]
-other = "Preferenza"
-
-[theme_light]
-other = "Leggero"
-
-[theme_dark]
-other = "Buio"
-
-[theme_switch_light]
-other = "Passa alla modalità luce"
-
-[theme_switch_dark]
-other = "Passa alla modalità oscura"
-
 [coming_soon]
 other = "Prossimamente"
 

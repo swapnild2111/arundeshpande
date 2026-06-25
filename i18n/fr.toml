@@ -121,21 +121,6 @@ other = "Table des matières"
 [language_label]
 other = "Langue"
 
-[preference_label]
-other = "Préférence"
-
-[theme_light]
-other = "Lumière"
-
-[theme_dark]
-other = "Sombre"
-
-[theme_switch_light]
-other = "Passer en mode lumière"
-
-[theme_switch_dark]
-other = "Passer en mode sombre"
-
 [coming_soon]
 other = "À venir"
 

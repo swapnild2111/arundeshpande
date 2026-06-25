@@ -52,42 +52,6 @@
   --font-display: 'Plus Jakarta Sans', var(--font-sans);
 }
 
-[data-theme="light"] {
-  color-scheme: light;
-
-  --bg: #e9e9ef;
-  --bg-elev: #ffffff;
-  --bg-card: #ffffff;
-  --bg-card-2: #dedee6;
-  --border: rgba(0, 0, 0, 0.08);
-  --border-strong: rgba(0, 0, 0, 0.14);
-
-  --text: #141418;
-  --text-muted: #52525c;
-  --text-dim: #7a7a86;
-
-  --accent: #9333ea;
-  --accent-strong: #7e22ce;
-  --accent-soft: rgba(147, 51, 234, 0.12);
-  --accent-glow: rgba(147, 51, 234, 0.14);
-  --link-hover: #7c3aed;
-
-  --surface-hover: rgba(0, 0, 0, 0.04);
-  --surface-hover-strong: rgba(0, 0, 0, 0.06);
-  --surface-hover-heavy: rgba(0, 0, 0, 0.08);
-  --surface-inset: rgba(0, 0, 0, 0.02);
-  --surface-subtle: rgba(0, 0, 0, 0.03);
-  --surface-stripe: rgba(0, 0, 0, 0.04);
-  --surface-inset-line: rgba(0, 0, 0, 0.05);
-
-  --amber-soft: rgba(180, 83, 9, 0.12);
-  --amber-border: rgba(180, 83, 9, 0.28);
-  --amber-text: #92400e;
-
-  --shadow-card: 0 8px 28px rgba(15, 15, 20, 0.08);
-  --shadow-glow: 0 0 48px rgba(147, 51, 234, 0.12);
-}
-
 /* ---------- reset ---------- */
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; overflow-x: clip; }
@@ -161,153 +125,6 @@ h1, h2, h3, h4 {
   overflow-x: clip;
 }
 
-/* ---------- preferences (sidebar) ---------- */
-.nav .sidebar-prefs {
-  margin-top: 8px;
-  padding-top: 10px;
-  border-top: 1px solid var(--border);
-}
-.sidebar-prefs-label {
-  margin: 0 0 6px;
-  padding: 0 12px;
-  font-family: var(--font-display);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  color: var(--text-dim);
-}
-.sidebar-prefs-controls {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-/* ---------- language switcher (sidebar) ----------
-   Sidebar copy is hidden on desktop (the top-bar partial shows it
-   instead, much more discoverable). On mobile we hide the sidebar
-   one too (see the @media block below — mobile-header has it).
-*/
-.nav .sidebar-lang {
-  display: none;
-}
-.sidebar-lang .lang-switcher {
-  position: relative;
-}
-.sidebar-lang .lang-switcher-toggle {
-  display: inline-flex;
-  align-items: center;
-  width: 100%;
-  justify-content: flex-start;
-  gap: 12px;
-  padding: 10px 12px;
-  border: none;
-  background: transparent;
-  border-radius: 10px;
-  color: var(--text-muted);
-  font-size: 14px;
-  font-weight: 500;
-  white-space: nowrap;
-  transition: background .15s, color .15s;
-}
-.sidebar-lang .lang-switcher-toggle:hover {
-  background: var(--surface-hover);
-  color: var(--text);
-}
-.sidebar-lang .lang-switcher-globe {
-  display: inline-flex;
-  width: 20px;
-  justify-content: center;
-  color: inherit;
-}
-.sidebar-lang .lang-switcher-globe svg { width: 18px; height: 18px; }
-.sidebar-lang .lang-switcher-chevron {
-  display: inline-flex;
-  margin-left: auto;
-  color: var(--text-dim);
-  transition: transform .2s;
-}
-.sidebar-lang .lang-switcher-chevron svg { width: 14px; height: 14px; }
-.sidebar-lang .lang-switcher.is-open .lang-switcher-chevron {
-  transform: rotate(180deg);
-}
-.sidebar-lang .lang-switcher-menu {
-  display: none;
-  margin: 0;
-  padding: 0 0 4px 44px;
-  list-style: none;
-  border: none;
-  background: transparent;
-}
-.sidebar-lang .lang-switcher.is-open .lang-switcher-menu {
-  display: block;
-}
-.sidebar-lang .lang-switcher-item {
-  display: block;
-  width: 100%;
-  padding: 8px 12px;
-  border-radius: 8px;
-  color: var(--text);
-  font-size: 14px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background .15s, color .15s;
-}
-.sidebar-lang .lang-switcher-item:hover {
-  background: var(--surface-hover-strong);
-  color: var(--text);
-}
-.sidebar-lang .lang-switcher-item.is-active {
-  color: var(--accent);
-  font-weight: 600;
-  background: var(--accent-soft);
-}
-
-/* ---------- theme switcher (sidebar) ---------- */
-.nav .sidebar-theme {
-  margin-top: 0;
-}
-.sidebar-theme .theme-switcher-toggle {
-  display: inline-flex;
-  align-items: center;
-  width: 100%;
-  justify-content: flex-start;
-  gap: 12px;
-  padding: 10px 12px;
-  border: none;
-  background: transparent;
-  border-radius: 10px;
-  color: var(--text-muted);
-  font-size: 14px;
-  font-weight: 500;
-  white-space: nowrap;
-  transition: background .15s, color .15s;
-}
-.sidebar-theme .theme-switcher-toggle:hover {
-  background: var(--surface-hover);
-  color: var(--text);
-}
-.sidebar-theme .theme-switcher-icon {
-  display: inline-flex;
-  width: 20px;
-  justify-content: center;
-  color: inherit;
-}
-.sidebar-theme .theme-switcher-icon svg { width: 18px; height: 18px; }
-.sidebar-theme .theme-switcher-icon--to-dark,
-.sidebar-theme .theme-switcher-label--to-dark {
-  display: none;
-}
-[data-theme="light"] .sidebar-theme .theme-switcher-icon--to-light,
-[data-theme="light"] .sidebar-theme .theme-switcher-label--to-light {
-  display: none;
-}
-[data-theme="light"] .sidebar-theme .theme-switcher-icon--to-dark {
-  display: inline-flex;
-}
-[data-theme="light"] .sidebar-theme .theme-switcher-label--to-dark {
-  display: inline;
-}
 
 /* ---------- sidebar ---------- */
 .sidebar {
@@ -976,13 +793,6 @@ a.chip {
 .video-card:hover .video-title,
 .video-card .video-title:hover {
   color: var(--accent);
-  background: var(--accent-soft);
-}
-[data-theme="light"] .video-card .video-title {
-  background: #d1d1da;
-}
-[data-theme="light"] .video-card:hover .video-title,
-[data-theme="light"] .video-card .video-title:hover {
   background: var(--accent-soft);
 }
 .video-card:hover {
@@ -2386,21 +2196,6 @@ body.video-player-open { overflow: hidden; }
   background: rgba(37, 211, 102, 0.22);
   border-color: rgba(37, 211, 102, 0.5);
 }
-
-/* Light theme — the pastel green that reads well on dark is invisible
-   on the light surface. Use WhatsApp's brand green (#25D366 -> deeper
-   #128C7E for text) over a slightly more saturated tint. */
-[data-theme="light"] .btn-whatsapp {
-  background: rgba(37, 211, 102, 0.18);
-  color: #128C7E !important;
-  border: 1px solid rgba(18, 140, 126, 0.55);
-}
-[data-theme="light"] .btn-whatsapp:hover {
-  color: #075E54 !important;
-  background: rgba(37, 211, 102, 0.28);
-  border-color: rgba(7, 94, 84, 0.75);
-}
-
 .btn-block { width: 100%; justify-content: center; }
 
 /* ---------- chapter / book pages ---------- */
@@ -2585,8 +2380,6 @@ body.video-player-open { overflow: hidden; }
   }
   /* Hide the desktop top-bar on mobile */
   .top-bar { display: none; }
-  /* Hide the sidebar-prefs lang switcher on mobile since the header has it */
-  .sidebar-lang { display: none; }
   .sidebar {
     position: fixed;
     top: var(--mobile-header-h);
