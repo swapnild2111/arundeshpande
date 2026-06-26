@@ -1,0 +1,8 @@
+---
+title: "નિયમો"
+description: "સત્તાવાર carrom નિયમો અને વિનિયમો — IAKC રૂલબુક વાંચો અને ડાઉનલોડ કરો."
+layout: category
+category: rules
+aliases:
+  - /books/rules/
+---

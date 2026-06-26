@@ -31,7 +31,7 @@ CACHE_DIR = REPO / ".cache" / "book-html"
 OUTPUT_DIR = REPO / "static" / "downloads"
 BOOK_SLUG = "carrom-official-rules"
 
-ALL_LANGS = ["en", "da", "de", "mr", "it", "fr", "si", "hi"]
+ALL_LANGS = ["en", "da", "de", "mr", "it", "fr", "si", "hi", "gu"]
 
 PRINT_CSS = """
 @page { margin: 2cm; }

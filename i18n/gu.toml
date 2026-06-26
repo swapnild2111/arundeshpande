@@ -1,0 +1,149 @@
+[home_title]
+other = "Carrom કોચ Arun Deshpande"
+
+[watch_videos]
+other = "વિડિઓઝ જુઓ"
+
+[play_video]
+other = "વિડિઓ ચલાવો"
+
+[watch_on_youtube]
+other = "YouTube પર જુઓ"
+
+[close_video]
+other = "બંધ કરો"
+
+[youtube_channel]
+other = "YouTube ચેનલ"
+
+[play_store_label]
+other = "Google Play પર એપ્લિકેશન મેળવો"
+
+[google_play_app]
+other = "ગૂગલ પ્લે એપ"
+
+[about_legend]
+other = "દંતકથા વિશે"
+
+[explore]
+other = "અન્વેષણ કરો"
+
+[video_library]
+other = "વિડિઓ લાઇબ્રેરી"
+
+[video_library_desc]
+other = "કૌશલ્ય સ્તર દ્વારા વર્ગીકૃત થયેલ carrom ટ્યુટોરિયલ્સ જુઓ — શિખાઉ માણસથી ચેમ્પિયન સુધી."
+
+[carrom_books]
+other = "Carrom પુસ્તકો"
+
+[carrom_books_desc]
+other = "Arun Deshpande દ્વારા વિદ્યાર્થીઓ અને કોચ માટે વિશિષ્ટ PDF પુસ્તકો ડાઉનલોડ કરો."
+
+[photo_gallery]
+other = "ફોટો ગેલેરી"
+
+[photo_gallery_desc]
+other = "સફરને ફરી જીવંત કરો — ચેમ્પિયનશિપ, કોચિંગ કેમ્પ અને આઇકોનિક પળો."
+
+[chapter]
+other = "પ્રકરણ"
+
+[previous]
+other = "ગત"
+
+[next]
+other = "આગળ"
+
+[email]
+other = "ઈમેલ"
+
+[phone]
+other = "ફોન/વોટ્સએપ"
+
+[location]
+other = "સ્થાન"
+
+[coaching_enquiries]
+other = "કોચિંગ પૂછપરછ"
+
+[whatsapp_message]
+other = "હેલો અરુણ સર, મને Carrom એકેડમીની વેબસાઇટ મળી અને મને carrom કોચિંગમાં રસ છે."
+
+[contact_information]
+other = "સંપર્ક માહિતી"
+
+[message_on_whatsapp]
+other = "વોટ્સએપ પર મેસેજ"
+
+[whatsapp_hint]
+other = "કોચિંગ પૂછપરછ અને વર્કશોપ માટે અરુણ સુધી પહોંચવાનો સૌથી ઝડપી રસ્તો."
+
+[page_count]
+other = "પૃષ્ઠો"
+
+[download_pdf]
+other = "PDF ડાઉનલોડ કરો"
+
+[original_source]
+other = "મૂળ સ્ત્રોત"
+
+[original_sources]
+other = "મૂળ સ્ત્રોતો"
+
+[no_books_yet]
+other = "હજુ સુધી કોઈ પુસ્તકો ઉપલબ્ધ નથી."
+
+[problem_label]
+other = "સમસ્યા"
+
+[solution_label]
+other = "ઉકેલ"
+
+[ps_index_label]
+other = "સમસ્યા જૂથો"
+
+[soon]
+other = "ટૂંક સમયમાં"
+
+[pdf_coming_soon]
+other = "પીડીએફ ટૂંક સમયમાં આવી રહ્યું છે"
+
+[ready_to_read]
+other = "વાંચવા માટે તૈયાર છે"
+
+[start_reading]
+other = "વાંચવાનું શરૂ કરો"
+
+[table_of_contents]
+other = "સામગ્રીઓનું કોષ્ટક"
+
+[language_label]
+other = "ભાષા"
+
+[coming_soon]
+other = "ટૂંક સમયમાં આવી રહ્યું છે"
+
+[coming_soon_body]
+other = "આ વિભાગ તૈયાર કરવામાં આવી રહ્યો છે. આ દરમિયાન, વિડિઓઝ પૃષ્ઠ પર જાઓ અથવા સંપર્ક પૃષ્ઠ દ્વારા touch માં આવો."
+
+[watch_in_action]
+other = "ક્રિયામાં જુઓ"
+
+[video_level_beginner]
+other = "શિખાઉ માણસ"
+
+[video_level_intermediate]
+other = "મધ્યવર્તી"
+
+[video_level_champion]
+other = "ચેમ્પિયન"
+
+[video_lang_hint_label]
+other = "કૅપ્શન્સ"
+
+[video_lang_hint_body]
+other = "વીડિયો અંગ્રેજી carrom શબ્દો સાથે મરાઠીમાં છે. પ્લેયરમાં CC બટનને ટેપ કરો અને સબટાઈટલ → સ્વતઃ અનુવાદ હેઠળ તમારી ભાષા પસંદ કરો."
+
+[available_in_n_languages]
+other = '{{ .Count }} ભાષાઓમાં ઉપલબ્ધ'

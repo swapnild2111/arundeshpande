@@ -13,7 +13,7 @@
     root /index.html redirects to /en/ by default (the <meta refresh>
     above and the location.replace in the noscript fallback). Before
     that fires, this inline script checks navigator.languages. If the
-    visitor's preferred language matches one of our 8 supported locales
+    visitor's preferred language matches one of our 9 supported locales
     and ISN'T English, we replace the redirect target.
 
     The check is bounded:
@@ -45,7 +45,7 @@
       // Honour an explicit user pick (set by the language switcher).
       var picked = localStorage.getItem('site-lang');
 
-      var supported = ['en', 'da', 'de', 'mr', 'it', 'fr', 'si', 'hi'];
+      var supported = ['en', 'da', 'de', 'mr', 'it', 'fr', 'si', 'hi', 'gu'];
 
       var chosen = null;
       if (picked && supported.indexOf(picked) !== -1) {

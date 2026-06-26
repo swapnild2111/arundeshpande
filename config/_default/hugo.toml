@@ -76,6 +76,14 @@ disableKinds = ["taxonomy", "term"]
     [languages.hi.params]
       description = "अरुण देशपांडे द्वारा कैरम कोचिंग, तकनीक और पुस्तक"
 
+  [languages.gu]
+    label = "ગુજરાતી"
+    locale = "gu"
+    weight = 9
+    contentDir = "content/gu"
+    [languages.gu.params]
+      description = "અરુણ દેશપાંડે દ્વારા કેરમ કોચિંગ, ટેકનીક અને પુસ્તક"
+
 [outputs]
   home = ["HTML", "RSS"]
 

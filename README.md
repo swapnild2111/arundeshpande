@@ -61,9 +61,9 @@ hugo --minify
 ```
 arundeshpande/
 ├── config/_default/
-│   ├── hugo.toml                 # site config + 8 languages
+│   ├── hugo.toml                 # site config + 9 languages
 │   ├── params.toml               # author, hero, stats, achievements
-│   └── menus.{en,da,de,mr,it,fr,si,hi}.toml  # sidebar nav per language
+│   └── menus.{en,da,de,mr,it,fr,si,hi,gu}.toml  # sidebar nav per language
 ├── content/
 │   ├── en/                       # English (source — always done first)
 │   │   ├── _index.md             # homepage hero copy
@@ -76,13 +76,13 @@ arundeshpande/
 │   │       │   └── carrom-techniques-and-skills/   # 14 chapters + _index.md
 │   │       └── rules/
 │   │           └── official-carrom-rules/          # 8 chapters + _index.md
-│   ├── da/ de/ mr/ it/ fr/ si/ hi/   # mirror EN structure
+│   ├── da/ de/ mr/ it/ fr/ si/ hi/ gu/   # mirror EN structure
 ├── data/
 │   ├── books.yaml                # catalog metadata, PDF paths, per-lang titles
 │   ├── about.yaml                # bio text per language
 │   ├── chapter-videos.yaml       # maps book chapter sections → tutorial videos
 │   └── problem-solutions.yaml    # YouTube Problem/Solution pairs
-├── i18n/{en,da,de,mr,it,fr,si,hi}.toml   # UI strings
+├── i18n/{en,da,de,mr,it,fr,si,hi,gu}.toml   # UI strings
 ├── layouts/
 │   ├── _default/
 │   │   ├── {baseof,list,single,contact}.html
@@ -152,7 +152,7 @@ The YAML keys are English slugs only. The render hook resolves the EN slug for n
 
 | Language | Sections matched |
 |---|---|
-| en, da, mr, fr, si, hi | 34 / 34 |
+| en, da, mr, fr, si, hi, gu | 34 / 34 |
 | de | 33 / 34 |
 | it | 23 / 34 (Italian translation dropped a few H2s) |
 
@@ -418,13 +418,13 @@ ls public/
 # Extract EN book chapters from the .docx (images must already be in static/images/book/)
 python3 scripts/extract-book.py
 
-# Generate downloadable PDFs from the source docx (all 8 languages; needs LibreOffice)
+# Generate downloadable PDFs from the source docx (all 9 languages; needs LibreOffice)
 pip install -r requirements.txt   # python-docx, deep-translator, markdown
 brew install --cask libreoffice    # once, for soffice
 python3 scripts/generate-book-pdfs.py
 python3 scripts/generate-book-pdfs.py da --force   # re-translate one language
 
-# Generate official rules PDFs from Hugo markdown chapters (all 8 languages)
+# Generate official rules PDFs from Hugo markdown chapters (all 9 languages)
 python3 scripts/generate-rules-pdfs.py
 python3 scripts/generate-rules-pdfs.py de --force
 

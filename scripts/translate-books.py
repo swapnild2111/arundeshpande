@@ -26,6 +26,7 @@ LANGS = {
     "fr": {"chapter": "Chapitre", "translated_by": "Traduit de l'anglais (brouillon IA)."},
     "si": {"chapter": "අධ්‍යාය", "translated_by": "ඉංග්‍රීසියෙන් පරිවර්තනය කරන ලදී (AI කෙටුම්පත)."},
     "hi": {"chapter": "अध्याय", "translated_by": "अंग्रेज़ी से अनुवाद (AI मसूदा)."},
+    "gu": {"chapter": "પ્રકરણ", "translated_by": "અંગ્રેજીમાંથી અનુવાદિત (AI મુસદ્દો)."},
 }
 
 # International carrom terms — keep as-is during translation.
