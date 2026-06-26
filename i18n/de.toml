@@ -147,3 +147,21 @@ other = "Die Videos sind auf Marathi mit englischen Carrom-Begriffen. Tippe im P
 
 [available_in_n_languages]
 other = 'In {{ .Count }} Sprachen verfügbar'
+
+[lang_group_international]
+other = "International"
+
+[lang_group_european]
+other = "Europäisch"
+
+[lang_group_south_asian]
+other = "Südasiatisch"
+
+[chapter_count_of]
+other = 'Kapitel {{ .Current }} von {{ .Total }}'
+
+[reading_progress]
+other = "Lesefortschritt"
+
+[other_languages]
+other = "Andere Sprachen"

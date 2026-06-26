@@ -1,471 +1,144 @@
 # Arun Deshpande Carrom
 
-A multilingual static site for **Arun Deshpande** — international carrom coach and author. Hosts his bio, video library, books, photo gallery, and contact details. The coaching book *Carrom Techniques and Skills* and the ICF rules book are available to read online in **English, Danish, German, Marathi, Italian, French, Sinhala, and Hindi**.
+A free, multilingual coaching portal for **Shri Arun Deshpande** — 7× Maharashtra State Champion, former coach of the India National Carrom Team, and author of *Carrom Techniques and Skills*.
 
-Built with **Hugo (Extended)** and a custom theme (dark / purple, sidebar navigation), deployed to **GitHub Pages** via GitHub Actions on every push to `main`.
+🔗 **Live site:** <https://swapnild2111.github.io/arundeshpande/>
 
 ---
 
-## Stack
+## What's on the site
+
+- **Read Arun's coaching book online.** *Carrom Techniques and Skills* — 14 chapters covering grip, break, every major stroke (cut, double, press, touch, glance, brush, rebound, slip, bomb, force), defence, offence, and walkthroughs of advanced board positions.
+- **The official ICF rules** — equipment, definitions, match procedure, scoring, fouls, and the Queen rules — alongside the coaching book.
+- **60+ tutorial videos**, categorised by skill level (Beginner / Intermediate / Champion).
+- **Problems & Solutions** — paired YouTube videos showing real board situations and how to play out of them.
+- **Downloadable PDFs of both books** in every supported language.
+- **9 languages**: English, Dansk, Deutsch, मराठी, Italiano, Français, සිංහල, हिन्दी, ગુજરાતી.
+
+Arun's mission is to spread carrom as widely as possible. The site is free, has no ads, no tracking beyond a minimal Plausible-style script, and the source code is open.
+
+---
+
+## Translations
+
+Every translation starts as an **AI draft** (Google Translate, with a custom pipeline that preserves carrom terms, HTML, images, and URLs). Each draft is then reviewed by native-speaking carrom players or by national federations.
+
+Chapter pages display a `translatedBy` line crediting the reviewer once a translation has been validated. If you'd like to review translations into your language — please open an issue or get in touch via the [Contact page](https://swapnild2111.github.io/arundeshpande/en/contact/).
+
+The Italian translation is currently the **AI draft only**. The European Carrom Confederation has offered an existing Arun-authorised Italian translation that will replace it soon.
+
+---
+
+## How the site is built
 
 | Layer | Tool |
 |---|---|
-| Site generator | [Hugo Extended](https://gohugo.io/) |
-| Theme | Custom — `layouts/` + `assets/css/main.css` |
+| Static site generator | [Hugo Extended](https://gohugo.io/) |
+| Theme | Custom (no third-party theme) — dark / purple, sidebar nav |
 | Hosting | GitHub Pages |
 | CI/CD | GitHub Actions (`.github/workflows/deploy.yml`) |
-| Translation workflow | AI first draft → national federation human review |
-
----
-
-## Prerequisites
-
-```bash
-# macOS
-brew install hugo git
-
-# Windows (PowerShell as Admin)
-winget install Hugo.Hugo.Extended
-winget install Git.Git
-
-# Verify — must say "extended"
-hugo version
-```
-
-Recommended VSCode extensions: *Hugo Language and Syntax*, *Markdown All in One*, *Front Matter CMS*, *GitLens*, *Prettier*.
-
----
-
-## Getting started
-
-```bash
-git clone git@github.com:swapnild2111/arundeshpande.git
-cd arundeshpande
-
-# Run the dev server
-hugo server
-# → http://localhost:1313/arundeshpande/
-```
-
-Build for production locally:
-
-```bash
-hugo --minify
-# Output → ./public/
-```
-
----
-
-## Project structure
+| Translation | `deep-translator` (Google Translate) → human review |
 
 ```
 arundeshpande/
 ├── config/_default/
-│   ├── hugo.toml                 # site config + 9 languages
-│   ├── params.toml               # author, hero, stats, achievements
-│   └── menus.{en,da,de,mr,it,fr,si,hi,gu}.toml  # sidebar nav per language
+│   ├── hugo.toml                # site config, 9 languages
+│   ├── params.toml              # author, hero, stats, achievements
+│   └── menus.{lang}.toml        # sidebar nav per language
 ├── content/
-│   ├── en/                       # English (source — always done first)
-│   │   ├── _index.md             # homepage hero copy
-│   │   ├── contact.md            # email/phone/location
-│   │   ├── videos/               # YouTube video categories
-│   │   ├── gallery/_index.md     # photo list
+│   ├── en/                      # English (source — always done first)
+│   │   ├── _index.md
+│   │   ├── contact.md
+│   │   ├── videos/              # YouTube video categories
+│   │   ├── gallery/_index.md
 │   │   └── books/
-│   │       ├── _index.md         # book catalog landing
-│   │       ├── students/
-│   │       │   └── carrom-techniques-and-skills/   # 14 chapters + _index.md
-│   │       └── rules/
-│   │           └── official-carrom-rules/          # 8 chapters + _index.md
-│   ├── da/ de/ mr/ it/ fr/ si/ hi/ gu/   # mirror EN structure
+│   │       ├── students/carrom-techniques-and-skills/   # 14 chapters
+│   │       └── rules/official-carrom-rules/             # 8 chapters
+│   └── da/ de/ mr/ it/ fr/ si/ hi/ gu/   # mirror EN structure
 ├── data/
-│   ├── books.yaml                # catalog metadata, PDF paths, per-lang titles
-│   ├── about.yaml                # bio text per language
-│   ├── chapter-videos.yaml       # maps book chapter sections → tutorial videos
-│   └── problem-solutions.yaml    # YouTube Problem/Solution pairs
-├── i18n/{en,da,de,mr,it,fr,si,hi,gu}.toml   # UI strings
-├── layouts/
-│   ├── _default/
-│   │   ├── {baseof,list,single,contact}.html
-│   │   └── _markup/
-│   │       ├── render-heading.html   # injects "Watch in action" strip below H2s
-│   │       └── render-image.html     # baseURL fix for /images/... in markdown
-│   ├── index.html                # homepage
-│   ├── videos/                   # video list + problems-solutions
-│   ├── books/{list,single,category}.html   # book catalog + chapter pages
-│   ├── gallery/list.html
-│   └── partials/                 # sidebar, footer, book-grid, section-video-card, seo, ...
-├── assets/css/main.css           # Hugo-processed CSS (minify + fingerprint)
-├── scripts/
-│   ├── extract-book.py           # .docx → EN markdown chapters
-│   ├── generate-book-pdfs.py     # docx → translate → PDF (techniques book)
-│   ├── generate-rules-pdfs.py    # markdown chapters → PDF (official rules)
-│   ├── translate-books.py        # EN → da/de/mr/it/fr/si/hi book markdown
-│   ├── setup-language.py         # i18n + about + non-book pages for a new lang
-│   └── sync-problem-solutions.py # YouTube → data/problem-solutions.yaml
-├── static/
-│   ├── images/{arun-profile.jpg, gallery/, book/fig-NN.jpg}
-│   ├── downloads/*.pdf           # book PDFs (see data/books.yaml)
-│   └── js/app.js                 # mobile nav toggle + filter chips
-└── .github/workflows/deploy.yml
+│   ├── books.yaml               # catalogue, PDF paths, per-lang titles
+│   ├── about.yaml               # bio per language
+│   ├── chapter-videos.yaml      # maps book chapter sections → tutorial videos
+│   └── problem-solutions.yaml   # Problem/Solution video pairs
+├── i18n/{lang}.toml             # UI strings, per language
+├── layouts/                     # Hugo templates (custom theme)
+├── assets/css/main.css          # the entire theme
+├── static/                      # images, downloadable PDFs, JS
+├── scripts/                     # translation + PDF generation pipeline
+└── .github/workflows/deploy.yml # auto-deploy to GitHub Pages
 ```
 
-### `static/` vs `assets/` — when to use which
-
-Both folders are tracked in git and both end up in the deployed site. They differ in **what Hugo does at build time**:
-
-| | `static/` | `assets/` |
-|---|---|---|
-| **What happens at build** | Bytes copied 1:1 into `public/` | Run through Hugo Pipes (minify, fingerprint, SCSS compile, image resize, ...) |
-| **Reference from markdown / HTML** | Direct path: `<img src="/images/foo.jpg">`, `[Download](/downloads/x.pdf)` | Through `resources.Get` in a template: `{{ (resources.Get "css/main.css") | minify | fingerprint }}` then `.RelPermalink` |
-| **Output filename** | Same as input (`main.css`) | Can be fingerprinted (`main.min.96a05d4...css`) for cache busting |
-| **Put files here when...** | They're already in their final form: photos, PDFs, hand-written JS, favicon, CNAME | Hugo needs to do something to them: CSS minification + fingerprinting, SCSS compilation, image variants |
-
-In this project: only `assets/css/main.css` lives in `assets/` (it gets minified and fingerprinted so browsers cache it for a year but pick up changes the moment we deploy a new version). Everything else — figures, the IAKC PDF, profile photo, app.js, favicon — sits in `static/` because none of it benefits from Hugo's processing.
-
-Don't merge the two. Photos and PDFs in `assets/` would need their references rewritten through `resources.Get`, and CSS in `static/` would lose its cache-busting fingerprint.
+The `content/` directory is the source of truth for chapter text. The `static/downloads/` PDFs are generated by `scripts/generate-book-pdfs.py` (techniques book, from the original docx) and `scripts/generate-rules-pdfs.py` (rules book, from the Hugo markdown).
 
 ---
 
-## Linking book chapters to tutorial videos
-
-Each `##` section heading inside a *Carrom Techniques and Skills* chapter can show a **"Watch in action"** strip with matching YouTube tutorials, grouped by tier (Beginner / Intermediate / Champion).
-
-### How it works
-
-| File | Role |
-|---|---|
-| `data/chapter-videos.yaml` | Maps `"<chapter-slug>#<heading-slug>"` (e.g. `"chapter-06#cut"`) to a list of `{id, title, level}` video entries |
-| `layouts/_default/_markup/render-heading.html` | Markdown render hook that emits the strip at the end of each matched section |
-| `layouts/partials/section-video-card.html` | Renders the flexible 1/2/3-column tier grid |
-
-The strip is emitted at the **end of the section** (immediately before the next H2), so it sits below image + prose, not between them.
-
-### Tier columns adapt to what's available
-
-- **1 tier present** (e.g. only Champion videos for "Shower of Strokes") — single tier card spans the full width and videos wrap as a 3-up row.
-- **2 tiers present** (e.g. "Straight Cut" has no Champion videos) — two side-by-side columns.
-- **3 tiers present** ("Cut", "Double") — three columns.
-
-### Multilingual coverage
-
-The YAML keys are English slugs only. The render hook resolves the EN slug for non-English chapters by reading `content/en/.../<chapter>.md` and matching the Nth H2 by **position**. So if a German chapter's H2 is "Gerade Cut" (slug `gerade-cut`), it still finds the videos under `chapter-06#straight-cut`.
-
-| Language | Sections matched |
-|---|---|
-| en, da, mr, fr, si, hi, gu | 34 / 34 |
-| de | 33 / 34 |
-| it | 23 / 34 (Italian translation dropped a few H2s) |
-
-### Editing the mapping
-
-To add or remove videos for a section, edit `data/chapter-videos.yaml` directly. Example:
-
-```yaml
-"chapter-06#press":
-  - { id: "QKbE4Op9kdE", title: "Press", level: "intermediate" }
-  - { id: "CCUxYst3nac", title: "Side Press", level: "intermediate" }
-  - { id: "GpOykL199gU", title: "Press – 1", level: "champion" }
-  - { id: "q0jlG9OXKLI", title: "Press – 2", level: "champion" }
-```
-
-**Be careful with similarly-named strokes:** "Double" ≠ "Double Touch", "Touch" ≠ "Double Touch", "Second Pocket" ≠ "Cross Second". Only include videos that actually demonstrate the section's stroke.
-
----
-
-## Adding content
-
-### A new English chapter
-
-Create `content/en/books/students/carrom-techniques-and-skills/chapter-NN.md` with this frontmatter:
-
-```markdown
----
-title: "Chapter N — Title"
-description: "One-line description for SEO and chapter list."
-weight: N
-date: 2026-01-01
-author: "Arun Deshpande"
-cover:
-  image: "/images/book/fig-NN.jpg"
-  alt: "Alt text"
----
-
-Chapter body in markdown.
-```
-
-### Translating chapters to another language
-
-**Automated (recommended):** use the translation script after English is finalised:
+## Running it locally
 
 ```bash
-python3 -m venv .venv && source .venv/bin/activate
-pip install deep-translator pyyaml
+# macOS — installs Hugo Extended + Git
+brew install hugo git
 
-# Translate both books to German (also: da, mr, it, fr, si, hi)
-python3 scripts/translate-books.py de
-
-# Overwrite existing translated files
-python3 scripts/translate-books.py de --force
+# Clone and serve
+git clone https://github.com/swapnild2111/arundeshpande.git
+cd arundeshpande
+hugo server
+# → http://localhost:1313/arundeshpande/
 ```
 
-The script preserves images, HTML, URLs, and international carrom terms. Each translated chapter gets a `translatedBy` frontmatter line noting it is an AI draft.
-
-**Manual:** copy `content/en/books/students/carrom-techniques-and-skills/chapter-NN.md` → `content/{lang}/books/students/carrom-techniques-and-skills/chapter-NN.md`, translate title/description/body, and add `translatedBy`. Keep `weight`, `date`, and `cover.image` identical (images are shared).
-
-### Adding photos
-
-- Profile photo: `static/images/arun-profile.jpg`
-- Gallery photos: `static/images/gallery/photo-NN.jpg`, then add `<img>` tags inside the `<div class="gallery-grid">` in `content/{lang}/gallery/_index.md`
-- Book figures: `static/images/book/fig-NN.jpg` — referenced as `/images/book/fig-NN.jpg` from every language
-- Images live in `static/` and are referenced the same way from every language's markdown — never duplicate.
-
-### Adding book PDFs
-
-PDF download buttons are driven by `data/books.yaml`. Drop files at the paths listed there, e.g.:
-
-- `static/downloads/carrom-techniques-and-skills-en.pdf`
-- `static/downloads/carrom-techniques-and-skills-de.pdf`
-- `static/downloads/carrom-official-rules-en.pdf`
-
-If a PDF file is missing for a language, the download button is automatically disabled for that locale.
-
----
-
-## Carrom glossary (locked terminology)
-
-This glossary is the source of truth for both the English book text and any translation. **English column** is cross-checked against the [IAKC Official Rules PDF](https://www.iakc.org/wp-content/uploads/2020/02/Carrom-Official-Rules.pdf). **German column** is cross-checked against the [Deutscher Carrom Verband (carrom.de)](https://www.carrom.de/das-ist-carrom) rules page. The DCV may override any cell during Phase 4 review — when they do, update this table, then re-grep all DE chapters.
-
-### Equipment
-
-| English | German | Notes |
-|---|---|---|
-| Carrom | Carrom | proper noun |
-| Carrom Board (C/B) | Carrombrett (also Carromboard) | DCV uses both |
-| Carromman / Coin (C/m) | Spielstein | IAKC's formal term is "Carromman"; the book uses "coin" — we keep "coin" for readability |
-| Striker | Striker | DCV keeps in English (parenthesises "Schuss-Stein") |
-| Queen (red coin) | Queen (roter Stein) | DCV keeps in English |
-| Pocket | Eckloch (also Loch) | DCV's word for the corner hole |
-| Nets | Netze | |
-| Base Line | Grundlinie | |
-| Base Circle | Grundkreis | |
-| Centre Circle | Mittelkreis | |
-| Outer Circle | Außenkreis | |
-| Frame | Rahmen | |
-| Arrow (between base circles) | Pfeil | |
-| Imaginary Lines | gedachte Linien | |
-| Stand / Table | Ständer / Tisch | |
-| Stool / Chair | Hocker / Stuhl | |
-| Powder | Carrompulver (Gleitpulver) | |
-| Light / Lamp | Lampe | |
-| Cushion (the side, for rebounds) | Bande | DCV uses "über Bande spielen" |
-
-### Match structure
-
-| English | German | Notes |
-|---|---|---|
-| Match | Match (also Partie) | |
-| Game (race to 25 points) | Game | DCV keeps in English |
-| Board (one round) | Board | DCV keeps in English |
-| Singles | Einzel | |
-| Doubles | Doppel | |
-| Trial Board | Probespiel | |
-| Toss | Auslosen | |
-| Change of Sides | Seitenwechsel | |
-| Player | Spieler / Spielerin | |
-| Opponent | Gegner | |
-| Umpire | Schiedsrichter | |
-| Chief Referee | Hauptschiedsrichter | |
-
-### Actions and scoring
-
-| English | German | Notes |
-|---|---|---|
-| Stroke | Schuss | |
-| Proper stroke | regelgerechter Schuss | |
-| Improper stroke | Fehlschuss / regelwidriger Schuss | |
-| Push (jerk of elbow) | Stoß / Schieben | IAKC #11 — illegal motion |
-| Thumbing (thumb shot) | Daumentechnik | |
-| Break (the opening) | Anstoß | |
-| Finish | Abschluss | |
-| To pocket (verb) | versenken (also einlochen) | |
-| Pocketing (noun) | Versenken | |
-| Placing (a coin) | Platzieren | |
-| Turn | Spielzug | |
-| Concede | aufgeben | |
-| Shot | Shot / Schlag | |
-| Pair | Pair | |
-| Cannon | Cannon | spelled with two n's — corrects the docx's "CANON" |
-| Covering (the Queen) | Bestätigung | DCV's term |
-| Due (striker-only pocket) | Strafstein | |
-| Penalty | Strafe / Strafstein | |
-| Foul | Fehlschuss | |
-| Simple foul | einfacher Fehlschuss | |
-| Technical foul | technischer Fehlschuss | |
-| White Slam | White Slam | universal carrom term |
-| Black Slam | Black Slam | universal carrom term |
-
-### Grips (from Arun's book — not in IAKC)
-
-| English | German |
-|---|---|
-| Grip | Griff |
-| Natural grip | natürlicher Griff |
-| Scissor grip | Scherengriff |
-| Locking grip | Sperrgriff |
-| Middle finger flat grip | Mittelfinger-Flachgriff |
-
-### Strokes (coaching vocabulary — kept in English globally, in both EN and DE chapters)
-
-`Shower of Strokes`, `Straight Cut`, `Cross Cut` (also Minus Cut), `Double`, `Cross Double`, `Press`, `Touch`, `Double Touch`, `Glance`, `Double Glance`, `Brush`, `Rebound`, `Simple Rebound`, `Langda Rebound`, `Hook`, `Third Pocket`, `Cross Third Pocket`, `Second Pocket`, `Cross Second Pocket`, `Turning`, `Slip`, `Striker Slip`, `Bomb` (also `Bum`), `Force`, `Spin`.
-
-`Third/Second Pocket` becomes `Drittes/Zweites Eckloch` in DE bodies (since DCV uses "Eckloch"); the stroke name itself stays English.
-
-### Strategy and mental qualities
-
-| English | German |
-|---|---|
-| Defence | Verteidigung |
-| Direct Defence | direkte Verteidigung |
-| Indirect Defence | indirekte Verteidigung |
-| Offence | Angriff |
-| Concentration | Konzentration |
-| Observation | Beobachtung |
-| Patience / Stability | Geduld |
-| Over-confidence | Überheblichkeit |
-| Open mind | Offenheit |
-| Practice | Übung |
-
-### Organisations
-
-| English | German |
-|---|---|
-| International Carrom Federation (ICF) | Internationaler Carrom-Verband |
-| German Carrom Federation (DCV) | Deutscher Carrom Verband (DCV) |
-| German Championship | Deutsche Meisterschaft |
-
----
-
-## Deployment
-
-Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the site with Hugo and deploys to GitHub Pages.
-
-**One-time GitHub setup:**
-1. GitHub repo → **Settings → Pages → Source** = *GitHub Actions*
-2. Wait for the first workflow run on `main` to complete
-3. The site will be live at `https://swapnild2111.github.io/arundeshpande/`
-
-### Custom domain (after Arun purchases)
-
-1. Create `static/CNAME` containing only the domain, e.g.:
-   ```
-   arundeshpandecarrom.com
-   ```
-2. At the registrar (Cloudflare or Namecheap recommended), add:
-   ```
-   Type    Host    Value
-   A       @       185.199.108.153
-   A       @       185.199.109.153
-   A       @       185.199.110.153
-   A       @       185.199.111.153
-   CNAME   www     swapnild2111.github.io
-   ```
-3. GitHub repo → **Settings → Pages → Custom domain** → enter domain → enable *Enforce HTTPS*.
-4. Update `baseURL` in `config/_default/hugo.toml` to the live domain.
-
----
-
-## Adding a new language
-
-1. **Declare the language** in `config/_default/hugo.toml` and create `config/_default/menus.{lang}.toml` (copy an existing menu file and translate labels).
-2. **Scaffold site pages** (i18n, about bio, contact, videos, gallery — not the books):
-   ```bash
-   source .venv/bin/activate   # needs deep-translator + pyyaml
-   python3 scripts/setup-language.py {lang}
-   ```
-3. **Translate the books:**
-   ```bash
-   python3 scripts/translate-books.py {lang}
-   ```
-4. **Register books** in `data/books.yaml` — add `{lang}` entries under `titles`, `descriptions`, `tagLabels`, `pdfs`, and set `languages.{lang}: true`.
-5. **Add the bio** in `data/about.yaml` for the new language.
-6. Confirm glossary terms with the relevant national federation before publishing translated chapters.
-7. Drop translated PDFs at `static/downloads/carrom-techniques-and-skills-{lang}.pdf` (and rules PDF if applicable).
-8. Run `hugo --minify` and verify all pages build.
-
----
-
-## Project rules
-
-1. **English is always done first.** Never start a translation until the English source chapter is finalised.
-2. **Glossary is locked before Chapter 1 in any language.** Agree all carrom terms with the federation upfront.
-3. **`translatedBy` frontmatter is mandatory** on every translated chapter, crediting the reviewer.
-4. **Images are shared across languages** — all images live in `static/images/` and are referenced identically from every language.
-5. **One chapter per commit** — keeps git history clean and easy to trace.
-6. **Nothing goes live without federation sign-off** — translate → review → commit → push.
-
----
-
-## Common tasks
+Build for production locally (output to `./public/`):
 
 ```bash
-# Run dev server with drafts visible
-hugo server -D
-
-# Build and check output
 hugo --minify
-ls public/
-
-# Extract EN book chapters from the .docx (images must already be in static/images/book/)
-python3 scripts/extract-book.py
-
-# Generate downloadable PDFs from the source docx (all 9 languages; needs LibreOffice)
-pip install -r requirements.txt   # python-docx, deep-translator, markdown
-brew install --cask libreoffice    # once, for soffice
-python3 scripts/generate-book-pdfs.py
-python3 scripts/generate-book-pdfs.py da --force   # re-translate one language
-
-# Generate official rules PDFs from Hugo markdown chapters (all 9 languages)
-python3 scripts/generate-rules-pdfs.py
-python3 scripts/generate-rules-pdfs.py de --force
-
-# Translate books to a language
-python3 scripts/translate-books.py de
-
-# Create a new content file with default frontmatter
-hugo new content content/en/books/students/carrom-techniques-and-skills/chapter-03.md
-
-# Sync Problems & Solutions pairs from YouTube (see below)
-python3 scripts/sync-problem-solutions.py
 ```
 
----
+### Translation pipeline (optional)
 
-## Sync Problems & Solutions (YouTube)
-
-Arun uploads **Problem N** / **Solution N** videos to the [Carrom Guru YouTube channel](https://www.youtube.com/@Shrikant_Potharkar_carrom). The site reads pairs from `data/problem-solutions.yaml`. Missing partners show a **Coming Soon** placeholder.
-
-### Automatic (recommended)
-
-1. Create a [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) key (free quota is enough).
-2. Add it as a GitHub repository secret: **Settings → Secrets → Actions → `YOUTUBE_API_KEY`**
-3. The workflow [`.github/workflows/sync-problem-solutions.yml`](.github/workflows/sync-problem-solutions.yml) runs **every Sunday at 06:00 UTC** and can be triggered manually from the **Actions** tab.
-
-When new videos are found, the workflow commits an updated `data/problem-solutions.yaml` and the deploy workflow republishes the site.
-
-### Manual (local)
+The pipeline scripts use Python and `deep-translator`:
 
 ```bash
-# Sync from YouTube (requires API key)
-YOUTUBE_API_KEY=your_key python3 scripts/sync-problem-solutions.py
+python3 -m venv .venv
+source .venv/bin/activate
+pip install deep-translator pyyaml python-docx markdown
 
-# Preview without writing
-YOUTUBE_API_KEY=your_key python3 scripts/sync-problem-solutions.py --dry-run
+# Translate both books to a new language
+python3 scripts/translate-books.py de
+
+# Regenerate PDFs (requires LibreOffice on PATH for soffice)
+brew install --cask libreoffice
+python3 scripts/generate-book-pdfs.py de
+python3 scripts/generate-rules-pdfs.py de
 ```
 
-Then commit and push `data/problem-solutions.yaml` if it changed.
+### Adding a new language
+
+1. Declare the language in `config/_default/hugo.toml` and create `config/_default/menus.{lang}.toml`.
+2. Scaffold site pages: `python3 scripts/setup-language.py {lang}`.
+3. Translate the books: `python3 scripts/translate-books.py {lang}`.
+4. Register the book entries under `titles`, `descriptions`, `tagLabels`, `pdfs`, `languages.{lang}: true` in `data/books.yaml`.
+5. Add the bio in `data/about.yaml` under the new language code.
+6. Generate the PDFs: `python3 scripts/generate-book-pdfs.py {lang}` and `python3 scripts/generate-rules-pdfs.py {lang}`.
+7. Build (`hugo --minify`) and verify.
+
+### Problems & Solutions auto-sync
+
+A scheduled GitHub Action ([`.github/workflows/sync-problem-solutions.yml`](.github/workflows/sync-problem-solutions.yml)) polls the YouTube channel every Sunday and commits any new Problem/Solution video pairs to `data/problem-solutions.yaml`. To enable it, add a `YOUTUBE_API_KEY` secret to the repo (free YouTube Data API v3 quota is enough).
 
 ---
 
-## License & credits
+## Contributing
 
-Content © Arun Deshpande. Site built and maintained by Swapnil Deshpande.
+If you spot a translation issue, a broken video link, or any factual error in the rules — please open an issue with the language code in the title, e.g. `[de] Chapter 6 — Cut section`.
+
+If you'd like to **review the translation into your language**: open an issue or reach Arun via the [Contact page](https://swapnild2111.github.io/arundeshpande/en/contact/). Native-speaker review is the most valuable contribution possible.
+
+---
+
+## License
+
+- **Code** — [MIT License](LICENSE). Hugo templates, CSS, JavaScript, build scripts, and site configuration are free to use, fork, and modify.
+- **Book content** — © Arun Deshpande. *Carrom Techniques and Skills* and all original coaching material remain his copyright. Please contact him before reproducing or redistributing the book.
+- **ICF rules** — summarised from publicly-available sources. See `data/books.yaml` for attribution.
+
+---
+
+Built and maintained by [Swapnil Deshpande](https://github.com/swapnild2111). Coaching by Shri Arun Deshpande — and three decades of carrom knowledge that the world deserves to learn from.

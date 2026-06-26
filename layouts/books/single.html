@@ -16,14 +16,88 @@
 {{- $isChapter := .Parent.Params.chapters | default false -}}
 
 {{ if $isChapter }}
+  {{- /*
+    Hugo's .PrevInSection / .NextInSection follow the section's default
+    ordering, which sorts pages by Weight DESCENDING. That makes
+    .PrevInSection point to the chapter with the higher weight (= the
+    next chapter in reading order), so the labels appear reversed.
+    Compute prev/next explicitly from .Parent.Pages.ByWeight instead.
+  */ -}}
+  {{- $pages := .Parent.Pages.ByWeight -}}
+  {{- $total := len $pages -}}
+  {{- $cur := -1 -}}
+  {{- range $i, $p := $pages -}}
+    {{- if eq $p.RelPermalink $.RelPermalink -}}{{- $cur = $i -}}{{- end -}}
+  {{- end -}}
+  {{- $prev := "" -}}
+  {{- $next := "" -}}
+  {{- if gt $cur 0 -}}{{- $prev = index $pages (sub $cur 1) -}}{{- end -}}
+  {{- if and (ge $cur 0) (lt $cur (sub $total 1)) -}}{{- $next = index $pages (add $cur 1) -}}{{- end -}}
+  {{- $human := add $cur 1 -}}
+  {{- $pct := 0 -}}
+  {{- if gt $total 0 -}}{{- $pct = mul (div (mul $human 1.0) $total) 100 -}}{{- end -}}
+
   <nav class="book-back">
     <a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a>
+  </nav>
+
+  <nav class="chapter-rail" aria-label="{{ i18n "chapter" | default "Chapter" }} navigation">
+    <div class="chapter-rail-row">
+      <div class="chapter-rail-prev">
+        {{ with $prev }}
+          <a href="{{ .RelPermalink }}" rel="prev">
+            <span class="cr-arrow" aria-hidden="true">←</span>
+            <span class="cr-text">
+              <span class="cr-label">{{ i18n "previous" | default "Previous" }}</span>
+              <span class="cr-title">{{ .Title }}</span>
+            </span>
+          </a>
+        {{ end }}
+      </div>
+      <div class="chapter-rail-counter">
+        {{ i18n "chapter_count_of" (dict "Current" $human "Total" $total) | default (printf "%d / %d" $human $total) }}
+      </div>
+      <div class="chapter-rail-next">
+        {{ with $next }}
+          <a href="{{ .RelPermalink }}" rel="next">
+            <span class="cr-text">
+              <span class="cr-label">{{ i18n "next" | default "Next" }}</span>
+              <span class="cr-title">{{ .Title }}</span>
+            </span>
+            <span class="cr-arrow" aria-hidden="true">→</span>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+    {{- /*
+      Reading-progress bar driven by chapter-scroll-progress.js — the
+      width starts at 0 and grows as the visitor scrolls through the
+      .book-prose article. The bar's bottom edge hugs the rail so the
+      sticky strip stays compact.
+    */ -}}
+    <div
+      class="chapter-progress"
+      role="progressbar"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-valuenow="0"
+      aria-label="{{ i18n "reading_progress" | default "Reading progress" }}"
+    >
+      <span class="chapter-progress-bar" style="width: 0%"></span>
+    </div>
   </nav>
 
   <div class="chapter">
     <header class="page-header">
       <h1>{{ .Title }}</h1>
-      <p>{{ .Description }}</p>
+      {{- /*
+        Chapter description is intentionally NOT rendered here.
+        It still appears on the book TOC as the chapter card subtitle
+        and in <meta name="description"> for SEO. The italic kicker
+        paragraph that opens each chapter's body carries the same
+        orientation in the author's voice, so duplicating it in the
+        header read as repetition.
+      */ -}}
       {{ with .Params.translatedBy }}
         <small style="color: var(--text-dim); display: block; margin-top: 4px;">{{ . }}</small>
       {{ end }}
@@ -42,23 +116,6 @@
         {{- .Store.Set "pending-section-video" nil -}}
       {{- end -}}
     </article>
-
-    {{- /*
-      Hugo's .PrevInSection / .NextInSection follow the section's default
-      ordering, which sorts pages by Weight DESCENDING. That makes
-      .PrevInSection point to the chapter with the higher weight (= the
-      next chapter in reading order), so the labels appear reversed.
-      Compute prev/next explicitly from .Parent.Pages.ByWeight instead.
-    */ -}}
-    {{- $pages := .Parent.Pages.ByWeight -}}
-    {{- $cur := -1 -}}
-    {{- range $i, $p := $pages -}}
-      {{- if eq $p.RelPermalink $.RelPermalink -}}{{- $cur = $i -}}{{- end -}}
-    {{- end -}}
-    {{- $prev := "" -}}
-    {{- $next := "" -}}
-    {{- if gt $cur 0 -}}{{- $prev = index $pages (sub $cur 1) -}}{{- end -}}
-    {{- if and (ge $cur 0) (lt $cur (sub (len $pages) 1)) -}}{{- $next = index $pages (add $cur 1) -}}{{- end -}}
 
     <nav class="chapter-nav">
       {{ with $prev }}
@@ -127,4 +184,15 @@
   {{ end }}
 
 {{ end }}
+{{ end }}
+
+{{ define "scripts" }}
+{{- /*
+  Reading-progress JS only loads on actual chapter pages — book index
+  pages and PDF-only books don't have the rail or article.
+*/ -}}
+{{- $isChapter := .Parent.Params.chapters | default false -}}
+{{- if $isChapter }}
+<script src="{{ "js/chapter-scroll-progress.js" | relURL }}" defer></script>
+{{- end }}
 {{ end }}

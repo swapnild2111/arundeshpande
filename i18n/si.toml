@@ -147,3 +147,21 @@ other = "වීඩියෝ මරාති භාෂාවෙන් ඇත, ඉ
 
 [available_in_n_languages]
 other = 'භාෂා {{ .Count }}කින් ලබා ගත හැකියි'
+
+[lang_group_international]
+other = "ජාත්‍යන්තර"
+
+[lang_group_european]
+other = "යුරෝපීය"
+
+[lang_group_south_asian]
+other = "දකුණු ආසියානු"
+
+[chapter_count_of]
+other = 'පරිච්ඡේදය {{ .Current }} / {{ .Total }}'
+
+[reading_progress]
+other = "කියවීමේ ප්‍රගතිය"
+
+[other_languages]
+other = "අනෙකුත් භාෂා"

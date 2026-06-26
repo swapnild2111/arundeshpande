@@ -92,6 +92,45 @@
     if (e.key === 'Escape') closeLangSwitchers();
   });
 
+  // PDF download buttons (books index + book hero). The green "Download
+  // PDF" button opens a language picker; user explicitly chooses which
+  // PDF to download. No auto-download for the current locale.
+  function closePdfDownloads(except) {
+    document.querySelectorAll('.pdf-download.is-open').forEach(function (root) {
+      if (except && root === except) return;
+      root.classList.remove('is-open');
+      var trigger = root.querySelector('.pdf-download-trigger');
+      if (trigger) trigger.setAttribute('aria-expanded', 'false');
+    });
+  }
+  document.querySelectorAll('.pdf-download').forEach(function (root) {
+    var trigger = root.querySelector('.pdf-download-trigger');
+    if (!trigger) return;
+    trigger.addEventListener('click', function (e) {
+      e.stopPropagation();
+      e.preventDefault();
+      var open = !root.classList.contains('is-open');
+      closePdfDownloads();
+      if (open) {
+        root.classList.add('is-open');
+        trigger.setAttribute('aria-expanded', 'true');
+      } else {
+        trigger.setAttribute('aria-expanded', 'false');
+      }
+    });
+    // Closing the menu when a language is picked — the browser then
+    // proceeds with the download (the anchor's default action).
+    root.querySelectorAll('.pdf-download-item').forEach(function (link) {
+      link.addEventListener('click', function () { closePdfDownloads(); });
+    });
+  });
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.pdf-download')) closePdfDownloads();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closePdfDownloads();
+  });
+
   function psBasePath() {
     var el = document.querySelector('[data-ps-base]');
     return el ? el.getAttribute('data-ps-base') : null;
@@ -127,7 +166,7 @@
     var el = chips.nextElementSibling;
     var grids = [];
     while (el) {
-      if (el.matches && el.matches('.video-grid, .book-grid, .gallery-grid, .chapter-grid')) {
+      if (el.matches && el.matches('.video-grid, .gallery-grid, .chapter-grid')) {
         grids.push(el);
       }
       el = el.nextElementSibling;

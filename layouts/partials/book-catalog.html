@@ -26,6 +26,26 @@
   {{ range $code, $on := .languages }}
     {{ if $on }}{{ $availLangs = $availLangs | append $code }}{{ end }}
   {{ end }}
+  {{- /* Per-language PDF paths the visitor can download. We include
+       only languages whose PDF file actually exists on disk, and we
+       attach the native label (e.g. "Dansk", "ગુજરાતી") taken from
+       hugo.Sites for that locale. Used by the download dropdown. */ -}}
+  {{ $pdfsByLang := slice }}
+  {{ $entry := . }}
+  {{ range hugo.Sites }}
+    {{ $code := .Language.Lang }}
+    {{ $path := index $entry.pdfs $code | default "" }}
+    {{ if $path }}
+      {{ $rel := strings.TrimPrefix "/" $path | strings.TrimPrefix "downloads/" }}
+      {{ if fileExists (printf "static/downloads/%s" $rel) }}
+        {{ $pdfsByLang = $pdfsByLang | append (dict
+          "code" $code
+          "label" .Language.Label
+          "path" $path
+        ) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
   {{ $items = $items | append (dict
     "id" .id
     "slug" .id
@@ -36,6 +56,8 @@
     "author" .author
     "pageCount" .pageCount
     "pdf" $pdfPath
+    "pdfLang" $lang
+    "pdfsByLang" $pdfsByLang
     "sourceUrl" .sourceUrl
     "sources" (.sources | default slice)
     "coverImage" .coverImage

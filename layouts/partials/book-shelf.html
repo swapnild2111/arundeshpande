@@ -1,0 +1,107 @@
+{{/*
+  Book shelf — compact horizontal row layout. Every book renders as a
+  slim row: small cover left, title + meta + description in the middle,
+  action buttons right-aligned. Rows stack vertically.
+
+  Pass dict: catalog, filter (category id or "all").
+*/}}
+{{ $filter := .filter | default "all" }}
+{{ $catalog := .catalog | default slice }}
+{{ if ne $filter "all" }}
+  {{ $catalog = where $catalog "category" $filter }}
+{{ end }}
+{{ $sorted := sort $catalog "weight" }}
+
+{{ if gt (len $sorted) 0 }}
+<ul class="book-shelf">
+  {{ range $sorted }}
+    {{ $available := .available | default false }}
+    <li
+      class="book-row{{ if not $available }} book-row--soon{{ end }}"
+      id="book-{{ .slug }}"
+      data-tags="{{ .category }}"
+      data-category="{{ .category }}"
+      {{ if not $available }}aria-disabled="true"{{ end }}
+    >
+      {{- /* Whole-row stretched link. Action buttons get higher
+           z-index so they stay individually clickable. */ -}}
+      {{ if and $available .url }}
+        <a class="book-row-link" href="{{ .url }}" aria-label="{{ .title }}"></a>
+      {{ end }}
+
+      <div class="book-row-cover">
+        {{ with .coverImage }}
+          <img src="{{ . | relURL }}" alt="{{ $.title }}" loading="lazy" decoding="async">
+        {{ else }}
+          <div class="cover-icon">{{ partial "icons/book.html" $ }}</div>
+        {{ end }}
+      </div>
+
+      <div class="book-row-body">
+        <h3 class="book-row-title">{{ .title }}</h3>
+        <div class="book-row-meta">
+          {{ with .author }}<span>{{ . }}</span>{{ end }}
+          {{ with .pageCount }}<span>{{ . }} {{ i18n "page_count" | default "pages" }}</span>{{ end }}
+          {{ $nlangs := len (.availableLanguages | default slice) }}
+          {{ if gt $nlangs 1 }}
+            <span class="book-row-langs">
+              {{ partial "icons/globe.html" $ }}
+              {{ i18n "available_in_n_languages" (dict "Count" $nlangs) }}
+            </span>
+          {{ end }}
+        </div>
+        {{ with .description }}<p class="book-row-desc">{{ . }}</p>{{ end }}
+      </div>
+
+      <div class="book-row-actions">
+        {{ if $available }}
+          {{ with .url }}
+            <a class="btn btn-primary btn-sm" href="{{ . }}">
+              {{ partial "icons/play.html" $ }}{{ i18n "start_reading" | default "Start reading" }}
+            </a>
+          {{ end }}
+          {{- /* Single Download PDF button. Clicking it opens a menu
+               listing every available language; the visitor picks
+               which one to download. No "default" language download
+               happens — every download is an explicit choice. */ -}}
+          {{ $pdfs := .pdfsByLang | default slice }}
+          {{ $thisLang := .pdfLang }}
+          {{ if gt (len $pdfs) 0 }}
+            <div class="pdf-download" data-pdf-download>
+              <button
+                type="button"
+                class="btn btn-download btn-sm pdf-download-trigger"
+                aria-haspopup="menu"
+                aria-expanded="false"
+                title="{{ i18n "download_pdf" | default "Download PDF" }}"
+              >
+                <span>{{ i18n "download_pdf" | default "Download PDF" }}</span>
+                <span class="pdf-download-trigger-sep" aria-hidden="true">|</span>
+                <span class="pdf-download-trigger-chev" aria-hidden="true">{{ partial "icons/chevron-down.html" $ }}</span>
+              </button>
+              <ul class="pdf-download-menu" role="menu">
+                {{ range $pdfs }}
+                  <li role="none">
+                    <a
+                      class="pdf-download-item{{ if eq .code $thisLang }} is-current{{ end }}"
+                      role="menuitem"
+                      href="{{ .path | relURL }}"
+                      download
+                      lang="{{ .code }}"
+                    >
+                      <span class="pdf-download-item-label">{{ .label }}</span>
+                      <span class="pdf-download-item-icon" aria-hidden="true">{{ partial "icons/download.html" $ }}</span>
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+        {{ else }}
+          <span class="btn btn-ghost btn-sm is-disabled" aria-disabled="true">{{ i18n "coming_soon" | default "Coming soon" }}</span>
+        {{ end }}
+      </div>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

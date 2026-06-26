@@ -14,10 +14,13 @@
       {{ $hasBooks = gt (len (where $catalog "category" $id)) 0 }}
     {{ end }}
     {{ $enabled := or $hasBooks (eq $id $current) }}
+    {{- /* Categories with zero books are hidden entirely (was: shown as
+         a "Soon" pill). They clutter the chip rail without giving the
+         visitor any useful action. */ -}}
     {{ if eq $id $current }}
       <span class="chip is-active" aria-current="page">{{ $label }}</span>
     {{ else if not $enabled }}
-      <span class="chip is-disabled" aria-disabled="true">{{ $label }}<span class="chip-badge">{{ i18n "soon" }}</span></span>
+      {{- /* skipped */ -}}
     {{ else if eq $id "all" }}
       <a class="chip" href="{{ $books.RelPermalink }}">{{ $label }}</a>
     {{ else }}

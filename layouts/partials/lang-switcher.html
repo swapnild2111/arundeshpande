@@ -4,11 +4,25 @@
   {{- $perms = merge $perms (dict (.Language.Lang) .Permalink) -}}
 {{- end -}}
 {{- $currentLabel := $current.Language.Lang | upper -}}
+{{- $labels := dict -}}
+{{- $homes := dict -}}
 {{- range hugo.Sites -}}
+  {{- $labels = merge $labels (dict .Language.Lang .Language.Label) -}}
+  {{- $homes  = merge $homes  (dict .Language.Lang .Home.RelPermalink) -}}
   {{- if eq .Language.Lang $current.Language.Lang -}}
     {{- $currentLabel = .Language.Label -}}
   {{- end -}}
 {{- end -}}
+
+{{- /*
+  Language groups, in column order. English stands alone as International;
+  Sinhala folds in with the three Indian scripts under South Asian.
+*/ -}}
+{{- $groups := slice
+  (dict "key" "international" "label" (i18n "lang_group_international") "codes" (slice "en"))
+  (dict "key" "european"      "label" (i18n "lang_group_european")      "codes" (slice "da" "de" "it" "fr"))
+  (dict "key" "south_asian"   "label" (i18n "lang_group_south_asian")   "codes" (slice "mr" "hi" "gu" "si"))
+-}}
 
 <div class="lang-switcher">
   <button
@@ -22,26 +36,37 @@
     <span class="lang-switcher-current">{{ $currentLabel }}</span>
     <span class="lang-switcher-chevron" aria-hidden="true">{{ partial "icons/chevron-down.html" . }}</span>
   </button>
-  <ul class="lang-switcher-menu" role="menu">
-    {{- range hugo.Sites -}}
-      {{- $code := .Language.Lang -}}
-      {{- $perm := index $perms $code -}}
-      {{- if not $perm -}}
-        {{- $perm = .Home.RelPermalink -}}
-      {{- end -}}
-      <li role="none">
-        {{- if eq $code $current.Language.Lang -}}
-          <span class="lang-switcher-item is-active" role="menuitem" aria-current="true">{{ .Language.Label }}</span>
-        {{- else -}}
-          <a
-            href="{{ $perm }}"
-            class="lang-switcher-item"
-            role="menuitem"
-            hreflang="{{ $code }}"
-            lang="{{ $code }}"
-          >{{ .Language.Label }}</a>
-        {{- end -}}
-      </li>
+  <div class="lang-switcher-menu" role="menu">
+    {{- range $groups -}}
+      {{- $group := . -}}
+      <div class="lang-switcher-group" data-group="{{ $group.key }}">
+        <div class="lang-switcher-group-label" aria-hidden="true">{{ $group.label }}</div>
+        <ul class="lang-switcher-group-list" role="none">
+          {{- range $group.codes -}}
+            {{- $code := . -}}
+            {{- $perm := index $perms $code -}}
+            {{- $label := index $labels $code -}}
+            {{- if not $perm -}}
+              {{- $perm = index $homes $code -}}
+            {{- end -}}
+            {{- if $label -}}
+              <li role="none">
+                {{- if eq $code $current.Language.Lang -}}
+                  <span class="lang-switcher-item is-active" role="menuitem" aria-current="true">{{ $label }}</span>
+                {{- else -}}
+                  <a
+                    href="{{ $perm }}"
+                    class="lang-switcher-item"
+                    role="menuitem"
+                    hreflang="{{ $code }}"
+                    lang="{{ $code }}"
+                  >{{ $label }}</a>
+                {{- end -}}
+              </li>
+            {{- end -}}
+          {{- end -}}
+        </ul>
+      </div>
     {{- end -}}
-  </ul>
+  </div>
 </div>

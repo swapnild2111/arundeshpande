@@ -147,3 +147,21 @@ other = "I video sono in marathi con termini di carrom in inglese. Tocca il puls
 
 [available_in_n_languages]
 other = 'Disponibile in {{ .Count }} lingue'
+
+[lang_group_international]
+other = "Internazionale"
+
+[lang_group_european]
+other = "Europeo"
+
+[lang_group_south_asian]
+other = "Sud asiatico"
+
+[chapter_count_of]
+other = 'Capitolo {{ .Current }} di {{ .Total }}'
+
+[reading_progress]
+other = "Avanzamento lettura"
+
+[other_languages]
+other = "Altre lingue"

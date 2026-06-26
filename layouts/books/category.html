@@ -17,7 +17,7 @@
 
 {{ partial "book-chips.html" (dict "current" $category "books" $books "catalog" $catalog) }}
 
-{{ partial "book-grid.html" (dict "catalog" $catalog "filter" $category) }}
+{{ partial "book-shelf.html" (dict "catalog" $catalog "filter" $category) }}
 
 <span hidden data-books-root="{{ "books/" | relURL }}"></span>
 

@@ -258,26 +258,45 @@ h1, h2, h3, h4 {
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  min-width: 200px;
   margin: 0;
-  padding: 6px;
+  padding: 10px;
   list-style: none;
   background: var(--bg-card);
   border: 1px solid var(--border-strong);
   border-radius: var(--radius);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
   display: none;
+  /* Three groups side-by-side, narrowest possible based on content. */
+  grid-template-columns: repeat(3, max-content);
+  gap: 8px 18px;
 }
 .top-bar .lang-switcher.is-open .lang-switcher-menu {
-  display: block;
+  display: grid;
+}
+.top-bar .lang-switcher-group { min-width: 0; }
+.top-bar .lang-switcher-group-label {
+  padding: 4px 8px 6px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 4px;
+}
+.top-bar .lang-switcher-group-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .top-bar .lang-switcher-item {
   display: block;
-  padding: 8px 12px;
+  padding: 6px 10px;
   border-radius: 8px;
   color: var(--text);
   font-size: 14px;
   text-decoration: none;
+  white-space: nowrap;
   transition: background .12s;
 }
 .top-bar .lang-switcher-item:hover {
@@ -577,9 +596,9 @@ h1, h2, h3, h4 {
   transition: transform .2s, border-color .2s;
 }
 .explore-card:hover { transform: translateY(-2px); border-color: var(--border-strong); color: var(--text); }
-.explore-card.--purple { background: linear-gradient(135deg, rgba(168, 85, 247, 0.22), rgba(99, 102, 241, 0.08)); }
-.explore-card.--amber  { background: linear-gradient(135deg, rgba(245, 158, 11, 0.22), rgba(180, 83, 9, 0.08)); }
-.explore-card.--emerald{ background: linear-gradient(135deg, rgba(16, 185, 129, 0.22), rgba(4, 120, 87, 0.08)); }
+.explore-card.--purple { background: linear-gradient(135deg, rgba(168, 85, 247, 0.18), rgba(99, 102, 241, 0.04)); }
+.explore-card.--amber  { background: linear-gradient(135deg, rgba(244, 114, 182, 0.16), rgba(190, 24, 93, 0.04)); }
+.explore-card.--emerald{ background: linear-gradient(135deg, rgba(20, 184, 166, 0.18), rgba(13, 148, 136, 0.04)); }
 .explore-card .ec-icon {
   width: 36px; height: 36px;
   border-radius: 10px;
@@ -692,24 +711,6 @@ a.chip {
   background: var(--gradient-purple);
   color: #fff;
   border-color: transparent;
-}
-.chip.is-disabled {
-  opacity: 0.45;
-  cursor: not-allowed;
-  pointer-events: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-.chip-badge {
-  font-size: 9px;
-  padding: 1px 6px;
-  border-radius: 999px;
-  background: var(--surface-hover-heavy);
-  color: var(--text-dim);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
 }
 
 /* ---------- video language hint (Auto-translated CC) ---------- */
@@ -1270,153 +1271,249 @@ body.video-player-open { overflow: hidden; }
 }
 
 /* ---------- book/PDF cards ---------- */
-.book-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 14px;
-}
-.book-card {
+/* The /books/ index uses the book-shelf layout (book-row + pdf-download
+   menu) defined further down. The earlier book-card/book-grid rules
+   were removed when that layout was retired. */
+/* ---------- book-shelf: compact horizontal row layout ----------
+   Every book renders as a slim row: small cover left, title + meta +
+   description in the middle, action buttons on the right. Rows stack
+   vertically; works with one row or many. */
+.book-shelf {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  border-radius: var(--radius);
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  overflow: hidden;
-  transition: transform .2s, border-color .2s;
-  color: var(--text);
+  gap: 10px;
 }
-.book-card:hover { transform: translateY(-2px); border-color: var(--accent); }
-.book-card.is-deep-linked {
-  outline: 2px solid var(--accent);
-  box-shadow: 0 0 0 4px var(--accent-soft), 0 8px 28px rgba(168, 85, 247, 0.2);
-}
-.book-card-link {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  text-decoration: none;
-  color: var(--text) !important;
-}
-.book-card-link:hover { color: var(--text); }
-.book-card-link .cover { cursor: pointer; }
-.book-card .cover {
-  aspect-ratio: 4/3;
-  background: linear-gradient(135deg, var(--bg-card-2), var(--bg-card));
-  display: grid; place-items: center;
-  color: var(--accent);
+.book-row {
   position: relative;
-  overflow: hidden;
-}
-.book-card .cover img { width: 100%; height: 100%; object-fit: cover; }
-.book-card .cover .placeholder { width: 48px; height: 48px; }
-.book-card .body { padding: 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
-.book-card .title {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.3;
-  min-height: 2.6em;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.book-card .meta {
   display: grid;
-  grid-template-rows: repeat(3, minmax(1.25rem, auto));
-  gap: 4px;
-  font-size: 11px;
+  grid-template-columns: 72px 1fr auto;
+  gap: 18px;
+  align-items: center;
+  padding: 14px 18px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  transition: border-color .2s, transform .2s;
+}
+.book-row:hover { border-color: var(--accent); }
+.book-row:hover .book-row-title { color: var(--accent); }
+/* When this row's PDF download menu is open, lift the row above its
+   siblings so the dropdown isn't clipped under the next row's buttons.
+   Each row is position:relative and forms its own stacking context;
+   without this, dropdowns from row N render below row N+1. */
+.book-row:has(.pdf-download.is-open) { z-index: 10; }
+
+/* Whole-row stretched click target. Action buttons sit on a higher
+   z-index so they remain individually clickable. */
+.book-row-link {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  text-decoration: none;
+  z-index: 1;
+}
+.book-row-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.book-row-cover {
+  width: 72px;
+  height: 96px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--bg-card-2, var(--bg-card));
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.book-row-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.book-row-cover .cover-icon {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
   color: var(--text-dim);
 }
-.book-card .meta-row {
-  display: flex;
-  align-items: center;
-  min-height: 1.25rem;
+.book-row-cover .cover-icon svg { width: 32px; height: 32px; opacity: 0.7; }
+
+.book-row-body { min-width: 0; }
+.book-row-title {
+  margin: 0 0 4px;
+  font-size: 17px;
+  font-weight: 600;
   line-height: 1.25;
+  color: var(--text);
 }
-.book-card .meta-author {
-  align-items: flex-start;
-  min-height: 2.5em;
+.book-row-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-bottom: 4px;
+}
+.book-row-meta span + span::before {
+  content: "·";
+  margin-right: 10px;
+  opacity: 0.6;
+}
+.book-row-langs {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--accent);
+}
+.book-row-langs svg { width: 12px; height: 12px; }
+.book-row-desc {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.book-card .meta-tag {
-  gap: 6px;
-  flex-wrap: wrap;
-  min-height: 1.5rem;
-}
-.book-card .tag {
-  font-size: 10px;
-  padding: 2px 8px;
-  border-radius: 999px;
-  background: var(--accent-soft);
-  color: var(--accent);
-  font-weight: 500;
-  text-transform: lowercase;
-}
-.book-card .tag.--amber { background: var(--amber-soft); color: var(--amber-text); border: 1px solid var(--amber-border); }
-.book-card .tag.--emerald { background: rgba(16, 185, 129, 0.16); color: #34d399; }
-.book-card .desc {
-  font-size: 12px;
-  color: var(--text-muted);
-  line-height: 1.45;
-  margin: 0;
-}
-.book-card .cover-icon svg { width: 48px; height: 48px; opacity: 0.85; }
 
-/* "Available in N languages" line at the bottom of each book card */
-.book-card-langs {
+.book-row-actions {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+  /* The actions container can stretch wider than its buttons (notably
+     on mobile where it spans the full row). Make only the buttons
+     themselves intercept clicks; empty space in the container falls
+     through to the stretched .book-row-link beneath. */
+  pointer-events: none;
+}
+.book-row-actions > * { pointer-events: auto; }
+.book-row-actions .icon-only {
+  padding: 7px 9px;
+}
+.book-row-actions .icon-only svg { width: 14px; height: 14px; }
+.book-row--soon { opacity: 0.65; }
+.book-row--soon .book-row-cover { filter: grayscale(0.6); }
+
+/* PDF download trigger: a single green "Download PDF" button that
+   opens a per-language picker menu. No default download — every
+   download is an explicit language choice. */
+.pdf-download {
+  position: relative;
+  display: inline-flex;
+  pointer-events: auto;
+}
+.pdf-download-trigger {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  margin-top: 8px;
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: var(--accent-soft);
-  color: var(--accent);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  align-self: flex-start;
 }
-.book-card-langs svg { width: 12px; height: 12px; }
-.book-card-footer {
-  padding: 0 14px 14px;
-  margin-top: auto;
+.pdf-download-trigger > svg {
+  display: block;
+  width: 14px;
+  height: 14px;
 }
-.book-card-footer .btn svg { width: 14px; height: 14px; }
-.book-card--soon {
-  cursor: default;
-  opacity: 0.92;
+/* Vertical divider + chevron at the right edge of the button — signals
+   that this button opens a menu rather than firing a single action. */
+.pdf-download-trigger-sep {
+  display: inline-block;
+  margin-left: 4px;
+  opacity: 0.5;
+  font-weight: 400;
+  user-select: none;
 }
-.book-card--soon:hover {
-  transform: none;
-  border-color: var(--border);
+.pdf-download-trigger-chev {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  opacity: 0.85;
 }
-.book-card--soon .book-card-link {
-  cursor: default;
-  pointer-events: none;
+.pdf-download-trigger-chev svg {
+  display: block;
+  width: 12px;
+  height: 12px;
+  transition: transform .15s;
 }
-.book-card--soon .cover {
-  background: linear-gradient(135deg, var(--bg-card-2), var(--bg-card));
+.pdf-download.is-open .pdf-download-trigger-chev svg {
+  transform: rotate(180deg);
 }
-.book-soon {
-  width: 100%;
-  min-height: 140px;
-  display: grid;
-  place-items: center;
-  padding: 16px;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+.pdf-download-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 180px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  display: none;
+  z-index: 50;
+}
+.pdf-download.is-open .pdf-download-menu { display: block; }
+.pdf-download-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: var(--text) !important;
+  text-decoration: none;
+  font-size: 13px;
+  transition: background .12s;
+}
+.pdf-download-item:hover {
+  background: var(--surface-hover);
+}
+.pdf-download-item-label {
+  flex: 1;
+}
+.pdf-download-item-icon {
+  display: inline-flex;
   color: var(--text-dim);
-  border-radius: var(--radius-sm);
-  border: 1px dashed var(--border-strong);
-  background: var(--surface-subtle);
 }
+.pdf-download-item-icon svg { width: 12px; height: 12px; }
+.pdf-download-item:hover .pdf-download-item-icon { color: var(--accent); }
+
+/* Highlight the menu item that matches the visitor's current locale —
+   they likely want this version, but we don't auto-download it. */
+.pdf-download-item.is-current {
+  background: var(--accent-soft);
+  color: var(--accent) !important;
+  font-weight: 600;
+}
+.pdf-download-item.is-current .pdf-download-item-icon { color: var(--accent); }
+
+@media (max-width: 720px) {
+  /* On phones: cover stays at the top-left, actions wrap to a new
+     row below the body so each row still fits the screen. */
+  .book-row {
+    grid-template-columns: 56px 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    padding: 12px 14px;
+  }
+  .book-row-cover { width: 56px; height: 76px; }
+  .book-row-actions {
+    grid-column: 1 / -1;
+    justify-content: flex-end;
+  }
+  .book-row-desc { display: none; }
+}
+
 .book-actions {
   display: flex;
   flex-wrap: wrap;
@@ -1635,6 +1732,23 @@ body.video-player-open { overflow: hidden; }
 }
 .book-hero-action .btn { justify-content: center; }
 .book-hero-action .btn-sm { width: 100%; }
+/* On the book hero (where the download trigger is the only call-to-action
+   below "Start reading"), bump the trigger's font + padding so it reads
+   as a primary action rather than a small chip. The compact size stays
+   on the /books/ rows. */
+.book-hero-action .pdf-download {
+  width: 100%;
+}
+.book-hero-action .pdf-download-trigger {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px 16px;
+  gap: 8px;
+}
+.book-hero-action .pdf-download-trigger-chev svg {
+  width: 14px;
+  height: 14px;
+}
 .book-hero-action .source-link {
   font-size: 12px;
   color: var(--text-dim);
@@ -2246,6 +2360,141 @@ body.video-player-open { overflow: hidden; }
 .chapter .book-prose ul,
 .chapter .book-prose ol { padding-left: 1.4em; }
 
+/* Compact prev/next rail above the chapter title. Sticky so it stays
+   visible while the visitor scrolls through the chapter prose.
+   Three slots: prev (left) / counter (centre) / next (right). Empty
+   slots reserve their space so the counter stays centred even on
+   the first and last chapter. */
+.chapter-rail {
+  position: sticky;
+  top: 8px;
+  /* Below the desktop top-bar (z-index 50) and below the mobile-header
+     (z-index 80) so the language switcher and its dropdown stay above
+     the rail. */
+  z-index: 40;
+  margin: 8px 0 20px 0;
+  /* Flexible width that stays clear of the floating language pill.
+     The lang pill (fixed top:16px right:24px) plus its 360px dropdown
+     occupies the right ~400px of the viewport. We reserve that strip
+     by computing the rail's max-width as "viewport minus sidebar
+     minus pill-zone". On wide monitors .main is auto-centred and
+     prose-max kicks in first, so the rail simply matches the prose
+     width below it. On narrow desktops the rail shortens to keep
+     the Next button clear of the pill's dropdown footprint.
+     Below 960px the mobile media query resets this. */
+  max-width: min(
+    var(--prose-max),
+    calc(100vw - var(--sidebar-w) - 14rem)
+  );
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  /* Drop shadow so the rail floats over scrolled prose. Subtle on the
+     dark theme — purpose is depth, not contrast. */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+}
+.chapter-rail-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+}
+.chapter-rail-prev { min-width: 0; }
+.chapter-rail-next { min-width: 0; text-align: right; }
+.chapter-rail-prev a,
+.chapter-rail-next a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text) !important;
+  text-decoration: none;
+  font-size: 13px;
+  max-width: 100%;
+  transition: color .15s;
+}
+.chapter-rail-prev a:hover,
+.chapter-rail-next a:hover { color: var(--accent) !important; }
+.chapter-rail-next a { justify-content: flex-end; }
+.chapter-rail .cr-arrow {
+  font-size: 16px;
+  color: var(--text-dim);
+  transition: transform .15s, color .15s;
+  flex-shrink: 0;
+}
+.chapter-rail a:hover .cr-arrow { color: var(--accent); }
+.chapter-rail-prev a:hover .cr-arrow { transform: translateX(-2px); }
+.chapter-rail-next a:hover .cr-arrow { transform: translateX(2px); }
+.chapter-rail .cr-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.chapter-rail .cr-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  line-height: 1.2;
+}
+.chapter-rail .cr-title {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.chapter-rail-counter {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  padding: 0 4px;
+}
+@media (max-width: 960px) {
+  /* Mobile-header (fixed, z-index 80) is active from 960px down.
+     Push the sticky rail below it so they don't overlap. The lang
+     switcher lives inside the mobile-header here, so the rail no
+     longer needs to reserve right-side space for it — restore full
+     width. */
+  .chapter-rail {
+    top: calc(var(--mobile-header-h) + 4px);
+    max-width: none;
+  }
+}
+@media (max-width: 720px) {
+  /* On small screens, hide the chapter titles next to prev/next —
+     keep just the arrow + Prev/Next label so the rail fits. */
+  .chapter-rail .cr-title { display: none; }
+  .chapter-rail-row { padding: 8px 12px; }
+}
+@media (max-width: 420px) {
+  /* Tightest phones: keep arrows + counter only, drop the labels too. */
+  .chapter-rail .cr-label { display: none; }
+}
+
+/* Reading-progress bar sitting along the bottom edge of the sticky
+   rail. JS (static/js/chapter-scroll-progress.js) updates its width
+   based on how far the visitor has scrolled through .book-prose.
+   No border-radius so it spans rail edge to edge; transitions
+   removed because scroll-driven updates feel laggy when smoothed. */
+.chapter-progress {
+  width: 100%;
+  height: 3px;
+  background: transparent;
+  overflow: hidden;
+}
+.chapter-progress-bar {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--accent), rgba(168, 85, 247, 0.55));
+}
+
 .chapter-nav {
   display: flex;
   justify-content: space-between;
@@ -2348,9 +2597,9 @@ body.video-player-open { overflow: hidden; }
     position: absolute;
     top: calc(var(--mobile-header-h) - 4px);
     right: 12px;
-    min-width: 180px;
+    min-width: 200px;
     margin: 0;
-    padding: 6px;
+    padding: 8px;
     list-style: none;
     background: var(--bg-card);
     border: 1px solid var(--border-strong);
@@ -2362,9 +2611,27 @@ body.video-player-open { overflow: hidden; }
   .mobile-header-lang .lang-switcher.is-open .lang-switcher-menu {
     display: block;
   }
+  .mobile-header-lang .lang-switcher-group + .lang-switcher-group {
+    margin-top: 6px;
+  }
+  .mobile-header-lang .lang-switcher-group-label {
+    padding: 4px 8px 6px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 4px;
+  }
+  .mobile-header-lang .lang-switcher-group-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
   .mobile-header-lang .lang-switcher-item {
     display: block;
-    padding: 8px 12px;
+    padding: 6px 10px;
     border-radius: 8px;
     color: var(--text);
     font-size: 14px;

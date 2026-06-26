@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 Swapnil Deshpande
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Note on book content
+--------------------
+
+The MIT License above covers the **source code** of this site only:
+Hugo templates, CSS, JavaScript, build scripts, and configuration.
+
+The **book content** included in `content/` and the downloadable PDFs in
+`static/downloads/` — most notably *Carrom Techniques and Skills* by
+Arun Deshpande — remain the intellectual property of their respective
+authors:
+
+  © Arun Deshpande — *Carrom Techniques and Skills* and all original
+  coaching material on this site. All rights reserved.
+
+The *Official Carrom Rules & Regulations* chapter content is summarised
+from publicly-available sources (International Carrom Federation
+laws and wikiHow). See `data/books.yaml` for source attribution.
+
+If you wish to reproduce, translate, or redistribute Arun Deshpande's
+coaching book in any form, please contact him through the channels
+listed on the site.

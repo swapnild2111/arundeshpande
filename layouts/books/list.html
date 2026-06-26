@@ -20,12 +20,14 @@
   {{- $sourceUrl := .Params.sourceUrl | default "" -}}
   {{- $sources := slice -}}
   {{- $coverImage := "" -}}
+  {{- $matchedEntry := dict -}}
   {{- range (hugo.Data.books.books | default slice) -}}
     {{- if eq .id $bookId -}}
       {{- $pdfPath = index .pdfs $lang | default "" -}}
       {{- with .sourceUrl -}}{{ $sourceUrl = . }}{{- end -}}
       {{- with .sources -}}{{ $sources = . }}{{- end -}}
       {{- with .coverImage -}}{{ $coverImage = . }}{{- end -}}
+      {{- $matchedEntry = . -}}
     {{- end -}}
   {{- end -}}
   {{- $pdfExists := false -}}
@@ -38,6 +40,25 @@
     {{- else -}}
       {{- if fileExists (printf "static/%s" $rel) -}}
         {{- $pdfExists = true -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- /* Build the per-language PDF list for the dropdown — only
+       languages whose PDF file actually exists on disk. */ -}}
+  {{- $pdfsByLang := slice -}}
+  {{- $currentPdfLabel := "" -}}
+  {{- range hugo.Sites -}}
+    {{- $code := .Language.Lang -}}
+    {{- $candidate := index $matchedEntry.pdfs $code | default "" -}}
+    {{- if $candidate -}}
+      {{- $relC := strings.TrimPrefix "/" $candidate | strings.TrimPrefix "downloads/" -}}
+      {{- if fileExists (printf "static/downloads/%s" $relC) -}}
+        {{- $pdfsByLang = $pdfsByLang | append (dict
+          "code" $code
+          "label" .Language.Label
+          "path" $candidate
+        ) -}}
+        {{- if eq $code $lang -}}{{- $currentPdfLabel = .Language.Label -}}{{- end -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -80,10 +101,36 @@
       {{ end }}
 
       <div class="secondary-actions">
-        {{ if $pdfExists }}
-          <a class="btn btn-download btn-sm" href="{{ $pdfPath | relURL }}" download>
-            {{ partial "icons/download.html" . }}{{ i18n "download_pdf" | default "Download PDF" }}{{ if gt $pdfSizeKB 0 }} <span style="opacity:.7; font-weight:500;">({{ $pdfSizeKB }} KB)</span>{{ end }}
-          </a>
+        {{ if gt (len $pdfsByLang) 0 }}
+          <div class="pdf-download" data-pdf-download>
+            <button
+              type="button"
+              class="btn btn-download btn-sm pdf-download-trigger"
+              aria-haspopup="menu"
+              aria-expanded="false"
+              title="{{ i18n "download_pdf" | default "Download PDF" }}"
+            >
+              <span>{{ i18n "download_pdf" | default "Download PDF" }}</span>
+              <span class="pdf-download-trigger-sep" aria-hidden="true">|</span>
+              <span class="pdf-download-trigger-chev" aria-hidden="true">{{ partial "icons/chevron-down.html" . }}</span>
+            </button>
+            <ul class="pdf-download-menu" role="menu">
+              {{ range $pdfsByLang }}
+                <li role="none">
+                  <a
+                    class="pdf-download-item{{ if eq .code $lang }} is-current{{ end }}"
+                    role="menuitem"
+                    href="{{ .path | relURL }}"
+                    download
+                    lang="{{ .code }}"
+                  >
+                    <span class="pdf-download-item-label">{{ .label }}</span>
+                    <span class="pdf-download-item-icon" aria-hidden="true">{{ partial "icons/download.html" $ }}</span>
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
         {{ else }}
           <span class="btn btn-ghost btn-sm is-disabled" aria-disabled="true" title="{{ i18n "pdf_coming_soon" | default "PDF coming soon" }}">
             {{ partial "icons/download.html" . }}{{ i18n "download_pdf" | default "Download PDF" }}
@@ -143,7 +190,7 @@
 
   {{ partial "book-chips.html" (dict "current" "all" "books" $books "catalog" $catalog) }}
 
-  {{ partial "book-grid.html" (dict "catalog" $catalog "filter" "all") }}
+  {{ partial "book-shelf.html" (dict "catalog" $catalog "filter" "all") }}
 
   <span hidden data-books-root="{{ "books/" | relURL }}"></span>
 
