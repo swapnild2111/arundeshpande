@@ -1,6 +1,6 @@
 ---
 title: "વિડિઓ લાઇબ્રેરી"
-description: "Arun Deshpande દ્વારા carrom કોચિંગ વિડિયોઝ જુઓ — શિખાઉથી ચેમ્પિયન ટેકનિક, વત્તા 95 સમસ્યાઓ અને ઉકેલો."
+description: "અરુણ દેશપાંડે દ્વારા કેરમ કોચિંગ વિડિયોઝ જુઓ — શિખાઉથી ચેમ્પિયન ટેકનિક, વત્તા 95 સમસ્યાઓ અને ઉકેલો."
 aliases:
   - /videos/
 filters:
@@ -195,6 +195,6 @@ videos:
     title: "striker નું રોલિંગ"
     tags: ["champion"]
   - id: "aw2JB5YLc5k"
-    title: "સર Arun Deshpande દ્વારા ગોલ્ડન Carrom ટ્રેઝર"
+    title: "સર અરુણ દેશપાંડે દ્વારા ગોલ્ડન કેરમ ટ્રેઝર"
     tags: ["misc"]
 ---

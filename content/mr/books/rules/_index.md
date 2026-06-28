@@ -1,6 +1,6 @@
 ---
 title: "नियम"
-description: "अधिकृत carrom नियम आणि नियम — IAKC नियम पुस्तिका वाचा आणि डाउनलोड करा."
+description: "अधिकृत कॅरम नियम आणि नियम — IAKC नियम पुस्तिका वाचा आणि डाउनलोड करा."
 layout: category
 category: rules
 aliases:

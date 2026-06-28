@@ -1,19 +1,19 @@
 ---
 title: "પ્રકરણ 2 — વ્યાખ્યાઓ અને પરિભાષા"
-description: "આ કાયદાઓમાં વપરાતા દરેક શબ્દનું અર્થઘટન — Carromman, બોર્ડ, બ્રેક, Queen, ડ્યુ, પેનલ્ટી, કવરિંગ, Pair, Cannon, શોટ, સ્ટ્રોક, સ્લેમ અને વધુ."
+description: "આ કાયદાઓમાં વપરાતા દરેક શબ્દનું અર્થઘટન — કેરમman, બોર્ડ, બ્રેક, Queen, ડ્યુ, પેનલ્ટી, કવરિંગ, Pair, Cannon, શોટ, સ્ટ્રોક, સ્લેમ અને વધુ."
 weight: 2
 date: 2026-01-01
-author: "International Carrom Federation"
+author: "International કેરમ Federation"
 translatedBy: "અંગ્રેજીમાંથી અનુવાદિત (AI મુસદ્દો)."
 ---
 *આ કાયદાઓમાં, જ્યાં સુધી વિષય અથવા સંદર્ભથી વિપરીત કંઈ ન હોય ત્યાં સુધી, નીચે આપેલ શરતોમાં નીચેના અર્થઘટન હશે. આ પ્રકરણ એકવાર વાંચો અને બાકીના કાયદા સ્વાભાવિક રીતે વાંચો.*
 
-## કાયદા અને Carrom Board
+## કાયદા અને કેરમ Board
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">કાયદા</span>
-    <p class="def">Carrom ના કાયદા.</p>
+    <p class="def">કેરમ ના કાયદા.</p>
   </div>
   <div class="definition-card">
     <span class="term">યોગ્ય</span>
@@ -25,11 +25,11 @@ translatedBy: "અંગ્રેજીમાંથી અનુવાદિત 
   </div>
   <div class="definition-card">
     <span class="term">C/B</span>
-    <p class="def">Carrom Board.</p>
+    <p class="def">કેરમ Board.</p>
   </div>
   <div class="definition-card">
     <span class="term">C/m</span>
-    <p class="def">Carromman અથવા Carrommen.</p>
+    <p class="def">કેરમman અથવા કેરમmen.</p>
   </div>
 </div>
 
@@ -50,7 +50,7 @@ translatedBy: "અંગ્રેજીમાંથી અનુવાદિત 
   </div>
   <div class="definition-card">
     <span class="term">પ્લેયર</span>
-    <p class="def">એક Carrom ખેલાડી.</p>
+    <p class="def">એક કેરમ ખેલાડી.</p>
   </div>
   <div class="definition-card">
     <span class="term">વળો</span>

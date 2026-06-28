@@ -1,6 +1,6 @@
 ---
 title: "மற்றவை"
-description: "Carrom பயிற்சியாளரிடமிருந்து கூடுதல் carrom வீடியோக்கள் மற்றும் சிறப்பு அமர்வுகள் Arun Deshpande."
+description: "கேரம் பயிற்சியாளரிடமிருந்து கூடுதல் கேரம் வீடியோக்கள் மற்றும் சிறப்பு அமர்வுகள் அருண் தேஷ்பாண்டே."
 layout: category
 category: misc
 aliases:

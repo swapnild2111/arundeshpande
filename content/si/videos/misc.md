@@ -1,6 +1,6 @@
 ---
 title: "වෙනත්"
-description: "Carrom පුහුණුකරු Arun Deshpande වෙතින් අමතර carrom වීඩියෝ සහ විශේෂ සැසි."
+description: "කැරම් පුහුණුකරු අරුන් දේශ්පාන්ඩේ වෙතින් අමතර කැරම් වීඩියෝ සහ විශේෂ සැසි."
 layout: category
 category: misc
 aliases:

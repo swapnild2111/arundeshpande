@@ -1,6 +1,6 @@
 ---
 title: "වීඩියෝ පුස්තකාලය"
-description: "carrom පුහුණු කිරීමේ වීඩියෝ Arun Deshpande නරඹන්න — ආරම්භක සිට ශූර තාක්‍ෂණය, සහ ගැටළු 95ක් සහ විසඳුම්."
+description: "කැරම් පුහුණු කිරීමේ වීඩියෝ අරුන් දේශ්පාන්ඩේ නරඹන්න — ආරම්භක සිට ශූර තාක්‍ෂණය, සහ ගැටළු 95ක් සහ විසඳුම්."
 aliases:
   - /videos/
 filters:
@@ -195,6 +195,6 @@ videos:
     title: "striker රෝල් කිරීම"
     tags: ["champion"]
   - id: "aw2JB5YLc5k"
-    title: "Golden Carrom Treasure by Sir Arun Deshpande"
+    title: "Golden කැරම් Treasure by Sir අරුන් දේශ්පාන්ඩේ"
     tags: ["misc"]
 ---

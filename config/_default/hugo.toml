@@ -66,7 +66,7 @@ disableKinds = ["taxonomy", "term"]
     weight = 7
     contentDir = "content/si"
     [languages.si.params]
-      description = "Arun Deshpande විසින් Carrom පුහුණුව, තාක්ෂණය සහ පොත"
+      description = "අරුන් දේශ්පාන්ඩේ මහතා විසින් කැරම් පුහුණුව, තාක්ෂණය සහ පොත"
 
   [languages.hi]
     label = "हिन्दी"
@@ -98,7 +98,7 @@ disableKinds = ["taxonomy", "term"]
     weight = 11
     contentDir = "content/mni"
     [languages.mni.params]
-      description = "অৰুণ দেশপাণ্ডে না ক্যারম কোচিং, ৱাফম অমসুং বুক"
+      description = "ꯑꯔꯨꯟ ꯗꯦꯁꯄꯥꯟꯗꯦꯅꯥ ꯀꯦꯔꯝ ꯀꯣꯆꯤꯡ, ꯇꯦꯛꯅꯤꯛ ꯑꯃꯁꯨꯡ ꯂꯥꯏꯔꯤꯛ"
 
   [languages.ta]
     label = "தமிழ்"

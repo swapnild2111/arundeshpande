@@ -1,6 +1,6 @@
 ---
 title: "ꯚꯤꯗꯤꯑꯣ ꯂꯥꯏꯕ꯭ꯔꯦꯔꯤ꯫"
-description: "Arun Deshpandeꯅꯥ carrom ꯀꯣꯆꯤꯡ ꯚꯤꯗꯤꯑꯣꯁꯤꯡ ꯌꯦꯡꯕꯤꯌꯨ — ꯕꯤꯒꯤꯅꯔ ꯇꯨ ꯆꯦꯝꯄꯤꯌꯟ ꯇꯦꯛꯅꯤꯛ, ꯄ꯭ꯂꯥꯁ ꯄ꯭ꯔꯣꯕ꯭ꯂꯦꯝ ꯑꯃꯁꯨꯡ ꯁꯣꯂꯨꯁꯟ ꯹꯵꯫"
+description: "ꯑꯔꯨꯟ ꯗꯦꯁꯄꯥꯟꯗꯦꯅꯥ ꯀꯦꯔꯝ ꯀꯣꯆꯤꯡ ꯚꯤꯗꯤꯑꯣꯁꯤꯡ ꯌꯦꯡꯕꯤꯌꯨ — ꯕꯤꯒꯤꯅꯔ ꯇꯨ ꯆꯦꯝꯄꯤꯌꯟ ꯇꯦꯛꯅꯤꯛ, ꯄ꯭ꯂꯥꯁ ꯄ꯭ꯔꯣꯕ꯭ꯂꯦꯝ ꯑꯃꯁꯨꯡ ꯁꯣꯂꯨꯁꯟ ꯹꯵꯫"
 aliases:
   - /videos/
 filters:
@@ -195,6 +195,6 @@ videos:
     title: "strikerꯒꯤ ꯔꯣꯂꯤꯡ ꯇꯧꯕꯥ꯫"
     tags: ["champion"]
   - id: "aw2JB5YLc5k"
-    title: "ꯁꯔ Arun Deshpandeꯅꯥ ꯁꯦꯝꯕꯥ ꯁꯅꯥꯒꯤ Carrom ꯇ꯭ꯔꯦꯖꯔ꯫"
+    title: "ꯁꯔ ꯑꯔꯨꯟ ꯗꯦꯁꯄꯥꯟꯗꯦꯅꯥ ꯁꯦꯝꯕꯥ ꯁꯅꯥꯒꯤ ꯀꯦꯔꯝ ꯇ꯭ꯔꯦꯖꯔ꯫"
     tags: ["misc"]
 ---

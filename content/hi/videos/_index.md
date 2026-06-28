@@ -1,6 +1,6 @@
 ---
 title: "वीडियो लाइब्रेरी"
-description: "Arun Deshpande द्वारा carrom कोचिंग वीडियो देखें - शुरुआती से चैंपियन तकनीक, साथ ही 95 समस्याएं और समाधान।"
+description: "अरुण देशपांडे द्वारा कैरम कोचिंग वीडियो देखें - शुरुआती से चैंपियन तकनीक, साथ ही 95 समस्याएं और समाधान।"
 aliases:
   - /videos/
 filters:
@@ -195,6 +195,6 @@ videos:
     title: "striker का रोलिंग"
     tags: ["champion"]
   - id: "aw2JB5YLc5k"
-    title: "सर Arun Deshpande द्वारा गोल्डन Carrom खजाना"
+    title: "सर अरुण देशपांडे द्वारा गोल्डन कैरम खजाना"
     tags: ["misc"]
 ---
