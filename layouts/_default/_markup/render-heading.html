@@ -33,7 +33,7 @@
 {{- /* Only Techniques chapters carry video matches. */ -}}
 {{- $isTechniques := and
     (eq $level 2)
-    (hasPrefix $page.File.Path "books/students/carrom-techniques-and-skills/")
+    (strings.Contains $page.File.Path "books/students/carrom-techniques-and-skills/")
     (hasPrefix $page.File.LogicalName "chapter-")
 -}}
 {{- if $isTechniques -}}
