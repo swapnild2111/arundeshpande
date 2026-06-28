@@ -29,20 +29,31 @@
   {{- /* Per-language PDF paths the visitor can download. We include
        only languages whose PDF file actually exists on disk, and we
        attach the native label (e.g. "Dansk", "ગુજરાતી") taken from
-       hugo.Sites for that locale. Used by the download dropdown. */ -}}
+       hugo.Sites for that locale. Used by the download dropdown.
+       Sorted in the same regional order as the lang-switcher:
+       International → European → South Asian. */ -}}
+  {{- $langOrder := slice "en" "da" "de" "it" "fr" "pl" "mr" "hi" "gu" "si" "mni" -}}
   {{ $pdfsByLang := slice }}
   {{ $entry := . }}
+  {{- /* Build a map of code → site for quick lookup */ -}}
+  {{ $siteByCode := dict }}
   {{ range hugo.Sites }}
-    {{ $code := .Language.Lang }}
-    {{ $path := index $entry.pdfs $code | default "" }}
-    {{ if $path }}
-      {{ $rel := strings.TrimPrefix "/" $path | strings.TrimPrefix "downloads/" }}
-      {{ if fileExists (printf "static/downloads/%s" $rel) }}
-        {{ $pdfsByLang = $pdfsByLang | append (dict
-          "code" $code
-          "label" .Language.Label
-          "path" $path
-        ) }}
+    {{ $siteByCode = merge $siteByCode (dict .Language.Lang .) }}
+  {{ end }}
+  {{ range $langOrder }}
+    {{ $code := . }}
+    {{ $s := index $siteByCode $code }}
+    {{ if $s }}
+      {{ $path := index $entry.pdfs $code | default "" }}
+      {{ if $path }}
+        {{ $rel := strings.TrimPrefix "/" $path | strings.TrimPrefix "downloads/" }}
+        {{ if fileExists (printf "static/downloads/%s" $rel) }}
+          {{ $pdfsByLang = $pdfsByLang | append (dict
+            "code" $code
+            "label" $s.Language.Label
+            "path" $path
+          ) }}
+        {{ end }}
       {{ end }}
     {{ end }}
   {{ end }}

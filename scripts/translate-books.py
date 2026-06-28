@@ -27,6 +27,9 @@ LANGS = {
     "si": {"chapter": "අධ්‍යාය", "translated_by": "ඉංග්‍රීසියෙන් පරිවර්තනය කරන ලදී (AI කෙටුම්පත)."},
     "hi": {"chapter": "अध्याय", "translated_by": "अंग्रेज़ी से अनुवाद (AI मसूदा)."},
     "gu": {"chapter": "પ્રકરણ", "translated_by": "અંગ્રેજીમાંથી અનુવાદિત (AI મુસદ્દો)."},
+    "pl": {"chapter": "Rozdział", "translated_by": "Przetłumaczono z angielskiego (wersja robocza AI)."},
+    # mni uses Meitei script; Google Translate code is mni-Mtei (not the Hugo locale "mni")
+    "mni": {"chapter": "ꯃꯆꯤꯡ", "translated_by": "ꯏꯟꯒ꯭ꯂꯤꯁ ꯇꯥ ꯂꯧꯈꯠꯂꯛꯄ (AI ꯑꯣꯏꯕ ꯐꯥꯎꯕꯤꯁꯤꯡ).", "gt_target": "mni-Mtei"},
 }
 
 # International carrom terms — keep as-is during translation.
@@ -297,7 +300,8 @@ def main() -> None:
 
     for lang in targets:
         print(f"\n=== {lang.upper()} ===", flush=True)
-        translator = GoogleTranslator(source="en", target=lang)
+        gt_target = LANGS[lang].get("gt_target", lang)
+        translator = GoogleTranslator(source="en", target=gt_target)
         for book in BOOKS:
             en_dir = EN_ROOT / book
             out_dir = REPO / "content" / lang / "books" / book

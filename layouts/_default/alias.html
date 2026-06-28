@@ -31,6 +31,7 @@
     // The alias template is also used elsewhere (per-page aliases for
     // moved URLs) — those redirect within a language and shouldn't
     // trigger auto-detect.
+    // 11 supported locales: en da de mr it fr si hi gu pl mni
     var here = location.pathname.replace(/\/+$/, '');
     // The default-language home permalink (e.g. /arundeshpande/en/).
     // The root URL is everything BEFORE the trailing locale segment.
@@ -45,7 +46,7 @@
       // Honour an explicit user pick (set by the language switcher).
       var picked = localStorage.getItem('site-lang');
 
-      var supported = ['en', 'da', 'de', 'mr', 'it', 'fr', 'si', 'hi', 'gu'];
+      var supported = ['en', 'da', 'de', 'mr', 'it', 'fr', 'si', 'hi', 'gu', 'pl', 'mni'];
 
       var chosen = null;
       if (picked && supported.indexOf(picked) !== -1) {

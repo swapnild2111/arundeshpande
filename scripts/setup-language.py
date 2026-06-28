@@ -107,8 +107,15 @@ def translate_about(lang: str, translator: GoogleTranslator) -> None:
     print(f"updated {path.relative_to(REPO)} ({lang})")
 
 
+# Some Hugo locale codes don't match Google Translate codes directly.
+GT_OVERRIDES = {
+    "mni": "mni-Mtei",  # Meitei script; Hugo locale is "mni"
+}
+
+
 def setup_language(lang: str) -> None:
-    translator = GoogleTranslator(source="en", target=lang)
+    gt_target = GT_OVERRIDES.get(lang, lang)
+    translator = GoogleTranslator(source="en", target=gt_target)
     print(f"\n=== {lang.upper()} site shell ===")
     print("=== i18n ===")
     translate_i18n(lang, translator)

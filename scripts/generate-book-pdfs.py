@@ -34,7 +34,7 @@ CACHE_DIR = REPO / ".cache" / "book-docx"
 OUTPUT_DIR = REPO / "static" / "downloads"
 BOOK_SLUG = "carrom-techniques-and-skills"
 
-ALL_LANGS = ["en", "da", "de", "mr", "it", "fr", "si", "hi", "gu"]
+ALL_LANGS = ["en", "da", "de", "mr", "it", "fr", "si", "hi", "gu", "pl", "mni"]
 
 # Reuse translation helpers from translate-books.py
 _spec = importlib.util.spec_from_file_location(
@@ -108,7 +108,8 @@ def set_paragraph_text(para, text: str) -> None:
 def translate_docx(src: Path, dest: Path, lang: str) -> None:
     print(f"  translating docx → {lang} …", flush=True)
     doc = Document(str(src))
-    translator = GoogleTranslator(source="en", target=lang)
+    gt_target = (_tb.LANGS.get(lang) or {}).get("gt_target", lang)
+    translator = GoogleTranslator(source="en", target=gt_target)
     total = sum(1 for _ in iter_paragraphs(doc))
     done = 0
 

@@ -1,0 +1,8 @@
+---
+title: "ꯃꯔꯛꯇ ꯂꯩꯕ"
+description: "ꯏꯟꯇꯔꯃꯤꯗꯤꯌꯦꯠ carrom ꯂꯦꯁꯅꯁꯤꯡ — ꯑꯦꯗꯚꯥꯟꯁ ꯁ꯭ꯠꯔꯣꯛ, ꯗꯤꯐꯦꯟꯁ, force, ꯑꯃꯁꯨꯡ ꯃꯦꯆ ꯇꯦꯛꯅꯤꯛ꯫"
+layout: category
+category: intermediate
+aliases:
+  - /videos/intermediate/
+---

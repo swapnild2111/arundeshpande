@@ -16,6 +16,8 @@ books:
       si: "downloads/carrom-techniques-and-skills-si.pdf"
       hi: "downloads/carrom-techniques-and-skills-hi.pdf"
       gu: "downloads/carrom-techniques-and-skills-gu.pdf"
+      pl: "downloads/carrom-techniques-and-skills-pl.pdf"
+      mni: "downloads/carrom-techniques-and-skills-mni.pdf"
     titles:
       en: "Carrom Techniques and Skills"
       da: "Carrom-teknik og færdigheder"
@@ -26,6 +28,8 @@ books:
       si: "Carrom තාක්ෂණික කුසලතා"
       hi: "कैरम तकनीक और कौशल"
       gu: "કેરમ તકનીકો અને કુશળતા"
+      pl: "Techniki i umiejętności Carrom"
+      mni: "ꯀꯦꯔꯝ ꯇꯦꯛꯅꯤꯛ ꯑꯃꯁꯨꯡ ꯁꯀꯤꯜ"
     descriptions:
       en: "Arun Deshpande's complete coaching book — grips, breaks, every major stroke, defence, offence, and advanced board positions."
       da: "Arun Deshpandes komplette træningsbog — greb, åbningsslag, alle hovedslag, forsvar, angreb og avancerede stillinger."
@@ -36,6 +40,8 @@ books:
       si: "Arun Deshpande ගේ සම්පූර්ණ පුහුණු පොත — grip, break, සියලු ප්‍රධාන stroke, ආරක්ෂණය, ප්‍රහාරය සහ උසස් board positions."
       hi: "अरुण देशपांडे की संपूर्ण कोचिंग पुस्तक — ग्रिप, ब्रेक, सभी प्रमुख स्ट्रोक, रक्षा, आक्रमण और उन्नत बोर्ड स्थितियाँ।"
       gu: "અરુણ દેશપાંડેની સંપૂર્ણ કોચિંગ બુક — ગ્રિપ્સ, બ્રેક્સ, દરેક મુખ્ય સ્ટ્રોક, ડિફેન્સ, ઓફેન્સ અને એડવાન્સ્ડ બોર્ડ પોઝિશન્સ."
+      pl: "Kompletna książka coachingowa Aruna Deshpande — chwyty, przebicia, wszystkie główne uderzenia, obrona, atak i zaawansowane pozycje na planszy."
+      mni: "ꯑꯔꯨꯟ ꯗꯦꯁꯄꯥꯟꯗꯦꯒꯤ ꯑꯣꯏꯕ ꯀꯣꯆꯤꯡ ꯄꯨꯛ — ꯒ꯭ꯔꯤꯄ, ꯕ꯭ꯔꯦꯛ, ꯃꯇꯝ ꯑꯃꯁꯨꯡ ꯑꯗꯨꯒꯨꯝꯕꯒꯤ ꯄꯣꯖꯤꯁꯟ."
     tagLabels:
       en: "Read online"
       da: "Læs online"
@@ -46,6 +52,8 @@ books:
       si: "ඔන්ලයින් කියවන්න"
       hi: "ऑनलाइन पढ़ें"
       gu: "ઓનલાઈન વાંચો"
+      pl: "Czytaj online"
+      mni: "ꯑꯣꯟꯂꯥꯏꯟꯗ ꯑꯃꯨꯛ ꯁꯤꯡꯒꯠꯄ"
     languages:
       en: true
       da: true
@@ -56,6 +64,8 @@ books:
       si: true
       hi: true
       gu: true
+      pl: true
+      mni: true
 
   - id: official-carrom-rules
     category: rules
@@ -80,6 +90,8 @@ books:
       si: "downloads/carrom-official-rules-si.pdf"
       hi: "downloads/carrom-official-rules-hi.pdf"
       gu: "downloads/carrom-official-rules-gu.pdf"
+      pl: "downloads/carrom-official-rules-pl.pdf"
+      mni: "downloads/carrom-official-rules-mni.pdf"
     titles:
       en: "Official Carrom Rules & Regulations"
       da: "Officielle carrom-regler"
@@ -90,6 +102,8 @@ books:
       si: "Carrom නිල නීති සහ regulations"
       hi: "आधिकारिक कैरम नियम और विनियम"
       gu: "સત્તાવાર કેરમ નિયમો અને નિયમો"
+      pl: "Oficjalny regulamin Carrom"
+      mni: "ꯀꯦꯔꯝꯒꯤ ꯑꯣꯏꯅꯕ ꯆꯥꯡꯁꯤꯟ"
     descriptions:
       en: "The complete laws of carrom as published by the International Carrom Federation — equipment, definitions, match procedure, scoring, fouls, and the Queen rules."
       da: "De officielle internationale carrom-regler udgivet af International Carrom Federation."
@@ -100,6 +114,8 @@ books:
       si: "International Carrom Federation විසින් පළ කරන ලද Carrom නීති සම්පූර්ණය — equipment, definitions, match procedure, scoring, fouls සහ Queen rules."
       hi: "International Carrom Federation द्वारा प्रकाशित कैरम के संपूर्ण नियम — उपकरण, परिभाषाएँ, मैच प्रक्रिया, स्कोरिंग, फ़ाउल और Queen नियम।"
       gu: "International Carrom Federation દ્વારા પ્રકાશિત કેરમના સંપૂર્ણ કાયદા — સાધનો, વ્યાખ્યાઓ, મેચ પ્રક્રિયા, સ્કોરિંગ, ફાઉલ અને Queen નિયમો."
+      pl: "Kompletne przepisy Carrom opublikowane przez Międzynarodową Federację Carrom — sprzęt, definicje, procedura meczowa, punktacja, faule i zasady dotyczące Queen."
+      mni: "International Carrom Federation না ꯐꯦꯡꯗꯣꯛꯄ ꯀꯦꯔꯝꯒꯤ ꯆꯥꯡꯁꯤꯟ — ꯇ꯭ꯔꯩꯅꯤꯡ, ꯃꯅꯨꯡꯕꯗꯥ ꯁꯤꯡꯕ, ꯃꯆꯡ ꯍꯥꯏꯕ ꯑꯃꯁꯨꯡ Queen ꯆꯥꯡꯁꯤꯟ."
     tagLabels:
       en: "Read online"
       da: "Læs online"
@@ -110,6 +126,8 @@ books:
       si: "ඔන්ලයින් කියවන්න"
       hi: "ऑनलाइन पढ़ें"
       gu: "ઓનલાઈન વાંચો"
+      pl: "Czytaj online"
+      mni: "ꯑꯣꯟꯂꯥꯏꯟꯗ ꯑꯃꯨꯛ ꯁꯤꯡꯒꯠꯄ"
     languages:
       en: true
       da: true
@@ -120,3 +138,5 @@ books:
       si: true
       hi: true
       gu: true
+      pl: true
+      mni: true

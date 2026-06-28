@@ -7,7 +7,7 @@
 [![Live](https://img.shields.io/badge/Live-swapnild2111.github.io%2Farundeshpande-4f8ef7?style=flat-square)](https://swapnild2111.github.io/arundeshpande/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-4ade80?style=flat-square)](LICENSE)
 [![Built with Hugo](https://img.shields.io/badge/Built%20with-Hugo-ff4088?style=flat-square)](https://gohugo.io/)
-[![Languages: 9](https://img.shields.io/badge/Languages-9-7dd3fc?style=flat-square)](#languages)
+[![Languages: 11](https://img.shields.io/badge/Languages-11-7dd3fc?style=flat-square)](#languages)
 [![No tracking](https://img.shields.io/badge/Tracking-none-f87171?style=flat-square)](#why-this-exists)
 
 [**👉 Open the portal**](https://swapnild2111.github.io/arundeshpande/)
@@ -18,7 +18,7 @@
 
 ## What's inside
 
-Three decades of carrom coaching from **Shri Arun Deshpande** — 7× Maharashtra State Champion and former coach of the India National Carrom Team — gathered in one place, free to read and free to download.
+Three decades of carrom coaching from **Shri Arun Deshpande** — 7× Maharashtra State Champion and former coach of the India National Carrom Team — gathered in one place, free to read and free to download, in 11 languages.
 
 | Section | What's there | What you do |
 |---|---|---|
@@ -38,7 +38,7 @@ Arun's mission is straightforward: **carrom should reach as many players as poss
 - 🔐 **No account, no email, no signup** — open the site, start reading
 - 🚫 **No tracking on you** — no analytics, no fingerprinting, no third-party scripts beyond YouTube embeds when you play a video
 - 📚 **Real coaching content** — every chapter is Arun's own writing, with figures from the original manuscript and tutorial videos pinned to the matching sections
-- 🌐 **9 languages** — English, Dansk, Deutsch, मराठी, Italiano, Français, සිංහල, हिन्दी, ગુજરાતી — auto-detected from your browser at the root URL
+- 🌐 **11 languages** — English, Dansk, Deutsch, मराठी, Italiano, Français, සිංහල, हिन्दी, ગુજરાતી, Polski, ꯃꯩꯇꯩꯂꯣꯟ — auto-detected from your browser at the root URL
 - 📱 **Works on your phone** — responsive layout; sticky chapter navigation; no app store
 - 💾 **Your preferences stay with you** — the only client-side state is your chosen language, kept in `localStorage`
 
@@ -50,7 +50,7 @@ It started as a side project to put one book online for one carrom coach. It gre
 
 ### 🌐 9 languages — and each PDF too
 
-Every page of the site translates to **English, Dansk, Deutsch, मराठी, Italiano, Français, සිංහල, हिन्दी, ગુજરાતી**. So do both PDF downloads. The language switcher in the top-right groups them by region (International / European / South Asian) so you can find yours fast — and the site auto-detects your browser's preferred language at the root URL so most visitors never have to switch manually.
+Every page of the site translates to **English, Dansk, Deutsch, मराठी, Italiano, Français, සිංහල, हिन्दी, ગુજરાતી, Polski, ꯃꯩꯇꯩꯂꯣꯟ**. So do both PDF downloads. The language switcher in the top-right groups them by region (International / European / South Asian) so you can find yours fast — and the site auto-detects your browser's preferred language at the root URL so most visitors never have to switch manually.
 
 ### 🤖 AI-drafted, human-reviewed translations
 
@@ -90,7 +90,9 @@ No analytics, no cookies, no third-party trackers. The only network requests the
 | `mr` | Marathi | मराठी | South Asian |
 | `hi` | Hindi | हिन्दी | South Asian |
 | `gu` | Gujarati | ગુજરાતી | South Asian |
+| `pl` | Polish | Polski | European |
 | `si` | Sinhala | සිංහල | South Asian |
+| `mni` | Manipuri (Meitei) | ꯃꯩꯇꯩꯂꯣꯟ | South Asian |
 
 Want to review or improve the translation into your language? **That's the most valuable contribution possible.** Open an issue with the language code in the title, or reach Arun via the [Contact page](https://swapnild2111.github.io/arundeshpande/en/contact/).
 
@@ -138,7 +140,7 @@ arundeshpande/
 │   │   └── books/
 │   │       ├── students/carrom-techniques-and-skills/   # 14 chapters
 │   │       └── rules/official-carrom-rules/             # 8 chapters
-│   └── da/ de/ mr/ it/ fr/ si/ hi/ gu/                  # mirror EN
+│   └── da/ de/ mr/ it/ fr/ si/ hi/ gu/ pl/ mni/          # mirror EN
 ├── data/
 │   ├── books.yaml               # catalogue, PDF paths, per-lang titles
 │   ├── about.yaml               # bio per language

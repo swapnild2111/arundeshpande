@@ -84,6 +84,22 @@ disableKinds = ["taxonomy", "term"]
     [languages.gu.params]
       description = "અરુણ દેશપાંડે દ્વારા કેરમ કોચિંગ, ટેકનીક અને પુસ્તક"
 
+  [languages.pl]
+    label = "Polski"
+    locale = "pl"
+    weight = 10
+    contentDir = "content/pl"
+    [languages.pl.params]
+      description = "Coaching carrom, technika i książka autorstwa Arun Deshpande"
+
+  [languages.mni]
+    label = "ꯃꯩꯇꯩꯂꯣꯟ"
+    locale = "mni"
+    weight = 11
+    contentDir = "content/mni"
+    [languages.mni.params]
+      description = "অৰুণ দেশপাণ্ডে না ক্যারম কোচিং, ৱাফম অমসুং বুক"
+
 [outputs]
   home = ["HTML", "RSS"]
 

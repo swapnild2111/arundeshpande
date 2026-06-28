@@ -1,0 +1,8 @@
+---
+title: "ꯆꯦꯝꯄꯤꯌꯟ ꯑꯣꯏꯈꯤ꯫"
+description: "ꯆꯦꯝꯄꯤꯌꯟ-ꯂꯦꯚꯦꯜ carrom ꯀꯣꯆꯤꯡ — ꯃꯥꯏꯄꯥꯀꯄꯥ ꯁ꯭ꯠꯔꯣꯀꯁꯤꯡ, ꯑꯦꯀꯖꯤꯕꯤꯁꯟ ꯁꯣꯠꯊꯔꯕꯥ, ꯑꯃꯁꯨꯡ ꯏꯂꯤꯠ ꯃꯦꯆ ꯄ꯭ꯂꯦ꯫"
+layout: category
+category: champion
+aliases:
+  - /videos/champion/
+---
