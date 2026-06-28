@@ -156,9 +156,3 @@ other = 'Dostępne w {{ .Count }} językach'
 
 [chapter_count_of]
 other = 'Rozdział {{ .Current }} z {{ .Total }}'
-
-[lang_group_world]
-other = "Świat"
-
-[lang_group_asia]
-other = "Azja"

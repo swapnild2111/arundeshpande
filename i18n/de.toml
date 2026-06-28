@@ -156,9 +156,3 @@ other = "Lesefortschritt"
 
 [other_languages]
 other = "Andere Sprachen"
-
-[lang_group_world]
-other = "Welt"
-
-[lang_group_asia]
-other = "Asien"

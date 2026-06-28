@@ -156,9 +156,3 @@ other = '{{ .Count }} ꯂꯣꯂꯗ ꯂꯩꯕꯥ'
 
 [chapter_count_of]
 other = 'ꯃꯆꯤꯡ {{ .Current }} / {{ .Total }}'
-
-[lang_group_world]
-other = "ꯃꯤꯑꯣꯏꯕ ꯂꯝ"
-
-[lang_group_asia]
-other = "ꯑꯦꯁꯤꯌꯥ"

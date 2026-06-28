@@ -148,12 +148,6 @@ other = "Videos are in Marathi with English carrom terms. Tap the CC button in t
 [available_in_n_languages]
 other = 'Available in {{ .Count }} languages'
 
-[lang_group_world]
-other = "World"
-
-[lang_group_asia]
-other = "Asia"
-
 [chapter_count_of]
 other = 'Chapter {{ .Current }} of {{ .Total }}'
 
