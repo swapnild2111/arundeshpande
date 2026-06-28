@@ -1,7 +1,7 @@
 {{- $current := . -}}
-{{- $perms := dict (.Language.Lang) .Permalink -}}
+{{- $perms := dict (.Language.Lang) .RelPermalink -}}
 {{- range .Translations -}}
-  {{- $perms = merge $perms (dict (.Language.Lang) .Permalink) -}}
+  {{- $perms = merge $perms (dict (.Language.Lang) .RelPermalink) -}}
 {{- end -}}
 {{- $currentLabel := $current.Language.Lang | upper -}}
 {{- $labels := dict -}}

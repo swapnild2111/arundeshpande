@@ -565,14 +565,15 @@ h1, h2, h3, h4 {
 .about-cols {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  gap: 0 24px;
 }
 .about-cols p {
   margin: 0 0 0.8em;
   color: var(--text-muted);
   font-size: 14px;
+  line-height: 1.7;
 }
-.about-cols strong { color: var(--text); font-weight: 600; }
+.about-cols strong { color: var(--accent); font-weight: 600; }
 
 /* ---------- explore (3-card row, gradient backgrounds) ---------- */
 .section-title {
@@ -2674,7 +2675,7 @@ body.video-player-open { overflow: hidden; }
   .hero-photo img, .hero-photo-placeholder { width: 100%; max-width: 240px; margin: 0 auto; }
   .stat-grid, .ach-grid { grid-template-columns: repeat(2, 1fr); }
   .explore-grid { grid-template-columns: 1fr; }
-  .about-cols { grid-template-columns: 1fr; gap: 0; }
+  .about-cols { display: block; }
   .video-grid { grid-template-columns: repeat(2, 1fr); }
   .ps-browser .ps-group.is-active {
     grid-template-columns: 1fr;
