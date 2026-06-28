@@ -1,55 +1,54 @@
 ---
 title: "Capitolo 10 — Slip, Striker Slip, Double Touch"
-description: "Slip, Striker Slip e Double Touch: colpi di controllo preciso utilizzati quando le monete si sovrappongono."
+description: "Slip, Striker Slip e Double Touch: colpi di precisione utilizzati quando le monete si sovrappongono."
 weight: 10
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-22.jpg"
   alt: "Slip, Striker Slip, Double Touch"
-translatedBy: "Tradotto dall'inglese (bozza AI)."
 ---
-*Slip, Striker Slip e Double Touch — colpi di controllo preciso utilizzati quando le monete si sovrappongono.*
+*Slip, Striker Slip e Double Touch — colpi di precisione utilizzati quando le monete si sovrappongono.*
 
-##Slip
+## Slip
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Slip</span>
-    <p class="def">Mettere in tasca una moneta toccando un fotogramma colpendone il quarto di punto.</p>
+    <p class="def">Messa in buca di una pallina che tocca una sponda colpendo il suo punto di quarto.</p>
   </div>
 </div>
 
-Come mostrato nella figura 16-A, se la moneta che tocca un qualsiasi fotogramma viene imbucata colpendo sul suo quarto di punta, il colpo viene chiamato slip, pugno o quarto.
+Come mostrato nella figura 16-A, se una pallina che tocca una qualsiasi sponda viene messa in buca colpendo il suo punto di quarto, la mossa viene chiamata slip, punch o quarter.
 
-Come mostrato nella figura 16-A, se una moneta è a 5 pollici o più di distanza dalla tasca base, il giocatore dovrebbe provare a intascarla nella tasca opposta.
+Come mostrato nella figura 16-A, se una moneta si trova a 5 pollici o più di distanza dalla buca di base, il giocatore dovrebbe cercare di imbucarla nella buca opposta.
 
-Come mostrato nelle figure 16-B e C, se una moneta si trova alla base del telaio opposto, posizionando striker leggermente in linea trasversale con la moneta, il giocatore dovrebbe colpire la porzione del quarto della moneta con velocità media.
+Come mostrato nelle figure 16-B e C, se una moneta si trova sul bordo di base del telaio opposto, posizionando la stecca leggermente in linea trasversale rispetto alla moneta, il giocatore dovrebbe colpire il quarto della moneta a velocità media.
 
-Come mostrato nella figura l6-D, se una moneta è vicino alla tasca della base, deve essere infilata nella tasca della base. In una tale posizione non si dovrebbe provare un rebound poiché una tale moneta non può essere intascata così facilmente da rebound. A volte c'è il pericolo di una scadenza se il rebound non è preciso, quindi girando la moneta dal telaio e seguendo il striker nella tasca.
+Come mostrato nella figura 16-D, se una moneta si trova vicino alla buca di base, allora dovrebbe essere fatta scivolare nella buca di base. In tale posizione non si dovrebbe tentare un rimbalzo, poiché una moneta del genere non può essere imbucata così facilmente tramite rimbalzo. A volte sussiste il rischio di un "due" se il rimbalzo non è preciso, con la moneta che si allontana dal telaio e segue il battitore nella tasca.
 
-## Il Striker Slip
+## Lo "Striker Slip"
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Il Striker Slip</span>
-    <p class="def">Striker scivola da una moneta per colpire e intascarne un'altra vicina.</p>
+    <span class="term">Lo scivolamento del battitore</span>
+    <p class="def">Il battitore scivola da una moneta per colpire e mandare in buca un'altra vicina.</p>
   </div>
 </div>
 
-Molte volte c'è una posizione come mostrata in Fig. 16-F. Una delle nostre monete è attaccata al telaio e l'altra è lontana da questa moneta e anche leggermente lontana dal telaio.
+Spesso si verifica una situazione come quella illustrata nella Fig. 16-F. Una delle nostre monete è incastrata contro il telaio, mentre l'altra è distante da essa e anche leggermente lontana dal telaio.
 
-Normalmente avremo bisogno di due colpi per giocare queste due monete. Se giochi il colpo mostrato in Fig. 16-E il tuo striker si distaccherà dalla moneta attaccata e colpirà la moneta che è poco lontana dal telaio e verrà imbucata e la moneta che viene colpita per prima verrà rimossa da quella posizione e diventerà facile per noi. Ci sono rare occasioni in cui queste due monete entrano nelle tasche contemporaneamente. Per riprodurre questo colpo dovresti applicare un po' più force di quello applicato per il colpo di slip.
+Normalmente occorrono due colpi per giocare queste due monete. Se si esegue il colpo mostrato nella Fig. 16-E, lo striker scivolerà via dalla moneta incastrata e colpirà quella leggermente distante dal telaio, che verrà messa in buca; la moneta colpita per prima verrà rimossa da quella posizione e la situazione diventerà più semplice per noi. Ci sono rare occasioni in cui queste due monete finiscono nelle tasche con lo stesso colpo. Per eseguire questo colpo dovreste applicare una forza leggermente maggiore rispetto a quella utilizzata per il colpo di scivolamento.
 
-## Double Touch
+## Doppio tocco
 
 ![Figura 1](/images/book/fig-22.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Double Touch</span>
-    <p class="def">Striker tocca la moneta due volte prima di imbucarla: utilizzato vicino ai telai laterali.</p>
+    <span class="term">Doppio tocco</span>
+    <p class="def">Il battitore tocca la moneta due volte prima di mandarla in buca — utilizzato vicino alle sponde laterali.</p>
   </div>
 </div>
 
-Se il colpo mostrato in figura 16 è un po' lontano dai fotogrammi, il striker deve essere rilasciato in modo tale che tocchi la moneta due volte e la moneta venga imbucata, questo colpo è chiamato double touch. Spesso un giocatore deve giocare a double touch per le monete che si trovano vicino ai telai laterali. Se queste monete sono a più di mezzo pollice di distanza solo dal telaio laterale, allora questo colpo dovrebbe essere giocato. Se le monete sono a meno di mezzo pollice di distanza dal telaio laterale, un rebound è più facile di double touch.
+Se la moneta mostrata nella figura 16 è leggermente distante dalle sponde, il bastone deve essere rilasciato in modo tale da toccare la moneta due volte e farla entrare in buca; questo colpo è chiamato "doppio tocco". Spesso un giocatore deve eseguire il doppio tocco per le monete che si trovano vicino alle sponde laterali. Questo colpo va eseguito solo se le monete distano più di mezzo pollice dalla sponda laterale. Se le monete distano meno di mezzo pollice dalla sponda laterale, è più facile eseguire un rimbalzo piuttosto che un doppio tocco.

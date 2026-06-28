@@ -1,36 +1,35 @@
 ---
-title: "Rozdział 4 — Chwyty"
-description: "Chwyt naturalny, chwyt nożycowy, chwyt blokujący, chwyt płaski na palcu środkowym — kiedy i jak używać każdego z nich."
+title: "Rozdział 4 — Uchwyty"
+description: "Uchwyt naturalny, uchwyt nożycowy, uchwyt blokujący, uchwyt płaski środkowym palcem — kiedy i jak stosować każdy z nich."
 weight: 4
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-03.jpg"
   alt: "Grips"
-translatedBy: "Przetłumaczono z angielskiego (wersja robocza AI)."
 ---
-*Przyczepność jest podstawą każdego uderzenia opisanego w tej książce. Arun opisuje cztery chwyty — najpierw opracuj jeden naturalny, a następnie dodaj kolejne w miarę rozwoju gry.*
+*Chwyt stanowi podstawę każdego uderzenia opisanego w tej książce. Arun opisuje cztery rodzaje chwytów — najpierw wypracuj naturalny, a następnie, w miarę rozwoju Twojej gry, dodawaj kolejne.*
 
-## Uchwyty
+## Chwyty
 
-Przyczepność jest bardzo ważna w grze carrom. Powinieneś rozwinąć naturalny chwyt.
+Chwyt odgrywa bardzo ważną rolę w grze w karrom. Powinieneś wypracować naturalny chwyt.
 
-## Naturalny chwyt
+## Chwyt naturalny
 
 ![Rysunek 1](/images/book/fig-03.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Naturalny chwyt</span>
-    <p class="def">Palec wskazujący i kciuk na striker; pozostałe palce spoczywają na sklejce. Najpopularniejszy i najłatwiejszy do nauczenia się chwyt.</p>
+    <span class="term">Chwyt naturalny</span>
+    <p class="def">Palec wskazujący i kciuk na kiju uderzającym; pozostałe palce spoczywają na sklejce. Najpopularniejszy i najłatwiejszy do opanowania chwyt.</p>
   </div>
 </div>
 
-Istnieje wiele rodzajów uchwytów. Najpopularniejszym chwytem jest kombinacja palca wskazującego i kciuka. Zobacz powyższe zdjęcie. Jest to bardzo łatwy chwyt i wymaga mniej praktyki. W tym uchwycie wszystkie pozostałe palce spoczywają na sklejce.
+Istnieje wiele rodzajów chwytów. Najpopularniejszym z nich jest połączenie palca wskazującego i kciuka. Zobacz powyższe zdjęcie. Jest to bardzo łatwy sposób trzymania, wymagający mniej ćwiczeń. W tym ułożeniu wszystkie pozostałe palce spoczywają na sklejce.
 
-Ten uchwyt ma wiele zalet. Dzięki temu uchwytowi gracz może zachować maksymalną kontrolę nad striker. Ten chwyt pozostaje stabilny i mocny, ponieważ wszystkie pozostałe palce opierają się na sklejce. Zawodnik z tym chwytem może grać na minimalnej przestrzeni.
+Ten sposób trzymania ma wiele zalet. Dzięki niemu gracz może zachować maksymalną kontrolę nad pałeczką. Uchwyt ten pozostaje stabilny i pewny, ponieważ wszystkie pozostałe palce opierają się na sklejce. Gracz stosujący ten chwyt może grać na minimalnej przestrzeni.
 
-Czasami, gdy nie ma wystarczającej ilości miejsca na umieszczenie chwytu, gracz może grać palcem wskazującym, odrywając wszystkie pozostałe palce od sklejki. Dzięki temu chwytowi gracz może grać z równą łatwością po obu stronach (lewej lub prawej) carrom board. Dlatego gra gracza nie pozostaje słaba pod żadną ze stron. W tym uścisku paznokcie wszystkich palców touch sklejki. Dlatego jeśli którykolwiek paznokieć urósł bardziej niż zwykle, nastąpi zmiana chwytu. Takie drobne rzeczy są bardzo ważne w carrom.
+Czasami, gdy nie ma wystarczającej ilości miejsca na ułożenie dłoni, gracz może grać, podnosząc wszystkie pozostałe palce z płyty za pomocą palca wskazującego. Dzięki temu chwytowi gracz może z równą łatwością grać po obu stronach (lewej lub prawej) stołu do karambolu. Dzięki temu gra gracza nie traci na jakości po żadnej ze stron. W tym uchwycie paznokcie wszystkich palców dotykają sklejki. Dlatego jeśli którykolwiek paznokieć urósł bardziej niż zwykle, nastąpi zmiana w uchwycie. Takie drobne szczegóły są bardzo ważne w karambolu.
 
 ## Uchwyt nożycowy
 
@@ -39,34 +38,34 @@ Czasami, gdy nie ma wystarczającej ilości miejsca na umieszczenie chwytu, grac
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Uchwyt nożycowy</span>
-    <p class="def">Używany głównie podczas przerwy w Indiach; używany jako naturalny chwyt na Sri Lance i Malediwach. Trudno grać na prawej stronie.</p>
+    <p class="def">Stosowany głównie do rozbicia w Indiach; używany jako chwyt naturalny na Sri Lance i Malediwach. Trudno grać z prawej strony.</p>
   </div>
 </div>
 
-Używa się go głównie podczas przerwy w Indiach. Jest używany jako naturalny chwyt na Sri Lance i Malediwach. W Indiach tylko Ivon Marquis i Kadirkhan używali tego chwytu jako naturalnego chwytu. Ten uchwyt ma wiele wad. Bardzo trudno jest grać na prawej stronie.
+W Indiach stosuje się go zasadniczo do rozbicia. Na Sri Lance i Malediwach jest to chwyt naturalny. W Indiach tylko Ivon Marquis i Kadirkhan stosowali ten chwyt jako chwyt naturalny. Chwyt ten ma wiele wad. Bardzo trudno jest grać nim z prawej strony.
 
-## Uchwyt blokujący
+## Chwyt blokujący
 
 ![Rysunek 3](/images/book/fig-05.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Uchwyt blokujący</span>
-    <p class="def">Kciuk, pierwszy palec i mały palec (lub trzeci palec w przypadku dodatkowego force). Pierwszy palec zablokowany między kciukiem a trzecim palcem; często nie touch powierzchni do gry.</p>
+    <p class="def">Kciuk, palec wskazujący i mały palec (lub trzeci palec dla dodatkowej siły). Palec wskazujący jest zablokowany między kciukiem a trzecim palcem; często nie dotyka powierzchni gry.</p>
   </div>
 </div>
 
-Powinieneś nauczyć się tego chwytu, jeśli nie masz chwytu blokującego jako swojego naturalnego chwytu. Dzięki temu chwytowi możesz uzyskać moc do wykonywania potężnych uderzeń. Byłem z Suhasem Kambli w 1982 roku w Delhi przez jeden miesiąc i ciężko ćwiczyliśmy, aby grać w gry demonstracyjne podczas Igrzysk Azjatyckich, kiedy zauważyłem, jak Suhas Kambli wykonywał wiele potężnych uderzeń swoim naturalnym chwytem blokującym. Jego naturalny chwyt to połączenie kciuka, pierwszego palca i małego palca, ale ilekroć potrzebował dodatkowego force, zmieniał swój mały palec na trzeci palec. Po prostu spróbowałem i zacząłem mocno uderzać tym uchwytem. Lubiłem go używać i gdy tylko nadarzyła się okazja, korzystałem z niego. Suhas śmiał się ze mnie, bo tym chwytem nie mogłem dobrze celować. Musiałem włożyć cały wysiłek, aby osiągnąć mistrzostwo w tym uścisku. Aby uzyskać taki chwyt, należy zablokować pierwszy palec pomiędzy kciukiem a palcem trzecim. Generalnie w tym chwycie pierwszy palec, którym wykonuje się uderzenie, nie touch powierzchni gry.
+Powinieneś nauczyć się tego uchwytu, jeśli uchwyt blokujący nie jest Twoim naturalnym uchwytem. Dzięki temu uchwytowi zyskasz siłę potrzebną do wykonywania potężnych uderzeń. W 1982 roku spędziłem miesiąc z Suhasem Kamblim w Delhi i ciężko trenowaliśmy, przygotowując się do meczów pokazowych podczas Igrzysk Azjatyckich, kiedy to zauważyłem, że Suhas Kambli wykonuje wiele potężnych uderzeń, korzystając ze swojego naturalnego uchwytu blokującego. Jego naturalny chwyt to połączenie kciuka, palca wskazującego i małego palca, ale ilekroć potrzebował dodatkowej siły, zamieniał mały palec na trzeci palec. Po prostu spróbowałem tego i zacząłem mocno uderzać tym chwytem. Spodobało mi się to i odtąd, ilekroć miałem okazję, korzystałem z niego. Suhas śmiał się ze mnie, bo nie potrafiłem dobrze celować przy takim uchwycie. Musiałem włożyć w to wszystkie siły, by opanować ten uchwyt. W tym rodzaju uchwytu trzeba zablokować palec wskazujący między kciukiem a palcem środkowym. Zazwyczaj przy tym uchwycie palec wskazujący, którym wykonuje się uderzenie, nie dotyka powierzchni gry.
 
-## Płaski uchwyt środkowego palca
+## Uchwyt płaski z palcem środkowym
 
 ![Rysunek 4](/images/book/fig-06.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Płaski chwyt środkowego palca</span>
-    <p class="def">Daje naturalny obrót w kierunku przeciwnym do ruchu wskazówek zegara striker. Niezbędny, gdy wymagana jest rotacja; można grać także lewą ręką.</p>
+    <span class="term">Uchwyt płaski z palcem środkowym</span>
+    <p class="def">Nadaje bilie uderzanej naturalny obrót w kierunku przeciwnym do ruchu wskazówek zegara. Niezbędny tam, gdzie wymagany jest obrót; można go również stosować lewą ręką.</p>
   </div>
 </div>
 
-Ten uchwyt powoduje obrót striker. Na carrom board jest wiele pozycji, w których bez rotacji nie można skutecznie wykonać uderzenia. W tym chwycie nie musisz się wysilać, aby wytworzyć rotację – powstaje ona automatycznie. Dlatego nazywa się to naturalnym spinem. Obrót jest przeciwny do ruchu wskazówek zegara. Powinieneś rozwinąć ten przydatny chwyt. Można grać lewą ręką, aby grać uderzenia także drugą stroną.
+Ten chwyt nadaje piłce rotację. Na planszy do karambolu istnieje wiele pozycji, w których bez rotacji nie da się skutecznie wykonać uderzenia. Przy tym chwycie nie trzeba wkładać wysiłku w wywołanie rotacji — powstaje ona automatycznie. Dlatego nazywa się to naturalnym obrotem. Obrót jest przeciwny do ruchu wskazówek zegara. Warto opanować ten przydatny chwyt. Można go stosować również lewą ręką, aby wykonywać uderzenia po drugiej stronie stołu.

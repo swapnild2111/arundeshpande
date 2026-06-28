@@ -1,84 +1,83 @@
 ---
 title: "Capitolo 1 — Attrezzatura"
-description: "Specifiche per Carrommen, Striker, supporto/tavolo, sgabello/sedia, polvere, reti e luce."
+description: "Specifiche tecniche relative a: Carrommen, Striker, supporto/tavolo, sgabello/sedia, polvere, reti e illuminazione."
 weight: 1
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Tradotto dall'inglese (bozza AI)."
 ---
-*Ogni torneo inizia con l'attrezzatura. Questo capitolo illustra le specifiche esatte delle monete, del striker, del tavolo su cui poggia il tabellone, della sedia su cui si siede il giocatore, della polvere utilizzata per mantenere la superficie liscia, delle reti che catturano le monete in tasca e della luce sopra la testa.*
+*Ogni torneo inizia con l'attrezzatura. Questo capitolo illustra le specifiche esatte relative alle monete, al battitore, al tavolo su cui poggia il tabellone, alla sedia su cui si siede il giocatore, alla polvere utilizzata per mantenere liscia la superficie, alle reti che raccolgono le monete finite in buca e alla luce proveniente dall'alto.*
 
 <div class="callout">
-  <div class="callout-title">Guida per principianti: la scacchiera e i pezzi</div>
-  <p>Una tavola standard ha<strong>quattro tasche angolari</strong>(ciascuno con una rete),<strong>linee fallose</strong>lungo i lati, a<strong>cerchio centrale</strong>per Queen e uno più grande<strong>cerchio esterno</strong>dove sono sistemate le monete per la pausa. Ogni giocatore ha un rettangolo<strong>base</strong>alla loro estremità del tabellone: ​​il striker deve essere posizionato lì prima di ogni tiro.</p>
-  <p>L'insieme è<strong>9 bianchi, 9 neri, 1 rosso Queen</strong>, più due attaccanti (uno per giocatore). I pezzi bianchi e neri sono dischi di legno lisci; il Queen è rosso. Usi striker per mettere i tuoi pezzi nelle tasche, non spingerlo mai.</p>
+  <div class="callout-title">Guida per principianti — il tabellone e i pezzi</div>
+  <p>Un tabellone standard presenta <strong>quattro buche angolari</strong> (ciascuna con una rete), <strong>linee di fallo</strong> lungo i lati, un <strong>cerchio centrale</strong> per la Regina e un <strong>cerchio esterno</strong> più grande dove vengono disposte le monete per il tiro di apertura. Ogni giocatore ha una <strong>base</strong> rettangolare alla propria estremità del tavolo: il battitore deve essere posizionato lì prima di ogni tiro.</p>
+  <p>Il set è composto da <strong>9 pedine bianche, 9 nere, 1 Regina rossa</strong>, più due battitori (uno per giocatore). I pezzi bianchi e neri sono dischi di legno lisci; la Regina è rossa. Si usa il battitore per far scivolare i pezzi nelle buche — non spingerli mai.</p>
 </div>
 
-##Carrommen
+## Carrommen
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Diametro</span>
-    <p class="def">Non più di<strong>3,18 cm</strong>e non meno di<strong>3,02 cm</strong>.</p>
+    <p class="def">Non superiore a <strong>3,18 cm</strong> e non inferiore a <strong>3,02 cm</strong>.</p>
   </div>
   <div class="definition-card">
     <span class="term">Spessore</span>
-    <p class="def">Fra<strong>0,70 cm</strong>E<strong>0,90cm</strong>.</p>
+    <p class="def">Compreso tra <strong>0,70 cm</strong> e <strong>0,90 cm</strong>.</p>
   </div>
   <div class="definition-card">
     <span class="term">Peso</span>
-    <p class="def">Fra<strong>5,25 g</strong>E<strong>5,50 g</strong>.</p>
+    <p class="def">Compreso tra <strong>5,25 g</strong> e <strong>5,50 g</strong>.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Impostato</span>
-    <p class="def"><strong>9 bianchi, 9 neri, 1 rosso</strong>- tutto uniforme.</p>
+    <span class="term">Set</span>
+    <p class="def"><strong>9 bianchi, 9 neri, 1 rosso</strong> — tutti uniformi.</p>
   </div>
 </div>
 
-Il Carrommen utilizzato nel gioco deve essere di legno di buona qualità e di forma circolare. Il bordo dovrà essere rotondo e liscio. Il Carrommen deve avere un movimento fluido in posizione piana sulla superficie di gioco del Carrom Board quando viene colpito da un striker con specifiche standard.
+I Carrommen utilizzati nel gioco devono essere realizzati in legno di buona qualità e di forma circolare. Il bordo deve essere arrotondato e liscio. I Carrommen devono muoversi in modo fluido in posizione orizzontale sulla superficie di gioco del tavolo da Carrom quando vengono colpiti da un battitore conforme alle specifiche standard.
 
-##Striker
+## Battitore
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Diametro</span>
-    <p class="def">Non più di<strong>4,13 cm</strong>.</p>
+    <p class="def">Non superiore a <strong>4,13 cm</strong>.</p>
   </div>
   <div class="definition-card">
     <span class="term">Peso</span>
-    <p class="def">Non più di<strong>15,00 gr</strong>.</p>
+    <p class="def">Non superiore a <strong>15,00 g</strong>.</p>
   </div>
   <div class="definition-card">
     <span class="term">Materiale</span>
-    <p class="def">Tutto tranne avorio e metallo. Non sono ammessi incontri con metallo a vista fissato su di essi.</p>
+    <p class="def">Qualsiasi materiale eccetto l'avorio e il metallo. Non sono ammessi battitori con parti metalliche visibili fissate su di essi.</p>
   </div>
 </div>
 
-Il Striker dovrà essere liscio e rotondo. Sono ammessi disegni decenti incisi sul Striker.
+Il battitore deve essere liscio e rotondo. Sono ammessi disegni decorativi incisi sul battitore.
 
 ## Supporto o tavolo
 
-Il supporto o il tavolo su cui è posizionato il Carrom Board per il gioco non deve essere inferiore a **63,00 cm** e non superiore a **70,00 cm** di altezza. Il Carrom Board, una volta posizionato su di esso, non deve essere irregolare o traballante.
+Il supporto o il tavolo su cui viene posizionato il tavolo da carrom per il gioco non deve avere un'altezza inferiore a **63,00 cm** né superiore a **70,00 cm**. Il tavolo da carrom, una volta posizionato su di esso, non deve risultare irregolare o instabile.
 
-L'imbottitura sotto il Carrom Board e/o il tavolo o il supporto su cui è posizionato il Carrom Board può essere utilizzata per rendere la superficie di gioco piana e solida il più possibile.
+È possibile utilizzare un'imbottitura sotto il tavolo da carrom e/o sotto il tavolo o il supporto su cui è posizionato il tavolo da carrom per rendere la superficie di gioco il più possibile piana e stabile.
 
 ## Sgabello o sedia
 
-Lo sgabello o la sedia su cui si siede il giocatore per giocare non deve essere inferiore a **40,00 cm** e non superiore a **50,00 cm** di altezza. La sedia, se utilizzata, dovrà essere senza braccioli.
+Lo sgabello o la sedia su cui il giocatore si siede per giocare non deve avere un'altezza inferiore a **40,00 cm** né superiore a **50,00 cm**. La sedia, se utilizzata, deve essere senza braccioli.
 
 ## Polvere
 
-La polvere utilizzata deve essere di alta qualità per mantenere la superficie di gioco liscia e asciutta. La polvere non deve essere bagnata. Sacchetti o contenitori pieni di polvere devono essere utilizzati per spargere uniformemente la polvere sulla superficie di gioco.
+La polvere utilizzata deve essere di alta qualità per mantenere la superficie di gioco liscia e asciutta. La polvere non deve essere umida. Per distribuire la polvere in modo uniforme sulla superficie di gioco si devono utilizzare sacchetti o contenitori riempiti di polvere.
 
 ## Reti
 
-Le tasche dovranno essere completamente coperte dal basso da reti fissate sul fondo del Carrom Board. Ciascuna rete dovrà avere la capacità di contenere almeno **10 c/m**.
+Le buche devono essere completamente coperte dal basso da reti fissate alla base del tavolo da carrom. Ciascuna rete deve avere una capacità di contenimento di almeno **10 c/m**.
 
-## Leggero
+## Illuminazione
 
-La luce deve essere appesa o montata ad un'altezza conveniente sopra il Carrom Board in modo che, quando viene utilizzato un paralume conico o quadrato, preferibilmente in metallo, la luce cada solo sul Carrom Board compreso il telaio. Il paralume dovrà essere tutt'uno con il lato interno completamente di colore bianco neve. La lampadina utilizzata, preferibilmente bianca trasparente, dovrà essere **tra 60 e 100 watt**.
+La lampada dovrà essere appesa o montata a un'altezza adeguata sopra il tavolo da carrom in modo che, quando si utilizza un paralume conico o quadrato — preferibilmente in metallo — la luce illumini esclusivamente il tavolo da carrom, compreso il telaio. Il paralume deve avere il lato interno completamente di colore bianco candido. La lampadina utilizzata, preferibilmente bianca trasparente, deve avere una potenza **compresa tra 60 e 100 watt**.
 
 <div class="callout">
-  <div class="callout-title">Alloggio dei giocatori</div>
-  <p>L'altezza della luce può essere modificata su richiesta del giocatore in modo che la luce nuda non colpisca i suoi occhi.</p>
+  <div class="callout-title">Disposizioni per i giocatori</div>
+  <p>L'altezza della lampada può essere modificata su richiesta di un giocatore in modo che la luce diretta non colpisca gli occhi.</p>
 </div>

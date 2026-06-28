@@ -1,5 +1,7 @@
 ---
-title: "Für Spieler"
+title: "Für Studierende"
 layout: category
 category: students
+aliases:
+  - /books/students/
 ---

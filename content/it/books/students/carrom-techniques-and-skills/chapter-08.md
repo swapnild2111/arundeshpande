@@ -1,115 +1,114 @@
 ---
-title: "Capitolo 8 — Glance, Brush, Rebound, Hook"
-description: "Glance, Double Glance, Brush, Rebound, Semplice Rebound, Langda Rebound e Hook."
+title: "Capitolo 8 — Colpo di occhio, Tocco, Rimbalzo, Gancio"
+description: "Sguardo, Doppio sguardo, Colpo di pennello, Rimbalzo, Rimbalzo semplice, Rimbalzo Langda e Gancio."
 weight: 8
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-17.jpg"
   alt: "Glance, Brush, Rebound, Hook"
-translatedBy: "Tradotto dall'inglese (bozza AI)."
 ---
-*Glance, Double Glance, Brush, Rebound, Semplice Rebound, Langda Rebound e Hook.*
+*Glance, Double Glance, Brush, Rebound, Simple Rebound, Langda Rebound e Hook.*
 
-##Glance
+## Glance
 
 ![Figura 1](/images/book/fig-17.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Glance</span>
-    <p class="def">Imbuca la seconda moneta mentre la prima colpisce il telaio opposto e si avvicina al telaio di base.</p>
+    <p class="def">Mettere in buca la seconda bilia mentre la prima colpisce il bordo opposto e si avvicina al bordo di base.</p>
   </div>
 </div>
 
-Come mostrato nella figura 11-A, un striker viene rilasciato sulla prima moneta e la seconda moneta viene imbucata mentre la prima si avvicina al telaio di base colpendo il telaio opposto. Questo tratto è chiamato glance. Durante la riproduzione di un glance è necessario prestare attenzione. Molti
+Come mostrato nella figura 11-A, si effettua un colpo sulla prima bilia e la seconda viene mandata in buca mentre la prima si avvicina al telaio di base dopo aver colpito il telaio opposto. Questo colpo è chiamato "glance". Quando si esegue un "glance" è necessario prestare attenzione. Molti
 
-I giocatori non prendono in considerazione la posizione della moneta e giocano a glance. Dopo aver ottenuto cattivi risultati, danno la colpa alla loro fortuna.
+giocatori non tengono conto della posizione della bilia ed eseguono il colpo. Dopo aver ottenuto risultati negativi, danno la colpa alla sfortuna.
 
-Dopo aver guardato la prima moneta quando striker raggiunge la seconda moneta, la direzione di striker non dovrebbe essere verso la tasca ma dovrebbe essere verso il telaio opposto o il telaio laterale dopo aver colpito la seconda moneta.
+Dopo aver effettuato il "glance" sulla prima bilia, quando il battitore raggiunge la seconda bilia, la direzione del battitore non deve essere verso la buca, ma verso la sponda opposta o laterale dopo aver colpito la seconda bilia.
 
-Vedere la figura 11-A. Qui dopo aver colpito la seconda moneta, la direzione del striker è verso il telaio laterale e quindi non vi è alcuna possibilità che si verifichi un double dovuto.
+Vedi figura 11-A. Qui, dopo aver colpito la seconda moneta, la direzione del battitore è verso il bordo laterale e quindi non c'è alcuna possibilità di un "double due".
 
-Nella figura 1I-B, ci sono tutte le possibilità che double sia dovuto poiché la seconda moneta è al centro della tasca e la direzione di striker è verso la tasca, dopo aver colpito la seconda moneta.
+Nella figura 11-B, c'è ogni possibilità di un "double due" poiché la seconda moneta si trova al centro della buca e la direzione del battitore è verso la buca, dopo aver colpito la seconda moneta.
 
-Nella figura 11-C la posizione della seconda moneta è la stessa della figura 11-B Ma la posizione della prima moneta è cambiata Pertanto, per giocare a glance il striker deve essere posizionato sul cerchio di base. La direzione del striker dopo aver colpito la seconda moneta nella figura 11 - C, è verso il fotogramma opposto e quindi non vi è alcuna possibilità che sia dovuto un double.
+Nella figura 11-C la posizione della seconda moneta è la stessa di quella nella figura 11-B, ma la posizione della prima moneta è cambiata; pertanto, per eseguire il «glance», il battitore dovrebbe essere posizionato sul cerchio di base. La direzione del battitore dopo aver colpito la seconda moneta nella figura 11 -C è verso il frame opposto e quindi non vi è alcuna possibilità di un doppio.
 
-Si può vedere dalla fig. che la posizione della moneta per glance è molto importante. A meno che un giocatore non ottenga una posizione migliore per giocare il glance, è inutile giocare un colpo del genere. Questo colpo può essere utilizzato maggiormente in un gioco difensivo. Giocando a glance, la moneta dell'avversario può essere portata nel nostro frame base, imbucando la nostra stessa moneta e rendendogli così difficile la moneta dell'avversario. Per giocare questo colpo non è necessario che la nostra moneta sia vicina alla tasca. Per portare la moneta dell'avversario verso la nostra struttura di base e lontano dalla tasca, si dovrebbe giocare un glance posizionando il striker ad una linea trasversale minima con la moneta dell'avversario. L'utilizzo di questo tratto può essere fatto anche per rendere facile la nostra moneta. Come mostrato in Fig. 11-D, la nostra moneta, che è vicina al frame opposto, può essere facilitata avvicinandola a noi tramite un glance. Pertanto, con un glance, la nostra moneta può essere avvicinata al telaio di base, facilitandoci così il compito. Questo colpo può essere utilizzato anche nel gioco offensivo.
+Si può notare dalla figura sopra che la posizione della bilia per il «glance» è molto importante. A meno che un giocatore non ottenga una posizione migliore per eseguire il «glance», è inutile giocare un colpo del genere. Questo colpo può essere utilizzato maggiormente in un gioco difensivo. Eseguendo un «glance», è possibile portare la pedina avversaria verso il proprio frame di base, imbucando la propria pedina e rendendo così più difficile la situazione per l'avversario. Per eseguire questo colpo, non è necessario che la nostra bilia si trovi vicino alla buca. Per portare la bilia avversaria verso il nostro frame di base e allontanarla dalla buca, si deve eseguire un colpo di sfioramento posizionando la bilia battente in linea trasversale minima rispetto alla bilia avversaria. Questo colpo può essere utilizzato anche per facilitare la posizione della nostra bilia. Come mostrato nella Fig. 11-D, la nostra moneta, che si trova vicino al telaio opposto, può essere resa più facile avvicinandola a noi con un colpo di rimbalzo. Pertanto, con un colpo di rimbalzo, la nostra moneta può essere portata vicino al telaio di base, rendendola così più facile da giocare. Questo colpo può essere utilizzato anche nel gioco offensivo.
 
-## Double Glance
+## Doppio colpo di deviazione
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Double Glance</span>
-    <p class="def">Guardare due monete una dopo l'altra quando un glance non riesce a raggiungere il bersaglio.</p>
+    <span class="term">Doppio colpo di deviazione</span>
+    <p class="def">Deviare due monete una dopo l'altra quando un singolo colpo di deviazione non è sufficiente a raggiungere l'obiettivo.</p>
   </div>
 </div>
 
-A volte la posizione delle monete è tale che un giocatore non può puntare il striker sulla moneta desiderata lanciandone uno sguardo. Pertanto, se c'è la possibilità di lanciare due monete una dopo l'altra, questo tratto si chiama double glance. A triple glance is very rare occurrence.
+A volte la posizione delle monete è tale che un giocatore non può puntare la moneta da colpire con un solo colpo. Pertanto, se esiste la possibilità di colpire due monete una dopo l'altra, questa mossa viene chiamata doppio colpo. Un triplo colpo è un evento molto raro.
 
-##Brush
+## Brush
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Brush</span>
-    <p class="def">Come un glance, ma la prima moneta va al telaio opposto o laterale invece che al telaio di base.</p>
+    <p class="def">Simile a un glance, ma la prima moneta va nel frame opposto o laterale invece che nel frame di base.</p>
   </div>
 </div>
 
-Questo è proprio come un glance. La differenza è che la moneta che striker colpisce per prima va al frame opposto o laterale invece di arrivare al frame di base. Questa corsa non richiede molto force. Per giocare con un brush, il striker dovrebbe colpire la prima moneta nel punto laterale. Questo tratto è più semplice di glance. Se c'è qualche ostruzione per la nostra moneta, può essere rimossa spazzolandola e intascando la nostra moneta. Questo colpo viene utilizzato nel gioco offensivo. Giocando al brush la posizione della moneta sul tabellone cambia sempre e quindi l'avversario ha difficoltà ad anticipare qualsiasi cosa e non riesce a pianificare il suo turno successivo. Questo colpo è molto essenziale perché un giocatore può creare molte posizioni favorevoli applicandolo.
+È proprio come un "glance". La differenza sta nel fatto che la moneta colpita per prima dal giocatore va verso il frame opposto o laterale invece di arrivare al frame di base. Questo colpo non richiede molta forza. Per eseguire un "brush", il giocatore deve colpire la prima moneta sul punto laterale. Questo colpo è più facile del «glance». Se c'è un ostacolo per la nostra moneta, è possibile rimuoverlo effettuando un «brush» e mandando la nostra moneta in buca. Questo colpo viene utilizzato nel gioco offensivo. Effettuando il «brush», la posizione della moneta sul tavolo cambia continuamente e, di conseguenza, l'avversario ha difficoltà a prevedere qualsiasi cosa e non può pianificare la sua prossima mossa. Questo colpo è fondamentale perché un giocatore può creare molte posizioni favorevoli applicandolo.
 
-##Rebound
+## Rimbalzo
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Rebound</span>
-    <p class="def">Mettere in tasca una moneta vicino al fotogramma sinistro o destro colpendo il fotogramma opposto.</p>
+    <span class="term">Rimbalzo</span>
+    <p class="def">Mettere in buca una moneta vicina al bordo sinistro o destro colpendo il bordo opposto.</p>
   </div>
 </div>
 
-Se una moneta vicino al nostro frame sinistro o destro viene imbucata colpendo sul frame opposto, il colpo viene chiamato rebound.
+Se una moneta vicina al nostro bordo sinistro o destro viene messa in buca colpendo il bordo opposto, il colpo viene chiamato rimbalzo.
 
-## Semplice Rebound
+## Rimbalzo semplice
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Semplice Rebound</span>
-    <p class="def">Una moneta vicino al frame sinistro viene imbucata colpendo il striker sul frame opposto.</p>
+    <span class="term">Rimbalzo semplice</span>
+    <p class="def">Una moneta vicina alla sponda sinistra che viene mandata in buca colpendo la sponda opposta con la sponda di rimbalzo.</p>
   </div>
 </div>
 
-Come mostrato nella figura l2-A, una moneta vicino al riquadro sinistro viene imbucata colpendo il striker sul riquadro opposto. Per mirare, è possibile tracciare due linee immaginarie rette dalla moneta e scegliere la posizione striker come punto per mirare rebound. Non dovrebbe esserci polvere vicino al frame opposto durante la riproduzione di rebound. Il striker ritornerà lentamente se c'è polvere vicino al telaio opposto poiché non riceve colpi. Se c'è polvere vicino al frame opposto che non può essere rimossa in un tabellone attuale, allora rebound dovrebbe essere giocato con un po' più di force.
+Come mostrato nella figura l2-A, una moneta vicina alla sponda sinistra viene mandata in buca colpendo la bilia battente sulla sponda opposta. Per mirare, si possono tracciare due linee rette immaginarie dalla moneta e scegliere la posizione della bilia battente come punto di mira per il rimbalzo. Non dovrebbe esserci polvere vicino al telaio opposto durante l'esecuzione del rimbalzo. Se c'è polvere vicino al telaio opposto, il battitore tornerà lentamente poiché non riceve una spinta. Se c'è polvere vicino al telaio opposto che non può essere rimossa nella mano in corso, allora il rimbalzo dovrebbe essere eseguito con un po' più di forza.
 
-## Langda Rebound o Off the Side Rebound
+## Rimbalzo Langda o rimbalzo laterale
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Langda Rebound o fuori dal lato Rebound</span>
-    <p class="def">Imbucare colpendo il telaio opposto e laterale.</p>
+    <span class="term">Rimbalzo Langda o rimbalzo laterale</span>
+    <p class="def">Messa in buca colpendo il telaio opposto e quello laterale.</p>
   </div>
 </div>
 
-Come mostrato nella figura 12-B, quando una moneta viene imbucata colpendo il striker sul telaio opposto e laterale, il colpo viene chiamato langda rebound. Non dovrebbe esserci polvere in eccesso vicino al telaio opposto o laterale quando si deve eseguire questo colpo. Se c'è polvere vicino al telaio laterale, striker non subirà una deflessione, non colpirà la parte esterna della moneta, colpirà la parte esterna della moneta, ma colpirà la sua parte interna e ci saranno tutte le possibilità di un colpo. Dopo la deviazione dalla parte interna della moneta, striker si sposterà verso la tasca.
+Come mostrato nella figura 12-B, quando una moneta viene messa in buca colpendo il battitore sul telaio opposto e su quello laterale, il colpo viene chiamato rimbalzo Langda. Non dovrebbe esserci polvere in eccesso vicino al telaio opposto o laterale quando si esegue questo colpo. Se c'è polvere vicino al telaio laterale, il battente non subirà una deviazione, non colpirà la parte esterna della moneta, ma ne colpirà la parte interna e ci sarà ogni possibilità di un "due". Dopo aver deviato dalla parte interna della moneta, il battente proseguirà verso la buca.
 
-Se ci sono due monete come mostrato nella figura 12-B questo colpo è vantaggioso. Ci sono tre vantaggi.
+Se sono presenti due monete, come mostrato nella figura 12-B, questo tiro risulta vantaggioso. Presenta tre vantaggi.
 
-i) Se striker non assume un angolo corretto dopo aver colpito il telaio opposto e laterale e colpisce la parte interna della moneta invece di colpire la parte esterna. Anche così esiste la possibilità di intascare la moneta a causa del touch dell'altra moneta [Fig. 12 –B - 2)
+i) Se il bilia battente non assume un angolo corretto dopo aver colpito il telaio opposto e quello laterale e colpisce la parte interna della bilia invece di colpirne la parte esterna. Anche in questo caso c'è la possibilità di mandare in buca la bilia grazie al contatto con l'altra bilia [Fig. 12-B-2)
 
-Se queste due monete ci appartengono, allora giocando questo colpo una moneta può essere messa in tasca e contemporaneamente l'altra moneta può essere resa facile perché arriva al nostro telaio di base.
+Se queste due monete ci appartengono, effettuando questo tiro è possibile mandare in buca una moneta e, contemporaneamente, facilitare l'uscita dell'altra, poiché questa arriva sul nostro telaio di base.
 
-Se una di queste due monete è dell'avversario (moneta che si trova sul cerchio di base in Fig. 12 –B2, mentre intaschiamo la nostra moneta, la moneta bianca dell'avversario può essere portata alla nostra cornice di base rendendogli difficile il compito. (Fig. l2B-2)
+Se una di queste due palline appartiene all'avversario (la pallina che si trova sul cerchio di base nella Fig. 12 –B-2), mentre mettiamo in buca la nostra pallina, la pallina bianca dell'avversario può essere portata verso il nostro telaio di base, rendendogli la situazione difficile. (Fig. 12 –B-2)
 
-A volte c'è una posizione diversa. Il striker tocca per primo la moneta dell'avversario, la porta al nostro telaio di base e devia sulla nostra moneta per imbucarla [Fig. 12 B-3)
+A volte si presenta una posizione diversa. La bilia battente tocca prima la bilia dell'avversario, la porta nel nostro frame di base e devia sulla nostra bilia per imbucarla [Fig. 12 B-3)
 
-##Hook
+## Hook
 
 ![Figura 2](/images/book/fig-18.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Hook</span>
-    <p class="def">Intascatura tramite rebound tranne che sul lato sinistro o destro del telaio.</p>
+    <p class="def">Messa in buca tramite rimbalzo, eccetto se avviene contro il bordo sinistro o destro del tavolo.</p>
   </div>
 </div>
 
-Come mostrato nella figura 12 - C, quando una moneta viene imbucata da un rebound tranne che sul lato sinistro o destro del frame, il colpo viene chiamato hook. Quando c'è un ostacolo per la nostra moneta nel viaggiare verso la tasca anteriore o la tasca base da double, questo colpo viene utilizzato per intascare la moneta nella nostra tasca base. Quando una moneta dalla base opposta deve essere imbucata da un cut, allora un giocatore dovrebbe prendere un angolo tale che se manca il suo cut, il striker colpirà il telaio opposto e trascinerà la moneta nella sua tasca di base da un hook.
+Come mostrato nella figura 12 - C, quando una pallina viene mandata in buca tramite rimbalzo, tranne che sui lati sinistro o destro del telaio, il colpo viene chiamato "gancio". Quando vi è un ostacolo che impedisce alla nostra pallina di raggiungere la buca anteriore o la buca di base tramite un doppio, questo colpo viene utilizzato per mandare la pallina nella nostra buca di base. Quando una pallina proveniente dalla base opposta deve essere mandata in buca con un taglio, il giocatore deve scegliere un angolo tale che, se il taglio non va a segno, la stecca colpisca il telaio opposto e trascini la pallina nella propria buca di base tramite un hook.

@@ -1,95 +1,94 @@
 ---
-title: "Rozdział 7 — Queen"
-description: "Wkładanie do kieszeni i zakrywanie Queen, kiedy liczy się Queen i co się dzieje, gdy Queen i Striker się spotykają."
+title: "Rozdział 7 — Królowa"
+description: "Wkładanie do kieszeni i osłanianie królowej, kiedy królowa ma znaczenie oraz co się dzieje, gdy królowa i uderzający spotykają się."
 weight: 7
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Przetłumaczono z angielskiego (wersja robocza AI)."
 ---
-* Queen to czerwona moneta znajdująca się na środku planszy i centralny element strategii carrom. Jest warta 3 punkty — ale tylko wtedy, gdy zostanie „przykryta” jedną z twoich monet w tym samym lub następnym uderzeniu. W tym rozdziale opisano każdą sytuację związaną z Queen.*
+*Królowa to czerwona moneta znajdująca się w środku planszy i centralny element strategii gry w carrom. Jest warta 3 punkty — ale tylko wtedy, gdy zostanie „przykryta" przez jedną z twoich monet w tym samym lub następnym ruchu. W tym rozdziale omówiono wszystkie sytuacje związane z królową.*
 
-## Kieszenie i zakrywanie
+## Wbijanie i przykrywanie
 
 <div class="callout">
-  <div class="callout-title">Zasada zakrywania</div>
-  <p>Gracz może wbić Queen dopiero wtedy, gdy przynajmniej jeden z jego C/m zostanie już wbity. Do<strong>okładka</strong>Queen, musi wbić jednego ze swoich C/m w tym samym uderzeniu lub bezpośrednio po nim.</p>
-  <p>Jeśli włożysz Queen<strong>zanim</strong>dowolną z twoich własnych monet lub bez zakrywania jej przy następnym strzale, Queen jest wyjmowany i umieszczany na środku – tracisz swoją turę. Rozdanie nie może się zakończyć, dopóki na stole znajduje się Queen; musi zostać schowana do kieszeni i przykryta przez zwycięzcę.</p>
+  <div class="callout-title">Zasada przykrywania</div>
+  <p>Gracz może wbić królową do kieszeni dopiero po tym, jak co najmniej jedna z jego własnych monet C/m została już wbita. Aby <strong>prkryć</strong> królową, musi wbić jedną ze swoich monet C/m w tym samym ruchu lub w ruchu bezpośrednio następującym po nim.</p>
+  <p>Jeśli wbijasz królową <strong>przed</strong> wbiciem którejkolwiek ze swoich monet lub bez zakrycia jej w następnym uderzeniu, królowa jest wyjmowana i umieszczana w środku — tracisz swoją kolejkę. Partia nie może się zakończyć, dopóki królowa pozostaje na stole; musi zostać wbita i zakryta przez zwycięzcę.</p>
 </div>
 
-**93.** Queen będzie umieszczany przez sędziego wyłącznie w środkowym okręgu. Jeśli strzał zostanie utworzony automatycznie po umieszczeniu, nie można go zmienić.
+**93.** Królowa powinna zostać umieszczona przez sędziego wyłącznie w okręgu środkowym. Jeśli po umieszczeniu automatycznie powstaje ułożenie do uderzenia, nie można go zmieniać.
 
-**94.** Jeżeli Środkowe Koło jest częściowo lub całkowicie zakryte przez inne C/m, Queen umieszcza się tak, aby zajmowało większość odsłoniętej części lub w dowolnej pozycji przylegającej do Środkowego Okręgu w taki sposób, że graczowi mającemu swoją kolej do kieszeni nie jest łatwo. **Decyzja sędziego głównego jest ostateczna.**
+**94.** Jeśli okrąg środkowy jest częściowo lub całkowicie zakryty przez inne bil C/m, królowa jest umieszczana tak, aby zajmowała większość niezakrytej części, lub w dowolnej pozycji przylegającej do okręgu środkowego w taki sposób, aby graczowi wykonującemu ruch nie było łatwo ją wbić do łuzki. **Decyzja sędziego dotycząca umieszczenia królowej jest ostateczna.**
 
-**95.** &nbsp;&nbsp;a) Jeśli Queen zostanie wbity przed którymkolwiek z C/m gracza, Queen zostanie wyjęty do wyłożenia, a gracz traci swoją turę.
+**95.** &nbsp;&nbsp;a) Jeśli królowa zostanie wbita do łuzki przed którąkolwiek z własnych bil gracza, królowa jest wyjmowana w celu ponownego ustawienia, a gracz traci swoją kolejkę.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli Queen zostanie wbity do kieszeni w czasie, gdy gracz ma Due, Queen zostaje wyjęty do wyłożenia, a gracz traci swoją turę.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli królowa zostanie wbita do łuzki, podczas gdy gracz ma na koncie karę, królowa zostaje wyjęta w celu ponownego umieszczenia, a gracz traci swoją kolejkę.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) **Jednakże**, jeśli po odzyskaniu Należności/Kary wszystkie dziewięć C/m gracza nadal znajduje się na C/B, ma on prawo włożyć do kieszeni i przykryć Queen.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) **Jednakże**, jeśli po odrobieniu „Due"/kary wszystkie dziewięć bil gracza nadal znajduje się na C/B, ma on prawo wbić i zakryć królową.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) Jeżeli podczas przerwy lub w kolejnym uderzeniu, gdy wszystkie dziewięć C/m znajduje się na C/B, Queen zostaje włożony do kieszeni wraz z Striker, Queen zostaje wyjęty do umieszczenia i zostaje ogłoszona wypłata. Gracz traci swoją turę.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) Jeśli podczas rozbicia lub w kolejnym uderzeniu, gdy wszystkie dziewięć C/m znajduje się na C/B, królowa zostanie wbita do łuzki wraz z kamieniem uderzającym, królowa zostaje wyjęta w celu ponownego ustawienia, a graczowi zostaje nałożona kara „Due". Gracz traci swoją kolejkę.
 
-**96.** Jeśli Queen zostanie wbity do kieszeni przez uderzenie i nie zostanie przykryty, Queen zostanie wyjęty do umieszczenia. Jeżeli nie zostanie to zauważone przez sędziego głównego lub przeciwnika przed wykonaniem następnego uderzenia, Queen jest rejestrowane jako prawidłowo zakryte.
+**96.** Jeśli królowa zostanie wbita jednym uderzeniem i nie zostanie przykryta, królowa jest wyjmowana w celu ponownego ustawienia. Jeśli sędzia lub przeciwnik nie zauważą tego przed wykonaniem kolejnego uderzenia, królowa zostaje uznana za prawidłowo przykrytą.
 
-**97.** &nbsp;&nbsp;a) **Queen + jeden z Twoich C/m włożonych razem** — Queen uważa się za pokryty.
+**97.** &nbsp;&nbsp;a) **Królowa + jedna z twoich bil C/m wbite razem** — królowa jest uznawana za zakrytą.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jednakże podczas przerwy (lub dowolnego uderzenia, gdy wszystkie dziewięć twoich C/m znajduje się na C/B), jeśli **tylko jedno** twoje C/m i Queen są włożone do kieszeni, nadal musisz zakrywać. Jeśli **więcej niż jedno** Twoje C/m i Queen jest włożone razem do kieszeni, Queen uważa się za pokryte.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jednak podczas rozbicia (lub dowolnego uderzenia, gdy wszystkie dziewięć bil gracza znajduje się na bilie białej), jeśli **tylko jedna** z bil gracza i królowa zostaną wbite do łuzki razem, gracz musi je zakryć. Jeśli **więcej niż jedna** z twoich bil C/m i królowa zostaną wbite razem, królowa jest uważana za zakrytą.
 
-## Kiedy spotykają się Queen i Striker
+## Gdy królowa i bil uderzający spotykają się
 
-Najbardziej podatne na błędy sytuacje: gracz wbija Queen razem z Striker i/lub z jednym lub większą liczbą własnych C/m. Oto matryca.
+Sytuacje, w których najczęściej popełniane są błędy: gracz wbija królową razem z bilem uderzającym i/lub z jednym lub kilkoma własnymi bilami koloru. Oto tabela.
 
-| Razem w kieszeniach | Typ udaru | Queen | Kara | Skręć |
+| Wbite razem | Rodzaj uderzenia | Królowa | Kara | Kolejka |
 |---|---|---|---|---|
-| Queen + Striker | Właściwy | Wyjęty do umieszczenia | +1 C/m | Kontynuacja |
-| Queen + Striker | Niewłaściwe | Wyjęty do umieszczenia | +2 C/m | Zagubiony |
-| Queen + własne C/m + Striker | Właściwy | Brak miejsca na plasowanie | +1 Termin C/m | Kontynuacja |
-| Queen + własne C/m + Striker | Niewłaściwe | Brak miejsca | +2 C/m (należność + kara) | Zagubiony |
+| Królowa + bil uderzający | Prawidłowe | Wyjęcie w celu ustawienia | +1 C/m | Kontynuacja |
+| Królowa + bil uderzający | Nieprawidłowe | Wyjęcie w celu ustawienia | +2 C/m | Przegrała |
+| Królowa + własny C/m + Striker | Prawidłowe | Wyjęte w celu umieszczenia | +1 należny C/m | Kontynuacja |
+| Królowa + własny C/m + Striker | Nieprawidłowe | Wyjęte w celu umieszczenia | +2 C/m (należny + kara) | Przegrana |
 
-**100.** &nbsp;&nbsp;a) **Podczas zakrywania Queen**, jeśli sam Striker zostanie wbity do kieszeni właściwym uderzeniem — Queen zostanie wyjęty do umieszczenia, C/m zostanie wyjęty jako wymagany, tura przepada.
+**100.** &nbsp;&nbsp;a) **Podczas osłaniania królowej**, jeśli tylko uderzający zostanie wbity prawidłowym uderzeniem — królowa zostaje wyjęta w celu ustawienia, jedna bilka jest wyjmowana jako należna, a kolejka zostaje przegrana.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) To samo, w przypadku niewłaściwego uderzenia — Queen wyrzucony za umieszczenie, **dwa** C/m wyrzucony (należność + kara), tura jest przegrana.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) To samo, w wyniku nieprawidłowego uderzenia — królowa jest wyjmowana w celu ponownego ustawienia, wyjmowane są **dwie** bil (należne + karne), tura jest przegrana.
 
-**101.** &nbsp;&nbsp;a) **Podczas zakrywania Queen** właściwym uderzeniem, jeśli gracz wbije Striker wraz ze swoim C/m — C/m jest wyjmowany plus 1 należny. Gracz **kontynuuje** swoją turę. Jeśli w kolejnym uderzeniu żaden C/m nie zostanie wbity do kieszeni, Queen jest **nie** uważany za zakryty i jest wyjmowany do ułożenia.
+**101.** &nbsp;&nbsp;a) **Podczas krycia królowej** prawidłowym uderzeniem, jeśli gracz wbije bilę uderzającą wraz ze swoją bilą środkową — bilę środkową wyjmuje się i dodaje 1 bilę należną. Gracz **kontynuuje** swoją kolejkę. Jeśli w kolejnym uderzeniu żadna bilka nie zostanie wbita do łuzki, królowa **nie** jest uznawana za zakrytą i jest wyjmowana w celu ustawienia.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) To samo, w przypadku nieprawidłowego uderzenia — C/m + 2 (należna kara + kara) aut; obróć się **zagubiony**; Queen wyeliminowany przez sędziego.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) To samo, w przypadku nieprawidłowego uderzenia — C/m + 2 (punkt karny + kara); **utrata** kolejki; królowa wyjmowana przez sędziego.
 
 ## Scenariusze końcowe
 
-Pozostałe 13 zasad (102–114) dotyczy przypadków brzegowych, w których ostatnie C/m któregokolwiek z graczy, Queen i Striker wchodzą w interakcję. Zasada jest spójna: *właściwe* uderzenie daje lub przegrywa o **wartość na szachownicy** (C/m + Queen, jeśli ma to zastosowanie); *niewłaściwe* uderzenie powoduje dodatkową karę na górze.
+Pozostałe 13 zasad (102–114) dotyczy sytuacji granicznych, w których ostatnia bila C/m któregokolwiek z graczy, królowa i bila uderzająca oddziałują na siebie. Zasada jest spójna: *prawidłowe* uderzenie daje punkty lub powoduje stratę punktów zgodnie z **wartością na planszy** (C/m + królowa, jeśli ma to zastosowanie); *nieprawidłowe* uderzenie powoduje dodatkową karę.
 
-**102.** **Gracz wbija swoje ostatnie C/m i ostatnie C/m przeciwnika** jednocześnie zakrywając Queen:
+**102.** **Gracz wbija do łuzki jednocześnie swoją ostatnią figurę C/m i ostatnią figurę C/m przeciwnika**, jednocześnie zakrywając królową:
 
-- Poprawnie: wygrywa różnicą 3 punktów (1 punkt przy 22+).
-- Niewłaściwe: przeciwnik wygrywa różnicą 3 punktów (1, jeśli ma 22+). Jeden dodatkowy punkt, jeśli jest to wymagane.
+- Prawidłowe: wygrywa 3 punktami (1 punktem, jeśli wynik wynosi 22 lub więcej).
+- Nieprawidłowe: przeciwnik wygrywa 3 punktami (1 punktem, jeśli wynik wynosi 22 lub więcej). Jeden dodatkowy punkt, jeśli zostanie to zgłoszone.
 
-**103.** **Gracz wbija tylko ostatnie C/m** przeciwnika, zakrywając Queen:
+**103.** **Gracz wbija do łuzki tylko ostatnią bilę C/m przeciwnika**, zakrywając przy tym królową:
 
-- Poprawnie: przegrywa o liczbę swoich C/m na C/B plus punkty Queen (lub po prostu o C/m, jeśli przeciwnik ma 22+).
-- Niewłaściwe: to samo, plus dodatkowy punkt dla przeciwnika, jeśli jest to wymagane.
+- Prawidłowo: przegrywa o liczbę swoich bil C/m na bili C/B plus punkty królowej (lub tylko o bil C/m, jeśli przeciwnik ma 22 lub więcej punktów).
+- Nieprawidłowo: to samo, plus dodatkowy punkt dla przeciwnika, jeśli zostanie to zgłoszone.
 
-**104.** **Queen + ostatnie własne C/m + ostatnie C/m przeciwnika wbite razem**:
+**104.** **Królowa + własny ostatni C/m + ostatni C/m przeciwnika wbite razem**:
 
-- Poprawnie: gracz wygrywa różnicą 3 punktów (1 jeśli ma 22+).
-- Niewłaściwe: przeciwnik wygrywa różnicą 3 punktów (1 w przypadku wyniku 22+) plus jeden dodatkowy, jeśli jest to wymagane.
+- Prawidłowo: gracz wygrywa 3 punktami (1, jeśli wynik wynosi 22 lub więcej).
+- Nieprawidłowe: przeciwnik wygrywa 3 punktami (1, jeśli ma 22 lub więcej), plus jeden dodatkowy punkt, jeśli zostanie to zgłoszone.
 
-**105.** **Własne ostatnie C/m + ostatnie C/m przeciwnika razem, Queen wciąż na C/B**: przeciwnik wygrywa różnicą 3 punktów (1, jeśli ma 22+) niezależnie od rodzaju uderzenia. Niewłaściwe dodaje dodatkowy punkt, jeśli jest to wymagane.
+**105.** **Własny ostatni C/m + ostatni C/m przeciwnika razem, królowa nadal na C/B**: przeciwnik wygrywa 3 punktami (1, jeśli wynik wynosi 22 lub więcej) niezależnie od rodzaju uderzenia. W przypadku nieprawidłowego zagrania dodaje się dodatkowy punkt, jeśli zostanie to zgłoszone.
 
-**106.** **Ostatnie C/m przeciwnika samotnie, Queen wciąż na C/B**: gracz przegrywa o swoje C/m na szachownicy + Queen wartość (lub tylko o C/m, jeśli przeciwnik ma 22+). Niewłaściwe dodaje dodatkowy punkt, jeśli jest to wymagane.
+**106.** **Tylko ostatni C/m przeciwnika, królowa nadal na C/B**: gracz przegrywa o wartość swojego C/m na planszy + wartość królowej (lub tylko o wartość C/m, jeśli przeciwnik ma 22 lub więcej punktów). W przypadku nieprawidłowego zagrania dodaje się dodatkowy punkt, jeśli zostanie to zgłoszone.
 
-**107.** **Gracz wbija swoje ostatnie C/m, zostawia Queen na C/B**: gracz przegrywa o 3 punkty (1, jeśli przeciwnik ma 22+). Niewłaściwe dodaje jeden, jeśli jest to wymagane.
+**107.** **Gracz wbija swoją ostatnią bilę C/m, pozostawiając królową na C/B**: gracz przegrywa 3 punktami (1, jeśli przeciwnik ma 22+). Nieprawidłowe zagranie skutkuje dodaniem jednego punktu, jeśli zostanie to zgłoszone.
 
-**108.** **Własne ostatnie C/m + Striker, Queen wciąż na C/B**: przegrana o 3 punkty (1 jeśli przeciwnik na 22+). Niewłaściwe: przeciwnik otrzymuje 2 dodatkowe, jeśli jest to wymagane.
+**108.** **Własny ostatni C/m + Striker, królowa nadal na C/B**: przegrywa o 3 punkty (1, jeśli przeciwnik ma 22 lub więcej). Nieprawidłowe zagranie: przeciwnik otrzymuje 2 dodatkowe punkty, jeśli zażąda.
 
-**109.** **Queen + własny ostatni C/m + ostatni C/m przeciwnika + Striker, razem**: gracz przegrywa o 3 punkty (1 jeśli przeciwnik ma 22+). Prawidłowy skok: +1 dodatkowy, jeśli jest to wymagane. Niewłaściwe: +2 dodatkowe, jeśli jest to wymagane.
+**109.** **Królowa + własny ostatni C/m + ostatni C/m przeciwnika + Striker, wszystkie razem**: gracz przegrywa 3 punktami (1, jeśli przeciwnik ma 22 lub więcej). Prawidłowe uderzenie: +1 dodatkowy punkt, jeśli zostanie to zgłoszone. Nieprawidłowe: +2 dodatkowe punkty, jeśli zostanie to zgłoszone.
 
-**110.** **Własne ostatnie C/m + ostatnie C/m przeciwnika + Striker, Queen już zakryte przez gracza**: przegrana o 1 punkt. Poprawnie: +1 dodatkowy, jeśli jest to wymagane. Niewłaściwe: +2 dodatkowe, jeśli jest to wymagane.
+**110.** **Własny ostatni C/m + ostatni C/m przeciwnika + Striker, królowa już zakryta przez gracza**: przegrywa się o 1 punkt. Prawidłowo: +1 dodatkowy punkt, jeśli przeciwnik tego zażąda. Nieprawidłowo: +2 dodatkowe punkty, jeśli przeciwnik tego zażąda.
 
-**111.** **Ostatnie C/m + Striker przeciwnika, opuszcza Queen na C/B**: przegraj o C/m na szachownicy + Queen (lub po prostu o C/m przy 22+). Poprawnie: +1 dla Striker, jeśli jest to wymagane. Niewłaściwe: +2, jeśli jest wymagane.
+**111.** **Ostatni C/m przeciwnika + Striker, królowa pozostaje na C/B**: przegrywa o C/m na planszy + królowa (lub tylko o C/m, jeśli przeciwnik ma 22+ punktów). Prawidłowe zagranie: +1 za Strikera, jeśli zostanie to zgłoszone. Nieprawidłowe: +2, jeśli zostanie to zgłoszone.
 
-**112.** **Własne ostatnie C/m + ostatnie C/m przeciwnika + Striker, Queen już zakryte przez przeciwnika**: gracz traci 3 punkty (otrzymuje 1, jeśli przeciwnik ma 22+). Poprawnie: +1 dodatkowy, jeśli jest to wymagane. Niewłaściwe: +2, jeśli jest wymagane.
+**112.** **Własny ostatni C/m + ostatni C/m przeciwnika + Striker, królowa już zakryta przez przeciwnika**: gracz przegrywa 3 punktami (otrzymuje 1 punkt, jeśli przeciwnik ma 22 lub więcej). Prawidłowo: +1 dodatkowy punkt, jeśli zostanie to zgłoszone. Nieprawidłowo: +2 dodatkowe punkty, jeśli zostanie to zgłoszone.
 
-## Ostateczne Queen zasady
+## Ostateczne zasady dotyczące królowej
 
-**113.** Jeśli Queen niebezpiecznie spoczywa na wejściu do kieszeni i faktycznie wpada do niej z jakiegokolwiek powodu, uważa się, że została (należycie) włożona do kieszeni.
+**113.** Jeśli królowa spoczywa w niebezpiecznej pozycji przy wejściu do łuzki i faktycznie wpadnie do niej z jakiegokolwiek powodu, uznaje się ją za (prawidłowo) wbitą do łuzki.
 
-**114.** Gracz **nie może używać Należności ani Kary C/m, aby oddać strzał z Queen**. Jeżeli został użyty, sędzia „umpire” prosi go o sprostowanie. Stwierdza się faul.
+**114.** Gracz **nie może wykorzystać C/m z tytułu należności lub kary do wykonania uderzenia królową**. W przypadku wykorzystania sędzia prosi go o naprawienie błędu. Ogłasza się faul.

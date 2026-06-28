@@ -1,31 +1,30 @@
 ---
 title: "Kapitel 2 — Definitioner og terminologi"
-description: "Fortolkning af alle termer, der bruges i disse love — Carromman, bræt, pause, Queen, forfalden, straf, overdækning, Pair, Cannon, skud, slag, slam og mere."
+description: "Forklaring af alle de udtryk, der anvendes i disse regler — Carromman, bræt, break, dronning, due, straf, dækning, par, kanon, skud, slag, slam og meget mere."
 weight: 2
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Oversat fra engelsk (AI-udkast)."
 ---
-*I disse love, medmindre der er noget, der er afvisende for emnet eller konteksten, skal vilkårene nedenfor have følgende fortolkninger. Læs dette kapitel én gang, og resten af ​​lovene læses naturligt.*
+*I disse regler skal nedenstående udtryk, medmindre andet fremgår af sammenhængen eller konteksten, fortolkes som angivet nedenfor. Læs dette kapitel én gang, så vil resten af reglerne give sig selv.*
 
-## Love og Carrom Board
+## Reglerne og carrom-brættet
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Love</span>
-    <p class="def">Lovene for Carrom.</p>
+    <span class="term">Regler</span>
+    <p class="def">Reglerne for carrom.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Passende</span>
-    <p class="def">I overensstemmelse med lovene.</p>
+    <span class="term">Korrekt</span>
+    <p class="def">I overensstemmelse med reglerne.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Upassende</span>
-    <p class="def">I strid med lovene.</p>
+    <span class="term">Ukorrekt</span>
+    <p class="def">I strid med reglerne.</p>
   </div>
   <div class="definition-card">
     <span class="term">C/B</span>
-    <p class="def">Carrom Board.</p>
+    <p class="def">Carrom-bræt.</p>
   </div>
   <div class="definition-card">
     <span class="term">C/m</span>
@@ -33,66 +32,66 @@ translatedBy: "Oversat fra engelsk (AI-udkast)."
   </div>
 </div>
 
-## Matchstruktur
+## Kampstruktur
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Bestyrelse</span>
-    <p class="def">Fra begyndelsen af ​​en bestyrelse, efter dommeren kalder<em>Spil</em>, indtil den er fuldført ved indskud af den sidste C/m af enhver spiller.</p>
+    <span class="term">Bræt</span>
+    <p class="def">Fra starten af et spil, efter at dommeren har råbt <em>Spil</em>, indtil dets afslutning, når den sidste C/m fra en hvilken som helst spiller er blevet puttet i hul.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Pause</span>
-    <p class="def">Det første slag på et bræt.</p>
+    <span class="term">Break</span>
+    <p class="def">Det første slag i et spil.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Slutte</span>
-    <p class="def">Færdiggørelsen af ​​bestyrelsen.</p>
+    <span class="term">Afslutning</span>
+    <p class="def">Afslutningen af partiet.</p>
   </div>
   <div class="definition-card">
     <span class="term">Spiller</span>
-    <p class="def">En Carrom afspiller.</p>
+    <p class="def">En Carrom-spiller.</p>
   </div>
   <div class="definition-card">
     <span class="term">Tur</span>
-    <p class="def">Retten til at strejke.</p>
+    <p class="def">Retten til at slå.</p>
   </div>
 </div>
 
-## Queen, mønter og placering
+## Dronningen, mønterne og placering
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Queen</span>
+    <span class="term">Dronning</span>
     <p class="def">Den røde C/m.</p>
   </div>
   <div class="definition-card">
     <span class="term">Placering</span>
-    <p class="def">Holde en straf og/eller skyldig C/m i en flad position på spillefladen, kun inden for den ydre cirkel, af den spiller, der har tilladelse til at gøre det. Queen og eventuelle hoppede c/m placeres altid af dommeren i Centercirklen.</p>
+    <p class="def">At holde en straf- og/eller skyldig C/m i en flad position på spillefladen, udelukkende inden for den ydre cirkel, af den spiller, der har tilladelse til det. Dronningen og eventuelle hoppede kugler placeres altid af dommeren i midtercirklen.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Lommer</span>
-    <p class="def">At lægge en C/m eller Queen i en lomme med et ordentligt eller forkert slag.</p>
+    <span class="term">Pocketing</span>
+    <p class="def">At putte en C/m eller dronning i en lomme ved hjælp af et korrekt eller ukorrekt slag.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Afdækning</span>
-    <p class="def">Pocking af en af ​​sine egne C/m af en spiller i det samme eller umiddelbart efterfølgende slag, efter at Queen er sat i lomme.</p>
+    <span class="term">Dækning</span>
+    <p class="def">At en spiller putter en af sine egne C/m i en lomme i samme eller umiddelbart efterfølgende slag, efter at dronningen er puttet i lommen.</p>
   </div>
 </div>
 
-## Afgifter, bøder og fejl
+## Gebyrer, straffe og fejl
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Forfalder</span>
-    <p class="def">Pocking af Striker med eller uden C/m og/eller Queen, og/eller enhver udestående c/m mod spilleren alt efter omstændighederne.</p>
+    <span class="term">Gæld</span>
+    <p class="def">At putte Striker i hul med eller uden C/m og/eller dronning og/eller eventuelle udestående c/m mod spilleren, alt efter omstændighederne.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Straf</span>
-    <p class="def">Straf for overtrædelse eller overtrædelse af lovene.</p>
+    <span class="term">Straff</span>
+    <p class="def">Straffe for overtrædelse eller brud på reglerne.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Skubbe</span>
-    <p class="def">Et ryk eller pludselig bevægelse af albuen på den spillende hånd i stedet for at slå Striker med fingeren. Ikke tilladt.</p>
+    <span class="term">Skub</span>
+    <p class="def">Et ryk eller en pludselig bevægelse af albuen på den hånd, der spiller, i stedet for at ramme slagbolden med fingeren. Ikke tilladt.</p>
   </div>
 </div>
 
@@ -100,45 +99,45 @@ translatedBy: "Oversat fra engelsk (AI-udkast)."
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Slagtilfælde</span>
-    <p class="def">At trykke på C/m med Striker, direkte eller indirekte.</p>
+    <span class="term">Slag</span>
+    <p class="def">Når slagmanden rammer C/m, direkte eller indirekte.</p>
   </div>
   <div class="definition-card">
     <span class="term">Skud</span>
-    <p class="def">En pair eller cannon.</p>
+    <p class="def">Et par eller en kanon.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Pair</span>
-    <p class="def">To C/m, eller en C/m og Queen, vendt mod lommens generelle retning med et mellemrum imellem dem.</p>
+    <span class="term">Par</span>
+    <p class="def">To C/m, eller en C/m og en dronning, der vender i retning af lommen med et mellemrum imellem dem.</p>
   </div>
   <div class="definition-card">
     <span class="term">Cannon</span>
-    <p class="def">To C/m, eller en C/m og Queen, vendt mod lommens generelle retning<em>uden</em>ethvert mellemrum mellem dem.</p>
+    <p class="def">To C/m eller en C/m og en dronning, der peger i retning af lommen <em>uden</em> mellemrum imellem dem.</p>
   </div>
   <div class="definition-card">
     <span class="term">Tommelfinger</span>
-    <p class="def">Tage et slag med tommelfingeren.</p>
+    <p class="def">At udføre et slag med tommelfingeren.</p>
   </div>
 </div>
 
-## Embedsmænd og modstandere
+## Funktionærer og modstandere
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Hoveddommer</span>
-    <p class="def">En official, der er udpeget til at administrere, overvåge, kontrollere og træffe beslutninger om alle sager, der henvises til ham i løbet af en kamp.</p>
+    <p class="def">En dommer, der er udpeget til at administrere, overvåge, kontrollere og træffe afgørelser om alle forhold, der henvises til ham i løbet af en kamp.</p>
   </div>
   <div class="definition-card">
-    <span class="term">dommer</span>
-    <p class="def">En official udpeget til at overvåge og/eller kontrollere en kamp.</p>
+    <span class="term">Dommer</span>
+    <p class="def">En dommer, der er udpeget til at overvåge og/eller kontrollere en kamp.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Modstander (single)</span>
-    <p class="def">Spilleren har i øjeblikket ikke sin tur til at spille.</p>
+    <span class="term">Modstander (enkelt)</span>
+    <p class="def">Den spiller, der ikke har tur til at spille i øjeblikket.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Modstander (doubles)</span>
-    <p class="def">Spilleren, der sidder på venstre og/eller højre side af spilleren, har i øjeblikket sin tur til at spille.</p>
+    <span class="term">Modstander (double)</span>
+    <p class="def">Den spiller, der sidder til venstre og/eller højre for den spiller, der i øjeblikket har tur til at spille.</p>
   </div>
 </div>
 
@@ -147,32 +146,32 @@ translatedBy: "Oversat fra engelsk (AI-udkast)."
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Hånd</span>
-    <p class="def">Den del af den spillende hånd fra fingrene op til håndleddet.</p>
+    <p class="def">Den del af den spillende hånd, der strækker sig fra fingrene op til håndleddet.</p>
   </div>
   <div class="definition-card">
     <span class="term">Finger</span>
-    <p class="def">Den del af neglesiden af ​​en finger op til det andet led.</p>
+    <p class="def">Den del af fingeren fra neglesiden og op til det andet led.</p>
   </div>
   <div class="definition-card">
     <span class="term">Imaginære linjer</span>
-    <p class="def">Linjerne tegnet i forlængelse af pilene mellem basiscirklerne.</p>
+    <p class="def">De linjer, der er tegnet som forlængelse af pilene mellem basiscirklerne.</p>
   </div>
 </div>
 
-## Slammet
+## Slam
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Hvid Slam</span>
-    <p class="def">Pocking alle ni hvide C/m og Queen i henhold til lovene i den første omgang af spillet. Også kaldet<em>Pause for at afslutte</em>.</p>
+    <span class="term">Hvid slam</span>
+    <p class="def">At putte alle ni hvide kugler og dronningen i hul i henhold til reglerne i spillets første tur. Også kaldet <em>Break to Finish</em>.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Black Slam</span>
-    <p class="def">Pocking af alle de resterende sorte C/m, med eller uden Queen, i henhold til lovene i den første omgang af spillet.</p>
+    <span class="term">Sort slam</span>
+    <p class="def">At få alle de resterende sorte kugler i hul, med eller uden dronningen, i henhold til reglerne i første spilrunde.</p>
   </div>
 </div>
 
 <div class="callout">
-  <div class="callout-title">Læsenotat</div>
-  <p>Ord, der antyder ental, skal omfatte flertal, og ord, der antyder maskulinum, skal også referere til det feminine.</p>
+  <div class="callout-title">Læsevejledning</div>
+  <p>Ord, der antyder ental, skal også omfatte flertal, og ord, der antyder hankøn, skal også henvise til hunkøn.</p>
 </div>

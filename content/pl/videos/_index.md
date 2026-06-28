@@ -1,45 +1,45 @@
 ---
-title: "Biblioteka wideo"
-description: "Obejrzyj carrom filmy instruktażowe autorstwa Arun Deshpande — technika od początkującego do mistrza oraz 95 problemów i rozwiązań."
+title: "Biblioteka filmów"
+description: "Obejrzyj filmy instruktażowe dotyczące gry w carrom autorstwa Aruna Deshpande'a — techniki od poziomu początkującego do mistrzowskiego, a także 95 zadań i ich rozwiązań."
 aliases:
   - /videos/
 filters:
-  - label: "Wszystko"
+  - label: "All"
     id: all
-  - label: "Początkujący"
+  - label: "Beginner"
     id: beginner
-  - label: "Mediator"
+  - label: "Intermediate"
     id: intermediate
-  - label: "Mistrz"
+  - label: "Champion"
     id: champion
-  - label: "Problemy i rozwiązania"
+  - label: "Problems & Solutions"
     id: problems-solutions
-  - label: "Różne"
+  - label: "Misc"
     id: misc
 videos:
   - id: "Rm17_RqoikQ"
-    title: "Nauka Za grą, Jak układać monety, Przerwy"
+    title: "Science Behind the game, How to arrange coins, Breaks"
     tags: ["beginner"]
   - id: "1BjaxJAWo6w"
-    title: "Przerwa"
+    title: "Break"
     tags: ["beginner"]
   - id: "8sJhAiqZflA"
-    title: "Sprzęt i zasady"
+    title: "Equipment and Rules"
     tags: ["beginner"]
   - id: "FSmw8VuAYss"
-    title: "Chwyt"
+    title: "Grip"
     tags: ["beginner"]
   - id: "fx_RqJu4h4w"
-    title: "Monety kciukowe i proste – 1"
+    title: "Thumbing and straight coins – 1"
     tags: ["beginner"]
   - id: "SHY0TIumWlU"
-    title: "Cut, Prosto cut"
+    title: "Cut, Straight cut"
     tags: ["beginner"]
   - id: "PwvNZt4alEU"
-    title: "Naciskać"
+    title: "Push"
     tags: ["beginner"]
   - id: "yBSCnm8ZnV8"
-    title: "Prosty strzał"
+    title: "Straight Shot"
     tags: ["beginner"]
   - id: "d_aTDpLBXM8"
     title: "Double"
@@ -48,31 +48,31 @@ videos:
     title: "Rebound"
     tags: ["beginner"]
   - id: "cpVkLMfFl6g"
-    title: "Obrócenie"
+    title: "Turning"
     tags: ["beginner"]
   - id: "T-QcVCGfPcE"
     title: "Brush, Glance"
     tags: ["beginner"]
   - id: "wkVw3asSn58"
-    title: "Zły strzał"
+    title: "Wrong Shot"
     tags: ["beginner"]
   - id: "QKbE4Op9kdE"
     title: "Press"
     tags: ["intermediate"]
   - id: "WMgKG4_QdkQ"
-    title: "Nauka stojąca za grą, chwyty w pozycji siedzącej, Spin"
+    title: "Science behind the game, sitting posion grips, Spin"
     tags: ["intermediate"]
   - id: "CCUxYst3nac"
-    title: "Strona Press"
+    title: "Side Press"
     tags: ["intermediate"]
   - id: "C7dJTZpO-ZY"
-    title: "Przerwa"
+    title: "Break"
     tags: ["intermediate"]
   - id: "8vMzXC56nEM"
     title: "Force 1"
     tags: ["intermediate"]
   - id: "JxIeJXYLCQI"
-    title: "Cut, Prosto cut, Cross cut – 1"
+    title: "Cut, Straight cut, Cross cut – 1"
     tags: ["intermediate"]
   - id: "th00dfyS4xw"
     title: "Force 2"
@@ -90,91 +90,91 @@ videos:
     title: "Bomb"
     tags: ["intermediate"]
   - id: "yb9np9KPXV4"
-    title: "Rebound i Langda Rebound"
+    title: "Rebound and Langda Rebound"
     tags: ["intermediate"]
   - id: "3E_TufnQsFY"
-    title: "Obrona"
+    title: "Defense"
     tags: ["intermediate"]
   - id: "XOGjzZWC2iU"
-    title: "Prosty strzał, błędny strzał"
+    title: "Straight shot, Wrong shot"
     tags: ["intermediate"]
   - id: "qrnEZ5oan_o"
-    title: "Ćwiczenia fizyczne"
+    title: "Physical Exercises"
     tags: ["intermediate"]
   - id: "7fk1KvxpWOM"
-    title: "Brush, Glance, ugięcie"
+    title: "Brush, Glance, Deflection"
     tags: ["intermediate"]
   - id: "2toKjVwJohw"
-    title: "Jak wyrównać striker"
+    title: "How to level striker"
     tags: ["intermediate"]
   - id: "JUvhQPLyq4w"
-    title: "Pair, źle pair"
+    title: "Pair, Wrong pair"
     tags: ["intermediate"]
   - id: "Jyk5FQB6gxY"
     title: "Touch"
     tags: ["intermediate"]
   - id: "bJWs4zAS6xI"
-    title: "Połączenie touch i trzeciej kieszeni"
+    title: "Combination of touch and Third pocket"
     tags: ["intermediate"]
   - id: "97stbPKDJPs"
-    title: "Kombinacja pair i Double"
+    title: "Combination of pair and Double"
     tags: ["intermediate"]
   - id: "XvZAwjLy_ZY"
-    title: "Skręcając, podążaj"
+    title: "Turning, follow"
     tags: ["intermediate"]
   - id: "4VnYN81vPE4"
-    title: "Trzecia kieszeń, trzecia kieszeń krzyżowa"
+    title: "Third pocket, Cross third pocket"
     tags: ["intermediate"]
   - id: "78mP_-FbTa4"
-    title: "Druga kieszeń, druga kieszeń krzyżowa"
+    title: "Second pocket, Cross second pocket"
     tags: ["intermediate"]
   - id: "HOxn4Q-1VtY"
-    title: "Obrona"
+    title: "Defense"
     tags: ["champion"]
   - id: "6t1kn2wzNOo"
-    title: "Cut, Prosto cut, Cross cut"
+    title: "Cut, Straight cut, Cross cut"
     tags: ["champion"]
   - id: "SCY7KuCBT7Q"
-    title: "Uderzenia z wyprzedzeniem"
+    title: "Advance strokes"
     tags: ["champion"]
   - id: "rTVzsvknhOA"
-    title: "Double, krzyż double"
+    title: "Double, Cross double"
     tags: ["champion"]
   - id: "y80C9BfWVGQ"
-    title: "Kręcić się"
+    title: "Spin"
     tags: ["champion"]
   - id: "aJkKdyOjJjs"
     title: "Langda Rebound"
     tags: ["champion"]
   - id: "PJG08khutoA"
-    title: "Zwycięskie uderzenia"
+    title: "Winning strokes"
     tags: ["champion"]
   - id: "uvqYRLRcIAQ"
-    title: "Zły strzał"
+    title: "Wrong shot"
     tags: ["champion"]
   - id: "86Y52mCU7a4"
-    title: "Uderzenia wystawowe"
+    title: "Exhibition strokes"
     tags: ["champion"]
   - id: "uKJJHu9cWZc"
     title: "Glance"
     tags: ["champion"]
   - id: "uehqA-vy8g8"
-    title: "Ćwiczenia fizyczne"
+    title: "Physical Excercizes"
     tags: ["champion"]
   - id: "I-Yf9PghHA0"
-    title: "Źle pair"
+    title: "Wrong pair"
     tags: ["champion"]
   - id: "QvW-Pd-FTow"
-    title: "Jak wyrównać striker"
+    title: "How to level striker"
     tags: ["champion"]
   - id: "fBb0agfqcwo"
     title: "Touch"
     tags: ["champion"]
   - id: "InPNee7HV4c"
-    title: "Zalety Touch"
+    title: "Advantages of Touch"
     tags: ["champion"]
   - id: "LKgGD94MhJc"
-    title: "Drugi, drugi, drugi, trzeci"
+    title: "Second, cross second, cross third"
     tags: ["champion"]
   - id: "GpOykL199gU"
     title: "Press – 1"
@@ -189,12 +189,12 @@ videos:
     title: "Bomb"
     tags: ["champion"]
   - id: "lGIEPr4z9NI"
-    title: "Toczenie monety"
+    title: "Rolling of coin"
     tags: ["champion"]
   - id: "h_67KxeDtzc"
-    title: "Walcowanie striker"
+    title: "Rolling of striker"
     tags: ["champion"]
   - id: "aw2JB5YLc5k"
-    title: "Złoty Carrom Skarb autorstwa Sir Arun Deshpande"
+    title: "Golden Carrom Treasure by Sir Arun Deshpande"
     tags: ["misc"]
 ---

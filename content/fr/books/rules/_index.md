@@ -1,6 +1,6 @@
 ---
 title: "Règles"
-description: "Règles et réglementations officielles de carrom : lisez et téléchargez le livre de règles de l'IAKC."
+description: "Règles et règlements officiels du carrom — consultez et téléchargez le règlement de l'IAKC."
 layout: category
 category: rules
 aliases:

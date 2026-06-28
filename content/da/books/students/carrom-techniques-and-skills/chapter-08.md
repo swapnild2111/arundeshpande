@@ -1,5 +1,5 @@
 ---
-title: "Kapitel 8 — Glance, Brush, Rebound, Hook"
+title: "Kapitel 8 — Blik, Berøring, Afvisning, Krog"
 description: "Glance, Double Glance, Brush, Rebound, Simple Rebound, Langda Rebound og Hook."
 weight: 8
 date: 2026-01-01
@@ -7,7 +7,6 @@ author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-17.jpg"
   alt: "Glance, Brush, Rebound, Hook"
-translatedBy: "Oversat fra engelsk (AI-udkast)."
 ---
 *Glance, Double Glance, Brush, Rebound, Simple Rebound, Langda Rebound og Hook.*
 
@@ -18,88 +17,88 @@ translatedBy: "Oversat fra engelsk (AI-udkast)."
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Glance</span>
-    <p class="def">Sæt den anden mønt i lommen, mens den første mønt rammer den modsatte ramme og kommer nær bundrammen.</p>
+    <p class="def">Put den anden kugle i hul, mens den første rammer den modsatte ramme og kommer tæt på bundrammen.</p>
   </div>
 </div>
 
-Som vist i figur 11-A frigives en striker på den første mønt, og den anden mønt sættes i lommen, mens den første kommer nær basisrammen ved at ramme den modsatte ramme. Dette slag kaldes en glance. Mens du spiller en glance skal du være forsigtig. Mange
+Som vist i figur 11-A slås den første kugle, og den anden kugle puttes i hullet, mens den første nærmer sig baserammen ved at ramme den modsatte ramme. Dette slag kaldes et glance. Man skal være forsigtig, når man spiller et glance. Mange
 
-Spillere tager ikke møntens position i betragtning og spiller glance. Efter at have fået dårlige resultater giver de deres formue skylden.
+spillere tager ikke højde for kuglens position, når de spiller et glance. Efter at have opnået dårlige resultater giver de heldet skylden.
 
-Efter at have kigget på den første mønt, når striker når den anden mønt, bør retningen af ​​striker ikke mod lommen, men skal være mod den modsatte ramme eller sideramme efter at have ramt den anden mønt.
+Efter at have udført et "glance" på den første kugle, og når slagkuglen når den anden kugle, bør slagkuglens retning ikke være mod hullet, men mod den modsatte ramme eller siderammen efter at have ramt den anden kugle.
 
-Se figur 11-A. Her efter at have slået den anden mønt, er retningen af ​​striker mod siderammen, og derfor er der ingen mulighed for en double.
+Se figur 11-A. Her er stødkuglens retning, efter at den har ramt den anden kugle, mod sidekanten, og derfor er der ingen risiko for en »double due«.
 
-I figur 1I-B er der enhver mulighed for double, da den anden mønt er i midten af ​​lommen og retningen af ​​striker er mod lommen, efter at have ramt anden mønt.
+I figur 11-B er der stor risiko for en »double due«, da den anden kugle befinder sig i midten af lommen, og stødkuglens retning er mod lommen, efter at den har ramt den anden kugle.
 
-I figur 11-C er positionen af ​​den anden mønt den samme som i figur 11-B. Men positionen af ​​den første mønt er ændret. Derfor, for at spille glance skal striker placeres på grundcirklen. Retningen af ​​striker efter at have ramt den anden mønt i figur 11 - C, er mod den modsatte ramme, og derfor er der ingen mulighed for en du.@@2.
+I figur 11-C er den anden mønts position den samme som i figur 11-B, men den første mønts position er ændret. Derfor skal slagstangen placeres på basiscirklen for at udføre et »glance«. Slagstangens retning efter at have ramt den anden mønt i figur 11 - C er mod den modsatte ramme, og derfor er der ingen mulighed for en dobbelt indkørsel.
 
-Man kan se af ovenstående fig. at møntens position for glance er meget vigtig. Medmindre en spiller får en bedre position til at spille glance, er det nytteløst at spille sådan et slag. Dette slag kan bruges mere i et forsvarsspil. Ved at spille en glance, kan modstanderens mønt bringes til vores basisramme, hvorved vores egen mønt i lommen og dermed gøre modstanderens mønt vanskelig for ham. For at spille dette slag er det ikke nødvendigt, at vores mønt skal være i nærheden af ​​lommen. For at bringe modstanderens mønt mod vores basisramme og væk fra lommen, skal en glance spilles ved at placere striker i minimum krydslinje med modstanderens mønt. Brugen af ​​dette slag kan også gøres for at gøre vores mønt let. Som vist i fig. 11-D kan vores mønt, som er tæt på den modsatte ramme, gøres let ved at bringe den tættere på os med en glance. Med en glance kan vores mønt således bringes nær bundrammen, hvilket gør det nemt for os. Dette slag kan også bruges i offensivt spil.
+Man kan se af ovenstående figur, at møntens position ved et »glance« er meget vigtig. Medmindre en spiller opnår en bedre position til at udføre et »glance«, er det nytteløst at udføre et sådant slag. Dette slag kan i højere grad anvendes i et defensivt spil. Ved at spille et »glance« kan modstanderens brik bringes hen mod vores baseramme, samtidig med at vores egen brik puttes i hul, hvilket dermed gør det vanskeligt for modstanderen at spille sin brik. For at udføre dette slag er det ikke nødvendigt, at vores kugle befinder sig tæt på hullet. For at føre modstanderens kugle mod vores bageste ramme og væk fra hullet skal et »glance« udføres ved at placere den slagende kugle i en minimal krydslinje med modstanderens kugle. Dette slag kan også bruges til at gøre vores egen kugle lettere at spille. Som vist i fig. 11-D kan vores kugle, der befinder sig tæt på modstanderens ramme, gøres lettere at spille ved at bringe den tættere på os med et glansslag. Ved hjælp af et glansslag kan vores kugle således bringes tættere på baserammen, hvilket gør det lettere for os. Dette slag kan også anvendes i offensivt spil.
 
-## Double Glance
+## Dobbelt glans
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Double Glance</span>
-    <p class="def">Kigger på to mønter efter hinanden, når den ene glance ikke kan nå målet.</p>
+    <span class="term">Dobbelt glans</span>
+    <p class="def">At ramme to mønter efter hinanden, når et enkelt glansslag ikke kan nå målet.</p>
   </div>
 </div>
 
-Nogle gange er mønternes position sådan, at en spiller ikke kan rette striker mod den tilsigtede mønt ved at kigge på en mønt. Således, hvis der er en chance for at se to mønter efter hinanden, kaldes denne streg en double glance. En tredobbelt glance er meget sjælden.
+Nogle gange er mønternes placering sådan, at en spiller ikke kan rette slagmønterne mod den tilsigtede mønt ved at kaste mod én mønt. Hvis der derfor er mulighed for at kaste mod to mønter efter hinanden, kaldes dette slag et dobbeltkast. Et tredobbeltkast forekommer meget sjældent.
 
 ## Brush
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Brush</span>
-    <p class="def">Som en glance, men den første mønt går til den modsatte eller sideramme i stedet for basisrammen.</p>
+    <p class="def">Ligesom et glance, men den første mønt ender i den modsatte eller sideframe i stedet for i baseframen.</p>
   </div>
 </div>
 
-Dette er ligesom en glance. Forskellen er, at den mønt, som striker rammer først, går til den modsatte eller sideramme i stedet for at komme til basisrammen. Dette slag kræver ikke meget force. For at spille en brush skal striker ramme den første mønt ved sidepunktet. Dette slag er lettere end glance. Hvis der er nogen hindring for vores mønt, kan den fjernes ved at brushindlægge den og stikke vores mønt i lommen. Dette slag bruges i offensivt spil. Ved at spille brush ændres møntens position på brættet altid, og derfor har modstanderen svært ved at forudse noget, og han kan ikke planlægge sin næste tur. Dette slag er meget vigtigt, fordi en spiller kan skabe en masse gunstige positioner ved at anvende dette slag.
+Dette er ligesom et glance. Forskellen er, at den mønt, som spilleren rammer først, går til den modsatte eller sideframe i stedet for at komme til baserammen. Dette slag kræver ikke særlig meget kraft. For at udføre et brush skal spilleren ramme den første mønt ved sidepunktet. Dette slag er nemmere end et glimt. Hvis der er en forhindring for vores kugle, kan den fjernes ved at børste den væk og få vores kugle i hul. Dette slag bruges i offensivt spil. Ved at udføre et brush ændrer kuglens position på brættet sig konstant, og derfor har modstanderen svært ved at forudse noget og kan ikke planlægge sit næste træk. Dette slag er meget vigtigt, fordi en spiller kan skabe mange gunstige positioner ved at anvende det.
 
 ## Rebound
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Rebound</span>
-    <p class="def">Pocking en mønt nær venstre eller højre ramme ved at ramme den modsatte ramme.</p>
+    <p class="def">At putte en mønt i hul nær venstre eller højre ramme ved at ramme den modsatte ramme.</p>
   </div>
 </div>
 
-Hvis en mønt nær vores venstre eller højre ramme sættes i lommen ved at slå på den modsatte ramme, kaldes slaget en rebound.
+Hvis en mønt nær vores venstre eller højre ramme puttes i hul ved at ramme den modsatte ramme, kaldes slaget et rebound.
 
-## Simpel Rebound
+## Enkel rebound
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Simpel Rebound</span>
-    <p class="def">En mønt nær den venstre ramme, der er stukket i lommen ved at ramme striker på den modsatte ramme.</p>
+    <span class="term">Enkel rebound</span>
+    <p class="def">En mønt tæt på venstre ramme, der puttes i hul ved at ramme stødkuglen på den modsatte ramme.</p>
   </div>
 </div>
 
-Som vist i figur l2-A, sættes en mønt tæt på venstre ramme i lommer ved at ramme striker på den modsatte ramme. For at sigte kan der tegnes to lige imaginære linjer fra mønten og striker-positionen kan vælges som et punkt for at sigte rebound. Der bør ikke være pulver i nærheden af ​​den modsatte ramme, mens du spiller rebound. striker vender langsomt tilbage, hvis der er pulver i nærheden af ​​den modsatte ramme, da den ikke får et slag. Hvis der er pulver i nærheden af ​​den modsatte ramme, som ikke kan fjernes i et aktuelt board, så skal rebound spilles med lidt mere force.
+Som vist i figur l2-A bliver en kugle tæt på venstre ramme puttet i hul ved at ramme slagkuglen på den modsatte ramme. Til sigtning kan der trækkes to lige imaginære linjer fra kuglen, og slagkuglens position kan vælges som sigtpunkt for rebound. Der bør ikke være krudt tæt på den modsatte ramme, når man spiller rebound. Slagstenen vil vende langsomt tilbage, hvis der er krudt tæt på den modsatte ramme, da den ikke får et slag. Hvis der er krudt tæt på den modsatte ramme, som ikke kan fjernes i det aktuelle spil, bør reboundet spilles med lidt mere kraft.
 
-## Langda Rebound eller Off the Side Rebound
+## Langda-rebound eller rebound fra siden
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Langda Rebound eller Off the Side Rebound</span>
-    <p class="def">Pocking ved at ramme modsatte og sideramme.</p>
+    <span class="term">Langda-rebound eller rebound fra siden</span>
+    <p class="def">Indlægning ved at ramme modstående ramme og siderammen.</p>
   </div>
 </div>
 
-Som vist i figur 12-B, når en mønt sættes i lommen ved at ramme striker på den modsatte og sideramme, kaldes slaget langda rebound. Der bør ikke være overskydende pudder i nærheden af ​​den modsatte eller sideramme, når dette slag skal spilles. Hvis der er pulver i nærheden af ​​siderammen, vil striker ikke få en afbøjning, vil ikke ramme den ydre del af mønten vil ramme den ydre del af mønten, men vil ramme dens indvendige del, og der vil være enhver chance for en betaling. Efter afbøjning fra den indre del af mønten vil striker bevæge sig mod lommen.
+Som vist i figur 12-B kaldes slaget for langda-rebound, når en mønt indlægges ved at ramme slagkuglen mod den modstående ramme og siderammen. Der bør ikke være for meget krudt i nærheden af den modsatte eller sidevæggen, når dette slag skal udføres. Hvis der er krudt i nærheden af sidevæggen, vil slagbolden ikke få en afbøjning, den vil ikke ramme den ydre del af mønten, men i stedet ramme den indre del, og der vil være stor risiko for en due. Efter at være blevet afbøjet fra den indre del af mønten vil slagkuglen bevæge sig mod lommen.
 
-Hvis der er to mønter som vist i figur 12-B, er dette slag fordelagtigt. Der er tre fordele ved det.
+Hvis der er to mønter, som vist i figur 12-B, er dette slag fordelagtigt. Der er tre fordele ved det.
 
-i) Hvis striker ikke tager en ordentlig vinkel efter at have ramt den modsatte og sideramme og rammer den indre del af mønten i stedet for at ramme den ydre del. Alligevel er der en chance for at stikke mønten i lommen på grund af touch på den anden mønt [Fig. 12 –B – 2)
+i) Hvis slagkuglen ikke får den rette vinkel efter at have ramt modstanderens ramme og siderammen og i stedet rammer den indre del af mønten i stedet for den ydre del. Selv i dette tilfælde er der en chance for at få mønten i lommen på grund af berøringen med den anden mønt [Fig. 12-B-2)
 
-Hvis disse to mønter tilhører os, kan den ene mønt sættes i lommen ved at spille dette slag, og samtidig kan den anden mønt gøres let, fordi den kommer til vores basisramme.
+Hvis disse to mønter tilhører os, kan man ved at udføre dette slag få den ene mønt i hul og samtidig gøre det lettere at få den anden mønt i hul, da den kommer ind i vores baseramme.
 
-Hvis en af ​​disse to mønter er af modstander (mønt, som er på basiscirklen i fig. 12-B2, kan modstanderens hvide mønt bringes til vores basisramme, mens du sætter vores mønt i lommen, hvilket gør det svært for ham. (Fig. l2B-2)
+Hvis en af disse to kugler tilhører modstanderen (den kugle, der befinder sig på basiscirklen i fig. 12 –B-2), kan modstanderens hvide kugle, mens vi putter vores kugle i hul, bringes ind i vores baseramme, hvilket gør det vanskeligt for ham. (Fig. 12 –B-2)
 
-Nogle gange er der en anden holdning. striker toucher modstanderens mønt først, bringer den til vores basisramme og bøjer på vores mønt for at sætte den i lomme [Fig. 12 B-3)
+Nogle gange er situationen anderledes. Stødet rammer først modstanderens kugle, bringer den ind i vores baseramme og afbøjer mod vores kugle for at putte den i hul [Fig. 12 B-3)
 
 ## Hook
 
@@ -108,8 +107,8 @@ Nogle gange er der en anden holdning. striker toucher modstanderens mønt først
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Hook</span>
-    <p class="def">Pocket af rebound undtagen fra venstre eller højre rammeside.</p>
+    <p class="def">Indsætning ved afbøjning, undtagen fra venstre eller højre rammeside.</p>
   </div>
 </div>
 
-Som vist i figur 12 - C, når en mønt er stukket i lomme af en rebound undtagen på venstre eller højre rammeside, kaldes slaget en hook. Når der er en hindring for, at vores mønt kan rejse til den forreste lomme eller bundlommen ved double, bruges dette slag til at stikke mønten ned i vores bundlomme. Når en mønt fra den modsatte base skal stikkes af en cut, så skal en spiller tage en sådan vinkel, at hvis han savner sit cut, vil striker ramme den modsatte ramme og trække mønten til sin baselomme med en hook.
+Som vist i figur 12 - C kaldes et stød for et hook, når en kugle puttes i lommen ved en afbøjning, bortset fra mod venstre eller højre rammeside. Når der er en forhindring for, at vores kugle kan nå frem til forlommen eller baselommen ved et dobbeltstød, bruges dette stød til at putte kuglen i vores baselomme. Når en kugle fra den modsatte base skal puttes i lommen ved et cut, bør spilleren vælge en vinkel, således at hvis han misser sit cut, vil kuglen ramme den modsatte ramme og blive trukket ind i hans base-lomme ved hjælp af et hook.

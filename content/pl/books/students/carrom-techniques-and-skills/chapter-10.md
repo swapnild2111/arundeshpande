@@ -1,55 +1,54 @@
 ---
 title: "Rozdział 10 — Slip, Striker Slip, Double Touch"
-description: "Slip, Striker Slip i Double Touch — pociągnięcia precyzyjne stosowane w przypadku nakładania się monet."
+description: "Slip, Striker Slip i Double Touch — precyzyjne ruchy stosowane w sytuacjach, gdy monety się nakładają."
 weight: 10
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-22.jpg"
   alt: "Slip, Striker Slip, Double Touch"
-translatedBy: "Przetłumaczono z angielskiego (wersja robocza AI)."
 ---
-*Slip, Striker Slip i Double Touch — pociągnięcia precyzyjne stosowane w przypadku nakładania się monet.*
+*Slip, Striker Slip i Double Touch — uderzenia wymagające precyzyjnej kontroli, stosowane w sytuacjach, gdy monety nakładają się na siebie.*
 
 ## Slip
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Slip</span>
-    <p class="def">Wbicie monety dotykającej ramki poprzez uderzenie w jej ćwiartkę.</p>
+    <p class="def">Wbicie monety dotykającej bandy poprzez uderzenie w jej punkt ćwierćowy.</p>
   </div>
 </div>
 
-Jak pokazano na rysunku 16-A, jeśli moneta dotykająca dowolnej ramki zostanie wrzucona do kieszeni poprzez uderzenie w jej ćwierćpunkt, uderzenie nazywa się slip, stemplem lub ćwiartką.
+Jak pokazano na rysunku 16-A, jeśli moneta dotykająca dowolnej bandy zostanie wbita poprzez uderzenie w jej punkt ćwierćowy, uderzenie to nazywa się slip, punch lub quarter.
 
-Jak pokazano na rysunku 16-A, jeśli moneta znajduje się w odległości 5 cali lub więcej od kieszeni bazowej, gracz powinien spróbować włożyć ją do kieszeni przeciwnej.
+Jak pokazano na rysunku 16-A, jeśli moneta znajduje się w odległości 5 cali lub większej od kieszeni bazowej, gracz powinien spróbować wbić ją do przeciwnej kieszeni.
 
-Jak pokazano na rysunkach 16-B i C, jeśli moneta znajduje się w ramce podstawy przeciwległej ramki, to umieszczając striker lekko na linii krzyżowej z monetą, gracz powinien trafić w ćwiartkę monety ze średnią prędkością.
+Jak pokazano na rysunkach 16-B i C, jeśli moneta znajduje się przy ramie bazowej przeciwnej ramy, gracz powinien ustawić kij lekko w linii krzyżowej względem monety i uderzyć w jej ćwierćpunkt z umiarkowaną prędkością.
 
-Jak pokazano na rysunku l6-D, jeżeli moneta znajduje się w pobliżu kieszeni bazowej, należy ją wsunąć do kieszeni bazowej. W takiej pozycji nie należy próbować rebound, gdyż takiej monety nie można tak łatwo wbić do kieszeni rebound. Czasami istnieje niebezpieczeństwo należności, jeśli rebound nie jest dokładne, co powoduje wywrócenie monety z ramki i podążanie za striker do kieszeni.
+Jak pokazano na rysunku 16-D, jeśli moneta znajduje się w pobliżu kieszeni bazowej, należy ją wsunąć do tej kieszeni. W takiej pozycji nie należy próbować odbicia, ponieważ monetę tę nie da się tak łatwo wbić do kieszeni za pomocą odbicia. Czasami istnieje ryzyko popełnienia błędu, jeśli odbicie nie jest precyzyjne, co powoduje, że moneta odbiega od ramki i podąża za uderzającym do kieszeni.
 
-## Striker Slip
+## Przesunięcie uderzającego
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Striker Slip</span>
-    <p class="def">Striker wyślizguje się z jednej monety, by uderzyć i wbić do kieszeni inną w pobliżu.</p>
+    <span class="term">Przesunięcie uderzającego</span>
+    <p class="def">Uderzający przesuwa się z jednej monety, aby uderzyć i wbić do kieszeni inną znajdującą się w pobliżu.</p>
   </div>
 </div>
 
-Wiele razy występuje pozycja pokazana na ryc. 16-F. Jedna z naszych monet jest przyklejona do ramki, a druga jest od tej monety i również nieco oddalona od ramki.
+Często zdarza się sytuacja pokazana na rys. 16-F. Jedna z naszych monet utknęła przy ramie, a druga znajduje się z dala od tej monety i również nieco z dala od ramy.
 
-Zwykle do zagrania tymi dwiema monetami potrzebne będą dwa uderzenia. Jeśli wykonasz uderzenie pokazane na rys. 16-E, twój striker wyniesie slip z przyklejonej monety i uderzy monetę, która znajduje się trochę dalej od ramki i zostanie wbita do kieszeni, a moneta, która zostanie uderzona jako pierwsza, zostanie usunięta z tej pozycji i stanie się dla nas łatwa. W rzadkich przypadkach te dwie monety trafiają do kieszeni jednym pociągnięciem. Do zagrania tego uderzenia powinieneś zastosować nieco więcej force niż przy uderzeniu slip.
+Zazwyczaj do zagrania tych dwóch monet potrzebne są dwa uderzenia. Jeśli wykonasz uderzenie pokazane na rys. 16-E, twoja moneta uderzająca ześlizgnie się z monety przyklejonej do ramki i uderzy monetę znajdującą się nieco dalej od ramki, która zostanie wbita do kieszeni, a moneta uderzona jako pierwsza zostanie usunięta z tej pozycji i stanie się dla nas łatwiejsza do zagrania. Zdarza się rzadko, że obie monety trafiają do kieszeni jednym uderzeniem. Aby wykonać to uderzenie, należy użyć nieco większej siły niż w przypadku uderzenia typu „slip".
 
-## Double Touch
+## Podwójne dotknięcie
 
 ![Rysunek 1](/images/book/fig-22.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Double Touch</span>
-    <p class="def">Striker dwukrotnie dotyka monety przed włożeniem do kieszeni — stosowane w pobliżu ramek bocznych.</p>
+    <span class="term">Podwójne uderzenie</span>
+    <p class="def">Uderzająca moneta dotyka monety dwukrotnie przed wbiciem do kieszeni — stosowane w pobliżu bocznych ramek.</p>
   </div>
 </div>
 
-Jeżeli pokazany na rysunku 16 jest nieco oddalony od ramek, należy puścić striker w taki sposób, aby dwukrotnie dotknął monety i moneta została wrzucona do kieszeni, to uderzenie nazywa się double touch. Często gracz musi grać double touch za monety znajdujące się w pobliżu bocznych ramek. Tylko jeśli te monety znajdują się więcej niż pół cala od bocznej ramy, należy wykonać to uderzenie. Jeśli monety znajdują się w odległości mniejszej niż pół cala od bocznej ramki, wówczas rebound jest łatwiejsze niż double touch.
+Jeśli moneta pokazana na rysunku 16 znajduje się nieco dalej od ram, należy puścić kij w taki sposób, aby dotknął monety dwukrotnie, a moneta wpadła do kieszeni; uderzenie to nazywa się podwójnym dotknięciem. Często gracz musi wykonać uderzenie typu „double touch" w przypadku monet znajdujących się w pobliżu bocznych ram. Uderzenie to powinno być wykonywane tylko wtedy, gdy monety te znajdują się w odległości większej niż pół cala od bocznej ramy. Jeśli monety znajdują się w odległości mniejszej niż pół cala od bocznej ramy, łatwiej jest wykonać odbicie niż uderzenie typu „double touch".

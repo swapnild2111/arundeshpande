@@ -1,17 +1,17 @@
 ---
-title: "Carrom Książki"
-description: "Pobierz i przeczytaj książki carrom — zasady, techniki i przewodniki coachingowe."
+title: "Książki o karambolu"
+description: "Pobierz i przeczytaj książki o karomie — zasady, techniki i poradniki trenerskie."
 aliases:
   - /books/
 filters:
-  - label: "Wszystkie książki"
+  - label: "All Books"
     id: all
-  - label: "Dla Studentów"
+  - label: "For Students"
     id: students
-  - label: "Dla Trenerów"
+  - label: "For Coaches"
     id: coaches
-  - label: "Zasady"
+  - label: "Rules"
     id: rules
-  - label: "Inny"
+  - label: "Other"
     id: other
 ---

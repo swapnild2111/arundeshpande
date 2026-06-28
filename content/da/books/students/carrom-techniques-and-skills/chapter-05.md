@@ -1,56 +1,55 @@
 ---
-title: "Kapitel 5 — Pausen"
-description: "Bryde fra venstre basiscirkel, bryde fra nær basiscirklen - åbningsskuddet på hvert bræt."
+title: "Kapitel 5 — Bruddet"
+description: "Start fra venstre basecirkel, start tæt på basecirklen — det første træk i hvert spil."
 weight: 5
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-07.jpg"
   alt: "The Break"
-translatedBy: "Oversat fra engelsk (AI-udkast)."
 ---
-*Pausen sætter tonen for hvert bræt. Arun viser to pålidelige metoder fra venstre basecirkel — og hvornår man skal prøve det omvendte brud for at få en slam-chance.*
+*Breaket sætter tonen for hvert spil. Arun viser to pålidelige metoder fra venstre basecirkel — og hvornår man skal prøve det omvendte break for at få en chance for at slå.*
 
-## Bryd fra venstre basecirkel
+## Break fra venstre basecirkel
 
 ![Figur 1](/images/book/fig-07.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Venstre base break</span>
-    <p class="def">Striker på venstre grundcirkel; sigt, så den passerer gennem den første pil i den modsatte venstre halvcirkel. Foretrækker saks eller fladt greb.</p>
+    <span class="term">Break fra venstre basecirkel</span>
+    <p class="def">Strikeren placeres på den venstre basecirkel; sigt således, at den passerer gennem den første pil i den modsatte venstre halvcirkel. Foretræk sakse- eller fladt greb.</p>
   </div>
 </div>
 
-Denne metode er den bedste metode og bruges af flertallet af spillerne. Mange spillere tager blindt sigte fra den modsatte ramme til pausen. Hvis du placerer din striker på den venstre grundcirkel, skal din striker passere gennem den første pil i den modsatte venstre halvcirkel som vist i figuren ovenfor. Du kan se det faktiske punkt, hvorfra din striker skal passere, og derfor kan du spille slaget præcist. Hvis du ikke bruger denne metode og prøver at tage et imaginært punkt på den modsatte ramme, er der en chance for at variere dette imaginære punkt, hvilket resulterer i fejl i pausen. Denne pause bør helst laves med saksegreb eller ved et hvilket som helst fladt greb.
+Denne metode er den bedste og bruges af de fleste spillere. Mange spillere sigter i blinde fra den modsatte ramme ved breaket. Hvis du placerer din striker på venstre basecirkel, skal din striker passere gennem den første pil i den modsatte venstre halvcirkel, som vist i figuren ovenfor. Du kan se det faktiske punkt, hvor din striker skal passere, og dermed kan du udføre stødets præcist. Hvis du ikke bruger denne metode og i stedet forsøger at tage udgangspunkt i et imaginært punkt på den modsatte ramme, er der risiko for, at dette imaginære punkt varierer, hvilket kan føre til, at breaket mislykkes. Dette break bør helst udføres med saksgreb eller et hvilket som helst fladt greb.
 
-## Bryd fra nær den venstre basecirkel
+## Break fra nær den venstre basiscirkel
 
 ![Figur 2](/images/book/fig-08.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Nær-base pause</span>
-    <p class="def">Når begroning fra cirklen er en bekymring - spil fra nær basiscirklen; striker passerer gennem den anden pil i den modsatte venstre halvcirkel.</p>
+    <span class="term">Break tæt på basecirklen</span>
+    <p class="def">Når der er risiko for at begå en fejl fra cirklen — spil fra tæt på basecirklen; stødkuglen passerer gennem den anden pil i den modsatte venstre halvcirkel.</p>
   </div>
 </div>
 
-Hvis du er bange for at spille slaget fra venstre cirkel på grund af muligheden for at lave en fejl, kan du spille fra nær basiscirklen. I denne metode skal din striker passere gennem den anden pil i den modsatte venstre halvcirkel som vist i ovenstående figur. Denne pause bør også foretages med saksegreb eller et hvilket som helst fladt greb.
+Hvis du er bange for at udføre slaget fra venstre cirkel på grund af risikoen for at begå en fejl, kan du i stedet spille tæt på basecirklen. Ved denne metode skal din striker passere gennem den anden pil i den modsatte venstre halvcirkel, som vist i figuren ovenfor. Dette break skal også udføres med saksgreb eller et hvilket som helst fladt greb.
 
-## Omvendt pause
+## Omvendt break
 
 ![Figur 3](/images/book/fig-09.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Omvendt pause</span>
-    <p class="def">Arranger et skud til din venstre lomme og bryd fra venstre side. En god pause kan efterlade en flok med fire mønter til et touch slag og en hvid slam-chance.</p>
+    <span class="term">Omvendt break</span>
+    <p class="def">Planlæg et stød mod din venstre lomme og udfør bruddet fra venstre side. Et godt brud kan efterlade en klynge på fire kugler, der giver mulighed for et touch-stød og en chance for et white slam.</p>
   </div>
 </div>
 
-I denne type pause kan du arrangere et skud af pausen til din venstre lomme og bryde fra venstre side. Hvis du bryder præcist, vil du bemærke, at der er en flok på fire mønter tilbage på en sådan måde, at du kan spille et touch slag og åbne brættet, og derved få en chance for et hvidt smæk.
+I denne type break kan du planlægge et skud mod venstre lomme og udføre breaket fra venstre side. Hvis du udfører breaket præcist, vil du bemærke, at der efterlades en gruppe på fire kugler på en sådan måde, at du kan spille et let stød og åbne bordet, hvilket giver dig en chance for et white slam.
 
 <div class="callout">
   <div class="callout-title">Risiko</div>
-  <p>Hvis du ikke knækker korrekt, kan du slå andre mønter, eller din striker kan bare touch dine tilsigtede hvide mønter - et dårligt brud og en tabt mulighed.</p>
+  <p>Hvis du ikke formår at udføre et korrekt break, kan du ramme andre mønter, eller din striker kan blot strejfe de hvide mønter, du sigtede efter — et dårligt break og en forspildt mulighed.</p>
 </div>

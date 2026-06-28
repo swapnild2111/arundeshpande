@@ -1,5 +1,5 @@
 ---
-title: "Carrom Allenatore Arun Deshpande"
-description: "Una leggenda vivente dell'India carrom: 7 volte campione del Maharashtra, campione nazionale e allenatore che ha portato l'India a dominare i primi due campionati mondiali Carrom. Con oltre due decenni di esperienza come allenatore in oltre 10 paesi, Arun Deshpande continua a elevare lo sport in tutto il mondo."
+title: "Arun Deshpande, allenatore di carrom"
+description: "Una leggenda vivente del carrom indiano: 7 volte campione del Maharashtra, campione nazionale e allenatore che ha guidato l'India al dominio nelle prime due edizioni dei Campionati mondiali di carrom. Con oltre due decenni di esperienza come allenatore in più di 10 paesi, Arun Deshpande continua a promuovere questo sport in tutto il mondo."
 ---
-Una leggenda vivente dell'India carrom: 7 volte campione del Maharashtra, campione nazionale e allenatore che ha portato l'India a dominare i primi due campionati mondiali Carrom. Con oltre due decenni di esperienza come allenatore in oltre 10 paesi, Arun Deshpande continua a elevare lo sport in tutto il mondo.
+Una leggenda vivente del carrom indiano: 7 volte campione del Maharashtra, campione nazionale e allenatore che ha guidato l'India al dominio nelle prime due edizioni dei Campionati mondiali di carrom. Con oltre due decenni di esperienza come allenatore in più di 10 paesi, Arun Deshpande continua a promuovere questo sport in tutto il mondo.

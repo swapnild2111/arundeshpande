@@ -1,15 +1,14 @@
 ---
-title: "Chapitre 8 — Glance, Brush, Rebound, Hook"
-description: "Glance, Double Glance, Brush, Rebound, Rebound simple, Langda Rebound et Hook."
+title: "Chapitre 8 — Coup d'œil, Effleurement, Rebond, Crochet"
+description: "Coup d'œil, Double coup d'œil, Balayage, Rebond, Rebond simple, Rebond Langda et Crochet."
 weight: 8
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-17.jpg"
   alt: "Glance, Brush, Rebound, Hook"
-translatedBy: "Traduit de l'anglais (brouillon IA)."
 ---
-*Glance, Double Glance, Brush, Rebound, simple Rebound, Langda Rebound et Hook.*
+*Glance, Double Glance, Brush, Rebound, Simple Rebound, Langda Rebound et Hook.*
 
 ## Glance
 
@@ -18,88 +17,88 @@ translatedBy: "Traduit de l'anglais (brouillon IA)."
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Glance</span>
-    <p class="def">Empochez la deuxième pièce pendant que la première pièce touche le cadre opposé et s'approche du cadre de base.</p>
+    <p class="def">Empocher la deuxième bille tandis que la première frappe le cadre opposé et s'approche du cadre de base.</p>
   </div>
 </div>
 
-Comme le montre la figure 11-A, un striker est libéré sur la première pièce et la deuxième pièce est empochée tandis que la première s'approche du cadre de base en frappant le cadre opposé. Ce trait est appelé glance. Lors de la lecture d'un glance, des précautions doivent être prises. Beaucoup
+Comme le montre la figure 11-A, on frappe la première bille et la deuxième est empochée tandis que la première s'approche de la bande de base après avoir heurté la bande opposée. Ce coup s'appelle un « glance ». Il convient d'être prudent lorsqu'on joue un « glance ». De nombreux
 
-Les joueurs ne prennent pas en compte la position de la pièce et jouent le glance. Après avoir obtenu de mauvais résultats, ils blâment leur fortune.
+joueurs ne tiennent pas compte de la position de la bille et jouent le « glance » à l'aveuglette. Après avoir obtenu de mauvais résultats, ils mettent cela sur le compte de la malchance.
 
-Après avoir jeté un coup d'œil à la première pièce lorsque le striker atteint la deuxième pièce, la direction du striker ne doit pas être vers la poche mais doit être vers le cadre opposé ou le cadre latéral après avoir frappé la deuxième pièce.
+Après avoir effectué un « glance » sur la première bille, lorsque le tireur atteint la deuxième bille, sa trajectoire ne doit pas se diriger vers la poche, mais vers la bande opposée ou la bande latérale après avoir heurté la deuxième bille.
 
-Voir la figure 11-A. Ici, après avoir frappé la deuxième pièce, la direction du striker est vers le cadre latéral et il n'y a donc aucune possibilité qu'un double soit dû.
+Voir la figure 11-A. Ici, après avoir touché la deuxième bille, la direction de la bille de tir est orientée vers la bande latérale ; il n'y a donc aucun risque de « double due ».
 
-Dans la figure 1I-B, il y a toutes les possibilités pour double car la deuxième pièce est au centre de la poche et la direction du striker est vers la poche, après avoir frappé la deuxième pièce.
+Sur la figure 11-B, le risque de « double due » est bien réel, car la deuxième bille se trouve au centre de la poche et la direction de la bille de tir est orientée vers la poche après avoir touché la deuxième bille.
 
-Dans la figure 11-C, la position de la deuxième pièce est la même que celle de la figure 11-B. Mais la position de la première pièce est modifiée. Par conséquent, pour jouer à glance, le striker doit être placé sur le cercle de base. La direction du striker après avoir frappé la deuxième pièce dans la figure 11-C est vers le cadre opposé et il n'y a donc aucune possibilité de double dû.
+Sur la figure 11-C, la position de la deuxième pièce est identique à celle de la figure 11-B, mais la position de la première pièce a changé. Par conséquent, pour effectuer un « glance », la bille de tir doit être placée sur le cercle de base. La direction de la bille de tir après avoir heurté la deuxième pièce, sur la figure 11 - C est orientée vers le cadre opposé ; il n'y a donc aucune possibilité de double.
 
-On peut voir sur la fig ci-dessus. que la position de la pièce pour le glance est très importante. À moins qu'un joueur obtienne une meilleure position pour jouer le glance, il est inutile de jouer un tel coup. Ce coup peut être davantage utilisé dans un jeu défensif. En jouant un glance, la pièce de l'adversaire peut être amenée jusqu'à notre cadre de base, empochant notre propre pièce et rendant ainsi la pièce de l'adversaire difficile pour lui. Pour jouer ce coup, il n'est pas nécessaire que notre pièce soit près de la poche. Pour amener la pièce de l'adversaire vers notre cadre de base et loin de la poche, un glance doit être joué en plaçant le striker dans la ligne transversale minimale avec la pièce de l'adversaire. L'utilisation de ce trait peut également être faite pour rendre notre pièce facile. Comme le montre la figure 11-D, notre pièce, qui est proche du cadre opposé, peut être rendue plus facile en la rapprochant de nous par un glance. Ainsi, grâce à un glance, notre pièce peut être rapprochée du cadre de base, ce qui nous facilite ainsi la tâche. Ce coup peut également être utilisé dans le jeu offensif.
+On peut voir d'après la figure ci-dessus que la position de la bille pour le « glance » est très importante. À moins qu'un joueur n'obtienne une meilleure position pour jouer le « glance », il est inutile d'effectuer un tel coup. Ce coup peut être davantage utilisé dans un jeu défensif. En effectuant un « glance », on peut amener la bille adverse vers notre cadre de base, empocher sa propre bille et ainsi compliquer la tâche de l'adversaire. Pour réaliser ce coup, il n'est pas nécessaire que notre bille soit proche de la poche. Pour amener la bille adverse vers notre cadre de base et l'éloigner de la poche, il faut jouer un coup de glissement en plaçant la bille de frappe sur une ligne transversale minimale par rapport à la bille adverse. Ce coup peut également être utilisé pour faciliter la mise en position de notre bille. Comme le montre la figure 11-D, notre bille, qui se trouve près du cadre opposé, peut être mise en position favorable en la rapprochant de nous par un coup oblique. Ainsi, grâce à un coup oblique, notre bille peut être amenée près du cadre de base, ce qui la rend plus facile à jouer pour nous. Ce coup peut également être utilisé en jeu offensif.
 
-## Double Glance
+## Double rebond
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Double Glance</span>
-    <p class="def">Jeter deux pièces l'une après l'autre lorsqu'un glance ne peut pas atteindre la cible.</p>
+    <span class="term">Double rebond</span>
+    <p class="def">Faire rebondir deux pièces l'une après l'autre lorsqu'un seul rebond ne permet pas d'atteindre la cible.</p>
   </div>
 </div>
 
-Parfois, la position des pièces est telle qu'un joueur ne peut pas viser le striker sur la pièce prévue en jetant un coup d'œil sur une pièce. Ainsi, s'il y a une chance de faire glisser deux pièces l'une après l'autre, ce coup est appelé double glance. Un triple glance est un phénomène très rare.
+Il arrive parfois que la position des pièces soit telle qu'un joueur ne puisse pas diriger la pièce de frappe vers la pièce visée en effectuant un seul coup de glissement. Ainsi, s'il est possible de faire glisser deux pièces l'une après l'autre, ce coup est appelé « double coup de glissement ». Un triple coup de glissement est très rare.
 
 ## Brush
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Brush</span>
-    <p class="def">Comme un glance, mais la première pièce va vers le cadre opposé ou latéral au lieu du cadre de base.</p>
+    <p class="def">Semblable à un « glance », mais la première bille va vers le cadre opposé ou latéral au lieu du cadre de base.</p>
   </div>
 </div>
 
-C'est comme un glance. La différence est que la pièce que striker frappe en premier va vers le cadre opposé ou latéral au lieu de venir vers le cadre de base. Ce trait ne nécessite pas beaucoup de force. Pour jouer un brush, le striker doit toucher la première pièce au point latéral. Ce trait est plus facile que glance. S'il y a une obstruction pour notre pièce, elle peut être retirée en la brossant et en empochant notre pièce. Ce coup est utilisé dans le jeu offensif. En jouant au brush, la position de la pièce sur le plateau change toujours et donc l'adversaire a du mal à anticiper quoi que ce soit et il ne peut pas planifier son prochain tour. Ce coup est très essentiel car un joueur peut créer de nombreuses positions favorables en appliquant ce coup.
+Ce coup est similaire à un « glance ». La différence réside dans le fait que la bille que le joueur frappe en premier va vers le cadre opposé ou latéral au lieu de rejoindre le cadre de base. Ce coup ne nécessite pas beaucoup de force. Pour réaliser un « brush », le joueur doit frapper la première bille sur le côté. Ce coup est plus facile que le « glance ». S'il y a un obstacle sur le chemin de notre bille, il est possible de le supprimer en effectuant un « brush » et en empochant notre bille. Ce coup est utilisé en jeu offensif. En jouant le « brush », la position de la bille sur le plateau change constamment, ce qui rend difficile pour l'adversaire d'anticiper quoi que ce soit et l'empêche de planifier son prochain tour. Ce coup est essentiel, car il permet au joueur de créer de nombreuses positions favorables.
 
-## Rebound
+## Rebond
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Rebound</span>
-    <p class="def">Empocher une pièce près du cadre gauche ou droit en frappant le cadre opposé.</p>
+    <span class="term">Rebond</span>
+    <p class="def">Empocher une bille proche de la bande gauche ou droite en frappant la bande opposée.</p>
   </div>
 </div>
 
-Si une pièce près de notre cadre gauche ou droit est empochée en frappant sur le cadre opposé, le coup est appelé un rebound.
+Si une bille proche de notre bande gauche ou droite est empochée en frappant la bande opposée, ce coup est appelé « rebond ».
 
-## Simple Rebound
+## Rebond simple
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Simple Rebound</span>
-    <p class="def">Une pièce près du cadre gauche empochée en frappant le striker sur le cadre opposé.</p>
+    <span class="term">Rebond simple</span>
+    <p class="def">Une pièce située près de la bande gauche empochée en frappant la bille avec la bande opposée.</p>
   </div>
 </div>
 
-Comme le montre la figure l2-A, une pièce proche du cadre gauche est empochée en frappant le striker sur le cadre opposé. Pour viser, deux lignes imaginaires droites peuvent être tracées à partir de la pièce et la position striker peut être choisie comme point de visée rebound. Il ne doit pas y avoir de poudre près du cadre opposé pendant la lecture de rebound. Le striker reviendra lentement s'il y a de la poudre près du cadre opposé car il ne reçoit pas de coup. S'il y a de la poudre près du cadre opposé qui ne peut pas être retirée dans un plateau actuel, alors le rebound doit être joué avec un peu plus de force.
+Comme le montre la figure l2-A, une bille située près de la bande gauche est empochée en frappant la bille de tir sur la bande opposée. Pour viser, on peut tracer deux lignes droites imaginaires à partir de la bille et choisir la position de la bille de tir comme point de visée pour le rebond. Il ne doit pas y avoir de poudre près du cadre opposé lors de l'exécution d'un rebond. La bille de frappe reviendra lentement s'il y a de la poudre près du cadre opposé, car elle ne recevra pas de coup. S'il y a de la poudre près du cadre opposé qui ne peut être retirée sur le plateau actuel, le rebond doit alors être joué avec un peu plus de force.
 
-## Langda Rebound ou Hors du côté Rebound
+## Rebond Langda ou rebond sur le côté
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Langda Rebound ou Hors du côté Rebound</span>
-    <p class="def">Empochement en frappant le cadre opposé et latéral.</p>
+    <span class="term">Rebond Langda ou rebond sur le côté</span>
+    <p class="def">Empocher la pièce en la faisant rebondir sur les cadres opposé et latéral.</p>
   </div>
 </div>
 
-Comme le montre la figure 12-B, lorsqu'une pièce est empochée en frappant le striker sur le cadre opposé et latéral, le coup est appelé langda rebound. Il ne doit pas y avoir d'excès de poudre près du cadre opposé ou latéral lorsque ce coup doit être joué. S'il y a de la poudre près du cadre latéral, le striker ne sera pas dévié, ne frappera pas la partie extérieure de la pièce, frappera la partie extérieure de la pièce mais frappera sa partie intérieure et il y aura toutes les chances d'être dû. Après avoir dévié de la partie intérieure de la pièce, le striker se déplacera vers la poche.
+Comme le montre la figure 12-B, lorsqu'une pièce est empochée en faisant rebondir le frappeur sur les cadres opposé et latéral, le coup est appelé « rebond Langda ». Il ne doit pas y avoir d'excès de poudre près du cadre opposé ou latéral lorsque ce coup doit être joué. S'il y a de la poudre près du cadre latéral, le projectile ne subira pas de déviation, ne touchera pas la partie extérieure de la pièce, mais touchera sa partie intérieure, ce qui augmentera considérablement le risque d'un « due ». Après avoir rebondi sur la partie intérieure de la pièce, le tireur se dirigera vers la poche.
 
-S'il y a deux pièces comme le montre la figure 12-B, ce coup est avantageux. Cela présente trois avantages.
+S'il y a deux pièces, comme le montre la figure 12-B, ce coup est avantageux. Il présente trois avantages.
 
-i) Si striker ne prend pas un angle approprié après avoir frappé le cadre opposé et latéral et frappe la partie intérieure de la pièce au lieu de frapper la partie extérieure. Même ainsi, il y a une chance d'empocher la pièce en raison du touch de l'autre pièce [Fig. 12 –B-2)
+i) Si le tireur ne prend pas un angle correct après avoir touché la bande opposée et la bande latérale et qu'il frappe la partie intérieure de la bille au lieu de la partie extérieure. Même dans ce cas, il y a une chance d'empocher la bille grâce au contact avec l'autre bille [Fig. 12-B-2)
 
-Si ces deux pièces nous appartiennent, alors en jouant ce coup, une pièce peut être empochée et simultanément l'autre pièce peut être rendue facile car elle arrive à notre cadre de base.
+Si ces deux billes nous appartiennent, ce coup permet d'empocher une bille et, simultanément, de faciliter l'empocher de l'autre, car celle-ci se retrouve sur notre cadre de base.
 
-Si l'une de ces deux pièces est celle de l'adversaire (pièce qui se trouve sur le cercle de base sur la Fig. 12 – B2), alors en empochant notre pièce, la pièce blanche de l'adversaire peut être amenée vers notre cadre de base, ce qui lui rend la tâche difficile. (Fig. l2B-2)
+Si l'une de ces deux boules appartient à l'adversaire (la boule située sur le cercle de base sur la fig. 12 –B-2), alors en empochant notre boule, la boule blanche de l'adversaire peut être amenée vers notre cadre de base, ce qui lui complique la tâche. (Fig. 12 –B-2)
 
-Parfois, la position est différente. Le striker touche d'abord la pièce de l'adversaire, l'amène à notre cadre de base et dévie sur notre pièce pour l'empocher [Fig. 12B-3)
+Parfois, la situation est différente. La bille de frappe touche d'abord la bille de l'adversaire, l'amène vers notre cadre de base et rebondit sur notre bille pour l'empocher [Fig. 12 B-3)
 
 ## Hook
 
@@ -108,8 +107,8 @@ Parfois, la position est différente. Le striker touche d'abord la pièce de l'a
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Hook</span>
-    <p class="def">Poche par rebound sauf sur le côté gauche ou droit du cadre.</p>
+    <p class="def">Empocher une bille par rebond, sauf si celui-ci se produit sur le côté gauche ou droit de la table.</p>
   </div>
 </div>
 
-Comme le montre la figure 12 - C, lorsqu'une pièce est empochée par un rebound sauf du côté gauche ou droit du cadre, le trait est appelé hook. Lorsqu'il y a une obstruction pour que notre pièce se déplace vers la poche avant ou la poche de base par double, ce trait est utilisé pour empocher la pièce dans notre poche de base. Lorsqu'une pièce de la base opposée doit être empochée par un cut, alors un joueur doit prendre un angle tel que s'il manque son cut, le striker frappera le cadre opposé et fera glisser la pièce vers sa poche de base par un hook.
+Comme le montre la figure 12 - C, lorsqu'une bille est empochée par rebond, sauf sur le côté gauche ou droit du cadre, le coup est appelé « hook ». Lorsqu'il y a un obstacle empêchant notre bille de se diriger vers la poche avant ou la poche de base par un double, ce coup est utilisé pour empocher la bille dans notre poche de base. Lorsqu'une bille provenant de la base adverse doit être empochée par un « cut », le joueur doit choisir un angle tel que, s'il rate son « cut », la bille frappera le cadre opposé et sera entraînée vers sa poche de base par un « hook ».

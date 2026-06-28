@@ -1,6 +1,6 @@
 ---
 title: "Galerie de photos"
-description: "Séances de coaching, tournois et voyages."
+description: "Séances d'entraînement, tournois et déplacements."
 sitemap:
   disable: true
 filters: ["All", "Coaching", "Tournaments", "Camps", "International"]
@@ -22,4 +22,4 @@ photos:
   - alt: "Coaching camp, Pune"
     tags: ["camps"]
 ---
-Déposez les photos dans `static/images/gallery/` et référencez-les dans la liste `photos` ci-dessus avec un champ `src`, par ex. `src : "/images/gallery/photo-01.jpg"`.
+Placez vos photos dans le dossier `static/images/gallery/` et référencez-les dans la liste `photos` ci-dessus à l'aide d'un champ `src`, par exemple `src: "/images/gallery/photo-01.jpg"`.

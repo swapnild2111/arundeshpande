@@ -1,56 +1,55 @@
 ---
-title: "Chapitre 5 — La pause"
-description: "Rompre à partir du cercle de base gauche, rompre à proximité du cercle de base – le premier coup de chaque planche."
+title: "Chapitre 5 — La rupture"
+description: "Partir du cercle de base gauche, partir près du cercle de base — c'est le premier coup de chaque manche."
 weight: 5
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-07.jpg"
   alt: "The Break"
-translatedBy: "Traduit de l'anglais (brouillon IA)."
 ---
-*La pause donne le ton à chaque planche. Arun montre deux méthodes fiables à partir du cercle de base gauche – et quand tenter le break inversé pour avoir une chance de chelem.*
+*La rupture donne le ton à chaque donne. Arun présente deux méthodes fiables à partir du cercle de base gauche — et explique quand tenter la rupture inversée pour avoir une chance de réaliser un chelem.*
 
-## Rupture du cercle de base gauche
+## Rupture à partir du cercle de base gauche
 
 ![Figure 1](/images/book/fig-07.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Pause base gauche</span>
-    <p class="def">Striker sur le cercle de base gauche ; visez pour qu'il passe par la première flèche du demi-cercle gauche opposé. Préférez les ciseaux ou la poignée plate.</p>
+    <span class="term">Départ de la base gauche</span>
+    <p class="def">Bille de coup sur le cercle de base gauche ; visez de manière à ce qu'elle passe par la première flèche du demi-cercle gauche opposé. Privilégiez la prise en ciseaux ou la prise à plat.</p>
   </div>
 </div>
 
-Cette méthode est la meilleure et est utilisée par la majorité des joueurs. De nombreux joueurs visent à l’aveugle depuis le cadre opposé pour la pause. Si vous placez votre striker sur le cercle de base gauche alors votre striker devrait passer par la première flèche du demi-cercle gauche opposé, comme indiqué dans la figure ci-dessus. Vous pouvez voir le point réel d'où votre striker doit passer et vous pouvez donc jouer le coup avec précision. Si vous n'utilisez pas cette méthode et essayez de prendre un point imaginaire sur l'image opposée, il y a alors un risque de faire varier ce point imaginaire, ce qui entraînerait l'échec de la cassure. Cette cassure doit être réalisée de préférence par prise en ciseaux ou par toute prise plate.
+Cette méthode est la meilleure et est utilisée par la majorité des joueurs. De nombreux joueurs visent à l'aveugle depuis le cadre opposé pour le coup d'ouverture. Si vous placez votre tireur sur le cercle de base gauche, celui-ci doit passer par la première flèche du demi-cercle gauche opposé, comme le montre la figure ci-dessus. Vous pouvez voir le point réel par lequel votre tireur doit passer et ainsi effectuer le coup avec précision. Si vous n'utilisez pas cette méthode et que vous essayez de viser un point imaginaire sur le cadre opposé, ce point imaginaire risque de varier, ce qui entraînera l'échec de la mise en jeu. Cette mise en jeu doit de préférence être effectuée avec une prise en ciseaux ou n'importe quelle prise à plat.
 
-## Rupture à proximité du cercle de base gauche
+## Casse depuis les environs du cercle de base gauche
 
 ![Figure 2](/images/book/fig-08.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Rupture proche de la base</span>
-    <p class="def">Lorsque les fautes depuis le cercle sont un souci, jouez depuis près du cercle de base ; striker passe par la deuxième flèche du demi-cercle gauche opposé.</p>
+    <span class="term">Coup de départ près du cercle de base</span>
+    <p class="def">Lorsque le risque de faute depuis le cercle est préoccupant, jouez depuis la proximité du cercle de base ; la bille blanche passe par la deuxième flèche du demi-cercle gauche adverse.</p>
   </div>
 </div>
 
-Si vous avez peur de jouer le coup depuis le cercle de gauche en raison d'une possibilité de commettre une faute, vous pouvez jouer près du cercle de base. Dans cette méthode, votre striker doit passer par la deuxième flèche du demi-cercle gauche opposé, comme indiqué dans la figure ci-dessus. Cette pause doit également être effectuée avec une poignée en ciseaux ou toute autre poignée plate.
+Si vous craignez de tirer depuis le cercle gauche en raison d'un risque de faute, vous pouvez tirer depuis la zone proche du cercle de base. Dans cette technique, votre frappeur doit passer par la deuxième flèche du demi-cercle gauche opposé, comme illustré dans la figure ci-dessus. Ce tir doit également être effectué avec une prise en ciseaux ou toute autre prise à plat.
 
-## Pause inversée
+## Coup d'ouverture inversé
 
 ![Figure 3](/images/book/fig-09.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Pause inversée</span>
-    <p class="def">Organisez un tir dans votre poche gauche et faites une pause depuis le côté gauche. Une bonne pause peut laisser un groupe de quatre pièces pour un coup touch et une chance de chelem blanc.</p>
+    <span class="term">Coup d'ouverture inversé</span>
+    <p class="def">Préparez un coup vers votre poche gauche et effectuez la mise en jeu depuis le côté gauche. Une bonne mise en jeu peut laisser un groupe de quatre billes permettant un coup de touche et une chance de « slam » avec la bille blanche.</p>
   </div>
 </div>
 
-Dans ce type de break, vous pouvez organiser un tir du break dans votre poche gauche et un break depuis le côté gauche. Si vous cassez avec précision, vous remarquerez qu'il reste un tas de quatre pièces de telle manière que vous pouvez jouer un coup touch et ouvrir le plateau, obtenant ainsi une chance de faire un slam blanc.
+Dans ce type de coup d'ouverture, vous pouvez viser la poche gauche et effectuer le coup d'ouverture depuis le côté gauche. Si vous effectuez un coup d'ouverture précis, vous remarquerez qu'il reste un groupe de quatre billes disposées de telle sorte que vous pouvez jouer un coup de touche et ouvrir le tableau, ce qui vous offre une chance de réaliser un « white slam ».
 
 <div class="callout">
   <div class="callout-title">Risque</div>
-  <p>Si vous ne parvenez pas à casser correctement, vous risquez de toucher d'autres pièces ou votre striker peut simplement touch vos pièces blanches ciblées – une mauvaise cassure et une opportunité perdue.</p>
+  <p>Si vous ne réussissez pas à effectuer correctement la mise en jeu, vous risquez de toucher d'autres billes ou votre bille de mise en jeu pourrait simplement effleurer les billes blanches que vous visiez — une mauvaise mise en jeu et une occasion manquée.</p>
 </div>

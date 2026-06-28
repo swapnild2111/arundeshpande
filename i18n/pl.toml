@@ -1,20 +1,20 @@
 [home_title]
-other = "Carrom Trener Arun Deshpande"
+other = "Trener karambolu Arun Deshpande"
 
 [watch_videos]
 other = "Obejrzyj filmy"
 
 [play_video]
-other = "Odtwórz wideo"
+other = "Odtwórz film"
 
 [watch_on_youtube]
-other = "Oglądaj na YouTube"
+other = "Obejrzyj na YouTube"
 
 [close_video]
-other = "Zamknąć"
+other = "Zamknij"
 
 [youtube_channel]
-other = "YouTube Kanał"
+other = "Kanał na YouTube"
 
 [play_store_label]
 other = "Pobierz aplikację z Google Play"
@@ -23,28 +23,28 @@ other = "Pobierz aplikację z Google Play"
 other = "Aplikacja Google Play"
 
 [about_legend]
-other = "O Legendzie"
+other = "O legendzie"
 
 [explore]
-other = "Badać"
+other = "Odkryj"
 
 [video_library]
-other = "Biblioteka wideo"
+other = "Biblioteka filmów"
 
 [video_library_desc]
-other = "Obejrzyj samouczki carrom podzielone na kategorie według poziomu umiejętności — od początkującego do mistrza."
+other = "Obejrzyj samouczki dotyczące gry w carrom, podzielone według poziomu zaawansowania — od początkującego do mistrza."
 
 [carrom_books]
-other = "Carrom Książki"
+other = "Książki o karambolu"
 
 [carrom_books_desc]
-other = "Pobierz ekskluzywne książki w formacie PDF dla uczniów i trenerów autorstwa Arun Deshpande."
+other = "Pobierz ekskluzywne książki w formacie PDF autorstwa Aruna Deshpande'a, przeznaczone dla uczniów i trenerów."
 
 [photo_gallery]
 other = "Galeria zdjęć"
 
 [photo_gallery_desc]
-other = "Przeżyj jeszcze raz tę podróż — mistrzostwa, obozy trenerskie i kultowe momenty."
+other = "Przeżyj tę przygodę na nowo — mistrzostwa, obozy szkoleniowe i kultowe chwile."
 
 [chapter]
 other = "Rozdział"
@@ -53,40 +53,40 @@ other = "Rozdział"
 other = "Poprzedni"
 
 [next]
-other = "Następny"
+other = "Dalej"
 
 [email]
 other = "E-mail"
 
 [phone]
-other = "Telefon/WhatsApp"
+other = "Telefon / WhatsApp"
 
 [location]
 other = "Lokalizacja"
 
 [coaching_enquiries]
-other = "Zapytania coachingowe"
+other = "Zapytania dotyczące coachingu"
 
 [whatsapp_message]
-other = "Witam, Panie Arun, znalazłem stronę Carrom Akademii i jestem zainteresowany carrom coachingiem."
+other = "Witam, panie Arun, trafiłem na stronę internetową Carrom Academy i jestem zainteresowany treningami karomu."
 
 [contact_information]
-other = "Informacje kontaktowe"
+other = "Dane kontaktowe"
 
 [message_on_whatsapp]
-other = "Wiadomość na WhatsApp"
+other = "Wiadomość na WhatsAppie"
 
 [whatsapp_hint]
-other = "Najszybszy sposób na skontaktowanie się z Arun w celu uzyskania zapytań dotyczących coachingu i warsztatów."
+other = "Najszybszy sposób na skontaktowanie się z Arunem w sprawie zapytań dotyczących coachingu i warsztatów."
 
 [page_count]
 other = "strony"
 
 [download_pdf]
-other = "Pobierz PDF"
+other = "Pobierz plik PDF"
 
 [original_source]
-other = "Oryginalne źródło"
+other = "Źródło oryginalne"
 
 [original_sources]
 other = "Źródła oryginalne"
@@ -107,10 +107,10 @@ other = "Grupy problemowe"
 other = "Wkrótce"
 
 [pdf_coming_soon]
-other = "PDF już wkrótce"
+other = "Plik PDF wkrótce"
 
 [ready_to_read]
-other = "Gotowy do przeczytania"
+other = "Gotowy do czytania"
 
 [start_reading]
 other = "Zacznij czytać"
@@ -122,37 +122,37 @@ other = "Spis treści"
 other = "Język"
 
 [coming_soon]
-other = "Już wkrótce"
+other = "Wkrótce"
 
 [coming_soon_body]
-other = "Ta sekcja jest w przygotowaniu. W międzyczasie przejdź do strony Filmy lub skontaktuj się z touch poprzez stronę Kontakt."
+other = "Ta sekcja jest w trakcie przygotowywania. W międzyczasie zapraszamy na stronę „Filmy\" lub prosimy o kontakt za pośrednictwem strony „Kontakt\"."
 
 [watch_in_action]
-other = "Obejrzyj w akcji"
+other = "Zobacz, jak to działa"
 
 [video_level_beginner]
 other = "Początkujący"
 
 [video_level_intermediate]
-other = "Mediator"
+other = "Poziom średniozaawansowany"
 
 [video_level_champion]
 other = "Mistrz"
 
 [video_lang_hint_label]
-other = "Napisy"
+other = "Podpisy"
 
 [video_lang_hint_body]
-other = "Filmy są w języku marathi i zawierają carrom angielskie terminy. Naciśnij przycisk CC w odtwarzaczu i wybierz język w obszarze Napisy → Automatyczne tłumaczenie."
+other = "Filmy są w języku marathi i zawierają angielskie terminy związane z karambolem. Naciśnij przycisk „CC\" w odtwarzaczu i wybierz język w sekcji „Napisy\" → „Automatyczne tłumaczenie\"."
+
+[available_in_n_languages]
+other = 'Available in {{ .Count }} languages'
+
+[chapter_count_of]
+other = 'Chapter {{ .Current }} of {{ .Total }}'
 
 [reading_progress]
-other = "Postęp w czytaniu"
+other = "Postępy w czytaniu"
 
 [other_languages]
 other = "Inne języki"
-
-[available_in_n_languages]
-other = 'Dostępne w {{ .Count }} językach'
-
-[chapter_count_of]
-other = 'Rozdział {{ .Current }} z {{ .Total }}'

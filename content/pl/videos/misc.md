@@ -1,6 +1,6 @@
 ---
 title: "Różne"
-description: "Dodatkowe carrom filmy i sesje specjalne prowadzone przez Carrom Trenera Arun Deshpande."
+description: "Dodatkowe filmy o karomie oraz specjalne sesje prowadzone przez trenera karomu Aruna Deshpande."
 layout: category
 category: misc
 aliases:

@@ -1,65 +1,64 @@
 ---
 title: "Rozdział 3 — Podstawowe zasady"
-description: "Jak gra jest skonfigurowana i punktowana, zasady dotyczące Queen, fauli i składek."
+description: "Jak przebiega rozgrywka i jak liczone są punkty, zasady dotyczące Królowej, fauli i opłat."
 weight: 3
 date: 2026-01-01
 author: "Arun Deshpande"
-translatedBy: "Przetłumaczono z angielskiego (wersja robocza AI)."
 ---
-*Jak gra jest skonfigurowana i punktowana, zasady dotyczące Queen, fauli i składek — założenia, które przyświecają każdemu uderzeniu opisanemu w tej książce, już znasz.*
+*Sposób rozgrywania partii i punktacji, zasady dotyczące królowej, fauli i opłat — ta książka zakłada, że znasz już te podstawowe zasady.*
 
-## Konfigurowanie i punktacja
+## Rozgrywka i punktacja
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Układ</span>
-    <p class="def">Queen w środkowym okręgu. Czarne i białe monety umieszczano na przemian wokół niej w małym kółku, a następnie w zewnętrznym okręgu, tak aby białe utworzyły literę<strong>Y</strong>.</p>
+    <p class="def">Królowa w środkowym okręgu. Czarne i białe monety ułożone naprzemiennie wokół niej w małym okręgu, a następnie w okręgu zewnętrznym tak, aby białe monety tworzyły literę <strong>Y</strong>.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Kolejka gry</span>
-    <p class="def">Dopóki gracz wbije swoje monety, tura trwa.</p>
+    <span class="term">Kolejność ruchów</span>
+    <p class="def">Kolejność ruchów trwa tak długo, jak długo gracz wbija swoje monety do dołków.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Długość gry</span>
-    <p class="def"><strong>25 punktów</strong>wygrać.</p>
+    <span class="term">Czas trwania gry</span>
+    <p class="def"><strong>25 punktów</strong> do wygranej.</p>
   </div>
   <div class="definition-card">
     <span class="term">Punktacja</span>
-    <p class="def">Każda moneta =<strong>1 punkt</strong>; Queen =<strong>3 punkty</strong>. Zwycięzca stołu otrzymuje pozostałe monety przeciwnika plus 3 za Queen, jeśli wpadnie do kieszeni.</p>
+    <p class="def">Każda moneta = <strong>1 punkt</strong>; Dama = <strong>3 punkty</strong>. Zwycięzca partii zdobywa punkty za pozostałe monety przeciwnika oraz 3 punkty za Damę, jeśli została wbita do kieszeni.</p>
   </div>
 </div>
 
-## Queen
+## Królowa
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Okładka</span>
-    <p class="def">Po wbiciu Queen gracz musi wbić jedną ze swoich monet w tym samym lub następnym uderzeniu.</p>
+    <span class="term">Zasada zakrycia</span>
+    <p class="def">Po wbiciu królowej gracz musi wbić jedną ze swoich monet w tym samym lub następnym ruchu.</p>
   </div>
   <div class="definition-card">
     <span class="term">Brak pokrycia</span>
-    <p class="def">Queen jest wyjmowany z kieszeni i umieszczany przez sędziego w środkowym okręgu.</p>
+    <p class="def">Królowa zostaje wyjęta z kieszeni i umieszczona przez sędziego w środkowym okręgu.</p>
   </div>
 </div>
 
-## Faule i kary
+## Faule i obowiązki
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Faul techniczny</span>
-    <p class="def">Faul<em>zanim</em>wkładanie monety do kieszeni. Tura gracza trwa.</p>
+    <span class="term">Faule techniczne</span>
+    <p class="def">Faule <em>popełnione przed</em> wbiciem monety do kieszeni. Zawodnik kontynuuje swoją kolejkę.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Prosty faul</span>
-    <p class="def">Faul podczas lub po wbiciu monety.</p>
+    <span class="term">Faul zwykły</span>
+    <p class="def">Faul popełniony w trakcie lub po wbiciu monety do kieszeni.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Należny</span>
-    <p class="def">Striker włożony do kieszeni sam lub z monetą. Jedna moneta jest umieszczana przez przeciwnika w zewnętrznym kręgu; gracz traci turę.</p>
+    <span class="term">Due</span>
+    <p class="def">Uderzający trafił do kieszeni sam lub z monetą. Przeciwnik umieszcza jedną monetę w zewnętrznym okręgu; gracz traci kolejkę.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Double termin</span>
-    <p class="def">Striker i moneta włożona razem. Dwie monety umieszczone w zewnętrznym okręgu; tura gracza trwa.</p>
+    <span class="term">Podwójna utrata kolejki</span>
+    <p class="def">Wbicie kamienia i monety jednocześnie. Dwie monety umieszczane są w zewnętrznym okręgu; gracz kontynuuje swoją kolejkę.</p>
   </div>
 </div>
 
@@ -67,7 +66,7 @@ translatedBy: "Przetłumaczono z angielskiego (wersja robocza AI)."
 
 <div class="callout">
   <div class="callout-title">Przy stole</div>
-  <p>Gracz powinien touch obie linie bazowe podczas gry. Podczas gry z niego czerwone koło bazowe musi być całkowicie zakryte. Łokieć nie może dotykać powierzchni gry; stopy nie mogą przekraczać wyimaginowanych linii.</p>
+  <p>Podczas gry gracz powinien dotykać obu linii bazowych. Czerwone koło bazowe musi być całkowicie zakryte podczas gry z niego. Łokieć nie może znajdować się na powierzchni gry; stopy nie mogą przekraczać wyobrażonych linii.</p>
 </div>
 
-Jeśli moneta wyskoczy z planszy, sędzia umieszcza ją w środkowym okręgu. Monetę w pozycji stojącej trzyma się tak, jak jest. Nakładające się monety pozostają nienaruszone.
+Jeśli moneta wyskoczy z planszy, sędzia umieszcza ją w środkowym okręgu. Moneta w pozycji stojącej pozostaje na swoim miejscu. Monety nachodzące na siebie pozostawia się bez zmian.

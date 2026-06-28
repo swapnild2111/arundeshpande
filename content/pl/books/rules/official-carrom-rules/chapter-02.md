@@ -1,98 +1,97 @@
 ---
 title: "Rozdział 2 — Definicje i terminologia"
-description: "Interpretacja każdego terminu użytego w tych Przepisach — Carromman, deska, przerwa, Queen, kara, kara, krycie, Pair, Cannon, strzał, uderzenie, uderzenie i inne."
+description: "Wyjaśnienie wszystkich terminów używanych w niniejszych przepisach — „Carromman\", „Board\", „Break\", „Queen\", „Due\", „Penalty\", „Covering\", „Pair\", „Cannon\", „Shot\", „Stroke\", „Slam\" i inne."
 weight: 2
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Przetłumaczono z angielskiego (wersja robocza AI)."
 ---
-*W niniejszych Przepisach, jeśli nie ma nic odrażającego w temacie lub kontekście, terminy podane poniżej będą miały następującą interpretację. Przeczytaj ten rozdział raz, a resztę Praw przeczytasz naturalnie.*
+*W niniejszym Regulaminie, o ile nie wynika z niego inaczej ze względu na temat lub kontekst, poniższe terminy mają następujące znaczenie. Wystarczy przeczytać ten rozdział raz, a pozostała część Regulaminu będzie zrozumiała sama z siebie.*
 
-## Prawa i Carrom Board
+## Przepisy i plansza do karomu
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Prawa</span>
-    <p class="def">Prawa Carrom.</p>
+    <span class="term">Przepisy</span>
+    <p class="def">Przepisy gry w karom.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Właściwy</span>
-    <p class="def">Zgodnie z Ustawami.</p>
+    <span class="term">Prawidłowy</span>
+    <p class="def">Zgodny z przepisami.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Niewłaściwy</span>
-    <p class="def">Wbrew Prawom.</p>
+    <span class="term">Nieprawidłowy</span>
+    <p class="def">Sprzeczny z zasadami.</p>
   </div>
   <div class="definition-card">
     <span class="term">C/B</span>
-    <p class="def">Carrom Board.</p>
+    <p class="def">Plansza do karoma.</p>
   </div>
   <div class="definition-card">
     <span class="term">C/m</span>
-    <p class="def">Carromman lub Carrommen.</p>
+    <p class="def">Gracz w karoma lub gracze w karoma.</p>
   </div>
 </div>
 
-## Struktura dopasowania
+## Struktura meczu
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Tablica</span>
-    <p class="def">Od rozpoczęcia rozdania, po wezwaniu sędziego<em>Grać</em>, aż do jego zakończenia po wbiciu ostatniego C/m dowolnego gracza.</p>
+    <span class="term">Partia</span>
+    <p class="def">Od rozpoczęcia partii, po ogłoszeniu przez sędziego <em>„Play"</em>, aż do jej zakończenia poprzez wbicie ostatniego C/m dowolnego gracza.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Przerwa</span>
-    <p class="def">Pierwsze uderzenie deski.</p>
+    <span class="term">Rozbicie</span>
+    <p class="def">Pierwsze uderzenie w partii.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Skończyć</span>
-    <p class="def">Ukończenie planszy.</p>
+    <span class="term">Zakończenie</span>
+    <p class="def">Zakończenie partii.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Odtwarzacz</span>
-    <p class="def">Gracz Carrom.</p>
+    <span class="term">Gracz</span>
+    <p class="def">Gracz karambolu.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Zakręt</span>
-    <p class="def">Prawo do strajku.</p>
+    <span class="term">Tura</span>
+    <p class="def">Prawo do wykonania ruchu.</p>
   </div>
 </div>
 
-## Queen, monety i umieszczanie
+## Królowa, monety i ustawianie
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Queen</span>
+    <span class="term">Królowa</span>
     <p class="def">Czerwony C/m.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Umieszczanie</span>
-    <p class="def">Utrzymywanie kary i/lub należnej C/m w płaskiej pozycji na powierzchni gry, wyłącznie w obrębie zewnętrznego okręgu, przez zawodnika, któremu na to pozwolono. Queen i każdy wyskoczony c/m zawsze jest umieszczany przez sędziego w środkowym okręgu.</p>
+    <span class="term">Umieszczenie</span>
+    <p class="def">Utrzymywanie piłki karnej i/lub należnej C/m w pozycji płaskiej na powierzchni gry, wyłącznie w obrębie koła zewnętrznego, przez gracza uprawnionego do tego. Królowa i wszelkie przeskoczone kulki są zawsze umieszczane przez sędziego w okręgu środkowym.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Kieszenie</span>
-    <p class="def">Wkładanie C/m lub Queen do kieszeni poprzez prawidłowe lub niewłaściwe uderzenie.</p>
+    <span class="term">Wbicie do łuzki</span>
+    <p class="def">Wprowadzenie żetonu C/m lub królowej do kieszeni poprzez prawidłowe lub nieprawidłowe uderzenie.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Pokrycie</span>
-    <p class="def">Wbicie własnego C/m przez gracza w tym samym uderzeniu lub bezpośrednio po wbiciu Queen.</p>
+    <span class="term">Zakrycie</span>
+    <p class="def">Wbicie jednej ze swoich bil przez gracza tym samym lub bezpośrednio następującym po wbiciu królowej uderzeniem.</p>
   </div>
 </div>
 
-## Należności, kary i wady
+## Punkty, kary i przewinienia
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Należny</span>
-    <p class="def">Wkładanie Striker z lub bez C/m i/lub Queen i/lub wszelkich zaległych c/m przeciwko graczowi, w zależności od przypadku.</p>
+    <span class="term">Obowiązek</span>
+    <p class="def">Wbicie bili uderzającej wraz z bilami C/m i/lub królową, lub bez nich, oraz/lub wszelkich pozostałych bil C/m należących do gracza, w zależności od sytuacji.</p>
   </div>
   <div class="definition-card">
     <span class="term">Kara</span>
-    <p class="def">Kara za naruszenie lub naruszenie Ustawy.</p>
+    <p class="def">Kara za naruszenie lub złamanie przepisów.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Naciskać</span>
-    <p class="def">Szarpnięcie lub nagły ruch łokcia grającej ręki zamiast uderzenia palcem w Striker. Niedozwolone.</p>
+    <span class="term">Pchnięcie</span>
+    <p class="def">Szarpnięcie lub nagły ruch łokcia ręki grającej zamiast uderzenia Strikera palcem. Niedozwolone.</p>
   </div>
 </div>
 
@@ -100,45 +99,45 @@ translatedBy: "Przetłumaczono z angielskiego (wersja robocza AI)."
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Udar</span>
-    <p class="def">Uderzenie C/m przez Striker, bezpośrednio lub pośrednio.</p>
+    <span class="term">Uderzenie</span>
+    <p class="def">Uderzenie w C/m przez uderzającego, bezpośrednio lub pośrednio.</p>
   </div>
   <div class="definition-card">
     <span class="term">Strzał</span>
-    <p class="def">A pair lub cannon.</p>
+    <p class="def">Para lub kanon.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Pair</span>
-    <p class="def">Dwa C/m lub jeden C/m i Queen, skierowane w ogólny kierunek kieszeni, z odstępem pomiędzy nimi.</p>
+    <span class="term">Para</span>
+    <p class="def">Dwie bil C/m lub jedna bila C/m i królowa, skierowane ogólnie w stronę kieszeni, z przerwą między nimi.</p>
   </div>
   <div class="definition-card">
     <span class="term">Cannon</span>
-    <p class="def">Dwa C/m lub jeden C/m i Queen, skierowane w ogólny kierunek kieszeni<em>bez</em>dowolną przestrzeń pomiędzy nimi.</p>
+    <p class="def">Dwa C/m lub jeden C/m i królowa, skierowane ogólnie w stronę kieszeni <em>bez</em> żadnej przestrzeni między nimi.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Kciuk</span>
-    <p class="def">Biorąc udar kciukiem.</p>
+    <span class="term">Thumbing</span>
+    <p class="def">Wykonanie uderzenia kciukiem.</p>
   </div>
 </div>
 
-## Urzędnicy i przeciwnicy
+## Sędziowie i przeciwnicy
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Sędzia Główny</span>
-    <p class="def">Sędzia wyznaczony do administrowania, nadzorowania, kontrolowania i wydawania decyzji we wszystkich sprawach kierowanych do niego w trakcie meczu.</p>
+    <span class="term">Sędzia główny</span>
+    <p class="def">Sędzia wyznaczony do kierowania, nadzorowania, kontrolowania oraz podejmowania decyzji we wszystkich sprawach, które zostaną mu zgłoszone w trakcie meczu.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Sędzia</span>
+    <span class="term">Sędzia liniowy</span>
     <p class="def">Sędzia wyznaczony do nadzorowania i/lub kontrolowania meczu.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Przeciwnik (singiel)</span>
-    <p class="def">Gracz nie ma obecnie swojej tury na grę.</p>
+    <span class="term">Przeciwnik (gra pojedyncza)</span>
+    <p class="def">Zawodnik, który w danej chwili nie ma kolejki do gry.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Przeciwnik (debel)</span>
-    <p class="def">Gracz siedzący po lewej i/lub prawej stronie gracza, który aktualnie ma swoją turę gry.</p>
+    <span class="term">Przeciwnik (gra podwójna)</span>
+    <p class="def">Zawodnik siedzący po lewej i/lub prawej stronie zawodnika, który obecnie ma kolej do gry.</p>
   </div>
 </div>
 
@@ -147,32 +146,32 @@ translatedBy: "Przetłumaczono z angielskiego (wersja robocza AI)."
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Ręka</span>
-    <p class="def">Część dłoni grającej od palców do nadgarstka.</p>
+    <p class="def">Część dłoni służąca do gry, od palców aż po nadgarstek.</p>
   </div>
   <div class="definition-card">
     <span class="term">Palec</span>
-    <p class="def">Część paznokcia palca aż do drugiego stawu.</p>
+    <p class="def">Część palca od paznokcia do drugiego stawu.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Wyimaginowane linie</span>
-    <p class="def">Linie narysowane jako przedłużenie strzałek pomiędzy okręgami podstawowymi.</p>
+    <span class="term">Linie wyobrażone</span>
+    <p class="def">Linie narysowane w przedłużeniu strzałek między okręgami bazowymi.</p>
   </div>
 </div>
 
-## Szlem
+## Slam
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Biały Szlem</span>
-    <p class="def">Wbicie wszystkich dziewięciu białych C/m i Queen zgodnie z Przepisami w pierwszej turze gry. Nazywany także<em>Przerwa, aby zakończyć</em>.</p>
+    <span class="term">Biały slam</span>
+    <p class="def">Wbicie wszystkich dziewięciu białych bil C/m oraz królowej zgodnie z przepisami w pierwszej rundzie gry. Nazywany również <em>Break to Finish</em>.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Czarny Szlem</span>
-    <p class="def">Wbicie wszystkich pozostałych czarnych C/m, z Queen lub bez, zgodnie z Przepisami w pierwszej turze gry.</p>
+    <span class="term">Slam czarny</span>
+    <p class="def">Zebranie wszystkich pozostałych czarnych C/m, z królową lub bez niej, zgodnie z przepisami w pierwszej turze gry.</p>
   </div>
 </div>
 
 <div class="callout">
-  <div class="callout-title">Czytanie notatki</div>
-  <p>Słowa sugerujące liczbę pojedynczą obejmują liczbę mnogą, a słowa sugerujące rodzaj męski odnoszą się także do rodzaju żeńskiego.</p>
+  <div class="callout-title">Uwaga dotycząca interpretacji</div>
+  <p>Słowa w liczbie pojedynczej obejmują również liczbę mnogą, a słowa w rodzaju męskim odnoszą się również do rodzaju żeńskiego.</p>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "Mistrz"
-description: "Trening na poziomie mistrzowskim carrom — zwycięskie uderzenia, pokazowe strzały i elitarna gra meczowa."
+description: "Trening karambolu na poziomie mistrzowskim — zwycięskie zagrania, pokazowe uderzenia i elitarne rozgrywki."
 layout: category
 category: champion
 aliases:

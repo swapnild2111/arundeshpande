@@ -1,131 +1,130 @@
 ---
-title: "Rozdział 8 — Zasady ogólne i przegrana meczu"
-description: "Ogólne zasady dotyczące zmian sprzętu, pomiaru czasu, puchu, odwracania uwagi i działań skutkujących przegraną całego meczu."
+title: "Rozdział 8 — Zasady ogólne i przegrana w meczu"
+description: "Ogólne przepisy dotyczące zmian sprzętu, pomiaru czasu, prochu, czynników rozpraszających uwagę oraz działań prowadzących do przegrania całego meczu."
 weight: 8
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Przetłumaczono z angielskiego (wersja robocza AI)."
 ---
-*Pozostałe przepisy — dotyczące zmian sprzętu podczas meczu, pomiaru czasu, etykiety na puchu oraz przewinień, które mogą kosztować gracza cały mecz.*
+*Pozostałe przepisy — dotyczące zmian sprzętu w trakcie meczu, pomiaru czasu, zasad postępowania z prochem oraz wykroczeń, które mogą kosztować gracza utratę całego meczu.*
 
 ## Sprzęt podczas gry
 
-**115.** Skok należy wykonać wyłącznie za pomocą **Striker**. Striker jest przynoszony przez gracza i potwierdzony przez Sędziego Głównego lub Arbitra przed grą.
+**115.** Uderzenie należy wykonać **wyłącznie za pomocą kija**. Pałkę przynosi gracz, a przed rozpoczęciem gry musi ona zostać zatwierdzona przez głównego sędziego lub sędziego liniowego.
 
-**116.** Jeśli podczas wykonywania uderzenia Striker przeskoczy C/B, tura gracza będzie kontynuowana, jeśli w tym uderzeniu wbije własne C/m i/lub Queen.
+**116.** Jeśli podczas wykonywania uderzenia pałka przeskoczy bilę C/B, gracz kontynuuje swoją kolejkę, o ile w tym samym uderzeniu wbije do łuzki swoją bilę C/m i/lub bilę Queen.
 
-**117.** Zmieniony nowy Striker, należycie zatwierdzony przez Sędziego Głównego lub Sędziego głównego, jest dozwolony w meczu **po skompletowaniu danej planszy**. Jeśli Striker jest uszkodzona w środkowej części deski, można ją wymienić **dopiero po zakończeniu danego uderzenia**.
+**117.** Wymiana uderzacza na nowy, należycie zatwierdzony przez głównego sędziego lub sędziego liniowego, jest dozwolona w meczu **po zakończeniu danej partii**. Jeśli uderzacz ulegnie uszkodzeniu w trakcie partii, można go wymienić **tylko po zakończeniu danego uderzenia**.
 
-**118.** &nbsp;&nbsp;a) Po ustawieniu pozycja C/B nie będzie zmieniana w trakcie meczu.
+**118.** &nbsp;&nbsp;a) Po ustawieniu pozycja bili białej nie może być zmieniana w trakcie meczu.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Wyłączne prawo do wprowadzenia jakichkolwiek zmian po rozpatrzeniu odwołania złożonego przez dowolnego gracza należy do Sędziego głównego.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Wyłączną kompetencją do dokonania jakiejkolwiek zmiany po przeprowadzeniu oględzin, na wniosek dowolnego gracza, dysponuje sędzia.
 
-**119.** C/B, stół lub stojak, na którym znajduje się C/B, można zmienić dopiero po skompletowaniu Tablicy. Wyłączną władzę decydowania o stanie C/B, trybuny lub stołu należy do Sędziego głównego.
+**119.** Bilę główną (C/B), stół lub podstawkę, na której umieszczona jest bila główna, można zmienić dopiero po zakończeniu partii. Wyłączna kompetencja w zakresie oceny stanu C/B, podstawki lub stołu należy do sędziego.
 
-**120.** Wszelkie uszkodzone C/m, jeśli złożono wniosek o wymianę, zostaną wymienione przez Sędziego głównego na pierwotne położenie uszkodzonego C/m, o ile to możliwe.
+**120.** Każdy uszkodzony C/m, w przypadku odwołania się o jego wymianę, zostanie zastąpiony przez sędziego w miarę możliwości w pierwotnym położeniu uszkodzonego C/m.
 
 ## Czas i odwołania
 
-**121.** &nbsp;&nbsp;a) Odliczanie czasu **zatrzymuje się**, gdy w trakcie gry zostanie złożona apelacja do sędziego głównego. Gra nie będzie kontynuowana, chyba że sędzia „umpire” zarządzi *Gra*.
+**121.** &nbsp;&nbsp;a) Odliczanie czasu **zatrzymuje się** w momencie zgłoszenia odwołania do sędziego w trakcie gry. Gra nie może być kontynuowana, dopóki sędzia nie wyda polecenia *Gra*.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Gracz, który naruszy to, traci całą planszę o liczbę swoich C/m na C/B z punktami Queen (jeśli jest na C/B).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Gracz, który naruszy tę zasadę, traci całą planszę, tracąc liczbę pionków C/m znajdujących się na polu C/B wraz z punktami królowej (jeśli znajduje się ona na polu C/B).
 
 ## Proszek
 
 <div class="callout">
-  <div class="callout-title">Zasady pudru</div>
-  <p>Proszek musi być nałożony równomiernie przez zawodnika rozgrywającego, przed przerwą – ani w nadmiarze, ani w małych ilościach.</p>
+  <div class="callout-title">Zasady dotyczące proszku</div>
+  <p>Proszek musi zostać nałożony równomiernie przez gracza, którego kolejka, przed przerwą — ani zbyt obficie, ani zbyt skąpo.</p>
 </div>
 
 **122.** &nbsp;&nbsp;b)
 
-- (i) Proszek **nie** może być nałożony ani usunięty po ogłoszeniu przez sędziego *Gra*.
-  - (ii) Jakakolwiek umyślna próba usunięcia lub wytarcia proszku z powierzchni gry jest **nie** dozwolona.
-  - (iii) Usuwanie proszku poprzez przedmuchiwanie, wycieranie lub w jakikolwiek inny sposób jest **nie** dozwolone. Każde naruszenie powyższe jest faulem.
+  - (i) Proszku **nie** wolno nakładać ani usuwać po ogłoszeniu przez sędziego *Play*.
+  - (ii) Jakakolwiek umyślna próba usunięcia lub wytarcia proszku z powierzchni gry jest **niedozwolona**.
+  - (iii) Usuwanie proszku poprzez dmuchanie, wycieranie lub w jakikolwiek inny sposób jest **niedozwolone**. Każde z powyższych naruszeń stanowi faul.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Jednakże **nadmiar proszku** wzdłuż własnych linii bazowych i okręgów gracza może zostać usunięty podczas jego tury — wyłącznie za pomocą Striker.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Jednak **nadmiar proszku** wzdłuż własnych linii bazowych i okręgów bazowych gracza może zostać usunięty podczas jego tury — wyłącznie przy użyciu pałki.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) Sędzia prowadzący ma prawo kontrolować równomierne nałożenie proszku.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) Sędzia ma prawo kontrolować równomierne nakładanie proszku.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e) Należy poprosić sędziego głównego o usunięcie kurzu, owadów itp.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e) Należy zwrócić się do sędziego o usunięcie kurzu, owadów itp.
 
 ## Uderzenia, czas i wynik
 
-**123.** Uderzenie uważa się za zakończone dopiero po zatrzymaniu Striker, C/m i/lub Queen zakłóconego przez Striker. Striker zostanie natychmiast usunięte przez gracza z C/B. Na żądanie sędzia może pomóc.
+**123.** Uderzenie uznaje się za zakończone dopiero po zatrzymaniu się bil uderzającego, bil środkowej i/lub królowej poruszonych przez bil uderzającego. Bil uderzający powinien zostać natychmiast usunięty przez gracza z bil białej. Sędzia może pomóc na prośbę gracza.
 
-**124.** &nbsp;&nbsp;a) Dopóki gracz wbije własne C/m i/lub Queen, liczenie czasu rozpoczyna się natychmiast po wykonaniu uderzenia.
+**124.** &nbsp;&nbsp;a) O ile gracz wbije własną bilę środkową (C/m) i/lub królową, odliczanie czasu rozpoczyna się natychmiast po zakończeniu uderzenia.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli graczowi nie uda się wbić C/m, liczenie czasu dla przeciwnika rozpoczyna się dopiero po usunięciu Striker.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Gdy graczowi nie uda się wbić swojej C/m, odliczanie czasu dla przeciwnika rozpoczyna się dopiero po usunięciu Strikera.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Gracz nie może wykonać uderzenia, zanim przeciwnik nie podniesie swojego Striker z C/B.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Gracz nie może wykonać uderzenia, zanim przeciwnik nie podniesie swojego Strikera z C/B.
 
-**125.** &nbsp;&nbsp;a) Kiedy gracz świadomie lub nieświadomie wbije C/m swojego przeciwnika, sędzia „umpire” zatrzymuje go.
+**125.** &nbsp;&nbsp;a) Gdy gracz, świadomie lub nieświadomie, wbije bilę środkową przeciwnika, sędzia zatrzymuje gracza.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli zostanie niezauważony, C/m uznaje się za prawidłowo włożony do kieszeni. Tura zostaje utracona, gdy zostanie zauważona.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli nie zostanie to zauważone, bila C/m uznaje się za prawidłowo wbite. Tura zostaje utracona w momencie zauważenia tego faktu.
 
-**126.** &nbsp;&nbsp;a) Uderzenie, puknięcie lub przeszkadzanie C/B umyślnie lub w inny sposób jest faulem.
+**126.** &nbsp;&nbsp;a) Uderzenie, dotknięcie lub przesunięcie bili C/B, umyślne lub nie, stanowi faul.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli zostanie to zrobione w taki sposób, że przestawienie C/m stanie się niemożliwe, sprawca traci całą planszę o swoje C/m na C/B z punktami Queen.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli zostanie to wykonane w taki sposób, że ponowne ułożenie C/m stanie się niemożliwe, gracz popełniający faul traci całą planszę, a jego C/m pozostaje na C/B wraz z punktami królowej.
 
-**127.** &nbsp;&nbsp;a) Uderzenie uważa się za wykonane, jeśli Striker przesunie się, opuszczając dowolną linię bazową lub okrąg bazowy, niezależnie od tego, czy dotknął dowolnego C/m.
+**127.** &nbsp;&nbsp;a) Rzut uznaje się za wykonany, jeśli rzucający poślizgnie się, opuszczając dowolną linię bazową lub okrąg bazowy, niezależnie od tego, czy dotknął jakiejkolwiek figury C/m.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli Striker poślizgnie się, ale nie opuści żadnej linii/okręgu bazowego ani nie przesunie się C/m, uważa się, że uderzenie nie zostało wykonane.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli uderzający poślizgnie się, ale nie opuści żadnej linii bazowej ani koła bazowego ani nie przesunie żadnego kamienia C/m, uderzenie nie jest uznawane za wykonane.
 
-**128.** Gracz może dowiedzieć się o wyniku od sędziego głównego tylko podczas swojej tury.
+**128.** Zawodnik może zapytać sędziego o wynik tylko podczas swojej kolejki.
 
-**129.** Zawodnikowi nie wolno odwracać uwagi przeciwnika żadnym działaniem.
+**129.** Zawodnik nie może w żaden sposób odwracać uwagi przeciwnika.
 
-## Striker Pozycja
+## Pozycja uderzającego
 
-**130.** &nbsp;&nbsp;a) Striker musi touch **obie linie bazowe** podczas wykonywania uderzenia.
+**130.** &nbsp;&nbsp;a) Uderzający musi dotknąć **obu linii bazowych** podczas wykonywania uderzenia.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli uderzenie jest wykonane z okręgu podstawowego, Striker musi całkowicie zakryć okrąg podstawowy, ale **nie może touch strzałki**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli uderzenie jest wykonywane z koła bazowego, uderzający musi całkowicie pokryć koło bazowe, ale **nie może dotknąć strzałki**.
 
 ## Komunikacja
 
-**131.** W grze podwójnej podczas boardu partnerzy nie mogą **nie** rozmawiać ani komunikować się za pomocą gestów. Każde naruszenie jest faulem.
+**131.** W grze podwójnej, podczas partii, partnerzy **nie mogą** rozmawiać ani komunikować się za pomocą gestów. Każde naruszenie tego przepisu stanowi faul.
 
-**132.** Zawodnikom nie wolno rozmawiać z widzami podczas meczu bez zgody Sędziego głównego.
+**132.** Gracze nie mogą rozmawiać z widzami podczas gry bez zgody sędziego.
 
-**133.** Podczas swojej tury gracz nie może trzymać w żadnej ręce żadnego stałego materiału, z wyjątkiem Striker.
+**133.** Podczas swojej kolejki gracz nie może trzymać w żadnej z rąk żadnego przedmiotu o stałej konsystencji, z wyjątkiem uderzającego.
 
-**134.** C/m i Queen nie będą **poruszane ani zakłócane** po Przerwie, z wyjątkiem uderzenia. Jeśli zostanie dotknięty, pozycja zostaje przywrócona przez sędziego głównego i zostaje ogłoszony faul.
+**134.** C/m i Królowa **nie mogą być przesuwane ani naruszane** po rozbiciu, z wyjątkiem wykonania uderzenia. W przypadku dotknięcia pozycja jest przywracana przez sędziego i ogłaszany jest faul.
 
-**135.** Przebieg Striker nie może być **nie sprawdzany** na nawierzchni gry podczas bandy.
+**135.** Podczas rozgrywki **nie wolno sprawdzać** biegu bijaka na powierzchni gry.
 
-**136.** &nbsp;&nbsp;a) Graczowi nie wolno trzymać Striker na framudze ani w kieszeni podczas szachowania.
+**136.** &nbsp;&nbsp;a) Gracz nie może pozostawiać swojego Strikera na ramie ani w kieszeni podczas rozgrywki.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Striker może zostać umieszczony w pobliżu swoich linii bazowych podczas umieszczania Należności lub Kary C/m.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Striker może zostać umieszczony w pobliżu linii bazowych podczas ustawiania Due lub Penalty C/m.
 
-## Powtórka planszy i procedura
+## Powtórka rundy i procedury
 
-**137.** Jeśli gracze kolejno spasują w swojej turze **3 razy każdy**, plansza zostaje anulowana i rozgrywana ponownie.
+**137.** Jeśli gracze **po 3 razy** z rzędu zrezygnują z swojej kolejki, dana runda zostaje unieważniona i rozegrana ponownie.
 
-**138.** Pomiędzy drugą a trzecią partią powinna nastąpić przerwa **10 minut**.
+**138.** Pomiędzy drugą a trzecią partią powinna być przerwa trwająca **10 minut**.
 
-**139.** Zawodnik może poddać mecz i/lub mecz w dowolnym momencie.
+**139.** Gracz może poddać partię i/lub mecz na dowolnym etapie.
 
-**140.** W przypadku nieprzewidzianych okoliczności niezależnych od Sędziego głównego, tablica jest powtarzana.
+**140.** W przypadku nieprzewidzianych okoliczności pozostających poza kontrolą sędziego rozgrywka na tej planszy jest powtarzana.
 
-**141.** Jeśli C/m zostanie uszkodzony w wyniku uderzenia, dla wszystkich celów brana jest pod uwagę pozycja większej części uszkodzonego C/m; decyzja sędziego głównego jest ostateczna.
+**141.** Jeśli C/m zostanie uszkodzony w wyniku uderzenia, do wszelkich celów brana jest pod uwagę pozycja większej części uszkodzonego C/m; decyzja sędziego jest ostateczna.
 
-**142.** Jeśli C/m leży na liniach bazowych lub okręgach bazowych, uniemożliwiając graczowi wykonanie uderzenia z powodu braku miejsca, ta szachownica jest rozgrywana ponownie.
+**142.** Jeśli pionek leży na liniach bazowych lub okręgach bazowych, uniemożliwiając graczowi wykonanie ruchu z powodu braku miejsca, partia ta jest rozgrywana ponownie.
 
 ## Przegrana całego meczu
 
 <div class="callout">
-  <div class="callout-title">Podstawy do przegrania całego meczu</div>
-  <p>Reguła 143 wymienia dziewięć naruszeń zachowania na tyle poważnych, że gracz przegrywa mecz od razu, a nie tylko szachownicę.</p>
+  <div class="callout-title">Podstawy przegranej całego meczu</div>
+  <p>Zasada 143 wymienia dziewięć naruszeń zasad zachowania na tyle poważnych, że gracz przegrywa cały mecz, a nie tylko jedną partię.</p>
 </div>
 
-**143.** Gracz przegrywa cały mecz z powodu jakiegokolwiek aktu dyscypliny i/lub któregokolwiek z:
+**143.** Gracz przegrywa cały mecz za każdy akt niezdyscyplinowania i/lub za którekolwiek z poniższych:
 
-A. Opuszcza obszar planszy zawodów (10 stóp kwadratowych) podczas gry bez zgody sędziego głównego.
-  B. Nie dotrzymuje limitu czasu wyznaczonego na resztę meczu w decydującym meczu.
-  C. Odmawia podporządkowania się decyzji Sędziego głównego i/lub Sędziego Głównego.
-  D. Przekazuje obraźliwe uwagi pod adresem sędziego głównego, sędziego głównego lub władz – przed, w trakcie lub bezpośrednio po meczu.
-  mi. Pali lub śmierdzi podczas zabawy z powodu napojów odurzających i/lub jest pod wpływem narkotyków.
-  F. Odtwarza z niecertyfikowanym Striker.
-  G. Przerywa grę w trakcie meczu bez zgody sędziego głównego.
-  H. Zakłóca lub rozprasza przeciwnika więcej niż dwukrotnie, pomimo ostrzeżenia sędziego głównego.
-  I. Nie zgłosi się do sędziego głównego na tablicy zawodów w ciągu **15 minut** po ogłoszeniu meczu.
+  a. Opuszczenie obszaru planszy meczowej (10 stóp kwadratowych) podczas gry bez zgody sędziego.
+  b. Nieprzestrzeganie limitu czasowego wyznaczonego na przerwę w decydującej partii.
+  c. Odmowa podporządkowania się decyzji sędziego i/lub głównego sędziego.
+  d. Wygłaszanie obraźliwych uwag pod adresem sędziego, głównego sędziego lub władz — przed meczem, w jego trakcie lub bezpośrednio po nim.
+  e. Pali lub wydziela nieprzyjemny zapach podczas gry z powodu spożycia napojów odurzających i/lub znajduje się pod wpływem narkotyków.
+  f. Gra niecertyfikowanym Strikerem.
+  g. Przerywa grę w trakcie meczu bez zgody sędziego.
+  h. Zakłóca lub rozprasza przeciwnika więcej niż dwa razy, pomimo ostrzeżenia sędziego.
+  i. Nie zgłasza się do sędziego przy tablicy wyników w ciągu **15 minut** od ogłoszenia meczu.

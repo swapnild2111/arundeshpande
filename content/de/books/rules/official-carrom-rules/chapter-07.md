@@ -1,95 +1,94 @@
 ---
-title: "Kapitel 7 — Das Queen"
-description: "Das Queen einstecken und abdecken, wann das Queen zählt und was passiert, wenn das Queen und das Striker zusammentreffen."
+title: "Kapitel 7 – Die Königin"
+description: "Das Einstecken und Abdecken der Dame, wann die Dame zählt und was passiert, wenn die Dame und der Schläger aufeinandertreffen."
 weight: 7
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Aus dem Englischen übersetzt (KI-Entwurf)."
 ---
-*Der Queen ist die rote Münze in der Mitte des Spielbretts und das Herzstück der carrom Strategie. Sie ist 3 Punkte wert – aber nur, wenn sie beim gleichen oder beim nächsten Schlag durch eine eigene Münze „gedeckt“ wird. In diesem Kapitel werden alle Situationen behandelt, die den Queen betreffen.*
+*Die Königin ist die rote Spielfigur in der Mitte des Bretts und das Herzstück der Carrom-Strategie. Sie ist 3 Punkte wert – allerdings nur, wenn sie im selben oder im nächsten Zug von einer deiner eigenen Spielfiguren „bedeckt" wird. Dieses Kapitel behandelt alle Situationen, in denen die Königin eine Rolle spielt.*
 
-## Einstecken und Abdecken
+## Einlochen und Bedecken
 
 <div class="callout">
-  <div class="callout-title">Die Deckungsregel</div>
-  <p>Ein Spieler darf den Queen erst einstecken, nachdem mindestens einer seiner eigenen C/m bereits eingesteckt wurde. Zu<strong>Abdeckung</strong>den Queen, muss er einen seiner eigenen C/m im selben Schlag oder im unmittelbar folgenden Schlag einstecken.</p>
-  <p>Wenn Sie das Queen einstecken<strong>vor</strong>Wenn Sie beim nächsten Schuss keine Ihrer eigenen Münzen abdecken oder sie nicht abdecken, wird das Queen herausgenommen und in die Mitte gelegt – Sie verlieren Ihren Zug. Ein Board kann nicht enden, solange Queen noch auf dem Tisch liegt; Sie muss vom Gewinner eingesteckt und abgedeckt werden.</p>
+  <div class="callout-title">Die Regel zum Bedecken</div>
+  <p>Ein Spieler darf die Königin erst einlochen, nachdem mindestens eine seiner eigenen C/m bereits eingelocht wurde. Um <strong>die Königin zu bedecken</strong>, muss er eine seiner eigenen C/m im selben Zug oder im unmittelbar folgenden Zug einlochen.</p>
+  <p>Wenn Sie die Königin <strong>vor</strong> einer Ihrer eigenen Münzen versenken oder ohne sie beim nächsten Stoß abzudecken, wird die Königin vom Tisch genommen und in die Mitte gelegt – Sie verlieren Ihren Zug. Eine Partie kann nicht enden, solange die Königin noch auf dem Tisch liegt; sie muss vom Gewinner versenkt und abgedeckt werden.</p>
 </div>
 
-**93.** Der Queen darf vom Schiedsrichter nur im Mittelkreis platziert werden. Wenn ein Schuss beim Platzieren automatisch gebildet wird, kann er nicht geändert werden.
+**93.** Die Königin darf vom Schiedsrichter nur im Mittelkreis platziert werden. Wenn sich beim Platzieren automatisch ein Stoß ergibt, darf dieser nicht geändert werden.
 
-**94.** Wenn der Mittelkreis teilweise oder vollständig von anderen C/m bedeckt ist, wird der Queen so platziert, dass er den größten Teil des nicht abgedeckten Teils einnimmt, oder an einer beliebigen Position neben dem Mittelkreis, so dass es für den Spieler, der an der Reihe ist, nicht leicht ist, ihn einzustecken. **Die Platzierungsentscheidung des Schiedsrichters ist endgültig.**
+**94.** Ist der Mittelkreis teilweise oder vollständig von anderen C/m bedeckt, wird die Königin so platziert, dass sie den größten Teil des unbedeckten Bereichs einnimmt, oder an einer beliebigen Stelle neben dem Mittelkreis, sodass es für den Spieler, der am Zug ist, nicht leicht ist, sie einzulochen. **Die Entscheidung des Schiedsrichters über die Platzierung ist endgültig.**
 
-**95.** &nbsp;&nbsp;a) Wenn das Queen vor einem der eigenen C/m des Spielers versenkt wird, wird das Queen zum Platzieren herausgenommen und der Spieler verliert seinen Zug.
+**95.** &nbsp;&nbsp;a) Wird die Königin vor einem der eigenen C/m des Spielers versenkt, wird die Königin zum erneuten Aufstellen herausgenommen und der Spieler verliert seinen Zug.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Wenn das Queen eingesteckt wird, während gegen den Spieler eine Forderung besteht, wird das Queen zum Platzieren herausgenommen und der Spieler verliert seinen Zug.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Wird die Königin versenkt, während gegen den Spieler ein „Due" vorliegt, wird die Königin zum erneuten Aufstellen herausgenommen und der Spieler verliert seinen Zug.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) **Allerdings**, wenn sich nach der Wiederherstellung der Fälligkeit/Strafe alle neun C/m des Spielers noch auf dem C/B befinden, hat er das Recht, das Queen einzustecken und zu decken.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) **Allerdings** hat der Spieler das Recht, die Königin einzulochen und abzudecken, wenn sich nach Begleichung des „Due" bzw. der Strafe alle neun seiner C/m noch auf dem C/B befinden.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) Wenn bei der Pause oder in einem darauffolgenden Schlag, wenn alle neun C/m auf dem C/B sind, das Queen zusammen mit dem Striker eingesteckt wird, wird das Queen zur Platzierung herausgenommen und ein Fälligkeitstermin erklärt. Der Spieler verliert seinen Zug.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) Wird beim Anstoß oder bei einem nachfolgenden Stoß, bei dem sich alle neun C/m auf dem C/B befinden, die Königin zusammen mit dem Striker versenkt, wird die Königin zum Wiederaufstellen herausgenommen und ein „Due" ausgesprochen. Der Spieler verliert seinen Zug.
 
-**96.** Wenn der Queen durch einen Strich eingeklemmt und nicht abgedeckt wird, wird der Queen zur Platzierung herausgenommen. Wenn der Schiedsrichter oder der Gegner es nicht bemerkt, bevor der nächste Schlag ausgeführt wird, wird der Queen als ordnungsgemäß gedeckt gewertet.
+**96.** Wird die Königin durch einen Stoß versenkt und nicht abgedeckt, wird sie zum Neuaufstellen herausgenommen. Wird dies vom Schiedsrichter oder vom Gegner nicht vor dem nächsten Stoß bemerkt, wird die Königin als ordnungsgemäß abgedeckt gewertet.
 
-**97.** &nbsp;&nbsp;a) **Queen + einer Ihrer zusammengesteckten C/m** – der Queen gilt als abgedeckt.
+**97.** &nbsp;&nbsp;a) **Königin + eine Ihrer C/m gemeinsam versenkt** – die Königin gilt als abgedeckt.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Allerdings müssen Sie beim Break (oder bei jedem Schlag, bei dem sich alle neun Ihrer C/m auf dem C/B befinden) immer noch decken, wenn **nur einer** Ihrer C/m und der Queen zusammen in der Tasche sind. Wenn **mehr als eine** Ihrer C/m und der Queen zusammen eingesteckt sind, gilt die Queen als abgedeckt.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Beim Anstoß (oder bei jedem Stoß, bei dem sich alle neun Ihrer C/m auf der C/B befinden) müssen Sie jedoch auch dann noch decken, wenn **nur eine** Ihrer C/m und die Königin gemeinsam versenkt werden. Wenn **mehr als eine** Ihrer C/m und die Königin gemeinsam versenkt werden, gilt die Königin als abgedeckt.
 
-## Wenn sich Queen und Striker treffen
+## Wenn die Königin und der Striker aufeinandertreffen
 
-Die fehleranfälligsten Situationen: Der Spieler steckt den Queen zusammen mit dem Striker und/oder mit einem oder mehreren eigenen C/m ein. Hier ist die Matrix.
+Die Situationen, in denen am häufigsten Fehler auftreten: Der Spieler versenkt die Königin zusammen mit dem Striker und/oder mit einem oder mehreren eigenen C/m. Hier ist die Matrix.
 
-| Zusammengesteckt | Strichart | Queen | Strafe | Drehen |
+| Gemeinsam versenkt | Stoßart | Königin | Strafe | Zug |
 |---|---|---|---|---|
-| Queen + Striker | Richtig | Zur Platzierung herausgenommen | +1 C/m | Fortsetzung |
-| Queen + Striker | Unsachgemäß | Zur Platzierung herausgenommen | +2 C/m | Verloren |
-| Queen + eigener C/m + Striker | Richtig | Zur Platzierung bereit | +1 Fällig C/m | Fortsetzung |
-| Queen + eigener C/m + Striker | Unsachgemäß | Zur Platzierung bereit | +2 C/m (fällig + Strafe) | Verloren |
+| Königin + Striker | Korrekt | Zum Platzieren herausgenommen | +1 C/m | Weiterspielen |
+| Königin + Striker | Falsch | Zum Platzieren herausgenommen | +2 C/m | Verloren |
+| Königin + eigener C/m + Striker | Ordentlich | Zum Platzieren herausgenommen | +1 fälliger C/m | Weiterspielen |
+| Königin + eigener C/m + Striker | Unordentlich | Zum Platzieren herausgenommen | +2 C/m (fällig + Strafpunkt) | Spiel verloren |
 
-**100.** &nbsp;&nbsp;a) **Wenn beim Abdecken des Queen** nur der Striker durch einen richtigen Schlag versenkt wird – der Queen wird zum Platzieren herausgenommen, ein C/m wird als fällig herausgenommen, der Zug ist verloren.
+**100.** &nbsp;&nbsp;a) **Beim Abdecken der Königin**: Wird der Striker allein durch einen korrekten Stoß versenkt – wird die Königin zum Platzieren herausgenommen, ein C/m als fälliges C/m herausgenommen, der Zug ist verloren.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Dasselbe, durch einen unpassenden Schlag – Queen wegen Platzierung ausgeschlossen, **zwei** C/m ausgeschlossen (fällig + Strafe), ist der Zug verloren.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Gleiches gilt bei einem unzulässigen Stoß – die Königin wird zum Aufstellen herausgenommen, **zwei** C/m werden herausgenommen (fällige + Straf-C/m), der Zug ist verloren.
 
-**101.** &nbsp;&nbsp;a) **Während der Spieler den Queen** durch einen richtigen Schlag abdeckt und den Striker zusammen mit seinem eigenen C/m einsteckt, wird der C/m plus 1 Fälligkeit herausgenommen. Der Spieler setzt seinen Zug fort. Wenn im darauffolgenden Schlag kein C/m versenkt wird, gilt der Queen als **nicht** gedeckt und wird zur Platzierung herausgenommen.
+**101.** &nbsp;&nbsp;a) **Beim Abdecken der Königin** durch einen regelkonformen Stoß: Wenn der Spieler den Striker zusammen mit seinem eigenen C/m versenkt – wird der C/m plus 1 Due herausgenommen. Der Spieler **setzt** seinen Zug fort. Wird beim folgenden Stoß kein C/m versenkt, gilt die Königin **nicht** als abgedeckt und wird zum Aufstellen herausgenommen.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Dasselbe, durch einen falschen Schlag – C/m + 2 (fällig + Strafe) aus; werde **verloren**; Queen vom Schiedsrichter ausgeschaltet.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Gleiches gilt bei einem unzulässigen Stoß – C/m + 2 (Due + Strafpunkt) werden herausgenommen; der Zug ist **verloren**; die Königin wird vom Schiedsrichter herausgenommen.
 
-## Endgame-Szenarien
+## Endspiel-Szenarien
 
-Die verbleibenden 13 Regeln (102–114) decken Grenzfälle ab, bei denen der letzte C/m eines der beiden Spieler, der Queen und der Striker alle interagieren. Das Prinzip ist konsistent: Ein *richtiger* Schlag punktet oder verliert um den **Wert auf dem Brett** (C/m + Queen falls zutreffend); Ein *falscher* Schlag löst zusätzlich eine zusätzliche Strafe aus.
+Die verbleibenden 13 Regeln (102–114) behandeln Grenzfälle, in denen die letzte C/m eines der beiden Spieler, die Königin und der Striker miteinander interagieren. Das Prinzip ist einheitlich: Ein *korrekter* Stoß bringt Punkte oder führt zu einem Verlust entsprechend dem **Wert auf dem Brett** (C/m + Königin, falls zutreffend); ein *unzulässiger* Stoß löst zusätzlich eine Strafe aus.
 
-**102.** **Der Spieler steckt seinen letzten C/m und den letzten C/m des Gegners zusammen ein**, während er den Queen abdeckt:
+**102.** **Ein Spieler versenkt seinen letzten C/m und den letzten C/m des Gegners gemeinsam**, während er die Königin abdeckt:
 
-- Richtig: Er gewinnt mit 3 Punkten Vorsprung (1 Punkt bei 22+).
-- Unzulässig: Der Gegner gewinnt mit 3 Punkten Vorsprung (1 bei 22+). Bei Bedarf ein zusätzlicher Punkt.
+- Korrekt: Er gewinnt mit 3 Punkten (1 Punkt bei 22+).
+- Falsch: Der Gegner gewinnt mit 3 Punkten (1 bei 22+). Ein zusätzlicher Punkt, falls gefordert.
 
-**103.** **Der Spieler versenkt nur den letzten C/m** des Gegners, während er den Queen abdeckt:
+**103.** **Ein Spieler versenkt nur den letzten C/m des Gegners**, während er die Königin abdeckt:
 
-- Richtig: Er verliert um die Anzahl seiner C/m auf den C/B plus den Punkten des Queen (oder einfach um C/m, wenn der Gegner 22+ ist).
-- Unzulässig: das Gleiche, plus einem zusätzlichen Punkt für den Gegner, falls verlangt.
+- Korrekt: Er verliert um die Anzahl seiner C/m auf dem C/B zuzüglich der Punkte der Königin (oder nur um die C/m, wenn der Gegner bei 22+ steht).
+- Unzulässig: wie oben, plus ein zusätzlicher Punkt für den Gegner, falls gefordert.
 
-**104.** **Queen + eigener letzter C/m + gegnerischer letzter C/m zusammen eingesteckt**:
+**104.** **Königin + eigener letzter C/m + letzter C/m des Gegners gemeinsam versenkt**:
 
-- Richtig: Der Spieler gewinnt mit 3 Punkten Vorsprung (1 bei 22+).
-- Unzulässig: Der Gegner gewinnt mit 3 Punkten Vorsprung (1 bei 22+), plus einem weiteren, falls gefordert.
+- Zulässig: Der Spieler gewinnt mit 3 Punkten Vorsprung (1 Punkt, wenn der Stand bei 22+ liegt).
+- Unzulässig: Der Gegner gewinnt mit 3 Punkten Vorsprung (1 Punkt, wenn er 22+ hat), plus einem zusätzlichen Punkt, falls gefordert.
 
-**105.** **Eigener letzter C/m + gegnerischer letzter C/m zusammen, Queen immer noch auf C/B**: Der Gegner gewinnt mit 3 Punkten Vorsprung (1 bei 22+), unabhängig von der Schlagart. Bei Unsachgemäßem wird bei Bedarf ein zusätzlicher Punkt hinzugefügt.
+**105.** **Eigenes letztes C/m + gegnerisches letztes C/m zusammen, Königin noch auf dem C/B**: Der Gegner gewinnt mit 3 Punkten (1, wenn 22+), unabhängig von der Art des Stoßes. Bei einem regelwidrigen Stoß wird auf Verlangen ein zusätzlicher Punkt hinzugefügt.
 
-**106.** **Der letzte C/m des Gegners allein, Queen immer noch auf dem C/B**: Der Spieler verliert mit seinem C/m auf dem Brett + Queen Wert (oder nur mit C/m, wenn der Gegner 22+ ist). Bei Unsachgemäßem wird bei Bedarf ein zusätzlicher Punkt hinzugefügt.
+**106.** **Nur der letzte C/m des Gegners, die Königin liegt noch auf dem C/B**: Der Spieler verliert um den Wert seines C/m auf dem Brett plus den Wert der Königin (oder nur um den Wert des C/m, wenn der Gegner 22+ hat). Bei einem Regelverstoß wird auf Verlangen ein zusätzlicher Punkt hinzugefügt.
 
-**107.** **Der Spieler steckt seinen eigenen letzten C/m ein und lässt den Queen auf dem C/B**: Der Spieler verliert mit 3 Punkten (1, wenn der Gegner 22+ ist). Unsachgemäß fügt eins hinzu, wenn es verlangt wird.
+**107.** **Der Spieler versenkt seinen eigenen letzten C/m und lässt die Dame auf dem C/B liegen**: Der Spieler verliert mit 3 Punkten (1, wenn der Gegner bei 22+ ist). Bei einem Regelverstoß wird auf Verlangen ein weiterer Punkt hinzugefügt.
 
-**108.** **Eigener Letzter C/m + Striker, Queen immer noch auf C/B**: Verlieren mit 3 Punkten (1, wenn der Gegner 22+ ist). Unzulässig: Der Gegner erhält 2 zusätzliche, wenn er dazu aufgefordert wird.
+**108.** **Eigenes letztes C/m + Striker, Dame noch auf dem C/B**: Verlust von 3 Punkten (1, wenn der Gegner 22+ hat). Unzulässig: Der Gegner erhält auf Verlangen 2 zusätzliche Punkte.
 
-**109.** **Queen + eigener Letzter C/m + Letzter des Gegners C/m + Striker, alle zusammen**: Spieler verliert mit 3 Punkten (1, wenn der Gegner 22+ ist). Richtiger Schlag: +1 zusätzlich, falls erforderlich. Unsachgemäß: +2 zusätzlich, falls erforderlich.
+**109.** **Dame + eigener letzter C/m + letzter C/m des Gegners + Striker, alle zusammen**: Der Spieler verliert mit 3 Punkten (1, wenn der Gegner 22+ hat). Korrekter Stoß: +1 zusätzlicher Punkt, falls gefordert. Falsch: +2 zusätzliche Punkte, falls gefordert.
 
-**110.** **Eigener letzter C/m + gegnerischer Letzter C/m + Striker, Queen bereits vom Spieler abgedeckt**: 1 Punkt verlieren. Richtig: +1 zusätzlich, falls erforderlich. Unsachgemäß: +2 zusätzlich, falls erforderlich.
+**110.** **Eigenes letztes C/m + gegnerisches letztes C/m + Striker, Königin bereits vom Spieler abgedeckt**: Verlust mit 1 Punkt. Korrekt: +1 zusätzlicher Punkt, falls gefordert. Falsch: +2 zusätzliche Punkte, falls gefordert.
 
-**111.** **Der letzte Gegner des Gegners C/m + Striker, verlässt Queen auf C/B**: verliert durch C/m an Bord + Queen (oder nur durch C/m, wenn er 22+ ist). Richtig: +1 für Striker, falls erforderlich. Unangemessen: +2, wenn verlangt.
+**111.** **Letzter C/m des Gegners + Striker, lässt die Königin auf C/B stehen**: Verlust durch C/m auf dem Brett + Königin (oder nur durch C/m, wenn der Gegner bei 22+ steht). Korrekt: +1 für den Striker, falls gefordert. Falsch: +2, falls gefordert.
 
-**112.** **Eigener Letzter C/m + Letzter des Gegners C/m + Striker, Queen bereits vom Gegner abgedeckt**: Spieler verliert um 3 Punkte (erhält 1, wenn der Gegner 22+ ist). Richtig: +1 zusätzlich, falls erforderlich. Unangemessen: +2, wenn verlangt.
+**112.** **Eigener letzter C/m + letzter C/m des Gegners + Striker, Königin bereits vom Gegner abgedeckt**: Der Spieler verliert mit 3 Punkten (erhält 1, wenn der Gegner bei 22+ steht). Korrekt: +1 zusätzlich, falls gefordert. Falsch: +2, falls gefordert.
 
-## Endgültige Queen Regeln
+## Abschließende Regeln zur Königin
 
-**113.** Wenn die Queen gefährlich an der Öffnung einer Tasche ruht und aus irgendeinem Grund tatsächlich hineinfällt, gilt sie als (ordnungsgemäß) eingesteckt.
+**113.** Befindet sich die Königin in gefährlicher Lage am Eingang einer Tasche und fällt sie aus irgendeinem Grund tatsächlich hinein, gilt sie als (ordnungsgemäß) versenkt.
 
-**114.** Ein Spieler **darf keinen Duell- oder Strafstoß C/m verwenden, um einen Schuss mit dem Queen** auszuführen. Bei Verwendung fordert der Schiedsrichter ihn zur Korrektur auf. Es wird ein Foul erklärt.
+**114.** Ein Spieler **darf keinen regulären oder Straf-C/m verwenden, um einen Stoß mit der Königin auszuführen**. Bei Verwendung fordert der Schiedsrichter ihn auf, den Fehler zu korrigieren. Es wird ein Foul erklärt.

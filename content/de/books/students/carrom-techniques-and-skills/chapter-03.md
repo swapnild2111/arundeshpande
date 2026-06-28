@@ -1,73 +1,72 @@
 ---
-title: "Kapitel 3 — Grundregeln"
-description: "Wie ein Spiel aufgebaut und gewertet wird, die Regeln rund um Queen, Fouls und Gebühren."
+title: "Kapitel 3 – Grundregeln"
+description: "Wie ein Spiel aufgebaut ist und gewertet wird, die Regeln bezüglich der Königin, Fouls und Dues."
 weight: 3
 date: 2026-01-01
 author: "Arun Deshpande"
-translatedBy: "Aus dem Englischen übersetzt (KI-Entwurf)."
 ---
-*Wie ein Spiel aufgebaut und gewertet wird, die Regeln rund um Queen, Fouls und Dues – der Rahmen, bei dem jeder Schlag in diesem Buch voraussetzt, dass Sie ihn bereits kennen.*
+*Wie ein Spiel aufgebaut ist und gewertet wird, die Regeln rund um die Königin, Fouls und Beiträge – dieses Buch setzt voraus, dass Sie diese Grundlagen bereits kennen.*
 
-## Einrichten und Bewerten
-
-<div class="definition-grid">
-  <div class="definition-card">
-    <span class="term">Anordnung</span>
-    <p class="def">Queen im Mittelkreis. Schwarze und weiße Münzen werden abwechselnd in einem kleinen Kreis um sie herum gelegt, dann in einem äußeren Kreis, sodass die weißen Münzen einen Buchstaben bilden<strong>Y</strong>.</p>
-  </div>
-  <div class="definition-card">
-    <span class="term">Spielwende</span>
-    <p class="def">Solange ein Spieler seine Münzen einsteckt, geht der Zug weiter.</p>
-  </div>
-  <div class="definition-card">
-    <span class="term">Spiellänge</span>
-    <p class="def"><strong>25 Punkte</strong>gewinnen.</p>
-  </div>
-  <div class="definition-card">
-    <span class="term">Wertung</span>
-    <p class="def">Jede Münze =<strong>1 Punkt</strong>; Queen =<strong>3 Punkte</strong>. Der Gewinner eines Spielbretts erhält die restlichen Münzen des Gegners plus 3 für die Queen, wenn er eingesteckt wird.</p>
-  </div>
-</div>
-
-## Das Queen
+## Aufbau und Wertung
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Abdeckung</span>
-    <p class="def">Nach dem Einstecken des Queen muss der Spieler im selben oder nächsten Zug eine seiner eigenen Münzen einstecken.</p>
+    <span class="term">Aufstellung</span>
+    <p class="def">Die Königin steht im Mittelkreis. Schwarze und weiße Münzen werden abwechselnd um sie herum in einem kleinen Kreis platziert, dann folgt ein äußerer Kreis, sodass die weißen Münzen den Buchstaben <strong>Y</strong> bilden.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Nichtdeckung</span>
-    <p class="def">Queen wird vom Schiedsrichter aus der Tasche genommen und in den Mittelkreis gelegt.</p>
+    <span class="term">Spielzug</span>
+    <p class="def">Solange ein Spieler seine Münzen versenkt, dauert der Spielzug an.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Spieldauer</span>
+    <p class="def"><strong>25 Punkte</strong> zum Sieg.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Punktewertung</span>
+    <p class="def">Jede Münze = <strong>1 Punkt</strong>; Dame = <strong>3 Punkte</strong>. Der Gewinner eines Spielzugs erhält die verbleibenden Münzen des Gegners plus 3 Punkte für die Dame, falls diese eingesteckt wurde.</p>
   </div>
 </div>
 
-## Fouls und Duells
+## Die Königin
+
+<div class="definition-grid">
+  <div class="definition-card">
+    <span class="term">Abdecken</span>
+    <p class="def">Nachdem die Königin versenkt wurde, muss der Spieler im selben oder im nächsten Zug eine seiner eigenen Münzen versenken.</p>
+  </div>
+  <div class="definition-card">
+    <span class="term">Versäumnis des Cover</span>
+    <p class="def">Die Königin wird aus der Tasche genommen und vom Schiedsrichter in den Mittelkreis gelegt.</p>
+  </div>
+</div>
+
+## Fouls und Spielfortschritt
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Technisches Foul</span>
-    <p class="def">Ein Foul<em>vor</em>eine Münze einstecken. Der Zug des Spielers geht weiter.</p>
+    <p class="def">Ein Foul <em>vor</em> dem Einlochen einer Münze. Der Spieler ist weiterhin am Zug.</p>
   </div>
   <div class="definition-card">
     <span class="term">Einfaches Foul</span>
-    <p class="def">Ein Foul während oder nach dem Einstecken einer Münze.</p>
+    <p class="def">Ein Foul während oder nach dem Einlochen einer Münze.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Fällig</span>
-    <p class="def">Striker allein oder mit einer Münze eingesteckt. Eine Münze wird vom Gegner in den äußeren Kreis gelegt; Der Spieler verliert den Zug.</p>
+    <span class="term">Due</span>
+    <p class="def">Der Striker wurde allein oder zusammen mit einer Münze versenkt. Der Gegner legt eine Münze in den äußeren Kreis; der Spieler verliert seinen Zug.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Double fällig</span>
-    <p class="def">Striker und Münze zusammen eingesteckt. Zwei Münzen im äußeren Kreis; Der Zug des Spielers geht weiter.</p>
+    <span class="term">Doppeltes „Due"</span>
+    <p class="def">Striker und Münze werden gemeinsam versenkt. Zwei Münzen werden in den äußeren Kreis gelegt; der Spieler ist weiterhin am Zug.</p>
   </div>
 </div>
 
-## Andere Regeln
+## Sonstige Regeln
 
 <div class="callout">
   <div class="callout-title">Am Tisch</div>
-  <p>Ein Spieler sollte beim Spielen beide Grundlinien touch haben. Beim Spielen von diesem muss der rote Grundkreis vollständig abgedeckt sein. Der Ellbogen darf nicht auf die Spielfläche kommen; Füße dürfen die imaginären Linien nicht überschreiten.</p>
+  <p>Ein Spieler sollte während des Spiels beide Grundlinien berühren. Der rote Grundkreis muss vollständig bedeckt sein, wenn von ihm aus gespielt wird. Der Ellbogen darf die Spielfläche nicht berühren; die Füße dürfen die imaginären Linien nicht überqueren.</p>
 </div>
 
-Wenn eine Münze vom Brett springt, legt der Schiedsrichter sie in den Mittelkreis. Eine stehende Münze bleibt so, wie sie ist. Überlappende Münzen bleiben ungestört.
+Springt eine Münze vom Brett, legt der Schiedsrichter sie in den Mittelkreis. Eine stehend liegende Münze bleibt so, wie sie ist. Übereinanderliegende Münzen werden nicht bewegt.

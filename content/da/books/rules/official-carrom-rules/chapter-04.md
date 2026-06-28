@@ -1,64 +1,63 @@
 ---
-title: "Kapitel 4 — Spillets pause og vending"
-description: "Hvordan mønterne er arrangeret, hvem der knækker, hvad tæller som en pause, og hvordan skifter vendinger gennem en tændstik."
+title: "Kapitel 4 — Spillets vendepunkt og forløb"
+description: "Hvordan mønterne placeres, hvem der starter, hvad der regnes som en start, og hvordan turene skifter i løbet af en kamp."
 weight: 4
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Oversat fra engelsk (AI-udkast)."
 ---
-*Hvert bræt begynder med pausen - åbningsskuddet, der spreder klyngen med 19 mønter. Dette kapitel dækker, hvordan mønterne er arrangeret, hvem der tager pausen, hvad der tæller som en gyldig pause, og hvordan svingene skifter gennem resten af ​​brættet, spillet og kampen.*
+*Hvert spil begynder med »Break« — det indledende slag, der spreder gruppen på 19 mønter. Dette kapitel beskriver, hvordan mønterne er placeret, hvem der tager »Break«, hvad der regnes for et gyldigt »Break«, og hvordan turene skifter gennem resten af spillet, partiet og kampen.*
 
 <div class="callout">
-  <div class="callout-title">Begynderguide — opsætning af pausen</div>
-  <p>Placer<strong>Queen i midtercirklen</strong>. Arranger de andre 18 mønter i to kompakte ringe omkring hende,<strong>skiftevis sort og hvid</strong>, alle touching hinanden inde i den ydre cirkel. ICF Law also specifies a<strong>"Y" af tre hvide mønter</strong>i anden række - se Regel 41.</p>
-  <p>Spilleren, der bryder, spiller<strong>hvid</strong>for det bord; modstanderen har sort. Efter dommerens opkald<em>Spil</em>, har afbryderen<strong>15 sekunder</strong>at strejke. I afslappet spil afgør et møntkast, hvem der går først; drejninger fortsætter, så længe du lomme dine egne mønter.</p>
+  <div class="callout-title">Begyndervejledning — opsætning af Break</div>
+  <p>Placer <strong>dronningen i den midterste cirkel</strong>. Placer de øvrige 18 brikker i to tætte ringe omkring hende, <strong>skiftevis sorte og hvide</strong>, så de alle rører hinanden inden for den ydre cirkel. ICF-reglerne foreskriver desuden et <strong>"Y" af tre hvide brikker</strong> i den anden række — se regel 41.</p>
+  <p>Den spiller, der udfører breaket, spiller <strong>hvidt</strong> på det pågældende bræt; modstanderen har sort. Når dommeren råber <em>Spil</em>, har den spiller, der udfører breaket, <strong>15 sekunder</strong> til at slå. I uformelle spil afgøres det ved lodtrækning, hvem der starter med breaket; turene fortsætter, så længe man får sine egne mønter i hul.</p>
 </div>
 
-## Arrangering af mønter til pausen
+## Placering af mønterne til indspillet
 
-**41.** &nbsp;&nbsp;a) Før pausen er C/m arrangeret i en flad position, at **Queen skal indtage centercirklen** og resten af ​​C/m placeres rundt om Queen i første række, mens den sorte og hvide C/m skiftevis beholdes.
+**41.** &nbsp;&nbsp;a) Før startplaceringen placeres C/m'erne i en flad position, således at **dronningen skal indtage midtercirklen**, og de øvrige C/m'er placeres omkring dronningen i første række, hvor de sorte og hvide C/m'er skifter plads.
 
-I den anden række danner tre hvide C/m formen **"Y"**, med den hvide C/m i den første række. Den resterende plads udfyldes ved at placere sort og hvid C/m skiftevis. Alle c/m, der er arrangeret således, skal være i kompakte runder, touchindbyrdes, inden for den ydre cirkel. En spiller kan bruge sine fingre eller striker for at holde C/m intakt.
+I den anden række danner tre hvide kugler formen **»Y«**, med den hvide kugle i den første række. Den resterende plads udfyldes ved at placere sorte og hvide kugler skiftevis. Alle kugler, der er arrangeret på denne måde, skal ligge i en tæt cirkel, hvor de rører hinanden, inden for den ydre cirkel. En spiller må bruge fingrene eller en slåbrik til at holde C/m intakt.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) C/m bør arrangeres til pausen med mindst muligt tab af tid efter hvert bord.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) C/m skal arrangeres til opstarten med mindst muligt tidstab efter hvert spil.
 
-## Hvem går i stykker
+## Hvem starter
 
-**42.** Pausen tages af den spiller, der har valgt at slå først.
+**42.** Indledningen foretages af den spiller, der har valgt at slå først.
 
-**43.** Spilleren, der skal bryde, skal have det **hvide C/m** under det bræt, og overlade det sorte C/m til sin modstander. Queen skal være den almindelige C/m.
+**43.** Den spiller, der skal foretage indledningen, skal have den **hvide C/m** i det pågældende spil, mens den sorte C/m tilfalder modstanderen. Dronningen skal være den fælles C/m.
 
-## Hvad tæller som en pause
+## Hvad der tæller som et stød
 
-**44.** Pause anses for at være foretaget, hvis Striker toucher nogen af ​​C/m, selv lidt.
+**44.** Stødet anses for at være udført, hvis den spiller, der skal slå, rører ved en hvilken som helst brik, selv om det kun er let.
 
-**45.** &nbsp;&nbsp;a) Pause anses **ikke** for at være lavet, hvis ingen C/m er touched af Striker i dets sædvanlige løb eller spring ud. Der tillades maksimalt **to chancer mere**.
+**45.** &nbsp;&nbsp;a) Break anses **ikke** for at være udført, hvis den spiller, der skal slå, ikke rører ved nogen brik i sin normale løbebane eller ved at springe ud. Der tillades maksimalt **to yderligere forsøg**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Hvis efter det tilladte antal chancer ingen C/m er touched, mister retten til at bryde. Turen går videre til modstanderen, som vil have sort C/m til spil. Ingen omarrangering af C/m er tilladt. Denne tilstand hersker, indtil pausen er påvirket.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Hvis der efter det tilladte antal forsøg ikke er rørt ved nogen C/m, går retten til break tabt. Turen går videre til modstanderen, som får de sorte C/m til at spille med. Omplacering af C/m er ikke tilladt. Denne regel gælder, indtil breaket er udført.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Hvis en spiller i sit forsøg på at bryde spiller et forkert slag eller putter sit striker uden touch at have nogen af ​​c/m, mister han sin tur. Dog skal en skyldig eller bøde **ikke** være gældende.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Hvis en spiller i sit forsøg på at udføre breaket udfører et ureglementeret stød eller putter sin stødkugle i hul uden at berøre nogen af c/m'erne, mister han sin tur. Der skal dog **ikke** pålægges en Due eller straf.
 
-## Når pausen begynder
+## Når breaket begynder
 
-**46.** Pausen skal først tages efter dommeren kalder **Play**, og slaget skal foretages inden for **15 sekunder** efter et sådant kald. Spillet anses for at være begyndt fra det øjeblik, dommeren kalder *Play*.
+**46.** Breaket må først udføres, efter at dommeren har råbt **Play**, og stød skal udføres inden for **15 sekunder** efter dette råb. Spillet anses for at være begyndt fra det øjeblik, dommeren råber *Play*.
 
 <div class="callout">
-  <div class="callout-title">Spring ikke med pistolen</div>
-  <p>Hvis pausen er lavet<em>før</em>dommeren kalder Play, alle C/m og/eller Queen i lommen skal tages ud til placering og en fejl erklæret. Spilleren mister sin tur.</p>
+  <div class="callout-title">Start ikke for tidligt</div>
+  <p>Hvis breaket udføres <em>før</em> dommeren siger »Play«, skal alle C/m og/eller dronninger, der er puttet i hul, tages ud for at blive placeret på ny, og der erklæres en fejl. Spilleren mister sin tur.</p>
 </div>
 
-## Turn of Play
+## Spilletur
 
-**48.** Så længe en spiller sætter sine egne C/m og/eller Queen i overensstemmelse med lovene, skal hans tur fortsætte. Ellers går det videre til modstanderen.
+**48.** Så længe en spiller putter sin egen C/m og/eller dronning i hul i overensstemmelse med reglerne, fortsætter hans tur. Ellers går turen videre til modstanderen.
 
-**49.** &nbsp;&nbsp;a) Rækkefølgen for at bryde på tværs af spillene:
+**49.** &nbsp;&nbsp;a) Rækkefølgen for breaket på tværs af kampene:
 
-- **Første spil** — spilleren, der valgte at bryde det første bræt, skal have det hvide C/m. Turen til pause går skiftevis i løbet af spillet.
-  - **Andet spil** - den spiller, der ikke havde den første tur til at bryde i det første spil, skal have sin tur først.
-  - **Tredje spil** — turen til pause går videre til den første spiller.
+  - **Første kamp** — den spiller, der valgte at bryde det første bord, skal have den hvide C/m. Turen til at bryde skifter skiftevis i løbet af kampen.
+  - **Andet spil** — den spiller, der ikke havde den første tur til at bryde i det første spil, skal have sin tur først.
+  - **Tredje spil** — turen til at bryde går videre til den første spiller.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) I doubles går turen videre til den spiller, der sidder til **højre side** af den spiller, der havde sin tur.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) I double går turen videre til den spiller, der sidder til **højre** for den spiller, der netop har haft sin tur.
 
-**50.** En spiller må ikke bruge mere end **15 sekunder** på at lave et slag. Timeren starter i det øjeblik C/m, Queen eller Striker er gået i stå, og striker er afhentet af modstanderen, eller efter at have overholdt tidsgrænsen for at placere C/m og/eller forudgående skyldig eller straf C/m, hvis nogen.
+**50.** En spiller må ikke bruge mere end **15 sekunder** på at udføre et slag. Tidsmåleren starter i det øjeblik, hvor C/m, dronningen eller slagbrikken er kommet til ro, og slagbrikken er taget op af modstanderen, eller efter at tidsfristen for at placere C/m og/eller eventuelle forfaldne eller straf-C/m er udløbet.
 
-**51.** Hvis turn udnyttes af en spiller, der spiller **uden for tur**, før dommeren kunne kontrollere, mister han brættet med det antal C/m og Queen, som var på C/B på tidspunktet for det første slag uden for sving. Hvis ovenstående forbliver ubemærket af dommeren eller modstanderen, indtil næste slag tages, skal vendingen tillades, og den næste tur skal være i overensstemmelse med lovene.
+**51.** Hvis en spiller udnytter sin tur ved at spille **uden for tur**, inden dommeren kan gribe ind, mister han brættet med det antal C/m og dronninger, der befandt sig på C/B på tidspunktet for det første slag uden for tur. Hvis ovenstående forbliver ubemærket af dommeren eller modstanderen, indtil det næste træk udføres, skal trækket godkendes, og det næste træk skal foregå i henhold til reglerne.

@@ -1,15 +1,17 @@
 ---
 title: "Carrom-Bücher"
-description: "Carrom-Bücher herunterladen und online lesen — Regeln, Technik und Trainingsleitfäden."
+description: "Laden Sie Bücher zum Thema Carrom herunter und lesen Sie sie – Regeln, Techniken und Trainingsanleitungen."
+aliases:
+  - /books/
 filters:
-  - label: "Alle Bücher"
+  - label: "All Books"
     id: all
-  - label: "Für Spieler"
+  - label: "For Students"
     id: students
-  - label: "Für Trainer"
+  - label: "For Coaches"
     id: coaches
-  - label: "Regeln"
+  - label: "Rules"
     id: rules
-  - label: "Sonstige"
+  - label: "Other"
     id: other
 ---

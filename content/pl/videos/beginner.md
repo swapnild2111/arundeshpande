@@ -1,6 +1,6 @@
 ---
 title: "Początkujący"
-description: "Samouczki carrom dla początkujących — konfiguracja planszy, chwyt, podstawowe uderzenia i zasady z Arun Deshpande."
+description: "Poradniki dla początkujących graczy w karom — ustawienie planszy, chwyt, podstawowe uderzenia i zasady z Arunem Deshpande."
 layout: category
 category: beginner
 aliases:

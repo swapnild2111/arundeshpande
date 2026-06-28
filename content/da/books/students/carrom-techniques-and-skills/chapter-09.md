@@ -1,15 +1,14 @@
 ---
-title: "Kapitel 9 — Lommer og Drejning"
-description: "Tredje lomme, kors tredje lomme, drejning, anden lomme og kors anden lomme."
+title: "Kapitel 9 — Lommer og vendinger"
+description: "Tredje lomme, krydsning af tredje lomme, vending, anden lomme og krydsning af anden lomme."
 weight: 9
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-19.jpg"
   alt: "Pockets and Turning"
-translatedBy: "Oversat fra engelsk (AI-udkast)."
 ---
-*Tredje lomme, kors tredje lomme, drejning, anden lomme og kryds anden lomme.*
+*Tredje lomme, krydsning af tredje lomme, vending, anden lomme og krydsning af anden lomme.*
 
 ## Tredje lomme
 
@@ -18,22 +17,22 @@ translatedBy: "Oversat fra engelsk (AI-udkast)."
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Tredje lomme</span>
-    <p class="def">Lommer til den modsatte højre lomme ved at ramme siderammen.</p>
+    <p class="def">At putte kuglen i den modsatte højre lomme ved at ramme siderammen.</p>
   </div>
 </div>
 
-Som vist i figur 13-A, er en mønt nær den venstre ramme, og den kan anbringes i den modsatte højre lomme ved at ramme den på siderammen med striker. Dette slag kaldes tredje lomme. striker rammer også siderammen efter at have ramt mønten.
+Som vist i figur 13-A kan en kugle, der befinder sig tæt på venstre ramme, puttes i den modsatte højre lomme ved at ramme den på siderammen med stødkuglen. Dette stød kaldes tredje lomme. Stødkuglen rammer også siderammen efter at have ramt kuglen.
 
-## Kryds tredje lomme
+## Kryds-tredje lomme
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Cross Third Pocket</span>
+    <span class="term">Kryds-tredje lomme</span>
     <p class="def">Tredje lomme spillet fra en krydslinje med afbøjning fra den modsatte ramme.</p>
   </div>
 </div>
 
-Som vist i figur 13-B kan en mønt nær siderammen sættes i en tredje lomme ved at placere striker i krydslinjen og ramme mønten på en sådan måde, at striker får en afbøjning og rebounds ved at ramme den modsatte ramme. Slaget kaldes kryds tredje lomme. Ved at spille dette slag kan vores svære mønt i vejen for rebound mange gange gøres let eller kan sættes i lommen. Når der ikke er nogen mønt i rebound-stien, og krydset skal tredjedelen spilles, og så bør retningen af ​​striker efter at have slået mønten ikke være mod lommen, mens rebound går fra den modsatte ramme. Ellers er der en chance for forfald eller double forfald. Nogle gange kan en blokeret frontlomme åbnes ved dette slag. Når en double er placeret som vist i figur 13-C, kan den venstre mønt puttes i den modsatte højre lomme ved at slå hårdt på den kvarte del af den højre mønt. Hvis der er et mellemrum mellem disse to mønter, hvor lille det end måtte være, kan dette slag ikke spilles. Mens du spiller dette slag [vist i, Fig. 13-C] skal man passe på, at striker ikke kommer i vejen for en mønt, der vender tilbage fra venstre ramme. Du skal ramme på en sådan måde, at striker skal ramme den modsatte ramme efter at have ramt mønten og bør komme før mønten vender tilbage.
+Som vist i figur 13-B kan en kugle tæt på siderammen sendes i tredje lomme ved at placere stødkuglen på en tværgående linje og ramme kuglen på en sådan måde, at stødkuglen afbøjes og springer tilbage ved at ramme den modsatte ramme. Stødet kaldes kryds-tredje lomme. Ved at udføre dette slag kan vores vanskelige kugle i returbanen ofte gøres lettere eller sendes i lommen. Når der ikke er nogen kugle i returbanen, og der skal spilles et "cross third", bør slagkuglens retning efter at have ramt kuglen ikke være mod lommen, mens den springer tilbage fra den modsatte ramme. Ellers er der risiko for en »due« eller en »double due«. Nogle gange kan man med dette slag åbne en lomme, der er blokeret foran. Når der er en »double due«, som vist i figur 13-C, kan den venstre kugle puttes i den modsatte højre lomme ved at ramme hårdt på den højre kugles kvartdel. Hvis der er et mellemrum mellem disse to kugler, uanset hvor lille det måtte være, kan dette slag ikke udføres. Når man udfører dette slag [vist i fig. 13-C], skal man passe på, at stødkuglen ikke kommer i vejen for en kugle, der vender tilbage fra venstre ramme. Du skal slå på en sådan måde, at køen rammer den modsatte ramme efter at have ramt kuglen og når frem, inden kuglen vender tilbage.
 
 ## Drejning
 
@@ -41,41 +40,41 @@ Som vist i figur 13-B kan en mønt nær siderammen sættes i en tredje lomme ved
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Drejning</span>
-    <p class="def">Pocket din mønt ved at slå gennem en modstanders mønt, der blokerer vejen.</p>
+    <span class="term">Dreje</span>
+    <p class="def">At få sin mønt i hul ved at slå igennem en modstanders mønt, der blokerer vejen.</p>
   </div>
 </div>
 
-Som vist i figur 14-A og B, hvis modstanderens mønt er foran vores mønt, og disse to mønter er sat sammen, kan vores mønt sættes i lommen ved at ramme vores mønt i midtpunktet med medium hastighed, og placere striker i en lige linje med disse to mønter. I dette tilfælde rammer modstanderens mønt siderammen og fjernes, hvorved vores mønt kan flyttes ind i lommen. Dette slag kaldes drejning. I nærheden af ​​vores basisramme, selvom der er et mellemrum mellem disse to mønter, kan dette slag spilles. Der burde ikke være meget mellemrum mellem disse to mønter foran vores basislinjer.
+Som vist i figur 14-A og B: Hvis modstanderens mønt befinder sig foran vores mønt, og disse to mønter ligger tæt sammen, kan vores mønt puttes i hullet ved at ramme vores mønt i midten med middel hastighed, idet slagmønten placeres i en lige linje med disse to mønter. I dette tilfælde rammer modstanderens kugle siderammen og fjernes derved, hvilket giver plads til, at vores kugle kan bevæge sig ind i hullet. Dette slag kaldes en drejning. Tæt på vores baglinje kan dette slag udføres, selvom der er et mellemrum mellem disse to kugler. Der bør ikke være for stort et mellemrum mellem disse to kugler foran vores baglinjer.
 
-Som vist i figur 14-B er retningen af ​​de to mønter mod siderammer. Det er meget nemt at lægge den anden mønt i lommen. i en sådan position, fordi modstanderens mønt ikke blokerer vores mønt efter at have ramt siderammen. Men hvis retningen af ​​disse to mønter er mod den modsatte ramme, blokerer den første mønt den anden mønt efter at have ramt den modsatte ramme og derfor. I en sådan position er det svært at spille dette slag. For at spille en sådan mønt skal striker placeres i en lige linje med den første og den anden mønt.
+Som vist i figur 14-B er de to kuglers retning mod siderammerne. Det er meget let at putte den anden kugle i hullet i en sådan position, fordi modstanderens kugle ikke blokerer vores kugle, efter at den har ramt siderammen. Men hvis disse to kugler er rettet mod den modsatte ramme, blokerer den første kugle den anden, efter at den har ramt den modsatte ramme, og derfor er det i en sådan position svært at udføre dette slag. For at spille et sådant slag skal køen placeres i en lige linje med den første og den anden kugle.
 
-Nogle gange er der en position, hvor begge mønter er i retning af lommen. I en sådan position kan begge mønter stikkes i lommen ved et slag kaldet follow.
+Nogle gange er der en situation, hvor begge kugler er på vej mod hullet. I en sådan situation kan begge kugler puttes i hullet med et slag, der kaldes et »follow«.
 
-Som vist i figur l4-C er der et mellemrum mellem to mønter
+Som vist i figur 14-C er der et mellemrum mellem de to kugler.
 
-Her skal striker placeres i en lige linje med disse to mønter og lommen. Hastigheden af ​​striker skal være sådan, at vores mønt erstatter modstanderens mønt ved at stikke den i lommen, og derefter følger striker og sætter vores mønt i lommen. Hvis der er pulver mellem disse to mønter, er der en chance for, at double skal betales, fordi begge mønter bliver sat i lommen uden at følge striker, og når striker følger, er der ingen mønt tilbage til at stoppe striker i at gå i lommen.
+Her skal stødkuglen placeres i en lige linje med disse to kugler og hullet. Stødkuglens hastighed skal være sådan, at vores kugle fortrænger modstanderens kugle ved at putte den i hullet, hvorefter stødkuglen følger efter og putter vores kugle i hullet. Hvis der er plads mellem disse to kugler, er der risiko for en »double due«, da begge kugler puttes i hullet uden at slagkuglen følger efter, og når slagkuglen følger efter, er der ingen kugle tilbage til at forhindre slagkuglen i at rulle ind i hullet.
 
-## Anden
+## Second
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Anden</span>
-    <p class="def">Lommer til den modsatte lomme ved at ramme bundrammen, når modstanderen blokerer lommen.</p>
+    <span class="term">Second</span>
+    <p class="def">At få bolden i den modsatte lomme ved at ramme rammerammen, når modstanderen blokerer lommen.</p>
   </div>
 </div>
 
-Som vist i figur 15-A er modstanderens mønt nær lommen, hvilket blokerer vejen for vores mønt. I denne position kan striker placeres på tværs af vores mønt, og mønten kan placeres i den modsatte lomme ved at ramme bundrammen. Dette slag kaldes et sekund. Denne situation opstår ofte, og derfor er dette slagtilfælde meget nyttigt. Dette slag er ikke så svært, hvis den rigtige vinkel tages. Jo tættere mønten er på basisrammen, jo mere lige skal vinklen på striker være med mønten, så skal striker gå i den modsatte retning af møntens.
+Som vist i figur 15-A befinder modstanderens mønt sig tæt på lommen og blokerer vejen for vores mønt. I denne position kan slagmønten placeres på tværs af vores mønt, og mønten kan sendes i den modsatte lomme ved at ramme bundrammen. Dette slag kaldes et »second«. Denne situation opstår ofte, og derfor er dette slag meget nyttigt. Slaget er ikke så svært, hvis den rette vinkel vælges. Jo tættere mønten er på bundrammen, jo mere lige skal vinklen mellem slagstenen og mønten være, og slagstenen skal bevæge sig i modsat retning af mønten.
 
-Som vist i figur 15-C, hvis mønten er i vejen for rebound, og hvis den sættes i lommen ved at slå den på siderammen til den modsatte bundlomme, kaldes dette slag også et sekund.
+Som vist i figur 15-C kaldes dette slag også et »second«, hvis mønten befinder sig i returbanen og puttes i den modsatte bundlomme ved at ramme den på siderammen.
 
-Der er tre fordele ved at spille dette slag.
+Der er tre fordele ved at udføre dette slag.
 
-Placeringen af ​​den anden mønt i midten af ​​brættet kan ændres.
+Den anden mønts position midt på bordet kan ændres.
 
-Opposite blocked pocket can be opened. Hvis mønten er nær den venstre ramme, kan den modsatte højre lomme åbnes, og hvis mønten er nær den højre ramme, kan den modsatte venstre lomme åbnes.
+Den modsatte blokerede lomme kan åbnes. Hvis mønten er tæt på venstre ramme, kan den modsatte højre lomme åbnes, og hvis mønten er tæt på højre ramme, kan den modsatte venstre lomme åbnes.
 
-Den svære mønt ved den modsatte ramme kan også gøres let. Mønten ved den modsatte ramme kan også gøres let. Mønten fra venstre ramme kan meget let sættes i lommer med et hvilket som helst fladt greb, der giver naturligt spin til striker.
+Den vanskelige mønt ved den modsatte ramme kan også gøres lettere. Mønten ved den modsatte ramme kan også gøres lettere. Mønten fra venstre ramme kan meget let puttes i lommen med ethvert fladt greb, hvilket giver slagmanden et naturligt spin.
 
 ## Cross Second
 
@@ -84,10 +83,10 @@ Den svære mønt ved den modsatte ramme kan også gøres let. Mønten ved den mo
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Cross Second</span>
-    <p class="def">Anden lomme spillet fra basiscirklen med et krydsslag på den blokerende mønt.</p>
+    <p class="def">Anden lomme spillet fra basiscirklen med et krydsstød på den blokerende mønt.</p>
   </div>
 </div>
 
-Som vist i figur 15-B er modstanderens mønt på lommen, og vores mønt er bagved. I denne position skal striker placeres på den røde bundcirkel og skal ramme vores mønt på et lavere punkt, så denne mønt vil ramme siderammen og vil gå ind i den modsatte sidebundlomme, og striker vil ramme den nederste del af lommen og fjerne modstanderens mønt fra lommen.
+Som vist i figur 15-B ligger modstanderens mønt på lommen, og vores mønt ligger bagved den. I denne position skal slagkuglen placeres på den røde basiscirkel og ramme vores kugle på et lavere punkt, så denne kugle rammer siderammen og går ind i basislommen på den modsatte side, og slagkuglen rammer den nederste del af lommen og fjerner modstanderens kugle fra lommen.
 
-Dette slag kaldes et krydssekund.
+Dette slag kaldes et cross second.

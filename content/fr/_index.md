@@ -1,5 +1,5 @@
 ---
-title: "Carrom Autocar Arun Deshpande"
-description: "Une légende vivante de l'Indien carrom — 7 fois champion du Maharashtra, champion national et entraîneur qui a conduit l'Inde à dominer les deux premiers championnats du monde Carrom. Avec plus de deux décennies d’expérience en entraînement dans plus de 10 pays, Arun Deshpande continue d’élever le sport dans le monde entier."
+title: "Arun Deshpande, entraîneur de carrom"
+description: "Une légende vivante du carrom indien : sept fois champion du Maharashtra, champion national, et entraîneur qui a permis à l'Inde de dominer les deux premiers championnats du monde de carrom. Fort de plus de deux décennies d'expérience en tant qu'entraîneur dans plus de dix pays, Arun Deshpande continue de faire rayonner ce sport à l'échelle mondiale."
 ---
-Une légende vivante de l'Indien carrom — 7 fois champion du Maharashtra, champion national et entraîneur qui a conduit l'Inde à dominer les deux premiers championnats du monde Carrom. Avec plus de deux décennies d’expérience en entraînement dans plus de 10 pays, Arun Deshpande continue d’élever le sport dans le monde entier.
+Une légende vivante du carrom indien : sept fois champion du Maharashtra, champion national, et entraîneur qui a permis à l'Inde de dominer les deux premiers championnats du monde de carrom. Fort de plus de deux décennies d'expérience en tant qu'entraîneur dans plus de dix pays, Arun Deshpande continue de faire rayonner ce sport à l'échelle mondiale.

@@ -1,5 +1,5 @@
 [home_title]
-other = "Carrom Allenatore Arun Deshpande"
+other = "Arun Deshpande, allenatore di carrom"
 
 [watch_videos]
 other = "Guarda i video"
@@ -11,40 +11,40 @@ other = "Riproduci video"
 other = "Guarda su YouTube"
 
 [close_video]
-other = "Vicino"
+other = "Chiudi"
 
 [youtube_channel]
-other = "YouTube Canale"
+other = "Canale YouTube"
 
 [play_store_label]
-other = "Ottieni l'app su Google Play"
+other = "Scarica l'app su Google Play"
 
 [google_play_app]
-other = "Applicazione Google Play"
+other = "App Google Play"
 
 [about_legend]
-other = "A proposito della leggenda"
+other = "Informazioni sulla leggenda"
 
 [explore]
-other = "Esplorare"
+other = "Esplora"
 
 [video_library]
-other = "Libreria video"
+other = "Videoteca"
 
 [video_library_desc]
-other = "Guarda i tutorial carrom classificati in base al livello di abilità: da Principiante a Campione."
+other = "Guarda i tutorial sul carrom suddivisi per livello di abilità: da principiante a campione."
 
 [carrom_books]
-other = "Carrom Libri"
+other = "Carrom Books"
 
 [carrom_books_desc]
-other = "Scarica esclusivi libri PDF per studenti e allenatori di Arun Deshpande."
+other = "Scarica i libri in formato PDF esclusivi per studenti e allenatori di Arun Deshpande."
 
 [photo_gallery]
 other = "Galleria fotografica"
 
 [photo_gallery_desc]
-other = "Rivivi il viaggio: campionati, coaching camp e momenti iconici."
+other = "Rivivi questo percorso: campionati, ritiri di allenamento e momenti iconici."
 
 [chapter]
 other = "Capitolo"
@@ -53,37 +53,37 @@ other = "Capitolo"
 other = "Precedente"
 
 [next]
-other = "Prossimo"
+other = "Avanti"
 
 [email]
 other = "E-mail"
 
 [phone]
-other = "Telefono/WhatsApp"
+other = "Telefono / WhatsApp"
 
 [location]
-other = "Posizione"
+other = "Ubicazione"
 
 [coaching_enquiries]
-other = "Richieste di coaching"
+other = "Richieste relative al coaching"
 
 [whatsapp_message]
-other = "Ciao Arun signore, ho trovato il sito web dell'Accademia Carrom e sono interessato al coaching carrom."
+other = "Buongiorno, signor Arun, ho trovato il sito web della Carrom Academy e sarei interessato a seguire un corso di carrom."
 
 [contact_information]
-other = "Informazioni sui contatti"
+other = "Informazioni di contatto"
 
 [message_on_whatsapp]
 other = "Messaggio su WhatsApp"
 
 [whatsapp_hint]
-other = "Il modo più veloce per raggiungere Arun per richieste di coaching e workshop."
+other = "Il modo più veloce per contattare Arun per richieste relative al coaching e ai workshop."
 
 [page_count]
 other = "pagine"
 
 [download_pdf]
-other = "Scarica PDF"
+other = "Scarica il PDF"
 
 [original_source]
 other = "Fonte originale"
@@ -92,7 +92,7 @@ other = "Fonte originale"
 other = "Fonti originali"
 
 [no_books_yet]
-other = "Nessun libro ancora disponibile."
+other = "Non ci sono ancora libri disponibili."
 
 [problem_label]
 other = "Problema"
@@ -104,19 +104,19 @@ other = "Soluzione"
 other = "Gruppi problematici"
 
 [soon]
-other = "Presto"
+other = "A breve"
 
 [pdf_coming_soon]
-other = "PDF in arrivo"
+other = "Il PDF sarà disponibile a breve"
 
 [ready_to_read]
-other = "Pronto per leggere"
+other = "Pronto per la lettura"
 
 [start_reading]
 other = "Inizia a leggere"
 
 [table_of_contents]
-other = "Sommario"
+other = "Indice"
 
 [language_label]
 other = "Lingua"
@@ -125,34 +125,34 @@ other = "Lingua"
 other = "Prossimamente"
 
 [coming_soon_body]
-other = "Questa sezione è in fase di preparazione. Nel frattempo, vai alla pagina Video o accedi a touch tramite la pagina Contatti."
+other = "Questa sezione è in fase di preparazione. Nel frattempo, visita la pagina \"Video\" oppure contattaci tramite la pagina \"Contatti\"."
 
 [watch_in_action]
-other = "Guarda in azione"
+other = "Guardalo in azione"
 
 [video_level_beginner]
 other = "Principiante"
 
 [video_level_intermediate]
-other = "Intermedio"
+other = "Livello intermedio"
 
 [video_level_champion]
 other = "Campione"
 
 [video_lang_hint_label]
-other = "Sottotitoli"
+other = "Didascalie"
 
 [video_lang_hint_body]
-other = "I video sono in marathi con termini di carrom in inglese. Tocca il pulsante CC nel player e scegli la tua lingua in Sottotitoli → Traduci automaticamente."
+other = "I video sono in marathi con termini del carrom in inglese. Tocca il pulsante CC nel lettore e scegli la tua lingua nella sezione Sottotitoli → Traduzione automatica."
 
 [available_in_n_languages]
-other = 'Disponibile in {{ .Count }} lingue'
+other = 'Available in {{ .Count }} languages'
 
 [chapter_count_of]
-other = 'Capitolo {{ .Current }} di {{ .Total }}'
+other = 'Chapter {{ .Current }} of {{ .Total }}'
 
 [reading_progress]
-other = "Avanzamento lettura"
+other = "Progressi nella lettura"
 
 [other_languages]
 other = "Altre lingue"

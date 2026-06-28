@@ -1,6 +1,6 @@
 ---
 title: "Champion"
-description: "Coaching carrom de niveau champion : coups gagnants, tirs d'exhibition et match play d'élite."
+description: "Entraînement de carrom de haut niveau — coups gagnants, coups de démonstration et matchs de haut niveau."
 layout: category
 category: champion
 aliases:

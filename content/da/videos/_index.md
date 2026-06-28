@@ -1,196 +1,199 @@
 ---
 title: "Videobibliotek"
+description: "Se Arun Deshpandes træningsvideoer om carrom — teknikker fra begynder til mester, plus 95 opgaver og løsninger."
+aliases:
+  - /videos/
 filters:
-  - label: "Alle"
+  - label: "All"
     id: all
-  - label: "Begynder"
+  - label: "Beginner"
     id: beginner
-  - label: "Mellem"
+  - label: "Intermediate"
     id: intermediate
-  - label: "Mester"
+  - label: "Champion"
     id: champion
-  - label: "Problemer & løsninger"
+  - label: "Problems & Solutions"
     id: problems-solutions
-  - label: "Diverse"
+  - label: "Misc"
     id: misc
 videos:
   - id: "Rm17_RqoikQ"
-    title: "Videnskab bag spillet, opsætning af brikker, åbninger"
-    tags: ["begynder"]
+    title: "Science Behind the game, How to arrange coins, Breaks"
+    tags: ["beginner"]
   - id: "1BjaxJAWo6w"
-    title: "Åbning"
-    tags: ["begynder"]
+    title: "Break"
+    tags: ["beginner"]
   - id: "8sJhAiqZflA"
-    title: "Udstyr og regler"
-    tags: ["begynder"]
+    title: "Equipment and Rules"
+    tags: ["beginner"]
   - id: "FSmw8VuAYss"
-    title: "Greb"
-    tags: ["begynder"]
+    title: "Grip"
+    tags: ["beginner"]
   - id: "fx_RqJu4h4w"
-    title: "Tommelteknik og lige brikker – 1"
-    tags: ["begynder"]
+    title: "Thumbing and straight coins – 1"
+    tags: ["beginner"]
   - id: "SHY0TIumWlU"
-    title: "Cut, lige cut"
-    tags: ["begynder"]
+    title: "Cut, Straight cut"
+    tags: ["beginner"]
   - id: "PwvNZt4alEU"
     title: "Push"
-    tags: ["begynder"]
+    tags: ["beginner"]
   - id: "yBSCnm8ZnV8"
-    title: "Lige skud"
-    tags: ["begynder"]
+    title: "Straight Shot"
+    tags: ["beginner"]
   - id: "d_aTDpLBXM8"
-    title: "Doublé"
-    tags: ["begynder"]
+    title: "Double"
+    tags: ["beginner"]
   - id: "D0obzouKqGA"
     title: "Rebound"
-    tags: ["begynder"]
+    tags: ["beginner"]
   - id: "cpVkLMfFl6g"
-    title: "Drejning"
-    tags: ["begynder"]
+    title: "Turning"
+    tags: ["beginner"]
   - id: "T-QcVCGfPcE"
     title: "Brush, Glance"
-    tags: ["begynder"]
+    tags: ["beginner"]
   - id: "wkVw3asSn58"
-    title: "Forkert skud"
-    tags: ["begynder"]
+    title: "Wrong Shot"
+    tags: ["beginner"]
   - id: "QKbE4Op9kdE"
     title: "Press"
-    tags: ["mellem"]
+    tags: ["intermediate"]
   - id: "WMgKG4_QdkQ"
-    title: "Videnskab bag spillet, siddestilling, greb, spin"
-    tags: ["mellem"]
+    title: "Science behind the game, sitting posion grips, Spin"
+    tags: ["intermediate"]
   - id: "CCUxYst3nac"
     title: "Side Press"
-    tags: ["mellem"]
+    tags: ["intermediate"]
   - id: "C7dJTZpO-ZY"
-    title: "Åbning"
-    tags: ["mellem"]
+    title: "Break"
+    tags: ["intermediate"]
   - id: "8vMzXC56nEM"
     title: "Force 1"
-    tags: ["mellem"]
+    tags: ["intermediate"]
   - id: "JxIeJXYLCQI"
-    title: "Cut, lige cut, cross cut – 1"
-    tags: ["mellem"]
+    title: "Cut, Straight cut, Cross cut – 1"
+    tags: ["intermediate"]
   - id: "th00dfyS4xw"
     title: "Force 2"
-    tags: ["mellem"]
+    tags: ["intermediate"]
   - id: "SrJ1eZnvetE"
-    title: "Doublé"
-    tags: ["mellem"]
+    title: "Double"
+    tags: ["intermediate"]
   - id: "N_aXdUnc0jo"
-    title: "Slip, striker slip, double touch"
-    tags: ["mellem"]
+    title: "Slip, Striker slip, Double touch"
+    tags: ["intermediate"]
   - id: "bQlODS_M5Hc"
     title: "Hook"
-    tags: ["mellem"]
+    tags: ["intermediate"]
   - id: "Ixb_Oa_j9JQ"
     title: "Bomb"
-    tags: ["mellem"]
+    tags: ["intermediate"]
   - id: "yb9np9KPXV4"
-    title: "Rebound og Langda Rebound"
-    tags: ["mellem"]
+    title: "Rebound and Langda Rebound"
+    tags: ["intermediate"]
   - id: "3E_TufnQsFY"
-    title: "Forsvar"
-    tags: ["mellem"]
+    title: "Defense"
+    tags: ["intermediate"]
   - id: "XOGjzZWC2iU"
-    title: "Lige skud, forkert skud"
-    tags: ["mellem"]
+    title: "Straight shot, Wrong shot"
+    tags: ["intermediate"]
   - id: "qrnEZ5oan_o"
-    title: "Fysiske øvelser"
-    tags: ["mellem"]
+    title: "Physical Exercises"
+    tags: ["intermediate"]
   - id: "7fk1KvxpWOM"
     title: "Brush, Glance, Deflection"
-    tags: ["mellem"]
+    tags: ["intermediate"]
   - id: "2toKjVwJohw"
-    title: "Sådan niveleres strikeren"
-    tags: ["mellem"]
+    title: "How to level striker"
+    tags: ["intermediate"]
   - id: "JUvhQPLyq4w"
-    title: "Pair, forkert pair"
-    tags: ["mellem"]
+    title: "Pair, Wrong pair"
+    tags: ["intermediate"]
   - id: "Jyk5FQB6gxY"
     title: "Touch"
-    tags: ["mellem"]
+    tags: ["intermediate"]
   - id: "bJWs4zAS6xI"
-    title: "Kombination af touch og tredje pocket"
-    tags: ["mellem"]
+    title: "Combination of touch and Third pocket"
+    tags: ["intermediate"]
   - id: "97stbPKDJPs"
-    title: "Kombination af pair og doublé"
-    tags: ["mellem"]
+    title: "Combination of pair and Double"
+    tags: ["intermediate"]
   - id: "XvZAwjLy_ZY"
-    title: "Drejning, follow"
-    tags: ["mellem"]
+    title: "Turning, follow"
+    tags: ["intermediate"]
   - id: "4VnYN81vPE4"
-    title: "Tredje pocket, cross tredje pocket"
-    tags: ["mellem"]
+    title: "Third pocket, Cross third pocket"
+    tags: ["intermediate"]
   - id: "78mP_-FbTa4"
-    title: "Andet pocket, cross andet pocket"
-    tags: ["mellem"]
+    title: "Second pocket, Cross second pocket"
+    tags: ["intermediate"]
   - id: "HOxn4Q-1VtY"
-    title: "Forsvar"
-    tags: ["mester"]
+    title: "Defense"
+    tags: ["champion"]
   - id: "6t1kn2wzNOo"
-    title: "Cut, lige cut, cross cut"
-    tags: ["mester"]
+    title: "Cut, Straight cut, Cross cut"
+    tags: ["champion"]
   - id: "SCY7KuCBT7Q"
-    title: "Avancerede skud"
-    tags: ["mester"]
+    title: "Advance strokes"
+    tags: ["champion"]
   - id: "rTVzsvknhOA"
-    title: "Doublé, cross doublé"
-    tags: ["mester"]
+    title: "Double, Cross double"
+    tags: ["champion"]
   - id: "y80C9BfWVGQ"
     title: "Spin"
-    tags: ["mester"]
+    tags: ["champion"]
   - id: "aJkKdyOjJjs"
     title: "Langda Rebound"
-    tags: ["mester"]
+    tags: ["champion"]
   - id: "PJG08khutoA"
-    title: "Vinderskud"
-    tags: ["mester"]
+    title: "Winning strokes"
+    tags: ["champion"]
   - id: "uvqYRLRcIAQ"
-    title: "Forkert skud"
-    tags: ["mester"]
+    title: "Wrong shot"
+    tags: ["champion"]
   - id: "86Y52mCU7a4"
-    title: "Opvisningsskud"
-    tags: ["mester"]
+    title: "Exhibition strokes"
+    tags: ["champion"]
   - id: "uKJJHu9cWZc"
     title: "Glance"
-    tags: ["mester"]
+    tags: ["champion"]
   - id: "uehqA-vy8g8"
-    title: "Fysiske øvelser"
-    tags: ["mester"]
+    title: "Physical Excercizes"
+    tags: ["champion"]
   - id: "I-Yf9PghHA0"
-    title: "Forkert pair"
-    tags: ["mester"]
+    title: "Wrong pair"
+    tags: ["champion"]
   - id: "QvW-Pd-FTow"
-    title: "Sådan niveleres strikeren"
-    tags: ["mester"]
+    title: "How to level striker"
+    tags: ["champion"]
   - id: "fBb0agfqcwo"
     title: "Touch"
-    tags: ["mester"]
+    tags: ["champion"]
   - id: "InPNee7HV4c"
-    title: "Fordele ved touch"
-    tags: ["mester"]
+    title: "Advantages of Touch"
+    tags: ["champion"]
   - id: "LKgGD94MhJc"
-    title: "Andet, cross andet, cross tredje"
-    tags: ["mester"]
+    title: "Second, cross second, cross third"
+    tags: ["champion"]
   - id: "GpOykL199gU"
     title: "Press – 1"
-    tags: ["mester"]
+    tags: ["champion"]
   - id: "q0jlG9OXKLI"
     title: "Press – 2"
-    tags: ["mester"]
+    tags: ["champion"]
   - id: "8A1cZ-yMZEI"
     title: "Force"
-    tags: ["mester"]
+    tags: ["champion"]
   - id: "CL64i7ExkSc"
     title: "Bomb"
-    tags: ["mester"]
+    tags: ["champion"]
   - id: "lGIEPr4z9NI"
-    title: "Rullende brik"
-    tags: ["mester"]
+    title: "Rolling of coin"
+    tags: ["champion"]
   - id: "h_67KxeDtzc"
-    title: "Rullende striker"
-    tags: ["mester"]
+    title: "Rolling of striker"
+    tags: ["champion"]
   - id: "aw2JB5YLc5k"
     title: "Golden Carrom Treasure by Sir Arun Deshpande"
     tags: ["misc"]

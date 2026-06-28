@@ -1,31 +1,30 @@
 ---
 title: "Capitolo 2 — Definizioni e terminologia"
-description: "Interpretazione di ogni termine utilizzato in queste regole: Carromman, Board, Break, Queen, Due, Penalità, Copertura, Pair, Cannon, Tiro, Colpo, Slam e altro."
+description: "Interpretazione di tutti i termini utilizzati in queste Regole: Carromman, Tavola, Break, Regina, Due, Penalità, Copertura, Coppia, Cannone, Tiro, Colpo, Slam e altri ancora."
 weight: 2
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Tradotto dall'inglese (bozza AI)."
 ---
-*In queste Leggi, a meno che non vi sia nulla di ripugnante rispetto all'oggetto o al contesto, i termini indicati di seguito avranno le seguenti interpretazioni. Leggi questo capitolo una volta e il resto delle Leggi verrà letto in modo naturale.*
+*Nel presente Regolamento, salvo quanto espressamente previsto dal contesto o dall'argomento trattato, i termini riportati di seguito avranno il significato indicato di seguito. Leggete questo capitolo una volta e il resto del Regolamento vi risulterà chiaro.*
 
-## Leggi e Carrom Board
+## Le Regole e il tavolo da carrom
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Legislazione</span>
-    <p class="def">Le leggi di Carrom.</p>
+    <span class="term">Regole</span>
+    <p class="def">Le Regole del Carrom.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Corretto</span>
-    <p class="def">In conformità con le leggi.</p>
+    <span class="term">Regolare</span>
+    <p class="def">Conforme alle Regole.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Improprio</span>
-    <p class="def">Contrariamente alle leggi.</p>
+    <span class="term">Non corretto</span>
+    <p class="def">Contrario alle regole.</p>
   </div>
   <div class="definition-card">
     <span class="term">C/B</span>
-    <p class="def">Carrom Board.</p>
+    <p class="def">Tavola da carrom.</p>
   </div>
   <div class="definition-card">
     <span class="term">C/m</span>
@@ -33,66 +32,66 @@ translatedBy: "Tradotto dall'inglese (bozza AI)."
   </div>
 </div>
 
-## Struttura della corrispondenza
+## Struttura della partita
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Asse</span>
-    <p class="def">Dall'inizio del board, dopo la chiamata dell'Arbitro<em>Giocare</em>, fino al suo completamento all'imbucare l'ultimo C/m di qualsiasi giocatore.</p>
+    <span class="term">Partita</span>
+    <p class="def">Dal momento dell'inizio di una partita, dopo che l'arbitro ha chiamato <em>Gioco</em>, fino al suo completamento con l'immissione in buca dell'ultimo C/m di qualsiasi giocatore.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Rottura</span>
-    <p class="def">Il primo colpo di tavola.</p>
+    <span class="term">Break</span>
+    <p class="def">Il primo colpo di una partita.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Fine</span>
-    <p class="def">Il completamento del tabellone.</p>
+    <span class="term">Finale</span>
+    <p class="def">Il completamento della mano.</p>
   </div>
   <div class="definition-card">
     <span class="term">Giocatore</span>
-    <p class="def">Un giocatore Carrom.</p>
+    <p class="def">Un giocatore di Carrom.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Giro</span>
-    <p class="def">Il diritto di sciopero.</p>
+    <span class="term">Turno</span>
+    <p class="def">Il diritto di effettuare una mossa.</p>
   </div>
 </div>
 
-## Queen, monete e posizionamento
+## La Regina, le Monete e il Posizionamento
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Queen</span>
-    <p class="def">Il C/m rosso.</p>
+    <span class="term">Regina</span>
+    <p class="def">La C/m rossa.</p>
   </div>
   <div class="definition-card">
     <span class="term">Posizionamento</span>
-    <p class="def">Trattenere una penalità e/o il C/m dovuto in una posizione piana sulla superficie di gioco, esclusivamente all'interno del cerchio esterno, da parte del giocatore autorizzato a farlo. Il Queen e qualsiasi c/m saltato vengono sempre posizionati dall'arbitro nel cerchio centrale.</p>
+    <p class="def">Mantenere una palla di penalità e/o una palla di centro in posizione piatta sulla superficie di gioco, esclusivamente all'interno del cerchio esterno, da parte del giocatore autorizzato a farlo. La Regina e qualsiasi C/m saltato vengono sempre posizionati dall'arbitro nel Cerchio Centrale.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Intascare</span>
-    <p class="def">Mettere un C/m o Queen in una tasca con un colpo corretto o improprio.</p>
+    <span class="term">Messa in buca</span>
+    <p class="def">Inserire una pallina o la Regina in una buca con un colpo regolare o irregolare.</p>
   </div>
   <div class="definition-card">
     <span class="term">Copertura</span>
-    <p class="def">Imbucare uno dei propri C/m da parte di un giocatore nello stesso colpo o immediatamente successivo dopo che il Queen è stato imbucato.</p>
+    <p class="def">Messa in buca di una delle proprie bilie centrali da parte di un giocatore con lo stesso colpo o con quello immediatamente successivo alla messa in buca della regina.</p>
   </div>
 </div>
 
-## Quote, penalità e colpe
+## Punteggi, penalità e falli
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Dovuto</span>
-    <p class="def">Imbucare il Striker con o senza C/m e/o Queen e/o qualsiasi c/m in sospeso contro il giocatore, a seconda dei casi.</p>
+    <span class="term">Dovere</span>
+    <p class="def">Mettere in buca la bilia battente con o senza C/m e/o Regina, e/o qualsiasi C/m in sospeso a carico del giocatore, a seconda dei casi.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Pena</span>
-    <p class="def">Punizione per infrazione o violazione delle Leggi.</p>
+    <span class="term">Penalità</span>
+    <p class="def">Sanzione per infrazione o violazione delle Regole.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Spingere</span>
-    <p class="def">Uno scatto o un movimento improvviso del gomito della mano che suona invece di colpire il Striker con il dito. Non consentito.</p>
+    <span class="term">Spinta</span>
+    <p class="def">Uno scatto o un movimento improvviso del gomito della mano che gioca, invece di colpire lo Striker con il dito. Non consentito.</p>
   </div>
 </div>
 
@@ -101,61 +100,61 @@ translatedBy: "Tradotto dall'inglese (bozza AI)."
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Colpo</span>
-    <p class="def">Colpire C/m tramite Striker, direttamente o indirettamente.</p>
+    <p class="def">Colpire il C/m da parte del battitore, direttamente o indirettamente.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Sparo</span>
-    <p class="def">A pair o cannon.</p>
+    <span class="term">Tiro</span>
+    <p class="def">Una coppia o un cannone.</p>
   </div>
-  <div class="definition-card">
-    <span class="term">Pair</span>
-    <p class="def">Due C/m, o un C/m e Queen, rivolti nella direzione generale della tasca con uno spazio tra di loro.</p>
+  <div class="definition-ballina">
+    <span class="termine">Coppia</span>
+    <p class="def">Due C/m, oppure un C/m e una Regina, rivolti nella direzione generale della buca con uno spazio tra di loro.</p>
   </div>
   <div class="definition-card">
     <span class="term">Cannon</span>
-    <p class="def">Due C/m, o un C/m e Queen, rivolti nella direzione generale della tasca<em>senza</em>qualsiasi spazio tra di loro.</p>
+    <p class="def">Due C/m, oppure un C/m e una Regina, rivolti nella direzione generale della buca <em>senza</em> alcuno spazio tra di loro.</p>
   </div>
   <div class="definition-card">
     <span class="term">Thumbing</span>
-    <p class="def">Fare un colpo con il pollice.</p>
+    <p class="def">Eseguire una mossa con il pollice.</p>
   </div>
 </div>
 
-## Funzionari e avversari
+## Arbitri e avversari
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Capo Arbitro</span>
-    <p class="def">Un ufficiale incaricato di amministrare, supervisionare, controllare e prendere decisioni su tutte le questioni a lui sottoposte nel corso di una partita.</p>
+    <span class="term">Arbitro capo</span>
+    <p class="def">Un arbitro incaricato di amministrare, supervisionare, controllare e prendere decisioni su tutte le questioni che gli vengono sottoposte nel corso di una partita.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Arbitro</span>
-    <p class="def">Un ufficiale incaricato di supervisionare e/o controllare una partita.</p>
+    <span class="term">Giudice di linea</span>
+    <p class="def">Un arbitro incaricato di supervisionare e/o controllare una partita.</p>
   </div>
   <div class="definition-card">
     <span class="term">Avversario (singolo)</span>
-    <p class="def">Il giocatore attualmente non ha il suo turno di gioco.</p>
+    <p class="def">Il giocatore a cui non spetta il turno di gioco in quel momento.</p>
   </div>
   <div class="definition-card">
     <span class="term">Avversario (doppio)</span>
-    <p class="def">Il giocatore seduto alla sinistra e/o alla destra del giocatore che attualmente ha il suo turno di gioco.</p>
+    <p class="def">Il giocatore seduto alla sinistra e/o alla destra del giocatore a cui spetta attualmente il turno di gioco.</p>
   </div>
 </div>
 
-## Anatomia e Linee
+## Anatomia e linee
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Mano</span>
-    <p class="def">La parte della mano che suona dalle dita fino al polso.</p>
+    <p class="def">La parte della mano con cui si gioca, dalle dita fino al polso.</p>
   </div>
   <div class="definition-card">
     <span class="term">Dito</span>
-    <p class="def">La porzione del lato ungueale di un dito fino alla seconda articolazione.</p>
+    <p class="def">La parte del dito che va dal lato dell'unghia fino alla seconda falange.</p>
   </div>
   <div class="definition-card">
     <span class="term">Linee immaginarie</span>
-    <p class="def">Le linee tracciate in estensione delle frecce tra i cerchi di base.</p>
+    <p class="def">Le linee tracciate in prosecuzione delle frecce tra i cerchi di base.</p>
   </div>
 </div>
 
@@ -163,16 +162,16 @@ translatedBy: "Tradotto dall'inglese (bozza AI)."
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Slam Bianco</span>
-    <p class="def">Imbucare tutti e nove i C/m bianchi e il Queen come previsto dalle Regole nel primo turno di gioco. Chiamato anche<em>Pausa per finire</em>.</p>
+    <span class="term">Slam bianco</span>
+    <p class="def">Inbustare tutte e nove le bilie bianche C/m e la Regina secondo le Regole nel primo turno di gioco. Chiamato anche <em>Break to Finish</em>.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Slam Nero</span>
-    <p class="def">Imbucare tutti i restanti C/m neri, con o senza il Queen, come previsto dalle Regole nel primo turno di gioco.</p>
+    <span class="term">Slam nero</span>
+    <p class="def">Messa in buca di tutte le C/m nere rimanenti, con o senza la Regina, secondo le Regole nel primo turno di gioco.</p>
   </div>
 </div>
 
 <div class="callout">
   <div class="callout-title">Nota di lettura</div>
-  <p>Le parole che implicano il singolare includeranno il plurale, e le parole che implicano il maschile si riferiranno anche al femminile.</p>
+  <p>I termini al singolare includono il plurale, e i termini al maschile si riferiscono anche al femminile.</p>
 </div>

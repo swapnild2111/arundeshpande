@@ -1,17 +1,17 @@
 ---
-title: "Carrom Libri"
-description: "Scarica e leggi i libri carrom: regole, tecniche e guide di coaching."
+title: "Carrom Books"
+description: "Scarica e leggi libri sul carrom: regole, tecniche e guide per l'allenamento."
 aliases:
   - /books/
 filters:
-  - label: "Tutti i libri"
+  - label: "All Books"
     id: all
-  - label: "Per gli studenti"
+  - label: "For Students"
     id: students
-  - label: "Per gli allenatori"
+  - label: "For Coaches"
     id: coaches
-  - label: "Regole"
+  - label: "Rules"
     id: rules
-  - label: "Altro"
+  - label: "Other"
     id: other
 ---

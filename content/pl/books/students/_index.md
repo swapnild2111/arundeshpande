@@ -1,5 +1,5 @@
 ---
-title: "Dla Studentów"
+title: "Dla studentów"
 layout: category
 category: students
 aliases:

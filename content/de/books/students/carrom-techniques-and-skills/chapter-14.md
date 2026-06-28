@@ -1,55 +1,54 @@
 ---
-title: "Kapitel 14 — Erweiterte Schlagpositionen"
-description: "Exemplarische Vorgehensweisen für fortgeschrittene Brettpositionen – Abbildungen 32 bis 47 – und wie Arun sie spielt."
+title: "Kapitel 14 – Fortgeschrittene Schwimmtechniken"
+description: "Anleitungen zu fortgeschrittenen Brettstellungen – Abbildungen 32 bis 47 – und wie Arun sie spielt."
 weight: 14
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-36.jpg"
   alt: "Advanced Stroke Positions"
-translatedBy: "Aus dem Englischen übersetzt (KI-Entwurf)."
 ---
-*Komplettlösungen für fortgeschrittene Brettpositionen – Abbildungen 32 bis 47 – und wie Arun sie spielt.*
+*Anleitungen zu fortgeschrittenen Spielfeldpositionen – Abbildungen 32 bis 47 – und wie Arun sie spielt.*
 
-## Erweiterte Positionen
+## Fortgeschrittene Positionen
 
-Jede der folgenden Komplettlösungen entspricht einem Diagramm in Aruns Originalbuch. Studieren Sie zuerst das Münzlayout und lesen Sie dann, wie sich der striker bewegen sollte.
+Jede der folgenden Anleitungen entspricht einer Abbildung in Aruns Originalbuch. Schauen Sie sich zunächst die Anordnung der Spielsteine an und lesen Sie dann, wie sich der Angreifer bewegen sollte.
 
 ## Abbildung 32
 
 ![Abbildung 1](/images/book/fig-36.jpg)
 
-In Abb. 32 gibt es drei weiße Münzen und eine schwarze Münze des Gegners. Unsere beiden Münzen sind an der Position rebound schwierig. Die Position dieser beiden Münzen ist für rebound schwierig und daher sollte ein anderer Schlag versucht werden, um das Spielfeld zu beenden, andernfalls gewinnt der Gegner das Spielfeld, indem er seine einzigen Münzen auf dem Spielfeld einsteckt.
+In Abb. 32 befinden sich drei weiße Münzen und eine schwarze Münze des Gegners. Unsere beiden Münzen befinden sich in einer schwierigen Position für einen Abpraller. Da die Position dieser beiden Münzen einen Abpraller erschwert, sollte ein anderer Zug versucht werden, um das Spiel zu beenden; andernfalls gewinnt der Gegner das Spiel, indem er seine einzige noch auf dem Spielfeld befindliche Münze versenkt.
 
-Wie in Abb. 32 gezeigt, sollte striker in einer geraden Linie mit der weißen Münze platziert werden und wir sollten sie mit force cut verbinden. Der striker trifft den Taschenbereich auf der gegenüberliegenden rechten Seite und kehrt zurück, um die beiden schwierigen weißen Münzen freizugeben und es uns zu ermöglichen, das Spielfeld fertigzustellen.
+Wie in Abb. 32 gezeigt, sollte der Spielball auf einer geraden Linie mit der weißen Kugel platziert und mit Kraft abgefälscht werden. Der Spielball trifft den Bereich der gegenüberliegenden rechten Tasche und kehrt zurück, um die beiden schwierig zu versenkenden weißen Kugeln freizuspielen und uns so zu ermöglichen, das Spiel zu beenden.
 
 ## Abbildung 33
 
 ![Abbildung 2](/images/book/fig-37.jpg)
 
-Die in Abb. 33 dargestellte Position scheint schwierig zu sein. Es gibt zwei schwarze Münzen des Gegners und eine weiße Münze unseres Gegners. Diese weiße Münze kann weder cut noch von einem rebound eingesteckt werden. Wie in Abb. 33 gezeigt, sollte der striker auf dem Grundkreis platziert werden und die schwarze Münze an der im Diagramm gezeigten Stelle treffen. Die weiße Münze wird in das gegenüberliegende rechte Fach gesteckt. Dieser Schlag ist im Vergleich zu allen anderen Schlägen sehr einfach. Beobachten Sie die Position dieser beiden Münzen. Wenn Sie eine gerade Linie von der Mitte dieser beiden Münzen nehmen, werden Sie feststellen, dass die gerade Linie nicht auf die Tasche trifft, sondern auf den rechten Rahmen in der Nähe des Taschenbereichs. Wenn diese gerade Linie in der Tasche zusammentrifft, kann die weiße Münze auf diese Weise nicht eingesteckt werden.
+Die in Abb. 33 gezeigte Stellung sieht schwierig aus. Es befinden sich zwei schwarze Kugeln des Gegners und eine weiße Kugel auf dem Spielfeld. Diese weiße Kugel kann weder durch einen Schnitt noch durch einen Abpraller versenkt werden. Wie in Abb. 33 gezeigt, sollte der Spielball auf den Basiskreis gelegt und die schwarze Kugel an der in der Abbildung dargestellten Stelle getroffen werden. Die weiße Kugel wird in die gegenüberliegende rechte Tasche versenkt. Dieser Stoß ist im Vergleich zu allen anderen Stößen sehr einfach. Beobachten Sie die Position dieser beiden Kugeln. Wenn Sie eine gerade Linie durch die Mitte dieser beiden Kugeln ziehen, werden Sie feststellen, dass diese gerade Linie nicht auf die Tasche trifft, sondern auf den rechten Rahmen in der Nähe des Taschenbereichs. Würde diese gerade Linie auf die Tasche treffen, könnte die weiße Kugel auf diese Weise nicht versenkt werden.
 
 ## Abbildung 34
 
 ![Abbildung 3](/images/book/fig-38.jpg)
 
-Es gibt zwei schwarze Münzen und dazwischen liegt eine weiße Münze. Diese Münze lässt sich nur schwer einstecken. Der striker sollte wie in Abbildung 34 gezeigt platziert und an der Stelle etwas über der Mitte getroffen werden. Diese weiße Münze wird die schwarze Münze touch treffen, dann den linken Seitenrahmen treffen und in die rechte Basistasche gelangen. Dies ist ein schwieriger Schlag, der aber nach Übung gespielt werden kann.
+Es gibt zwei schwarze Kugeln, und zwischen diesen beiden Kugeln befindet sich eine weiße Kugel. Diese Kugel lässt sich nur schwer versenken. Der Queue sollte wie in Abbildung 34 gezeigt positioniert und an der Stelle etwas oberhalb der Mitte getroffen werden. Diese weiße Kugel berührt die schwarze Kugel, prallt dann gegen die linke Bandkante und gelangt in die rechte Ecktasche. Dies ist ein schwieriger Stoß, der jedoch mit etwas Übung ausgeführt werden kann.
 
 ## Abbildung 35
 
 ![Abbildung 4](/images/book/fig-39.jpg)
 
-Es gibt zwei schwarze Münzen und eine weiße Münze. Eine schwarze Münze ist für den Gegner sehr einfach, aber die andere Münze ist für ihn schwierig. Mit Hilfe der schwarzen Münze, die sich in der Tasche befindet, kann das ganz einfach gemacht werden. In dieser Position ist die weiße Münze schwierig. Wenn Sie genau hinsehen, werden Sie feststellen, dass die weiße Münze etwas vom gegenüberliegenden Rahmen entfernt ist. Diese weiße Münze kann wie in dieser Abbildung gezeigt eingesteckt werden. Wenn der striker die richtige Position trifft, wie in Abb. 35 gezeigt, kann die Münze eingesteckt werden – oder der striker trifft zuerst den gegenüberliegenden Rahmen in der Nähe der weißen Münze und dann die weiße Münze an der richtigen Stelle. (Siehe gepunktete Linien.)
+Es befinden sich zwei schwarze Kugeln und eine weiße Kugel auf dem Tisch. Eine der schwarzen Kugeln ist für den Gegner sehr leicht zu versenken, die andere hingegen stellt für ihn eine Herausforderung dar. Mit Hilfe der schwarzen Kugel, die sich an der Tasche befindet, lässt sich diese Situation vereinfachen. In dieser Position ist die weiße Kugel schwer zu versenken. Wenn Sie genau hinschauen, werden Sie feststellen, dass die weiße Kugel etwas vom gegenüberliegenden Band entfernt ist. Diese weiße Münze kann wie in dieser Abbildung gezeigt versenkt werden. Wenn der Spieler an der richtigen Stelle trifft, wie in Abb. 35 dargestellt, kann die Münze versenkt werden – oder der Spieler trifft zunächst den gegenüberliegenden Rahmen in der Nähe der weißen Münze und dann die weiße Münze an der richtigen Stelle. (Siehe gepunktete Linien.)
 
 ## Abbildung 36
 
 ![Abbildung 5](/images/book/fig-40.jpg)
 
-In Abb. 36 ist zu sehen, dass es drei schwarze Münzen des Gegners und drei weiße Münzen unseres Gegners gibt. Eine dieser drei schwarzen Münzen versperrt unserer einen weißen Münze den Weg. Hier können wir die schwarze Münze des Gegners ausnutzen, wie in Abb. 36 gezeigt. striker sollte in der Mitte der Grundlinie platziert werden und an der im Diagramm gezeigten Stelle mit etwas mehr force auf die schwarze Münze treffen. Es gibt drei Chancen in diesem Schlag. 1) Beim Kreuzen der dritten Tasche trifft die schwarze Münze auf die weiße Münze auf der gegenüberliegenden rechten Tasche und diese weiße Münze landet in der Tasche. 2) Die schwarze Münze wird entfernt und striker schlägt auf die weiße Münze im linken Basisfach und diese weiße Münze wandert in das linke Basisfach. 3) Beide weißen Münzen können eingesteckt werden – eine mit dem striker und eine mit der schwarzen Münze.
+In Abb. 36 ist zu sehen, dass sich drei schwarze Steine des Gegners und drei weiße Steine auf unserer Seite befinden. Einer dieser drei schwarzen Steine versperrt unserem einen weißen Stein den Weg. Hier können wir die schwarze Kugel des Gegners zu unserem Vorteil nutzen, wie in Abb. 36 dargestellt: Die Spielkugel sollte in der Mitte der Grundlinie platziert werden und die schwarze Kugel an der in der Abbildung gezeigten Stelle mit etwas mehr Kraft treffen. Dieser Stoß bietet drei Möglichkeiten: 1) Durch das Querschlagen in die dritte Tasche trifft die schwarze Kugel die weiße Kugel an der gegenüberliegenden rechten Tasche, und diese weiße Kugel geht in die Tasche. 2) Die schwarze Kugel wird entfernt, und der Stoßball trifft die weiße Kugel an der linken Basistasche, woraufhin diese weiße Kugel in die linke Basistasche geht. 3) Beide weißen Kugeln können versenkt werden – eine durch die Spielkugel und eine durch die schwarze Kugel.
 
 ## Abbildung 37
 
-In Abb. 37 liegt die schwarze Münze zwischen den vier weißen Münzen des Gegners. Diese schwarze Münze kann nicht in die gegenüberliegende linke oder rechte Tasche gesteckt werden. Wenn Sie die Schussposition von Schwarz und Weiß beobachten, werden Sie feststellen, dass die Richtung dieses Schusses nicht auf die Tasche, sondern auf den Basisrahmen in der Nähe der Tasche gerichtet ist. Hier kann die in Abb. 9B angegebene Regel angewendet werden. Daher kann dieser Schlag nicht von rebound gespielt werden, da striker den in der Abbildung gezeigten Punkt nicht treffen kann. Daher gibt es nur eine Möglichkeit, diese schwarze Münze einzustecken: Der striker sollte im linken Bild getroffen werden, zum Schuss zurückkehren und die schwarze Münze in das rechte Basisfach schicken.
+In Abb. 37 befindet sich die schwarze Kugel zwischen den vier weißen Kugeln des Gegners. Diese schwarze Kugel kann nicht in die gegenüberliegende linke oder rechte Tasche versenkt werden. Wenn Sie die Schussposition von Schwarz und Weiß betrachten, werden Sie feststellen, dass die Richtung dieses Stoßes nicht auf die Tasche, sondern auf den Basisrahmen in der Nähe der Tasche gerichtet ist. Hier kann die in Abb. 9B dargelegte Regel angewendet werden. Daher kann dieser Stoß nicht per Abpraller gespielt werden, da der Spielstein den in der Abbildung gezeigten Punkt nicht treffen kann. Daher gibt es nur eine Möglichkeit, diese schwarze Kugel einzulochen: Die Spielkugel sollte am linken Rahmen getroffen werden, zum Stoßpunkt zurückkehren und die schwarze Kugel in die rechte Ecktasche schicken.
 
 ## Abbildungen 38–39
 
@@ -57,60 +56,60 @@ In Abb. 37 liegt die schwarze Münze zwischen den vier weißen Münzen des Gegne
 
 ![Abbildung 7](/images/book/fig-43.jpg)
 
-In Abb. 38 versperren drei schwarze Münzen des Gegners den Weg der weißen Münze. Wenn Sie die Position sehen, werden Sie zunächst das Gefühl haben, dass es keinen Weg für die weiße Münze gibt. Es gibt eine Möglichkeit. Spielen Sie hart und kreuzen Sie double mit der weißen Münze, so dass der striker die schwarze Münze an der gegenüberliegenden linken Tasche trifft und sie aus dieser Position entfernt. In der Zwischenzeit sollte die weiße Münze den gegenüberliegenden Rahmen und dann unseren Basisrahmen treffen und zur gegenüberliegenden linken Tasche wandern, wo sich das Hindernis für die schwarze Münze befand. (Siehe Abb. 38-A). Es gibt noch eine weitere Möglichkeit, diese Münze in die gegenüberliegende rechte Tasche einzustecken. (Siehe Abb. 38-B – siehe gepunktete Linien.)
+In Abb. 38 versperren drei schwarze Kugeln des Gegners der weißen Kugel den Weg. Auf den ersten Blick scheint es, als gäbe es für die weiße Kugel keinen Ausweg. Es gibt jedoch eine Möglichkeit. Spielen Sie einen „Hard Cross Double" auf den weißen Stein, sodass der Stoßstein den schwarzen Stein an der gegenüberliegenden linken Tasche trifft und ihn von dieser Position entfernt. In der Zwischenzeit sollte der weiße Stein den gegenüberliegenden Rahmen und anschließend unseren Basisrahmen treffen und in die gegenüberliegende linke Tasche wandern, wo sich zuvor der schwarze Stein als Hindernis befand. (Siehe Abb. 38-A). Es gibt noch eine weitere Möglichkeit, diese Kugel in die gegenüberliegende rechte Tasche zu versenken. (Siehe Abb. 38-B – siehe gepunktete Linien.)
 
 ## Abbildung 39
 
 ![Abbildung 8](/images/book/fig-44.jpg)
 
-In Abb. 39 sind die drei schwarzen Münzen des Gegners, die queen und unsere beiden weißen Münzen zu sehen. Wir können hier einen sehr guten Schlag spielen. Spielen Sie die dritte Tasche der weißen Münze so, dass striker auf Queen umgelenkt wird und auch Queen eingesteckt werden kann. Es gibt drei Möglichkeiten. 1) Weiße Münze und Queen können gleichzeitig in die gegenüberliegende rechte Tasche gesteckt werden. 2) Das Weiße kann in die Tasche gesteckt werden, wodurch die Queen leicht zu erhalten ist. 3) Die Queen kann in die Tasche gesteckt werden, sodass die weiße Münze leicht zu erhalten ist. Daher bestehen gute Chancen, das Board zu beenden.
+In Abb. 39 befinden sich drei schwarze Steine des Gegners, die Königin und unsere beiden weißen Steine. Hier können wir einen sehr guten Zug spielen. Spielen Sie den weißen Stein in die dritte Tasche so, dass der Stoß an der Königin abprallt und diese ebenfalls versenkt wird. Es gibt drei Möglichkeiten: 1) Die weiße Kugel und die Königin können gleichzeitig in die rechte gegnerische Tasche gelangen. 2) Die weiße Kugel kann in die Tasche gelangen, wodurch die Königin leicht zu versenken ist. 3) Die Königin kann in die Tasche gelangen, wodurch die weiße Kugel leicht zu versenken ist. Daher bestehen gute Chancen, das Spiel zu beenden.
 
 ## Abbildung 40
 
 ![Abbildung 9](/images/book/fig-45.jpg)
 
-In Abb. 40 gibt es zwei weiße Münzen, die für uns schwierig zu sein scheinen, und eine schwarze Münze, die für den Gegner einfach zu sein scheint. Platzieren Sie den striker wie in der Abbildung gezeigt und schlagen Sie mit etwas mehr force auf den oberen Teil der weißen Münze. Die weiße Münze gelangt durch touch Strich in die linke Basistasche und die striker kehrt bei der zweiten weißen Münze zurück, die sich an der rebound Position befindet, nachdem sie den linken und gegenüberliegenden Rahmen getroffen hat. Dieser Schlaganfall ist eine Kombination aus dem touch Schlaganfall und dem bomb Schlaganfall. Auch wenn zwei weiße Münzen schwierig sind, können wir das Spielfeld mit dieser Schlagkombination beenden.
+In Abb. 40 befinden sich zwei weiße Münzen, die für uns schwierig erscheinen, und eine schwarze Münze, die für den Gegner leicht zu versenken ist. Positionieren Sie den Stoßstein wie in der Abbildung gezeigt und treffen Sie den oberen Teil der weißen Münze mit etwas mehr Kraft. Die weiße Kugel gelangt durch einen Touch-Stoß in die linke untere Tasche, und der Spielstein kehrt zur zweiten weißen Kugel zurück, die sich nach dem Aufprall auf den linken und den gegenüberliegenden Rahmen in der Abprallposition befindet. Dieser Stoß ist eine Kombination aus Touch-Stoß und Bomb-Stoß. Selbst wenn also zwei weiße Kugeln schwierig sind, können wir das Spielfeld durch diese Kombination von Stößen beenden.
 
 ## Abbildung 41
 
 ![Abbildung 10](/images/book/fig-46.jpg)
 
-In Abb. 41 sind zwei schwarze und zwei weiße Münzen zu sehen. Weiße Münzen gehören uns. Wir können eine weiße Münze um double mit Hilfe einer schwarzen Münze spielen und gleichzeitig die andere weiße Münze um hook spielen. Bei diesem Strich gibt es drei Möglichkeiten.
+In Abb. 41 befinden sich zwei schwarze und zwei weiße Kugeln. Die weißen Kugeln gehören uns. Wir können eine weiße Kugel mithilfe einer schwarzen Kugel per „Double" versenken und gleichzeitig die andere weiße Kugel per „Hook" versenken. Bei diesem Zug gibt es drei Möglichkeiten.
 
-1) Die beiden weißen Münzen Nr. 1 und Nr. 2 können gleichzeitig in einem Zug eingesteckt werden. 2) Die weiße Münze Nr. 1 kann von double eingesteckt werden und die weiße Münze Nr. 2 kann einfach gemacht werden. 3) Die weiße Münze Nr. 2 kann von hook eingesteckt werden und die weiße Münze Nr. 1 kann einfach gemacht werden.
+1) Beide weißen Steine Nr. 1 und Nr. 2 können gleichzeitig mit einem Zug versenkt werden. 2) Der weiße Stein Nr. 1 kann per „Double" versenkt und der weiße Stein Nr. 2 in eine günstige Position gebracht werden. 3) Die weiße Kugel Nr. 2 kann per „Hook" versenkt und die weiße Kugel Nr. 1 in eine günstige Position gebracht werden.
 
 ## Abbildung 42
 
 ![Abbildung 11](/images/book/fig-47.jpg)
 
-In Abb. 42 liegt eine weiße Münze zwischen drei schwarzen Münzen. Diese weiße Münze kann wie in Abb. 42 gezeigt eingesteckt werden. Beobachten Sie die Position dieser beiden schwarzen und weißen Münzen. Wenn der Winkel dieser beiden Münzen mit dem linken Rahmen größer ist, kann diese weiße Münze eingesteckt werden. Nur wenn dieser Winkel vorhanden ist, sollte dieser Schlag gespielt werden, sonst werden alle schwarzen Münzen für den Gegner leicht. Wenn dieser Schlag aufgrund eines falschen Winkels nicht gespielt werden kann, sollte zuerst die schwarze Münze in der Nähe der Tasche entfernt werden.
+In Abb. 42 befindet sich eine weiße Kugel zwischen drei schwarzen Kugeln. Diese weiße Kugel kann wie in Abb. 42 gezeigt versenkt werden. Beachten Sie die Position dieser beiden schwarzen und weißen Kugeln. Nur wenn der Winkel dieser beiden Kugeln zum linken Rahmen ausreichend groß ist, kann diese weiße Kugel versenkt werden. Nur wenn dieser Winkel gegeben ist, sollte dieser Stoß gespielt werden; andernfalls werden alle schwarzen Kugeln für den Gegner unnötig leicht zu versenken sein. Wenn dieser Stoß aufgrund eines falschen Winkels nicht gespielt werden soll, sollte zuerst die schwarze Kugel in der Nähe der Tasche entfernt werden.
 
 ## Abbildung 43
 
 ![Abbildung 12](/images/book/fig-48.jpg)
 
-In Abb. 43 ist eine weiße Münze, die sich auf der Position rebound befindet, schwierig, während die andere Münze, die sich auf der gegenüberliegenden linken Tasche befindet, sehr einfach ist. Die schwierige weiße Münze kann durch Verdoppelung der schwarzen Münze auf der weißen Münze und gleichzeitiges Fahren des striker auf der weißen Münze, die sich auf der gegenüberliegenden linken Tasche befindet, erleichtert werden. Mit diesem Strich kann das Brett fertiggestellt werden. Es ist etwas mehr force erforderlich, damit striker und die schwarze Münze nicht kollidieren.
+In Abb. 43 ist eine weiße Kugel, die sich in einer Abprallposition befindet, schwierig zu versenken, während die andere Kugel, die sich am gegenüberliegenden linken Loch befindet, sehr leicht zu versenken ist. Die schwierige weiße Kugel lässt sich vereinfachen, indem man die schwarze Kugel auf die weiße Kugel legt und gleichzeitig den Stoßball auf die weiße Kugel treibt, die sich an der gegenüberliegenden linken Tasche befindet. Mit diesem Stoß lässt sich das Spiel beenden. Es ist etwas mehr Kraft erforderlich, damit der Stoßball und die schwarze Kugel nicht zusammenstoßen.
 
 ## Abbildung 44
 
 ![Abbildung 13](/images/book/fig-49.jpg)
 
-Wenn Sie die Position zweier weißer Münzen in Abb. 44 betrachten, werden Sie feststellen, dass beide Münzen schwierig sind, da rebound aufgrund der Behinderung durch die beiden schwarzen Münzen, die sich auf der Tasche befinden, nicht gespielt werden kann. Dieser Strich ist sehr interessant. Wie in dieser Abbildung dargestellt, sollte der Schlag die schwarze Münze so treffen, dass die schwarze Münze auf die weiße Münze trifft und die weiße Münze den linken Seitenrahmen in die rechte Basistasche trifft. Gleichzeitig schlägt der striker auf die weiße Münze, die sich an der richtigen rebound Position befindet, und erleichtert so den Vorgang. Dieser Strich kombiniert pair, Sekunde, und bomb.
+Wenn Sie die Position der beiden weißen Kugeln in Abb. 44 betrachten, werden Sie feststellen, dass beide Kugeln schwierig sind, da ein Abprallstoß aufgrund der Behinderung durch die beiden schwarzen Kugeln, die sich an der Tasche befinden, nicht gespielt werden kann. Dieser Stoß ist sehr interessant. Wie in dieser Abbildung gezeigt, sollte der Stoß die schwarze Kugel so treffen, dass diese die weiße Kugel trifft und die weiße Kugel gegen die linke Bandkante prallt und in die rechte Basistasche fällt. Gleichzeitig trifft der Stoßball die weiße Kugel, die sich in der rechten Abprallposition befindet, und macht den Stoß dadurch einfacher. Dieser Stoß kombiniert „Paar", „Zweiter" und „Bombe".
 
 ## Abbildung 45
 
 ![Abbildung 14](/images/book/fig-50.jpg)
 
-Wie in Abb. 45 gezeigt, kann die schwarze Münze, die ein Hindernis für die weiße Münze darstellt, entfernt werden, indem man auf die striker schlägt und die striker auf die Queen ablenkt, wodurch die Queen in die gegenüberliegende linke Tasche gesteckt wird. Der striker sollte nach der Ablenkung von der schwarzen Münze die schwarze Münze des Schusses an der gezeigten Stelle treffen.
+Wie in Abb. 45 dargestellt, kann die schwarze Kugel, die dem weißen Ball im Weg steht, entfernt werden, indem der Stoßball gegen sie getroffen und der Stoßball auf die „Queen" abgelenkt wird, wodurch die „Queen" in die gegenüberliegende linke Tasche versenkt wird. Der Stoßball sollte, nachdem er von der schwarzen Kugel abgelenkt wurde, die schwarze Spielkugel an der gezeigten Stelle treffen.
 
 ## Abbildung 46
 
 ![Abbildung 15](/images/book/fig-51.jpg)
 
-In Abb. 46 gibt es zwei weiße Münzen und es gibt nur eine schwarze Münze, die sich auf der Tasche befindet. Angenommen, die Punktzahl beträgt jeweils 24 und Sie müssen die weiße Münze spielen. Platzieren Sie Ihre striker-Position auf dem linken Grundkreis und treffen Sie den unteren Teil der schwarzen Münze, mit etwas mehr force. Ihr striker schlägt auf die schwarze Münze, Ihren Grundrahmen, und dann auf die weiße Münze, die sich in der gegenüberliegenden rechten Tasche befindet. Die weiße Münze wandert in die Tasche und die schwarze Münze gelangt zu Ihrem Grundrahmen, sodass Sie auch die andere Münze einstecken können. Wenn die weiße Münze nicht reinkommt, kommt die schwarze Münze zu Ihrem Grundrahmen und wird für Ihren Gegner schwierig.
+In Abb. 46 befinden sich zwei weiße Kugeln und nur eine schwarze Kugel, die auf der Tasche liegt. Angenommen, der Spielstand beträgt 24:24 und Sie müssen die weiße Kugel spielen. Platzieren Sie Ihren Stoßstein auf dem linken Basiskreis und treffen Sie den unteren Teil der schwarzen Kugel mit etwas mehr Kraft. Ihr Stoßstein trifft die schwarze Kugel, prallt von Ihrem Basisrahmen ab und trifft dann die weiße Kugel, die sich in der gegenüberliegenden rechten Tasche befindet. Die weiße Kugel geht in die Tasche, und die schwarze Kugel gelangt zu Ihrem Basisrahmen, sodass Sie auch die andere Kugel versenken können. Falls die weiße Kugel nicht in die Tasche geht, gelangt die schwarze Kugel zu Ihrem Basisrahmen, was die Situation für Ihren Gegner erschwert.
 
 ## Abbildung 47
 
 ![Abbildung 16](/images/book/fig-52.jpg)
 
-Wie in Abb. 47, A, B und C gezeigt, können Sie die verschiedenen Positionen des bomb Strichs beobachten und wie der striker zur weißen Münze getrieben werden kann, die sich im gegenüberliegenden Rahmen befindet. Beobachten Sie sorgfältig die Positionen und Winkel, in denen der striker die schwierige Münze erreichen kann.
+Wie in Abb. 47, A, B und C zu sehen ist, kannst du die verschiedenen Positionen des „Bomb-Strokes" beobachten und wie der Stoßball zur weißen Kugel am gegenüberliegenden Rand geführt werden kann. Achte genau auf die Positionen und Winkel, in denen der Stoßball die schwer zu treffende Kugel erreichen kann.

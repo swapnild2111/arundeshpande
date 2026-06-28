@@ -17,10 +17,10 @@ other = "Schließen"
 other = "YouTube-Kanal"
 
 [play_store_label]
-other = "App bei Google Play holen"
+other = "Lade die App bei Google Play herunter"
 
 [google_play_app]
-other = "Google Play App"
+other = "Google Play-App"
 
 [about_legend]
 other = "Über die Legende"
@@ -29,22 +29,22 @@ other = "Über die Legende"
 other = "Entdecken"
 
 [video_library]
-other = "Video-Bibliothek"
+other = "Videobibliothek"
 
 [video_library_desc]
-other = "Carrom-Tutorials, sortiert nach Spielstärke — von Einsteiger bis Champion."
+other = "Sehen Sie sich Carrom-Tutorials an, die nach Spielstärke sortiert sind – vom Anfänger bis zum Champion."
 
 [carrom_books]
 other = "Carrom-Bücher"
 
 [carrom_books_desc]
-other = "Exklusive PDF-Bücher von Arun Deshpande für Spieler und Trainer."
+other = "Laden Sie exklusive PDF-Bücher von Arun Deshpande für Schüler und Trainer herunter."
 
 [photo_gallery]
 other = "Fotogalerie"
 
 [photo_gallery_desc]
-other = "Eine Reise in Bildern — Meisterschaften, Trainingscamps und besondere Momente."
+other = "Erleben Sie die Reise noch einmal – Meisterschaften, Trainingslager und unvergessliche Momente."
 
 [chapter]
 other = "Kapitel"
@@ -65,19 +65,19 @@ other = "Telefon / WhatsApp"
 other = "Standort"
 
 [coaching_enquiries]
-other = "Trainingsanfragen"
+other = "Anfragen zum Coaching"
 
 [whatsapp_message]
-other = "Hallo Arun sir, ich habe die Carrom Academy Website gefunden und interessiere mich für Carrom-Coaching."
+other = "Hallo Herr Arun, ich bin auf die Website der Carrom Academy gestoßen und interessiere mich für Carrom-Training."
 
 [contact_information]
-other = "Kontaktinformationen"
+other = "Kontaktdaten"
 
 [message_on_whatsapp]
-other = "Per WhatsApp schreiben"
+other = "Nachricht auf WhatsApp"
 
 [whatsapp_hint]
-other = "Der schnellste Weg, Arun für Coaching-Anfragen und Workshops zu erreichen."
+other = "Der schnellste Weg, Arun bei Fragen zum Coaching und zu Workshops zu erreichen."
 
 [page_count]
 other = "Seiten"
@@ -92,7 +92,7 @@ other = "Originalquelle"
 other = "Originalquellen"
 
 [no_books_yet]
-other = "Noch keine Bücher verfügbar."
+other = "Es sind noch keine Bücher verfügbar."
 
 [problem_label]
 other = "Problem"
@@ -113,7 +113,7 @@ other = "PDF folgt in Kürze"
 other = "Bereit zum Lesen"
 
 [start_reading]
-other = "Lesen starten"
+other = "Mit dem Lesen beginnen"
 
 [table_of_contents]
 other = "Inhaltsverzeichnis"
@@ -122,34 +122,34 @@ other = "Inhaltsverzeichnis"
 other = "Sprache"
 
 [coming_soon]
-other = "In Vorbereitung"
+other = "Demnächst"
 
 [coming_soon_body]
-other = "Dieser Bereich wird gerade vorbereitet. Bis dahin gerne auf der Videos-Seite stöbern oder über die Kontakt-Seite Kontakt aufnehmen."
+other = "Dieser Abschnitt befindet sich derzeit in Vorbereitung. In der Zwischenzeit können Sie die Seite „Videos\" besuchen oder über die Seite „Kontakt\" mit uns in Verbindung treten."
 
 [watch_in_action]
-other = "So sieht es aus"
+other = "In Aktion ansehen"
 
 [video_level_beginner]
 other = "Anfänger"
 
 [video_level_intermediate]
-other = "Fortgeschritten"
+other = "Mittelstufe"
 
 [video_level_champion]
-other = "Champion"
+other = "Meister"
 
 [video_lang_hint_label]
-other = "Untertitel"
+other = "Bildunterschriften"
 
 [video_lang_hint_body]
-other = "Die Videos sind auf Marathi mit englischen Carrom-Begriffen. Tippe im Player auf CC und wähle deine Sprache unter Untertitel → Automatisch übersetzen."
+other = "Die Videos sind auf Marathi mit englischen Carrom-Begriffen. Tippen Sie im Player auf die Schaltfläche „CC\" und wählen Sie unter „Untertitel\" → „Automatische Übersetzung\" Ihre Sprache aus."
 
 [available_in_n_languages]
-other = 'In {{ .Count }} Sprachen verfügbar'
+other = 'Available in {{ .Count }} languages'
 
 [chapter_count_of]
-other = 'Kapitel {{ .Current }} von {{ .Total }}'
+other = 'Chapter {{ .Current }} of {{ .Total }}'
 
 [reading_progress]
 other = "Lesefortschritt"

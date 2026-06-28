@@ -1,124 +1,123 @@
 ---
-title: "Kapitel 6 — Overtrædelser, overbord og straffe"
-description: "Tekniske fejl og almindelige fejl, hvad sker der, når mønter springer ud eller står på kanten, og hvordan afgifter og strafmønter administreres."
+title: "Kapitel 6 — Fouls, overbord og straffe"
+description: "Tekniske fejl og almindelige fejl, hvad der sker, når mønter springer ud eller står på kant, og hvordan Dues- og Penalty-mønter håndteres."
 weight: 6
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Oversat fra engelsk (AI-udkast)."
 ---
-*Dette er det længste kapitel i lovene. Det dækker, hvad der tæller som en fejl, hvad der sker, når mønter forlader spillefladen, og det omfattende system af dues og strafmønter. Hvis en bestyrelse nogensinde bliver omstridt, er svaret næsten altid i dette kapitel.*
+*Dette er det længste kapitel i reglerne. Det omhandler, hvad der regnes for en fejl, hvad der sker, når mønter forlader spillefladen, samt det omfattende system med afgifter og straffemønter. Hvis der opstår uenighed om et spil, findes svaret næsten altid i dette kapitel.*
 
 ## Fejl
 
-**62.** Enhver handling, der overtræder lovene - eller noget, der er gjort i modstrid med, hvad der er angivet specifikt eller underforstået i disse love - skal generelt klassificeres som en fejl. To slags fejl erkendes:
+**62.** Enhver handling, der udgør en overtrædelse af reglerne — eller noget, der strider mod det, der udtrykkeligt eller implicit er angivet i disse regler — skal generelt klassificeres som en fejl. Der skelnes mellem to typer fejl:
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Teknisk fejl</span>
-    <p class="def">Engageret<em>før</em>det første slag i spillerens tur, eller af spilleren i øjeblikket<em>ikke have</em>hans tur. Straf:<strong>en C/m</strong>af gerningsmanden bringes ud til anbringelse. Turen fortsætter.</p>
+    <p class="def">Begået <em>før</em> spillerens første slag i sin tur, eller af den spiller, der på det pågældende tidspunkt <em>ikke har</em> sin tur. Straffe: <strong>én C/m</strong> fra den skyldige tages ud til placering. Turen fortsætter.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Fejl</span>
-    <p class="def">Begået under eller efter det første slag i spillerens tur. Straf:<strong>en C/m</strong>bringes ud til placering, og den<strong>tur er tabt</strong>.</p>
+    <span class="term">Foul</span>
+    <p class="def">Begået under eller efter det første slag i spillerens tur. Straff: <strong>én C/m</strong> tages ud til placering, og <strong>turen går tabt</strong>.</p>
   </div>
 </div>
 
 <div class="callout">
   <div class="callout-title">Begyndervejledning — almindelige fejl</div>
-  <p>De fleste dagligdags overtrædelser koster dig<strong>en mønt returneret til tavlen</strong>og dig<strong>miste din tur</strong>:</p>
+  <p>De fleste almindelige fejl koster dig <strong>én mønt, der returneres til brættet</strong>, og du <strong>mister din tur</strong>:</p>
   <ul>
-    <li>Pocking af<strong>striker</strong>, eller slå striker eller en hvilken som helst mønt af brættet</li>
-    <li>Pocking en<strong>modstanderens mønt</strong>— hvis du havde dækket Queen, bliver hun også returneret</li>
-    <li>Pocking din<strong>sidste mønt før Queen</strong>er i lommer og dækket - to mønter kommer tilbage</li>
-    <li>Touchat bruge en anden mønt end striker med din hånd under et slag</li>
+    <li>At putte <strong>slagbrikken</strong> i hul eller slå slagbrikken eller en hvilken som helst brik ud af spillet</li>
+    <li>At putte en <strong>modstanders brik</strong> i hul — hvis du havde dækket dronningen, returneres hun også</li>
+    <li>At putte din <strong>sidste brik i hul, før dronningen</strong> er puttet i hul og dækket — to brikker kommer tilbage</li>
+    <li>At røre ved en anden brik end slagbrikken med hånden under et slag</li>
   </ul>
-  <p>EN<strong>teknisk fejl</strong>(før dit slag, eller når det ikke er din tur) bringer også en mønt frem, men du beholder din tur. Se reglerne 62–64 for den fulde liste.</p>
+  <p>En <strong>teknisk fejl</strong> (før dit slag, eller når det ikke er din tur) medfører også, at en brik kommer ud, men du beholder din tur. Se regel 62–64 for den fulde liste.</p>
 </div>
 
-**64.** &nbsp;&nbsp;b) Hvis der begås en fejl, når C/m og/eller Queen sættes i lommen, skal antallet af C/m og/eller Queen i lommen med yderligere C/m bringes ud til placering, og spillerens tur vil gå tabt.
+**64.** &nbsp;&nbsp;b) Hvis der begås en fejl, mens C/m og/eller dronningen puttes i hul, skal det antal C/m og/eller dronninger, der er puttet i hul, plus en ekstra C/m, tages ud for at blive placeret igen, og spilleren mister sin tur.
 
-## C/m Overbord
+## C/m over bord
 
-Når mønter eller Queen hopper fra spillefladen, genopretter dommeren dem i henhold til en præcis prioritet.
+Når mønter eller dronningen springer ud af spillefladen, sætter dommeren dem tilbage i henhold til en præcis prioriteringsrækkefølge.
 
-**65.** &nbsp;&nbsp;a) Et sprunget C/m og/eller Queen placeres af dommeren i **Centre Circle**, hvis pladsen tillader det - og dækker det fuldt ud eller i størst muligt omfang.
+**65.** &nbsp;&nbsp;a) En C/m og/eller dronning, der er sprunget ud, placeres af dommeren i **centercirklen**, hvis pladsen tillader det — så den dækker cirklen fuldt ud eller i videst muligt omfang.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) **Hvis både Queen og et c/m hopper i samme slag** — placeres Queen først; den hoppede c/m placeres touch ved Queen, i den modsatte retning af den spiller, der i øjeblikket har sin tur.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) **Hvis både dronningen og en brik springer i samme træk** — placeres dronningen først; den brik, der er sprunget, placeres i berøring med dronningen, i modsat retning af den spiller, der aktuelt har sin tur.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) **Hvis både hvid og sort c/m hopper i samme slag** — foretrækkes at placere c/m for den spiller, der lavede det slag først; den anden c/m placeres touchi den første c/m som i 65(b).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) **Hvis både hvide og sorte c/m springer i samme træk** — gives fortrinsret til at placere c/m'en fra den spiller, der udførte trækket først; den anden c/m placeres, så den rører den første c/m som i 65(b).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) **Hvis mere end 2 c/m springer i samme slag** — placeres de 2 første pr. 65(b) og 65(c). Resten placeres touch efter de første 2, så vidt muligt.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) **Hvis mere end 2 brikker springer i samme træk** — placeres de første 2 i henhold til 65(b) og 65(c). De øvrige placeres så tæt som muligt på de to første.
 
-**66.** &nbsp;&nbsp;a) Hvis c/m og/eller Queen hopper ud og falder tilbage på spillefladen, placeres de af dommeren i centercirklen. Enhver forstyrret c/m rettes af dommeren efter hans skøn.
+**66.** &nbsp;&nbsp;a) Hvis brikker og/eller dronningen springer ud og falder tilbage på spillefladen, placeres de af dommeren i midtercirklen. Eventuelle forstyrrede brikker rettes af dommeren efter hans skøn.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Men hvis c/m falder tilbage på spillefladen efter at have ramt **skærmen, pæren eller lysarmaturerne**, betragtes rejsen som naturlig. Disturbed c/m skal ikke omarrangeres.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Hvis brikkerne imidlertid falder tilbage på spillefladen efter at have ramt **lampeskærmen, pæren eller belysningsarmaturerne**, betragtes bevægelsen som naturlig. Forstyrrede brikker må ikke omplaceres.
 
-## C/m Rulning og overlappende
+## Brikkers rulning og overlapning
 
-**67.** Hvis en c/m og/eller Queen står på sin kant, skal den have lov til at forblive, som den er.
+**67.** Hvis en brik og/eller dronningen står på sin kant, skal den få lov til at forblive, som den er.
 
-**68.** Hvis to C/m og/eller Queen overlapper hinanden, skal de efterlades uforstyrret.
+**68.** Hvis to brikker og/eller dronningen overlapper hinanden, skal de efterlades uforstyrrede.
 
-**69.** &nbsp;&nbsp;a) Hvis Striker hviler på c/m og/eller Queen, fjernes Striker uden at forstyrre dem. Hvis den bliver forstyrret, genoprettes den oprindelige position af dommeren så vidt muligt.
+**69.** &nbsp;&nbsp;a) Hvis slagklodsen hviler på c/m og/eller dronning, fjernes slagklodsen uden at forstyrre dem. Hvis de forstyrres, genoprettes den oprindelige position af dommeren så vidt muligt.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Hvis dette sker ved åbningen af ​​en lomme, og under fjernelse af Striker, mister C/m og/eller Queen deres tyngdepunkt og falder ned i lommen, **betragtes de som lommer**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Hvis dette sker ved indgangen til en lomme, og C/m og/eller dronningen under fjernelsen af slagkuglen mister deres tyngdepunkt og falder ned i lommen, **anses de for at være i lommen**.
 
-**70.** &nbsp;&nbsp;a) Hvis C/m og/eller Queen hviler **på** Striker, fjernes Striker af dommeren ved at løfte C/m og/eller Queen og erstatte dem, hvor de ville hvile, hvis Striker ikke var der.@
+**70.** &nbsp;&nbsp;a) Hvis C/m og/eller dronningen hviler **på** slagkuglen, fjernes slagkuglen af dommeren ved at løfte C/m og/eller dronningen og placere dem der, hvor de ville hvile, hvis slagkuglen ikke var der.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Hvis C/m/Queen ved åbningen af ​​en lomme og, under fjernelse af C/m/Queen, mister Striker sit tyngdepunkt og falder ned i lommen, anses Striker for at være indlagt i lommen, og der erklæres en betaling.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Hvis Strikeren befinder sig ved indgangen til en lomme, og den under fjernelsen af C/m/Queen mister sit tyngdepunkt og falder ned i lommen, anses Strikeren for at være puttet i lommen, og der erklæres en Due.
 
-**71.** Hvis en C/m, der hviler farligt ved åbningen af ​​lommen, faktisk falder ned i lommen af ​​en eller anden grund, skal den anses for at være blevet ordentligt indlagt.
+**71.** Hvis en C/m, der hviler faretruende ved lommens munding, af en eller anden grund faktisk falder ned i lommen, anses den for at være blevet korrekt puttet i lommen.
 
-## Afgifter og bøder
+## Due og straffe
 
-Due-systemet administrerer, hvad der sker, når en spiller stikker Striker i lommen, eller lommer mønter forkert. Den generelle regel: et ordentligt slag, der går galt, koster **en mønt** (en Due); et ukorrekt slag koster **to mønter** (Forfalden + Straf).
+Due-systemet regulerer, hvad der sker, når en spiller putter Strikeren i lommen eller putter mønter i lommen på en ukorrekt måde. Den generelle regel er: et korrekt slag, der går galt, koster **én mønt** (en Due); et ukorrekt slag koster **to mønter** (Due + straf).
 
-### Pocket Striker
+### At putte Strikeren i hullet
 
 | Situation | Slagtype | Konsekvens |
 |---|---|---|
-| Striker alene | Ordentlig | Afgang tabt, **1 C/m** taget ud som **Forfalden** |
-| Striker alene | Ukorrekt | Turn tabt, **2 C/m** taget ud (Forfalden + Straf) |
-| Striker + egen C/m | Ordentlig | Pocket C/m + **1 Due C/m** ude til placering; drej **fortsætter** |
-| Striker + modstanderens C/m | Ordentlig | Modstanderens C/m forbliver i lommen; **1 Forfald** ude; drej **tabt** |
-| Striker + egen + modstanderens C/m | Ordentlig | Egen C/m + **1 Forfalder** ude; drej **fortsætter** |
-| Egen C/m lomme | Ukorrekt | C/m + Straf C/m ud; drej **tabt** |
-| Egen C/m + Striker | Ukorrekt | C/m + **2 C/m** (Due + Straf) ude; drej **tabt** |
-| Modstanderens C/m lomme | Ukorrekt | Forbliver i lommerne; Straf C/m ud; drej **tabt** |
+| Kun Strikeren | Korrekt | Turen går tabt, **1 C/m** tages ud som **Due** |
+| Kun Striker | Forkert | Tur tabt, **2 C/m** fjernes (Due + straf) |
+| Striker + egen C/m | Korrekt | C/m puttet i hullet + **1 Due C/m** fjernes for placering; tur **fortsætter** |
+| Spiller + modstanderens kugle | Korrekt | Modstanderens kugle forbliver i hullet; **1 skyldig** ud; tur **tabt** |
+| Spiller + egen + modstanderens C/m | Korrekt | Egen C/m + **1 skyldig** ud; tur **fortsætter** |
+| Egen C/m i hullet | Forkert | C/m + straf-C/m ud; tur **tabt** |
+| Egne C/m + spiller | Forkert | C/m + **2 C/m** (Due + straf) ude; tur **tabt** |
+| Modstanderens C/m i hullet | Forkert | Forbliver i hullet; straf-C/m ud; tur **tabt** |
 
-**72.** &nbsp;&nbsp;c) Hvis en forfalden/straf skal betales, før nogen af ​​spillerens C/m er blevet udbetalt, forbliver den udestående og tages ud, så snart den er tilgængelig.
+**72.** &nbsp;&nbsp;c) Hvis en skyldig/straf skal betales, før nogen af spillerens C/m er blevet sat i hul, forbliver den udestående og tages ud, så snart den er tilgængelig.
 
-### Placering af forfaldne mønter og strafmønter
+### Placering af Due- og straffemønter
 
-**78.** &nbsp;&nbsp;a) Skyld eller straf C/m skal udtages til placering umiddelbart efter at være tilgængelig - men først efter afslutningen af ​​slaget (selvom det kan være under den samme spillers tur).
+**78.** &nbsp;&nbsp;a) Due- eller straffemønter skal tages ud til placering umiddelbart efter, at de er tilgængelige — men først efter afslutningen af slaget (selvom det kan være under den samme spillers tur).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) **I doubles** — Forfalden og/eller straffen C/m tages altid ud for placering af spilleren, der sidder til **højre side** af den spiller, der har sin tur. Undtagelse: hvis spilleren sætter modstanderens C/m i lommen, og forfalden/straffen bliver tilgængelig, udtager spilleren selv C/m til placering.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) **I double** — Due- og/eller straf-C/m tages altid ud til placering af den spiller, der sidder til **højre** for den spiller, der har tur. Undtagelse: hvis spilleren putter modstanderens C/m i hul og Due/straf-C/m'en bliver tilgængelig, tager spilleren selv C/m'en ud til placering.
 
-**79.** Hvis en forfalden/straf er tilgængelig til at placere, men der ikke er plads nok, har spilleren tilladelse til at placere den umiddelbart efter, at der er ledig plads.
+**79.** Hvis en Due/straf-C/m er tilgængelig til placering, men der ikke er plads nok, har spilleren lov til at placere den straks, når der bliver plads.
 
-**80.** Hvis der er plads til rådighed, men spilleren ikke ønsker at risikere en fejl, mister han sin chance for at placere, og hans krav om placering fortabes.
+**80.** Hvis der er plads, men spilleren ikke ønsker at risikere en fejl, mister han sin chance for at placere, og hans krav på placering bortfalder.
 
-**84.** &nbsp;&nbsp;a) **Placering betragtes som afsluttet**, når fingeren er fjernet fra C/m, forudsat at C/m er inde i den ydre cirkel.
+**84.** &nbsp;&nbsp;a) **Placeringen betragtes som afsluttet**, så snart fingeren fjernes fra C/m, forudsat at C/m befinder sig inden for den ydre cirkel.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) At holde enhver anden C/m eller striker under placering er **ikke tilladt**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Det er **ikke tilladt** at holde fast i nogen anden C/m eller slagbrikken under placeringen.
 
-**85.** Hvis en spiller placerer eller flytter forfalden/straffen væk fra den ydre cirkel, bliver han bedt om at placere den indenfor. En fejl erklæres.
+**85.** Hvis en spiller placerer eller flytter Due/Penalty væk fra den ydre cirkel, bliver han bedt om at placere den inden for cirklen. Der erklæres en fejl.
 
-**86.** Placeringen må ikke forstyrre andre C/m eller Queen. Hvis det gør det, erstatter dommeren dem i den oprindelige position, og en fejl erklæres.
+**86.** Placeringen må ikke forstyrre nogen anden C/m eller dronningen. Hvis det sker, sætter dommeren dem tilbage i deres oprindelige position, og der erklæres en fejl.
 
 <div class="callout">
-  <div class="callout-title">Afstå fra forfalden</div>
-  <p>En spiller kan vælge at give afkald på forfalden og/eller straffen C/m<strong>kun i alt</strong>, ikke delvist. Afgørelsen skal meddeles dommeren inden for<strong>15 sekunder</strong>, i modsat fald fortabes retten til at placere (Regel 87).</p>
+  <div class="callout-title">Afstå fra Due</div>
+  <p>En spiller kan vælge at give afkald på Due og/eller straffebrikken <strong>kun helt</strong>, ikke delvist. Beslutningen skal meddeles dommeren inden for <strong>15 sekunder</strong>, ellers fortabes retten til at placere (Regel 87).</p>
 </div>
 
-**88.** &nbsp;&nbsp;a) Tidsgrænsen for at placere Due/Board C/m er **15 sekunder** efter dommerens meddelelse.
+**88.** &nbsp;&nbsp;a) Tidsfristen for at placere Due/straf-C/m er **15 sekunder** efter dommerens meddelelse.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Hvis placeringen ikke er fuldført inden for perioden, kan den allerede placerede C/m blive beordret til at blive fjernet og en fejl erklæret mod overtræderen.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Hvis placeringen ikke er afsluttet inden for tidsfristen, kan den allerede placerede C/m pålægges fjernet, og der kan erklæres en fejl mod den skyldige.
 
-**89.** &nbsp;&nbsp;a) Forfald og straf C/m **kan ikke modregnes hinanden**.
+**89.** &nbsp;&nbsp;a) Due- og straffekugler **kan ikke modregnes i hinanden**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Forfald og straf C/m må ikke placeres, der dækker Centercirklen helt eller delvist. Hvis den placeres, bliver spilleren bedt om at rette op. En fejl erklæres.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Due- og straffekugler må ikke placeres, så de helt eller delvist dækker midtercirklen. Hvis dette sker, bliver spilleren bedt om at rette fejlen. Der dømmes en fejl.
 
-**90.** I doubles må en spiller ikke udtage straffen/skylden C/m for sin makker. Hvis hans partner ikke finder den nødvendige C/m i tilstødende lommer, skal han anmode dommeren om at oplyse den korrekte farve og nummer.
+**90.** I double må en spiller ikke fjerne straf-/Due-brikkerne for sin partner. Hvis hans partner ikke finder de krævede brikker i tilstødende lommer, skal han anmode dommeren om at stille den korrekte farve og det korrekte nummer til rådighed.
 
-**91.** I løbet af brættet, hvis en spiller **rejser sig fra sædet** under hans eller hans modstanders tur, af en eller anden grund, mister han brættet med antallet af hans C/m og/eller Queen, der ligger på brættet. Hvis modstanderens score er 22 eller mere, taber han kun med tallet C/m.
+**91.** Hvis en spiller i løbet af spillet **rejser sig fra stolen** under sin egen eller modstanderens tur, uanset årsagen, taber han spillet med det antal kugler og/eller dronninger, der ligger på brættet. Hvis modstanderens score er 22 eller derover, taber spilleren kun med antallet af brikker.

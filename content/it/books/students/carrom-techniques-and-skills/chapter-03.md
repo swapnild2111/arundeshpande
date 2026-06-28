@@ -1,73 +1,72 @@
 ---
 title: "Capitolo 3 — Regole di base"
-description: "Come viene impostato e calcolato il punteggio di una partita, le regole relative al Queen, i falli e le quote."
+description: "Come si svolge una partita e come si calcola il punteggio, le regole relative alla Regina, ai falli e ai Dues."
 weight: 3
 date: 2026-01-01
 author: "Arun Deshpande"
-translatedBy: "Tradotto dall'inglese (bozza AI)."
 ---
-*Come viene impostato e calcolato il punteggio di una partita, le regole relative al Queen, i falli e le quote: la struttura di ogni colpo in questo libro presuppone che tu la conosca già.*
+*Come si prepara una partita e come si tiene il punteggio, le regole relative alla Regina, ai falli e alle quote: il quadro di riferimento che ogni mossa descritta in questo libro presuppone che tu già conosca.*
 
-## Impostazione e punteggio
+## Preparazione e punteggio
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Disposizione</span>
-    <p class="def">Queen nel cerchio centrale. Monete bianche e nere poste alternativamente intorno a lei in un piccolo cerchio, poi un cerchio esterno in modo che i bianchi formino una lettera<strong>Y</strong>.</p>
+    <p class="def">La Regina nel cerchio centrale. Le monete bianche e nere vengono disposte alternativamente attorno a lei in un cerchio piccolo, seguito da un cerchio esterno in modo che quelle bianche formino la lettera <strong>Y</strong>.</p>
   </div>
   <div class="definition-card">
     <span class="term">Turno di gioco</span>
-    <p class="def">Finché un giocatore imbuca le sue monete, il turno continua.</p>
+    <p class="def">Finché un giocatore mette in buca le proprie monete, il turno continua.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Durata del gioco</span>
-    <p class="def"><strong>25 punti</strong>vincere.</p>
+    <span class="term">Durata della partita</span>
+    <p class="def"><strong>25 punti</strong> per vincere.</p>
   </div>
   <div class="definition-card">
     <span class="term">Punteggio</span>
-    <p class="def">Ogni moneta =<strong>1 punto</strong>; Queen =<strong>3 punti</strong>. Il vincitore di un board ottiene le monete rimanenti dell'avversario più 3 per il Queen se intascato.</p>
+    <p class="def">Ogni moneta = <strong>1 punto</strong>; Regina = <strong>3 punti</strong>. Il vincitore di una mano ottiene le monete rimanenti dell'avversario più 3 punti per la Regina, se incassata.</p>
   </div>
 </div>
 
-## Il Queen
+## La Regina
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Copertina</span>
-    <p class="def">Dopo aver imbucato il Queen, il giocatore deve imbucare una delle proprie monete nello stesso colpo o in quello successivo.</p>
+    <span class="term">Copertura</span>
+    <p class="def">Dopo aver messo in buca la Regina, il giocatore deve mettere in buca una delle proprie monete con la stessa mossa o con quella successiva.</p>
   </div>
   <div class="definition-card">
     <span class="term">Mancata copertura</span>
-    <p class="def">Queen viene rimosso dalla tasca e posizionato nel cerchio centrale dall'arbitro.</p>
+    <p class="def">La Regina viene rimossa dalla buca e collocata nel cerchio centrale dall'arbitro.</p>
   </div>
 </div>
 
-## Falli e penalità
+## Falli e turni
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Fallo tecnico</span>
-    <p class="def">Un fallo<em>Prima</em>intascando una moneta. Il turno del giocatore continua.</p>
+    <p class="def">Un fallo <em>prima</em> di mandare in buca una moneta. Il turno del giocatore prosegue.</p>
   </div>
   <div class="definition-card">
     <span class="term">Fallo semplice</span>
-    <p class="def">Un fallo durante o dopo aver messo in tasca una moneta.</p>
+    <p class="def">Un fallo durante o dopo l'inserimento di una moneta in buca.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Dovuto</span>
-    <p class="def">Striker intascato da solo o con una moneta. Una moneta viene posizionata nel cerchio esterno dall'avversario; il giocatore perde il turno.</p>
+    <span class="term">Due</span>
+    <p class="def">Il battitore è stato messo in buca da solo o con una moneta. L'avversario posiziona una moneta nel cerchio esterno; il giocatore perde il turno.</p>
   </div>
   <div class="definition-card">
-    <span class="term">Double scaduto</span>
-    <p class="def">Striker e moneta intascate insieme. Due monete poste nel cerchio esterno; il turno del giocatore continua.</p>
+    <span class="term">Doppio "due"</span>
+    <p class="def">Il battitore e la moneta vengono messi in buca insieme. Vengono posizionate due monete nel cerchio esterno; il turno del giocatore continua.</p>
   </div>
 </div>
 
 ## Altre regole
 
 <div class="callout">
-  <div class="callout-title">A tavola</div>
-  <p>Un giocatore dovrebbe touch entrambe le linee di base durante il gioco. Il cerchio rosso della base deve essere completamente coperto quando si gioca da esso. Il gomito non deve toccare la superficie di gioco; i piedi non devono oltrepassare le linee immaginarie.</p>
+  <div class="callout-title">Al tavolo</div>
+  <p>Un giocatore deve toccare entrambe le linee di base durante il gioco. Il cerchio di base rosso deve essere completamente coperto quando si gioca da esso. Il gomito non deve toccare la superficie di gioco; i piedi non devono oltrepassare le linee immaginarie.</p>
 </div>
 
-Se una moneta salta fuori dal tabellone, l'arbitro la posiziona nel cerchio centrale. Una moneta in posizione eretta viene mantenuta così com'è. Le monete sovrapposte vengono lasciate indisturbate.
+Se una moneta salta fuori dal tabellone, l'arbitro la ripone nel cerchio centrale. Una moneta in posizione eretta viene lasciata così com'è. Le monete sovrapposte vengono lasciate al loro posto.

@@ -1,6 +1,6 @@
 ---
-title: "Intermedio"
-description: "Lezioni intermedie carrom: colpi avanzati, difesa, force e tecnica di partita."
+title: "Livello intermedio"
+description: "Lezioni di carrom di livello intermedio — colpi avanzati, difesa, potenza e tecnica di gioco."
 layout: category
 category: intermediate
 aliases:

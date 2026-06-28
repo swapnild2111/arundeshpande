@@ -1,5 +1,5 @@
 ---
-title: "Autre"
+title: "Autres"
 layout: category
 category: other
 aliases:

@@ -1,6 +1,6 @@
 ---
-title: "Mediator"
-description: "Lekcje carrom dla średniozaawansowanych — zaawansowane uderzenia, obrona, force i technika meczu."
+title: "Poziom średniozaawansowany"
+description: "Lekcje karomu na poziomie średniozaawansowanym — zaawansowane uderzenia, obrona, siła uderzenia i technika gry w meczu."
 layout: category
 category: intermediate
 aliases:

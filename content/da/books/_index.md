@@ -1,15 +1,17 @@
 ---
 title: "Carrom-bøger"
-description: "Download og læs carrom-bøger — regler, teknikker og træningsguider."
+description: "Download og læs bøger om carrom — regler, teknikker og træningsvejledninger."
+aliases:
+  - /books/
 filters:
-  - label: "Alle bøger"
+  - label: "All Books"
     id: all
-  - label: "For spillere"
+  - label: "For Students"
     id: students
-  - label: "For trænere"
+  - label: "For Coaches"
     id: coaches
-  - label: "Regler"
+  - label: "Rules"
     id: rules
-  - label: "Andet"
+  - label: "Other"
     id: other
 ---

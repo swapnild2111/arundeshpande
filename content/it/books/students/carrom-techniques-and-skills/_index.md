@@ -1,10 +1,11 @@
 ---
-title: "Carrom Tecniche e competenze"
-description: "La guida completa di Arun Deshpande a carrom: da prese, pause e colpi di base fino a difesa, attacco e posizioni avanzate sulla scacchiera."
+title: "Tecniche e abilità nel carrom"
+description: "La guida completa al carrom di Arun Deshpande: dalle prese, ai servizi e ai colpi di base, fino alla difesa, all'attacco e alle posizioni avanzate sul tavolo."
 weight: 2
 author: "Arun Deshpande"
 pageCount: 73
 category: "students"
-tagLabel: "Leggi in linea"
+tagLabel: "Read online"
 chapters: true
 ---
+

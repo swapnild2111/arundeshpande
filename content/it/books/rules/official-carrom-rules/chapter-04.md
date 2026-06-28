@@ -1,64 +1,63 @@
 ---
-title: "Capitolo 4 — La pausa e il turno di gioco"
-description: "Come sono disposte le monete, chi rompe, cosa conta come pausa e come si alternano i turni durante una partita."
+title: "Capitolo 4 — La svolta e il ribaltamento della situazione di gioco"
+description: "Come vengono disposte le monete, chi effettua il break, cosa si intende per break e come si alternano i turni nel corso di una partita."
 weight: 4
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Tradotto dall'inglese (bozza AI)."
 ---
-*Ogni tabellone inizia con il Break, il colpo di apertura che disperde il gruppo di 19 monete. Questo capitolo spiega come vengono disposte le monete, chi effettua il Break, cosa conta come un Break valido e come si alternano i turni nel resto del tabellone, nel gioco e nella partita.*
+*Ogni partita inizia con il Break, ovvero il tiro di apertura che disperde il gruppo di 19 monete. Questo capitolo spiega come sono disposte le monete, chi effettua il Break, quali sono i requisiti per un Break valido e come si alternano i turni nel corso della partita e dell'incontro.*
 
 <div class="callout">
-  <div class="callout-title">Guida per principianti: organizzare la pausa</div>
-  <p>Posiziona il<strong>Queen nel cerchio centrale</strong>. Disporre le altre 18 monete in due anelli compatti attorno a lei,<strong>alternando bianco e nero</strong>, tutti toccandosi all'interno del cerchio esterno. La legge ICF specifica inoltre a<strong>"Y" di tre monete bianche</strong>in seconda fila - vedi articolo 41.</p>
-  <p>Gioca il giocatore che rompe<strong>bianco</strong>per quella tavola; l'avversario ha il nero. Dopo la chiamata dell'arbitro<em>Giocare</em>, l'interruttore ha<strong>15 secondi</strong>colpire. Nel gioco casuale, il lancio di una moneta decide chi rompe per primo; i turni continuano finché intaschi le tue monete.</p>
+  <div class="callout-title">Guida per principianti — preparazione del Break</div>
+  <p>Posiziona la <strong>Regina nel cerchio centrale</strong>. Disponete le altre 18 monete in due anelli compatti attorno ad essa, <strong>alternando bianco e nero</strong>, tutte a contatto tra loro all'interno del cerchio esterno. Il Regolamento ICF specifica inoltre una <strong>"Y" formata da tre monete bianche</strong> nella seconda fila — vedi Regola 41.</p>
+  <p>Il giocatore che effettua il break gioca con <strong>il bianco</strong> su quella tavola; l'avversario ha il nero. Dopo che l'arbitro ha gridato <em>Gioco</em>, chi effettua il break ha <strong>15 secondi</strong> per colpire. Nelle partite amichevoli, un lancio della moneta decide chi effettua il break per primo; i turni continuano finché si imbucano le proprie monete.</p>
 </div>
 
-## Sistemare le monete per la pausa
+## Disposizione delle monete per il break
 
-**41.** &nbsp;&nbsp;a) Prima della pausa, i C/m sono disposti in modo tale, in posizione piatta, che il **Queen occuperà il cerchio centrale** e il resto dei C/m sono posizionati attorno al Queen nella prima fila, mantenendo alternativamente il C/m bianco e nero.
+**41.** &nbsp;&nbsp;a) Prima del battimento, le C/m vengono disposte, in posizione orizzontale, in modo che la **Regina occupi il cerchio centrale** e le restanti C/m siano collocate attorno alla Regina nella prima fila, alternando le C/m bianche e nere.
 
-Nella seconda fila, tre C/m bianchi formano la forma **"Y"**, con il C/m bianco nella prima fila. Lo spazio rimanente viene riempito posizionando alternativamente C/m bianco e nero. Tutti i c/m così disposti dovrebbero essere in tondo compatto, toccandosi l'un l'altro, all'interno del Cerchio Esterno. Un giocatore può usare le sue dita o striker per mantenere intatto il C/m.
+Nella seconda fila, tre C/m bianche formano la lettera **"Y"**, con la C/m bianca nella prima fila. Lo spazio rimanente viene riempito disponendo alternativamente C/m bianche e nere. Tutte le C/m così disposte devono formare un cerchio compatto, a contatto tra loro, all'interno del cerchio esterno. Un giocatore può usare le dita o il battitore per mantenere intatti i C/m.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Il C/m dovrebbe essere organizzato per la pausa con la minima perdita di tempo possibile dopo ogni tavola.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) I C/m devono essere disposti per il battito d'inizio con la minima perdita di tempo possibile dopo ogni partita.
 
-## Chi rompe
+## Chi effettua il battito d'inizio
 
-**42.** Il Break viene effettuato dal giocatore che ha scelto di colpire per primo.
+**42.** Il battito d'apertura è effettuato dal giocatore che ha scelto di giocare per primo.
 
-**43.** Il giocatore che deve rompere avrà il **C/m bianco** durante quel board, lasciando il C/m nero al suo avversario. Il Queen sarà il C/m comune.
+**43.** Il giocatore che deve effettuare il battito d'apertura avrà il **C/m bianco** durante quella mano, lasciando il C/m nero al suo avversario. La Regina sarà il C/m comune.
 
-## Cosa conta come pausa
+## Cosa si intende per battuta
 
-**44.** La rottura si considera avvenuta se il Striker tocca uno qualsiasi dei C/m, anche leggermente.
+**44.** La battuta si considera effettuata se il battitore tocca una qualsiasi delle pedine, anche solo leggermente.
 
-**45.** &nbsp;&nbsp;a) La pausa **non** viene considerata effettuata se nessun C/m viene toccato dal Striker nella sua corsa normale o saltando fuori. Sarà consentito un massimo di **due ulteriori possibilità**.
+**45.** &nbsp;&nbsp;a) Il break **non** è considerato effettuato se il battitore non tocca alcun C/m durante la sua corsa normale o nel salto fuori. Saranno concessi al massimo **altri due tentativi**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Se dopo il numero di possibilità consentito nessun C/m viene toccato, il diritto al Break sarà perso. Il turno passa all'avversario, che avrà a disposizione il C/m nero. Non sarà consentita alcuna riorganizzazione del C/m. Questa condizione prevale finché non viene interessata la rottura.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Se, dopo il numero consentito di tentativi, nessuna pedina viene toccata, si perde il diritto al break. Il turno passa all'avversario, che avrà a disposizione le pedine nere per giocare. Non è consentita alcuna riorganizzazione delle bilie. Questa condizione rimane in vigore fino a quando non viene effettuato il break.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Se un giocatore nel tentativo di break gioca un colpo improprio o imbuca il suo striker senza toccare nessuno dei c/m, perde il turno. Tuttavia, una dovuta o una penalità **non** sarà applicabile.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Se un giocatore, nel tentativo di effettuare il break, esegue un tiro irregolare o imbuca la bilia battente senza toccare nessuna delle bilie centrali, perde il turno. Tuttavia, **non** sarà applicabile alcuna penalità.
 
-## Quando inizia la pausa
+## Quando inizia il break
 
-**46.** La pausa sarà eseguita solo dopo che l'Arbitro ha chiamato **Gioco**, e il tiro sarà effettuato entro **15 secondi** da tale chiamata. Il gioco si considera iniziato dal momento in cui l'Arbitro chiama *Gioco*.
+**46.** Il break deve essere effettuato solo dopo che l'arbitro ha gridato **Play**, e il tiro deve essere effettuato entro **15 secondi** da tale grido. Il gioco si considera iniziato dal momento in cui l'arbitro grida *Play*.
 
 <div class="callout">
-  <div class="callout-title">Non saltare la pistola</div>
-  <p>Se viene fatta la pausa<em>Prima</em>l'Arbitro chiama Play, tutti i C/m e/o Queen imbucati verranno eliminati per il piazzamento e verrà dichiarato un fallo. Il giocatore perde il turno.</p>
+  <div class="callout-title">Non anticipare i tempi</div>
+  <p>Se il break viene effettuato <em>prima</em> che l'arbitro dichiari *Play*, tutte le bilie C/m e/o la Regina imbucate devono essere estratte per essere riposizionate e viene dichiarato un fallo. Il giocatore perde il proprio turno.</p>
 </div>
 
 ## Turno di gioco
 
-**48.** Finché un giocatore imbuca il proprio C/m e/o Queen in conformità con le Regole, il suo turno continuerà. Altrimenti passa all'avversario.
+**48.** Finché un giocatore imbuca la propria C/m e/o Regina in conformità con le Regole, il suo turno continua. In caso contrario, il turno passa all'avversario.
 
-**49.** &nbsp;&nbsp;a) Ordine di suddivisione dei giochi:
+**49.** &nbsp;&nbsp;a) L'ordine di battuta nelle varie partite:
 
-- **Prima partita** — il giocatore che ha scelto di rompere la prima tavola avrà il C/m bianco. Il turno di break passa alternativamente durante il gioco.
-  - **Secondo gioco**: il giocatore che non ha avuto il primo turno di interruzione nel primo gioco avrà il suo turno per primo.
-  - **Terzo gioco** — il turno di rompere passa al primo giocatore.
+  - **Prima partita** — il giocatore che ha scelto di effettuare la battuta nel primo tavolo avrà il C/m bianco. Il turno di battuta passa alternativamente durante la partita.
+  - **Seconda partita** — il giocatore che non ha avuto il primo turno di battuta nella prima partita avrà il turno per primo.
+  - **Terza partita** — il turno di battuta passa al primo giocatore.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Nel doppio, il turno passa al giocatore seduto alla **destra** del giocatore che aveva il suo turno.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Nel doppio, il turno passa al giocatore seduto alla **destra** di chi ha effettuato la mossa.
 
-**50.** Un giocatore non deve impiegare più di **15 secondi** per eseguire un colpo. Il timer parte nel momento in cui il C/m, Queen o Striker si ferma e il striker viene raccolto dall'avversario, o dopo aver osservato il limite di tempo per piazzare C/m e/o rinunciare alla dovuta o penalità C/m, se prevista.
+**50.** Un giocatore non deve impiegare più di **15 secondi** per effettuare una mossa. Il cronometro parte nel momento in cui il C/m, la Regina o lo Striker si sono fermati e lo Striker viene preso dall'avversario, oppure dopo che è stato osservato il limite di tempo per il posizionamento del C/m e/o la rinuncia al C/m dovuto o di penalità, se presente.
 
-**51.** Se il turno viene utilizzato da un giocatore che gioca **fuori turno**, prima che l'Arbitro possa controllare, perde il board per il numero di C/m e Queen come erano sul C/B al momento del primo colpo fuori turno. Se quanto sopra rimane inosservato all'Arbitro o all'avversario fino a quando non viene eseguito il colpo successivo, il turno sarà consentito e il turno successivo sarà conforme alle Regole.
+**51.** Se un giocatore effettua una mossa **fuori turno** prima che l'arbitro possa intervenire, perde la partita per un numero di C/m e Regina pari a quelli presenti sul C/B al momento della prima mossa fuori turno. Se quanto sopra non viene notato dall'arbitro o dall'avversario fino alla mossa successiva, il turno sarà convalidato e il turno successivo si svolgerà secondo le Regole.

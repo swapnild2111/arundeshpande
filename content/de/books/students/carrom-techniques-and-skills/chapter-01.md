@@ -1,25 +1,24 @@
 ---
-title: "Kapitel 1 — Das Mantra"
-description: "Anmerkung von Arun Deshpande an den Leser – der Geist, in dem man an carrom herangeht, und warum Ihre Beziehung zum Spiel wichtiger ist als jedes einzelne Spiel."
+title: "Kapitel 1 – Das Mantra"
+description: "Arun Deshpandes Anmerkung an den Leser – die richtige Einstellung zum Carrom und warum Ihre Beziehung zum Spiel wichtiger ist als jedes einzelne Spiel."
 weight: 1
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-01.jpg"
   alt: "Carrom Techniques and Skills"
-translatedBy: "Aus dem Englischen übersetzt (KI-Entwurf)."
 ---
-*Ein kurzer Brief von Arun Deshpande an jeden Leser dieses Buches – geschrieben, bevor die Technik beginnt. Lesen Sie dies zuerst; Der Rest des Buches ergibt danach mehr Sinn.*
+*Ein kurzer Brief von Arun Deshpande an alle Leser dieses Buches – verfasst, bevor die Technik beginnt. Lesen Sie diesen Brief zuerst; danach wird der Rest des Buches verständlicher.*
 
-## Eine Anmerkung des Trainers
+## Eine Anmerkung des Coaches
 
 ![Abbildung 1](/images/book/fig-01.jpg)
 
-Lieber Leser, das möchte ich Ihnen **"MANTRA"** sagen, bevor Sie tatsächlich mit der Lektüre der Technik in diesem Buch beginnen.
+Lieber Leser, ich möchte dir dieses **„MANTRA"** mit auf den Weg geben, bevor du tatsächlich damit beginnst, die Technik in diesem Buch zu lesen.
 
 <div class="callout">
   <div class="callout-title">Das Mantra</div>
-  <p>Seien Sie aufrichtig mit carrom. Behandeln Sie es wie Ihr engstes Familienmitglied. Kommerzialisierung nicht. Spielen Sie nicht darauf. So wie Ihr Streit mit einem nahen Familienmitglied nur vorübergehender Natur ist, betrachten Sie Ihre Niederlage in diesem Spiel als einen vorübergehenden Rückschlag. Sei dem carrom board oder dem striker wegen der Niederlage nicht böse. Bleiben Sie carrom treu, dann werden Sie die erwarteten besten Ergebnisse erzielen.</p>
+  <p>Sei aufrichtig gegenüber Carrom. Behandle es wie ein sehr nahes Familienmitglied. Kommerzialisiere es nicht. Setze dabei kein Geld aufs Spiel. So wie ein Streit mit einem nahen Familienmitglied nur vorübergehender Natur ist, solltest du deine Niederlage in diesem Spiel als vorübergehenden Rückschlag betrachten. Sei wegen der Niederlage nicht wütend auf das Carrom-Brett oder den Schläger. Bleibe dem Carrom treu, dann wirst du die erwarteten besten Ergebnisse erzielen.</p>
 </div>
 
 — *Arun Deshpande*
@@ -28,4 +27,4 @@ Lieber Leser, das möchte ich Ihnen **"MANTRA"** sagen, bevor Sie tatsächlich m
 
 ![Abbildung 2](/images/book/fig-02.jpg)
 
-Für praktische Demonstrationen jeder Technik in diesem Buch besuchen Sie Aruns YouTube-Kanal – *"Arun Deshpande, geladen von Srikant Potharkar"* – und abonnieren Sie den Kanal.
+Praktische Demonstrationen aller Techniken in diesem Buch finden Sie auf Aruns YouTube-Kanal – *„Arun Deshpande, hochgeladen von Srikant Potharkar"* – abonnieren Sie den Kanal.

@@ -1,45 +1,44 @@
 ---
-title: "Kapitel 10 — Slip, Striker Slip, Double Touch"
-description: "Slip, Striker Slip und Double Touch – Feinkontrollstriche, die verwendet werden, wenn sich Münzen überlappen."
+title: "Kapitel 10 – Slip, Striker Slip, Double Touch"
+description: "„Slip\", „Striker Slip\" und „Double Touch\" – Präzisionszüge, die zum Einsatz kommen, wenn sich Münzen überlappen."
 weight: 10
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-22.jpg"
   alt: "Slip, Striker Slip, Double Touch"
-translatedBy: "Aus dem Englischen übersetzt (KI-Entwurf)."
 ---
-*Slip, Striker Slip und Double Touch – Feinkontrollstriche, die verwendet werden, wenn sich Münzen überlappen.*
+*Slip, Striker Slip und Double Touch – Präzisionsstöße, die zum Einsatz kommen, wenn sich Münzen überlappen.*
 
 ## Slip
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Slip</span>
-    <p class="def">Einstecken einer Münze touchEinstecken eines Rahmens, indem der Viertelpunkt erreicht wird.</p>
+    <p class="def">Das Versenken einer Kugel, die eine Bande berührt, durch einen Stoß auf ihren Viertelpunkt.</p>
   </div>
 </div>
 
-Wie in Abbildung 16-A dargestellt, wird der Schlag als slip, Schlag oder Viertel bezeichnet, wenn die Münze touchin einem beliebigen Rahmen durch Auftreffen auf ihre Viertelspitze eingesteckt wird.
+Wie in Abbildung 16-A dargestellt, wird der Stoß als „Slip", „Punch" oder „Quarter" bezeichnet, wenn eine Kugel, die eine Bande berührt, durch einen Stoß auf ihren Viertelpunkt versenkt wird.
 
-Wie in Abbildung 16-A gezeigt, sollte ein Spieler versuchen, sie in das gegenüberliegende Fach zu stecken, wenn eine Münze 5 Zoll oder mehr von der Basistasche entfernt ist.
+Wie in Abbildung 16-A dargestellt: Befindet sich eine Münze 5 Zoll oder weiter von der Basistasche entfernt, sollte der Spieler versuchen, sie in die gegenüberliegende Tasche zu versenken.
 
-Wie in Abbildung 16-B und C dargestellt, sollte der Spieler mit mittlerer Geschwindigkeit auf den Viertelteil der Münze treffen, wenn sich eine Münze am Grundrahmen des gegenüberliegenden Rahmens befindet, indem er den striker leicht in einer Querlinie mit der Münze platziert.
+Wie in Abbildung 16-B und C dargestellt: Befindet sich eine Münze am Basisrahmen des gegenüberliegenden Rahmens, sollte der Spieler den Schläger leicht quer zur Münze ausrichten und die Münze mit mittlerer Geschwindigkeit am Viertelpunkt treffen.
 
-Wie in Abbildung 16-D gezeigt, sollte eine Münze, wenn sie sich in der Nähe des Basisfachs befindet, in das Basisfach gebracht werden. In einer solchen Position sollte es nicht mit einem rebound versucht werden, da eine solche Münze von rebound nicht so leicht eingesteckt werden kann. Manchmal besteht die Gefahr einer Fälligkeit, wenn rebound nicht korrekt ist, wodurch die Münze aus dem Rahmen geworfen wird und dem striker in die Tasche folgt.
+Wie in Abbildung 16-D dargestellt: Befindet sich eine Münze in der Nähe der Basistasche, sollte sie in die Basistasche „geschoben" werden. In einer solchen Position sollte kein Abpraller versucht werden, da eine solche Münze durch einen Abpraller nicht so leicht versenkt werden kann. Manchmal besteht die Gefahr eines „Due", wenn der Abpraller nicht präzise ist, wodurch die Münze vom Rahmen abprallt und dem Schlagstück in die Tasche folgt.
 
-## Das Striker Slip
+## Der „Striker Slip"
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Das Striker Slip</span>
-    <p class="def">Striker slips von einer Münze, um eine andere in der Nähe zu schlagen und einzustecken.</p>
+    <span class="term">Der Striker-Slip</span>
+    <p class="def">Der Striker gleitet von einer Münze ab, um eine andere in der Nähe zu treffen und einzulochen.</p>
   </div>
 </div>
 
-Oft gibt es eine Position wie in Abb. 16-F. Eine unserer Münzen klebt am Rahmen fest und die andere ist von dieser Münze und auch leicht vom Rahmen entfernt.
+Häufig ergibt sich eine Situation wie in Abb. 16-F dargestellt. Eine unserer Münzen klemmt am Rahmen fest, während die andere von dieser Münze entfernt und zudem etwas vom Rahmen entfernt liegt.
 
-Normalerweise benötigen wir zwei Schläge, um diese beiden Münzen zu spielen. Wenn Sie den Schlag ausführen, der in Abb. 16-E dargestellt ist, wird Ihr striker slip von der steckenden Münze abheben und die Münze treffen, die nur wenig vom Rahmen entfernt ist, und eingesteckt werden. Die zuerst getroffene Münze wird aus dieser Position entfernt und wird für uns einfach. Es kommt selten vor, dass diese beiden Münzen im selben Zug in die Taschen gelangen. Um diesen Schlag zu spielen, sollten Sie etwas mehr force verwenden als für den Schlag von slip.
+Normalerweise benötigen wir zwei Stöße, um diese beiden Kugeln zu spielen. Wenn Sie den in Abb. 16-E gezeigten Stoß ausführen, gleitet Ihr Striker von der festsitzenden Kugel ab, trifft die etwas vom Rahmen entfernte Kugel, die daraufhin versenkt wird, und die zuerst getroffene Kugel wird aus dieser Position entfernt, was es uns erleichtert. Es kommt selten vor, dass diese beiden Münzen mit demselben Schlag in die Taschen gelangen. Um diesen Schlag auszuführen, sollten Sie etwas mehr Kraft aufwenden als beim „Slip"-Schlag.
 
 ## Double Touch
 
@@ -48,8 +47,8 @@ Normalerweise benötigen wir zwei Schläge, um diese beiden Münzen zu spielen. 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Double Touch</span>
-    <p class="def">Striker touchschüttet die Münze zweimal aus, bevor sie eingesteckt wird – wird in der Nähe der Seitenrahmen verwendet.</p>
+    <p class="def">Der Stoßball berührt die Münze zweimal, bevor sie versenkt wird – wird in der Nähe der Seitenrahmen angewendet.</p>
   </div>
 </div>
 
-Wenn der in Abbildung 16 gezeigte Hub ein wenig von den Rahmen entfernt ist, sollte der striker so losgelassen werden, dass er die Münze zweimal touchwirft und die Münze einsteckt. Dieser Schlag wird als double touch bezeichnet. Oft muss ein Spieler double touch um die Münzen spielen, die sich in der Nähe der Seitenrahmen befinden. Nur wenn diese Münzen mehr als einen halben Zoll vom Seitenrahmen entfernt sind, sollte dieser Schlag gespielt werden. Wenn Münzen weniger als einen halben Zoll vom Seitenrahmen entfernt sind, ist ein rebound einfacher als double touch.
+Befindet sich die in Abbildung 16 gezeigte Münze etwas entfernt von den Rahmen, sollte der Schläger so losgelassen werden, dass er die Münze zweimal berührt und diese in die Tasche versenkt wird; dieser Stoß wird als „Double Touch" bezeichnet. Häufig muss ein Spieler bei Münzen, die sich in der Nähe der Seitenrahmen befinden, einen „Double Touch" spielen. Dieser Stoß sollte jedoch nur dann ausgeführt werden, wenn diese Münzen mehr als einen halben Zoll vom Seitenrahmen entfernt sind. Befinden sich die Münzen weniger als einen halben Zoll vom Seitenrahmen entfernt, ist ein Abpraller einfacher als ein „Double Touch".

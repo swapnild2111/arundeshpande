@@ -1,6 +1,6 @@
 ---
 title: "Kontakt"
-description: "Skontaktuj się z nami, aby uzyskać informacje na temat coachingu, warsztatów lub jakichkolwiek pytań."
+description: "Zapraszamy do kontaktu w sprawie coachingu, warsztatów lub wszelkich pytań."
 aliases:
   - /contact/
 date: 2026-01-01
@@ -11,4 +11,4 @@ phone: "+91 88790 51402"
 location: "Thane, Maharashtra, India"
 youtube: "@Shrikant_Potharkar_carrom"
 ---
-Arun Deshpande oferuje osobiste sesje coachingowe dla graczy na każdym poziomie — od początkujących po aspirantów turniejowych. Warsztaty grupowe i obozy coachingowe są również dostępne dla klubów i akademii na całym świecie.
+Arun Deshpande oferuje indywidualne sesje treningowe dla graczy na każdym poziomie zaawansowania — od całkowicie początkujących po osoby aspirujące do udziału w turniejach. Dla klubów i akademii na całym świecie dostępne są również warsztaty grupowe i obozy treningowe.

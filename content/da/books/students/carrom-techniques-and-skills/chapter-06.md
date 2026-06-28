@@ -1,24 +1,23 @@
 ---
-title: "Kapitel 6 — Slagtilfælde: Cut, Double, Press"
-description: "Bruse af slag, lige Cut, Cross Cut, Double, Cross Double og Press."
+title: "Kapitel 6 — Strøg: Skær, Dobbelt, Tryk"
+description: "»Shower of Strokes«, »Straight Cut«, »Cross Cut«, »Double«, »Cross Double« og »The Press«."
 weight: 6
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-10.jpg"
   alt: "Strokes: Cut, Double, Press"
-translatedBy: "Oversat fra engelsk (AI-udkast)."
 ---
-*Bryse af slag, lige Cut, Cross Cut, Double, Cross Double og Press.*
+*Shower of Strokes, Straight Cut, Cross Cut, Double, Cross Double og Press.*
 
-## Byge af slagtilfælde
+## Shower of Strokes
 
 ![Figur 1](/images/book/fig-10.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Byge af slagtilfælde</span>
-    <p class="def">En oversigt over de grundlæggende streger, der er dækket i dette kapitel.</p>
+    <span class="term">Shower of Strokes</span>
+    <p class="def">En oversigt over de grundlæggende slag, der gennemgås i dette kapitel.</p>
   </div>
 </div>
 
@@ -29,76 +28,76 @@ translatedBy: "Oversat fra engelsk (AI-udkast)."
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Cut</span>
-    <p class="def">Pocking af en mønt med striker på en krydslinje fra mønten.</p>
+    <p class="def">At putte en mønt i hullet, hvor slageren befinder sig på en tværgående linje i forhold til mønten.</p>
   </div>
 </div>
 
-Som vist i diagrammet, et striker A i fig. 2 — hvis en mønt sættes i lommer ved at holde striker i en krydslinje, kaldes slaget en cut. striker bør ikke slippes hårdt, mens du spiller cut. Hvis striker slår hårdt ud over møntens sigtepunkt, er der al mulighed for, at mønten kan gå til den modsatte ramme og væk fra lommen, hvilket gør det svært for spilleren ved næste tur. (En stiplet linje i figur 2-A viser, hvordan mønten bliver svær, hvis den rammes hårdt og forkert.)
+Som vist i diagrammet, en spiller A fra figur 2 — hvis en mønt puttes i lommen ved at holde køen på en tværgående linje, kaldes slaget et cut. Køen bør ikke slippes hårdt, når man spiller cut. Hvis slagstaven rammer hårdt ud over det tilsigtede punkt på mønten, er der stor risiko for, at mønten ryger over til den modsatte side af bordet og væk fra lommen, hvilket gør det vanskeligt for spilleren i næste tur. (En stiplet linje i figur 2-A viser, hvordan mønten bliver vanskelig at spille, hvis den rammes hårdt og forkert.)
 
 <div class="callout">
-  <div class="callout-title">Kontrol over force</div>
-  <p>Mens du spiller en cut, hvis striker er styret, så forbliver mønten, selvom slaget er forkert, tæt på lommeområdet og bliver let til næste tur.</p>
+  <div class="callout-title">Kontrol over kraften</div>
+  <p>Når man spiller et »cut«, og hvis slagstaven kontrolleres, forbliver mønten tæt på lommeområdet, selvom slaget er forkert, hvilket gør det lettere for den næste spiller.</p>
 </div>
 
-## Lige Cut
+## Straight Cut
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Lige Cut</span>
-    <p class="def">Pocking af en mønt med striker i en lige linje med mønten.</p>
+    <span class="term">Straight Cut</span>
+    <p class="def">At putte en kugle i hullet, hvor stødkuglen er i en lige linje med kuglen.</p>
   </div>
 </div>
 
-Som vist i figur 2 B, hvis en mønt sættes i lommen ved at holde striker i en lige linje med mønt, kaldes slaget en lige cut. Svær mønt fra den modsatte ramme kan gøres let ved at spille lige cut. De mønter, der er tæt på venstre eller højre side af rammen, og som ikke kan stikkes ind i de forreste lommer, kan også gøres nemme ved lige cut. Hvis dette slag spilles nøjagtigt, kan en spiller anvende maksimum force for at trække andre mønter fra flokken. Ofte er der en sådan position, at en spiller ved at spille en straight cut kan stikke to mønter i to lommer samtidigt.
+Som vist i figur 2 B kaldes et slag for et straight cut, hvis en mønt puttes i lommen ved at holde stødkuglen i en lige linje med mønten. Svære mønt fra den modsatte ramme kan gøres lettere ved at spille et straight cut. Mønter, der ligger tæt på venstre eller højre side af rammen, og som ikke kan puttes i de forreste huller, kan også gøres lettere ved hjælp af et straight cut. Hvis dette slag udføres præcist, kan spilleren anvende maksimal kraft til at trække andre mønter ud af bunken. Ofte forekommer der situationer, hvor en spiller ved at udføre et lige slag kan få to kugler i hul på samme tid i to forskellige huller.
 
-## Cross Cut eller Minus Cut
+## Krydsstød eller minusstød
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Cross Cut eller Minus Cut</span>
-    <p class="def">Pocking af en mønt med striker på en krydslinje (minus), når en lige cut er umulig.</p>
+    <span class="term">Krydsstød eller minusstød</span>
+    <p class="def">At putte en kugle i hullet med slagkuglen på en kryds- (minus-) linje, når et lige slag er umuligt.</p>
   </div>
 </div>
 
-Som vist i figur 2 C, hvis en mønt sættes i lommen, mens striker holdes i et kryds [minus] linje, kaldes slaget cross cut eller minus cut', når der ikke er mulighed for at fjerne mønt fra den modsatte ramme eller fra siderammen ved at spille en lige cut på grund af at mønten @PH4@ ikke kan spilles af @PH4@@striker@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ med mønter fjernes og gøres lette til næste slag (En spiller skal ramme striker til det punkt, hvor de imaginære linjer fra midten af lommen og midten af mønten skærer hinanden).
+Som vist i figur 2 C: Hvis en kugle puttes i hullet, mens slagkuglen holdes på en kryds- [minus]-linje, kaldes slaget for »cross cut« eller »minus cut«, når det ikke er muligt at fjerne kuglen fra den modsatte ramme eller fra siderammerne ved at spille et lige slag, fordi kuglen ikke er tilgængelig for stødkuglen. I sådanne tilfælde kan der spilles et minus-slag, hvorved sådanne kugler fjernes og gør det lettere for det næste slag (En spiller bør ramme slagbolden således, at de imaginære linjer fra midten af lommen og midten af mønten krydser hinanden).
 
-## Double
+## Dobbelt
 
 ![Figur 3](/images/book/fig-12.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Double</span>
-    <p class="def">At stikke en mønt i bundlommen ved at slå den af ​​den modsatte ramme.</p>
+    <p class="def">At få en mønt i basislommen ved at ramme den mod den modsatte ramme.</p>
   </div>
 </div>
 
-Som vist i figur 3A, hvis en mønt er anbragt i bundlommen ved at ramme den på den modsatte ramme, kaldes slaget double. Når den modsatte lomme er blokeret af modstanderens mønt, er dette slag nyttigt. Nogle gange er der nogle mønter i nærheden af ​​den modsatte ramme, som ikke kan spilles af cut. Sådanne mønter bør sættes i lommen med en double. Nogle gange kan vanskelige mønter i nærheden af ​​den modsatte ramme ikke gøres lette af cutting mønt, som er i lige linje med den svære mønt. Vores mønt kan derefter spilles af en double, hvilket fjerner vanskelig mønt fra den modsatte ramme. Hvis en mønt nær den modsatte ramme skal spilles double, skal slaget være sådan, at striker, efter at have slået den mønt, skal gå i den modsatte retning af møntens ellers, striker vil touch mønten to gange, og mønten vil ikke komme ud af sin vanskelige position (se figur 3-C).
+Som vist i figur 3 A kaldes et slag for en double, hvis en mønt puttes i basislommen ved at ramme den mod den modsatte ramme. Dette slag er nyttigt, når den modsatte lomme er blokeret af modstanderens mønt. Nogle gange er der mønter tæt på den modsatte ramme, som ikke kan spilles med et »cut«. Sådanne mønter bør puttes i lommen med et »double«. Nogle gange kan vanskelige mønter tæt på den modsatte ramme ikke gøres lettere ved at spille et »cut« på en mønt, der ligger i en lige linje med den vanskelige mønt. Vores mønt kan i så fald spilles med et »double«, hvorved den vanskelige mønt fjernes fra den modsatte ramme. Hvis en mønt tæt på den modsatte ramme skal spilles med et dobbeltstød, skal stødets retning være sådan, at den slagende mønt, efter at have ramt den pågældende mønt, bevæger sig i modsat retning af mønten; ellers vil den slagende mønt ramme den to gange, og mønten vil ikke komme ud af sin vanskelige position (se figur 3-C).
 
-## Kryds Double
+## Krydsdobbelt
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Kryds Double</span>
-    <p class="def">En double spillet fra en krydslinje — mønten krydser strikers vej.</p>
+    <span class="term">Krydsdobbelt</span>
+    <p class="def">En dobbelt, der spilles fra en krydslinje — kuglen krydser slagmandens bane.</p>
   </div>
 </div>
 
-Hvis en striker placeres i en krydslinje, og mønten er i lomme med double, kaldes slaget kryds double, fordi mønten krydser banen for striker. Dette slag spilles, når den modsatte lomme er blokeret af modstanderens mønt, som kan fjernes ved at spille dette slag, og lommen kan åbnes for alle andre mønter, der er blokeret. (Se figur 3-B) Mønten, som er 2 eller flere tommer væk fra sidelinjerne og er blokeret af modstanderens mønt nær lommen, kan lægges i lommerne til bundlommerne med kryds double (Se figur 4-B). Hvis en sådan mønt er 6" til 12" væk fra den modsatte lomme, kan andre vanskelige mønter fra den modsatte ramme også gøres nemmere med striker (se figur 4-B), mens den sættes i lommen med et kryds double. Hvis mønten er 8" til 12" væk fra bundlommerne, kan vanskelig mønt fra bunken også gøres let, mens du spiller den med kryds double (se figur 4-A). Hvis to mønter af en double er anbragt i den inderste cirkel touch ved hinanden og parallelt med den modsatte ramme af modstanderen, så kan en af disse mønter stikkes i lommen ved kryds double uden at forstyrre den anden mønt fra den højre basiscirkel, den venstre mønt kan lægges i den venstre bundlomme, og den kan placeres i den højre basislomme i nærheden af den højre mønt. lomme med et fladt greb (saks eller et andet fladt greb) (se figur 5-A). Med det flade greb kan den venstre mønt ikke sættes i lommen på grund af spindet i striker. Derfor bør spilleren, der har et sådant greb, ikke forsøge at stikke den venstre mønt i lommen. De kan meget nemt lomme den rigtige mønt. Som vist i figur 5-B mønten i tommelfingerposition, hvilket er vanskeligt på grund af en blokeret lomme, kan den stikkes i lommer ved at slå den på siderammen. Det er en variant af et kryds double, selvom det kaldes et krydssekund.
+Hvis en stikker placeres på en krydslinje, og bolden puttes i hul med et dobbelt, kaldes slaget et krydsdobbelt, fordi bolden krydser stikkerens bane. Dette slag spilles, når det modsatte hul er blokeret af modstanderens bold, som kan fjernes ved at spille dette slag, og derved åbnes hullet for eventuelle andre bolde, der er blokeret. (Se figur 3-B) Den kugle, der befinder sig 2 eller flere inches fra sidelinjerne og er blokeret af modstanderens kugle tæt på lommen, kan sendes i basislommerne ved hjælp af et cross double (Se figur 4-B). Hvis en sådan mønt befinder sig 6" til 12" væk fra den modsatte lomme, kan slagmanden, mens han putter den i lommen med et cross double, også gøre et andet vanskeligt stød fra den modsatte ramme lettere (Se figur 4-B). Hvis mønten befinder sig 8" til 12" væk fra basislommerne, kan en vanskelig mønt fra bunken også gøres lettere, mens den spilles ind med et cross double (se figur 4-A). Hvis modstanderen placerer to kugler i en dobbeltkombination i den indre cirkel, så de rører hinanden og ligger parallelt med den modsatte ramme, kan den ene af disse kugler puttes i lommen ved hjælp af et krydsdobbelt uden at forstyrre den anden kugle fra den højre basiscirkel; den venstre kugle kan puttes i den venstre basislomme ved hjælp af et lige greb, og fra nær den venstre basiscirkel kan den højre mønt puttes i den højre lomme med et fladt greb (saks eller et hvilket som helst andet fladt greb) (se figur 5-A). Med det flade greb kan den venstre mønt ikke puttes i lommen på grund af spinnet i slagmønten. Derfor bør spilleren med et sådant greb ikke forsøge at putte den venstre mønt i lommen. Han kan meget let putte den højre kugle i hullet. Som vist i figur 5-B kan en kugle i tommelfingerpositionen, som er vanskelig på grund af et blokeret hul, puttes i hullet ved at ramme den mod siderammen. Det er en variant af et »cross double«, selvom det kaldes et »cross second«.
 
-## Press
+## Tryk
 
 ![Figur 4](/images/book/fig-13.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Press</span>
-    <p class="def">Indkapsling af den nærmeste af to touching-mønter i en lige linje parallelt med siderammen.</p>
+    <p class="def">At putte den nærmeste af to mønt, der rører hinanden, i en lige linje parallelt med siderammen.</p>
   </div>
 </div>
 
-Som vist i figur 6, hvis to mønter touch @@ PH1@@ @ @ @ @ @ @ @ PH1 @ @ @ @ @ @ PH1 @ @ @ @ @ PH0 @ @ @ @ PH0 @ @ kaldes en mønt, der er tættere på os. Der skal bruges lidt mere force end det, der kræves for at lægge en enkelt mønt i lommen.
+Som vist i figur 6: Hvis to mønter rører hinanden og ligger på en lige linje parallelt med siderammen, kan den mønt, der er tættest på os, puttes i forlommen – dette kaldes et press. Der skal bruges lidt mere kraft end ved putning af en enkelt mønt.
 
-Hvorfra dette slag skal spilles afhænger af den anden (anden) mønt. Som vist i fig. ingen. 6 A, hvis begge mønter er vores, så skal striker så striker placeres i maksimal krydslinje med mønten og bør og bør ramme mønten i midten. striker skal køre til siderammen. Ved sådan en press går vores mønt i den modsatte frontlomme, og modstanderens mønt kommer til vores basisramme.
+Hvorfra dette slag skal udføres, afhænger af den anden (anden) kugle. Som vist i figur 6 A: Hvis begge kugler er vores, skal slagkuglen placeres så tæt på kuglen som muligt på tværs af linjen og ramme kuglen i midten. Slagkuglen skal bevæge sig mod siderammen. Ved et sådant press går vores mønt ind i den modsatte forreste lomme, og modstanderens mønt ender i vores bageste ramme.
 
-Hvis den anden mønt er af modstanderen som vist i figur 6-B (Sort mønt), så skal striker placeres i den maksimale krydslinje og skal ramme mønten i midtpunktet. striker skal bevæge sig mod siderammen. Ved at spille sådan en press, går vores ind i den modsatte frontlomme, og modstanderens mønt kommer til vores basisramme og bliver vanskelig for modstanderen. I dette slag bliver modstanderens mønt svær, selvom vores mønt ikke er i lommen, og vi får en tur mere for den. Selvom der er en afstand mellem disse to mønter, kan press spilles. I denne position skal en spiller anvende mere force og skal ramme i midten. Her kan den modsatte mønt ikke stikkes i lommen. En tungere striker er altid bedre til dette slag (naturligvis ifølge reglerne bør vægten af ​​striker ikke overstige 15 gram.)
+Hvis den anden mønt tilhører modstanderen, som vist i figur 6-B (sort mønt), skal slagmønten placeres i maksimal tværlinje og ramme mønten i midten. Stødemønten skal bevæge sig mod siderammen. Ved at udføre et sådant press-stød ryger vores mønt ind i den modsatte forreste lomme, og modstanderens mønt kommer ind i vores bagramme, hvilket gør det vanskeligt for modstanderen. I dette stød bliver modstanderens mønt vanskelig at håndtere, selvom vores mønt ikke ryger i lommen, og vi får dermed endnu et træk. Selv hvis der er en afstand mellem disse to kugler, kan press-slaget udføres. I denne position skal spilleren anvende mere kraft og ramme i midten. Her kan den modsatte kugle ikke puttes i lommen. En tungere kø er altid bedre til dette slag (selvfølgelig må køens vægt ifølge reglerne ikke overstige 15 g).

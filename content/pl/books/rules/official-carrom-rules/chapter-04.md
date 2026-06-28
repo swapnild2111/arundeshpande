@@ -1,64 +1,63 @@
 ---
-title: "Rozdział 4 — Przerwa i kolej w grze"
-description: "Jak ułożone są monety, kto się rozbija, co liczy się jako przerwa i jak zmieniają się tury w trakcie meczu."
+title: "Rozdział 4 — Przełom i zwrot w akcji"
+description: "Jak rozmieszczone są monety, kto rozpoczyna, co uznaje się za przełamanie oraz w jaki sposób następuje zmiana kolejności w trakcie meczu."
 weight: 4
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Przetłumaczono z angielskiego (wersja robocza AI)."
 ---
-*Każda plansza zaczyna się od Przełamania — strzału otwierającego, który rozprasza grupę 19 monet. W tym rozdziale opisano, w jaki sposób ułożone są monety, kto wykonuje Przełamanie, co liczy się jako ważne Przełamanie oraz w jaki sposób tury następują na planszy, w grze i w meczu.*
+*Każda partia rozpoczyna się od „Break" — pierwszego rzutu, który rozrzuca grupę 19 monet. W tym rozdziale omówiono sposób rozmieszczenia monet, kto wykonuje „Break", co uznaje się za prawidłowy „Break" oraz jak następują po sobie tury w dalszej części partii, gry i meczu.*
 
 <div class="callout">
-  <div class="callout-title">Poradnik dla początkujących — ustawienie przerwy</div>
-  <p>Umieść<strong>Queen w środkowym okręgu</strong>. Ułóż wokół niej pozostałe 18 monet w dwa zwarte pierścienie,<strong>na przemian czarno-biały</strong>, wszyscy stykają się ze sobą wewnątrz zewnętrznego okręgu. ICF Prawo określa również:<strong>„Y” trzech białych monet</strong>w drugim rzędzie – patrz Zasada 41.</p>
-  <p>Gracz, który łamie, gra<strong>biały</strong>dla tej planszy; przeciwnik ma kolor czarny. Po wezwaniu sędziego<em>Grać</em>, wyłącznik ma<strong>15 sekund</strong>uderzyć. W zwykłej grze o tym, kto przełamie pierwszy, decyduje rzut monetą; tury trwają tak długo, jak włożysz własne monety.</p>
+  <div class="callout-title">Przewodnik dla początkujących — ustawianie „Break"</div>
+  <p>Umieść <strong>królową w środkowym okręgu</strong>. Pozostałe 18 monet ułóż w dwa zwarte pierścienie wokół niej, <strong>na przemian czarne i białe</strong>, tak aby wszystkie stykały się ze sobą wewnątrz zewnętrznego koła. Przepisy ICF określają również <strong>układ w kształcie litery „Y" z trzech białych monet</strong> w drugim rzędzie — patrz zasada 41.</p>
+  <p>Gracz wykonujący rozbicie gra <strong>białymi</strong> na tej planszy; przeciwnik ma czarne. Po tym, jak sędzia ogłosi <em>„Play"</em>, gracz wykonujący rozbicie ma <strong>15 sekund</strong> na uderzenie. W grze nieoficjalnej rzut monetą decyduje o tym, kto rozpocznie grę; kolejki trwają tak długo, jak długo gracz wbija własne monety do dołków.</p>
 </div>
 
-## Układanie monet na przerwę
+## Układanie monet przed rozbiciem
 
-**41.** &nbsp;&nbsp;a) Przed przerwą C/m są tak ułożone, w płaskiej pozycji, że **Queen będą zajmować Środkowe Koło**, a pozostałe C/m zostaną umieszczone wokół Queen w pierwszym rzędzie, utrzymując na przemian Czarny i Biały C/m.
+**41.** &nbsp;&nbsp;a) Przed rozbiciem figury C/m układa się w pozycji płaskiej w taki sposób, aby **królowa zajmowała okrąg centralny**, a pozostałe figury C/m umieszczono wokół królowej w pierwszym rzędzie, naprzemiennie układając czarne i białe figury C/m.
 
-W drugim rzędzie trzy białe C/m tworzą kształt **"Y"**, z białym C/m w pierwszym rzędzie. Pozostałą przestrzeń wypełniamy umieszczając na przemian czarno-białe C/m. Wszystkie c/m tak ułożone powinny tworzyć zwartą okrągłą, stykającą się ze sobą, w obrębie Zewnętrznego Kręgu. Gracz może użyć palców lub striker, aby utrzymać C/m w stanie nienaruszonym.
+W drugim rzędzie trzy białe pionki tworzą kształt **„Y"**, przy czym białe pionki znajdują się w pierwszym rzędzie. Pozostałą przestrzeń wypełnia się, układając na przemian czarne i białe pionki. Wszystkie tak ułożone pionki powinny tworzyć zwartą krąg, stykając się ze sobą, w obrębie zewnętrznego koła. Gracz może używać palców lub pałeczki, aby utrzymać figury C/m w nienaruszonym układzie.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) C/m powinno być ustawione na przerwę z możliwie najmniejszą stratą czasu po każdej planszy.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Figury C/m powinny być układane do rozbicia w sposób zapewniający jak najmniejsze straty czasu po każdej partii.
 
-## Kto się łamie
+## Kto wykonuje rozbicie
 
-**42.** Przełamanie wykonuje gracz, który zdecydował się uderzyć jako pierwszy.
+**42.** Rozgrywkę rozpoczyna gracz, który zdecydował się uderzyć jako pierwszy.
 
-**43.** Gracz, który ma rozbić, będzie miał **białe C/m** podczas tego rozdania, pozostawiając czarne C/m swojemu przeciwnikowi. Queen będzie wspólnym C/m.
+**43.** Gracz, który ma rozpocząć rozgrywkę, dysponuje w tej partii **białymi C/m**, pozostawiając czarne C/m przeciwnikowi. Królowa jest wspólnym C/m.
 
-## Co liczy się jako przerwa
+## Co liczy się jako rozbicie
 
-**44.** Przerwę uważa się za dokonaną, jeśli Striker dotknie któregokolwiek z C/m, choćby nieznacznie.
+**44.** Rozbicie uznaje się za wykonane, jeśli gracz wykonujący rozbicie dotknie dowolnego pionka, nawet nieznacznie.
 
-**45.** &nbsp;&nbsp;a) Przerwa jest **nie** uznawana za wykonaną, jeśli żaden C/m nie zostanie dotknięty przez Striker podczas zwykłego biegu lub wyskoku. Dozwolone są maksymalnie **dwie dodatkowe szanse**.
+**45.** &nbsp;&nbsp;a) Rozgrywki **nie** uznaje się za wykonane, jeśli gracz nie dotknie żadnej pionki podczas jej zwykłego ruchu lub wyskoczenia. Dopuszcza się maksymalnie **dwie dodatkowe próby**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeżeli po dopuszczalnej liczbie szans nie zostanie dotknięty żaden C/m, prawo do Przerwy przepada. Kolejka przechodzi na przeciwnika, który będzie miał do gry czarne C/m. Niedozwolona jest żadna zmiana układu C/m. Stan ten utrzymuje się do momentu, w którym nastąpi przerwa.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Jeśli po wykorzystaniu dozwolonej liczby prób żadna z C/m nie zostanie dotknięta, prawo do rozbicia zostaje utracone. Kolejka przechodzi na przeciwnika, który będzie grał czarnymi C/m. Nie zezwala się na zmianę ustawienia bil. Warunek ten obowiązuje do momentu wykonania rozbicia.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Jeśli gracz próbując przełamać, wykona niewłaściwe uderzenie lub wbije striker bez dotykania żadnego z c/m, traci swoją turę. Jednakże należność lub kara **nie** będzie miała zastosowanie.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Jeśli gracz podczas próby rozbicia wykona nieprawidłowe uderzenie lub wbije bilę uderzającą do łuzki bez dotknięcia żadnej z bil środkowych, traci swoją kolejkę. Jednakże **nie** ma zastosowania „Due" ani kara.
 
-## Kiedy zaczyna się przerwa
+## Rozpoczęcie rozbicia
 
-**46.** Przerwa może nastąpić dopiero po ogłoszeniu przez sędziego „Gra”**, a uderzenie musi zostać wykonane w ciągu **15 sekund** od takiej komendy. Gra jest uważana za rozpoczętą w momencie, gdy sędzia główny ogłosi *Gra*.
+**46.** Rozbicie należy wykonać dopiero po tym, jak sędzia ogłosi **„Play"**, a uderzenie musi nastąpić w ciągu **15 sekund** od tego ogłoszenia. Rozgrywkę uznaje się za rozpoczętą od momentu, w którym sędzia ogłasza *„Play"*.
 
 <div class="callout">
-  <div class="callout-title">Nie skacz z pistoletu</div>
-  <p>Jeśli nastąpi przerwa<em>zanim</em>sędzia „umpire” ogłasza „Gra”, wszystkie C/m i/lub Queen wbite są usuwane do rozmieszczenia i ogłaszany jest faul. Gracz traci swoją turę.</p>
+  <div class="callout-title">Nie wyprzedzaj wydarzeń</div>
+  <p>Jeśli rozbicie zostanie wykonane <em>przed</em> ogłoszeniem przez sędziego „Play", wszystkie bil C/m i/lub Queen, które wpadły do łuz, zostaną wyjęte w celu ponownego ustawienia, a faul zostanie odnotowany. Gracz traci swoją kolejkę.</p>
 </div>
 
-## Turn of Play
+## Kolejność gry
 
-**48.** Tak długo jak gracz wbije własne C/m i/lub Queen zgodnie z Przepisami, jego tura będzie kontynuowana. W przeciwnym razie przechodzi na przeciwnika.
+**48.** Dopóki gracz wbija własną bilę C/m i/lub królową zgodnie z przepisami, jego kolejka trwa. W przeciwnym razie przechodzi ona na przeciwnika.
 
-**49.** &nbsp;&nbsp;a) Kolejność Przebijania się w grach:
+**49.** &nbsp;&nbsp;a) Kolejność rozbicia w poszczególnych partiach:
 
-- **Pierwsza gra** — gracz, który zdecydował się rozbić pierwszą planszę, będzie miał białą C/m. Tura na przerwę przebiega naprzemiennie w trakcie gry.
-  - **Druga gra** – gracz, który w pierwszej grze nie miał pierwszej tury na przebicie, będzie miał swoją turę jako pierwszy.
-  - **Trzecia gra** — kolej na przełamanie przechodzi na pierwszego gracza.
+  - **Pierwsza partia** — gracz, który zdecydował się wykonać rozbicie w pierwszej partii, otrzymuje białą bilę C/m. Kolejność rozbicia przechodzi na przemian w trakcie partii.
+  - **Druga partia** — gracz, który nie miał pierwszej kolejki do rozbicia w pierwszej partii, ma pierwszeństwo.
+  - **Trzecia partia** — kolejka do rozbicia przechodzi na pierwszego gracza.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) W grze podwójnej kolejka przechodzi na gracza siedzącego po **prawej stronie** gracza, który miał swoją turę.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) W grze podwójnej kolejka przechodzi na gracza siedzącego po **prawej stronie** gracza, który miał swoją kolejkę.
 
-**50.** Gracz nie może potrzebować więcej niż **15 sekund** na wykonanie uderzenia. Odliczanie czasu rozpoczyna się w momencie, gdy C/m, Queen lub Striker zatrzyma się, a striker zostanie podniesiony przez przeciwnika lub po dotrzymaniu limitu czasu na umieszczenie C/m i/lub zrzeczenie się należnej kary lub kary C/m, jeśli taka istnieje.
+**50.** Gracz nie może poświęcić więcej niż **15 sekund** na wykonanie ruchu. Odliczanie czasu rozpoczyna się w momencie, gdy C/m, królowa lub striker zatrzymają się, a striker zostanie podniesiony przez przeciwnika, lub po upływie limitu czasu na umieszczenie C/m i/lub zrezygnowaniu z należnego lub karnego C/m, jeśli takie istnieje.
 
-**51.** Jeśli turę wykonuje gracz, który gra **poza kolejnością**, zanim sędzia „umpire” zdążył przejąć kontrolę, traci szachownicę o numery C/m i Queen, tak jak było to na C/B w momencie pierwszego uderzenia poza kolejnością. Jeśli powyższe pozostanie niezauważone przez sędziego głównego lub przeciwnika do czasu wykonania następnego uderzenia, tura zostanie dozwolona, ​​a następna tura zostanie przeprowadzona zgodnie z Przepisami.
+**51.** Jeśli gracz wykorzysta swoją kolej, wykonując ruch **niezgodnie z kolejnością**, zanim sędzia zdąży to skontrolować, traci on na planszy tyle pionków C/m i Królowej, ile znajdowało się na planszy w momencie pierwszego ruchu wykonanego niezgodnie z kolejnością. Jeśli powyższa sytuacja pozostanie niezauważona przez sędziego lub przeciwnika do momentu wykonania kolejnego ruchu, ruch ten zostanie uznany, a następna kolejka przebiegnie zgodnie z przepisami.

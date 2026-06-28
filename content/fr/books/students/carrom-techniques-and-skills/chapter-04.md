@@ -1,72 +1,71 @@
 ---
-title: "Chapitre 4 — Poignées"
-description: "Prise naturelle, poignée en ciseaux, poignée verrouillable, poignée plate du majeur – quand et comment les utiliser."
+title: "Chapitre 4 — Les prises"
+description: "Prise naturelle, prise en ciseaux, prise de verrouillage, prise à plat avec le majeur : quand et comment utiliser chacune d'entre elles."
 weight: 4
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-03.jpg"
   alt: "Grips"
-translatedBy: "Traduit de l'anglais (brouillon IA)."
 ---
-*Grip est le fondement de chaque coup de ce livre. Arun décrit quatre prises : développez-en d'abord une naturelle, puis ajoutez les autres au fur et à mesure que votre jeu évolue.*
+*La prise est à la base de chaque coup présenté dans cet ouvrage. Arun décrit quatre prises : commencez par développer une prise naturelle, puis intégrez les autres à mesure que votre jeu progresse.*
 
-## Poignées
+## Les prises
 
-L'adhérence est très importante dans le jeu de carrom. Vous devriez développer une adhérence naturelle.
+La prise est très importante au carrom. Vous devez développer une prise naturelle.
 
-## Adhérence naturelle
+## Prise naturelle
 
 ![Figure 1](/images/book/fig-03.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Adhérence naturelle</span>
-    <p class="def">Index et pouce sur le striker ; les autres doigts reposent sur le contreplaqué. La prise en main la plus courante et la plus facile à apprendre.</p>
+    <span class="term">Prise naturelle</span>
+    <p class="def">L'index et le pouce sur la pièce de frappe ; les autres doigts reposent sur le contreplaqué. C'est la prise la plus courante et la plus facile à apprendre.</p>
   </div>
 </div>
 
-Il existe de nombreux types de poignées. La prise la plus courante est la combinaison de l’index et du pouce. Voir la photo ci-dessus. C'est une prise en main très facile et nécessite moins de pratique. Dans cette prise, tous les autres doigts reposent sur le contreplaqué.
+Il existe de nombreux types de prises. La plus courante consiste à utiliser l'index et le pouce. Voir la photo ci-dessus. Il s'agit d'une prise en main très simple qui nécessite peu d'entraînement. Avec cette prise, tous les autres doigts reposent sur le contreplaqué.
 
-Cette prise présente de nombreux avantages. Avec cette poignée, un joueur peut garder un contrôle maximal sur le striker. Cette prise reste stable et ferme car tous les autres doigts reçoivent le soutien du contreplaqué. Un joueur de cette poignée peut jouer avec un minimum d'espace.
+Cette prise présente de nombreux avantages. Elle permet au joueur de garder un contrôle maximal sur le percuteur. Elle reste stable et ferme, car tous les autres doigts s'appuient sur le contreplaqué. Un joueur utilisant cette prise peut jouer dans un espace réduit.
 
-Parfois, lorsqu'il n'y a pas suffisamment d'espace disponible pour placer la poignée, un joueur peut jouer avec l'index en soulevant tous les autres doigts du contreplaqué. Avec cette poignée, un joueur peut jouer avec la même facilité des deux côtés (gauche ou droite) du carrom board. Par conséquent, le jeu du joueur ne reste faible d’aucun côté. Dans cette prise, les ongles de tous les doigts touch le contreplaqué. Par conséquent, si un ongle a poussé plus que d’habitude, il y aura un changement dans l’adhérence. Ces choses mineures sont très importantes dans carrom.
+Parfois, lorsqu'il n'y a pas suffisamment de place pour positionner la main, un joueur peut jouer en levant tous les autres doigts du contreplaqué à l'aide de l'index. Avec cette prise, un joueur peut jouer avec la même aisance des deux côtés (gauche ou droit) du plateau de carrom. Le jeu du joueur ne présente donc aucune faiblesse d'un côté ou de l'autre. Dans cette prise, les ongles de tous les doigts touchent le contreplaqué. Par conséquent, si un ongle a poussé plus que d'habitude, la prise s'en trouvera modifiée. Ces détails mineurs sont très importants au carrom.
 
-## Poignée en ciseaux
+## Prise en ciseaux
 
 ![Figure 2](/images/book/fig-04.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Poignée en ciseaux</span>
-    <p class="def">Utilisé principalement pour le break en Inde ; utilisé comme prise naturelle au Sri Lanka et aux Maldives. Difficile de jouer du côté droit.</p>
+    <span class="term">Prise en ciseaux</span>
+    <p class="def">Principalement utilisée pour le coup d'envoi en Inde ; utilisée comme prise naturelle au Sri Lanka et aux Maldives. Difficile à utiliser du côté droit.</p>
   </div>
 </div>
 
-Il est utilisé essentiellement pour le break en Inde. Il est utilisé comme grip naturel au Sri Lanka et aux Maldives. En Inde, seuls Ivon Marquis et Kadirkhan utilisaient cette prise comme prise naturelle. Cette prise en main présente de nombreux inconvénients. C'est très difficile de jouer du côté droit.
+Elle est essentiellement utilisée pour le coup d'envoi en Inde. Elle est utilisée comme prise naturelle au Sri Lanka et aux Maldives. En Inde, seuls Ivon Marquis et Kadirkhan utilisaient cette prise comme prise naturelle. Cette prise présente de nombreux inconvénients. Il est très difficile de jouer du côté droit.
 
-## Poignée de verrouillage
+## Prise de verrouillage
 
 ![Figure 3](/images/book/fig-05.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Poignée de verrouillage</span>
-    <p class="def">Pouce, index et petit doigt (ou majeur pour un force supplémentaire). Premier doigt verrouillé entre le pouce et l’annulaire ; souvent, la surface de jeu ne touch pas.</p>
+    <span class="term">Prise de verrouillage</span>
+    <p class="def">Le pouce, l'index et l'auriculaire (ou le majeur pour plus de puissance). L'index est bloqué entre le pouce et le majeur ; il ne touche souvent pas la surface de jeu.</p>
   </div>
 </div>
 
-Vous devriez apprendre cette prise si vous n’avez pas de prise verrouillable comme prise naturelle. Avec cette poignée, vous pouvez obtenir la puissance nécessaire pour jouer des coups puissants. J'étais avec Suhas Kambli en 1982 à Delhi pendant un mois et nous nous entraînions dur pour jouer à des jeux de démonstration aux Jeux asiatiques lorsque j'ai observé Suhas Kambli jouer de nombreux coups puissants avec sa prise naturelle. Sa préhension naturelle est une combinaison du pouce, de l'index et de l'auriculaire, mais chaque fois qu'il avait besoin de force supplémentaire, il changeait son petit doigt en troisième. Je viens de l'essayer et j'ai commencé à frapper fort avec ce grip. J'ai aimé l'utiliser et chaque fois que j'ai eu l'occasion de l'utiliser, je l'ai utilisé. Suhas se moquait de moi parce que je ne parvenais pas à viser correctement avec cette prise. J'ai dû mettre tous mes efforts pour maîtriser cette prise. Vous devez bloquer votre index entre le pouce et l’annulaire pour ce type de prise. Généralement dans cette prise, le premier doigt par lequel le coup est joué ne touche pas la surface de jeu.
+Vous devriez apprendre cette prise si la prise en ciseaux n'est pas votre prise naturelle. Grâce à cette prise, vous pouvez développer la puissance nécessaire pour réaliser des coups puissants. En 1982, j'ai passé un mois à Delhi avec Suhas Kambli et nous nous entraînions dur pour disputer des matchs de démonstration lors des Jeux asiatiques, lorsque j'ai observé Suhas Kambli réaliser de nombreux coups puissants avec sa prise en croix naturelle. Sa prise naturelle est une combinaison du pouce, de l'index et de l'auriculaire, mais chaque fois qu'il avait besoin d'une force supplémentaire, il remplaçait son auriculaire par le majeur. Je l'ai simplement essayé et j'ai commencé à frapper fort avec cette prise. J'ai pris plaisir à l'utiliser et, dès que j'en avais l'occasion, je m'en servais. Suhas se moquait de moi car je n'arrivais pas à viser correctement avec cette prise. J'ai dû déployer tous mes efforts pour la maîtriser. Pour ce type de prise, il faut coincer l'index entre le pouce et le majeur. En général, avec cette prise, l'index, qui sert à frapper la balle, ne touche pas la surface de jeu.
 
-## Poignée plate du majeur
+## Prise à plat avec le majeur
 
 ![Figure 4](/images/book/fig-06.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Prise plate du majeur</span>
-    <p class="def">Donne une rotation naturelle dans le sens inverse des aiguilles d'une montre au striker. Indispensable là où la rotation est requise ; peut également être joué avec la main gauche.</p>
+    <span class="term">Prise à plat avec le majeur</span>
+    <p class="def">Donne naturellement un effet antihoraire à la bille de frappe. Indispensable lorsque l'effet est nécessaire ; peut également être jouée avec la main gauche.</p>
   </div>
 </div>
 
-Cette poignée donne du spin au striker. Il existe de nombreuses positions sur le carrom board où, sans rotation, vous ne pouvez pas jouer le coup avec succès. Dans cette poignée, vous n'avez pas besoin de faire d'effort pour créer une rotation : elle est automatiquement créée. C’est pourquoi on parle d’essorage naturel. La rotation se fait dans le sens inverse des aiguilles d'une montre. Vous devriez développer cette prise utile. Vous pouvez également le jouer avec la main gauche pour jouer les coups de l'autre côté.
+Cette prise donne de l'effet à la bille de frappe. Il existe de nombreuses positions sur le plateau de carrom où, sans effet, il est impossible de réussir le coup. Avec cette prise, vous n'avez pas besoin de faire d'effort pour créer de l'effet — celui-ci est généré automatiquement. C'est pourquoi on parle d'effet naturel. L'effet est antihoraire. Vous devriez développer cette prise très utile. Vous pouvez également l'utiliser avec la main gauche pour jouer les coups de l'autre côté.

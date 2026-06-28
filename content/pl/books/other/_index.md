@@ -1,5 +1,5 @@
 ---
-title: "Inny"
+title: "Inne"
 layout: category
 category: other
 aliases:

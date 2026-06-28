@@ -1,60 +1,59 @@
 ---
-title: "Kapitel 5 — Wertung und Seitenwechsel"
-description: "Wie Punkte vergeben werden, wann ein Spiel endet, wie die Entscheidung im dritten Spiel funktioniert und wann Spieler die Seiten wechseln."
+title: "Kapitel 5 – Punktewertung und Seitenwechsel"
+description: "Wie Punkte vergeben werden, wann ein Spiel endet, wie der entscheidende dritte Satz abläuft und wann die Spieler die Seiten wechseln."
 weight: 5
 date: 2026-01-01
 author: "International Carrom Federation"
-translatedBy: "Aus dem Englischen übersetzt (KI-Entwurf)."
 ---
-*Carrom wird in Matches zu je drei Spielen gespielt. Jedes Spiel besteht aus einer Folge von Brettern. Jedes Brett ist Punkte wert und derjenige, der zuerst 25 Punkte hat (oder wer nach acht Brettern führt), gewinnt das Spiel. Dieses Kapitel dient als Referenz zur Punktezählung.*
+*Carrom wird in Matches mit drei Partien gespielt. Jede Partie besteht aus einer Abfolge von Runden. Jede Runde bringt Punkte ein, und wer zuerst 25 Punkte erreicht (oder nach acht Runden in Führung liegt), gewinnt die Partie. Dieses Kapitel dient als Nachschlagewerk zur Punktevergabe.*
 
 <div class="callout">
-  <div class="callout-title">Leitfaden für Anfänger – So funktioniert die Wertung</div>
-  <p>Wenn Sie zuerst alle Ihre Münzen gelöscht haben, können Sie<strong>Gewinne das Board</strong>. Deine Punkte für dieses Spielbrett entsprechen der Anzahl der Münzen deines Gegners, die sich noch auf dem Spielfeld befinden (jeweils wert).<strong>1 Punkt</strong>). Wenn Sie auch eingesteckt haben und<strong>bedeckt</strong>das Queen beim Gewinnen des Boards, hinzufügen<strong>Noch 3 Punkte</strong>– aber nur, solange Ihre laufende Summe im Spiel ist<strong>21 oder niedriger</strong>(Regel 54).</p>
-  <p>Eine volle<strong>Spiel</strong>wird gewonnen<strong>25 Punkte</strong>oder danach<strong>acht Bretter</strong>, je nachdem, was zuerst eintritt. A<strong>übereinstimmen</strong>ist das beste von drei Spielen. Informelle Führer erreichen manchmal 29 Punkte; Turnier- und ICF Spieleinsatz 25.</p>
+  <div class="callout-title">Leitfaden für Anfänger – So funktioniert die Punktevergabe</div>
+  <p>Wenn Sie als Erster alle Ihre Steine vom Brett entfernen, <strong>gewinnen Sie die Runde</strong>. Ihre Punkte für diese Runde entsprechen der Anzahl der Steine Ihres Gegners, die noch auf dem Brett liegen (jeder zählt <strong>1 Punkt</strong>). Wenn du beim Gewinnen des Spielzugs zudem die Königin eingekastet und <strong>abgedeckt</strong> hast, erhältst du <strong>3 weitere Punkte</strong> – allerdings nur, solange deine Gesamtpunktzahl im Spiel <strong>21 oder weniger</strong> beträgt (Regel 54).</p>
+  <p>Ein vollständiges <strong>Spiel</strong> ist bei <strong>25 Punkten</strong> oder nach <strong>acht Runden</strong> gewonnen, je nachdem, was zuerst eintritt. Ein <strong>Match</strong> wird im Best-of-Three-Modus ausgetragen. Bei informellen Spielen wird manchmal bis 29 Punkte gespielt; bei Turnieren und im ICF-Spiel gelten 25 Punkte.</p>
 </div>
 
 ## Punktwerte
 
-| Münze | Punkte |
+| Spielstein | Punkte |
 |---|---|
 | Jeder C/m | **1 Punkt** |
-| Queen | **3 Punkte** *(nur bis einschließlich 21 Punkte)* |
+| Dame | **3 Punkte** *(nur bis einschließlich 21 Punkte)* |
 
-**52.** &nbsp;&nbsp;a) Der Spieler, der als Erster alle seine C/m einsteckt, **gewinnt das Board**.
+**52.** &nbsp;&nbsp;a) Der Spieler, der als Erster alle seine C/m eingesteckt hat, **gewinnt die Partie**.
 
-**53.** &nbsp;&nbsp;a) Die Anzahl der C/m des Gegners auf dem C/B entspricht den Punkten, die dieser Spieler auf diesem Brett erzielt hat.
+**53.** &nbsp;&nbsp;a) Die Anzahl der C/m des Gegners auf dem C/B entspricht den Punkten, die dieser Spieler in diesem Spiel erzielt hat.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Der Spieler hat Anspruch auf eine Gutschrift des Werts von Queen, **nur wenn er das Board gewinnt**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Der Spieler hat Anspruch auf den Wert der Königin, **nur wenn er das Spiel gewinnt**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Dem Spieler, der das Board verliert, wird der Wert des Queen nicht gutgeschrieben, auch wenn er den Queen eingesteckt und abgedeckt hat.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Dem Spieler, der die Runde verliert, wird der Wert der Dame nicht gutgeschrieben, selbst wenn er die Dame eingesteckt und abgedeckt hat.
 
 <div class="callout">
-  <div class="callout-title">Queen Schwelle</div>
-  <p>Der Spieler verliert den Vorteil, die Gutschrift von zusätzlichen 3 Punkten für das Abdecken des Queen zu erhalten, sobald er eine Punktzahl von erreicht hat<strong>22 Punkte</strong>(Regel 54).</p>
+  <div class="callout-title">Damen-Schwellenwert</div>
+  <p>Der Spieler verliert den Vorteil, 3 zusätzliche Punkte für das Abdecken der Dame gutgeschrieben zu bekommen, sobald er eine Punktzahl von <strong>22 Punkten</strong> erreicht hat (Regel 54).</p>
 </div>
 
-**55.** Die maximale Anzahl an Punkten, die in einem Board erzielt werden können, beträgt nur **12**. Alle fälligen Zahlungen und/oder Vertragsstrafen C/m werden automatisch abgeschrieben.
+**55.** Die maximale Punktzahl, die in einem Spiel erzielt werden kann, beträgt nur **12**. Alle fälligen und/oder Strafpunkte (C/m) werden automatisch abgeschrieben.
 
-## Spiellänge
+## Spieldauer
 
-**56.** &nbsp;&nbsp;a) Ein Spiel besteht aus **25 Punkten oder acht Brettern**. Der Spieler, der zuerst 25 Punkte erreicht oder am Ende des achten Bretts führt, gewinnt das Spiel.
+**56.** &nbsp;&nbsp;a) Ein Spiel besteht aus **25 Punkten oder acht Runden**. Der Spieler, der zuerst 25 Punkte erreicht oder am Ende der achten Runde führt, gewinnt das Spiel.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Bis einschließlich des Vorviertelfinales wird jedes Spiel auf der Grundlage von **acht Brettern** entschieden. Wenn der Punktestand am Ende des achten Bretts gleich ist, wird ein **Extra-Brett** gespielt. Vor dem Extra-Board findet ein Wurf statt, bei dem nur die Pause gewählt wird.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Bis einschließlich des Viertelfinals wird jedes Spiel auf der Grundlage von **acht Runden** entschieden. Bei Gleichstand am Ende der achten Runde wird eine **zusätzliche Runde** gespielt. Vor dem zusätzlichen Board findet ein Münzwurf statt, bei dem ausschließlich das Anspielrecht bestimmt wird.
 
-**57.** Alle Spiele werden durch das **beste von drei Spielen** entschieden.
+**57.** Alle Spiele werden im **Best-of-Three-Modus** entschieden.
 
 ## Seitenwechsel
 
-| Formatieren | Wenn die Seiten wechseln |
+| Spielform | Zeitpunkt des Seitenwechsels |
 |---|---|
-| Singles | Gegenrichtung am Ende jedes Spiels |
-| Doubles | Nächste rechte Seite am Ende jedes Spiels |
+| Einzel | Nach Abschluss jedes Spiels in die entgegengesetzte Richtung |
+| Doppel | Nach Abschluss jedes Spiels auf die nächste rechte Seite |
 
-**60.** &nbsp;&nbsp;a) Im **dritten Spiel** für Spiele bis einschließlich Vor-Viertelfinale wechseln die Seiten nach dem vierten Brett oder nachdem ein Spieler oder pair **13 Punkte** erzielt hat – je nachdem, was früher eintritt.
+**60.** &nbsp;&nbsp;a) Im **dritten Spiel** bei Begegnungen bis einschließlich des Viertelfinals erfolgt der Seitenwechsel nach dem vierten Board oder nachdem ein Spieler oder ein Doppel **13 Punkte** erzielt hat – je nachdem, was früher eintritt.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Ab **Viertelfinale** wechseln die Seiten erst, nachdem 13 Punkte von einem Spieler oder pair erzielt wurden.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Ab dem **Viertelfinale** erfolgt der Seitenwechsel erst, nachdem ein Spieler oder ein Doppel 13 Punkte erzielt hat.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Bleibt der Seitenwechsel vom Schiedsrichter oder einem anderen Spieler unbemerkt, erfolgt er, sobald er bemerkt wird – jedoch nach Abschluss des betreffenden Spielbretts.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Wenn der Seitenwechsel vom Schiedsrichter oder einem Spieler nicht bemerkt wird, findet er statt, sobald er bemerkt wird – jedoch erst nach Beendigung des jeweiligen Boards.
 
-**61.** Die Spieler dürfen nicht länger als **zwei Minuten** brauchen, um die Seite zu wechseln.
+**61.** Die Spieler dürfen für den Seitenwechsel nicht länger als **zwei Minuten** benötigen.

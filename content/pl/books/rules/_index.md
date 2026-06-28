@@ -1,6 +1,6 @@
 ---
 title: "Zasady"
-description: "Oficjalne carrom zasady i regulacje — przeczytaj i pobierz regulamin IAKC."
+description: "Oficjalne zasady i przepisy gry w carrom — zapoznaj się z regulaminem IAKC i pobierz go."
 layout: category
 category: rules
 aliases:

@@ -1,10 +1,11 @@
 ---
-title: "Carrom Techniki i umiejętności"
-description: "Kompletny przewodnik Arun Deshpande po carrom — od chwytów, przełamań i podstawowych uderzeń, poprzez obronę, atak i zaawansowane pozycje na szachownicy."
+title: "Techniki i umiejętności gry w carrom"
+description: "Kompletny przewodnik Aruna Deshpande'a po karambolu — od chwytów, uderzeń rozbijających i podstawowych uderzeń, po obronę, atak i zaawansowane ustawienia na planszy."
 weight: 2
 author: "Arun Deshpande"
 pageCount: 73
 category: "students"
-tagLabel: "Przeczytaj w Internecie"
+tagLabel: "Read online"
 chapters: true
 ---
+

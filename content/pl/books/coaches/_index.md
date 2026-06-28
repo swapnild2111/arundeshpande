@@ -1,5 +1,5 @@
 ---
-title: "Dla Trenerów"
+title: "Dla trenerów"
 layout: category
 category: coaches
 aliases:

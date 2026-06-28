@@ -1,5 +1,5 @@
 [home_title]
-other = "Carrom Autocar Arun Deshpande"
+other = "Arun Deshpande, entraîneur de carrom"
 
 [watch_videos]
 other = "Regarder des vidéos"
@@ -14,37 +14,37 @@ other = "Regarder sur YouTube"
 other = "Fermer"
 
 [youtube_channel]
-other = "YouTube Canal"
+other = "Chaîne YouTube"
 
 [play_store_label]
 other = "Téléchargez l'application sur Google Play"
 
 [google_play_app]
-other = "Application Google Play"
+other = "Application Google Play"
 
 [about_legend]
 other = "À propos de la légende"
 
 [explore]
-other = "Explorer"
+other = "Découvrir"
 
 [video_library]
 other = "Vidéothèque"
 
 [video_library_desc]
-other = "Regardez les didacticiels carrom classés par niveau de compétence, du débutant au champion."
+other = "Découvrez des tutoriels de carrom classés par niveau de compétence — du débutant au champion."
 
 [carrom_books]
-other = "Carrom Livres"
+other = "Carrom Books"
 
 [carrom_books_desc]
-other = "Téléchargez des livres PDF exclusifs pour les étudiants et les entraîneurs par Arun Deshpande."
+other = "Téléchargez des livres au format PDF exclusifs destinés aux élèves et aux entraîneurs, rédigés par Arun Deshpande."
 
 [photo_gallery]
 other = "Galerie de photos"
 
 [photo_gallery_desc]
-other = "Revivez le voyage : championnats, camps d'entraînement et moments emblématiques."
+other = "Revivez ce parcours : championnats, stages d'entraînement et moments emblématiques."
 
 [chapter]
 other = "Chapitre"
@@ -59,16 +59,16 @@ other = "Suivant"
 other = "E-mail"
 
 [phone]
-other = "Téléphone/WhatsApp"
+other = "Téléphone / WhatsApp"
 
 [location]
-other = "Emplacement"
+other = "Lieu"
 
 [coaching_enquiries]
-other = "Demandes de renseignements sur les entraîneurs"
+other = "Demandes de renseignements sur le coaching"
 
 [whatsapp_message]
-other = "Bonjour Monsieur Arun, j'ai trouvé le site de l'Académie Carrom et je suis intéressé par le coaching carrom."
+other = "Bonjour Monsieur Arun, j'ai découvert le site web de la Carrom Academy et je suis intéressé par des cours de carrom."
 
 [contact_information]
 other = "Coordonnées"
@@ -77,7 +77,7 @@ other = "Coordonnées"
 other = "Message sur WhatsApp"
 
 [whatsapp_hint]
-other = "Le moyen le plus rapide d'atteindre Arun pour des demandes de coaching et des ateliers."
+other = "Le moyen le plus rapide de contacter Arun pour toute demande concernant le coaching et les ateliers."
 
 [page_count]
 other = "pages"
@@ -92,7 +92,7 @@ other = "Source originale"
 other = "Sources originales"
 
 [no_books_yet]
-other = "Aucun livre disponible pour l'instant."
+other = "Aucun livre n'est encore disponible."
 
 [problem_label]
 other = "Problème"
@@ -107,7 +107,7 @@ other = "Groupes à problèmes"
 other = "Bientôt"
 
 [pdf_coming_soon]
-other = "PDF à venir"
+other = "PDF disponible prochainement"
 
 [ready_to_read]
 other = "Prêt à lire"
@@ -125,34 +125,34 @@ other = "Langue"
 other = "À venir"
 
 [coming_soon_body]
-other = "Cette rubrique est en cours de préparation. En attendant, rendez-vous sur la page Vidéos ou entrez touch via la page Contact."
+other = "Cette rubrique est en cours de préparation. En attendant, rendez-vous sur la page « Vidéos » ou contactez-nous via la page « Contact »."
 
 [watch_in_action]
-other = "À voir en action"
+other = "Regardez-le en action"
 
 [video_level_beginner]
 other = "Débutant"
 
 [video_level_intermediate]
-other = "Intermédiaire"
+other = "Niveau intermédiaire"
 
 [video_level_champion]
 other = "Champion"
 
 [video_lang_hint_label]
-other = "Sous-titres"
+other = "Légendes"
 
 [video_lang_hint_body]
-other = "Les vidéos sont en marathi avec des termes de carrom en anglais. Appuyez sur CC dans le lecteur et choisissez votre langue dans Sous-titres → Traduction automatique."
+other = "Les vidéos sont en marathi et contiennent des termes de carrom en anglais. Appuyez sur le bouton « CC » dans le lecteur, puis sélectionnez votre langue dans « Sous-titres » → « Traduction automatique »."
 
 [available_in_n_languages]
-other = 'Disponible en {{ .Count }} langues'
+other = 'Available in {{ .Count }} languages'
 
 [chapter_count_of]
-other = 'Chapitre {{ .Current }} sur {{ .Total }}'
+other = 'Chapter {{ .Current }} of {{ .Total }}'
 
 [reading_progress]
-other = "Progression de lecture"
+other = "Progression en lecture"
 
 [other_languages]
 other = "Autres langues"

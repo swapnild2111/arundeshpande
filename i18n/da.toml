@@ -20,7 +20,7 @@ other = "YouTube-kanal"
 other = "Hent appen på Google Play"
 
 [google_play_app]
-other = "Google Play-app"
+other = "Google Play-appen"
 
 [about_legend]
 other = "Om legenden"
@@ -32,19 +32,19 @@ other = "Udforsk"
 other = "Videobibliotek"
 
 [video_library_desc]
-other = "Carrom-tutorials kategoriseret efter niveau — fra begynder til mester."
+other = "Se vejledninger til carrom, inddelt efter færdighedsniveau — fra begynder til mester."
 
 [carrom_books]
 other = "Carrom-bøger"
 
 [carrom_books_desc]
-other = "Hent eksklusive PDF-bøger af Arun Deshpande for spillere og trænere."
+other = "Download eksklusive PDF-bøger til studerende og trænere af Arun Deshpande."
 
 [photo_gallery]
 other = "Fotogalleri"
 
 [photo_gallery_desc]
-other = "Genoplev rejsen — mesterskaber, træningslejre og særlige øjeblikke."
+other = "Genoplev rejsen — mesterskaber, træningslejre og ikoniske øjeblikke."
 
 [chapter]
 other = "Kapitel"
@@ -62,22 +62,22 @@ other = "E-mail"
 other = "Telefon / WhatsApp"
 
 [location]
-other = "Lokation"
+other = "Placering"
 
 [coaching_enquiries]
-other = "Coachingforespørgsler"
+other = "Forespørgsler vedrørende coaching"
 
 [whatsapp_message]
-other = "Hej Arun sir, jeg fandt Carrom Academy-hjemmesiden og er interesseret i carrom-coaching."
+other = "Hej Arun, jeg er stødt på Carrom Academys hjemmeside og er interesseret i at få undervisning i carrom."
 
 [contact_information]
 other = "Kontaktoplysninger"
 
 [message_on_whatsapp]
-other = "Skriv på WhatsApp"
+other = "Besked på WhatsApp"
 
 [whatsapp_hint]
-other = "Den hurtigste måde at kontakte Arun om coaching og workshops."
+other = "Den hurtigste måde at kontakte Arun på vedrørende forespørgsler om coaching og workshops."
 
 [page_count]
 other = "sider"
@@ -86,13 +86,13 @@ other = "sider"
 other = "Download PDF"
 
 [original_source]
-other = "Original kilde"
+other = "Oprindelig kilde"
 
 [original_sources]
-other = "Originale kilder"
+other = "Oprindelige kilder"
 
 [no_books_yet]
-other = "Ingen bøger tilgængelige endnu."
+other = "Der er endnu ingen bøger tilgængelige."
 
 [problem_label]
 other = "Problem"
@@ -101,7 +101,7 @@ other = "Problem"
 other = "Løsning"
 
 [ps_index_label]
-other = "Problegrupper"
+other = "Problemgrupper"
 
 [soon]
 other = "Snart"
@@ -125,34 +125,34 @@ other = "Sprog"
 other = "Kommer snart"
 
 [coming_soon_body]
-other = "Dette område er under forberedelse. I mellemtiden kan du se Videoer eller kontakte os via Kontakt-siden."
+other = "Dette afsnit er under udarbejdelse. I mellemtiden kan du gå til siden »Videoer« eller kontakte os via siden »Kontakt«."
 
 [watch_in_action]
-other = "Se det i praksis"
+other = "Se den i aktion"
 
 [video_level_beginner]
 other = "Begynder"
 
 [video_level_intermediate]
-other = "Øvet"
+other = "Mellemniveau"
 
 [video_level_champion]
 other = "Mester"
 
 [video_lang_hint_label]
-other = "Undertekster"
+other = "Billedtekster"
 
 [video_lang_hint_body]
-other = "Videoerne er på marathi med engelske carrom-udtryk. Tryk på CC-knappen i afspilleren, og vælg dit sprog under Undertekster → Oversæt automatisk."
+other = "Videoerne er på marathi med engelske carrom-udtryk. Tryk på CC-knappen i afspilleren, og vælg dit sprog under »Undertekster« → »Automatisk oversættelse«."
 
 [available_in_n_languages]
-other = 'Findes på {{ .Count }} sprog'
+other = 'Available in {{ .Count }} languages'
 
 [chapter_count_of]
-other = 'Kapitel {{ .Current }} af {{ .Total }}'
+other = 'Chapter {{ .Current }} of {{ .Total }}'
 
 [reading_progress]
-other = "Læseforløb"
+other = "Læsefremskridt"
 
 [other_languages]
 other = "Andre sprog"

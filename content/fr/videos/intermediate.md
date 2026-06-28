@@ -1,6 +1,6 @@
 ---
-title: "Intermédiaire"
-description: "Cours intermédiaires carrom — coups avancés, défense, force et technique de match."
+title: "Niveau intermédiaire"
+description: "Cours de carrom de niveau intermédiaire — coups avancés, défense, puissance et techniques de match."
 layout: category
 category: intermediate
 aliases:

@@ -1,36 +1,35 @@
 ---
-title: "Kapitel 4 — Griffe"
-description: "Natürlicher Griff, Scherengriff, Feststellgriff, Mittelfinger-Flachgriff – wann und wie man sie jeweils verwendet."
+title: "Kapitel 4 – Griffe"
+description: "Naturgriff, Scherengriff, Verriegelungsgriff, Mittelfinger-Flachgriff – wann und wie man die einzelnen Griffe einsetzt."
 weight: 4
 date: 2026-01-01
 author: "Arun Deshpande"
 cover:
   image: "/images/book/fig-03.jpg"
   alt: "Grips"
-translatedBy: "Aus dem Englischen übersetzt (KI-Entwurf)."
 ---
-*Griff ist die Grundlage jedes Schlags in diesem Buch. Arun beschreibt vier Griffe – entwickeln Sie zuerst einen natürlichen und fügen Sie dann die anderen hinzu, wenn Ihr Spiel wächst.*
+*Der Griff ist die Grundlage jedes Schlags in diesem Buch. Arun beschreibt vier Griffarten – entwickle zunächst einen natürlichen Griff und füge dann die anderen hinzu, wenn sich dein Spiel weiterentwickelt.*
 
 ## Griffe
 
-Grip ist im Spiel von carrom sehr wichtig. Sie sollten einen natürlichen Griff entwickeln.
+Der Griff ist beim Carrom-Spiel sehr wichtig. Du solltest einen natürlichen Griff entwickeln.
 
-## Natürlicher Halt
+## Natürlicher Griff
 
 ![Abbildung 1](/images/book/fig-03.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Natürlicher Halt</span>
-    <p class="def">Zeigefinger und Daumen auf dem striker; andere Finger ruhen auf dem Sperrholz. Der gebräuchlichste und am einfachsten zu erlernende Griff.</p>
+    <span class="term">Natürlicher Griff</span>
+    <p class="def">Zeigefinger und Daumen am Schlagstein; die anderen Finger ruhen auf dem Sperrholz. Der gängigste und am einfachsten zu erlernende Griff.</p>
   </div>
 </div>
 
-Es gibt viele Arten von Griffen. Der gebräuchlichste Griff ist die Kombination aus Zeigefinger und Daumen. Siehe das Foto oben. Dies ist ein sehr einfacher Griff und erfordert weniger Übung. Bei diesem Griff ruhen alle anderen Finger auf dem Sperrholz.
+Es gibt viele verschiedene Griffarten. Der gängigste Griff ist die Kombination aus Zeigefinger und Daumen. Siehe das obige Foto. Dies ist ein sehr einfacher Griff, der wenig Übung erfordert. Bei diesem Griff ruhen alle anderen Finger auf dem Sperrholz.
 
-Dieser Griff hat viele Vorteile. Mit diesem Griff kann ein Spieler die maximale Kontrolle über den striker behalten. Dieser Griff bleibt stabil und fest, da alle anderen Finger auf dem Sperrholz Halt finden. Ein Spieler mit diesem Griff kann auf kleinstem Raum spielen.
+Dieser Griff hat viele Vorteile. Mit diesem Griff kann ein Spieler maximale Kontrolle über den Schläger behalten. Dieser Griff bleibt stabil und fest, da alle anderen Finger durch das Sperrholz abgestützt werden. Ein Spieler, der diesen Griff verwendet, kann auf engstem Raum spielen.
 
-Manchmal, wenn nicht genügend Platz zum Anbringen des Griffs vorhanden ist, kann ein Spieler spielen, indem er mit dem Zeigefinger alle anderen Finger vom Sperrholz abhebt. Mit diesem Griff kann ein Spieler mit gleicher Leichtigkeit auf beiden Seiten (links oder rechts) des carrom board spielen. Daher bleibt das Spiel des Spielers auf keiner Seite schwach. Dabei greifen die Nägel aller Finger touch in das Sperrholz. Wenn also ein Nagel stärker als üblich gewachsen ist, verändert sich der Halt. Solche Kleinigkeiten sind in carrom sehr wichtig.
+Manchmal, wenn nicht genügend Platz für den Griff vorhanden ist, kann ein Spieler so spielen, dass der Zeigefinger alle anderen Finger vom Sperrholz abhebt. Mit diesem Griff kann ein Spieler auf beiden Seiten (links oder rechts) des Carrom-Bretts gleichermaßen leicht spielen. Daher weist das Spiel des Spielers auf keiner Seite Schwächen auf. Bei diesem Griff berühren die Fingernägel aller Finger das Sperrholz. Wenn also ein Fingernagel länger als gewöhnlich gewachsen ist, verändert sich der Griff. Solche Kleinigkeiten sind beim Carrom sehr wichtig.
 
 ## Scherengriff
 
@@ -39,34 +38,34 @@ Manchmal, wenn nicht genügend Platz zum Anbringen des Griffs vorhanden ist, kan
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">Scherengriff</span>
-    <p class="def">Wird hauptsächlich für die Pause in Indien verwendet; Wird in Sri Lanka und auf den Malediven als natürlicher Griff verwendet. Schwierig, von der rechten Seite zu spielen.</p>
+    <p class="def">Wird in Indien hauptsächlich für den Anstoß verwendet; in Sri Lanka und auf den Malediven als natürlicher Griff. Es ist schwierig, von der rechten Seite aus zu spielen.</p>
   </div>
 </div>
 
-Es wird hauptsächlich für die Pause in Indien verwendet. Es wird in Sri Lanka und auf den Malediven als natürlicher Griff verwendet. In Indien verwendeten nur Ivon Marquis und Kadirkhan diesen Griff als natürlichen Griff. Dieser Griff hat viele Nachteile. Es ist sehr schwierig, von der rechten Seite zu spielen.
+In Indien wird er grundsätzlich für den Anstoß verwendet. In Sri Lanka und auf den Malediven wird er als natürlicher Griff eingesetzt. In Indien verwendeten nur Ivon Marquis und Kadirkhan diesen Griff als natürlichen Griff. Dieser Griff hat viele Nachteile. Es ist sehr schwierig, von der rechten Seite aus zu spielen.
 
-## Feststellgriff
+## Locking-Griff
 
 ![Abbildung 3](/images/book/fig-05.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Feststellgriff</span>
-    <p class="def">Daumen, Zeigefinger und kleiner Finger (oder dritter Finger für zusätzliche force). Zeigefinger zwischen Daumen und Mittelfinger eingeklemmt; oft nicht touch der Spielfläche.</p>
+    <span class="term">Locking-Griff</span>
+    <p class="def">Daumen, Zeigefinger und kleiner Finger (oder der Ringfinger für zusätzliche Kraft). Der Zeigefinger ist zwischen Daumen und kleinem Finger eingeklemmt; er berührt oft nicht die Spielfläche.</p>
   </div>
 </div>
 
-Sie sollten diesen Griff erlernen, wenn Sie den Feststellgriff nicht als Ihren natürlichen Griff haben. Mit diesem Griff können Sie kraftvolle Schläge ausführen. Ich war 1982 einen Monat lang mit Suhas Kambli in Delhi und wir übten hart, um Demonstrationsspiele bei den Asienspielen zu spielen, als ich beobachtete, wie Suhas Kambli mit seinem natürlichen Verriegelungsgriff viele kraftvolle Schläge ausführte. Sein natürlicher Griff ist eine Kombination aus Daumen, Zeigefinger und kleinem Finger, aber wann immer er mehr force brauchte, wechselte er seinen kleinen Finger zum dritten Finger. Ich habe es einfach ausprobiert und angefangen, mit diesem Griff hart zuzuschlagen. Es hat mir Spaß gemacht, es zu benutzen, und wann immer ich Gelegenheit dazu hatte, habe ich es genutzt. Suhas hat mich ausgelacht, weil ich mit diesem Griff nicht richtig zielen konnte. Ich musste alle meine Anstrengungen unternehmen, um diesen Griff zu meistern. Bei dieser Griffart müssen Sie Ihren Zeigefinger zwischen Daumen und Mittelfinger einklemmen. Im Allgemeinen berührt bei diesem Griff der erste Finger, mit dem der Schlag ausgeführt wird, nicht die Spielfläche.
+Sie sollten diesen Griff erlernen, wenn der Locking-Griff nicht Ihr natürlicher Griff ist. Mit diesem Griff können Sie die Kraft für kraftvolle Schläge entwickeln. Ich war 1982 einen Monat lang mit Suhas Kambli in Delhi und wir trainierten hart, um bei den Asienspielen Demonstrationsspiele zu bestreiten, als ich beobachtete, wie Suhas Kambli mit seinem natürlichen Locking-Grip viele kraftvolle Schläge spielte. Sein natürlicher Griff ist eine Kombination aus Daumen, Zeigefinger und kleinem Finger, aber wann immer er zusätzliche Kraft benötigte, wechselte er vom kleinen Finger zum dritten Finger. Ich probierte es einfach aus und begann, mit diesem Griff hart zu schlagen. Es machte mir Spaß, ihn zu verwenden, und wann immer ich die Gelegenheit dazu hatte, nutzte ich ihn. Suhas lachte mich aus, weil ich mit diesem Griff nicht richtig zielen konnte. Ich musste mich voll und ganz anstrengen, um diesen Griff zu beherrschen. Bei dieser Griffart muss man den Zeigefinger zwischen Daumen und Mittelfinger einklemmen. Im Allgemeinen berührt bei diesem Griff der Zeigefinger, mit dem der Schlag ausgeführt wird, die Spielfläche nicht.
 
-## Mittelfinger-Flachgriff
+## Flacher Mittelfinger-Griff
 
 ![Abbildung 4](/images/book/fig-06.jpg)
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">Flacher Mittelfingergriff</span>
-    <p class="def">Verleiht dem striker einen natürlichen Spin gegen den Uhrzeigersinn. Unentbehrlich, wenn Spin erforderlich ist; kann auch mit der linken Hand gespielt werden.</p>
+    <span class="term">Flacher Mittelfinger-Griff</span>
+    <p class="def">Verleiht dem Spielstein einen natürlichen Spin gegen den Uhrzeigersinn. Unverzichtbar, wenn Spin erforderlich ist; kann auch mit der linken Hand gespielt werden.</p>
   </div>
 </div>
 
-Dieser Griff verleiht dem striker Spin. Es gibt viele Positionen auf dem carrom board, bei denen man den Schlag ohne Spin nicht erfolgreich spielen kann. Bei diesem Griff müssen Sie sich nicht anstrengen, um Spin zu erzeugen – er wird automatisch erzeugt. Daher wird es natürlicher Spin genannt. Die Drehung erfolgt gegen den Uhrzeigersinn. Sie sollten diesen nützlichen Griff entwickeln. Sie können es auch mit der linken Hand spielen, um die Schläge auf der anderen Seite zu spielen.
+Dieser Griff verleiht dem Schlagball Spin. Es gibt viele Positionen auf dem Carrom-Brett, an denen man den Schlag ohne Spin nicht erfolgreich ausführen kann. Bei diesem Griff muss man sich nicht anstrengen, um Spin zu erzeugen – er entsteht automatisch. Daher wird er als natürlicher Spin bezeichnet. Der Spin verläuft gegen den Uhrzeigersinn. Sie sollten diesen nützlichen Griff einüben. Sie können ihn auch mit der linken Hand ausführen, um die Schläge auf der anderen Seite zu spielen.
