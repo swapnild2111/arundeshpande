@@ -148,15 +148,6 @@ other = "Les vidéos sont en marathi avec des termes de carrom en anglais. Appuy
 [available_in_n_languages]
 other = 'Disponible en {{ .Count }} langues'
 
-[lang_group_international]
-other = "International"
-
-[lang_group_european]
-other = "Européen"
-
-[lang_group_south_asian]
-other = "Asiatique du Sud"
-
 [chapter_count_of]
 other = 'Chapitre {{ .Current }} sur {{ .Total }}'
 
@@ -165,3 +156,9 @@ other = "Progression de lecture"
 
 [other_languages]
 other = "Autres langues"
+
+[lang_group_world]
+other = "Monde"
+
+[lang_group_asia]
+other = "Asie"

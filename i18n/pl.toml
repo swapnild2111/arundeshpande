@@ -145,15 +145,6 @@ other = "Napisy"
 [video_lang_hint_body]
 other = "Filmy są w języku marathi i zawierają carrom angielskie terminy. Naciśnij przycisk CC w odtwarzaczu i wybierz język w obszarze Napisy → Automatyczne tłumaczenie."
 
-[lang_group_international]
-other = "Międzynarodowy"
-
-[lang_group_european]
-other = "europejski"
-
-[lang_group_south_asian]
-other = "Południowa Azja"
-
 [reading_progress]
 other = "Postęp w czytaniu"
 
@@ -165,3 +156,9 @@ other = 'Dostępne w {{ .Count }} językach'
 
 [chapter_count_of]
 other = 'Rozdział {{ .Current }} z {{ .Total }}'
+
+[lang_group_world]
+other = "Świat"
+
+[lang_group_asia]
+other = "Azja"

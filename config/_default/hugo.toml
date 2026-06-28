@@ -3,7 +3,7 @@ title = "Carrom Coach Arun Deshpande"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
-enableGitInfo = false
+enableGitInfo = true
 disableKinds = ["taxonomy", "term"]
 
 [sitemap]
@@ -18,7 +18,7 @@ disableKinds = ["taxonomy", "term"]
     weight = 1
     contentDir = "content/en"
     [languages.en.params]
-      description = "Carrom coaching, technique and book by Arun Deshpande"
+      description = "Free carrom coaching by Arun Deshpande — 7× Maharashtra Champion, India National Team coach. Full book, 60+ tutorial videos & PDF downloads in 12 languages."
 
   [languages.da]
     label = "Dansk"
@@ -99,6 +99,14 @@ disableKinds = ["taxonomy", "term"]
     contentDir = "content/mni"
     [languages.mni.params]
       description = "অৰুণ দেশপাণ্ডে না ক্যারম কোচিং, ৱাফম অমসুং বুক"
+
+  [languages.ta]
+    label = "தமிழ்"
+    locale = "ta"
+    weight = 12
+    contentDir = "content/ta"
+    [languages.ta.params]
+      description = "அருண் தேஷ்பாண்டே எழுதிய கேரம் பயிற்சி, நுட்பம் மற்றும் புத்தகம்"
 
 [outputs]
   home = ["HTML", "RSS"]

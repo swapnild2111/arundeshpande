@@ -148,15 +148,6 @@ other = "Videoerne er på marathi med engelske carrom-udtryk. Tryk på CC-knappe
 [available_in_n_languages]
 other = 'Findes på {{ .Count }} sprog'
 
-[lang_group_international]
-other = "International"
-
-[lang_group_european]
-other = "Europæisk"
-
-[lang_group_south_asian]
-other = "Sydasiatisk"
-
 [chapter_count_of]
 other = 'Kapitel {{ .Current }} af {{ .Total }}'
 
@@ -165,3 +156,9 @@ other = "Læseforløb"
 
 [other_languages]
 other = "Andre sprog"
+
+[lang_group_world]
+other = "Verden"
+
+[lang_group_asia]
+other = "Asien"

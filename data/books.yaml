@@ -18,6 +18,7 @@ books:
       gu: "downloads/carrom-techniques-and-skills-gu.pdf"
       pl: "downloads/carrom-techniques-and-skills-pl.pdf"
       mni: "downloads/carrom-techniques-and-skills-mni.pdf"
+      ta: "downloads/carrom-techniques-and-skills-ta.pdf"
     titles:
       en: "Carrom Techniques and Skills"
       da: "Carrom-teknik og færdigheder"
@@ -30,6 +31,7 @@ books:
       gu: "કેરમ તકનીકો અને કુશળતા"
       pl: "Techniki i umiejętności Carrom"
       mni: "ꯀꯦꯔꯝ ꯇꯦꯛꯅꯤꯛ ꯑꯃꯁꯨꯡ ꯁꯀꯤꯜ"
+      ta: "கேரம் நுட்பங்கள் மற்றும் திறன்கள்"
     descriptions:
       en: "Arun Deshpande's complete coaching book — grips, breaks, every major stroke, defence, offence, and advanced board positions."
       da: "Arun Deshpandes komplette træningsbog — greb, åbningsslag, alle hovedslag, forsvar, angreb og avancerede stillinger."
@@ -42,6 +44,7 @@ books:
       gu: "અરુણ દેશપાંડેની સંપૂર્ણ કોચિંગ બુક — ગ્રિપ્સ, બ્રેક્સ, દરેક મુખ્ય સ્ટ્રોક, ડિફેન્સ, ઓફેન્સ અને એડવાન્સ્ડ બોર્ડ પોઝિશન્સ."
       pl: "Kompletna książka coachingowa Aruna Deshpande — chwyty, przebicia, wszystkie główne uderzenia, obrona, atak i zaawansowane pozycje na planszy."
       mni: "ꯑꯔꯨꯟ ꯗꯦꯁꯄꯥꯟꯗꯦꯒꯤ ꯑꯣꯏꯕ ꯀꯣꯆꯤꯡ ꯄꯨꯛ — ꯒ꯭ꯔꯤꯄ, ꯕ꯭ꯔꯦꯛ, ꯃꯇꯝ ꯑꯃꯁꯨꯡ ꯑꯗꯨꯒꯨꯝꯕꯒꯤ ꯄꯣꯖꯤꯁꯟ."
+      ta: "அருண் தேஷ்பாண்டேயின் முழுமையான பயிற்சி புத்தகம் — கைப்பிடிகள், இடைவேளைகள், எல்லா முக்கிய அடிகள், தற்காப்பு மற்றும் மேம்பட்ட நிலைகள்."
     tagLabels:
       en: "Read online"
       da: "Læs online"
@@ -54,6 +57,7 @@ books:
       gu: "ઓનલાઈન વાંચો"
       pl: "Czytaj online"
       mni: "ꯑꯣꯟꯂꯥꯏꯟꯗ ꯑꯃꯨꯛ ꯁꯤꯡꯒꯠꯄ"
+      ta: "ஆன்லைனில் படிக்கவும்"
     languages:
       en: true
       da: true
@@ -66,6 +70,7 @@ books:
       gu: true
       pl: true
       mni: true
+      ta: true
 
   - id: official-carrom-rules
     category: rules
@@ -92,6 +97,7 @@ books:
       gu: "downloads/carrom-official-rules-gu.pdf"
       pl: "downloads/carrom-official-rules-pl.pdf"
       mni: "downloads/carrom-official-rules-mni.pdf"
+      ta: "downloads/carrom-official-rules-ta.pdf"
     titles:
       en: "Official Carrom Rules & Regulations"
       da: "Officielle carrom-regler"
@@ -104,6 +110,7 @@ books:
       gu: "સત્તાવાર કેરમ નિયમો અને નિયમો"
       pl: "Oficjalny regulamin Carrom"
       mni: "ꯀꯦꯔꯝꯒꯤ ꯑꯣꯏꯅꯕ ꯆꯥꯡꯁꯤꯟ"
+      ta: "அதிகாரப்பூர்வ கேரம் விதிகள்"
     descriptions:
       en: "The complete laws of carrom as published by the International Carrom Federation — equipment, definitions, match procedure, scoring, fouls, and the Queen rules."
       da: "De officielle internationale carrom-regler udgivet af International Carrom Federation."
@@ -116,6 +123,7 @@ books:
       gu: "International Carrom Federation દ્વારા પ્રકાશિત કેરમના સંપૂર્ણ કાયદા — સાધનો, વ્યાખ્યાઓ, મેચ પ્રક્રિયા, સ્કોરિંગ, ફાઉલ અને Queen નિયમો."
       pl: "Kompletne przepisy Carrom opublikowane przez Międzynarodową Federację Carrom — sprzęt, definicje, procedura meczowa, punktacja, faule i zasady dotyczące Queen."
       mni: "International Carrom Federation না ꯐꯦꯡꯗꯣꯛꯄ ꯀꯦꯔꯝꯒꯤ ꯆꯥꯡꯁꯤꯟ — ꯇ꯭ꯔꯩꯅꯤꯡ, ꯃꯅꯨꯡꯕꯗꯥ ꯁꯤꯡꯕ, ꯃꯆꯡ ꯍꯥꯏꯕ ꯑꯃꯁꯨꯡ Queen ꯆꯥꯡꯁꯤꯟ."
+      ta: "சர்வதேச கேரம் கூட்டமைப்பால் வெளியிடப்பட்ட கேரம் முழு விதிகள் — உபகரணங்கள், வரையறைகள், போட்டி நடைமுறை, மதிப்பெண், தவறுகள் மற்றும் Queen விதிகள்."
     tagLabels:
       en: "Read online"
       da: "Læs online"
@@ -128,6 +136,7 @@ books:
       gu: "ઓનલાઈન વાંચો"
       pl: "Czytaj online"
       mni: "ꯑꯣꯟꯂꯥꯏꯟꯗ ꯑꯃꯨꯛ ꯁꯤꯡꯒꯠꯄ"
+      ta: "ஆன்லைனில் படிக்கவும்"
     languages:
       en: true
       da: true
@@ -140,3 +149,4 @@ books:
       gu: true
       pl: true
       mni: true
+      ta: true

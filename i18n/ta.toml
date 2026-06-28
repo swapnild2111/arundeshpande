@@ -1,0 +1,164 @@
+[home_title]
+other = "Carrom பயிற்சியாளர் Arun Deshpande"
+
+[watch_videos]
+other = "வீடியோக்களைப் பார்க்கவும்"
+
+[play_video]
+other = "வீடியோவை இயக்கு"
+
+[watch_on_youtube]
+other = "YouTube இல் பார்க்கவும்"
+
+[close_video]
+other = "மூடு"
+
+[youtube_channel]
+other = "YouTube சேனல்"
+
+[play_store_label]
+other = "Google Play இல் பயன்பாட்டைப் பெறவும்"
+
+[google_play_app]
+other = "Google Play பயன்பாடு"
+
+[about_legend]
+other = "புராணக்கதை பற்றி"
+
+[explore]
+other = "ஆராயுங்கள்"
+
+[video_library]
+other = "வீடியோ நூலகம்"
+
+[video_library_desc]
+other = "carrom டுடோரியல்களைப் பார்க்கவும் - தொடக்கநிலை முதல் சாம்பியன் வரை."
+
+[carrom_books]
+other = "Carrom புத்தகங்கள்"
+
+[carrom_books_desc]
+other = "மாணவர்கள் மற்றும் பயிற்சியாளர்களுக்கான பிரத்யேக PDF புத்தகங்களை Arun Deshpande மூலம் பதிவிறக்கவும்."
+
+[photo_gallery]
+other = "புகைப்பட தொகுப்பு"
+
+[photo_gallery_desc]
+other = "பயணத்தை மீண்டும் பெறுங்கள் - சாம்பியன்ஷிப்புகள், பயிற்சி முகாம்கள் மற்றும் சின்னச் சின்ன தருணங்கள்."
+
+[chapter]
+other = "அத்தியாயம்"
+
+[previous]
+other = "முந்தைய"
+
+[next]
+other = "அடுத்து"
+
+[email]
+other = "மின்னஞ்சல்"
+
+[phone]
+other = "தொலைபேசி / வாட்ஸ்அப்"
+
+[location]
+other = "இடம்"
+
+[coaching_enquiries]
+other = "பயிற்சி விசாரணைகள்"
+
+[whatsapp_message]
+other = "வணக்கம் அருண் சார், Carrom அகாடமி இணையதளத்தைக் கண்டேன், carrom பயிற்சியில் ஆர்வமாக உள்ளேன்."
+
+[contact_information]
+other = "தொடர்பு தகவல்"
+
+[message_on_whatsapp]
+other = "வாட்ஸ்அப்பில் செய்தி"
+
+[whatsapp_hint]
+other = "பயிற்சி விசாரணைகள் மற்றும் பட்டறைகளுக்கு அருணிடம் செல்வதற்கான விரைவான வழி."
+
+[page_count]
+other = "பக்கங்கள்"
+
+[download_pdf]
+other = "PDF ஐப் பதிவிறக்கவும்"
+
+[original_source]
+other = "அசல் ஆதாரம்"
+
+[original_sources]
+other = "அசல் ஆதாரங்கள்"
+
+[no_books_yet]
+other = "இன்னும் புத்தகங்கள் கிடைக்கவில்லை."
+
+[problem_label]
+other = "பிரச்சனை"
+
+[solution_label]
+other = "தீர்வு"
+
+[ps_index_label]
+other = "சிக்கல் குழுக்கள்"
+
+[soon]
+other = "விரைவில்"
+
+[pdf_coming_soon]
+other = "PDF விரைவில்"
+
+[ready_to_read]
+other = "படிக்கத் தயார்"
+
+[start_reading]
+other = "படிக்க ஆரம்பியுங்கள்"
+
+[table_of_contents]
+other = "உள்ளடக்க அட்டவணை"
+
+[language_label]
+other = "மொழி"
+
+[coming_soon]
+other = "விரைவில் வரும்"
+
+[coming_soon_body]
+other = "இந்த பகுதி தயாராகி வருகிறது. இதற்கிடையில், வீடியோக்கள் பக்கத்திற்குச் செல்லவும் அல்லது தொடர்புப் பக்கத்தின் வழியாக touch ஐப் பெறவும்."
+
+[watch_in_action]
+other = "செயலில் பார்க்கவும்"
+
+[video_level_beginner]
+other = "ஆரம்பநிலை"
+
+[video_level_intermediate]
+other = "இடைநிலை"
+
+[video_level_champion]
+other = "சாம்பியன்"
+
+[video_lang_hint_label]
+other = "தலைப்புகள்"
+
+[video_lang_hint_body]
+other = "வீடியோக்கள் மராத்தியில் ஆங்கில carrom விதிமுறைகளுடன் உள்ளன. பிளேயரில் உள்ள CC பொத்தானைத் தட்டி, வசனங்கள் → தானியங்கு மொழிபெயர்ப்பின் கீழ் உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்."
+
+[lang_group_world]
+other = "உலகம்"
+
+[lang_group_asia]
+other = "ஆசியா"
+
+[reading_progress]
+other = "வாசிப்பு முன்னேற்றம்"
+
+[other_languages]
+other = "பிற மொழிகள்"
+
+[available_in_n_languages]
+other = '{{ .Count }} மொழிகளில் கிடைக்கிறது'
+
+[chapter_count_of]
+other = 'அத்தியாயம் {{ .Current }} / {{ .Total }}'

@@ -145,15 +145,6 @@ other = "ꯀꯦꯄꯁꯅꯁꯤꯡ꯫"
 [video_lang_hint_body]
 other = "ꯚꯤꯗꯤꯑꯣꯁꯤꯡ ꯑꯁꯤ ꯏꯪꯂꯤꯁ carrom ꯇꯔꯃꯁꯤꯡꯒꯥ ꯂꯣꯌꯅꯅꯥ ꯃꯔꯥꯊꯤꯗꯥ ꯂꯩ꯫ ꯄ꯭ꯂꯦꯌꯥꯔ ꯑꯗꯨꯗꯥ ꯂꯩꯕꯥ ꯁꯤ.ꯁꯤ.ꯒꯤ ꯕꯇꯟ ꯑꯗꯨ ꯇꯦꯞ ꯇꯧ ꯑꯃꯁꯨꯡ ꯁꯕꯇꯥꯏꯇꯂꯁ → ꯑꯣꯇꯣ-ꯇ꯭ꯔꯥꯟꯁꯂꯦꯠꯀꯤ ꯃꯈꯥꯗꯥ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ ꯑꯗꯨ ꯈꯜꯂꯨ꯫"
 
-[lang_group_international]
-other = "ꯃꯥꯂꯦꯝꯒꯤ ꯑꯣꯡꯕ"
-
-[lang_group_european]
-other = "ꯌꯨꯔꯣꯄꯤꯌꯟ ꯑꯦꯝ"
-
-[lang_group_south_asian]
-other = "ꯈꯥ ꯑꯦꯁꯤꯌꯥꯒꯤ ꯑꯦꯝ"
-
 [reading_progress]
 other = "ꯄꯥꯕꯒꯤ ꯄ꯭ꯔꯣꯒ꯭ꯔꯦꯁ꯫"
 
@@ -165,3 +156,9 @@ other = '{{ .Count }} ꯂꯣꯂꯗ ꯂꯩꯕꯥ'
 
 [chapter_count_of]
 other = 'ꯃꯆꯤꯡ {{ .Current }} / {{ .Total }}'
+
+[lang_group_world]
+other = "ꯃꯤꯑꯣꯏꯕ ꯂꯝ"
+
+[lang_group_asia]
+other = "ꯑꯦꯁꯤꯌꯥ"

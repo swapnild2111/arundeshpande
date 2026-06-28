@@ -148,15 +148,6 @@ other = "वीडियो मराठी में हैं, अंग्र
 [available_in_n_languages]
 other = '{{ .Count }} भाषाओं में उपलब्ध'
 
-[lang_group_international]
-other = "अंतरराष्ट्रीय"
-
-[lang_group_european]
-other = "यूरोपीय"
-
-[lang_group_south_asian]
-other = "दक्षिण एशियाई"
-
 [chapter_count_of]
 other = 'अध्याय {{ .Current }} / {{ .Total }}'
 
@@ -165,3 +156,9 @@ other = "पठन प्रगति"
 
 [other_languages]
 other = "अन्य भाषाएँ"
+
+[lang_group_world]
+other = "विश्व"
+
+[lang_group_asia]
+other = "एशिया"

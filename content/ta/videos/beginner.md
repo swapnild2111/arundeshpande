@@ -1,0 +1,8 @@
+---
+title: "ஆரம்பநிலை"
+description: "தொடக்க carrom பயிற்சிகள் — பலகை அமைப்பு, பிடிப்பு, அடிப்படை காட்சிகள் மற்றும் Arun Deshpande உடன் விதிகள்."
+layout: category
+category: beginner
+aliases:
+  - /videos/beginner/
+---

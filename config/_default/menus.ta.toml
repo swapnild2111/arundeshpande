@@ -1,0 +1,40 @@
+[[main]]
+  identifier = "home"
+  name = "முகப்பு"
+  url = "/"
+  weight = 10
+  [main.params]
+    icon = "home"
+
+[[main]]
+  identifier = "videos"
+  name = "வீடியோக்கள்"
+  url = "/videos/"
+  weight = 20
+  [main.params]
+    icon = "play"
+
+[[main]]
+  identifier = "books"
+  name = "புத்தகங்கள்"
+  url = "/books/"
+  weight = 30
+  [main.params]
+    icon = "book"
+
+[[main]]
+  identifier = "gallery"
+  name = "காட்சியகம்"
+  url = "/gallery/"
+  weight = 40
+  [main.params]
+    icon = "image"
+    comingSoon = true
+
+[[main]]
+  identifier = "contact"
+  name = "தொடர்பு"
+  url = "/contact/"
+  weight = 50
+  [main.params]
+    icon = "mail"
