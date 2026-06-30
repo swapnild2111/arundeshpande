@@ -34,7 +34,7 @@ CACHE_DIR = REPO / ".cache" / "book-docx"
 OUTPUT_DIR = REPO / "static" / "downloads"
 BOOK_SLUG = "carrom-techniques-and-skills"
 
-ALL_LANGS = ["en", "da", "de", "mr", "it", "fr", "si", "hi", "gu", "pl", "mni", "ta"]
+ALL_LANGS = ["en", "da", "de", "mr", "it", "fr", "si", "hi", "gu", "pl", "mni", "ta", "or"]
 
 # Reuse translation helpers from translate-books.py
 _spec = importlib.util.spec_from_file_location(
