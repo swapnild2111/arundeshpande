@@ -34,10 +34,11 @@
 
 {{ with .Site.Params.stats }}
 <div class="stat-grid">
-  {{ range . }}
+  {{ $statKeys := slice "stat_maharashtra_champion" "stat_world_championship_coach" "stat_years_of_coaching" "stat_countries_trained" }}
+  {{ range $i, $stat := . }}
     <div class="stat">
-      <div class="stat-value">{{ .value }}</div>
-      <div class="stat-label">{{ .label }}</div>
+      <div class="stat-value">{{ $stat.value }}</div>
+      <div class="stat-label">{{ i18n (index $statKeys $i) | default $stat.label }}</div>
     </div>
   {{ end }}
 </div>
@@ -45,12 +46,14 @@
 
 {{ with .Site.Params.achievements }}
 <div class="ach-grid">
-  {{ range . }}
+  {{ $achTitles := slice "ach_title_maharashtra" "ach_title_national" "ach_title_intl_coach" "ach_title_world" }}
+  {{ $achSubs   := slice "ach_sub_maharashtra"   "ach_sub_national"   "ach_sub_intl_coach"   "ach_sub_world" }}
+  {{ range $i, $ach := . }}
     <div class="ach">
-      <div class="ach-icon">{{ partial (printf "icons/%s.html" (.icon | default "award")) . }}</div>
+      <div class="ach-icon">{{ partial (printf "icons/%s.html" ($ach.icon | default "award")) . }}</div>
       <div class="ach-text">
-        <span class="ach-title">{{ .title }}</span>
-        <span class="ach-sub">{{ .subtitle }}</span>
+        <span class="ach-title">{{ i18n (index $achTitles $i) | default $ach.title }}</span>
+        <span class="ach-sub">{{ i18n (index $achSubs $i) | default $ach.subtitle }}</span>
       </div>
     </div>
   {{ end }}

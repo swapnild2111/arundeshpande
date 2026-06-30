@@ -14,7 +14,7 @@ other = "Guarda su YouTube"
 other = "Chiudi"
 
 [youtube_channel]
-other = "Canale YouTube"
+other = "YouTube Canale"
 
 [play_store_label]
 other = "Scarica l'app su Google Play"
@@ -65,7 +65,7 @@ other = "Telefono / WhatsApp"
 other = "Ubicazione"
 
 [coaching_enquiries]
-other = "Richieste relative al coaching"
+other = "Richieste di coaching"
 
 [whatsapp_message]
 other = "Buongiorno, signor Arun, ho trovato il sito web della Carrom Academy e sarei interessato a seguire un corso di carrom."
@@ -143,13 +143,7 @@ other = "Campione"
 other = "Didascalie"
 
 [video_lang_hint_body]
-other = "I video sono in marathi con termini del carrom in inglese. Tocca il pulsante CC nel lettore e scegli la tua lingua nella sezione Sottotitoli → Traduzione automatica."
-
-[available_in_n_languages]
-other = 'Available in {{ .Count }} languages'
-
-[chapter_count_of]
-other = 'Chapter {{ .Current }} of {{ .Total }}'
+other = "I video sono in marathi con termini del carrom in inglese. Tocca il pulsante CC nel lettore e seleziona la tua lingua nella sezione Sottotitoli → Traduzione automatica."
 
 [reading_progress]
 other = "Progressi nella lettura"
@@ -161,10 +155,49 @@ other = "Altre lingue"
 other = "Hai guardato {count} soluzioni su {total}"
 
 [ps_reset_progress]
-other = "Reimposta i progressi"
+other = "Azzerare i progressi"
 
 [ps_reset_confirm]
-other = "Cancellare la cronologia di visualizzazione?"
+other = "Vuoi azzerare la cronologia di visualizzazione?"
 
 [ps_solved_label]
 other = "Risolto"
+
+[stat_maharashtra_champion]
+other = "Campione del Maharashtra"
+
+[stat_world_championship_coach]
+other = "Allenatore dei Campionati mondiali"
+
+[stat_years_of_coaching]
+other = "Anni di attività come allenatore"
+
+[stat_countries_trained]
+other = "Paesi in cui si sono tenuti i corsi di formazione"
+
+[ach_title_maharashtra]
+other = "7 volte campione del Maharashtra"
+
+[ach_sub_maharashtra]
+other = "Record statale (dal 1957)"
+
+[ach_title_national]
+other = "Campione nazionale"
+
+[ach_sub_national]
+other = "(Singles 1969 · Veteran 1981)"
+
+[ach_title_intl_coach]
+other = "Coach internazionale"
+
+[ach_sub_intl_coach]
+other = "Ha allenato in oltre 10 paesi"
+
+[ach_title_world]
+other = "Campionato mondiale"
+
+[ach_sub_world]
+other = "Ha portato l'India a tutte le edizioni dei Mondiali"
+
+[intro_section_title]
+other = "Inizia da qui — proprio dal coach in persona"

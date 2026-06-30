@@ -1,5 +1,5 @@
 [home_title]
-other = "କ୍ୟାରମ କୋଚ ଅରୁଣ ଦେଶପାଣ୍ଡେ"
+other = "କାରୋମ୍ କୋଚ୍ ଅରୁଣ ଦେଶପାଣ୍ଡେ"
 
 [watch_videos]
 other = "ଭିଡିଓ ଦେଖନ୍ତୁ"
@@ -11,40 +11,40 @@ other = "ଭିଡିଓ ଚଲାନ୍ତୁ"
 other = "YouTube ରେ ଦେଖନ୍ତୁ"
 
 [close_video]
-other = "ବନ୍ଦ କରନ୍ତୁ"
+other = "ବନ୍ଦ"
 
 [youtube_channel]
-other = "YouTube ଚ୍ୟାନେଲ"
+other = "YouTube ଚ୍ୟାନେଲ୍"
 
 [play_store_label]
-other = "Google Play ରେ ଆପ୍ ପ୍ରାପ୍ତ କରନ୍ତୁ"
+other = "ଗୁଗୁଲ୍ ପ୍ଲେରେ ଆପ୍ ପାଆନ୍ତୁ"
 
 [google_play_app]
-other = "ଗୁଗଲ ପ୍ଲେ ଆପ୍"
+other = "ଗୁଗୁଲ୍ ପ୍ଲେ ଆପ୍"
 
 [about_legend]
-other = "କିଂବଦନ୍ତୀ ବିଷୟରେ"
+other = "କିମ୍ବଦନ୍ତୀ ବିଷୟରେ"
 
 [explore]
-other = "ଅନୁସନ୍ଧାନ"
+other = "ଏକ୍ସପ୍ଲୋର୍ କରନ୍ତୁ"
 
 [video_library]
 other = "ଭିଡିଓ ଲାଇବ୍ରେରୀ"
 
 [video_library_desc]
-other = "ଶିକ୍ଷାର୍ଥୀଠାରୁ ଚ୍ୟାମ୍ପିଅନ ପର୍ଯ୍ୟନ୍ତ କ୍ୟାରମ ଟ୍ୟୁଟୋରିଆଲ ଦେଖନ୍ତୁ।"
+other = "କ ill ଶଳ ସ୍ତର ଅନୁଯାୟୀ ବର୍ଗୀକୃତ କାରୋମ୍ ଟ୍ୟୁଟୋରିଆଲ୍ ଗୁଡିକ ଦେଖନ୍ତୁ - ଆରମ୍ଭରୁ ଚାମ୍ପିଅନ୍ ପର୍ଯ୍ୟନ୍ତ।"
 
 [carrom_books]
-other = "କ୍ୟାରମ ପୁସ୍ତକ"
+other = "କାରୋମ୍ ବୁକ୍"
 
 [carrom_books_desc]
-other = "ଅରୁଣ ଦେଶପାଣ୍ଡେଙ୍କ ଦ୍ୱାରା ଛାତ୍ର ଓ କୋଚମାନଙ୍କ ପାଇଁ ବିଶେଷ PDF ପୁସ୍ତକ ଡାଉନଲୋଡ କରନ୍ତୁ।"
+other = "ଅରୁଣ ଦେଶପାଣ୍ଡେଙ୍କ ଦ୍ୱାରା ଛାତ୍ର ଏବଂ ପ୍ରଶିକ୍ଷକମାନଙ୍କ ପାଇଁ ସ୍ୱତନ୍ତ୍ର PDF ପୁସ୍ତକ ଡାଉନଲୋଡ୍ କରନ୍ତୁ।"
 
 [photo_gallery]
 other = "ଫଟୋ ଗ୍ୟାଲେରୀ"
 
 [photo_gallery_desc]
-other = "ଯାତ୍ରାକୁ ପୁଣି ଅନୁଭବ କରନ୍ତୁ — ଚ୍ୟାମ୍ପିଅନଶିପ, କୋଚିଂ ଶିବିର ଏବଂ ଐତିହାସିକ ମୁହୂର୍ତ।"
+other = "ଯାତ୍ରାକୁ ମୁକ୍ତ କରନ୍ତୁ - ଚାମ୍ପିଅନସିପ୍, କୋଚିଂ କ୍ୟାମ୍ପ ଏବଂ ଆଇକନିକ୍ ମୁହୂର୍ତ୍ତ।"
 
 [chapter]
 other = "ଅଧ୍ୟାୟ"
@@ -56,10 +56,10 @@ other = "ପୂର୍ବ"
 other = "ପରବର୍ତ୍ତୀ"
 
 [email]
-other = "ଇମେଲ"
+other = "ଇମେଲ୍ କରନ୍ତୁ"
 
 [phone]
-other = "ଫୋନ / WhatsApp"
+other = "ଫୋନ୍ / ହ୍ ats ାଟସ୍ ଆପ୍"
 
 [location]
 other = "ଅବସ୍ଥାନ"
@@ -68,22 +68,22 @@ other = "ଅବସ୍ଥାନ"
 other = "କୋଚିଂ ଅନୁସନ୍ଧାନ"
 
 [whatsapp_message]
-other = "ନମସ୍କାର ଅରୁଣ ସାର, ମୁଁ Carrom Academy ୱେବସାଇଟ ଖୋଜିଲି ଏବଂ ମୁଁ କ୍ୟାରମ କୋଚିଂରେ ଆଗ୍ରହୀ।"
+other = "ନମସ୍କାର ଅରୁଣ ସାର୍, ମୁଁ କାରୋମ୍ ଏକାଡେମୀ ୱେବସାଇଟ୍ ପାଇଲି ଏବଂ ମୁଁ କାରୋମ୍ କୋଚିଂ ପାଇଁ ଆଗ୍ରହୀ।"
 
 [contact_information]
 other = "ଯୋଗାଯୋଗ ସୂଚନା"
 
 [message_on_whatsapp]
-other = "WhatsApp ରେ ବାର୍ତ୍ତା ପଠାନ୍ତୁ"
+other = "ହ୍ ats ାଟସ୍ ଆପ୍ରେ ବାର୍ତ୍ତା"
 
 [whatsapp_hint]
-other = "କୋଚିଂ ଅନୁସନ୍ଧାନ ଏବଂ କର୍ମଶାଳା ପାଇଁ ଅରୁଣଙ୍କ ସହ ଯୋଗାଯୋଗ କରିବାର ଦ୍ରୁତ ଉପାୟ।"
+other = "କୋଚିଂ ଅନୁସନ୍ଧାନ ଏବଂ କର୍ମଶାଳା ପାଇଁ ଅରୁଣରେ ପହଞ୍ଚିବାର ଦ୍ରୁତତମ ଉପାୟ।"
 
 [page_count]
-other = "ପୃଷ୍ଠା"
+other = "ପୃଷ୍ଠାଗୁଡ଼ିକ"
 
 [download_pdf]
-other = "PDF ଡାଉନଲୋଡ କରନ୍ତୁ"
+other = "PDF ଡାଉନଲୋଡ୍ କରନ୍ତୁ"
 
 [original_source]
 other = "ମୂଳ ଉତ୍ସ"
@@ -92,7 +92,7 @@ other = "ମୂଳ ଉତ୍ସ"
 other = "ମୂଳ ଉତ୍ସ"
 
 [no_books_yet]
-other = "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ପୁସ୍ତକ ଉପଲବ୍ଧ ନାହିଁ।"
+other = "ଏପର୍ଯ୍ୟନ୍ତ କ books ଣସି ବହି ଉପଲବ୍ଧ ନାହିଁ।"
 
 [problem_label]
 other = "ସମସ୍ୟା"
@@ -107,16 +107,16 @@ other = "ସମସ୍ୟା ଗୋଷ୍ଠୀ"
 other = "ଶୀଘ୍ର"
 
 [pdf_coming_soon]
-other = "PDF ଶୀଘ୍ର ଆସୁଛି"
+other = "PDF ଶୀଘ୍ର ଆସିବ"
 
 [ready_to_read]
-other = "ପଢ଼ିବା ପାଇଁ ପ୍ରସ୍ତୁତ"
+other = "ପ read ିବାକୁ ପ୍ରସ୍ତୁତ"
 
 [start_reading]
-other = "ପଢ଼ା ଆରମ୍ଭ କରନ୍ତୁ"
+other = "ପ reading ିବା ଆରମ୍ଭ କର"
 
 [table_of_contents]
-other = "ବିଷୟ ସୂଚୀ"
+other = "ବିଷୟବସ୍ତୁର ସାରଣୀ"
 
 [language_label]
 other = "ଭାଷା"
@@ -125,61 +125,79 @@ other = "ଭାଷା"
 other = "ଶୀଘ୍ର ଆସୁଛି"
 
 [coming_soon_body]
-other = "ଏହି ବିଭାଗ ପ୍ରସ୍ତୁତ ହେଉଛି। ଏ ସମୟ ମଧ୍ୟରେ ଭିଡିଓ ପୃଷ୍ଠାକୁ ଯାଆନ୍ତୁ ବା ଯୋଗାଯୋଗ ପୃଷ୍ଠା ଦ୍ୱାରା ଯୋଗାଯୋଗ କରନ୍ତୁ।"
+other = "ଏହି ବିଭାଗ ପ୍ରସ୍ତୁତ ହେଉଛି। ମ meantime ିରେ ମ the ିରେ, ଭିଡିଓ ପୃଷ୍ଠାକୁ ଯାଆନ୍ତୁ କିମ୍ବା ଯୋଗାଯୋଗ ପୃଷ୍ଠା ମାଧ୍ୟମରେ touch ରେ ପ୍ରବେଶ କରନ୍ତୁ।"
 
 [watch_in_action]
-other = "କ୍ରିୟାରେ ଦେଖନ୍ତୁ"
+other = "କାର୍ଯ୍ୟରେ ଦେଖନ୍ତୁ"
 
 [video_level_beginner]
-other = "ଶିକ୍ଷାର୍ଥୀ"
+other = "ଆରମ୍ଭ"
 
 [video_level_intermediate]
 other = "ମଧ୍ୟବର୍ତ୍ତୀ"
 
 [video_level_champion]
-other = "ଚ୍ୟାମ୍ପିଅନ"
+other = "ଚାମ୍ପିଅନ୍"
 
 [video_lang_hint_label]
-other = "ଉପଶୀର୍ଷକ"
+other = "କ୍ୟାପସନ୍"
 
 [video_lang_hint_body]
-other = "ଭିଡିଓଗୁଡ଼ିକ ମରାଠୀରେ ଅଛି, ଇଂରାଜୀ କ୍ୟାରମ ଶବ୍ଦ ସହ। ପ୍ଲେୟରରେ CC ବଟନ ଦବାନ୍ତୁ ଓ Subtitles → Auto-translate ତଳେ ଆପଣଙ୍କ ଭାଷା ବଛନ୍ତୁ।"
-
-[available_in_n_languages]
-other = '{{ .Count }} ଭାଷାରେ ଉପଲବ୍ଧ'
-
-[chapter_count_of]
-other = 'ଅଧ୍ୟାୟ {{ .Current }} / {{ .Total }}'
+other = "ଭିଡିଓଗୁଡିକ ଇଂରାଜୀ କାରୋମ୍ ଶବ୍ଦ ସହିତ ମରାଠୀରେ ଅଛି। ପ୍ଲେୟାରରେ CC ବଟନ୍ ଟ୍ୟାପ୍ କରନ୍ତୁ ଏବଂ ସବ୍ଟାଇଟ୍ → ଅଟୋ-ଟ୍ରାନ୍ସଲେଟ୍ ଅଧୀନରେ ଆପଣଙ୍କର ଭାଷା ବାଛନ୍ତୁ।"
 
 [reading_progress]
-other = "ପଢ଼ା ଅଗ୍ରଗତି"
+other = "ପଠନ ଅଗ୍ରଗତି"
 
 [other_languages]
 other = "ଅନ୍ୟ ଭାଷା"
 
 [ps_progress_template]
-other = "ଆପଣ {total} ର {count}ଟି ସମାଧାନ ଦେଖିଛନ୍ତି"
+other = "ଆପଣ {ସମୁଦାୟ} ସମାଧାନର {ଗଣନା} ଦେଖିଛନ୍ତି"
 
 [ps_reset_progress]
-other = "ଅଗ୍ରଗତି ରିସେଟ କରନ୍ତୁ"
+other = "ଅଗ୍ରଗତି ପୁନ et ସେଟ୍ କରନ୍ତୁ"
 
 [ps_reset_confirm]
-other = "ଦର୍ଶନ ଇତିହାସ ସଫା କରିବେ?"
+other = "ତୁମର ଦର୍ଶନ ଅଗ୍ରଗତି ସଫା କର?"
 
 [ps_solved_label]
 other = "ସମାଧାନ ହୋଇଛି"
 
-[intro]
-other = "ପରିଚୟ"
+[stat_maharashtra_champion]
+other = "ମହାରାଷ୍ଟ୍ର ଚାମ୍ପିଅନ୍"
+
+[stat_world_championship_coach]
+other = "ବିଶ୍ୱ ଚାମ୍ପିଅନସିପ୍ କୋଚ୍"
+
+[stat_years_of_coaching]
+other = "କୋଚିଂ ବର୍ଷ"
+
+[stat_countries_trained]
+other = "ଦେଶ ତାଲିମପ୍ରାପ୍ତ"
+
+[ach_title_maharashtra]
+other = "7 × ମହାରାଷ୍ଟ୍ର ଚାମ୍ପିଅନ୍"
+
+[ach_sub_maharashtra]
+other = "ରାଜ୍ୟ ରେକର୍ଡ (1957 ପରଠାରୁ)"
+
+[ach_title_national]
+other = "ଜାତୀୟ ଚାମ୍ପିଅନ୍"
+
+[ach_sub_national]
+other = "(ଏକକ 1969 · ଭେଟେରାନ୍ 1981)"
+
+[ach_title_intl_coach]
+other = "ଆନ୍ତର୍ଜାତୀୟ କୋଚ୍"
+
+[ach_sub_intl_coach]
+other = "10+ ଦେଶ ପ୍ରଶିକ୍ଷିତ"
+
+[ach_title_world]
+other = "ବିଶ୍ୱ ଚାମ୍ପିଅନସିପ୍"
+
+[ach_sub_world]
+other = "ଭାରତକୁ ପ୍ରତ୍ୟେକ ବିଶ୍ୱକୁ ଆଗେଇ ନେଇଛି"
 
 [intro_section_title]
-other = "ଏଠୁ ଆରମ୍ଭ କରନ୍ତୁ — କୋଚଙ୍କ ପାଖରୁ ସିଧା"
-
-[watch_all]
-other = "ସମସ୍ତ ଦେଖନ୍ତୁ"
-
-[watch_more]
-other = "ଆହୁରି ଦେଖନ୍ତୁ"
-
-[videos]
-other = "ଭିଡିଓ"
+other = "ଏଠାରେ ଆରମ୍ଭ କରନ୍ତୁ - ନିଜେ କୋଚ୍ ଠାରୁ"

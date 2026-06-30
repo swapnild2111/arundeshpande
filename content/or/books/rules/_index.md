@@ -1,6 +1,6 @@
 ---
 title: "ନିୟମ"
-description: "ଅଧିକୃତ କ୍ୟାରମ ନିୟମ ଓ ନିୟନ୍ତ୍ରଣ — IAKC ନିୟମ ପୁସ୍ତିକା ପଢ଼ନ୍ତୁ ଓ ଡାଉନଲୋଡ କରନ୍ତୁ।"
+description: "ଅଫିସିଆଲ୍ କାରୋମ୍ ନିୟମ ଏବଂ ନିୟମାବଳୀ - IAKC ରୁଲବୁକ୍ ପ read ଏବଂ ଡାଉନଲୋଡ୍ କର।"
 layout: category
 category: rules
 aliases:

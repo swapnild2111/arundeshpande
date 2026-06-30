@@ -43,6 +43,7 @@ _spec = importlib.util.spec_from_file_location(
 _tb = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_tb)
 translate_text = _tb.translate_text
+get_translator = _tb.get_translator
 
 
 def find_soffice() -> str:
@@ -105,11 +106,40 @@ def set_paragraph_text(para, text: str) -> None:
         para.add_run(text)
 
 
+# Font overrides for scripts whose characters Calibri can't render.
+SCRIPT_FONTS = {
+    "mni": "Noto Sans Meetei Mayek",
+}
+
+
+def apply_script_font(doc: Document, font_name: str) -> None:
+    """Set every run that contains non-ASCII text to the given font.
+
+    Sets all four font slots (ascii, hAnsi, cs, eastAsia) so Word/LibreOffice
+    uses the override regardless of which script slot it considers a glyph
+    to belong to.
+    """
+    from docx.oxml.ns import qn
+    from docx.oxml import OxmlElement
+
+    for para in iter_paragraphs(doc):
+        for run in para.runs:
+            if not run.text or not any(ord(c) > 127 for c in run.text):
+                continue
+            rPr = run._element.get_or_add_rPr()
+            # Remove any existing rFonts
+            for existing in rPr.findall(qn("w:rFonts")):
+                rPr.remove(existing)
+            rFonts = OxmlElement("w:rFonts")
+            for attr in ("w:ascii", "w:hAnsi", "w:cs", "w:eastAsia"):
+                rFonts.set(qn(attr), font_name)
+            rPr.insert(0, rFonts)
+
+
 def translate_docx(src: Path, dest: Path, lang: str) -> None:
     print(f"  translating docx → {lang} …", flush=True)
     doc = Document(str(src))
-    gt_target = (_tb.LANGS.get(lang) or {}).get("gt_target", lang)
-    translator = GoogleTranslator(source="en", target=gt_target)
+    translator = get_translator(lang)
     total = sum(1 for _ in iter_paragraphs(doc))
     done = 0
 
@@ -124,6 +154,10 @@ def translate_docx(src: Path, dest: Path, lang: str) -> None:
         if done % 40 == 0:
             print(f"    … {done}/{total} paragraphs", flush=True)
         time.sleep(0.05)
+
+    if lang in SCRIPT_FONTS:
+        print(f"  applying font override: {SCRIPT_FONTS[lang]}", flush=True)
+        apply_script_font(doc, SCRIPT_FONTS[lang])
 
     dest.parent.mkdir(parents=True, exist_ok=True)
     doc.save(str(dest))

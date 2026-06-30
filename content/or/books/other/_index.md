@@ -1,5 +1,5 @@
 ---
-title: "ଅନ୍ୟ"
+title: "ଅନ୍ୟମାନେ।"
 layout: category
 category: other
 aliases:

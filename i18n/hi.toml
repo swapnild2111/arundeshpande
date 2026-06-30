@@ -32,13 +32,13 @@ other = "अन्वेषण करना"
 other = "वीडियो लाइब्रेरी"
 
 [video_library_desc]
-other = "शुरुआती से चैंपियन तक कौशल स्तर के आधार पर वर्गीकृत कैरम ट्यूटोरियल देखें।"
+other = "शुरुआती से चैंपियन तक - कौशल स्तर के आधार पर वर्गीकृत कैरम ट्यूटोरियल देखें।"
 
 [carrom_books]
 other = "कैरम पुस्तकें"
 
 [carrom_books_desc]
-other = "अरुण देशपांडे द्वारा छात्रों और प्रशिक्षकों के लिए विशेष पीडीएफ पुस्तकें डाउनलोड करें।"
+other = "छात्रों और प्रशिक्षकों के लिए अरुण देशपांडे द्वारा लिखित विशेष पीडीएफ पुस्तकें डाउनलोड करें।"
 
 [photo_gallery]
 other = "फोटो गैलरी"
@@ -128,7 +128,7 @@ other = "जल्द आ रहा है"
 other = "यह अनुभाग तैयार किया जा रहा है. इस बीच, वीडियो पृष्ठ पर जाएं या संपर्क पृष्ठ के माध्यम से touch में प्रवेश करें।"
 
 [watch_in_action]
-other = "क्रिया में देखें"
+other = "कार्रवाई में देखो"
 
 [video_level_beginner]
 other = "शुरुआती"
@@ -143,28 +143,61 @@ other = "चैंपियन"
 other = "कैप्शन"
 
 [video_lang_hint_body]
-other = "वीडियो मराठी में हैं, अंग्रेज़ी कैरम शब्दों के साथ। प्लेयर में CC बटन दबाएँ और उपशीर्षक → स्वतः-अनुवाद के अंतर्गत अपनी भाषा चुनें।"
-
-[available_in_n_languages]
-other = '{{ .Count }} भाषाओं में उपलब्ध'
-
-[chapter_count_of]
-other = 'अध्याय {{ .Current }} / {{ .Total }}'
+other = "वीडियो अंग्रेजी कैरम शब्दों के साथ मराठी में हैं। प्लेयर में CC बटन टैप करें और उपशीर्षक → ऑटो-अनुवाद के अंतर्गत अपनी भाषा चुनें।"
 
 [reading_progress]
-other = "पठन प्रगति"
+other = "पढ़ने की प्रगति"
 
 [other_languages]
-other = "अन्य भाषाएँ"
+other = "अन्य भाषाएं"
 
 [ps_progress_template]
-other = "आपने {total} में से {count} समाधान देखे हैं"
+other = "आपने {कुल} समाधानों की {गिनती} देखी है"
 
 [ps_reset_progress]
 other = "प्रगति रीसेट करें"
 
 [ps_reset_confirm]
-other = "देखने का इतिहास साफ़ करें?"
+other = "अपनी देखने की प्रगति साफ़ करें?"
 
 [ps_solved_label]
-other = "हल हो गया"
+other = "सुलझ गया"
+
+[stat_maharashtra_champion]
+other = "महाराष्ट्र चैंपियन"
+
+[stat_world_championship_coach]
+other = "विश्व चैम्पियनशिप कोच"
+
+[stat_years_of_coaching]
+other = "कोचिंग के वर्ष"
+
+[stat_countries_trained]
+other = "देशों को प्रशिक्षित किया गया"
+
+[ach_title_maharashtra]
+other = "7× महाराष्ट्र चैंपियन"
+
+[ach_sub_maharashtra]
+other = "राज्य रिकार्ड (1957 से)"
+
+[ach_title_national]
+other = "राष्ट्रीय चैंपियन"
+
+[ach_sub_national]
+other = "(एकल 1969 · वयोवृद्ध 1981)"
+
+[ach_title_intl_coach]
+other = "अंतर्राष्ट्रीय कोच"
+
+[ach_sub_intl_coach]
+other = "10+ देशों को प्रशिक्षित किया गया"
+
+[ach_title_world]
+other = "विश्व चैम्पियनशिप"
+
+[ach_sub_world]
+other = "भारत को हर विश्व में पहुंचाया"
+
+[intro_section_title]
+other = "यहां से शुरुआत करें - खुद कोच से"

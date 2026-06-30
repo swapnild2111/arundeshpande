@@ -1,6 +1,6 @@
 ---
 title: "ଫଟୋ ଗ୍ୟାଲେରୀ"
-description: "କୋଚିଂ ସେସନ, ଟୁର୍ଣ୍ଣାମେଣ୍ଟ ଓ ଯାତ୍ରା।"
+description: "କୋଚିଂ ଅଧିବେଶନ, ଟୁର୍ନାମେଣ୍ଟ ଏବଂ ଭ୍ରମଣ।"
 sitemap:
   disable: true
 filters: ["All", "Coaching", "Tournaments", "Camps", "International"]
@@ -22,4 +22,4 @@ photos:
   - alt: "Coaching camp, Pune"
     tags: ["camps"]
 ---
-ଫଟୋଗୁଡ଼ିକ `static/images/gallery/` ରେ ରଖନ୍ତୁ ଓ ଉପରର `photos` ତାଲିକାରେ `src` ଫିଲ୍ଡ ଦ୍ୱାରା ଯୋଡ଼ନ୍ତୁ, ଯଥା `src: "/images/gallery/photo-01.jpg"`।
+ଫଟୋଗୁଡ଼ିକୁ "ଷ୍ଟାଟିକ୍ / ଇମେଜ୍ / ଗ୍ୟାଲେରୀ /" ରେ ପକାନ୍ତୁ ଏବଂ ଏକ "src" ଫିଲ୍ଡ ସହିତ ଉପରୋକ୍ତ "ଫଟୋ" ତାଲିକାରେ ରେଫରେନ୍ସ କରନ୍ତୁ। "src:" /images/gallery/photo-01.jpg ""।

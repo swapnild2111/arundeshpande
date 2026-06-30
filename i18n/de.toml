@@ -14,19 +14,19 @@ other = "Auf YouTube ansehen"
 other = "Schließen"
 
 [youtube_channel]
-other = "YouTube-Kanal"
+other = "YouTube Kanal"
 
 [play_store_label]
 other = "Lade die App bei Google Play herunter"
 
 [google_play_app]
-other = "Google Play-App"
+other = "Google Play App"
 
 [about_legend]
-other = "Über die Legende"
+other = "About the Legend"
 
 [explore]
-other = "Entdecken"
+other = "Explore"
 
 [video_library]
 other = "Videobibliothek"
@@ -125,7 +125,7 @@ other = "Sprache"
 other = "Demnächst"
 
 [coming_soon_body]
-other = "Dieser Abschnitt befindet sich derzeit in Vorbereitung. In der Zwischenzeit können Sie die Seite „Videos\" besuchen oder über die Seite „Kontakt\" mit uns in Verbindung treten."
+other = "Dieser Abschnitt befindet sich derzeit in Vorbereitung. In der Zwischenzeit kannst du die Seite „Videos“ besuchen oder über die Seite „Kontakt“ touch erreichen."
 
 [watch_in_action]
 other = "In Aktion ansehen"
@@ -143,13 +143,7 @@ other = "Meister"
 other = "Bildunterschriften"
 
 [video_lang_hint_body]
-other = "Die Videos sind auf Marathi mit englischen Carrom-Begriffen. Tippen Sie im Player auf die Schaltfläche „CC\" und wählen Sie unter „Untertitel\" → „Automatische Übersetzung\" Ihre Sprache aus."
-
-[available_in_n_languages]
-other = 'Available in {{ .Count }} languages'
-
-[chapter_count_of]
-other = 'Chapter {{ .Current }} of {{ .Total }}'
+other = "Die Videos sind auf Marathi mit englischen Carrom-Begriffen. Tippen Sie im Player auf die Schaltfläche „CC“ und wählen Sie unter „Untertitel“ → „Automatische Übersetzung“ Ihre Sprache aus."
 
 [reading_progress]
 other = "Lesefortschritt"
@@ -158,13 +152,52 @@ other = "Lesefortschritt"
 other = "Andere Sprachen"
 
 [ps_progress_template]
-other = "Sie haben {count} von {total} Lösungen angesehen"
+other = "Du hast dir {count} von {total} Lösungen angesehen"
 
 [ps_reset_progress]
 other = "Fortschritt zurücksetzen"
 
 [ps_reset_confirm]
-other = "Ihren Sehfortschritt löschen?"
+other = "Den Wiedergabestatus löschen?"
 
 [ps_solved_label]
 other = "Gelöst"
+
+[stat_maharashtra_champion]
+other = "Meister von Maharashtra"
+
+[stat_world_championship_coach]
+other = "Weltmeisterschaftstrainer"
+
+[stat_years_of_coaching]
+other = "Jahre als Trainer"
+
+[stat_countries_trained]
+other = "Länder, in denen Schulungen durchgeführt wurden"
+
+[ach_title_maharashtra]
+other = "7-facher Meister von Maharashtra"
+
+[ach_sub_maharashtra]
+other = "Landesrekord (seit 1957)"
+
+[ach_title_national]
+other = "Nationaler Meister"
+
+[ach_sub_national]
+other = "(Singles 1969 · Veteran 1981)"
+
+[ach_title_intl_coach]
+other = "Internationaler Trainer"
+
+[ach_sub_intl_coach]
+other = "In über 10 Ländern als Trainer tätig"
+
+[ach_title_world]
+other = "Weltmeisterschaft"
+
+[ach_sub_world]
+other = "Führte Indien zu jeder Weltmeisterschaft"
+
+[intro_section_title]
+other = "Fangen Sie hier an – direkt beim Trainer selbst"

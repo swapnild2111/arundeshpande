@@ -1,5 +1,5 @@
 [home_title]
-other = "કेरम કોચ અરુણ દેશपাंडे"
+other = "કેરમ કોચ અરુણ દેશપાંડે"
 
 [watch_videos]
 other = "વિડિઓઝ જુઓ"
@@ -32,13 +32,13 @@ other = "અન્વેષણ કરો"
 other = "વિડિઓ લાઇબ્રેરી"
 
 [video_library_desc]
-other = "કૌશલ્ય સ્તર દ્વારા વર્ગીકૃત થયેલ કेरम ટ્યુટોરિયલ્સ જુઓ — શિખાઉ માણસથી ચેમ્પિયન સુધી."
+other = "કૌશલ્ય સ્તર દ્વારા વર્ગીકૃત થયેલ કેરમ ટ્યુટોરિયલ્સ જુઓ — શિખાઉ માણસથી ચેમ્પિયન સુધી."
 
 [carrom_books]
-other = "કेरम પુસ્તકો"
+other = "કેરમ બુક્સ"
 
 [carrom_books_desc]
-other = "અરુણ દેશपাंडे દ્વારા વિદ્યાર્થીઓ અને કોચ માટે વિશિષ્ટ PDF પુસ્તકો ડાઉનલોડ કરો."
+other = "અરુણ દેશપાંડે દ્વારા વિદ્યાર્થીઓ અને કોચ માટે વિશિષ્ટ PDF પુસ્તકો ડાઉનલોડ કરો."
 
 [photo_gallery]
 other = "ફોટો ગેલેરી"
@@ -68,7 +68,7 @@ other = "સ્થાન"
 other = "કોચિંગ પૂછપરછ"
 
 [whatsapp_message]
-other = "હેલો અરુણ સર, મને કेरम એકેડમીની વેબસાઇટ મળી અને મને કेरम કોચિંગમાં રસ છે."
+other = "હેલો અરુણ સર, મને કેરમ એકેડમીની વેબસાઇટ મળી અને મને કેરમ કોચિંગમાં રસ છે."
 
 [contact_information]
 other = "સંપર્ક માહિતી"
@@ -143,13 +143,7 @@ other = "ચેમ્પિયન"
 other = "કૅપ્શન્સ"
 
 [video_lang_hint_body]
-other = "વીડિયો અંગ્રેજી કेरम શબ્દો સાથે મરાઠીમાં છે. પ્લેયરમાં CC બટનને ટેપ કરો અને સબટાઈટલ → સ્વતઃ અનુવાદ હેઠળ તમારી ભાષા પસંદ કરો."
-
-[available_in_n_languages]
-other = '{{ .Count }} ભાષાઓમાં ઉપલબ્ધ'
-
-[chapter_count_of]
-other = 'પ્રકરણ {{ .Current }} / {{ .Total }}'
+other = "વીડિયો અંગ્રેજી કેરમ શબ્દો સાથે મરાઠીમાં છે. પ્લેયરમાં CC બટનને ટેપ કરો અને સબટાઈટલ → સ્વતઃ અનુવાદ હેઠળ તમારી ભાષા પસંદ કરો."
 
 [reading_progress]
 other = "વાંચન પ્રગતિ"
@@ -158,13 +152,52 @@ other = "વાંચન પ્રગતિ"
 other = "અન્ય ભાષાઓ"
 
 [ps_progress_template]
-other = "તમે {total} માંથી {count} ઉકેલ જોયા છે"
+other = "તમે {total} ઉકેલોમાંથી {count} જોયા છે"
 
 [ps_reset_progress]
 other = "પ્રગતિ રીસેટ કરો"
 
 [ps_reset_confirm]
-other = "તમારો જોવાનો ઇતિહાસ સાફ કરવો?"
+other = "તમારી જોવાની પ્રગતિ સાફ કરીએ?"
 
 [ps_solved_label]
-other = "ઉકેલાયું"
+other = "ઉકેલી"
+
+[stat_maharashtra_champion]
+other = "મહારાષ્ટ્ર ચેમ્પિયન"
+
+[stat_world_championship_coach]
+other = "વર્લ્ડ ચેમ્પિયનશિપ કોચ"
+
+[stat_years_of_coaching]
+other = "કોચિંગના વર્ષો"
+
+[stat_countries_trained]
+other = "દેશો પ્રશિક્ષિત"
+
+[ach_title_maharashtra]
+other = "7× મહારાષ્ટ્ર ચેમ્પિયન"
+
+[ach_sub_maharashtra]
+other = "રાજ્ય રેકોર્ડ (1957 થી)"
+
+[ach_title_national]
+other = "નેશનલ ચેમ્પિયન"
+
+[ach_sub_national]
+other = "(સિંગલ્સ 1969 · વેટરન 1981)"
+
+[ach_title_intl_coach]
+other = "આંતરરાષ્ટ્રીય કોચ"
+
+[ach_sub_intl_coach]
+other = "10+ દેશો પ્રશિક્ષિત"
+
+[ach_title_world]
+other = "વિશ્વ ચેમ્પિયનશિપ"
+
+[ach_sub_world]
+other = "ભારતને દરેક વિશ્વ તરફ દોરી ગયું"
+
+[intro_section_title]
+other = "અહીંથી શરૂ કરો - પોતે કોચ પાસેથી"

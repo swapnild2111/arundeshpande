@@ -1,5 +1,5 @@
 ---
-title: "କୋଚଙ୍କ ପାଇଁ"
+title: "କୋଚ୍ମାନଙ୍କ ପାଇଁ"
 layout: category
 category: coaches
 aliases:

@@ -32,13 +32,13 @@ other = "एक्सप्लोर करा"
 other = "व्हिडिओ लायब्ररी"
 
 [video_library_desc]
-other = "कॅरम ट्यूटोरियल पहा कौशल्य स्तरानुसार वर्गीकृत — नवशिक्या ते चॅम्पियन पर्यंत."
+other = "कौशल्य स्तरानुसार वर्गीकृत कॅरम ट्यूटोरियल पहा — नवशिक्यापासून चॅम्पियनपर्यंत."
 
 [carrom_books]
 other = "कॅरम पुस्तके"
 
 [carrom_books_desc]
-other = "अरुण देशपांडे द्वारे विद्यार्थी आणि प्रशिक्षकांसाठी विशेष PDF पुस्तके डाउनलोड करा."
+other = "अरुण देशपांडे यांची विद्यार्थी आणि प्रशिक्षकांसाठी खास PDF पुस्तके डाउनलोड करा."
 
 [photo_gallery]
 other = "फोटो गॅलरी"
@@ -68,7 +68,7 @@ other = "स्थान"
 other = "कोचिंग चौकशी"
 
 [whatsapp_message]
-other = "नमस्कार अरुण सर, मला कॅरम Academy वेबसाइट सापडली आहे आणि मला कॅरम कोचिंगमध्ये रस आहे."
+other = "नमस्कार अरुण सर, मला कॅरम अकादमीची वेबसाइट सापडली आहे आणि मला कॅरम कोचिंगमध्ये रस आहे."
 
 [contact_information]
 other = "संपर्क माहिती"
@@ -134,37 +134,70 @@ other = "कृतीत पहा"
 other = "नवशिक्या"
 
 [video_level_intermediate]
-other = "मध्यम"
+other = "मध्यवर्ती"
 
 [video_level_champion]
 other = "चॅम्पियन"
 
 [video_lang_hint_label]
-other = "उपशीर्षके"
+other = "मथळे"
 
 [video_lang_hint_body]
-other = "व्हिडिओ मराठीत आहेत, इंग्रजी कॅरम शब्दांसह. प्लेअरमधील CC बटण दाबा आणि उपशीर्षके → स्वयं-भाषांतर अंतर्गत आपली भाषा निवडा."
-
-[available_in_n_languages]
-other = '{{ .Count }} भाषांमध्ये उपलब्ध'
-
-[chapter_count_of]
-other = 'अध्याय {{ .Current }} / {{ .Total }}'
+other = "व्हिडिओ इंग्रजी कॅरम शब्दांसह मराठीत आहेत. प्लेअरमधील CC बटणावर टॅप करा आणि सबटायटल्स → ऑटो-अनुवाद अंतर्गत तुमची भाषा निवडा."
 
 [reading_progress]
-other = "वाचन प्रगती"
+other = "वाचनाची प्रगती"
 
 [other_languages]
 other = "इतर भाषा"
 
 [ps_progress_template]
-other = "तुम्ही {total} पैकी {count} उपाय पाहिले आहेत"
+other = "तुम्ही {total} उपायांपैकी {count} पाहिले आहेत"
 
 [ps_reset_progress]
 other = "प्रगती रीसेट करा"
 
 [ps_reset_confirm]
-other = "तुमचा पाहण्याचा इतिहास मिटवायचा का?"
+other = "तुमची पाहण्याची प्रगती साफ करायची?"
 
 [ps_solved_label]
-other = "सोडवले"
+other = "सोडवला"
+
+[stat_maharashtra_champion]
+other = "महाराष्ट्र चॅम्पियन"
+
+[stat_world_championship_coach]
+other = "जागतिक चॅम्पियनशिप प्रशिक्षक"
+
+[stat_years_of_coaching]
+other = "कोचिंगची वर्षे"
+
+[stat_countries_trained]
+other = "देश प्रशिक्षित"
+
+[ach_title_maharashtra]
+other = "7× महाराष्ट्र चॅम्पियन"
+
+[ach_sub_maharashtra]
+other = "राज्य रेकॉर्ड (1957 पासून)"
+
+[ach_title_national]
+other = "राष्ट्रीय चॅम्पियन"
+
+[ach_sub_national]
+other = "(एकल १९६९ · ज्येष्ठ १९८१)"
+
+[ach_title_intl_coach]
+other = "आंतरराष्ट्रीय प्रशिक्षक"
+
+[ach_sub_intl_coach]
+other = "10+ देश प्रशिक्षित"
+
+[ach_title_world]
+other = "जागतिक चॅम्पियनशिप"
+
+[ach_sub_world]
+other = "भारताला प्रत्येक जगापर्यंत नेले"
+
+[intro_section_title]
+other = "इथून सुरुवात करा — स्वतः प्रशिक्षकाकडून"

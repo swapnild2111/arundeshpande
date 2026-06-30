@@ -14,7 +14,7 @@ other = "Se på YouTube"
 other = "Luk"
 
 [youtube_channel]
-other = "YouTube-kanal"
+other = "YouTube Kanal"
 
 [play_store_label]
 other = "Hent appen på Google Play"
@@ -68,7 +68,7 @@ other = "Placering"
 other = "Forespørgsler vedrørende coaching"
 
 [whatsapp_message]
-other = "Hej Arun, jeg er stødt på Carrom Academys hjemmeside og er interesseret i at få undervisning i carrom."
+other = "Hej Arun, jeg har fundet Carrom Academys hjemmeside og er interesseret i at få undervisning i carrom."
 
 [contact_information]
 other = "Kontaktoplysninger"
@@ -145,12 +145,6 @@ other = "Billedtekster"
 [video_lang_hint_body]
 other = "Videoerne er på marathi med engelske carrom-udtryk. Tryk på CC-knappen i afspilleren, og vælg dit sprog under »Undertekster« → »Automatisk oversættelse«."
 
-[available_in_n_languages]
-other = 'Available in {{ .Count }} languages'
-
-[chapter_count_of]
-other = 'Chapter {{ .Current }} of {{ .Total }}'
-
 [reading_progress]
 other = "Læsefremskridt"
 
@@ -164,7 +158,46 @@ other = "Du har set {count} af {total} løsninger"
 other = "Nulstil fremskridt"
 
 [ps_reset_confirm]
-other = "Ryd din visningshistorik?"
+other = "Vil du slette din seerhistorik?"
 
 [ps_solved_label]
 other = "Løst"
+
+[stat_maharashtra_champion]
+other = "Maharashtra-mester"
+
+[stat_world_championship_coach]
+other = "VM-træner"
+
+[stat_years_of_coaching]
+other = "År som coach"
+
+[stat_countries_trained]
+other = "Lande, hvor der er afholdt kurser"
+
+[ach_title_maharashtra]
+other = "7 gange mester i Maharashtra"
+
+[ach_sub_maharashtra]
+other = "Delstatsrekord (siden 1957)"
+
+[ach_title_national]
+other = "Landsmester"
+
+[ach_sub_national]
+other = "(Singler 1969 · Veteran 1981)"
+
+[ach_title_intl_coach]
+other = "International coach"
+
+[ach_sub_intl_coach]
+other = "Har trænet i over 10 lande"
+
+[ach_title_world]
+other = "Verdensmesterskab"
+
+[ach_sub_world]
+other = "Førte Indien til alle verdensmesterskaber"
+
+[intro_section_title]
+other = "Start her — med træneren selv"

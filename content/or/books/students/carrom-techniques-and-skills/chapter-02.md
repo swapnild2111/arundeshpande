@@ -1,76 +1,76 @@
 ---
-title: "अध्याय 2 — उपकरण"
-description: "कैरम सेट का प्रत्येक भाग - बोर्ड, फ्रेम, पॉकेट, बेस लाइन, सर्कल, सिक्के, striker, स्टैंड, लैंप।"
+title: "ଅଧ୍ୟାୟ 2 — ଯନ୍ତ୍ରପାତି।"
+description: "କାରୋମ୍ ସେଟ୍ ର ପ୍ରତ୍ୟେକ ଅଂଶ - ବୋର୍ଡ, ଫ୍ରେମ୍, ପକେଟ୍, ବେସ୍ ଲାଇନ୍, ସର୍କଲ୍, ମୁଦ୍ରା, striker, ଷ୍ଟାଣ୍ଡ, ଲ୍ୟାମ୍ପ।"
 weight: 2
 date: 2026-01-01
 author: "Arun Deshpande"
-translatedBy: "ହିନ୍ଦୀରୁ ଅନୁବାଦ (AI ଡ୍ରାଫ୍ଟ)."
+translatedBy: "ଇଂରାଜୀରୁ ଅନୁବାଦ (AI ଡ୍ରାଫ୍ଟ)."
 ---
-*कैरम सेट का प्रत्येक भाग - बोर्ड, फ्रेम, पॉकेट, बेस लाइन, सर्कल, सिक्के, striker, स्टैंड और लैंप। अपने स्ट्रोक्स सीखने से पहले अपने उपकरण को जान लें।*
+* କାରୋମ୍ ସେଟ୍ ର ପ୍ରତ୍ୟେକ ଅଂଶ - ବୋର୍ଡ, ଫ୍ରେମ୍, ପକେଟ୍, ବେସ୍ ଲାଇନ୍, ସର୍କଲ୍, ମୁଦ୍ରା, striker, ଷ୍ଟାଣ୍ଡ, ଏବଂ ଲ୍ୟାମ୍ପ। ତୁମର ଷ୍ଟ୍ରୋକ ଶିଖିବା ପୂର୍ବରୁ ତୁମର ଯନ୍ତ୍ରପାତି ଜାଣ।
 
-## कैरम Board
+## କାରୋମ୍ ବୋର୍ଡ।
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">खेल की सतह</span>
-    <p class="def">प्लाइवुड,<strong>29 इंच</strong>वर्ग। मोटाई आम तौर पर<strong>12-16 मिमी</strong>.</p>
+    <span class="term">ଭୂପୃଷ୍ଠ ଖେଳିବା।</span>
+    <p class="def">ପ୍ଲାଇଡ୍,<strong>29 ଇଞ୍ଚ।</strong>ବର୍ଗ ସାଧାରଣତ Th ମୋଟା।<strong>12-16 ମିମି</strong>.</p>
   </div>
   <div class="definition-card">
-    <span class="term">फ्रेम्स</span>
-    <p class="def">चार भुजाएँ,<strong>3 इंच</strong>चौड़ा,<strong>2 इंच</strong>मोटा।</p>
+    <span class="term">ଫ୍ରେମ୍</span>
+    <p class="def">ଚାରି ପାର୍ଶ୍ୱ,<strong>3 ଇଞ୍ଚ।</strong>ଚଉଡା,<strong>2 ଇଞ୍ଚ।</strong>ମୋଟା।</p>
   </div>
   <div class="definition-card">
-    <span class="term">जेब</span>
-    <p class="def">प्रत्येक में चार कोने वाली जेबें<strong>4.45 सेमी</strong>व्यास में.</p>
+    <span class="term">ପକେଟ</span>
+    <p class="def">ଚାରୋଟି କୋଣ ପକେଟ୍, ପ୍ରତ୍ୟେକ।<strong>4.45 ସେ.ମି.</strong>ବ୍ୟାସ</p>
   </div>
   <div class="definition-card">
-    <span class="term">आधार रेखाएँ</span>
-    <p class="def">चार पंक्तियाँ; दो रेखाओं के बीच की दूरी है<strong>3.18 सेमी</strong>.</p>
+    <span class="term">ମୂଳ ରେଖା।</span>
+    <p class="def">ଚାରୋଟି ଧାଡି; ଦୁଇଟି ରେଖା ମଧ୍ୟରେ ଦୂରତା ହେଉଛି।<strong>3.18 ସେମି।</strong>.</p>
   </div>
   <div class="definition-card">
-    <span class="term">आधार वृत्त</span>
-    <p class="def">आठ वृत्त,<strong>3.18 सेमी</strong>व्यास, लाल रंग से रंगा हुआ।</p>
+    <span class="term">ବେସ୍ ସର୍କଲ୍।</span>
+    <p class="def">ଆଠଟି ସର୍କଲ୍,<strong>3.18 ସେମି।</strong>ବ୍ୟାସ, ନାଲି ରଙ୍ଗ।</p>
   </div>
   <div class="definition-card">
-    <span class="term">केन्द्रीय वृत्त</span>
-    <p class="def">लाल वृत्त,<strong>3.18 सेमी</strong>व्यास में.</p>
+    <span class="term">କେନ୍ଦ୍ର ସର୍କଲ୍।</span>
+    <p class="def">ଲାଲ୍ ବୃତ୍ତ,<strong>3.18 ସେମି।</strong>ବ୍ୟାସ</p>
   </div>
   <div class="definition-card">
-    <span class="term">बाहरी घेरा</span>
-    <p class="def"><strong>17 सेमी</strong>व्यास में.</p>
+    <span class="term">ବାହ୍ୟ ସର୍କଲ୍।</span>
+    <p class="def"><strong>17 ସେ.ମି.</strong>ବ୍ୟାସ</p>
   </div>
 </div>
 
-## सिक्के और Striker
+## ମୁଦ୍ରା ଏବଂ Striker।
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">सिक्के</span>
-    <p class="def"><strong>9 सफेद, 9 काले, 1 लाल</strong>(Queen) - कुल 19। व्यास<strong>3.18 सेमी</strong>; वज़न<strong>5.25–5.50 ग्राम</strong>.</p>
+    <span class="term">ମୁଦ୍ରା।</span>
+    <p class="def"><strong>9 ଧଳା, 9 କଳା, 1 ନାଲି।</strong>(Queen) - ସମୁଦାୟ 19। ବ୍ୟାସ<strong>3.18 ସେମି।</strong>; ଓଜନ<strong>5.25-5.50 ଗ୍ରାମ</strong>.</p>
   </div>
   <div class="definition-card">
     <span class="term">Striker</span>
-    <p class="def">वजन से ज्यादा नहीं<strong>15 ग्रा</strong>. अधिकतम व्यास<strong>4.13 सेमी</strong>.</p>
+    <p class="def">ଓଜନ ଅଧିକ ନୁହେଁ।<strong>15 ଗ୍ରାମ</strong>। ସର୍ବାଧିକ ବ୍ୟାସ।<strong>4.13 ସେମି।</strong>.</p>
   </div>
 </div>
 
-## स्टैंड, सीट और रोशनी
+## ଛିଡା, ଆସନ, ଏବଂ ଆଲୋକ।
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">खड़ा होना</span>
-    <p class="def">के बीच की ऊंचाई<strong>63 सेमी</strong>और<strong>70 सेमी</strong>.</p>
+    <span class="term">ଠିଆ ହୁଅ।</span>
+    <p class="def">ମଧ୍ୟରେ ଉଚ୍ଚତା।<strong>63 ସେମି।</strong>ଏବଂ<strong>70 ସେ.ମି.</strong>.</p>
   </div>
   <div class="definition-card">
-    <span class="term">स्टूल या कुर्सी</span>
-    <p class="def">के बीच की ऊंचाई<strong>40 सेमी</strong>और<strong>50 सेमी</strong>.</p>
+    <span class="term">ମଳ କିମ୍ବା ଚେୟାର।</span>
+    <p class="def">ମଧ୍ୟରେ ଉଚ୍ଚତା।<strong>40 ସେ.ମି.</strong>ଏବଂ<strong>50 ସେ.ମି.</strong>.</p>
   </div>
   <div class="definition-card">
-    <span class="term">चिराग</span>
-    <p class="def">बोर्ड के केंद्र में लटका दिया गया ताकि नग्न रोशनी खिलाड़ियों की आंखों पर न पड़े।</p>
+    <span class="term">ଦୀପ</span>
+    <p class="def">ବୋର୍ଡର ମ at ିରେ ହଙ୍ଗ ଏତେ ଉଲଗ୍ନ ଆଲୋକ ଖେଳାଳିଙ୍କ ଆଖିରେ ପଡ଼େ ନାହିଁ।</p>
   </div>
   <div class="definition-card">
-    <span class="term">बैठने की स्थिति</span>
-    <p class="def">एकल: खिलाड़ी एक दूसरे के विपरीत बैठते हैं। युगल: साझेदार एक दूसरे के विपरीत बैठते हैं।</p>
+    <span class="term">ବସିବା ସ୍ଥିତି।</span>
+    <p class="def">ଏକକ: ଖେଳାଳିମାନେ ପରସ୍ପର ବିପକ୍ଷରେ ବସନ୍ତି। ଡବଲ୍ସ: ଅଂଶୀଦାରମାନେ ପରସ୍ପର ବିପକ୍ଷରେ ବସନ୍ତି।</p>
   </div>
 </div>

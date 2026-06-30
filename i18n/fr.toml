@@ -14,7 +14,7 @@ other = "Regarder sur YouTube"
 other = "Fermer"
 
 [youtube_channel]
-other = "Chaîne YouTube"
+other = "YouTube Chaîne"
 
 [play_store_label]
 other = "Téléchargez l'application sur Google Play"
@@ -38,7 +38,7 @@ other = "Découvrez des tutoriels de carrom classés par niveau de compétence �
 other = "Carrom Books"
 
 [carrom_books_desc]
-other = "Téléchargez des livres au format PDF exclusifs destinés aux élèves et aux entraîneurs, rédigés par Arun Deshpande."
+other = "Téléchargez des livres au format PDF exclusifs destinés aux étudiants et aux entraîneurs, rédigés par Arun Deshpande."
 
 [photo_gallery]
 other = "Galerie de photos"
@@ -68,7 +68,7 @@ other = "Lieu"
 other = "Demandes de renseignements sur le coaching"
 
 [whatsapp_message]
-other = "Bonjour Monsieur Arun, j'ai découvert le site web de la Carrom Academy et je suis intéressé par des cours de carrom."
+other = "Bonjour Monsieur Arun, j'ai découvert le site web de la Carrom Academy et je serais intéressé par des cours de carrom."
 
 [contact_information]
 other = "Coordonnées"
@@ -125,7 +125,7 @@ other = "Langue"
 other = "À venir"
 
 [coming_soon_body]
-other = "Cette rubrique est en cours de préparation. En attendant, rendez-vous sur la page « Vidéos » ou contactez-nous via la page « Contact »."
+other = "Cette section est en cours de préparation. En attendant, rendez-vous sur la page « Vidéos » ou contactez-nous via la page « Contact »."
 
 [watch_in_action]
 other = "Regardez-le en action"
@@ -145,12 +145,6 @@ other = "Légendes"
 [video_lang_hint_body]
 other = "Les vidéos sont en marathi et contiennent des termes de carrom en anglais. Appuyez sur le bouton « CC » dans le lecteur, puis sélectionnez votre langue dans « Sous-titres » → « Traduction automatique »."
 
-[available_in_n_languages]
-other = 'Available in {{ .Count }} languages'
-
-[chapter_count_of]
-other = 'Chapter {{ .Current }} of {{ .Total }}'
-
 [reading_progress]
 other = "Progression en lecture"
 
@@ -158,13 +152,52 @@ other = "Progression en lecture"
 other = "Autres langues"
 
 [ps_progress_template]
-other = "Vous avez regardé {count} solutions sur {total}"
+other = "Vous avez visionné {count} des {total} solutions"
 
 [ps_reset_progress]
 other = "Réinitialiser la progression"
 
 [ps_reset_confirm]
-other = "Effacer votre historique de visionnage ?"
+other = "Voulez-vous effacer votre historique de visionnage ?"
 
 [ps_solved_label]
 other = "Résolu"
+
+[stat_maharashtra_champion]
+other = "Champion du Maharashtra"
+
+[stat_world_championship_coach]
+other = "Entraîneur aux Championnats du monde"
+
+[stat_years_of_coaching]
+other = "Années d'expérience en tant que coach"
+
+[stat_countries_trained]
+other = "Pays ayant bénéficié d'une formation"
+
+[ach_title_maharashtra]
+other = "7 fois champion du Maharashtra"
+
+[ach_sub_maharashtra]
+other = "Record de l'État (depuis 1957)"
+
+[ach_title_national]
+other = "Champion national"
+
+[ach_sub_national]
+other = "(Singles 1969 · Vétéran 1981)"
+
+[ach_title_intl_coach]
+other = "Coach international"
+
+[ach_sub_intl_coach]
+other = "Plus de 10 pays entraînés"
+
+[ach_title_world]
+other = "Championnat du monde"
+
+[ach_sub_world]
+other = "A mené l'Inde à toutes les éditions des Championnats du monde"
+
+[intro_section_title]
+other = "Commencez par là — avec les conseils de l'entraîneur lui-même"

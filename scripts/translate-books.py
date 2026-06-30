@@ -8,10 +8,82 @@ import sys
 import time
 from pathlib import Path
 
+import requests
 from deep_translator import GoogleTranslator
 
 REPO = Path(__file__).resolve().parents[1]
 EN_ROOT = REPO / "content" / "en" / "books"
+
+DEEPL_API_KEY = "8c04b212-41b9-44d3-9af9-a0a21ac1a6d6:fx"
+DEEPL_URL = "https://api-free.deepl.com/v2/translate"
+
+# Languages that use DeepL for website content (EU languages DeepL supports)
+EU_LANGS = {"da", "de", "it", "fr", "pl"}
+
+# DeepL target language codes (differ from Hugo locale codes where needed)
+DEEPL_LANG_MAP = {
+    "da": "DA",
+    "de": "DE",
+    "it": "IT",
+    "fr": "FR",
+    "pl": "PL",
+}
+
+
+class DeepLTranslator:
+    """Thin wrapper around DeepL free API using header-based auth."""
+
+    def __init__(self, target: str) -> None:
+        self._target = target
+        self._headers = {
+            "Authorization": f"DeepL-Auth-Key {DEEPL_API_KEY}",
+            "Content-Type": "application/json",
+        }
+
+    def translate(self, text: str) -> str:
+        if not text or not text.strip():
+            return text
+        resp = requests.post(
+            DEEPL_URL,
+            headers=self._headers,
+            json={"text": [text], "target_lang": self._target, "source_lang": "EN"},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        return resp.json()["translations"][0]["text"]
+
+
+# Per-language string replacements applied to every translated output.
+# Fixes Google Translate quirks that are consistent for a given language.
+OUTPUT_FIXES = {
+    # Google Translate for Odia outputs ASCII pipe | as sentence-ender instead
+    # of the proper Odia/Devanagari Danda ।  (U+0964).
+    "or": [(" |", "।"), (" | ", "। ")],
+}
+
+
+class _PostProcessTranslator:
+    """Wraps any translator and applies per-language string fixes to output."""
+    def __init__(self, inner, fixes):
+        self._inner = inner
+        self._fixes = fixes
+
+    def translate(self, text: str) -> str:
+        result = self._inner.translate(text)
+        for old, new in self._fixes:
+            result = result.replace(old, new)
+        return result
+
+
+def get_translator(lang: str):
+    """Return the right translator for the given Hugo locale."""
+    if lang in EU_LANGS:
+        t = DeepLTranslator(target=DEEPL_LANG_MAP[lang])
+    else:
+        gt_target = LANGS.get(lang, {}).get("gt_target", lang)
+        t = GoogleTranslator(source="en", target=gt_target)
+    fixes = OUTPUT_FIXES.get(lang)
+    return _PostProcessTranslator(t, fixes) if fixes else t
 
 BOOKS = [
     "students/carrom-techniques-and-skills",
@@ -36,11 +108,6 @@ LANGS = {
 
 # International carrom terms — keep as-is during translation.
 KEEP_TERMS = [
-    "Carrom",
-    "Carrom Board",
-    "Carromboard",
-    "Carrommen",
-    "Carromman",
     "C/m",
     "C/B",
     "Striker",
@@ -48,9 +115,6 @@ KEEP_TERMS = [
     "ICF",
     "MANTRA",
     "YouTube",
-    "Arun Deshpande",
-    "Srikant Potharkar",
-    "International Carrom Federation",
     "wikiHow",
     "Cut",
     "Double",
@@ -89,7 +153,7 @@ SKIP_KEYS = {"date", "weight", "pageCount", "category", "chapters", "cover", "al
 # fr, si, hi) preserves tags verbatim because they're recognised as
 # untranslatable markup, even when the surrounding language script is
 # completely different from Latin.
-SENTINEL_RE = re.compile(r"<x(\d{1,4})/>")
+SENTINEL_RE = re.compile(r"<x(\d{1,4})\s*/>", re.IGNORECASE)
 
 
 def _make_key(idx: int) -> str:
@@ -148,7 +212,7 @@ def restore(text: str, placeholders: dict[str, str]) -> str:
     return SENTINEL_RE.sub(repl, text)
 
 
-def translate_text(text: str, translator: GoogleTranslator, retries: int = 3) -> str:
+def translate_text(text: str, translator, retries: int = 3) -> str:
     text = text.strip()
     if not text:
         return text
@@ -185,7 +249,7 @@ def translate_text(text: str, translator: GoogleTranslator, retries: int = 3) ->
     return text
 
 
-def translate_inline_html(html: str, translator: GoogleTranslator) -> str:
+def translate_inline_html(html: str, translator) -> str:
     def repl(m: re.Match[str]) -> str:
         inner = m.group(1)
         if not inner.strip() or inner.strip().startswith("@@PH"):
@@ -198,7 +262,7 @@ def translate_inline_html(html: str, translator: GoogleTranslator) -> str:
     return re.sub(r">([^<>]+?)<", repl, html)
 
 
-def translate_body(body: str, translator: GoogleTranslator) -> str:
+def translate_body(body: str, translator) -> str:
     blocks = re.split(r"\n\n+", body.strip())
     out_blocks: list[str] = []
     for block in blocks:
@@ -229,7 +293,7 @@ def translate_body(body: str, translator: GoogleTranslator) -> str:
     return "\n\n".join(out_blocks) + ("\n" if body.endswith("\n") else "")
 
 
-def translate_title(title: str, lang: str, translator: GoogleTranslator) -> str:
+def translate_title(title: str, lang: str, translator) -> str:
     chapter_word = LANGS[lang]["chapter"]
     m = re.match(r"^Chapter\s+(\d+)\s*[—-]\s*(.+)$", title)
     if m:
@@ -239,7 +303,7 @@ def translate_title(title: str, lang: str, translator: GoogleTranslator) -> str:
     return translate_text(title, translator)
 
 
-def translate_file(src: Path, dest: Path, lang: str, translator: GoogleTranslator) -> None:
+def translate_file(src: Path, dest: Path, lang: str, translator) -> None:
     raw = src.read_text(encoding="utf-8")
     if not raw.startswith("---"):
         dest.parent.mkdir(parents=True, exist_ok=True)
@@ -301,9 +365,8 @@ def main() -> None:
         targets = [t for t in targets if t != "--force"]
 
     for lang in targets:
-        print(f"\n=== {lang.upper()} ===", flush=True)
-        gt_target = LANGS[lang].get("gt_target", lang)
-        translator = GoogleTranslator(source="en", target=gt_target)
+        print(f"\n=== {lang.upper()} ({'DeepL' if lang in EU_LANGS else 'Google'}) ===", flush=True)
+        translator = get_translator(lang)
         for book in BOOKS:
             en_dir = EN_ROOT / book
             out_dir = REPO / "content" / lang / "books" / book

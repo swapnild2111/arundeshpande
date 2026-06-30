@@ -1,6 +1,6 @@
 ---
 title: "වීඩියෝ පුස්තකාලය"
-description: "කැරම් පුහුණු කිරීමේ වීඩියෝ අරුන් දේශ්පාන්ඩේ නරඹන්න — ආරම්භක සිට ශූර තාක්‍ෂණය, සහ ගැටළු 95ක් සහ විසඳුම්."
+description: "අරුන් දේශපාන්ඩේගේ කැරම් පුහුණු වීඩියෝ නරඹන්න - ආරම්භක සිට ශූර තාක්‍ෂණය, සහ ගැටළු 95 ක් සහ විසඳුම්."
 aliases:
   - /videos/
 filters:
@@ -19,6 +19,12 @@ filters:
   - label: "වෙනත්"
     id: misc
 videos:
+  - id: "aw2JB5YLc5k"
+    title: "ගෝල්ඩන් කැරම් නිධානය ශ්‍රීමත් අරුන් දේශපාන්ඩේ විසිනි"
+    tags: ["intro"]
+  - id: "pfY-1KMKe0s"
+    title: "හැඳින්වීම - අරුන් දේශපාන්ඩේ"
+    tags: ["intro"]
   - id: "Rm17_RqoikQ"
     title: "ක්‍රීඩාව පිටුපස ඇති විද්‍යාව, කාසි සකස් කරන්නේ කෙසේද, කැඩීම්"
     tags: ["beginner"]
@@ -179,10 +185,10 @@ videos:
     title: "දෙවනුව, දෙවන හරස්, තෙවන හරස්"
     tags: ["champion"]
   - id: "GpOykL199gU"
-    title: "Press - 1"
+    title: "Press – 1"
     tags: ["champion"]
   - id: "q0jlG9OXKLI"
-    title: "Press - 2"
+    title: "Press – 2"
     tags: ["champion"]
   - id: "8A1cZ-yMZEI"
     title: "Force"
@@ -194,9 +200,108 @@ videos:
     title: "කාසි පෙරළීම"
     tags: ["champion"]
   - id: "h_67KxeDtzc"
-    title: "striker රෝල් කිරීම"
+    title: "striker පෙරළීම"
     tags: ["champion"]
-  - id: "aw2JB5YLc5k"
-    title: "Golden කැරම් Treasure by Sir අරුන් දේශ්පාන්ඩේ"
+  - id: "NKdyms2XN6o"
+    title: "සිසුවා සමඟ සෙල්ලම් කිරීම - කථාංගය 2"
+    tags: ["misc"]
+  - id: "YuHw9Q_UvWw"
+    title: "දුෂ්කර නිමාවක් සරල කළා - අරුන් දේශපාන්ඩේ සමඟ"
+    tags: ["misc"]
+  - id: "DnM39E5p1ic"
+    title: "වෘත්තීය කැරම් ක්‍රීඩාව - ශිෂ්‍යයන් සමඟ ක්‍රීඩා කිරීම"
+    tags: ["misc"]
+  - id: "7b9XvbutBEw"
+    title: "සිසුවා සමඟ සෙල්ලම් කිරීම - කථාංගය 3"
+    tags: ["misc"]
+  - id: "2JzKbqNcPnM"
+    title: "කාසි තුනක් press"
+    tags: ["misc"]
+  - id: "eJk-zAvu7Ro"
+    title: "සිසුවා සමඟ සෙල්ලම් කිරීම - කථාංගය 1"
+    tags: ["misc"]
+  - id: "y0LGxMVRZXA"
+    title: "මූලික bomb යටතේ"
+    tags: ["misc"]
+  - id: "g1-0ci30pNg"
+    title: "දුෂ්කර කළු කාසි නිමාව — ශිෂ්ය සමග සෙල්ලම් කිරීම"
+    tags: ["misc"]
+  - id: "07BewnfSRfU"
+    title: "ආතතිය සහන සඳහා ප්‍රදර්ශන පහර"
+    tags: ["misc"]
+  - id: "GcyeXTD9t_I"
+    title: "විස්මිත පහර - අරුන් දේශපාන්ඩේ"
+    tags: ["misc"]
+  - id: "gxVQmgkAFvg"
+    title: "විස්මිත පහරවල් - නිරූපණය"
+    tags: ["misc"]
+  - id: "jhoqbnx2MYg"
+    title: "අත්තිකාරම් පහර"
+    tags: ["misc"]
+  - id: "m8PDgfqsShM"
+    title: "හරස් double සහ ප්‍රදර්ශන පහර"
+    tags: ["misc"]
+  - id: "8ublsn6enFQ"
+    title: "තරඟකාරී පහරවල්"
+    tags: ["misc"]
+  - id: "ZvqsN6Odga0"
+    title: "පුවරුව අවසන් කිරීම"
+    tags: ["misc"]
+  - id: "_AdzD9wDRjE"
+    title: "කැරම් කඩයි"
+    tags: ["misc"]
+  - id: "RU0AAWKBgYo"
+    title: "ජයග්‍රාහී පහර - අරුන් දේශපාන්ඩේ"
+    tags: ["misc"]
+  - id: "Y2nrbGVg3TQ"
+    title: "තරඟකාරී පහරවල්"
+    tags: ["misc"]
+  - id: "tYuaHD7ADmU"
+    title: "අත්තිකාරම් පහර"
+    tags: ["misc"]
+  - id: "lvmAO3VSWZY"
+    title: "මෙහෙයුම් පහර"
+    tags: ["misc"]
+  - id: "4dxgaVs1vjI"
+    title: "පුදුම පහරවල්"
+    tags: ["misc"]
+  - id: "KyTTNAhHAEE"
+    title: "කැරම් පහර - සැසිය 13"
+    tags: ["misc"]
+  - id: "3WpZjXftIiI"
+    title: "Cut වෙඩි - සැසිය 1"
+    tags: ["misc"]
+  - id: "qQi6PdIT-VY"
+    title: "Cut වෙඩි"
+    tags: ["misc"]
+  - id: "1PfNdWB_x90"
+    title: "ආරක්ෂක පහර - 15 වෙනස්කම්"
+    tags: ["misc"]
+  - id: "WOJWXqqRs38"
+    title: "විවේකය - නිරූපණය"
+    tags: ["misc"]
+  - id: "vLc-BT_CuyI"
+    title: "කැරම් පහර - සැසිය 12"
+    tags: ["misc"]
+  - id: "W_Pmcn3809U"
+    title: "ගනේෂ් වරද් ස්තෝත්‍රය අරුන් දේශපාන්ඩේ විසිනි"
+    tags: ["misc"]
+  - id: "oAyuFM7q-no"
+    title: "කැරම් සැසි ක්ලිප් 1"
+    tags: ["misc"]
+  - id: "cu559W-mJA8"
+    title: "කැරම් සැසි ක්ලිප් 2"
+    tags: ["misc"]
+  - id: "SQpONhvAo1w"
+    title: "කැරම් සැසි ක්ලිප් 3"
+    tags: ["misc"]
+  - id: "IAl-6zABytg"
+    title: "කැරම් සැසි ක්ලිප් 4"
+    tags: ["misc"]
+  - id: "5KabZnSBric"
+    title: "කැරම් සැසි ක්ලිප් 5"
+    tags: ["misc"]
+  - id: "4i0LOujLib8"
+    title: "කැරම් සැසි ක්ලිප් 6"
     tags: ["misc"]
 ---

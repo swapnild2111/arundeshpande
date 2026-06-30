@@ -1,5 +1,5 @@
 [home_title]
-other = "කැරම් පුහුණුකරු අරුන් දේශ්පාන්ඩේ"
+other = "කැරම් පුහුණුකරු අරුන් දේශපාන්ඩේ"
 
 [watch_videos]
 other = "වීඩියෝ බලන්න"
@@ -8,7 +8,7 @@ other = "වීඩියෝ බලන්න"
 other = "වීඩියෝ වාදනය කරන්න"
 
 [watch_on_youtube]
-other = "YouTube හි නරඹන්න"
+other = "YouTube මත නරඹන්න"
 
 [close_video]
 other = "වසන්න"
@@ -35,10 +35,10 @@ other = "වීඩියෝ පුස්තකාලය"
 other = "නිපුණතා මට්ටම අනුව වර්ගීකරණය කරන ලද කැරම් නිබන්ධන නරඹන්න - ආරම්භකයාගේ සිට ශූරයා දක්වා."
 
 [carrom_books]
-other = "පොත් තබා ගන්න 0000"
+other = "කැරම් පොත්"
 
 [carrom_books_desc]
-other = "අරුන් දේශ්පාන්ඩේ මගින් සිසුන් සහ පුහුණුකරුවන් සඳහා සුවිශේෂී PDF පොත් බාගන්න."
+other = "අරුන් දේශපාන්ඩේ විසින් සිසුන් සහ පුහුණුකරුවන් සඳහා සුවිශේෂී PDF පොත් බාගන්න."
 
 [photo_gallery]
 other = "ඡායාරූප ගැලරිය"
@@ -128,43 +128,76 @@ other = "ඉක්මණින් පැමිණෙන"
 other = "මෙම කොටස සකස් වෙමින් පවතී. මේ අතරතුර, වීඩියෝ පිටුවට යන්න හෝ සම්බන්ධතා පිටුව හරහා touch වෙත යන්න."
 
 [watch_in_action]
-other = "ක්‍රියාවෙන් බලන්න"
+other = "ක්‍රියාවෙන් නරඹන්න"
 
 [video_level_beginner]
-other = "ආරම්භක"
+other = "ආරම්භකයා"
 
 [video_level_intermediate]
-other = "මැදි"
+other = "අතරමැදි"
 
 [video_level_champion]
 other = "ශූරයා"
 
 [video_lang_hint_label]
-other = "උපසිරැසි"
+other = "සිරස්තල"
 
 [video_lang_hint_body]
-other = "වීඩියෝ මරාති භාෂාවෙන් ඇත, ඉංග්‍රීසි කැරම් වචන සමඟ. ධාවකයේ CC බොත්තම ඔබා, උපසිරැසි → ස්වයංක්‍රීය පරිවර්තනය යටතේ ඔබේ භාෂාව තෝරන්න."
-
-[available_in_n_languages]
-other = 'භාෂා {{ .Count }}කින් ලබා ගත හැකියි'
-
-[chapter_count_of]
-other = 'පරිච්ඡේදය {{ .Current }} / {{ .Total }}'
+other = "වීඩියෝ ඉංග්‍රීසි කැරම් පද සමඟ මරාති භාෂාවෙන් ඇත. ප්ලේයරයේ CC බොත්තම තට්ටු කර උපසිරැසි → ස්වයංක්‍රීය පරිවර්තනය යටතේ ඔබේ භාෂාව තෝරන්න."
 
 [reading_progress]
-other = "කියවීමේ ප්‍රගතිය"
+other = "කියවීමේ ප්රගතිය"
 
 [other_languages]
-other = "අනෙකුත් භාෂා"
+other = "වෙනත් භාෂා"
 
 [ps_progress_template]
-other = "ඔබ {total} න් {count} විසඳුම් නරඹා ඇත"
+other = "ඔබ විසඳුම් {සම්පූර්ණයෙන්} {count}ක් නරඹා ඇත"
 
 [ps_reset_progress]
-other = "ප්‍රගතිය යළි සකසන්න"
+other = "ප්‍රගතිය යළි පිහිටුවන්න"
 
 [ps_reset_confirm]
-other = "නැරඹුම් ඉතිහාසය ඉවත් කරන්නද?"
+other = "ඔබගේ බැලීමේ ප්‍රගතිය හිස් කරන්නද?"
 
 [ps_solved_label]
-other = "විසඳා ඇත"
+other = "විසඳුනා"
+
+[stat_maharashtra_champion]
+other = "මහාරාෂ්ට්‍ර ශූරයා"
+
+[stat_world_championship_coach]
+other = "ලෝක ශූරතා පුහුණුකරු"
+
+[stat_years_of_coaching]
+other = "වසර ගණනාවක පුහුණුවීම්"
+
+[stat_countries_trained]
+other = "පුහුණු කරන ලද රටවල්"
+
+[ach_title_maharashtra]
+other = "7× මහාරාෂ්ට්‍ර ශූරයා"
+
+[ach_sub_maharashtra]
+other = "රාජ්ය වාර්තාව (1957 සිට)"
+
+[ach_title_national]
+other = "ජාතික ශූරයා"
+
+[ach_sub_national]
+other = "(තනිකඩ 1969 · ප්‍රවීණ 1981)"
+
+[ach_title_intl_coach]
+other = "ජාත්‍යන්තර පුහුණුකරු"
+
+[ach_sub_intl_coach]
+other = "10+ රටවල් පුහුණු කර ඇත"
+
+[ach_title_world]
+other = "ලෝක ශූරතාවලිය"
+
+[ach_sub_world]
+other = "ඉන්දියාව සෑම ලෝකයකටම ගෙන ගියේය"
+
+[intro_section_title]
+other = "මෙතැනින් පටන් ගන්න - පුහුණුකරුගෙන්ම"

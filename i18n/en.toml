@@ -168,3 +168,42 @@ other = "Clear your viewing progress?"
 
 [ps_solved_label]
 other = "Solved"
+
+[stat_maharashtra_champion]
+other = "Maharashtra Champion"
+
+[stat_world_championship_coach]
+other = "World Championship Coach"
+
+[stat_years_of_coaching]
+other = "Years of Coaching"
+
+[stat_countries_trained]
+other = "Countries Trained"
+
+[ach_title_maharashtra]
+other = "7× Maharashtra Champion"
+
+[ach_sub_maharashtra]
+other = "State Record (since 1957)"
+
+[ach_title_national]
+other = "National Champion"
+
+[ach_sub_national]
+other = "(Singles 1969 · Veteran 1981)"
+
+[ach_title_intl_coach]
+other = "International Coach"
+
+[ach_sub_intl_coach]
+other = "10+ Countries Coached"
+
+[ach_title_world]
+other = "World Championship"
+
+[ach_sub_world]
+other = "Led India to every Worlds"
+
+[intro_section_title]
+other = "Start here — from the coach himself"
