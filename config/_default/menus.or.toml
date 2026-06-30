@@ -1,0 +1,40 @@
+[[main]]
+  identifier = "home"
+  name = "ମୁଖ୍ୟ ପୃଷ୍ଠା"
+  url = "/"
+  weight = 10
+  [main.params]
+    icon = "home"
+
+[[main]]
+  identifier = "videos"
+  name = "ଭିଡିଓ"
+  url = "/videos/"
+  weight = 20
+  [main.params]
+    icon = "play"
+
+[[main]]
+  identifier = "books"
+  name = "ପୁସ୍ତକ"
+  url = "/books/"
+  weight = 30
+  [main.params]
+    icon = "book"
+
+[[main]]
+  identifier = "gallery"
+  name = "ଗ୍ୟାଲେରୀ"
+  url = "/gallery/"
+  weight = 40
+  [main.params]
+    icon = "image"
+    comingSoon = true
+
+[[main]]
+  identifier = "contact"
+  name = "ଯୋଗାଯୋଗ"
+  url = "/contact/"
+  weight = 50
+  [main.params]
+    icon = "mail"
