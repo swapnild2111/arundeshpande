@@ -6,6 +6,8 @@ aliases:
 filters:
   - label: "બધા"
     id: all
+  - label: "પ્રારંભ"
+    id: intro
   - label: "શિખાઉ માણસ"
     id: beginner
   - label: "મધ્યવર્તી"

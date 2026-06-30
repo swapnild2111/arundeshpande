@@ -151,6 +151,18 @@ other = "ꯄꯥꯕꯒꯤ ꯄ꯭ꯔꯣꯒ꯭ꯔꯦꯁ꯫"
 [other_languages]
 other = "ꯑꯇꯣꯞꯄꯥ ꯂꯣꯂꯁꯤꯡ꯫"
 
+[ps_progress_template]
+other = "ꯑꯩꯈꯣꯌꯅꯥ {total} ꯗꯒꯤ {count} ꯁꯣꯜꯁꯟ ꯉꯥꯡꯕꯤꯗꯣꯛꯈꯤ"
+
+[ps_reset_progress]
+other = "ꯄ꯭ꯔꯣꯒ꯭ꯔꯦꯁ ꯔꯤꯁꯦꯠ ꯇꯧꯕꯤꯌꯨ"
+
+[ps_reset_confirm]
+other = "ꯑꯩꯈꯣꯌꯒꯤ ꯌꯦꯡꯕꯤꯒꯤ ꯑꯍꯟꯕ ꯁꯣꯛꯈꯤꯕꯒꯤ?"
+
+[ps_solved_label]
+other = "ꯁꯣꯜꯚ ꯇꯧꯂꯦ"
+
 [available_in_n_languages]
 other = '{{ .Count }} ꯂꯣꯂꯗ ꯂꯩꯕꯥ'
 

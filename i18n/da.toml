@@ -156,3 +156,15 @@ other = "Læsefremskridt"
 
 [other_languages]
 other = "Andre sprog"
+
+[ps_progress_template]
+other = "Du har set {count} af {total} løsninger"
+
+[ps_reset_progress]
+other = "Nulstil fremskridt"
+
+[ps_reset_confirm]
+other = "Ryd din visningshistorik?"
+
+[ps_solved_label]
+other = "Løst"

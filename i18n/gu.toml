@@ -156,3 +156,15 @@ other = "વાંચન પ્રગતિ"
 
 [other_languages]
 other = "અન્ય ભાષાઓ"
+
+[ps_progress_template]
+other = "તમે {total} માંથી {count} ઉકેલ જોયા છે"
+
+[ps_reset_progress]
+other = "પ્રગતિ રીસેટ કરો"
+
+[ps_reset_confirm]
+other = "તમારો જોવાનો ઇતિહાસ સાફ કરવો?"
+
+[ps_solved_label]
+other = "ઉકેલાયું"

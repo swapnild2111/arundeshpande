@@ -9,7 +9,123 @@
 
 {{ partial "video-language-hint.html" . }}
 
-{{ partial "video-grid.html" (dict "videos" $videos.Params.videos "filter" "all") }}
+{{- $allVideos := $videos.Params.videos -}}
+{{- $filters   := $videos.Params.filters -}}
+
+{{- /* ── Intro hero ────────────────────────────────────────────── */ -}}
+{{- $introVideos := slice -}}
+{{- range $allVideos -}}
+  {{- $tag := index (.tags | default slice) 0 | default "misc" -}}
+  {{- if eq $tag "intro" -}}{{- $introVideos = $introVideos | append . -}}{{- end -}}
+{{- end -}}
+{{- with $introVideos -}}
+  {{- $introPage := site.GetPage "/videos/intro" -}}
+  <section class="vs-hero" id="section-intro">
+    <div class="vs-hero-header">
+      <div class="vs-hero-badge">{{ i18n "intro" | default "Intro" }}</div>
+      <h2 class="vs-hero-title">{{ i18n "intro_section_title" | default "Start here — from the coach himself" }}</h2>
+      {{- with $introPage -}}
+        <a class="vs-hero-more" href="{{ .RelPermalink }}">
+          {{ i18n "watch_all" | default "Watch all" }} {{ len $introVideos }} →
+        </a>
+      {{- end -}}
+    </div>
+    <div class="vs-hero-grid">
+      {{- range . -}}
+        {{- $slug := partial "video-slug.html" (dict "title" .title "tag" "intro" "slug" .slug) -}}
+        <article
+          class="video-card vs-hero-card"
+          id="v-{{ $slug }}"
+          data-anchor="{{ $slug }}"
+          data-title="{{ .title }}"
+          data-youtube="https://www.youtube.com/watch?v={{ .id }}"
+          data-video-id="{{ .id }}"
+          data-tags="intro"
+          data-category="intro"
+        >
+          <button type="button" class="video-play-trigger" aria-label="{{ i18n "play_video" | default "Play video" }}: {{ .title }}">
+            <span class="video-thumb">
+              <img src="https://i.ytimg.com/vi/{{ .id }}/maxresdefault.jpg"
+                   onerror="this.src='https://i.ytimg.com/vi/{{ .id }}/hqdefault.jpg'"
+                   alt="" loading="lazy" decoding="async">
+              <span class="play-btn" aria-hidden="true">{{ partial "icons/play.html" $ }}</span>
+            </span>
+          </button>
+          <a class="video-title" href="{{ with $introPage }}{{ .RelPermalink }}{{ end }}#{{ $slug }}">{{ .title }}</a>
+        </article>
+      {{- end -}}
+    </div>
+  </section>
+{{- end -}}
+
+{{- /* ── Category preview rows ────────────────────────────────── */ -}}
+<div class="video-sections">
+  {{- range $filters -}}
+    {{- $fid := .id -}}
+    {{- $flabel := .label -}}
+    {{- if or (eq $fid "all") (eq $fid "intro") (eq $fid "problems-solutions") -}}{{- continue -}}{{- end -}}
+    {{- $catVideos := slice -}}
+    {{- range $allVideos -}}
+      {{- $tag := index (.tags | default slice) 0 | default "misc" -}}
+      {{- if eq $tag $fid -}}{{- $catVideos = $catVideos | append . -}}{{- end -}}
+    {{- end -}}
+    {{- if eq (len $catVideos) 0 -}}{{- continue -}}{{- end -}}
+    {{- $catPage := site.GetPage (printf "/videos/%s" $fid) -}}
+    {{- $catURL  := "" -}}
+    {{- with $catPage -}}{{- $catURL = .RelPermalink -}}{{- end -}}
+    {{- $preview := first 3 $catVideos -}}
+    <section class="vs-row" id="section-{{ $fid }}">
+      <div class="vs-row-header">
+        <div class="vs-row-left">
+          <h2 class="vs-row-title">
+            {{- if $catURL -}}<a href="{{ $catURL }}">{{ $flabel }}</a>{{- else -}}{{ $flabel }}{{- end -}}
+          </h2>
+          <span class="vs-row-count">{{ len $catVideos }} {{ i18n "videos" | default "videos" }}</span>
+        </div>
+        {{- if gt (len $catVideos) 3 -}}
+          {{- with $catURL -}}
+            <a class="vs-row-more" href="{{ . }}">
+              {{ i18n "watch_all" | default "Watch all" }} {{ len $catVideos }} →
+            </a>
+          {{- end -}}
+        {{- end -}}
+      </div>
+      <div class="video-grid">
+        {{- range $preview -}}
+          {{- $tag := index (.tags | default slice) 0 | default "misc" -}}
+          {{- $slug := partial "video-slug.html" (dict "title" .title "tag" $tag "slug" .slug) -}}
+          <article
+            class="video-card"
+            id="v-{{ $slug }}"
+            data-anchor="{{ $slug }}"
+            data-title="{{ .title }}"
+            data-youtube="https://www.youtube.com/watch?v={{ .id }}"
+            data-video-id="{{ .id }}"
+            data-tags="{{ delimit (.tags | default slice) " " | urlize }}"
+            data-category="{{ $fid }}"
+          >
+            <button type="button" class="video-play-trigger" aria-label="{{ i18n "play_video" | default "Play video" }}: {{ .title }}">
+              <span class="video-thumb">
+                <img src="https://i.ytimg.com/vi/{{ .id }}/hqdefault.jpg" alt="" loading="lazy" decoding="async">
+                <span class="play-btn" aria-hidden="true">{{ partial "icons/play.html" $ }}</span>
+              </span>
+            </button>
+            <a class="video-title" href="{{ $catURL }}#{{ $slug }}">{{ .title }}</a>
+          </article>
+        {{- end -}}
+      </div>
+      {{- if gt (len $catVideos) 3 -}}
+        {{- with $catURL -}}
+          <div class="vs-row-footer">
+            <a class="vs-watch-more" href="{{ . }}">
+              {{ i18n "watch_more" | default "Watch more" }} {{ i18n (printf "%s_videos" $fid) | default $flabel }} →
+            </a>
+          </div>
+        {{- end -}}
+      {{- end -}}
+    </section>
+  {{- end -}}
+</div>
 
 <span hidden data-videos-root="{{ "videos/" | relURL }}" data-ps-base="{{ "videos/problems-solutions/" | relURL }}"></span>
 

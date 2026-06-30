@@ -156,3 +156,15 @@ other = "Progression en lecture"
 
 [other_languages]
 other = "Autres langues"
+
+[ps_progress_template]
+other = "Vous avez regardé {count} solutions sur {total}"
+
+[ps_reset_progress]
+other = "Réinitialiser la progression"
+
+[ps_reset_confirm]
+other = "Effacer votre historique de visionnage ?"
+
+[ps_solved_label]
+other = "Résolu"

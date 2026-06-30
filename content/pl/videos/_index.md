@@ -6,6 +6,8 @@ aliases:
 filters:
   - label: "All"
     id: all
+  - label: "Wstęp"
+    id: intro
   - label: "Beginner"
     id: beginner
   - label: "Intermediate"

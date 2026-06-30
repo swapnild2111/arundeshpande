@@ -156,3 +156,15 @@ other = "वाचन प्रगती"
 
 [other_languages]
 other = "इतर भाषा"
+
+[ps_progress_template]
+other = "तुम्ही {total} पैकी {count} उपाय पाहिले आहेत"
+
+[ps_reset_progress]
+other = "प्रगती रीसेट करा"
+
+[ps_reset_confirm]
+other = "तुमचा पाहण्याचा इतिहास मिटवायचा का?"
+
+[ps_solved_label]
+other = "सोडवले"

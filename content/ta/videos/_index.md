@@ -6,6 +6,8 @@ aliases:
 filters:
   - label: "அனைத்து"
     id: all
+  - label: "அறிமுகம்"
+    id: intro
   - label: "ஆரம்பநிலை"
     id: beginner
   - label: "இடைநிலை"

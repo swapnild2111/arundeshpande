@@ -6,6 +6,8 @@ aliases:
 filters:
   - label: "सभी"
     id: all
+  - label: "परिचय"
+    id: intro
   - label: "शुरुआती"
     id: beginner
   - label: "मध्यवर्ती"

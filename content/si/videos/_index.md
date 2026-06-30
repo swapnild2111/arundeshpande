@@ -6,6 +6,8 @@ aliases:
 filters:
   - label: "සියල්ල"
     id: all
+  - label: "හැඳින්වීම"
+    id: intro
   - label: "ආරම්භකයා"
     id: beginner
   - label: "අතරමැදි"

@@ -156,3 +156,15 @@ other = "Postępy w czytaniu"
 
 [other_languages]
 other = "Inne języki"
+
+[ps_progress_template]
+other = "Obejrzałeś {count} z {total} rozwiązań"
+
+[ps_reset_progress]
+other = "Zresetuj postęp"
+
+[ps_reset_confirm]
+other = "Wyczyścić historię oglądania?"
+
+[ps_solved_label]
+other = "Rozwiązano"

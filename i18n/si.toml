@@ -156,3 +156,15 @@ other = "කියවීමේ ප්‍රගතිය"
 
 [other_languages]
 other = "අනෙකුත් භාෂා"
+
+[ps_progress_template]
+other = "ඔබ {total} න් {count} විසඳුම් නරඹා ඇත"
+
+[ps_reset_progress]
+other = "ප්‍රගතිය යළි සකසන්න"
+
+[ps_reset_confirm]
+other = "නැරඹුම් ඉතිහාසය ඉවත් කරන්නද?"
+
+[ps_solved_label]
+other = "විසඳා ඇත"

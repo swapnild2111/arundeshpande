@@ -88,6 +88,10 @@
       youtube: card.getAttribute('data-youtube') || '',
       slug: card.getAttribute('data-anchor') || ''
     });
+    document.dispatchEvent(new CustomEvent('video-player:open', {
+      bubbles: true,
+      detail: { card: card, id: card.getAttribute('data-video-id') }
+    }));
   }
 
   window.VideoPlayer = {

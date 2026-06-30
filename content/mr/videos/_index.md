@@ -6,6 +6,8 @@ aliases:
 filters:
   - label: "सर्व"
     id: all
+  - label: "परिचय"
+    id: intro
   - label: "नवशिक्या"
     id: beginner
   - label: "मध्यवर्ती"

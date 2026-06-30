@@ -745,6 +745,136 @@ a.chip {
 }
 .video-lang-hint-text strong { color: var(--text); font-weight: 600; }
 
+/* ---------- video All tab: intro hero + section rows ---------- */
+
+/* Hero — Intro videos full-width accent block */
+.vs-hero {
+  margin-bottom: 40px;
+  padding: 24px;
+  background: linear-gradient(135deg, rgba(168,85,247,0.12) 0%, rgba(99,102,241,0.08) 100%);
+  border: 1px solid rgba(168,85,247,0.25);
+  border-radius: var(--radius-lg);
+}
+.vs-hero-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+.vs-hero-badge {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid rgba(168,85,247,0.3);
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+.vs-hero-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0;
+  flex: 1;
+}
+.vs-hero-more {
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.vs-hero-more:hover { color: var(--link-hover); }
+.vs-hero-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+.vs-hero-card .video-thumb img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+/* Section rows */
+.video-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.vs-row {
+  padding: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: border-color .15s;
+}
+.vs-row:hover { border-color: var(--border-strong); }
+.vs-row-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+.vs-row-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.vs-row-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0;
+}
+.vs-row-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.vs-row-title a:hover { color: var(--accent); }
+.vs-row-count {
+  font-size: 12px;
+  color: var(--text-dim);
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 8px;
+  white-space: nowrap;
+}
+.vs-row-more {
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.vs-row-more:hover { color: var(--link-hover); }
+.vs-row-footer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+.vs-watch-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface-hover);
+  color: var(--text-muted);
+  font-size: 13px;
+  text-decoration: none;
+  transition: all .15s;
+}
+.vs-watch-more:hover {
+  background: var(--accent-soft);
+  border-color: rgba(168,85,247,0.4);
+  color: var(--accent);
+}
+
 /* ---------- video grid ---------- */
 .video-grid {
   display: grid;
@@ -1203,6 +1333,68 @@ body.video-player-open { overflow: hidden; }
   grid-template-columns: 1fr 1fr;
   gap: 14px;
 }
+
+/* ── P&S progress tracking ──────────────────────────────────── */
+.ps-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 14px;
+  padding: 10px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  flex-wrap: wrap;
+}
+.ps-progress-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  flex: 0 0 auto;
+}
+.ps-progress-track {
+  flex: 1;
+  min-width: 80px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.ps-progress-fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #10b981, #34d399);
+  border-radius: 999px;
+  transition: width .4s ease;
+}
+.ps-progress-reset {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted, #9ca3af);
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+.ps-progress-reset:hover {
+  color: var(--text);
+  border-color: var(--accent, rgba(168, 85, 247, 0.6));
+}
+
+/* Solved badge on each pair */
+.ps-pair-solved-badge {
+  display: none;
+}
+.ps-pair.is-solved {
+  border-color: rgba(16, 185, 129, 0.45);
+}
+.ps-pair.is-solved .ps-pair-num {
+  background: rgba(16, 185, 129, 0.18);
+  border-color: rgba(16, 185, 129, 0.4);
+  color: #34d399;
+}
+/* ────────────────────────────────────────────────────────────── */
 
 .video-card--problem {
   border-color: rgba(245, 158, 11, 0.35);

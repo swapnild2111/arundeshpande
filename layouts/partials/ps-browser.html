@@ -14,6 +14,18 @@
   data-group-count="{{ $groupCount }}"
   {{ if not $standalone }}data-show-for="problems-solutions" hidden{{ end }}
 >
+  <div class="ps-progress" data-ps-progress hidden
+       data-progress-template="{{ i18n "ps_progress_template" | default "You've watched {count} of {total} solutions" }}"
+       data-reset-confirm="{{ i18n "ps_reset_confirm" | default "Clear your viewing progress?" }}">
+    <div class="ps-progress-text" data-ps-progress-text></div>
+    <div class="ps-progress-track">
+      <div class="ps-progress-fill" data-ps-progress-fill></div>
+    </div>
+    <button type="button" class="ps-progress-reset" data-ps-progress-reset>
+      {{ i18n "ps_reset_progress" | default "Reset progress" }}
+    </button>
+  </div>
+
   <div class="ps-rail-wrap" aria-label="{{ i18n "ps_index_label" | default "Problem groups" }}">
     <div class="ps-rail" role="tablist">
       {{ range $g := seq 1 $groupCount }}
@@ -52,7 +64,8 @@
         {{ range $pairs }}
           {{ if and (ge .num $start) (le .num $end) }}
             {{ $partial := or (not .problem) (not .solution) }}
-            <div class="ps-pair{{ if $partial }} is-partial{{ end }}" id="ps-{{ .num }}" data-ps-panel="{{ .num }}" aria-label="{{ i18n "problem_label" | default "Problem" }} {{ .num }} & {{ i18n "solution_label" | default "Solution" }} {{ .num }}">
+            <div class="ps-pair{{ if $partial }} is-partial{{ end }}" id="ps-{{ .num }}" data-ps-panel="{{ .num }}" data-pair-num="{{ .num }}" aria-label="{{ i18n "problem_label" | default "Problem" }} {{ .num }} & {{ i18n "solution_label" | default "Solution" }} {{ .num }}">
+              <span class="ps-pair-solved-badge" aria-hidden="true"><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M6.5 11.5 3 8l1-1 2.5 2.5L12 4l1 1z"/></svg></span>
               <div class="ps-pair-meta">
                 <span class="ps-pair-tag ps-pair-tag--problem">{{ i18n "problem_label" | default "Problem" }}</span>
                 <span class="ps-pair-num">{{ .num }}</span>

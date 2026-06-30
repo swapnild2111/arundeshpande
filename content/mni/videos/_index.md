@@ -6,6 +6,8 @@ aliases:
 filters:
   - label: "ꯄꯨꯝꯅꯃꯛ"
     id: all
+  - label: "ꯍꯟꯗꯛꯅꯕ"
+    id: intro
   - label: "ꯕꯤꯒꯤꯅꯔ ꯑꯣꯏꯕꯥ꯫"
     id: beginner
   - label: "ꯃꯔꯛꯇ ꯂꯩꯕ"

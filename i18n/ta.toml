@@ -151,6 +151,18 @@ other = "வாசிப்பு முன்னேற்றம்"
 [other_languages]
 other = "பிற மொழிகள்"
 
+[ps_progress_template]
+other = "நீங்கள் {total} இல் {count} தீர்வுகளைப் பார்த்தீர்கள்"
+
+[ps_reset_progress]
+other = "முன்னேற்றத்தை மீட்டமை"
+
+[ps_reset_confirm]
+other = "உங்கள் பார்வை வரலாற்றை அழிக்கவா?"
+
+[ps_solved_label]
+other = "தீர்க்கப்பட்டது"
+
 [available_in_n_languages]
 other = '{{ .Count }} மொழிகளில் கிடைக்கிறது'
 
