@@ -290,7 +290,9 @@ h1, h2, h3, h4 {
   padding: 0;
 }
 .top-bar .lang-switcher-item {
-  display: block;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
   padding: 6px 10px;
   border-radius: 8px;
   color: var(--text);
@@ -307,6 +309,18 @@ h1, h2, h3, h4 {
   color: var(--accent);
   background: var(--accent-soft);
   font-weight: 600;
+}
+.top-bar .lang-switcher-native {
+  font-weight: inherit;
+}
+.top-bar .lang-switcher-english {
+  font-size: 12px;
+  color: var(--text-dim);
+  font-weight: 400;
+}
+.top-bar .lang-switcher-item.is-active .lang-switcher-english {
+  color: var(--accent);
+  opacity: .75;
 }
 .top-bar .lang-switcher.is-open .lang-switcher-chevron {
   transform: rotate(180deg);
@@ -1673,6 +1687,21 @@ body.video-player-open { overflow: hidden; }
 }
 .pdf-download-item-label {
   flex: 1;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.pdf-download-item-native {
+  font-weight: inherit;
+}
+.pdf-download-item-english {
+  font-size: 11px;
+  color: var(--text-dim);
+  font-weight: 400;
+}
+.pdf-download-item.is-current .pdf-download-item-english {
+  color: var(--accent);
+  opacity: .75;
 }
 .pdf-download-item-icon {
   display: inline-flex;
@@ -2823,7 +2852,9 @@ body.video-player-open { overflow: hidden; }
     padding: 0;
   }
   .mobile-header-lang .lang-switcher-item {
-    display: block;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
     padding: 6px 10px;
     border-radius: 8px;
     color: var(--text);
@@ -2837,6 +2868,15 @@ body.video-player-open { overflow: hidden; }
     color: var(--accent);
     background: var(--accent-soft);
     font-weight: 600;
+  }
+  .mobile-header-lang .lang-switcher-english {
+    font-size: 12px;
+    color: var(--text-dim);
+    font-weight: 400;
+  }
+  .mobile-header-lang .lang-switcher-item.is-active .lang-switcher-english {
+    color: var(--accent);
+    opacity: .75;
   }
   /* Hide the desktop top-bar on mobile */
   .top-bar { display: none; }

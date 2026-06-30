@@ -40,6 +40,8 @@
   {{ range hugo.Sites }}
     {{ $siteByCode = merge $siteByCode (dict .Language.Lang .) }}
   {{ end }}
+  {{- /* English-name lookup shared with the top-right language switcher. */ -}}
+  {{ $englishNames := partial "lang-english-names.html" . }}
   {{ range $langOrder }}
     {{ $code := . }}
     {{ $s := index $siteByCode $code }}
@@ -51,6 +53,7 @@
           {{ $pdfsByLang = $pdfsByLang | append (dict
             "code" $code
             "label" $s.Language.Label
+            "english" (index $englishNames $code)
             "path" $path
           ) }}
         {{ end }}

@@ -14,6 +14,10 @@
   {{- end -}}
 {{- end -}}
 
+{{- /* English-name lookup so non-native readers can identify each script.
+     Shared with the PDF download dropdown via lang-english-names partial. */ -}}
+{{- $englishNames := partial "lang-english-names.html" . -}}
+
 {{- /*
   Language groups, in column order. English stands alone as International;
   Sinhala folds in with the three Indian scripts under South Asian.
@@ -49,17 +53,23 @@
               {{- $perm = index $homes $code -}}
             {{- end -}}
             {{- if $label -}}
+              {{- $en := index $englishNames $code -}}
               <li role="none">
                 {{- if eq $code $current.Language.Lang -}}
-                  <span class="lang-switcher-item is-active" role="menuitem" aria-current="true">{{ $label }}</span>
+                  <span class="lang-switcher-item is-active" role="menuitem" aria-current="true">
+                    <span class="lang-switcher-native" lang="{{ $code }}">{{ $label }}</span>
+                    {{- if and $en (ne $code "en") }}<span class="lang-switcher-english">{{ $en }}</span>{{ end -}}
+                  </span>
                 {{- else -}}
                   <a
                     href="{{ $perm }}"
                     class="lang-switcher-item"
                     role="menuitem"
                     hreflang="{{ $code }}"
-                    lang="{{ $code }}"
-                  >{{ $label }}</a>
+                  >
+                    <span class="lang-switcher-native" lang="{{ $code }}">{{ $label }}</span>
+                    {{- if and $en (ne $code "en") }}<span class="lang-switcher-english">{{ $en }}</span>{{ end -}}
+                  </a>
                 {{- end -}}
               </li>
             {{- end -}}
