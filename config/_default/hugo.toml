@@ -108,6 +108,14 @@ disableKinds = ["taxonomy", "term"]
     [languages.ta.params]
       description = "அருண் தேஷ்பாண்டே எழுதிய கேரம் பயிற்சி, நுட்பம் மற்றும் புத்தகம்"
 
+  [languages.or]
+    label = "ଓଡ଼ିଆ"
+    locale = "or"
+    weight = 13
+    contentDir = "content/or"
+    [languages.or.params]
+      description = "ଅରୁଣ ଦେଶପାଣ୍ଡେଙ୍କ ଦ୍ୱାରା କ୍ୟାରମ କୋଚିଂ, କୌଶଳ ଏବଂ ପୁସ୍ତକ"
+
 [outputs]
   home = ["HTML", "RSS"]
 
