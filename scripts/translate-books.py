@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import os
 import re
 import sys
 import time
@@ -14,7 +15,23 @@ from deep_translator import GoogleTranslator
 REPO = Path(__file__).resolve().parents[1]
 EN_ROOT = REPO / "content" / "en" / "books"
 
-DEEPL_API_KEY = "8c04b212-41b9-44d3-9af9-a0a21ac1a6d6:fx"
+# Read the DeepL API key from environment. Also honour a repo-local
+# `.env` file (a single line like `DEEPL_API_KEY=xxxxxxxx:fx`) so it
+# never has to be exported per shell.
+def _load_deepl_key() -> str:
+    key = os.environ.get("DEEPL_API_KEY", "").strip()
+    if key:
+        return key
+    env_file = REPO / ".env"
+    if env_file.exists():
+        for line in env_file.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line.startswith("DEEPL_API_KEY="):
+                return line.split("=", 1)[1].strip().strip('"').strip("'")
+    return ""
+
+
+DEEPL_API_KEY = _load_deepl_key()
 DEEPL_URL = "https://api-free.deepl.com/v2/translate"
 
 # Languages that use DeepL for website content (EU languages DeepL supports)
@@ -34,6 +51,11 @@ class DeepLTranslator:
     """Thin wrapper around DeepL free API using header-based auth."""
 
     def __init__(self, target: str) -> None:
+        if not DEEPL_API_KEY:
+            raise RuntimeError(
+                "DeepL API key is not configured. Set DEEPL_API_KEY in your "
+                "environment or in a .env file at the repo root."
+            )
         self._target = target
         self._headers = {
             "Authorization": f"DeepL-Auth-Key {DEEPL_API_KEY}",
