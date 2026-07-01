@@ -17,6 +17,8 @@
 {{- /* English-name lookup so non-native readers can identify each script.
      Shared with the PDF download dropdown via lang-english-names partial. */ -}}
 {{- $englishNames := partial "lang-english-names.html" . -}}
+{{- $currentCode := $current.Language.Lang -}}
+{{- $currentEnglish := index $englishNames $currentCode -}}
 
 {{- /*
   Language groups, in column order. English stands alone as International;
@@ -36,7 +38,10 @@
     aria-label="{{ i18n "language_label" | default "Language" }}: {{ $currentLabel }}"
   >
     <span class="lang-switcher-globe" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
-    <span class="lang-switcher-current">{{ $currentLabel }}</span>
+    <span class="lang-switcher-current">
+      <span class="lang-switcher-current-native" lang="{{ $currentCode }}">{{ $currentLabel }}</span>
+      {{- if and $currentEnglish (ne $currentCode "en") }}<span class="lang-switcher-current-english">{{ $currentEnglish }}</span>{{ end -}}
+    </span>
     <span class="lang-switcher-chevron" aria-hidden="true">{{ partial "icons/chevron-down.html" . }}</span>
   </button>
   <div class="lang-switcher-menu" role="menu">
