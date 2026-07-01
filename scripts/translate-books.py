@@ -125,6 +125,7 @@ LANGS = {
     # mni uses Meitei script; Google Translate code is mni-Mtei (not the Hugo locale "mni")
     "mni": {"chapter": "ꯃꯆꯤꯡ", "translated_by": "ꯏꯟꯒ꯭ꯂꯤꯁ ꯇꯥ ꯂꯧꯈꯠꯂꯛꯄ (AI ꯑꯣꯏꯕ ꯐꯥꯎꯕꯤꯁꯤꯡ).", "gt_target": "mni-Mtei"},
     "ta": {"chapter": "அத்தியாயம்", "translated_by": "ஆங்கிலத்திலிருந்து மொழிபெயர்க்கப்பட்டது (AI வரைவு)."},
+    "te": {"chapter": "అధ్యాయం", "translated_by": "ఆంగ్లం నుండి అనువదించబడింది (AI ముసాయిదా)."},
     "or": {"chapter": "ଅଧ୍ୟାୟ", "translated_by": "ଇଂରାଜୀରୁ ଅନୁବାଦ (AI ଡ୍ରାଫ୍ଟ)."},
 }
 

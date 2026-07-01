@@ -1,0 +1,40 @@
+[[main]]
+  identifier = "home"
+  name = "హోమ్"
+  url = "/"
+  weight = 10
+  [main.params]
+    icon = "home"
+
+[[main]]
+  identifier = "videos"
+  name = "వీడియోలు"
+  url = "/videos/"
+  weight = 20
+  [main.params]
+    icon = "play"
+
+[[main]]
+  identifier = "books"
+  name = "పుస్తకాలు"
+  url = "/books/"
+  weight = 30
+  [main.params]
+    icon = "book"
+
+[[main]]
+  identifier = "gallery"
+  name = "గ్యాలరీ"
+  url = "/gallery/"
+  weight = 40
+  [main.params]
+    icon = "image"
+    comingSoon = true
+
+[[main]]
+  identifier = "contact"
+  name = "సంప్రదింపులు"
+  url = "/contact/"
+  weight = 50
+  [main.params]
+    icon = "mail"

@@ -1,0 +1,203 @@
+[home_title]
+other = "క్యారమ్ కోచ్ అరుణ్ దేశ్ పాండే"
+
+[watch_videos]
+other = "వీడియోలను చూడండి"
+
+[play_video]
+other = "వీడియో ప్లే చేయండి"
+
+[watch_on_youtube]
+other = "YouTubeలో చూడండి"
+
+[close_video]
+other = "మూసివేయి"
+
+[youtube_channel]
+other = "YouTube ఛానెల్"
+
+[play_store_label]
+other = "Google Playలో యాప్‌ని పొందండి"
+
+[google_play_app]
+other = "Google Play యాప్"
+
+[about_legend]
+other = "లెజెండ్ గురించి"
+
+[explore]
+other = "అన్వేషించండి"
+
+[video_library]
+other = "వీడియో లైబ్రరీ"
+
+[video_library_desc]
+other = "నైపుణ్యం స్థాయిని బట్టి వర్గీకరించబడిన క్యారమ్ ట్యుటోరియల్‌లను చూడండి — బిగినర్స్ నుండి ఛాంపియన్ వరకు."
+
+[carrom_books]
+other = "క్యారమ్ బుక్స్"
+
+[carrom_books_desc]
+other = "అరుణ్ దేశ్‌పాండే ద్వారా విద్యార్థులు మరియు కోచ్‌ల కోసం ప్రత్యేకమైన PDF పుస్తకాలను డౌన్‌లోడ్ చేయండి."
+
+[photo_gallery]
+other = "ఫోటో గ్యాలరీ"
+
+[photo_gallery_desc]
+other = "ఛాంపియన్‌షిప్‌లు, కోచింగ్ క్యాంప్‌లు మరియు ఐకానిక్ మూమెంట్‌లను తిరిగి పొందండి."
+
+[chapter]
+other = "అధ్యాయం"
+
+[previous]
+other = "మునుపటి"
+
+[next]
+other = "తదుపరి"
+
+[email]
+other = "ఇమెయిల్"
+
+[phone]
+other = "ఫోన్ / WhatsApp"
+
+[location]
+other = "స్థానం"
+
+[coaching_enquiries]
+other = "కోచింగ్ విచారణలు"
+
+[whatsapp_message]
+other = "హలో అరుణ్ సార్, నేను క్యారమ్ అకాడమీ వెబ్‌సైట్‌ని కనుగొన్నాను మరియు నాకు క్యారమ్ కోచింగ్ పట్ల ఆసక్తి ఉంది."
+
+[contact_information]
+other = "సంప్రదింపు సమాచారం"
+
+[message_on_whatsapp]
+other = "వాట్సాప్‌లో మెసేజ్"
+
+[whatsapp_hint]
+other = "కోచింగ్ విచారణలు మరియు వర్క్‌షాప్‌ల కోసం అరుణ్‌ని చేరుకోవడానికి వేగవంతమైన మార్గం."
+
+[page_count]
+other = "పేజీలు"
+
+[download_pdf]
+other = "PDFని డౌన్‌లోడ్ చేయండి"
+
+[original_source]
+other = "అసలు మూలం"
+
+[original_sources]
+other = "అసలు మూలాలు"
+
+[no_books_yet]
+other = "ఇంకా పుస్తకాలు అందుబాటులో లేవు."
+
+[problem_label]
+other = "సమస్య"
+
+[solution_label]
+other = "పరిష్కారం"
+
+[ps_index_label]
+other = "సమస్య సమూహాలు"
+
+[soon]
+other = "త్వరలో"
+
+[pdf_coming_soon]
+other = "PDF త్వరలో వస్తుంది"
+
+[ready_to_read]
+other = "చదవడానికి సిద్ధంగా ఉంది"
+
+[start_reading]
+other = "చదవడం ప్రారంభించండి"
+
+[table_of_contents]
+other = "విషయాల పట్టిక"
+
+[language_label]
+other = "భాష"
+
+[coming_soon]
+other = "త్వరలో వస్తుంది"
+
+[coming_soon_body]
+other = "ఈ విభాగం సిద్ధమవుతోంది. ఈలోగా, వీడియోల పేజీకి వెళ్లండి లేదా సంప్రదింపు పేజీ ద్వారా touchని పొందండి."
+
+[watch_in_action]
+other = "చర్యలో చూడండి"
+
+[video_level_beginner]
+other = "అనుభవశూన్యుడు"
+
+[video_level_intermediate]
+other = "ఇంటర్మీడియట్"
+
+[video_level_champion]
+other = "ఛాంపియన్"
+
+[video_lang_hint_label]
+other = "శీర్షికలు"
+
+[video_lang_hint_body]
+other = "వీడియోలు ఆంగ్ల క్యారమ్ నిబంధనలతో మరాఠీలో ఉన్నాయి. ప్లేయర్‌లోని CC బటన్‌ను నొక్కండి మరియు ఉపశీర్షికలు → స్వీయ-అనువాదం క్రింద మీ భాషను ఎంచుకోండి."
+
+[reading_progress]
+other = "పఠనం పురోగతి"
+
+[other_languages]
+other = "ఇతర భాషలు"
+
+[ps_progress_template]
+other = "మీరు {total} పరిష్కారాలలో {count} చూసారు"
+
+[ps_reset_progress]
+other = "పురోగతిని రీసెట్ చేయండి"
+
+[ps_reset_confirm]
+other = "మీ వీక్షణ పురోగతిని క్లియర్ చేయాలా?"
+
+[ps_solved_label]
+other = "పరిష్కరించబడింది"
+
+[stat_maharashtra_champion]
+other = "మహారాష్ట్ర ఛాంపియన్"
+
+[stat_world_championship_coach]
+other = "ప్రపంచ ఛాంపియన్‌షిప్ కోచ్"
+
+[stat_years_of_coaching]
+other = "సంవత్సరాల కోచింగ్"
+
+[stat_countries_trained]
+other = "శిక్షణ పొందిన దేశాలు"
+
+[ach_title_maharashtra]
+other = "7× మహారాష్ట్ర ఛాంపియన్"
+
+[ach_sub_maharashtra]
+other = "స్టేట్ రికార్డ్ (1957 నుండి)"
+
+[ach_title_national]
+other = "జాతీయ ఛాంపియన్"
+
+[ach_sub_national]
+other = "(సింగిల్స్ 1969 · వెటరన్ 1981)"
+
+[ach_title_intl_coach]
+other = "అంతర్జాతీయ కోచ్"
+
+[ach_sub_intl_coach]
+other = "10+ దేశాలు శిక్షణ పొందాయి"
+
+[ach_title_world]
+other = "ప్రపంచ ఛాంపియన్‌షిప్"
+
+[ach_sub_world]
+other = "భారతదేశాన్ని ప్రతి ప్రపంచానికి నడిపించారు"
+
+[intro_section_title]
+other = "ఇక్కడ ప్రారంభించండి - కోచ్ నుండి"

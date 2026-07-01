@@ -116,6 +116,14 @@ disableKinds = ["taxonomy", "term"]
     [languages.or.params]
       description = "ଅରୁଣ ଦେଶପାଣ୍ଡେଙ୍କ ଦ୍ୱାରା କ୍ୟାରମ କୋଚିଂ, କୌଶଳ ଏବଂ ପୁସ୍ତକ"
 
+  [languages.te]
+    label = "తెలుగు"
+    locale = "te"
+    weight = 14
+    contentDir = "content/te"
+    [languages.te.params]
+      description = "అరుణ్ దేశపాండే ద్వారా క్యారమ్ కోచింగ్, నైపుణ్యాలు మరియు పుస్తకాలు"
+
 [outputs]
   home = ["HTML", "RSS"]
 
