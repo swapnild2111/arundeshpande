@@ -2933,6 +2933,7 @@ body.video-player-open { overflow: hidden; }
   .explore-grid { grid-template-columns: 1fr; }
   .about-cols { column-count: 1; }
   .video-grid { grid-template-columns: repeat(2, 1fr); }
+  .vs-hero-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
   .ps-browser .ps-group.is-active {
     grid-template-columns: 1fr;
     gap: 12px;
