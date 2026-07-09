@@ -26,7 +26,7 @@ videos:
     title: "પરિચય - અરુણ દેશપાંડે"
     tags: ["intro"]
   - id: "Rm17_RqoikQ"
-    title: "રમત પાછળ વિજ્ઞાન, સિક્કા કેવી રીતે ગોઠવવા, બ્રેક્સ"
+    title: "રમત પાછળ વિજ્ઞાન, કૂકરીઓ કેવી રીતે ગોઠવવા, બ્રેક્સ"
     tags: ["beginner"]
   - id: "1BjaxJAWo6w"
     title: "બ્રેક"
@@ -38,7 +38,7 @@ videos:
     title: "પકડ"
     tags: ["beginner"]
   - id: "fx_RqJu4h4w"
-    title: "અંગૂઠા અને સીધા સિક્કા - 1"
+    title: "અંગૂઠા અને સીધા કૂકરીઓ - 1"
     tags: ["beginner"]
   - id: "SHY0TIumWlU"
     title: "Cut, સીધું cut"
@@ -122,7 +122,7 @@ videos:
     title: "Touch"
     tags: ["intermediate"]
   - id: "bJWs4zAS6xI"
-    title: "touch અને ત્રીજા ખિસ્સાનું સંયોજન"
+    title: "touch અને ત્રીજા ખાનાઓનું સંયોજન"
     tags: ["intermediate"]
   - id: "97stbPKDJPs"
     title: "pair અને Double નું સંયોજન"
@@ -131,7 +131,7 @@ videos:
     title: "વળવું, અનુસરો"
     tags: ["intermediate"]
   - id: "4VnYN81vPE4"
-    title: "ત્રીજા ખિસ્સા, ક્રોસ ત્રીજા ખિસ્સા"
+    title: "ત્રીજા ખાનાઓ, ક્રોસ ત્રીજા ખાનાઓ"
     tags: ["intermediate"]
   - id: "78mP_-FbTa4"
     title: "સેકન્ડ પોકેટ, ક્રોસ સેકન્ડ પોકેટ"
@@ -197,7 +197,7 @@ videos:
     title: "Bomb"
     tags: ["champion"]
   - id: "lGIEPr4z9NI"
-    title: "સિક્કો રોલિંગ"
+    title: "કૂકરી રોલિંગ"
     tags: ["champion"]
   - id: "h_67KxeDtzc"
     title: "striker નું રોલિંગ"
@@ -215,7 +215,7 @@ videos:
     title: "વિદ્યાર્થી સાથે રમવું — એપિસોડ 3"
     tags: ["misc"]
   - id: "2JzKbqNcPnM"
-    title: "ત્રણ સિક્કા press"
+    title: "ત્રણ કૂકરીઓ press"
     tags: ["misc"]
   - id: "eJk-zAvu7Ro"
     title: "વિદ્યાર્થી સાથે રમવું — એપિસોડ 1"
@@ -224,7 +224,7 @@ videos:
     title: "આધારરેખા હેઠળ bomb"
     tags: ["misc"]
   - id: "g1-0ci30pNg"
-    title: "મુશ્કેલ કાળા સિક્કા સમાપ્ત — વિદ્યાર્થી સાથે રમતા"
+    title: "મુશ્કેલ કાળા કૂકરીઓ સમાપ્ત — વિદ્યાર્થી સાથે રમતા"
     tags: ["misc"]
   - id: "07BewnfSRfU"
     title: "તણાવ રાહત માટે પ્રદર્શન સ્ટ્રોક"

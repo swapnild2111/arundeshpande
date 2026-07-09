@@ -81,6 +81,41 @@ OUTPUT_FIXES = {
     # Google Translate for Odia outputs ASCII pipe | as sentence-ender instead
     # of the proper Odia/Devanagari Danda ।  (U+0964).
     "or": [(" |", "।"), (" | ", "। ")],
+
+    # Gujarati: carrom-domain corrections from a native-speaker friend.
+    # Google translates carrom-specific terms too literally:
+    #   coin/coins → સિક્કો/સિક્કા (money coin) instead of કૂકરી (carrom piece)
+    #   play/playing → વગાડ... (to play music) instead of રમ... (to play game)
+    #   pocket → ખિસ્સું (clothing pocket) instead of ખાનું (compartment)
+    #   attack → ગુનો (crime) instead of પ્રહાર (offensive strike)
+    # Ordered longest-first so specific phrases match before general stems.
+    "gu": [
+        # Full phrases first (most specific)
+        ("વગાડવાની સપાટી", "રમવાની સપાટી"),
+        # Verb forms — replace before touching the stem
+        ("વગાડવામાં", "રમવામાં"),
+        ("વગાડવાનું", "રમવાનું"),
+        ("વગાડવાની", "રમવાની"),
+        ("વગાડવાનો", "રમવાનો"),
+        ("વગાડવા",   "રમવા"),
+        ("વગાડતી",   "રમતી"),
+        ("વગાડતો",   "રમતો"),
+        ("વગાડતાં",  "રમતાં"),
+        ("વગાડતા",   "રમતા"),
+        ("વગાડ્યું",  "રમ્યું"),
+        ("વગાડ્યો",  "રમ્યો"),
+        ("વગાડી",    "રમી"),
+        # Nouns — plural before singular so the stem match doesn't overshoot
+        ("સિક્કાઓ",  "કૂકરીઓ"),
+        ("સિક્કા",   "કૂકરીઓ"),
+        ("સિક્કો",   "કૂકરી"),
+        ("ખિસ્સાઓ",  "ખાનાઓ"),
+        ("ખિસ્સા",   "ખાનાઓ"),
+        ("ખિસ્સું",  "ખાનું"),
+        # Domain terms
+        ("Force અરજી", "Force અરજ"),
+        ("ગુનો",     "પ્રહાર"),
+    ],
 }
 
 

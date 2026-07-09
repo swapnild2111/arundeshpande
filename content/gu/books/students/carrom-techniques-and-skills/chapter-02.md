@@ -1,18 +1,18 @@
 ---
 title: "પ્રકરણ 2 — સાધનસામગ્રી"
-description: "કેરમ સેટનો દરેક ભાગ — બોર્ડ, ફ્રેમ્સ, ખિસ્સા, આધાર રેખાઓ, વર્તુળો, સિક્કા, striker, સ્ટેન્ડ, લેમ્પ."
+description: "કેરમ સેટનો દરેક ભાગ — બોર્ડ, ફ્રેમ્સ, ખાનાઓ, આધાર રેખાઓ, વર્તુળો, કૂકરીઓ, striker, સ્ટેન્ડ, લેમ્પ."
 weight: 2
 date: 2026-01-01
 author: "Arun Deshpande"
 translatedBy: "અંગ્રેજીમાંથી અનુવાદિત (AI મુસદ્દો)."
 ---
-*કેરમ સેટનો દરેક ભાગ — બોર્ડ, ફ્રેમ્સ, પોકેટ્સ, બેઝ લાઇન, વર્તુળો, સિક્કા, striker, સ્ટેન્ડ અને લેમ્પ. તમે તમારા સ્ટ્રોક શીખો તે પહેલાં તમારા સાધનોને જાણો.*
+*કેરમ સેટનો દરેક ભાગ — બોર્ડ, ફ્રેમ્સ, પોકેટ્સ, બેઝ લાઇન, વર્તુળો, કૂકરીઓ, striker, સ્ટેન્ડ અને લેમ્પ. તમે તમારા સ્ટ્રોક શીખો તે પહેલાં તમારા સાધનોને જાણો.*
 
 ## કેરમ Board
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">વગાડવાની સપાટી</span>
+    <span class="term">રમવાની સપાટી</span>
     <p class="def">પ્લાયવુડ,<strong>29 ઇંચ</strong>ચોરસ સામાન્ય રીતે જાડાઈ<strong>12-16 મીમી</strong>.</p>
   </div>
   <div class="definition-card">
@@ -20,8 +20,8 @@ translatedBy: "અંગ્રેજીમાંથી અનુવાદિત 
     <p class="def">ચાર બાજુઓ,<strong>3 ઇંચ</strong>પહોળું<strong>2 ઇંચ</strong>જાડા</p>
   </div>
   <div class="definition-card">
-    <span class="term">ખિસ્સા</span>
-    <p class="def">ચાર ખૂણાના ખિસ્સા, દરેક<strong>4.45 સે.મી</strong>વ્યાસમાં</p>
+    <span class="term">ખાનાઓ</span>
+    <p class="def">ચાર ખૂણાના ખાનાઓ, દરેક<strong>4.45 સે.મી</strong>વ્યાસમાં</p>
   </div>
   <div class="definition-card">
     <span class="term">આધાર રેખાઓ</span>
@@ -41,11 +41,11 @@ translatedBy: "અંગ્રેજીમાંથી અનુવાદિત 
   </div>
 </div>
 
-## સિક્કા અને Striker
+## કૂકરીઓ અને Striker
 
 <div class="definition-grid">
   <div class="definition-card">
-    <span class="term">સિક્કા</span>
+    <span class="term">કૂકરીઓ</span>
     <p class="def"><strong>9 સફેદ, 9 કાળો, 1 લાલ</strong>(Queen) — કુલ 19. વ્યાસ<strong>3.18 સે.મી</strong>; વજન<strong>5.25–5.50 ગ્રામ</strong>.</p>
   </div>
   <div class="definition-card">

@@ -58,7 +58,7 @@ translatedBy: "અંગ્રેજીમાંથી અનુવાદિત 
   </div>
 </div>
 
-## આ Queen, સિક્કા અને મૂકવા
+## આ Queen, કૂકરીઓ અને મૂકવા
 
 <div class="definition-grid">
   <div class="definition-card">
@@ -71,11 +71,11 @@ translatedBy: "અંગ્રેજીમાંથી અનુવાદિત 
   </div>
   <div class="definition-card">
     <span class="term">પોકેટીંગ</span>
-    <p class="def">યોગ્ય અથવા અયોગ્ય સ્ટ્રોક દ્વારા ખિસ્સામાં C/m અથવા Queen મૂકવું.</p>
+    <p class="def">યોગ્ય અથવા અયોગ્ય સ્ટ્રોક દ્વારા ખાનાઓમાં C/m અથવા Queen મૂકવું.</p>
   </div>
   <div class="definition-card">
     <span class="term">આવરણ</span>
-    <p class="def">Queen ખિસ્સામાં મૂક્યા પછી તે જ અથવા તરત જ અનુગામી સ્ટ્રોકમાં ખેલાડી દ્વારા પોતાનું એક C/m પોકેટ કરવું.</p>
+    <p class="def">Queen ખાનાઓમાં મૂક્યા પછી તે જ અથવા તરત જ અનુગામી સ્ટ્રોકમાં ખેલાડી દ્વારા પોતાનું એક C/m પોકેટ કરવું.</p>
   </div>
 </div>
 
@@ -84,7 +84,7 @@ translatedBy: "અંગ્રેજીમાંથી અનુવાદિત 
 <div class="definition-grid">
   <div class="definition-card">
     <span class="term">બાકી</span>
-    <p class="def">Striker ને C/m અને/અથવા Queen સાથે અથવા વગર, અને/અથવા કોઈ પણ બાકી c/mને પ્લેયર વિરૂદ્ધ કેસ તરીકે ખિસ્સામાં મૂકવો.</p>
+    <p class="def">Striker ને C/m અને/અથવા Queen સાથે અથવા વગર, અને/અથવા કોઈ પણ બાકી c/mને પ્લેયર વિરૂદ્ધ કેસ તરીકે ખાનાઓમાં મૂકવો.</p>
   </div>
   <div class="definition-card">
     <span class="term">દંડ</span>
@@ -109,11 +109,11 @@ translatedBy: "અંગ્રેજીમાંથી અનુવાદિત 
   </div>
   <div class="definition-card">
     <span class="term">Pair</span>
-    <p class="def">બે C/m, અથવા એક C/m અને Queen, તેમની વચ્ચે જગ્યા સાથે ખિસ્સાની સામાન્ય દિશા તરફ સામનો કરે છે.</p>
+    <p class="def">બે C/m, અથવા એક C/m અને Queen, તેમની વચ્ચે જગ્યા સાથે ખાનાઓની સામાન્ય દિશા તરફ સામનો કરે છે.</p>
   </div>
   <div class="definition-card">
     <span class="term">Cannon</span>
-    <p class="def">બે C/m, અથવા એક C/m અને Queen, ખિસ્સાની સામાન્ય દિશા તરફ સામનો કરે છે<em>વગર</em>તેમની વચ્ચે કોઈપણ જગ્યા.</p>
+    <p class="def">બે C/m, અથવા એક C/m અને Queen, ખાનાઓની સામાન્ય દિશા તરફ સામનો કરે છે<em>વગર</em>તેમની વચ્ચે કોઈપણ જગ્યા.</p>
   </div>
   <div class="definition-card">
     <span class="term">થમ્બિંગ</span>
@@ -168,7 +168,7 @@ translatedBy: "અંગ્રેજીમાંથી અનુવાદિત 
   </div>
   <div class="definition-card">
     <span class="term">બ્લેક સ્લેમ</span>
-    <p class="def">રમતના પ્રથમ વળાંકમાં કાયદા અનુસાર, Queen સાથે અથવા વગર બાકીના તમામ કાળા C/mને ખિસ્સામાં રાખવું.</p>
+    <p class="def">રમતના પ્રથમ વળાંકમાં કાયદા અનુસાર, Queen સાથે અથવા વગર બાકીના તમામ કાળા C/mને ખાનાઓમાં રાખવું.</p>
   </div>
 </div>
 
