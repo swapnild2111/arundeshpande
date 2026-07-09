@@ -43,7 +43,18 @@
 
     if (total === 0) return;
 
-    var storageOk = safeWrite(new Set()); // probe storage
+    // Probe storage with a throwaway key so we don't stomp real progress
+    // stored under STORAGE_KEY.
+    var storageOk = (function () {
+      try {
+        var probeKey = STORAGE_KEY + ':probe';
+        localStorage.setItem(probeKey, '1');
+        localStorage.removeItem(probeKey);
+        return true;
+      } catch (_) {
+        return false;
+      }
+    })();
     if (!storageOk) return;
 
     var solved = safeRead();
