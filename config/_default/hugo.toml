@@ -124,6 +124,14 @@ disableKinds = ["taxonomy", "term"]
     [languages.te.params]
       description = "అరుణ్ దేశపాండే ద్వారా క్యారమ్ కోచింగ్, నైపుణ్యాలు మరియు పుస్తకాలు"
 
+  [languages.bn]
+    label = "বাংলা"
+    locale = "bn"
+    weight = 15
+    contentDir = "content/bn"
+    [languages.bn.params]
+      description = "অরুণ দেশপান্ডের দ্বারা ক্যারম কোচিং, দক্ষতা এবং বই"
+
 [outputs]
   home = ["HTML", "RSS"]
 

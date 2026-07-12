@@ -21,6 +21,7 @@ books:
       ta: "downloads/carrom-techniques-and-skills-ta.pdf"
       te: "downloads/carrom-techniques-and-skills-te.pdf"
       or: "downloads/carrom-techniques-and-skills-or.pdf"
+      bn: "downloads/carrom-techniques-and-skills-bn.pdf"
     titles:
       en: "Carrom Techniques and Skills"
       da: "Carrom-teknik og færdigheder"
@@ -36,6 +37,7 @@ books:
       ta: "கேரம் நுட்பங்கள் மற்றும் திறன்கள்"
       te: "క్యారమ్ టెక్నిక్‌లు మరియు నైపుణ్యాలు"
       or: "କ୍ୟାରମ ତକ୍ନୀକ ଓ କୌଶଳ"
+      bn: "ক্যারাম কৌশল এবং দক্ষতা"
     descriptions:
       en: "Arun Deshpande's complete coaching book — grips, breaks, every major stroke, defence, offence, and advanced board positions."
       da: "Arun Deshpandes komplette træningsbog — greb, åbningsslag, alle hovedslag, forsvar, angreb og avancerede stillinger."
@@ -51,6 +53,7 @@ books:
       ta: "அருண் தேஷ்பாண்டேயின் முழுமையான பயிற்சி புத்தகம் — கைப்பிடிகள், இடைவேளைகள், எல்லா முக்கிய அடிகள், தற்காப்பு மற்றும் மேம்பட்ட நிலைகள்."
       te: "అరుణ్ దేశ్‌పాండే యొక్క పూర్తి కోచింగ్ పుస్తకం — గ్రిప్‌లు, బ్రేక్‌లు, అన్ని ప్రధాన స్ట్రోక్‌లు, రక్షణ, దాడి మరియు అధునాతన బోర్డు స్థానాలు."
       or: "ଅରୁଣ ଦେଶପାଣ୍ଡেଙ୍କ ସମ୍ପୂର୍ଣ କୋଚିଂ ପୁସ୍ତକ — ଗ୍ରିପ, ବ୍ରେକ, ସବୁ ମୁଖ୍ୟ ଷ୍ଟ୍ରୋକ, ଡିଫେନ୍ସ ଏବଂ ଉନ୍ନତ ବୋର୍ଡ ଅବସ୍ଥା।"
+      bn: "অরুণ দেশপান্ডের সম্পূর্ণ কোচিং বই — গ্রিপ, ব্রেক, সব প্রধান স্ট্রোক, প্রতিরক্ষা, আক্রমণ এবং উন্নত বোর্ড পজিশন।"
     tagLabels:
       en: "Read online"
       da: "Læs online"
@@ -66,6 +69,7 @@ books:
       ta: "ஆன்லைனில் படிக்கவும்"
       te: "ఆన్‌లైన్‌లో చదవండి"
       or: "ଅନଲାଇନ ପଢ଼ନ୍ତୁ"
+      bn: "অনলাইনে পড়ুন"
     languages:
       en: true
       da: true
@@ -81,6 +85,7 @@ books:
       ta: true
       te: true
       or: true
+      bn: true
 
   - id: official-carrom-rules
     category: rules
@@ -110,6 +115,7 @@ books:
       ta: "downloads/carrom-official-rules-ta.pdf"
       te: "downloads/carrom-official-rules-te.pdf"
       or: "downloads/carrom-official-rules-or.pdf"
+      bn: "downloads/carrom-official-rules-bn.pdf"
     titles:
       en: "Official Carrom Rules & Regulations"
       da: "Officielle carrom-regler"
@@ -125,6 +131,7 @@ books:
       ta: "அதிகாரப்பூர்வ கேரம் விதிகள்"
       te: "అధికారిక క్యారమ్ నియమాలు & నిబంధనలు"
       or: "ଅଧିକୃତ କ୍ୟାରମ ନିୟମ ଓ ନିୟନ୍ତ୍ରଣ"
+      bn: "অফিসিয়াল ক্যারাম বিধি ও প্রবিধান"
     descriptions:
       en: "The complete laws of carrom as published by the International Carrom Federation — equipment, definitions, match procedure, scoring, fouls, and the Queen rules."
       da: "De officielle internationale carrom-regler udgivet af International Carrom Federation."
@@ -140,6 +147,7 @@ books:
       ta: "சர்வதேச கேரம் கூட்டமைப்பால் வெளியிடப்பட்ட கேரம் முழு விதிகள் — உபகரணங்கள், வரையறைகள், போட்டி நடைமுறை, மதிப்பெண், தவறுகள் மற்றும் Queen விதிகள்."
       te: "అంతర్జాతీయ క్యారమ్ ఫెడరేషన్ ప్రచురించిన క్యారమ్ యొక్క పూర్తి నియమాలు — పరికరాలు, నిర్వచనాలు, మ్యాచ్ ప్రొసీజర్, స్కోరింగ్, ఫౌల్స్ మరియు Queen నియమాలు."
       or: "International Carrom Federation ଦ୍ୱାରା ପ୍ରକାଶିତ କ୍ୟାରମ ର ସମ୍ପୂର୍ଣ ନିୟମ — ଉପକରଣ, ସଂଜ୍ଞା, ମ୍ୟାଚ ପ୍ରକ୍ରିୟା, ସ୍କୋରିଂ, ଫାଉଲ ଏବଂ Queen ନିୟମ।"
+      bn: "আন্তর্জাতিক ক্যারাম ফেডারেশন কর্তৃক প্রকাশিত ক্যারামের সম্পূর্ণ নিয়ম — সরঞ্জাম, সংজ্ঞা, ম্যাচ পদ্ধতি, স্কোরিং, ফাউল এবং Queen নিয়ম।"
     tagLabels:
       en: "Read online"
       da: "Læs online"
@@ -155,6 +163,7 @@ books:
       ta: "ஆன்லைனில் படிக்கவும்"
       te: "ఆన్‌లైన్‌లో చదవండి"
       or: "ଅନଲାଇନ ପଢ଼ନ୍ତୁ"
+      bn: "অনলাইনে পড়ুন"
     languages:
       en: true
       da: true
@@ -170,3 +179,4 @@ books:
       ta: true
       te: true
       or: true
+      bn: true

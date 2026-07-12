@@ -162,6 +162,7 @@ LANGS = {
     "ta": {"chapter": "அத்தியாயம்", "translated_by": "ஆங்கிலத்திலிருந்து மொழிபெயர்க்கப்பட்டது (AI வரைவு)."},
     "te": {"chapter": "అధ్యాయం", "translated_by": "ఆంగ్లం నుండి అనువదించబడింది (AI ముసాయిదా)."},
     "or": {"chapter": "ଅଧ୍ୟାୟ", "translated_by": "ଇଂରାଜୀରୁ ଅନୁବାଦ (AI ଡ୍ରାଫ୍ଟ)."},
+    "bn": {"chapter": "অধ্যায়", "translated_by": "ইংরেজি থেকে অনুবাদ (AI খসড়া)."},
 }
 
 # International carrom terms — keep as-is during translation.

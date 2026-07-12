@@ -1,0 +1,203 @@
+[home_title]
+other = "ক্যারাম কোচ অরুণ দেশপান্ডে"
+
+[watch_videos]
+other = "ভিডিও দেখুন"
+
+[play_video]
+other = "ভিডিও চালান"
+
+[watch_on_youtube]
+other = "YouTube এ দেখুন"
+
+[close_video]
+other = "বন্ধ"
+
+[youtube_channel]
+other = "YouTube চ্যানেল"
+
+[play_store_label]
+other = "Google Play এ অ্যাপটি পান"
+
+[google_play_app]
+other = "গুগল প্লে অ্যাপ"
+
+[about_legend]
+other = "কিংবদন্তি সম্পর্কে"
+
+[explore]
+other = "অন্বেষণ"
+
+[video_library]
+other = "ভিডিও লাইব্রেরি"
+
+[video_library_desc]
+other = "দক্ষতা স্তর দ্বারা শ্রেণীবদ্ধ ক্যারাম টিউটোরিয়াল দেখুন — শিক্ষানবিস থেকে চ্যাম্পিয়ন পর্যন্ত।"
+
+[carrom_books]
+other = "ক্যারাম বই"
+
+[carrom_books_desc]
+other = "অরুণ দেশপান্ডের ছাত্র এবং প্রশিক্ষকদের জন্য একচেটিয়া পিডিএফ বই ডাউনলোড করুন।"
+
+[photo_gallery]
+other = "ফটো গ্যালারি"
+
+[photo_gallery_desc]
+other = "যাত্রাকে পুনরায় উপভোগ করুন — চ্যাম্পিয়নশিপ, কোচিং ক্যাম্প এবং আইকনিক মুহূর্তগুলি।"
+
+[chapter]
+other = "অধ্যায়"
+
+[previous]
+other = "আগের"
+
+[next]
+other = "পরবর্তী"
+
+[email]
+other = "ইমেইল"
+
+[phone]
+other = "ফোন/হোয়াটসঅ্যাপ"
+
+[location]
+other = "অবস্থান"
+
+[coaching_enquiries]
+other = "কোচিং অনুসন্ধান"
+
+[whatsapp_message]
+other = "হ্যালো অরুণ স্যার, আমি ক্যারাম একাডেমীর ওয়েবসাইট খুঁজে পেয়েছি এবং আমি ক্যারাম কোচিংয়ে আগ্রহী।"
+
+[contact_information]
+other = "যোগাযোগের তথ্য"
+
+[message_on_whatsapp]
+other = "হোয়াটসঅ্যাপে মেসেজ"
+
+[whatsapp_hint]
+other = "কোচিং অনুসন্ধান এবং কর্মশালার জন্য অরুণ পৌঁছানোর দ্রুততম উপায়।"
+
+[page_count]
+other = "পৃষ্ঠাগুলি"
+
+[download_pdf]
+other = "PDF ডাউনলোড করুন"
+
+[original_source]
+other = "মূল উৎস"
+
+[original_sources]
+other = "মূল সূত্র"
+
+[no_books_yet]
+other = "এখনো কোন বই পাওয়া যায় না।"
+
+[problem_label]
+other = "সমস্যা"
+
+[solution_label]
+other = "সমাধান"
+
+[ps_index_label]
+other = "সমস্যা গ্রুপ"
+
+[soon]
+other = "শীঘ্রই"
+
+[pdf_coming_soon]
+other = "পিডিএফ শীঘ্রই আসছে"
+
+[ready_to_read]
+other = "পড়ার জন্য প্রস্তুত"
+
+[start_reading]
+other = "পড়া শুরু করুন"
+
+[table_of_contents]
+other = "বিষয়বস্তুর সারণী"
+
+[language_label]
+other = "ভাষা"
+
+[coming_soon]
+other = "শীঘ্রই আসছে"
+
+[coming_soon_body]
+other = "এই বিভাগ প্রস্তুত করা হচ্ছে. ইতিমধ্যে, ভিডিও পৃষ্ঠাতে যান বা যোগাযোগ পৃষ্ঠার মাধ্যমে touch এ যান৷"
+
+[watch_in_action]
+other = "কর্মে দেখুন"
+
+[video_level_beginner]
+other = "শিক্ষানবিস"
+
+[video_level_intermediate]
+other = "মধ্যবর্তী"
+
+[video_level_champion]
+other = "চ্যাম্পিয়ন"
+
+[video_lang_hint_label]
+other = "ক্যাপশন"
+
+[video_lang_hint_body]
+other = "ভিডিওগুলি ইংরেজি ক্যারাম পদ সহ মারাঠি ভাষায়। প্লেয়ারে CC বোতামে আলতো চাপুন এবং সাবটাইটেল → স্বয়ং অনুবাদের অধীনে আপনার ভাষা চয়ন করুন৷"
+
+[reading_progress]
+other = "পড়ার অগ্রগতি"
+
+[other_languages]
+other = "অন্যান্য ভাষা"
+
+[ps_progress_template]
+other = "আপনি {total} সমাধানের {count}টি দেখেছেন"
+
+[ps_reset_progress]
+other = "অগ্রগতি রিসেট করুন"
+
+[ps_reset_confirm]
+other = "আপনার দেখার অগ্রগতি সাফ করবেন?"
+
+[ps_solved_label]
+other = "সমাধান করা হয়েছে"
+
+[stat_maharashtra_champion]
+other = "মহারাষ্ট্র চ্যাম্পিয়ন"
+
+[stat_world_championship_coach]
+other = "বিশ্ব চ্যাম্পিয়নশিপ কোচ"
+
+[stat_years_of_coaching]
+other = "কোচিং এর বছর"
+
+[stat_countries_trained]
+other = "দেশগুলো প্রশিক্ষিত"
+
+[ach_title_maharashtra]
+other = "7× মহারাষ্ট্র চ্যাম্পিয়ন"
+
+[ach_sub_maharashtra]
+other = "রাষ্ট্রীয় রেকর্ড (1957 সাল থেকে)"
+
+[ach_title_national]
+other = "জাতীয় চ্যাম্পিয়ন"
+
+[ach_sub_national]
+other = "(একক 1969 · অভিজ্ঞ 1981)"
+
+[ach_title_intl_coach]
+other = "আন্তর্জাতিক কোচ"
+
+[ach_sub_intl_coach]
+other = "10+ দেশ প্রশিক্ষক"
+
+[ach_title_world]
+other = "বিশ্ব চ্যাম্পিয়নশিপ"
+
+[ach_sub_world]
+other = "ভারতকে বিশ্বের প্রতিটি দেশে নিয়ে গেছে"
+
+[intro_section_title]
+other = "এখানে শুরু করুন — কোচ নিজেই থেকে"
