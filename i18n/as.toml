@@ -1,0 +1,203 @@
+[home_title]
+other = "কেৰমৰ প্ৰশিক্ষক অৰুণ দেশপাণ্ডে"
+
+[watch_videos]
+other = "ভিডিঅ' চাওক"
+
+[play_video]
+other = "ভিডিঅ'টো চলাওক"
+
+[watch_on_youtube]
+other = "YouTube ত চাওক"
+
+[close_video]
+other = "বন্ধ"
+
+[youtube_channel]
+other = "YouTube চেনেল"
+
+[play_store_label]
+other = "গুগল প্লেত এপটো পাওক"
+
+[google_play_app]
+other = "গুগল প্লে এপ"
+
+[about_legend]
+other = "কিংবদন্তিৰ বিষয়ে"
+
+[explore]
+other = "অণ্বেষণ কৰা"
+
+[video_library]
+other = "ভিডিঅ' লাইব্ৰেৰী"
+
+[video_library_desc]
+other = "দক্ষতা স্তৰ অনুসৰি শ্ৰেণীভুক্ত কৰা কেৰম টিউটোৰিয়েল চাওক — নবীনৰ পৰা চেম্পিয়নলৈকে।"
+
+[carrom_books]
+other = "কেৰম বুকছ"
+
+[carrom_books_desc]
+other = "অৰুণ দেশপাণ্ডেৰ ছাত্ৰ-ছাত্ৰী আৰু প্ৰশিক্ষকৰ বাবে একচেটিয়া পিডিএফ কিতাপ ডাউনলোড কৰক।"
+
+[photo_gallery]
+other = "ফটো গেলেৰী"
+
+[photo_gallery_desc]
+other = "যাত্ৰাটো পুনৰ জীৱিত কৰক — চেম্পিয়নশ্বিপ, প্ৰশিক্ষক শিবিৰ আৰু আইকনিক মুহূৰ্ত।"
+
+[chapter]
+other = "অধ্যায়"
+
+[previous]
+other = "পূৰ্ৱবৰ্তী"
+
+[next]
+other = "পৰৱৰ্তী"
+
+[email]
+other = "ইমেইল"
+
+[phone]
+other = "ফোন / হোৱাটছএপ"
+
+[location]
+other = "অৱস্থান"
+
+[coaching_enquiries]
+other = "কোচিং অনুসন্ধান"
+
+[whatsapp_message]
+other = "নমস্কাৰ অৰুণ ছাৰ, কেৰম একাডেমীৰ ৱেবচাইট পাইছো আৰু কেৰম কোচিঙৰ প্ৰতি আগ্ৰহী।"
+
+[contact_information]
+other = "যোগাযোগৰ তথ্য"
+
+[message_on_whatsapp]
+other = "হোৱাটছএপত বাৰ্তা"
+
+[whatsapp_hint]
+other = "প্ৰশিক্ষকৰ সোধা-পোছা আৰু কৰ্মশালাৰ বাবে অৰুণৰ ওচৰলৈ যোৱাৰ আটাইতকৈ দ্ৰুত উপায়।"
+
+[page_count]
+other = "পৃষ্ঠাসমূহ"
+
+[download_pdf]
+other = "PDF ডাউনলোড কৰক"
+
+[original_source]
+other = "মূল উৎস"
+
+[original_sources]
+other = "মূল উৎসসমূহ"
+
+[no_books_yet]
+other = "এতিয়াও কোনো কিতাপ উপলব্ধ নহয়।"
+
+[problem_label]
+other = "সমস্যা"
+
+[solution_label]
+other = "সমাধান"
+
+[ps_index_label]
+other = "সমস্যাৰ গোট"
+
+[soon]
+other = "সোনকালে"
+
+[pdf_coming_soon]
+other = "পিডিএফ আহি আছে অতি সোনকালে"
+
+[ready_to_read]
+other = "পঢ়িবলৈ সাজু"
+
+[start_reading]
+other = "পঢ়িবলৈ আৰম্ভ কৰক"
+
+[table_of_contents]
+other = "বিষয়বস্তুৰ তালিকা"
+
+[language_label]
+other = "ভাষা"
+
+[coming_soon]
+other = "আহি আছে"
+
+[coming_soon_body]
+other = "এই শিতানটো প্ৰস্তুত কৰা হৈছে। ইয়াৰ মাজতে, ভিডিঅ'সমূহ পৃষ্ঠালৈ যাওক বা যোগাযোগ পৃষ্ঠাৰ জৰিয়তে touch ত সোমাওক।"
+
+[watch_in_action]
+other = "কাৰ্য্যত চাওক"
+
+[video_level_beginner]
+other = "নবীন"
+
+[video_level_intermediate]
+other = "অন্তৰ্বৰ্তী"
+
+[video_level_champion]
+other = "চেম্পিয়ন"
+
+[video_lang_hint_label]
+other = "কেপচন"
+
+[video_lang_hint_body]
+other = "ভিডিঅ'বোৰ মাৰাঠী ভাষাত ইংৰাজী কেৰমৰ শব্দৰে। প্লেয়াৰত CC বুটাম টেপ কৰক আৰু উপশিৰোনামা → স্বয়ংক্ৰিয়-অনুবাদৰ অন্তৰ্গত আপোনাৰ ভাষা বাছক।"
+
+[reading_progress]
+other = "পঢ়াৰ অগ্ৰগতি"
+
+[other_languages]
+other = "অন্য ভাষা"
+
+[ps_progress_template]
+other = "আপুনি {মুঠ} সমাধানৰ {গণনা} চাইছে"
+
+[ps_reset_progress]
+other = "অগ্ৰগতি পুনৰায় সেট কৰক"
+
+[ps_reset_confirm]
+other = "আপোনাৰ দৰ্শনৰ অগ্ৰগতি পৰিষ্কাৰ কৰিবনে?"
+
+[ps_solved_label]
+other = "সমাধান কৰা হৈছে"
+
+[stat_maharashtra_champion]
+other = "মহাৰাষ্ট্ৰ চেম্পিয়ন"
+
+[stat_world_championship_coach]
+other = "বিশ্ব চেম্পিয়নশ্বিপৰ প্ৰশিক্ষক"
+
+[stat_years_of_coaching]
+other = "বছৰ বছৰ ধৰি প্ৰশিক্ষণ"
+
+[stat_countries_trained]
+other = "দেশসমূহ প্ৰশিক্ষিত"
+
+[ach_title_maharashtra]
+other = "৭× মহাৰাষ্ট্ৰ চেম্পিয়ন"
+
+[ach_sub_maharashtra]
+other = "ৰাজ্যিক অভিলেখ (১৯৫৭ চনৰ পৰা)"
+
+[ach_title_national]
+other = "ৰাষ্ট্ৰীয় চেম্পিয়ন"
+
+[ach_sub_national]
+other = "(একক ১৯৬৯ · প্ৰবীণ ১৯৮১)"
+
+[ach_title_intl_coach]
+other = "আন্তঃৰাষ্ট্ৰীয় প্ৰশিক্ষক"
+
+[ach_sub_intl_coach]
+other = "১০+ দেশ প্ৰশিক্ষিত"
+
+[ach_title_world]
+other = "বিশ্ব চেম্পিয়নশ্বিপ"
+
+[ach_sub_world]
+other = "ভাৰতক প্ৰতিখন বিশ্বলৈ লৈ গ’ল"
+
+[intro_section_title]
+other = "ইয়াৰ পৰা আৰম্ভ কৰক — প্ৰশিক্ষকৰ পৰাই"

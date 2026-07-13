@@ -132,6 +132,14 @@ disableKinds = ["taxonomy", "term"]
     [languages.bn.params]
       description = "অরুণ দেশপান্ডের দ্বারা ক্যারম কোচিং, দক্ষতা এবং বই"
 
+  [languages.as]
+    label = "অসমীয়া"
+    locale = "as"
+    weight = 16
+    contentDir = "content/as"
+    [languages.as.params]
+      description = "অৰুণ দেশপাণ্ডেৰ দ্বাৰা কেৰম প্ৰশিক্ষণ, কৌশল আৰু কিতাপ"
+
 [outputs]
   home = ["HTML", "RSS"]
 
