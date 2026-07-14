@@ -623,17 +623,35 @@ h1, h2, h3, h4 {
   transition: transform .2s, border-color .2s;
 }
 .explore-card:hover { transform: translateY(-2px); border-color: var(--border-strong); color: var(--text); }
-.explore-card.--purple { background: linear-gradient(135deg, rgba(168, 85, 247, 0.18), rgba(99, 102, 241, 0.04)); }
-.explore-card.--amber  { background: linear-gradient(135deg, rgba(244, 114, 182, 0.16), rgba(190, 24, 93, 0.04)); }
-.explore-card.--emerald{ background: linear-gradient(135deg, rgba(20, 184, 166, 0.18), rgba(13, 148, 136, 0.04)); }
+/* Unified card surface — subtle brand-tinted gradient shared by all three.
+   Identity comes from the colored icon chip, not the card background. */
+.explore-card.--purple,
+.explore-card.--amber,
+.explore-card.--emerald {
+  background:
+    linear-gradient(135deg, rgba(168, 85, 247, 0.08), rgba(168, 85, 247, 0.015)),
+    var(--bg-card);
+}
+.explore-card:hover.--purple,
+.explore-card:hover.--amber,
+.explore-card:hover.--emerald {
+  background:
+    linear-gradient(135deg, rgba(168, 85, 247, 0.12), rgba(168, 85, 247, 0.025)),
+    var(--bg-card);
+}
 .explore-card .ec-icon {
-  width: 36px; height: 36px;
+  width: 40px; height: 40px;
   border-radius: 10px;
-  background: var(--surface-stripe);
   display: grid; place-items: center;
   margin-bottom: 14px;
+  transition: box-shadow .2s, transform .2s;
 }
 .explore-card .ec-icon svg { width: 20px; height: 20px; color: #fff; }
+/* Each section keeps its own icon-chip color for identity. */
+.explore-card.--purple  .ec-icon { background: linear-gradient(135deg, #a855f7, #6366f1); box-shadow: 0 6px 18px rgba(168, 85, 247, 0.28); }
+.explore-card.--amber   .ec-icon { background: linear-gradient(135deg, #f59e0b, #b45309); box-shadow: 0 6px 18px rgba(245, 158, 11, 0.28); }
+.explore-card.--emerald .ec-icon { background: linear-gradient(135deg, #14b8a6, #0d9488); box-shadow: 0 6px 18px rgba(20, 184, 166, 0.28); }
+.explore-card:hover .ec-icon { transform: translateY(-1px) scale(1.04); }
 .explore-card h4 { font-size: 17px; margin: 0 0 4px; }
 .explore-card p { margin: 0; font-size: 13px; color: var(--text-muted); }
 .explore-card .ec-arrow {
@@ -2423,26 +2441,155 @@ body.video-player-open { overflow: hidden; }
 }
 
 /* ---------- gallery ---------- */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 10px;
+/* Filter row uses the shared .chips / .chip system defined above so
+   the gallery matches the Books and Videos filter tabs. */
+
+.gallery-masonry {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-count: 3;
+  column-gap: 14px;
 }
-.gallery-item {
-  border-radius: 10px;
+@media (max-width: 900px) { .gallery-masonry { column-count: 2; column-gap: 10px; } }
+@media (max-width: 520px) { .gallery-masonry { column-count: 1; } }
+
+.gallery-card {
+  break-inside: avoid;
+  margin: 0 0 14px;
+  border-radius: 12px;
   overflow: hidden;
   background: var(--bg-card);
   border: 1px solid var(--border);
-  aspect-ratio: 1/1;
-  transition: transform .2s;
+  transition: transform .2s, box-shadow .2s, opacity .25s;
 }
-.gallery-item:hover { transform: scale(1.02); }
-.gallery-item img { width: 100%; height: 100%; object-fit: cover; }
-.gallery-item .placeholder {
-  width: 100%; height: 100%;
-  display: grid; place-items: center;
-  color: var(--text-dim);
-  background: linear-gradient(135deg, var(--bg-card-2), var(--bg-card));
+.gallery-card.is-hidden { display: none; }
+.gallery-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, .25);
+}
+.gallery-card figure { margin: 0; }
+.gallery-card-btn {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+  color: inherit;
+}
+.gallery-card-btn img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.gallery-card figcaption {
+  padding: 10px 14px 12px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--text);
+  border-top: 1px solid var(--border);
+}
+
+/* Lightbox (uses native <dialog>) */
+.gallery-lightbox {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  max-width: min(96vw, 1400px);
+  max-height: 96vh;
+  color: #fff;
+}
+.gallery-lightbox::backdrop {
+  background: rgba(0, 0, 0, .88);
+  backdrop-filter: blur(4px);
+}
+body.gallery-lightbox-open { overflow: hidden; }
+.gallery-lightbox-figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+}
+.gallery-lightbox-figure img {
+  max-width: 100%;
+  max-height: calc(96vh - 80px);
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .55);
+}
+.gallery-lightbox-figure figcaption {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.45;
+  max-width: 900px;
+  color: #f1f1f4;
+}
+.gallery-lightbox-close,
+.gallery-lightbox-copy,
+.gallery-lightbox-nav {
+  position: absolute;
+  background: rgba(20, 20, 28, .55);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, .15);
+  border-radius: 999px;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  line-height: 1;
+  transition: background .15s, transform .15s;
+}
+.gallery-lightbox-close:hover,
+.gallery-lightbox-copy:hover,
+.gallery-lightbox-nav:hover { background: rgba(60, 60, 80, .8); }
+.gallery-lightbox-close {
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  font-size: 28px;
+}
+.gallery-lightbox-copy {
+  top: 12px;
+  right: 60px;
+  width: 40px;
+  height: 40px;
+}
+.gallery-lightbox-copy svg { width: 18px; height: 18px; }
+.gallery-lightbox-copy-toast {
+  position: absolute;
+  top: 50%;
+  right: calc(100% + 8px);
+  transform: translateY(-50%);
+  background: rgba(20, 20, 28, .95);
+  color: #f5f5f7;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .15s;
+}
+.gallery-lightbox-copy-toast.is-visible { opacity: 1; }
+.gallery-lightbox-nav {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 46px;
+  height: 46px;
+  font-size: 32px;
+}
+.gallery-lightbox-prev { left: 16px; }
+.gallery-lightbox-next { right: 16px; }
+@media (max-width: 520px) {
+  .gallery-lightbox-nav { width: 40px; height: 40px; font-size: 26px; }
+  .gallery-lightbox-prev { left: 8px; }
+  .gallery-lightbox-next { right: 8px; }
 }
 
 /* ---------- contact ---------- */

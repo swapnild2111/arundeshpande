@@ -29,7 +29,6 @@
   weight = 40
   [main.params]
     icon = "image"
-    comingSoon = true
 
 [[main]]
   identifier = "contact"
