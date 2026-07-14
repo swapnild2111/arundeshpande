@@ -1,0 +1,203 @@
+[home_title]
+other = "Trenér karomu Arun Deshpande"
+
+[watch_videos]
+other = "Sledovat videa"
+
+[play_video]
+other = "Přehrát video"
+
+[watch_on_youtube]
+other = "Sledujte na YouTube"
+
+[close_video]
+other = "Zavřít"
+
+[youtube_channel]
+other = "YouTube Kanál"
+
+[play_store_label]
+other = "Stáhněte si aplikaci na Google Play"
+
+[google_play_app]
+other = "Aplikace Google Play"
+
+[about_legend]
+other = "O legendě"
+
+[explore]
+other = "Prozkoumat"
+
+[video_library]
+other = "Videotéka"
+
+[video_library_desc]
+other = "Podívejte se na výuková videa ke hře carrom roztříděná podle úrovně pokročilosti – od začátečníků až po šampiony."
+
+[carrom_books]
+other = "Knihy o karomu"
+
+[carrom_books_desc]
+other = "Stáhněte si exkluzivní knihy ve formátu PDF pro studenty a trenéry od Aruna Deshpandeho."
+
+[photo_gallery]
+other = "Fotogalerie"
+
+[photo_gallery_desc]
+other = "Prožijte znovu tuto cestu – mistrovství, tréninkové kempy a nezapomenutelné okamžiky."
+
+[chapter]
+other = "Kapitola"
+
+[previous]
+other = "Předchozí"
+
+[next]
+other = "Další"
+
+[email]
+other = "E-mail"
+
+[phone]
+other = "Telefon / WhatsApp"
+
+[location]
+other = "Umístění"
+
+[coaching_enquiries]
+other = "Dotazy ohledně koučování"
+
+[whatsapp_message]
+other = "Dobrý den, pane Arune, narazil jsem na webové stránky Carrom Academy a měl bych zájem o trénink carromu."
+
+[contact_information]
+other = "Kontaktní údaje"
+
+[message_on_whatsapp]
+other = "Zpráva na WhatsAppu"
+
+[whatsapp_hint]
+other = "Nejrychlejší způsob, jak se spojit s Arunem ohledně dotazů na koučování a workshopy."
+
+[page_count]
+other = "stránky"
+
+[download_pdf]
+other = "Stáhnout PDF"
+
+[original_source]
+other = "Původní zdroj"
+
+[original_sources]
+other = "Původní zdroje"
+
+[no_books_yet]
+other = "Knihy zatím nejsou k dispozici."
+
+[problem_label]
+other = "Problém"
+
+[solution_label]
+other = "Řešení"
+
+[ps_index_label]
+other = "Problémové skupiny"
+
+[soon]
+other = "Brzy"
+
+[pdf_coming_soon]
+other = "PDF bude brzy k dispozici"
+
+[ready_to_read]
+other = "Připraveni ke čtení"
+
+[start_reading]
+other = "Začněte číst"
+
+[table_of_contents]
+other = "Obsah"
+
+[language_label]
+other = "Jazyk"
+
+[coming_soon]
+other = "Již brzy"
+
+[coming_soon_body]
+other = "Tato sekce se právě připravuje. Mezitím se podívejte na stránku „Videa“ nebo nás kontaktujte touch prostřednictvím stránky „Kontakt“."
+
+[watch_in_action]
+other = "Podívejte se, jak to funguje"
+
+[video_level_beginner]
+other = "Začátečník"
+
+[video_level_intermediate]
+other = "Středně pokročilí"
+
+[video_level_champion]
+other = "Šampión"
+
+[video_lang_hint_label]
+other = "Titulky"
+
+[video_lang_hint_body]
+other = "Videa jsou v maráthštině s anglickými výrazy pro karom. Klepněte na tlačítko CC v přehrávači a vyberte si jazyk v nabídce Titulky → Automatický překlad."
+
+[reading_progress]
+other = "Průběh čtení"
+
+[other_languages]
+other = "Jiné jazyky"
+
+[ps_progress_template]
+other = "Zhlédli jste {count} z {total} řešení"
+
+[ps_reset_progress]
+other = "Vynulovat průběh"
+
+[ps_reset_confirm]
+other = "Chcete vymazat historii sledování?"
+
+[ps_solved_label]
+other = "Vyřešeno"
+
+[stat_maharashtra_champion]
+other = "Mistr státu Maháráštra"
+
+[stat_world_championship_coach]
+other = "Trenér mistrovství světa"
+
+[stat_years_of_coaching]
+other = "Počet let praxe jako trenér"
+
+[stat_countries_trained]
+other = "Země, v nichž se školení uskutečnilo"
+
+[ach_title_maharashtra]
+other = "7× mistr státu Maháráštra"
+
+[ach_sub_maharashtra]
+other = "Státní rekord (od roku 1957)"
+
+[ach_title_national]
+other = "Národní šampion"
+
+[ach_sub_national]
+other = "(Singles 1969 · Veteran 1981)"
+
+[ach_title_intl_coach]
+other = "Mezinárodní trenér"
+
+[ach_sub_intl_coach]
+other = "Trénoval v více než 10 zemích"
+
+[ach_title_world]
+other = "Mistrovství světa"
+
+[ach_sub_world]
+other = "Dovedl Indii na všechna mistrovství světa"
+
+[intro_section_title]
+other = "Začněte tady – přímo od samotného trenéra"

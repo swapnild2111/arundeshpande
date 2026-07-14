@@ -1,0 +1,203 @@
+[home_title]
+other = "Царром тренер Арун Десхпанде"
+
+[watch_videos]
+other = "Гледајте видео записе"
+
+[play_video]
+other = "Пусти видео"
+
+[watch_on_youtube]
+other = "Гледајте на YouTube"
+
+[close_video]
+other = "Затвори"
+
+[youtube_channel]
+other = "YouTube Канал"
+
+[play_store_label]
+other = "Преузмите апликацију на Гоогле Плаи-у"
+
+[google_play_app]
+other = "Гоогле Плаи апликација"
+
+[about_legend]
+other = "О легенди"
+
+[explore]
+other = "Истражите"
+
+[video_library]
+other = "Видео библиотека"
+
+[video_library_desc]
+other = "Гледајте туторијале за царром категорисане према нивоу вештине — од почетника до шампиона."
+
+[carrom_books]
+other = "Царром Боокс"
+
+[carrom_books_desc]
+other = "Преузмите ексклузивне ПДФ књиге за студенте и тренере Аруна Дешпандеа."
+
+[photo_gallery]
+other = "Фото галерија"
+
+[photo_gallery_desc]
+other = "Поново проживите путовање — првенства, тренерске кампове и легендарне тренутке."
+
+[chapter]
+other = "Поглавље"
+
+[previous]
+other = "Претходно"
+
+[next]
+other = "Следеће"
+
+[email]
+other = "Емаил"
+
+[phone]
+other = "Телефон / ВхатсАпп"
+
+[location]
+other = "Локација"
+
+[coaching_enquiries]
+other = "Цоацхинг Инкуириес"
+
+[whatsapp_message]
+other = "Здраво Арун господине, пронашао сам веб страницу Царром Ацадеми и заинтересован сам за царром цоацхинг."
+
+[contact_information]
+other = "Контакт информације"
+
+[message_on_whatsapp]
+other = "Порука на ВхатсАпп-у"
+
+[whatsapp_hint]
+other = "Најбржи начин да дођете до Аруна за упите о тренерима и радионице."
+
+[page_count]
+other = "странице"
+
+[download_pdf]
+other = "Преузмите ПДФ"
+
+[original_source]
+other = "Оригинални извор"
+
+[original_sources]
+other = "Оригинални извори"
+
+[no_books_yet]
+other = "Још увек нема доступних књига."
+
+[problem_label]
+other = "Проблем"
+
+[solution_label]
+other = "Решење"
+
+[ps_index_label]
+other = "Проблемске групе"
+
+[soon]
+other = "Ускоро"
+
+[pdf_coming_soon]
+other = "ПДФ стиже ускоро"
+
+[ready_to_read]
+other = "Спреман за читање"
+
+[start_reading]
+other = "Почните да читате"
+
+[table_of_contents]
+other = "Садржај"
+
+[language_label]
+other = "Језик"
+
+[coming_soon]
+other = "Ускоро"
+
+[coming_soon_body]
+other = "Овај део је у припреми. У међувремену, идите на страницу Видео снимци или уђите у touch преко контакт странице."
+
+[watch_in_action]
+other = "Гледајте у акцији"
+
+[video_level_beginner]
+other = "Бегиннер"
+
+[video_level_intermediate]
+other = "Интермедиате"
+
+[video_level_champion]
+other = "шампион"
+
+[video_lang_hint_label]
+other = "Наслови"
+
+[video_lang_hint_body]
+other = "Видео снимци су на маратском језику са енглеским царром терминима. Додирните дугме ЦЦ у плејеру и изаберите свој језик под Титлови → Аутоматски превод."
+
+[reading_progress]
+other = "Напредак читања"
+
+[other_languages]
+other = "Други језици"
+
+[ps_progress_template]
+other = "Гледали сте {цоунт} од {тотал} решења"
+
+[ps_reset_progress]
+other = "Ресетујте напредак"
+
+[ps_reset_confirm]
+other = "Да обришете напредак гледања?"
+
+[ps_solved_label]
+other = "Решено"
+
+[stat_maharashtra_champion]
+other = "Шампион Махараштре"
+
+[stat_world_championship_coach]
+other = "Тренер Светског првенства"
+
+[stat_years_of_coaching]
+other = "Године тренирања"
+
+[stat_countries_trained]
+other = "Обучене земље"
+
+[ach_title_maharashtra]
+other = "7× шампион Махараштре"
+
+[ach_sub_maharashtra]
+other = "Државни рекорд (од 1957.)"
+
+[ach_title_national]
+other = "Државни шампион"
+
+[ach_sub_national]
+other = "(Синглес 1969 · Ветеран 1981)"
+
+[ach_title_intl_coach]
+other = "Међународни тренер"
+
+[ach_sub_intl_coach]
+other = "10+ земаља са тренерима"
+
+[ach_title_world]
+other = "Светско првенство"
+
+[ach_sub_world]
+other = "Водио Индију на све светове"
+
+[intro_section_title]
+other = "Почните овде — од самог тренера"

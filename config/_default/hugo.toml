@@ -140,6 +140,22 @@ disableKinds = ["taxonomy", "term"]
     [languages.as.params]
       description = "অৰুণ দেশপাণ্ডেৰ দ্বাৰা কেৰম প্ৰশিক্ষণ, কৌশল আৰু কিতাপ"
 
+  [languages.cs]
+    label = "Čeština"
+    locale = "cs"
+    weight = 17
+    contentDir = "content/cs"
+    [languages.cs.params]
+      description = "Trénink karromu, techniky a kniha od Aruna Deshpandeho"
+
+  [languages.sr]
+    label = "Српски"
+    locale = "sr"
+    weight = 18
+    contentDir = "content/sr"
+    [languages.sr.params]
+      description = "Тренинг карома, техника и књига Аруна Дешпандеа"
+
 [outputs]
   home = ["HTML", "RSS"]
 

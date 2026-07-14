@@ -35,7 +35,7 @@ DEEPL_API_KEY = _load_deepl_key()
 DEEPL_URL = "https://api-free.deepl.com/v2/translate"
 
 # Languages that use DeepL for website content (EU languages DeepL supports)
-EU_LANGS = {"da", "de", "it", "fr", "pl"}
+EU_LANGS = {"da", "de", "it", "fr", "pl", "cs"}
 
 # DeepL target language codes (differ from Hugo locale codes where needed)
 DEEPL_LANG_MAP = {
@@ -44,6 +44,7 @@ DEEPL_LANG_MAP = {
     "it": "IT",
     "fr": "FR",
     "pl": "PL",
+    "cs": "CS",
 }
 
 
@@ -163,6 +164,8 @@ LANGS = {
     "or": {"chapter": "ଅଧ୍ୟାୟ", "translated_by": "ଇଂରାଜୀରୁ ଅନୁବାଦ (AI ଡ୍ରାଫ୍ଟ)."},
     "bn": {"chapter": "অধ্যায়", "translated_by": "ইংরেজি থেকে অনুবাদ (AI খসড়া)."},
     "as": {"chapter": "অধ্যায়", "translated_by": "ইংৰাজীৰ পৰা অনুবাদ (AI খচৰা)."},
+    "cs": {"chapter": "Kapitola", "translated_by": "Přeloženo z angličtiny (návrh AI)."},
+    "sr": {"chapter": "Поглавље", "translated_by": "Преведено са енглеског (AI нацрт)."},
 }
 
 # International carrom terms — keep as-is during translation.
@@ -212,7 +215,13 @@ SKIP_KEYS = {"date", "weight", "pageCount", "category", "chapters", "cover", "al
 # fr, si, hi) preserves tags verbatim because they're recognised as
 # untranslatable markup, even when the surrounding language script is
 # completely different from Latin.
-SENTINEL_RE = re.compile(r"<x(\d{1,4})\s*/>", re.IGNORECASE)
+#
+# Serbian/Cyrillic caveat: Google Translate for `sr` target sometimes
+# TRANSLITERATES the `x` inside the sentinel to its Cyrillic sound-equivalent
+# (`к` / `К`, "ka"). The regex accepts either the Latin `x` or the Cyrillic
+# `к`/`К` so those variants restore correctly. Add more script variants here
+# if a future language exhibits the same transliteration behaviour.
+SENTINEL_RE = re.compile(r"<[xкК](\d{1,4})\s*/>", re.IGNORECASE)
 
 
 def _make_key(idx: int) -> str:

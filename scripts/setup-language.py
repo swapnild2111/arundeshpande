@@ -127,8 +127,10 @@ def translate_about(lang: str, translator) -> None:
         # Replace ** markers with XML tags Google preserves
         tagged = re.sub(r"\*\*([^*]+)\*\*", r"<b>\1</b>", para)
         translated = translate_text(tagged, translator)
-        # Restore <b>...</b> back to **..**  (allow spaces Google adds inside tags)
-        restored = re.sub(r"<\s*b\s*>\s*(.*?)\s*<\s*/\s*b\s*>", r"**\1**", translated, flags=re.DOTALL)
+        # Restore <b>...</b> back to **..**  (allow spaces Google adds inside tags).
+        # Google's Cyrillic-target translator sometimes transliterates the `b`
+        # itself to Cyrillic `б` — accept either.
+        restored = re.sub(r"<\s*[bб]\s*>\s*(.*?)\s*<\s*/\s*[bб]\s*>", r"**\1**", translated, flags=re.DOTALL)
         out_paras.append(restored)
     data[lang] = "\n\n".join(out_paras)
 

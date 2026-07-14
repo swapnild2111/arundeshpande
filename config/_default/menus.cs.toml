@@ -1,0 +1,39 @@
+[[main]]
+  identifier = "home"
+  name = "Domů"
+  url = "/"
+  weight = 10
+  [main.params]
+    icon = "home"
+
+[[main]]
+  identifier = "videos"
+  name = "Videa"
+  url = "/videos/"
+  weight = 20
+  [main.params]
+    icon = "play"
+
+[[main]]
+  identifier = "books"
+  name = "Knihy"
+  url = "/books/"
+  weight = 30
+  [main.params]
+    icon = "book"
+
+[[main]]
+  identifier = "gallery"
+  name = "Galerie"
+  url = "/gallery/"
+  weight = 40
+  [main.params]
+    icon = "image"
+
+[[main]]
+  identifier = "contact"
+  name = "Kontakt"
+  url = "/contact/"
+  weight = 50
+  [main.params]
+    icon = "mail"
