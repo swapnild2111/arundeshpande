@@ -1,8 +1,0 @@
----
-title: "नियम"
-description: "अधिकृत कॅरम नियम आणि नियम — IAKC नियम पुस्तिका वाचा आणि डाउनलोड करा."
-layout: category
-category: rules
-aliases:
-  - /books/rules/
----

@@ -25,7 +25,6 @@ EU_LANGS = _tb.EU_LANGS
 
 SKIP_BOOK_PREFIXES = (
     "books/students/carrom-techniques-and-skills",
-    "books/rules/official-carrom-rules",
 )
 
 

@@ -144,7 +144,6 @@ def get_translator(lang: str):
 
 BOOKS = [
     "students/carrom-techniques-and-skills",
-    "rules/official-carrom-rules",
 ]
 
 LANGS = {

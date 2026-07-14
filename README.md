@@ -23,10 +23,9 @@ Three decades of carrom coaching from **Shri Arun Deshpande** — 7× Maharashtr
 | Section | What's there | What you do |
 |---|---|---|
 | 📘 **Carrom Techniques and Skills** | Arun's complete coaching book — 14 chapters | Read online or download the PDF in your language. Covers grip, break, every major stroke (cut, double, press, touch, glance, brush, rebound, slip, bomb, force), defence, offence, and advanced board positions |
-| 📜 **Official Carrom Rules** | The complete ICF laws — 8 chapters | Equipment, definitions, match procedure, scoring, fouls, and the Queen rules — sourced from the International Carrom Federation |
 | 🎥 **Video Library** | 60+ tutorial videos | Categorised by skill level — Beginner / Intermediate / Champion. Each chapter section links to the videos that demonstrate the stroke on the board |
 | 🧩 **Problems & Solutions** | Paired YouTube videos | Real board situations and how to play out of them. New pairs auto-sync from Arun's channel weekly |
-| 📥 **Downloadable PDFs** | Both books in every language | Professionally rendered. Italian translation is currently an AI draft pending the authorised European Carrom Confederation version |
+| 📥 **Downloadable PDF** | The book in every language | Professionally rendered. Italian translation is currently an AI draft pending the authorised European Carrom Confederation version |
 
 ---
 
@@ -139,8 +138,7 @@ arundeshpande/
 ├── content/
 │   ├── en/                      # English — the source of truth
 │   │   └── books/
-│   │       ├── students/carrom-techniques-and-skills/   # 14 chapters
-│   │       └── rules/official-carrom-rules/             # 8 chapters
+│   │       └── students/carrom-techniques-and-skills/   # 14 chapters
 │   └── da/ de/ mr/ it/ fr/ si/ hi/ gu/ pl/ mni/ ta/       # mirror EN
 ├── data/
 │   ├── books.yaml               # catalogue, PDF paths, per-lang titles
@@ -162,13 +160,12 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install deep-translator pyyaml python-docx markdown
 
-# Translate both books to a new language
+# Translate the book to a new language
 python3 scripts/translate-books.py de
 
-# Regenerate PDFs (requires LibreOffice on PATH)
+# Regenerate the PDF (requires LibreOffice on PATH)
 brew install --cask libreoffice
 python3 scripts/generate-book-pdfs.py de
-python3 scripts/generate-rules-pdfs.py de
 ```
 
 The translation script uses self-closing XML-style sentinels (`<x42/>`) to protect terminology and HTML from Google Translate. Each translated chapter gets a `translatedBy` frontmatter line noting it's an AI draft until a native reviewer signs off.
@@ -177,10 +174,10 @@ The translation script uses self-closing XML-style sentinels (`<x42/>`) to prote
 
 1. Declare the language in `config/_default/hugo.toml` and create `config/_default/menus.{lang}.toml`.
 2. Scaffold site pages: `python3 scripts/setup-language.py {lang}`.
-3. Translate the books: `python3 scripts/translate-books.py {lang}`.
+3. Translate the book: `python3 scripts/translate-books.py {lang}`.
 4. Register entries under `titles`, `descriptions`, `tagLabels`, `pdfs`, `languages.{lang}: true` in `data/books.yaml`.
 5. Add the bio in `data/about.yaml` under the new language code.
-6. Generate the PDFs: `python3 scripts/generate-book-pdfs.py {lang}` and `python3 scripts/generate-rules-pdfs.py {lang}`.
+6. Generate the PDF: `python3 scripts/generate-book-pdfs.py {lang}`.
 7. Build (`hugo --minify`) and verify all pages render.
 
 ### Problem & Solution auto-sync
@@ -191,7 +188,7 @@ A scheduled GitHub Action ([`sync-problem-solutions.yml`](.github/workflows/sync
 
 ## Contributing
 
-If you spot a translation issue, a broken video link, or any factual error in the rules — please open an issue with the language code in the title, e.g. `[de] Chapter 6 — Cut section`.
+If you spot a translation issue or a broken video link — please open an issue with the language code in the title, e.g. `[de] Chapter 6 — Cut section`.
 
 The most valuable contribution is **native-speaker translation review.** Each AI-drafted chapter benefits enormously from someone who actually plays carrom in that language. The Italian translation is currently the AI draft only — the European Carrom Confederation has offered an existing Arun-authorised Italian translation that will replace it soon.
 
@@ -201,6 +198,5 @@ The most valuable contribution is **native-speaker translation review.** Each AI
 
 - **Code** — [MIT License](LICENSE). Hugo templates, CSS, JavaScript, build scripts, and site configuration are free to use, fork, and modify.
 - **Book content** — © Arun Deshpande. *Carrom Techniques and Skills* and all original coaching material remain his copyright. Please contact him before reproducing or redistributing the book.
-- **ICF rules** — summarised from publicly-available sources. See `data/books.yaml` for attribution.
 
 Built and maintained by [Swapnil Deshpande](https://github.com/swapnild2111). Coaching by Shri Arun Deshpande — and three decades of carrom knowledge that the world deserves to learn from.

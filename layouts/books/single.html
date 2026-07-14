@@ -1,11 +1,12 @@
 {{ define "main" }}
 {{- /*
-  layouts/books/single.html serves three kinds of pages under /books/:
-    1. A book that is just a PDF (e.g. official-carrom-rules) -> show PDF viewer.
-    2. A book whose entry has `chapters: true` -> show the chapter grid.
-    3. A leaf chapter page nested inside a chapters-book -> show the chapter prose.
+  layouts/books/single.html serves two kinds of pages under /books/:
+    1. A book whose entry has `chapters: true` -> show the chapter grid.
+    2. A leaf chapter page nested inside a chapters-book -> show the chapter prose.
   We branch on whether the page itself has children (.Pages) and whether its
   parent declares `chapters: true`.
+  (A PDF-only branch is kept below for future books that ship as a single
+  PDF without chapters; currently unused.)
 */ -}}
 
 {{- $pdf := .Params.pdf | default "" -}}
