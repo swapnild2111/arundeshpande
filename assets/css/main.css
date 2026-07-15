@@ -1717,10 +1717,10 @@ body.video-player-open { overflow: hidden; }
   margin: 0;
   padding: 0;
 }
-/* Below the mobile-header breakpoint (960px, matches the top-right
-   lang-switcher's mobile behaviour), collapse the two groups into a
-   single column so the menu never overflows on smaller devices. */
-@media (max-width: 960px) {
+/* English-only labels fit two columns even on typical phone widths
+   (~322px wide menu on OnePlus 7T Pro's 412px portrait viewport).
+   Only collapse to a single column on very narrow devices (<380px). */
+@media (max-width: 380px) {
   .pdf-download-menu { grid-template-columns: 1fr; gap: 4px; }
   .pdf-download-group + .pdf-download-group { margin-top: 6px; }
 }
@@ -1741,21 +1741,6 @@ body.video-player-open { overflow: hidden; }
 }
 .pdf-download-item-label {
   flex: 1;
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-}
-.pdf-download-item-native {
-  font-weight: inherit;
-}
-.pdf-download-item-english {
-  font-size: 11px;
-  color: var(--text-dim);
-  font-weight: 400;
-}
-.pdf-download-item.is-current .pdf-download-item-english {
-  color: var(--accent);
-  opacity: .75;
 }
 .pdf-download-item-icon {
   display: inline-flex;

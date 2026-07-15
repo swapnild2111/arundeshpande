@@ -110,10 +110,7 @@
                               href="{{ .path | relURL }}"
                               download
                             >
-                              <span class="pdf-download-item-label">
-                                <span class="pdf-download-item-native" lang="{{ .code }}">{{ .label }}</span>
-                                {{- if and .english (ne .code "en") }}<span class="pdf-download-item-english">{{ .english }}</span>{{ end -}}
-                              </span>
+                              <span class="pdf-download-item-label">{{ .english | default .label }}</span>
                               <span class="pdf-download-item-icon" aria-hidden="true">{{ partial "icons/download.html" $ }}</span>
                             </a>
                           </li>

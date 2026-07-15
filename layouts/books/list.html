@@ -44,7 +44,10 @@
     {{- end -}}
   {{- end -}}
   {{- /* Build the per-language PDF list for the dropdown — only
-       languages whose PDF file actually exists on disk. */ -}}
+       languages whose PDF file actually exists on disk. Label is the
+       English name (Bengali, Swedish, …) via lang-english-names,
+       falling back to the native locale label if not mapped. */ -}}
+  {{- $englishNames := partial "lang-english-names.html" . -}}
   {{- $pdfsByLang := slice -}}
   {{- $currentPdfLabel := "" -}}
   {{- range hugo.Sites -}}
@@ -53,12 +56,13 @@
     {{- if $candidate -}}
       {{- $relC := strings.TrimPrefix "/" $candidate | strings.TrimPrefix "downloads/" -}}
       {{- if fileExists (printf "static/downloads/%s" $relC) -}}
+        {{- $englishLabel := index $englishNames $code | default .Language.Label -}}
         {{- $pdfsByLang = $pdfsByLang | append (dict
           "code" $code
-          "label" .Language.Label
+          "label" $englishLabel
           "path" $candidate
         ) -}}
-        {{- if eq $code $lang -}}{{- $currentPdfLabel = .Language.Label -}}{{- end -}}
+        {{- if eq $code $lang -}}{{- $currentPdfLabel = $englishLabel -}}{{- end -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -144,7 +148,6 @@
                             role="menuitem"
                             href="{{ .path | relURL }}"
                             download
-                            lang="{{ .code }}"
                           >
                             <span class="pdf-download-item-label">{{ .label }}</span>
                             <span class="pdf-download-item-icon" aria-hidden="true">{{ partial "icons/download.html" $ }}</span>
