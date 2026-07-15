@@ -1688,18 +1688,42 @@ body.video-player-open { overflow: hidden; }
   position: absolute;
   top: calc(100% + 6px);
   right: 0;
-  min-width: 180px;
   margin: 0;
-  padding: 6px;
-  list-style: none;
+  padding: 10px;
   background: var(--bg-card);
   border: 1px solid var(--border-strong);
   border-radius: var(--radius);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
   display: none;
   z-index: 50;
+  /* Two region groups (World / Asia) side-by-side, narrowest possible. */
+  grid-template-columns: repeat(2, max-content);
+  gap: 4px 18px;
 }
-.pdf-download.is-open .pdf-download-menu { display: block; }
+.pdf-download.is-open .pdf-download-menu { display: grid; }
+.pdf-download-group { min-width: 0; }
+.pdf-download-group-label {
+  padding: 4px 8px 6px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 4px;
+}
+.pdf-download-group-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Below the mobile-header breakpoint (960px, matches the top-right
+   lang-switcher's mobile behaviour), collapse the two groups into a
+   single column so the menu never overflows on smaller devices. */
+@media (max-width: 960px) {
+  .pdf-download-menu { grid-template-columns: 1fr; gap: 4px; }
+  .pdf-download-group + .pdf-download-group { margin-top: 6px; }
+}
 .pdf-download-item {
   display: flex;
   align-items: center;

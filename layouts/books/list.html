@@ -102,6 +102,20 @@
 
       <div class="secondary-actions">
         {{ if gt (len $pdfsByLang) 0 }}
+          {{- /* Split the flat pdfsByLang list into two region groups
+               (World/Asia) so the menu renders as two columns. Codes
+               mirror layouts/partials/lang-switcher.html. */ -}}
+          {{ $worldCodes := slice "en" "da" "de" "it" "fr" "pl" "cs" "sr" "sv" "bg" }}
+          {{ $asiaCodes  := slice "mr" "hi" "gu" "si" "mni" "ta" "te" "or" "bn" "as" }}
+          {{ $worldPdfs := slice }}
+          {{ $asiaPdfs  := slice }}
+          {{ range $pdfsByLang }}
+            {{ if in $worldCodes .code }}
+              {{ $worldPdfs = $worldPdfs | append . }}
+            {{ else if in $asiaCodes .code }}
+              {{ $asiaPdfs = $asiaPdfs | append . }}
+            {{ end }}
+          {{ end }}
           <div class="pdf-download" data-pdf-download>
             <button
               type="button"
@@ -114,22 +128,34 @@
               <span class="pdf-download-trigger-sep" aria-hidden="true">|</span>
               <span class="pdf-download-trigger-chev" aria-hidden="true">{{ partial "icons/chevron-down.html" . }}</span>
             </button>
-            <ul class="pdf-download-menu" role="menu">
-              {{ range $pdfsByLang }}
-                <li role="none">
-                  <a
-                    class="pdf-download-item{{ if eq .code $lang }} is-current{{ end }}"
-                    role="menuitem"
-                    href="{{ .path | relURL }}"
-                    download
-                    lang="{{ .code }}"
-                  >
-                    <span class="pdf-download-item-label">{{ .label }}</span>
-                    <span class="pdf-download-item-icon" aria-hidden="true">{{ partial "icons/download.html" $ }}</span>
-                  </a>
-                </li>
+            <div class="pdf-download-menu" role="menu">
+              {{ range (slice
+                  (dict "key" "world" "label" (i18n "region_world" | default "World") "items" $worldPdfs)
+                  (dict "key" "asia"  "label" (i18n "region_asia"  | default "Asia")  "items" $asiaPdfs)
+              ) }}
+                {{ if gt (len .items) 0 }}
+                  <div class="pdf-download-group">
+                    <div class="pdf-download-group-label">{{ .label }}</div>
+                    <ul class="pdf-download-group-list">
+                      {{ range .items }}
+                        <li role="none">
+                          <a
+                            class="pdf-download-item{{ if eq .code $lang }} is-current{{ end }}"
+                            role="menuitem"
+                            href="{{ .path | relURL }}"
+                            download
+                            lang="{{ .code }}"
+                          >
+                            <span class="pdf-download-item-label">{{ .label }}</span>
+                            <span class="pdf-download-item-icon" aria-hidden="true">{{ partial "icons/download.html" $ }}</span>
+                          </a>
+                        </li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                {{ end }}
               {{ end }}
-            </ul>
+            </div>
           </div>
         {{ else }}
           <span class="btn btn-ghost btn-sm is-disabled" aria-disabled="true" title="{{ i18n "pdf_coming_soon" | default "PDF coming soon" }}">
