@@ -1,0 +1,39 @@
+[[main]]
+  identifier = "home"
+  name = "Начало"
+  url = "/"
+  weight = 10
+  [main.params]
+    icon = "home"
+
+[[main]]
+  identifier = "videos"
+  name = "Видеа"
+  url = "/videos/"
+  weight = 20
+  [main.params]
+    icon = "play"
+
+[[main]]
+  identifier = "books"
+  name = "Книги"
+  url = "/books/"
+  weight = 30
+  [main.params]
+    icon = "book"
+
+[[main]]
+  identifier = "gallery"
+  name = "Галерия"
+  url = "/gallery/"
+  weight = 40
+  [main.params]
+    icon = "image"
+
+[[main]]
+  identifier = "contact"
+  name = "Контакт"
+  url = "/contact/"
+  weight = 50
+  [main.params]
+    icon = "mail"

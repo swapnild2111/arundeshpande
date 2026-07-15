@@ -25,6 +25,8 @@ books:
       as: "downloads/carrom-techniques-and-skills-as.pdf"
       cs: "downloads/carrom-techniques-and-skills-cs.pdf"
       sr: "downloads/carrom-techniques-and-skills-sr.pdf"
+      sv: "downloads/carrom-techniques-and-skills-sv.pdf"
+      bg: "downloads/carrom-techniques-and-skills-bg.pdf"
     titles:
       en: "Carrom Techniques and Skills"
       da: "Carrom-teknik og færdigheder"
@@ -44,6 +46,8 @@ books:
       as: "কেৰম কৌশল আৰু দক্ষতা"
       cs: "Techniky a dovednosti karromu"
       sr: "Технике и вештине карома"
+      sv: "Carrom-teknik och färdigheter"
+      bg: "Техники и умения по карром"
     descriptions:
       en: "Arun Deshpande's complete coaching book — grips, breaks, every major stroke, defence, offence, and advanced board positions."
       da: "Arun Deshpandes komplette træningsbog — greb, åbningsslag, alle hovedslag, forsvar, angreb og avancerede stillinger."
@@ -63,6 +67,8 @@ books:
       as: "অৰুণ দেশপাণ্ডেৰ সম্পূৰ্ণ প্ৰশিক্ষণ কিতাপ — গ্ৰিপ, ব্ৰেক, সকলো মুখ্য ষ্ট্ৰোক, প্ৰতিৰক্ষা, আক্ৰমণ আৰু উন্নত বৰ্ড অৱস্থান।"
       cs: "Kompletní trenérská kniha Aruna Deshpandeho — držení, rozehrávky, každý hlavní úder, obrana, útok a pokročilé pozice na desce."
       sr: "Комплетна тренерска књига Аруна Дешпандеа — хватови, брекови, сви главни ударци, одбрана, напад и напредне позиције на табли."
+      sv: "Arun Deshpandes kompletta träningsbok — grepp, öppningsslag, alla huvudslag, försvar, anfall och avancerade positioner."
+      bg: "Пълната треньорска книга на Арун Дешпанде — хватове, брейкове, всички основни удари, защита, атака и напреднали позиции на дъската."
     tagLabels:
       en: "Read online"
       da: "Læs online"
@@ -82,6 +88,8 @@ books:
       as: "অনলাইনত পঢ়ক"
       cs: "Číst online"
       sr: "Читај онлајн"
+      sv: "Läs online"
+      bg: "Прочети онлайн"
     languages:
       en: true
       da: true
@@ -101,3 +109,5 @@ books:
       as: true
       cs: true
       sr: true
+      sv: true
+      bg: true

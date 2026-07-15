@@ -1,0 +1,203 @@
+[home_title]
+other = "Треньор на Carrom Арун Дешпанде"
+
+[watch_videos]
+other = "Гледайте видеоклипове"
+
+[play_video]
+other = "Пускане на видео"
+
+[watch_on_youtube]
+other = "Гледайте на YouTube"
+
+[close_video]
+other = "затвори"
+
+[youtube_channel]
+other = "YouTube Канал"
+
+[play_store_label]
+other = "Изтеглете приложението от Google Play"
+
+[google_play_app]
+other = "Приложение Google Play"
+
+[about_legend]
+other = "Относно легендата"
+
+[explore]
+other = "Разгледайте"
+
+[video_library]
+other = "Видео библиотека"
+
+[video_library_desc]
+other = "Гледайте уроци за carrom, категоризирани по ниво на умения - от начинаещи до шампиони."
+
+[carrom_books]
+other = "Книги Carrom"
+
+[carrom_books_desc]
+other = "Изтеглете ексклузивни PDF книги за ученици и треньори от Арун Дешпанде."
+
+[photo_gallery]
+other = "Галерия със снимки"
+
+[photo_gallery_desc]
+other = "Изживейте отново пътуването — шампионати, треньорски лагери и емблематични моменти."
+
+[chapter]
+other = "Глава"
+
+[previous]
+other = "Предишен"
+
+[next]
+other = "Следваща"
+
+[email]
+other = "Имейл"
+
+[phone]
+other = "Телефон / WhatsApp"
+
+[location]
+other = "Местоположение"
+
+[coaching_enquiries]
+other = "Запитвания за коучинг"
+
+[whatsapp_message]
+other = "Здравейте, господин Арун, намерих уебсайта на Carrom Academy и се интересувам от обучението по carrom."
+
+[contact_information]
+other = "Информация за контакт"
+
+[message_on_whatsapp]
+other = "Съобщение в WhatsApp"
+
+[whatsapp_hint]
+other = "Най-бързият начин да стигнете до Арун за запитвания за коучинг и семинари."
+
+[page_count]
+other = "страници"
+
+[download_pdf]
+other = "Изтеглете PDF"
+
+[original_source]
+other = "Първоизточник"
+
+[original_sources]
+other = "Първоизточници"
+
+[no_books_yet]
+other = "Все още няма налични книги."
+
+[problem_label]
+other = "проблем"
+
+[solution_label]
+other = "Решение"
+
+[ps_index_label]
+other = "Проблемни групи"
+
+[soon]
+other = "Скоро"
+
+[pdf_coming_soon]
+other = "Очаквайте скоро PDF"
+
+[ready_to_read]
+other = "Готов за четене"
+
+[start_reading]
+other = "Започнете да четете"
+
+[table_of_contents]
+other = "Съдържание"
+
+[language_label]
+other = "език"
+
+[coming_soon]
+other = "Очаквайте скоро"
+
+[coming_soon_body]
+other = "Този раздел е в процес на подготовка. Междувременно отидете на страницата Видеоклипове или влезте touch през страницата Контакти."
+
+[watch_in_action]
+other = "Гледайте в действие"
+
+[video_level_beginner]
+other = "Начинаещ"
+
+[video_level_intermediate]
+other = "Междинен"
+
+[video_level_champion]
+other = "Шампион"
+
+[video_lang_hint_label]
+other = "Надписи"
+
+[video_lang_hint_body]
+other = "Видеоклиповете са на маратхи с английски термини carrom. Докоснете бутона CC в плейъра и изберете вашия език под Субтитри → Автоматичен превод."
+
+[reading_progress]
+other = "Напредък в четенето"
+
+[other_languages]
+other = "Други езици"
+
+[ps_progress_template]
+other = "Гледали сте {count} от {total} решения"
+
+[ps_reset_progress]
+other = "Нулиране на прогреса"
+
+[ps_reset_confirm]
+other = "Изчистване на напредъка ви при гледане?"
+
+[ps_solved_label]
+other = "Решен"
+
+[stat_maharashtra_champion]
+other = "Шампион от Махаращра"
+
+[stat_world_championship_coach]
+other = "Треньор на Световното първенство"
+
+[stat_years_of_coaching]
+other = "Години треньорство"
+
+[stat_countries_trained]
+other = "Обучени държави"
+
+[ach_title_maharashtra]
+other = "7× шампион на Махаращра"
+
+[ach_sub_maharashtra]
+other = "Държавен рекорд (от 1957 г.)"
+
+[ach_title_national]
+other = "Национален шампион"
+
+[ach_sub_national]
+other = "(Сингъл 1969 · Ветеран 1981)"
+
+[ach_title_intl_coach]
+other = "Международен треньор"
+
+[ach_sub_intl_coach]
+other = "Обучаван в над 10 държави"
+
+[ach_title_world]
+other = "Световно първенство"
+
+[ach_sub_world]
+other = "Поведе Индия във всички светове"
+
+[intro_section_title]
+other = "Започнете тук — от самия треньор"

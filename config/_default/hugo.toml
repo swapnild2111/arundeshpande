@@ -156,6 +156,22 @@ disableKinds = ["taxonomy", "term"]
     [languages.sr.params]
       description = "Тренинг карома, техника и књига Аруна Дешпандеа"
 
+  [languages.sv]
+    label = "Svenska"
+    locale = "sv"
+    weight = 19
+    contentDir = "content/sv"
+    [languages.sv.params]
+      description = "Carromträning, teknik och bok av Arun Deshpande"
+
+  [languages.bg]
+    label = "Български"
+    locale = "bg"
+    weight = 20
+    contentDir = "content/bg"
+    [languages.bg.params]
+      description = "Тренировка по карром, техники и книга от Арун Дешпанде"
+
 [outputs]
   home = ["HTML", "RSS"]
 
