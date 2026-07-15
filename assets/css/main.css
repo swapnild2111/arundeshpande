@@ -150,6 +150,7 @@ h1, h2, h3, h4 {
 .brand:hover { color: var(--text) !important; }
 .brand-mark {
   width: 40px; height: 40px;
+  flex-shrink: 0;
   border-radius: 10px;
   background: var(--gradient-purple);
   display: grid; place-items: center;
@@ -261,11 +262,6 @@ h1, h2, h3, h4 {
   align-items: baseline;
   gap: 6px;
 }
-.top-bar .lang-switcher-current-english {
-  font-size: 11px;
-  font-weight: 400;
-  color: var(--text-dim);
-}
 .top-bar .lang-switcher-menu {
   position: absolute;
   top: calc(100% + 8px);
@@ -278,9 +274,15 @@ h1, h2, h3, h4 {
   border-radius: var(--radius);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
   display: none;
-  /* Three groups side-by-side, narrowest possible based on content. */
-  grid-template-columns: repeat(3, max-content);
+  /* Two region groups (World / Asia) side-by-side, narrowest possible. */
+  grid-template-columns: repeat(2, max-content);
   gap: 8px 18px;
+  /* Cap height so a short viewport gets an internal scrollbar instead
+     of the menu clipping off the bottom of the screen. Anchor point
+     is ~top: 60px (top-bar at 16px + toggle ~44px + 8px gap), so
+     leave room for that + a 16px bottom margin. */
+  max-height: calc(100vh - 76px);
+  overflow-y: auto;
 }
 .top-bar .lang-switcher.is-open .lang-switcher-menu {
   display: grid;
@@ -321,18 +323,6 @@ h1, h2, h3, h4 {
   color: var(--accent);
   background: var(--accent-soft);
   font-weight: 600;
-}
-.top-bar .lang-switcher-native {
-  font-weight: inherit;
-}
-.top-bar .lang-switcher-english {
-  font-size: 12px;
-  color: var(--text-dim);
-  font-weight: 400;
-}
-.top-bar .lang-switcher-item.is-active .lang-switcher-english {
-  color: var(--accent);
-  opacity: .75;
 }
 .top-bar .lang-switcher.is-open .lang-switcher-chevron {
   transform: rotate(180deg);
@@ -1699,6 +1689,10 @@ body.video-player-open { overflow: hidden; }
   /* Two region groups (World / Asia) side-by-side, narrowest possible. */
   grid-template-columns: repeat(2, max-content);
   gap: 4px 18px;
+  /* On short viewports cap height and scroll internally so the menu
+     doesn't disappear off the bottom of the screen. */
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
 }
 .pdf-download.is-open .pdf-download-menu { display: grid; }
 .pdf-download-group { min-width: 0; }
@@ -2990,16 +2984,10 @@ body.gallery-lightbox-open { overflow: hidden; }
     align-items: baseline;
     gap: 5px;
   }
-  .mobile-header-lang .lang-switcher-current-english {
-    font-size: 10px;
-    font-weight: 400;
-    color: var(--text-dim);
-  }
   .mobile-header-lang .lang-switcher-menu {
     position: absolute;
     top: calc(var(--mobile-header-h) - 4px);
     right: 12px;
-    min-width: 200px;
     margin: 0;
     padding: 8px;
     list-style: none;
@@ -3009,12 +2997,17 @@ body.gallery-lightbox-open { overflow: hidden; }
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
     display: none;
     z-index: 90;
+    /* English-only labels are compact enough that both region groups
+       (World / Asia) fit side-by-side even on typical phone widths. */
+    grid-template-columns: repeat(2, max-content);
+    gap: 4px 14px;
+    /* Menu can be taller than viewport (20 languages × 2 columns);
+       cap and scroll internally so the bottom rows stay reachable. */
+    max-height: calc(100vh - var(--mobile-header-h) - 16px);
+    overflow-y: auto;
   }
   .mobile-header-lang .lang-switcher.is-open .lang-switcher-menu {
-    display: block;
-  }
-  .mobile-header-lang .lang-switcher-group + .lang-switcher-group {
-    margin-top: 6px;
+    display: grid;
   }
   .mobile-header-lang .lang-switcher-group-label {
     padding: 4px 8px 6px;
@@ -3049,14 +3042,17 @@ body.gallery-lightbox-open { overflow: hidden; }
     background: var(--accent-soft);
     font-weight: 600;
   }
-  .mobile-header-lang .lang-switcher-english {
-    font-size: 12px;
-    color: var(--text-dim);
-    font-weight: 400;
-  }
-  .mobile-header-lang .lang-switcher-item.is-active .lang-switcher-english {
-    color: var(--accent);
-    opacity: .75;
+  /* Very narrow phones (<380px): collapse switcher menu to one column
+     so the dropdown never overflows the viewport width. Matches the
+     PDF download dropdown's fallback breakpoint. */
+  @media (max-width: 380px) {
+    .mobile-header-lang .lang-switcher-menu {
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
+    .mobile-header-lang .lang-switcher-group + .lang-switcher-group {
+      margin-top: 6px;
+    }
   }
   /* Hide the desktop top-bar on mobile */
   .top-bar { display: none; }

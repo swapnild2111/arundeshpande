@@ -38,10 +38,7 @@
     aria-label="{{ i18n "language_label" | default "Language" }}: {{ $currentLabel }}"
   >
     <span class="lang-switcher-globe" aria-hidden="true">{{ partial "icons/globe.html" . }}</span>
-    <span class="lang-switcher-current">
-      <span class="lang-switcher-current-native" lang="{{ $currentCode }}">{{ $currentLabel }}</span>
-      {{- if and $currentEnglish (ne $currentCode "en") }}<span class="lang-switcher-current-english">{{ $currentEnglish }}</span>{{ end -}}
-    </span>
+    <span class="lang-switcher-current">{{ $currentEnglish | default $currentLabel }}</span>
     <span class="lang-switcher-chevron" aria-hidden="true">{{ partial "icons/chevron-down.html" . }}</span>
   </button>
   <div class="lang-switcher-menu" role="menu">
@@ -58,23 +55,17 @@
               {{- $perm = index $homes $code -}}
             {{- end -}}
             {{- if $label -}}
-              {{- $en := index $englishNames $code -}}
+              {{- $en := index $englishNames $code | default $label -}}
               <li role="none">
                 {{- if eq $code $current.Language.Lang -}}
-                  <span class="lang-switcher-item is-active" role="menuitem" aria-current="true">
-                    <span class="lang-switcher-native" lang="{{ $code }}">{{ $label }}</span>
-                    {{- if and $en (ne $code "en") }}<span class="lang-switcher-english">{{ $en }}</span>{{ end -}}
-                  </span>
+                  <span class="lang-switcher-item is-active" role="menuitem" aria-current="true">{{ $en }}</span>
                 {{- else -}}
                   <a
                     href="{{ $perm }}"
                     class="lang-switcher-item"
                     role="menuitem"
                     hreflang="{{ $code }}"
-                  >
-                    <span class="lang-switcher-native" lang="{{ $code }}">{{ $label }}</span>
-                    {{- if and $en (ne $code "en") }}<span class="lang-switcher-english">{{ $en }}</span>{{ end -}}
-                  </a>
+                  >{{ $en }}</a>
                 {{- end -}}
               </li>
             {{- end -}}
