@@ -1,0 +1,38 @@
+{{- /*
+  Right-side sticky chapter list for book chapter pages.
+
+  Renders a sticky panel listing every chapter of the current book, with
+  the currently-viewed chapter highlighted. Click any entry to jump to
+  that chapter. Hidden below the 1200px breakpoint (there's no room
+  next to the prose column at narrower widths).
+
+  Called from layouts/books/single.html when we're rendering a chapter
+  page (i.e. when .Parent.Params.chapters is truthy). Expects the caller
+  to pass the current .Page — we resolve the parent (book) from it.
+*/ -}}
+{{- $current := . -}}
+{{- $book := .Parent -}}
+{{- $pages := $book.Pages.ByWeight -}}
+{{- if gt (len $pages) 0 -}}
+<aside class="book-chapter-toc" aria-label="{{ i18n "table_of_contents" | default "Chapters" }}">
+  <div class="book-chapter-toc-heading">{{ i18n "table_of_contents" | default "Chapters" }}</div>
+  <ol class="book-chapter-toc-list">
+    {{- range $pages -}}
+      {{- $isCurrent := eq .RelPermalink $current.RelPermalink -}}
+      <li class="book-chapter-toc-item{{ if $isCurrent }} is-current{{ end }}">
+        {{- if $isCurrent -}}
+          <span class="book-chapter-toc-link" aria-current="true">
+            <span class="book-chapter-toc-num">{{ .Params.weight }}</span>
+            <span class="book-chapter-toc-title">{{ replaceRE `^(Chapter|Kapitel|Capitolo|Chapitre|अध्याय|අධ්‍යාය)\s+\d+\s*[—-]\s*` "" .Title }}</span>
+          </span>
+        {{- else -}}
+          <a class="book-chapter-toc-link" href="{{ .RelPermalink }}">
+            <span class="book-chapter-toc-num">{{ .Params.weight }}</span>
+            <span class="book-chapter-toc-title">{{ replaceRE `^(Chapter|Kapitel|Capitolo|Chapitre|अध्याय|අධ්‍යාය)\s+\d+\s*[—-]\s*` "" .Title }}</span>
+          </a>
+        {{- end -}}
+      </li>
+    {{- end -}}
+  </ol>
+</aside>
+{{- end -}}

@@ -30,13 +30,17 @@
 
 <h{{ $level }} id="{{ $anchor }}">{{ $text | safeHTML }}</h{{ $level }}>
 
-{{- /* Only Techniques chapters carry video matches. */ -}}
-{{- $isTechniques := and
+{{- /* Any chapter of any book under /books/students/<book-slug>/ can carry
+     video matches. The book slug is the second-to-last path segment. */ -}}
+{{- $pathParts := split $page.File.Path "/" -}}
+{{- $isChapter := and
     (eq $level 2)
-    (strings.Contains $page.File.Path "books/students/carrom-techniques-and-skills/")
+    (strings.Contains $page.File.Path "books/students/")
     (hasPrefix $page.File.LogicalName "chapter-")
 -}}
-{{- if $isTechniques -}}
+{{- if $isChapter -}}
+  {{- /* Book slug: the folder name that contains this chapter file. */ -}}
+  {{- $bookSlug := index $pathParts (sub (len $pathParts) 2) -}}
   {{- $chapter := strings.TrimSuffix ".md" $page.File.LogicalName -}}
 
   {{- /* Per-page H2 counter (0-based). */ -}}
@@ -50,7 +54,7 @@
   {{- else -}}
     {{- $cached := $page.Store.Get "en-h2-slugs" -}}
     {{- if not $cached -}}
-      {{- $enPath := printf "content/en/books/students/carrom-techniques-and-skills/%s.md" $chapter -}}
+      {{- $enPath := printf "content/en/books/students/%s/%s.md" $bookSlug $chapter -}}
       {{- $enText := "" -}}
       {{- with try (os.ReadFile $enPath) -}}
         {{- if not .Err -}}{{- $enText = .Value -}}{{- end -}}
@@ -72,8 +76,8 @@
 
   {{- if $enSlug -}}
     {{- $key := printf "%s#%s" $chapter $enSlug -}}
-    {{- $mappings := (index hugo.Data "chapter-videos").mappings | default dict -}}
-    {{- $videos := index $mappings $key -}}
+    {{- $bookMappings := (index (index hugo.Data "chapter-videos").mappings $bookSlug) | default dict -}}
+    {{- $videos := index $bookMappings $key -}}
     {{- if $videos -}}
       {{- $page.Store.Set "pending-section-video" (dict "key" $key "videos" $videos) -}}
     {{- end -}}

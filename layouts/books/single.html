@@ -34,60 +34,12 @@
   {{- $next := "" -}}
   {{- if gt $cur 0 -}}{{- $prev = index $pages (sub $cur 1) -}}{{- end -}}
   {{- if and (ge $cur 0) (lt $cur (sub $total 1)) -}}{{- $next = index $pages (add $cur 1) -}}{{- end -}}
-  {{- $human := add $cur 1 -}}
-  {{- $pct := 0 -}}
-  {{- if gt $total 0 -}}{{- $pct = mul (div (mul $human 1.0) $total) 100 -}}{{- end -}}
 
   <nav class="book-back">
     <a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a>
   </nav>
 
-  <nav class="chapter-rail" aria-label="{{ i18n "chapter" | default "Chapter" }} navigation">
-    <div class="chapter-rail-row">
-      <div class="chapter-rail-prev">
-        {{ with $prev }}
-          <a href="{{ .RelPermalink }}" rel="prev">
-            <span class="cr-arrow" aria-hidden="true">←</span>
-            <span class="cr-text">
-              <span class="cr-label">{{ i18n "previous" | default "Previous" }}</span>
-              <span class="cr-title">{{ .Title }}</span>
-            </span>
-          </a>
-        {{ end }}
-      </div>
-      <div class="chapter-rail-counter">
-        {{ i18n "chapter_count_of" (dict "Current" $human "Total" $total) | default (printf "%d / %d" $human $total) }}
-      </div>
-      <div class="chapter-rail-next">
-        {{ with $next }}
-          <a href="{{ .RelPermalink }}" rel="next">
-            <span class="cr-text">
-              <span class="cr-label">{{ i18n "next" | default "Next" }}</span>
-              <span class="cr-title">{{ .Title }}</span>
-            </span>
-            <span class="cr-arrow" aria-hidden="true">→</span>
-          </a>
-        {{ end }}
-      </div>
-    </div>
-    {{- /*
-      Reading-progress bar driven by chapter-scroll-progress.js — the
-      width starts at 0 and grows as the visitor scrolls through the
-      .book-prose article. The bar's bottom edge hugs the rail so the
-      sticky strip stays compact.
-    */ -}}
-    <div
-      class="chapter-progress"
-      role="progressbar"
-      aria-valuemin="0"
-      aria-valuemax="100"
-      aria-valuenow="0"
-      aria-label="{{ i18n "reading_progress" | default "Reading progress" }}"
-    >
-      <span class="chapter-progress-bar" style="width: 0%"></span>
-    </div>
-  </nav>
-
+  <div class="chapter-with-toc">
   <div class="chapter">
     <header class="page-header">
       <h1>{{ .Title }}</h1>
@@ -132,7 +84,9 @@
         </a>
       {{ end }}
     </nav>
-  </div>
+  </div>{{/* end .chapter */}}
+  {{ partial "book-chapter-toc.html" . }}
+  </div>{{/* end .chapter-with-toc */}}
 
 {{ else }}
 
@@ -187,13 +141,3 @@
 {{ end }}
 {{ end }}
 
-{{ define "scripts" }}
-{{- /*
-  Reading-progress JS only loads on actual chapter pages — book index
-  pages and PDF-only books don't have the rail or article.
-*/ -}}
-{{- $isChapter := .Parent.Params.chapters | default false -}}
-{{- if $isChapter }}
-<script src="{{ "js/chapter-scroll-progress.js" | relURL }}" defer></script>
-{{- end }}
-{{ end }}

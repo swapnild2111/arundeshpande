@@ -1,18 +1,24 @@
 #!/usr/bin/env python3
 """
-Translate CarromTechniqandSkills.docx to all site languages and export PDFs.
+Translate a book's DOCX to all site languages and export per-language PDFs.
 
-Reads:  static/downloads/CarromTechniqandSkills.docx
-Writes: static/downloads/carrom-techniques-and-skills-{lang}.pdf
-Cache:  .cache/book-docx/carrom-techniques-and-skills-{lang}.docx
+Two books are supported:
+  carrom-techniques-and-skills   (default) — Arun's coaching book
+  carrom-players-guide                     — Players Guide (English source)
+
+Reads:  static/downloads/{SourceFilename}.docx
+Writes: static/downloads/{book-slug}-{lang}.pdf
+Cache:  .cache/book-docx/{book-slug}-{lang}.docx
 
 Requires: python-docx, deep-translator, LibreOffice (soffice on PATH).
 
 Usage:
-  python3 scripts/generate-book-pdfs.py              # all 8 languages
-  python3 scripts/generate-book-pdfs.py da de        # specific languages
-  python3 scripts/generate-book-pdfs.py --force da   # re-translate even if cached
-  python3 scripts/generate-book-pdfs.py --pdf-only   # convert cached docx only
+  python3 scripts/generate-book-pdfs.py                              # techniques, all languages
+  python3 scripts/generate-book-pdfs.py da de                        # techniques, specific languages
+  python3 scripts/generate-book-pdfs.py --book carrom-players-guide  # players-guide, all languages
+  python3 scripts/generate-book-pdfs.py --book carrom-players-guide en da  # players-guide, EN + DA
+  python3 scripts/generate-book-pdfs.py --force da                   # re-translate even if cached
+  python3 scripts/generate-book-pdfs.py --pdf-only                   # convert cached docx only
 """
 
 from __future__ import annotations
@@ -29,10 +35,16 @@ from docx import Document
 from deep_translator import GoogleTranslator
 
 REPO = Path(__file__).resolve().parents[1]
-SOURCE_DOCX = REPO / "static" / "downloads" / "CarromTechniqandSkills.docx"
 CACHE_DIR = REPO / ".cache" / "book-docx"
 OUTPUT_DIR = REPO / "static" / "downloads"
-BOOK_SLUG = "carrom-techniques-and-skills"
+
+# Registry of books this pipeline can translate. Add a new entry to
+# translate a new book — no other code change needed.
+BOOKS = {
+    "carrom-techniques-and-skills": REPO / "static" / "downloads" / "CarromTechniqandSkills.docx",
+    "carrom-players-guide": REPO / "static" / "downloads" / "PlayersGuideEnglish.docx",
+}
+DEFAULT_BOOK = "carrom-techniques-and-skills"
 
 ALL_LANGS = ["en", "da", "de", "mr", "it", "fr", "si", "hi", "gu", "pl", "mni", "ta", "te", "or", "bn", "as", "cs", "sr", "sv", "bg"]
 
@@ -59,12 +71,12 @@ def find_soffice() -> str:
     )
 
 
-def docx_path(lang: str) -> Path:
-    return CACHE_DIR / f"{BOOK_SLUG}-{lang}.docx"
+def docx_path(book_slug: str, lang: str) -> Path:
+    return CACHE_DIR / f"{book_slug}-{lang}.docx"
 
 
-def pdf_path(lang: str) -> Path:
-    return OUTPUT_DIR / f"{BOOK_SLUG}-{lang}.pdf"
+def pdf_path(book_slug: str, lang: str) -> Path:
+    return OUTPUT_DIR / f"{book_slug}-{lang}.pdf"
 
 
 def iter_paragraphs(doc: Document):
@@ -164,9 +176,9 @@ def translate_docx(src: Path, dest: Path, lang: str) -> None:
     print(f"  wrote {dest.relative_to(REPO)}", flush=True)
 
 
-def copy_en_docx(dest: Path) -> None:
+def copy_en_docx(source_docx: Path, dest: Path) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(SOURCE_DOCX, dest)
+    shutil.copy2(source_docx, dest)
     print(f"  copied EN source → {dest.relative_to(REPO)}", flush=True)
 
 
@@ -194,20 +206,20 @@ def convert_to_pdf(docx: Path, pdf: Path) -> None:
     print(f"  wrote {pdf.relative_to(REPO)} ({size_mb:.1f} MB)", flush=True)
 
 
-def process_lang(lang: str, *, force: bool, pdf_only: bool) -> None:
-    print(f"\n=== {lang.upper()} ===", flush=True)
-    if not SOURCE_DOCX.exists():
-        raise FileNotFoundError(f"Source docx missing: {SOURCE_DOCX}")
+def process_lang(book_slug: str, source_docx: Path, lang: str, *, force: bool, pdf_only: bool) -> None:
+    print(f"\n=== {book_slug} — {lang.upper()} ===", flush=True)
+    if not source_docx.exists():
+        raise FileNotFoundError(f"Source docx missing: {source_docx}")
 
-    cached = docx_path(lang)
-    out_pdf = pdf_path(lang)
+    cached = docx_path(book_slug, lang)
+    out_pdf = pdf_path(book_slug, lang)
 
     if not pdf_only:
         if lang == "en":
             if force or not cached.exists():
-                copy_en_docx(cached)
+                copy_en_docx(source_docx, cached)
         elif force or not cached.exists():
-            translate_docx(SOURCE_DOCX, cached, lang)
+            translate_docx(source_docx, cached, lang)
         elif not cached.exists():
             raise FileNotFoundError(f"No cached docx for {lang}; run without --pdf-only")
 
@@ -218,19 +230,45 @@ def process_lang(lang: str, *, force: bool, pdf_only: bool) -> None:
 
 
 def main() -> None:
-    args = [a for a in sys.argv[1:] if a.startswith("-")]
-    langs = [a for a in sys.argv[1:] if not a.startswith("-")]
-    force = "--force" in args
-    pdf_only = "--pdf-only" in args
+    # Parse argv: --force, --pdf-only, --book <slug>, and positional lang codes.
+    raw = sys.argv[1:]
+    force = "--force" in raw
+    pdf_only = "--pdf-only" in raw
 
-    targets = langs or ALL_LANGS
+    book_slug = DEFAULT_BOOK
+    positional: list[str] = []
+    i = 0
+    while i < len(raw):
+        tok = raw[i]
+        if tok == "--book":
+            if i + 1 >= len(raw):
+                print("--book requires a slug argument", file=sys.stderr)
+                sys.exit(1)
+            book_slug = raw[i + 1]
+            i += 2
+            continue
+        if tok in ("--force", "--pdf-only"):
+            i += 1
+            continue
+        if tok.startswith("-"):
+            print(f"Unknown flag: {tok}", file=sys.stderr)
+            sys.exit(1)
+        positional.append(tok)
+        i += 1
+
+    if book_slug not in BOOKS:
+        print(f"Unknown book: {book_slug}. Known: {', '.join(BOOKS)}", file=sys.stderr)
+        sys.exit(1)
+    source_docx = BOOKS[book_slug]
+
+    targets = positional or ALL_LANGS
     for lang in targets:
         if lang not in ALL_LANGS:
             print(f"Unknown language: {lang}", file=sys.stderr)
             sys.exit(1)
 
     for lang in targets:
-        process_lang(lang, force=force, pdf_only=pdf_only)
+        process_lang(book_slug, source_docx, lang, force=force, pdf_only=pdf_only)
 
     print("\nDone.", flush=True)
 

@@ -111,3 +111,120 @@ books:
       sr: true
       sv: true
       bg: true
+
+  - id: carrom-players-guide
+    category: students
+    weight: 2
+    coverImage: "images/book/players-guide/fig-02.jpg"
+    author: "Arun Deshpande"
+    pageCount: 40
+    chapters: true
+    pdfs:
+      en: "downloads/carrom-players-guide-en.pdf"
+      da: "downloads/carrom-players-guide-da.pdf"
+      de: "downloads/carrom-players-guide-de.pdf"
+      mr: "downloads/carrom-players-guide-mr.pdf"
+      it: "downloads/carrom-players-guide-it.pdf"
+      fr: "downloads/carrom-players-guide-fr.pdf"
+      si: "downloads/carrom-players-guide-si.pdf"
+      hi: "downloads/carrom-players-guide-hi.pdf"
+      gu: "downloads/carrom-players-guide-gu.pdf"
+      pl: "downloads/carrom-players-guide-pl.pdf"
+      mni: "downloads/carrom-players-guide-mni.pdf"
+      ta: "downloads/carrom-players-guide-ta.pdf"
+      te: "downloads/carrom-players-guide-te.pdf"
+      or: "downloads/carrom-players-guide-or.pdf"
+      bn: "downloads/carrom-players-guide-bn.pdf"
+      as: "downloads/carrom-players-guide-as.pdf"
+      cs: "downloads/carrom-players-guide-cs.pdf"
+      sr: "downloads/carrom-players-guide-sr.pdf"
+      sv: "downloads/carrom-players-guide-sv.pdf"
+      bg: "downloads/carrom-players-guide-bg.pdf"
+    titles:
+      en: "Carrom Player's Guide"
+      da: "Carrom-spillerguide"
+      de: "Carrom-Spielerhandbuch"
+      mr: "कॅरम खेळाडू मार्गदर्शक"
+      it: "Guida del giocatore di Carrom"
+      fr: "Guide du joueur de Carrom"
+      si: "කැරම් ක්‍රීඩකයාගේ මාර්ගෝපදේශය"
+      hi: "कैरम प्लेयर गाइड"
+      gu: "કેરમ પ્લેયરની માર્ગદર્શિકા"
+      pl: "Przewodnik gracza Carrom"
+      mni: "ꯀꯦꯔꯝ ꯄ꯭ꯂꯦꯌꯔꯒꯤ ꯒꯥꯏꯗ"
+      ta: "கேரம் வீரர் வழிகாட்டி"
+      te: "క్యారమ్ ప్లేయర్స్ గైడ్"
+      or: "କ୍ୟାରମ ଖେଳାଳି ଗାଇଡ"
+      bn: "ক্যারাম প্লেয়ার গাইড"
+      as: "কেৰম খেলুৱৈৰ গাইড"
+      cs: "Průvodce hráče karromu"
+      sr: "Приручник за играче карома"
+      sv: "Carrom spelarguide"
+      bg: "Ръководство на играча Carrom"
+    descriptions:
+      en: "A concise player's guide to carrom — rules, technique fundamentals, and practical tips."
+      da: "En kortfattet spillerguide til carrom — regler, grundlæggende teknik og praktiske tips."
+      de: "Ein kompaktes Spielerhandbuch für Carrom — Regeln, Techniken und praktische Tipps."
+      mr: "कॅरमसाठी खेळाडूंचे संक्षिप्त मार्गदर्शक — नियम, तंत्राची मूलभूत तत्त्वे आणि व्यावहारिक टिप्स."
+      it: "Una guida sintetica al Carrom per il giocatore — regole, fondamenti tecnici e consigli pratici."
+      fr: "Un guide concis du joueur pour le Carrom — règles, fondamentaux techniques et conseils pratiques."
+      si: "කැරම් සඳහා සංක්ෂිප්ත ක්‍රීඩකයෙකුගේ මාර්ගෝපදේශය — රීති, තාක්ෂණික මූලධර්ම සහ ප්‍රායෝගික ඉඟි."
+      hi: "कैरम के लिए एक संक्षिप्त खिलाड़ी मार्गदर्शिका — नियम, तकनीक के बुनियादी सिद्धांत और व्यावहारिक युक्तियाँ।"
+      gu: "કેરમ માટે ખેલાડીની સંક્ષિપ્ત માર્ગદર્શિકા — નિયમો, તકનીકી મૂળભૂત બાબતો અને વ્યવહારુ ટીપ્સ."
+      pl: "Zwięzły przewodnik gracza po Carrom — zasady, podstawy techniki i praktyczne wskazówki."
+      mni: "ꯀꯦꯔꯝꯒꯤ ꯃꯇꯥꯡꯗ ꯊꯣꯏꯗꯣꯛꯄ ꯄ꯭ꯂꯦꯌꯔꯒꯤ ꯒꯥꯏꯗ ꯑꯃ — ꯆꯥꯡꯁꯤꯟ, ꯇꯦꯛꯅꯤꯛꯀꯤ ꯃꯔꯨꯑꯣꯏꯕ, ꯑꯃꯁꯨꯡ ꯄ꯭ꯔꯦꯛꯇꯤꯀꯦꯜ ꯇꯤꯄꯁꯤꯡ."
+      ta: "கேரம் ஒரு சுருக்கமான வீரர் வழிகாட்டி — விதிகள், நுட்ப அடிப்படைகள் மற்றும் நடைமுறை குறிப்புகள்."
+      te: "క్యారమ్‌కు సంక్షిప్త ఆటగాడి గైడ్ — నియమాలు, సాంకేతికత ప్రాథమిక అంశాలు మరియు ఆచరణాత్మక చిట్కాలు."
+      or: "କ୍ୟାରମ ପାଇଁ ଏକ ସଂକ୍ଷିପ୍ତ ଖେଳାଳିଙ୍କ ଗାଇଡ — ନିୟମ, କୌଶଳ ମୌଳିକତା, ଏବଂ ବ୍ୟବହାରିକ ଟିପ୍ସ।"
+      bn: "ক্যারামের জন্য একটি সংক্ষিপ্ত খেলোয়াড়ের নির্দেশিকা — নিয়ম, প্রযুক্তির মৌলিক বিষয় এবং ব্যবহারিক টিপস।"
+      as: "কেৰমৰ বাবে এজন সংক্ষিপ্ত খেলুৱৈৰ গাইড — নিয়ম, কৌশলৰ মৌলিক কথা, আৰু ব্যৱহাৰিক টিপছ।"
+      cs: "Stručný průvodce hráče karromu — pravidla, základy techniky a praktické tipy."
+      sr: "Сажети водич за играче карома — правила, основе технике и практични савети."
+      sv: "En kortfattad spelarguide till carrom — regler, grunder i tekniken och praktiska tips."
+      bg: "Кратко ръководство на играча за carrom — правила, основи на техниката и практически съвети."
+    tagLabels:
+      en: "Read online"
+      da: "Læs online"
+      de: "Online lesen"
+      mr: "ऑनलाइन वाचा"
+      it: "Leggi online"
+      fr: "Lire en ligne"
+      si: "ඔන්ලයින් කියවන්න"
+      hi: "ऑनलाइन पढ़ें"
+      gu: "ઓનલાઈન વાંચો"
+      pl: "Czytaj online"
+      mni: "ꯑꯣꯟꯂꯥꯏꯟꯗ ꯑꯃꯨꯛ ꯁꯤꯡꯒꯠꯄ"
+      ta: "ஆன்லைனில் படிக்கவும்"
+      te: "ఆన్‌లైన్‌లో చదవండి"
+      or: "ଅନଲାଇନ ପଢ଼ନ୍ତୁ"
+      bn: "অনলাইনে পড়ুন"
+      as: "অনলাইনত পঢ়ক"
+      cs: "Číst online"
+      sr: "Читај онлајн"
+      sv: "Läs online"
+      bg: "Прочети онлайн"
+    languages:
+      # Only English is available for the Player's Guide until
+      # translations are generated. Non-EN entries stay false so
+      # the book advertises "Available in 1 language" and no
+      # "Start reading" links break for languages we do not yet serve.
+      en: true
+      da: false
+      de: false
+      mr: false
+      it: false
+      fr: false
+      si: false
+      hi: false
+      gu: false
+      pl: false
+      mni: false
+      ta: false
+      te: false
+      or: false
+      bn: false
+      as: false
+      cs: false
+      sr: false
+      sv: false
+      bg: false

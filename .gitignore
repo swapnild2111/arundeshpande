@@ -9,6 +9,7 @@ __pycache__/
 node_modules/
 *.log
 CarromTechniqandSkills.docx
+PlayersGuideEnglish.docx
 .env
 .env.local
 .env.*.local

@@ -2730,6 +2730,86 @@ body.gallery-lightbox-open { overflow: hidden; }
   max-width: var(--prose-max);
 }
 
+/* Two-column layout for chapter pages: prose on the left, sticky
+   chapter TOC on the right. On viewports where the TOC won't fit
+   comfortably (<1200px) the aside is hidden and the .chapter reverts
+   to its natural single-column flow via the media query below. */
+.chapter-with-toc {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 40px;
+  align-items: start;
+}
+.book-chapter-toc {
+  position: sticky;
+  /* Sit below the language-pill zone (fixed at top: 16px + toggle ~44px +
+     small gap = ~76px). Matches the safe zone we use for the top-bar
+     switcher dropdown. */
+  top: 76px;
+  align-self: start;
+  padding: 16px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  max-height: calc(100vh - 96px);
+  overflow-y: auto;
+}
+.book-chapter-toc-heading {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: 0 8px 10px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 8px;
+}
+.book-chapter-toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: none;
+}
+.book-chapter-toc-item {
+  margin: 0;
+}
+.book-chapter-toc-link {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  gap: 8px;
+  align-items: baseline;
+  padding: 8px 8px;
+  border-radius: 8px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.35;
+  transition: background .12s, color .12s;
+}
+a.book-chapter-toc-link:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+.book-chapter-toc-num {
+  font-variant-numeric: tabular-nums;
+  color: var(--text-dim);
+  font-size: 12px;
+  text-align: right;
+}
+.book-chapter-toc-item.is-current .book-chapter-toc-link {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+  cursor: default;
+}
+.book-chapter-toc-item.is-current .book-chapter-toc-num {
+  color: var(--accent);
+}
+@media (max-width: 1199px) {
+  .chapter-with-toc { display: block; }
+  .book-chapter-toc { display: none; }
+}
+
 .chapter .book-prose h2 { font-size: 24px; margin-top: 1.6em; }
 .chapter .book-prose h3 { font-size: 18px; margin-top: 1.4em; }
 .chapter .book-prose p { color: var(--text); }
@@ -2743,141 +2823,6 @@ body.gallery-lightbox-open { overflow: hidden; }
 }
 .chapter .book-prose ul,
 .chapter .book-prose ol { padding-left: 1.4em; }
-
-/* Compact prev/next rail above the chapter title. Sticky so it stays
-   visible while the visitor scrolls through the chapter prose.
-   Three slots: prev (left) / counter (centre) / next (right). Empty
-   slots reserve their space so the counter stays centred even on
-   the first and last chapter. */
-.chapter-rail {
-  position: sticky;
-  top: 8px;
-  /* Below the desktop top-bar (z-index 50) and below the mobile-header
-     (z-index 80) so the language switcher and its dropdown stay above
-     the rail. */
-  z-index: 40;
-  margin: 8px 0 20px 0;
-  /* Flexible width that stays clear of the floating language pill.
-     The lang pill (fixed top:16px right:24px) plus its 360px dropdown
-     occupies the right ~400px of the viewport. We reserve that strip
-     by computing the rail's max-width as "viewport minus sidebar
-     minus pill-zone". On wide monitors .main is auto-centred and
-     prose-max kicks in first, so the rail simply matches the prose
-     width below it. On narrow desktops the rail shortens to keep
-     the Next button clear of the pill's dropdown footprint.
-     Below 960px the mobile media query resets this. */
-  max-width: min(
-    var(--prose-max),
-    calc(100vw - var(--sidebar-w) - 14rem)
-  );
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  /* Drop shadow so the rail floats over scrolled prose. Subtle on the
-     dark theme — purpose is depth, not contrast. */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
-  overflow: hidden;
-}
-.chapter-rail-row {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  gap: 12px;
-  padding: 10px 14px;
-}
-.chapter-rail-prev { min-width: 0; }
-.chapter-rail-next { min-width: 0; text-align: right; }
-.chapter-rail-prev a,
-.chapter-rail-next a {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--text) !important;
-  text-decoration: none;
-  font-size: 13px;
-  max-width: 100%;
-  transition: color .15s;
-}
-.chapter-rail-prev a:hover,
-.chapter-rail-next a:hover { color: var(--accent) !important; }
-.chapter-rail-next a { justify-content: flex-end; }
-.chapter-rail .cr-arrow {
-  font-size: 16px;
-  color: var(--text-dim);
-  transition: transform .15s, color .15s;
-  flex-shrink: 0;
-}
-.chapter-rail a:hover .cr-arrow { color: var(--accent); }
-.chapter-rail-prev a:hover .cr-arrow { transform: translateX(-2px); }
-.chapter-rail-next a:hover .cr-arrow { transform: translateX(2px); }
-.chapter-rail .cr-text {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-}
-.chapter-rail .cr-label {
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--text-dim);
-  line-height: 1.2;
-}
-.chapter-rail .cr-title {
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 1.3;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-}
-.chapter-rail-counter {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-muted);
-  letter-spacing: 0.02em;
-  white-space: nowrap;
-  padding: 0 4px;
-}
-@media (max-width: 960px) {
-  /* Mobile-header (fixed, z-index 80) is active from 960px down.
-     Push the sticky rail below it so they don't overlap. The lang
-     switcher lives inside the mobile-header here, so the rail no
-     longer needs to reserve right-side space for it — restore full
-     width. */
-  .chapter-rail {
-    top: calc(var(--mobile-header-h) + 4px);
-    max-width: none;
-  }
-}
-@media (max-width: 720px) {
-  /* On small screens, hide the chapter titles next to prev/next —
-     keep just the arrow + Prev/Next label so the rail fits. */
-  .chapter-rail .cr-title { display: none; }
-  .chapter-rail-row { padding: 8px 12px; }
-}
-@media (max-width: 420px) {
-  /* Tightest phones: keep arrows + counter only, drop the labels too. */
-  .chapter-rail .cr-label { display: none; }
-}
-
-/* Reading-progress bar sitting along the bottom edge of the sticky
-   rail. JS (static/js/chapter-scroll-progress.js) updates its width
-   based on how far the visitor has scrolled through .book-prose.
-   No border-radius so it spans rail edge to edge; transitions
-   removed because scroll-driven updates feel laggy when smoothed. */
-.chapter-progress {
-  width: 100%;
-  height: 3px;
-  background: transparent;
-  overflow: hidden;
-}
-.chapter-progress-bar {
-  display: block;
-  height: 100%;
-  width: 0;
-  background: linear-gradient(90deg, var(--accent), rgba(168, 85, 247, 0.55));
-}
 
 .chapter-nav {
   display: flex;

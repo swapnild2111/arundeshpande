@@ -5,8 +5,11 @@
        (/en/books/students/, /en/books/rules/, etc.) -> show the book catalog.
     B) An individual chapter-book index page (e.g.
        /en/books/students/carrom-techniques-and-skills/) -> show the chapter
-       grid, NOT the catalog. Distinguished by `chapters: true` in the page's
-       own frontmatter.
+       grid. Distinguished by `chapters: true` in the page's own frontmatter.
+    C) An individual PDF-only book index page (e.g.
+       /en/books/students/carrom-players-guide/) -> show hero + per-language
+       download dropdown + embedded PDF viewer. Distinguished by `pdf:` in
+       the page's own frontmatter (and NO `chapters: true`).
 */ -}}
 
 {{ if .Params.chapters }}
@@ -206,6 +209,149 @@
       </a>
     {{ end }}
   </div>
+
+{{ else if .Params.pdf }}
+
+  {{- /* C) Individual PDF-only book index page */ -}}
+
+  {{- /* Look up the matching entry in data/books.yaml for shared metadata
+       (cover, per-language PDFs, description, etc.). */ -}}
+  {{- $bookId := path.Base .RelPermalink -}}
+  {{- $lang := .Site.Language.Lang -}}
+  {{- $pdfPath := .Params.pdf | default "" -}}
+  {{- $coverImage := "" -}}
+  {{- $matchedEntry := dict -}}
+  {{- range (hugo.Data.books.books | default slice) -}}
+    {{- if eq .id $bookId -}}
+      {{- $lp := index .pdfs $lang | default "" -}}
+      {{- if $lp -}}{{ $pdfPath = $lp }}{{- end -}}
+      {{- with .coverImage -}}{{ $coverImage = . }}{{- end -}}
+      {{- $matchedEntry = . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Build per-language PDF list (only entries whose file exists on
+       disk) for the download dropdown. English name is used as the label
+       to match the top-right language switcher and PDF dropdown style. */ -}}
+  {{- $englishNames := partial "lang-english-names.html" . -}}
+  {{- $pdfsByLang := slice -}}
+  {{- range hugo.Sites -}}
+    {{- $code := .Language.Lang -}}
+    {{- $candidate := index $matchedEntry.pdfs $code | default "" -}}
+    {{- if $candidate -}}
+      {{- $relC := strings.TrimPrefix "/" $candidate | strings.TrimPrefix "downloads/" -}}
+      {{- if fileExists (printf "static/downloads/%s" $relC) -}}
+        {{- $englishLabel := index $englishNames $code | default .Language.Label -}}
+        {{- $pdfsByLang = $pdfsByLang | append (dict
+          "code" $code
+          "label" $englishLabel
+          "path" $candidate
+        ) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if $pdfPath -}}{{ $pdfPath = $pdfPath | relURL }}{{- end -}}
+
+  <nav class="book-back">
+    <a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a>
+  </nav>
+
+  <section class="book-hero">
+    <div class="book-hero-info">
+      <div class="book-hero-kicker">
+        {{ with $coverImage }}
+          <span class="kicker-cover"><img src="{{ . | relURL }}" alt="" loading="lazy" decoding="async"></span>
+        {{ else }}
+          <span class="kicker-icon">{{ partial "icons/book.html" . }}</span>
+        {{ end }}
+        {{ with .Params.tagLabel }}<span class="tag --amber">{{ . }}</span>{{ end }}
+      </div>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="book-hero-description">{{ . }}</p>{{ end }}
+      <div class="book-hero-facts">
+        {{ with .Params.author }}<span>{{ . }}</span>{{ end }}
+        {{ with .Params.pageCount }}<span><strong>{{ . }}</strong> {{ i18n "page_count" | default "pages" }}</span>{{ end }}
+      </div>
+    </div>
+
+    <aside class="book-hero-action">
+      <h3>{{ i18n "download_pdf" | default "Download PDF" }}</h3>
+
+      {{ if gt (len $pdfsByLang) 0 }}
+        {{- /* Same grouped dropdown as book-shelf.html: two region columns
+             (World / Asia) with English-name labels. Codes mirror
+             layouts/partials/lang-switcher.html. */ -}}
+        {{ $worldCodes := slice "en" "da" "de" "it" "fr" "pl" "cs" "sr" "sv" "bg" }}
+        {{ $asiaCodes  := slice "mr" "hi" "gu" "si" "mni" "ta" "te" "or" "bn" "as" }}
+        {{ $worldPdfs := slice }}
+        {{ $asiaPdfs  := slice }}
+        {{ range $pdfsByLang }}
+          {{ if in $worldCodes .code }}
+            {{ $worldPdfs = $worldPdfs | append . }}
+          {{ else if in $asiaCodes .code }}
+            {{ $asiaPdfs = $asiaPdfs | append . }}
+          {{ end }}
+        {{ end }}
+        <div class="pdf-download" data-pdf-download>
+          <button
+            type="button"
+            class="btn btn-download btn-sm pdf-download-trigger"
+            aria-haspopup="menu"
+            aria-expanded="false"
+            title="{{ i18n "download_pdf" | default "Download PDF" }}"
+          >
+            <span>{{ i18n "download_pdf" | default "Download PDF" }}</span>
+            <span class="pdf-download-trigger-sep" aria-hidden="true">|</span>
+            <span class="pdf-download-trigger-chev" aria-hidden="true">{{ partial "icons/chevron-down.html" . }}</span>
+          </button>
+          <div class="pdf-download-menu" role="menu">
+            {{ range (slice
+                (dict "key" "world" "label" (i18n "region_world" | default "World") "items" $worldPdfs)
+                (dict "key" "asia"  "label" (i18n "region_asia"  | default "Asia")  "items" $asiaPdfs)
+            ) }}
+              {{ if gt (len .items) 0 }}
+                <div class="pdf-download-group">
+                  <div class="pdf-download-group-label">{{ .label }}</div>
+                  <ul class="pdf-download-group-list">
+                    {{ range .items }}
+                      <li role="none">
+                        <a
+                          class="pdf-download-item{{ if eq .code $lang }} is-current{{ end }}"
+                          role="menuitem"
+                          href="{{ .path | relURL }}"
+                          download
+                        >
+                          <span class="pdf-download-item-label">{{ .label }}</span>
+                          <span class="pdf-download-item-icon" aria-hidden="true">{{ partial "icons/download.html" $ }}</span>
+                        </a>
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      {{ else if $pdfPath }}
+        <a class="btn btn-download btn-sm" href="{{ $pdfPath }}" download>
+          {{ partial "icons/download.html" . }}{{ i18n "download_pdf" | default "Download PDF" }}
+        </a>
+      {{ end }}
+    </aside>
+  </section>
+
+  {{ if .Content }}
+  <article class="book-prose">
+    {{ .Content }}
+  </article>
+  {{ end }}
+
+  {{ if $pdfPath }}
+    <div class="pdf-viewer">
+      <iframe src="{{ $pdfPath }}" title="{{ .Title }}" loading="lazy"></iframe>
+    </div>
+  {{ end }}
 
 {{ else }}
 
