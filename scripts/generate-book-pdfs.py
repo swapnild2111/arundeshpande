@@ -46,7 +46,7 @@ BOOKS = {
 }
 DEFAULT_BOOK = "carrom-techniques-and-skills"
 
-ALL_LANGS = ["en", "da", "de", "mr", "it", "fr", "si", "hi", "gu", "pl", "mni", "ta", "te", "or", "bn", "as", "cs", "sr", "sv", "bg"]
+ALL_LANGS = ["en", "da", "de", "mr", "it", "fr", "si", "hi", "gu", "pl", "mni", "ta", "te", "or", "bn", "as", "cs", "sr", "sv", "bg", "ur"]
 
 # Reuse translation helpers from translate-books.py
 _spec = importlib.util.spec_from_file_location(

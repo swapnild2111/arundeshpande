@@ -113,7 +113,7 @@
                (World/Asia) so the menu renders as two columns. Codes
                mirror layouts/partials/lang-switcher.html. */ -}}
           {{ $worldCodes := slice "en" "da" "de" "it" "fr" "pl" "cs" "sr" "sv" "bg" }}
-          {{ $asiaCodes  := slice "mr" "hi" "gu" "si" "mni" "ta" "te" "or" "bn" "as" }}
+          {{ $asiaCodes  := slice "mr" "hi" "gu" "si" "mni" "ta" "te" "or" "bn" "as" "ur" }}
           {{ $worldPdfs := slice }}
           {{ $asiaPdfs  := slice }}
           {{ range $pdfsByLang }}
@@ -204,7 +204,7 @@
       <a class="toc-card" href="{{ .RelPermalink }}">
         <span class="toc-num">{{ .Params.weight }}</span>
         <span class="toc-label">{{ i18n "chapter" | default "Chapter" }} {{ .Params.weight }}</span>
-        <h3>{{ replaceRE `^(Chapter|Kapitel|Capitolo|Chapitre|अध्याय|අධ්‍යාය)\s+\d+\s*[—-]\s*` "" .Title }}</h3>
+        <h3>{{ replaceRE `^(Chapter|Kapitel|Capitolo|Chapitre|Kapitola|Rozdział|Kapitola|Глава|Поглавље|अध्याय|પ્રકરણ|அத்தியாயம்|అధ్యాయం|ଅଧ୍ୟାୟ|অধ্যায়|අධ්‍යාය|باب|ꯃꯆꯤꯡ)\s+\d+\s*[—-]\s*` "" .Title }}</h3>
         {{ with .Description }}<p>{{ . }}</p>{{ end }}
       </a>
     {{ end }}

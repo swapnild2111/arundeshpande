@@ -27,6 +27,7 @@ books:
       sr: "downloads/carrom-techniques-and-skills-sr.pdf"
       sv: "downloads/carrom-techniques-and-skills-sv.pdf"
       bg: "downloads/carrom-techniques-and-skills-bg.pdf"
+      ur: "downloads/carrom-techniques-and-skills-ur.pdf"
     titles:
       en: "Carrom Techniques and Skills"
       da: "Carrom-teknik og færdigheder"
@@ -48,6 +49,7 @@ books:
       sr: "Технике и вештине карома"
       sv: "Carrom-teknik och färdigheter"
       bg: "Техники и умения по карром"
+      ur: "کیرم تکنیک اور مہارتیں"
     descriptions:
       en: "Arun Deshpande's complete coaching book — grips, breaks, every major stroke, defence, offence, and advanced board positions."
       da: "Arun Deshpandes komplette træningsbog — greb, åbningsslag, alle hovedslag, forsvar, angreb og avancerede stillinger."
@@ -69,6 +71,7 @@ books:
       sr: "Комплетна тренерска књига Аруна Дешпандеа — хватови, брекови, сви главни ударци, одбрана, напад и напредне позиције на табли."
       sv: "Arun Deshpandes kompletta träningsbok — grepp, öppningsslag, alla huvudslag, försvar, anfall och avancerade positioner."
       bg: "Пълната треньорска книга на Арун Дешпанде — хватове, брейкове, всички основни удари, защита, атака и напреднали позиции на дъската."
+      ur: "ارون دیش پانڈے کی مکمل کوچنگ کتاب — گرفت، بریک، تمام بڑے اسٹروکس، دفاع، حملہ، اور اعلیٰ درجے کی بورڈ پوزیشنز۔"
     tagLabels:
       en: "Read online"
       da: "Læs online"
@@ -90,6 +93,7 @@ books:
       sr: "Читај онлајн"
       sv: "Läs online"
       bg: "Прочети онлайн"
+      ur: "آن لائن پڑھیں"
     languages:
       en: true
       da: true
@@ -111,6 +115,7 @@ books:
       sr: true
       sv: true
       bg: true
+      ur: true
 
   - id: carrom-players-guide
     category: students
@@ -140,6 +145,7 @@ books:
       sr: "downloads/carrom-players-guide-sr.pdf"
       sv: "downloads/carrom-players-guide-sv.pdf"
       bg: "downloads/carrom-players-guide-bg.pdf"
+      ur: "downloads/carrom-players-guide-ur.pdf"
     titles:
       en: "Carrom Player's Guide"
       da: "Carrom-spillerguide"
@@ -161,6 +167,7 @@ books:
       sr: "Приручник за играче карома"
       sv: "Carrom spelarguide"
       bg: "Ръководство на играча Carrom"
+      ur: "کیرم کھلاڑی کی گائیڈ"
     descriptions:
       en: "A concise player's guide to carrom — rules, technique fundamentals, and practical tips."
       da: "En kortfattet spillerguide til carrom — regler, grundlæggende teknik og praktiske tips."
@@ -182,6 +189,7 @@ books:
       sr: "Сажети водич за играче карома — правила, основе технике и практични савети."
       sv: "En kortfattad spelarguide till carrom — regler, grunder i tekniken och praktiska tips."
       bg: "Кратко ръководство на играча за carrom — правила, основи на техниката и практически съвети."
+      ur: "کیرم کے لیے ایک مختصر کھلاڑی کی گائیڈ — قواعد، تکنیک کی بنیادیات، اور عملی مشورے۔"
     tagLabels:
       en: "Read online"
       da: "Læs online"
@@ -203,11 +211,13 @@ books:
       sr: "Читај онлајн"
       sv: "Läs online"
       bg: "Прочети онлайн"
+      ur: "آن لائن پڑھیں"
     languages:
-      # Only English is available for the Player's Guide until
-      # translations are generated. Non-EN entries stay false so
-      # the book advertises "Available in 1 language" and no
-      # "Start reading" links break for languages we do not yet serve.
+      # English and Urdu currently ship for the Player's Guide.
+      # (Urdu translation was produced as a side-effect of setup-language.py
+      # in the Urdu rollout — SKIP_BOOK_PREFIXES only excludes the techniques
+      # book, so the Player's Guide chapters got translated too.)
+      # Other non-EN languages stay false until we deliberately translate.
       en: true
       da: false
       de: false
@@ -228,3 +238,4 @@ books:
       sr: false
       sv: false
       bg: false
+      ur: true

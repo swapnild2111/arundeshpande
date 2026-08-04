@@ -23,12 +23,12 @@
         {{- if $isCurrent -}}
           <span class="book-chapter-toc-link" aria-current="true">
             <span class="book-chapter-toc-num">{{ .Params.weight }}</span>
-            <span class="book-chapter-toc-title">{{ replaceRE `^(Chapter|Kapitel|Capitolo|Chapitre|अध्याय|අධ්‍යාය)\s+\d+\s*[—-]\s*` "" .Title }}</span>
+            <span class="book-chapter-toc-title">{{ replaceRE `^(Chapter|Kapitel|Capitolo|Chapitre|Kapitola|Rozdział|Kapitola|Глава|Поглавље|अध्याय|પ્રકરણ|அத்தியாயம்|అధ్యాయం|ଅଧ୍ୟାୟ|অধ্যায়|අධ්‍යාය|باب|ꯃꯆꯤꯡ)\s+\d+\s*[—-]\s*` "" .Title }}</span>
           </span>
         {{- else -}}
           <a class="book-chapter-toc-link" href="{{ .RelPermalink }}">
             <span class="book-chapter-toc-num">{{ .Params.weight }}</span>
-            <span class="book-chapter-toc-title">{{ replaceRE `^(Chapter|Kapitel|Capitolo|Chapitre|अध्याय|අධ්‍යාය)\s+\d+\s*[—-]\s*` "" .Title }}</span>
+            <span class="book-chapter-toc-title">{{ replaceRE `^(Chapter|Kapitel|Capitolo|Chapitre|Kapitola|Rozdział|Kapitola|Глава|Поглавље|अध्याय|પ્રકરણ|அத்தியாயம்|అధ్యాయం|ଅଧ୍ୟାୟ|অধ্যায়|අධ්‍යාය|باب|ꯃꯆꯤꯡ)\s+\d+\s*[—-]\s*` "" .Title }}</span>
           </a>
         {{- end -}}
       </li>

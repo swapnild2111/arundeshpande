@@ -172,6 +172,14 @@ disableKinds = ["taxonomy", "term"]
     [languages.bg.params]
       description = "Тренировка по карром, техники и книга от Арун Дешпанде"
 
+  [languages.ur]
+    label = "اردو"
+    locale = "ur"
+    weight = 21
+    contentDir = "content/ur"
+    [languages.ur.params]
+      description = "ارون دیش پانڈے کی کیرم کوچنگ، تکنیک اور کتاب"
+
 [outputs]
   home = ["HTML", "RSS"]
 

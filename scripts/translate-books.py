@@ -168,6 +168,7 @@ LANGS = {
     "sr": {"chapter": "Поглавље", "translated_by": "Преведено са енглеског (AI нацрт)."},
     "sv": {"chapter": "Kapitel", "translated_by": "Översatt från engelska (AI-utkast)."},
     "bg": {"chapter": "Глава", "translated_by": "Преведено от английски (AI чернова)."},
+    "ur": {"chapter": "باب", "translated_by": "انگریزی سے ترجمہ (اے آئی مسودہ)."},
 }
 
 # International carrom terms — keep as-is during translation.

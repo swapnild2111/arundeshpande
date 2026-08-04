@@ -1,0 +1,203 @@
+[home_title]
+other = "کیرم کوچ ارون دیشپانڈے"
+
+[watch_videos]
+other = "ویڈیوز دیکھیں"
+
+[play_video]
+other = "ویڈیو چلائیں۔"
+
+[watch_on_youtube]
+other = "YouTube پر دیکھیں"
+
+[close_video]
+other = "بند"
+
+[youtube_channel]
+other = "YouTube چینل"
+
+[play_store_label]
+other = "Google Play پر ایپ حاصل کریں۔"
+
+[google_play_app]
+other = "گوگل پلے ایپ"
+
+[about_legend]
+other = "لیجنڈ کے بارے میں"
+
+[explore]
+other = "دریافت کریں۔"
+
+[video_library]
+other = "ویڈیو لائبریری"
+
+[video_library_desc]
+other = "مہارت کی سطح کے لحاظ سے درجہ بندی کردہ کیرم ٹیوٹوریلز دیکھیں - ابتدائی سے چیمپئن تک۔"
+
+[carrom_books]
+other = "کیرم کتب"
+
+[carrom_books_desc]
+other = "طلباء اور کوچز کے لیے ارون دیشپانڈے کی خصوصی پی ڈی ایف کتابیں ڈاؤن لوڈ کریں۔"
+
+[photo_gallery]
+other = "فوٹو گیلری"
+
+[photo_gallery_desc]
+other = "سفر کو زندہ کریں — چیمپئن شپ، کوچنگ کیمپس اور شاندار لمحات۔"
+
+[chapter]
+other = "باب"
+
+[previous]
+other = "پچھلا"
+
+[next]
+other = "اگلا"
+
+[email]
+other = "ای میل"
+
+[phone]
+other = "فون/واٹس ایپ"
+
+[location]
+other = "مقام"
+
+[coaching_enquiries]
+other = "کوچنگ پوچھ گچھ"
+
+[whatsapp_message]
+other = "ہیلو ارون صاحب، مجھے کیرم اکیڈمی کی ویب سائٹ ملی ہے اور میں کیرم کی کوچنگ میں دلچسپی رکھتا ہوں۔"
+
+[contact_information]
+other = "رابطہ کی معلومات"
+
+[message_on_whatsapp]
+other = "واٹس ایپ پر پیغام"
+
+[whatsapp_hint]
+other = "کوچنگ انکوائریوں اور ورکشاپس کے لیے ارون تک پہنچنے کا تیز ترین طریقہ۔"
+
+[page_count]
+other = "صفحات"
+
+[download_pdf]
+other = "پی ڈی ایف ڈاؤن لوڈ کریں۔"
+
+[original_source]
+other = "اصل ماخذ"
+
+[original_sources]
+other = "اصل ذرائع"
+
+[no_books_yet]
+other = "ابھی تک کوئی کتابیں دستیاب نہیں ہیں۔"
+
+[problem_label]
+other = "مسئلہ"
+
+[solution_label]
+other = "حل"
+
+[ps_index_label]
+other = "مسئلہ گروپس"
+
+[soon]
+other = "جلد ہی"
+
+[pdf_coming_soon]
+other = "PDF جلد آرہی ہے۔"
+
+[ready_to_read]
+other = "پڑھنے کے لیے تیار ہیں۔"
+
+[start_reading]
+other = "پڑھنا شروع کریں۔"
+
+[table_of_contents]
+other = "مندرجات کا جدول"
+
+[language_label]
+other = "زبان"
+
+[coming_soon]
+other = "جلد آرہا ہے۔"
+
+[coming_soon_body]
+other = "یہ سیکشن تیار کیا جا رہا ہے۔ اس دوران، ویڈیوز کے صفحہ پر جائیں یا رابطہ صفحہ کے ذریعے touch میں جائیں۔"
+
+[watch_in_action]
+other = "عمل میں دیکھیں"
+
+[video_level_beginner]
+other = "مبتدی"
+
+[video_level_intermediate]
+other = "انٹرمیڈیٹ"
+
+[video_level_champion]
+other = "چیمپئن"
+
+[video_lang_hint_label]
+other = "کیپشنز"
+
+[video_lang_hint_body]
+other = "ویڈیوز انگریزی کیرم کی شرائط کے ساتھ مراٹھی میں ہیں۔ پلیئر میں CC بٹن کو تھپتھپائیں اور سب ٹائٹلز ← خودکار ترجمہ کے تحت اپنی زبان منتخب کریں۔"
+
+[reading_progress]
+other = "پڑھنے کی پیشرفت"
+
+[other_languages]
+other = "دوسری زبانیں"
+
+[ps_progress_template]
+other = "آپ نے {total} میں سے {count} حل دیکھے ہیں۔"
+
+[ps_reset_progress]
+other = "پیشرفت کو دوبارہ ترتیب دیں۔"
+
+[ps_reset_confirm]
+other = "اپنے دیکھنے کی پیشرفت کو صاف کریں؟"
+
+[ps_solved_label]
+other = "حل ہو گیا۔"
+
+[stat_maharashtra_champion]
+other = "مہاراشٹر چیمپئن"
+
+[stat_world_championship_coach]
+other = "ورلڈ چیمپئن شپ کوچ"
+
+[stat_years_of_coaching]
+other = "کوچنگ کے سال"
+
+[stat_countries_trained]
+other = "تربیت یافتہ ممالک"
+
+[ach_title_maharashtra]
+other = "7× مہاراشٹر چیمپئن"
+
+[ach_sub_maharashtra]
+other = "ریاستی ریکارڈ (1957 سے)"
+
+[ach_title_national]
+other = "قومی چیمپئن"
+
+[ach_sub_national]
+other = "(سنگل 1969 · تجربہ کار 1981)"
+
+[ach_title_intl_coach]
+other = "بین الاقوامی کوچ"
+
+[ach_sub_intl_coach]
+other = "10+ ممالک کی کوچنگ"
+
+[ach_title_world]
+other = "ورلڈ چیمپئن شپ"
+
+[ach_sub_world]
+other = "ہندوستان کو ہر دنیا تک پہنچایا"
+
+[intro_section_title]
+other = "یہاں سے شروع کریں — خود کوچ سے"
