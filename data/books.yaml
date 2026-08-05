@@ -213,19 +213,20 @@ books:
       bg: "Прочети онлайн"
       ur: "آن لائن پڑھیں"
     languages:
-      # English and Urdu currently ship for the Player's Guide.
-      # (Urdu translation was produced as a side-effect of setup-language.py
-      # in the Urdu rollout — SKIP_BOOK_PREFIXES only excludes the techniques
-      # book, so the Player's Guide chapters got translated too.)
-      # Other non-EN languages stay false until we deliberately translate.
+      # Player's Guide is rolling out 2 languages/week on a 10-week schedule.
+      # Currently shipping: en, ur (2026-08-04), hi + mr (2026-08-05).
+      # Urdu was a side-effect of setup-language.py during the Urdu rollout
+      # (SKIP_BOOK_PREFIXES only excludes the techniques book). Hindi and
+      # Marathi were the first planned pair. Other non-EN languages stay
+      # false until we deliberately translate them.
       en: true
       da: false
       de: false
-      mr: false
+      mr: true
       it: false
       fr: false
       si: false
-      hi: false
+      hi: true
       gu: false
       pl: false
       mni: false

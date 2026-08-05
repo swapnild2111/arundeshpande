@@ -147,6 +147,16 @@ BOOKS = [
     "students/carrom-techniques-and-skills",
 ]
 
+# Registry for the --book flag. Keys map to a category/slug pair we use to
+# resolve content directories under content/en and content/<lang>. Default
+# behaviour (no --book flag) still translates the techniques book so
+# existing usage keeps working.
+BOOK_REGISTRY = {
+    "carrom-techniques-and-skills": "students/carrom-techniques-and-skills",
+    "carrom-players-guide": "students/carrom-players-guide",
+}
+DEFAULT_BOOK = "carrom-techniques-and-skills"
+
 LANGS = {
     "da": {"chapter": "Kapitel", "translated_by": "Oversat fra engelsk (AI-udkast)."},
     "de": {"chapter": "Kapitel", "translated_by": "Aus dem Englischen übersetzt (KI-Entwurf)."},
@@ -430,24 +440,50 @@ def translate_file(src: Path, dest: Path, lang: str, translator) -> None:
 
 
 def main() -> None:
-    targets = sys.argv[1:] or ["da", "de"]
-    force = "--force" in targets
-    if force:
-        targets = [t for t in targets if t != "--force"]
+    # Parse argv: --force, --book <slug>, positional lang codes.
+    raw = sys.argv[1:]
+    force = "--force" in raw
+
+    book_slug = DEFAULT_BOOK
+    positional: list[str] = []
+    i = 0
+    while i < len(raw):
+        tok = raw[i]
+        if tok == "--book":
+            if i + 1 >= len(raw):
+                print("--book requires a slug argument", file=sys.stderr)
+                sys.exit(1)
+            book_slug = raw[i + 1]
+            i += 2
+            continue
+        if tok == "--force":
+            i += 1
+            continue
+        if tok.startswith("-"):
+            print(f"Unknown flag: {tok}", file=sys.stderr)
+            sys.exit(1)
+        positional.append(tok)
+        i += 1
+
+    if book_slug not in BOOK_REGISTRY:
+        print(f"Unknown book: {book_slug}. Known: {', '.join(BOOK_REGISTRY)}", file=sys.stderr)
+        sys.exit(1)
+    book_path = BOOK_REGISTRY[book_slug]
+
+    targets = positional or ["da", "de"]
 
     for lang in targets:
-        print(f"\n=== {lang.upper()} ({'DeepL' if lang in EU_LANGS else 'Google'}) ===", flush=True)
+        print(f"\n=== {book_slug} — {lang.upper()} ({'DeepL' if lang in EU_LANGS else 'Google'}) ===", flush=True)
         translator = get_translator(lang)
-        for book in BOOKS:
-            en_dir = EN_ROOT / book
-            out_dir = REPO / "content" / lang / "books" / book
-            print(f"Book: {book}", flush=True)
-            for src in sorted(en_dir.glob("*.md")):
-                dest = out_dir / src.name
-                if dest.exists() and not force:
-                    print(f"  skip {dest.relative_to(REPO)}", flush=True)
-                    continue
-                translate_file(src, dest, lang, translator)
+        en_dir = EN_ROOT / book_path
+        out_dir = REPO / "content" / lang / "books" / book_path
+        print(f"Book: {book_path}", flush=True)
+        for src in sorted(en_dir.glob("*.md")):
+            dest = out_dir / src.name
+            if dest.exists() and not force:
+                print(f"  skip {dest.relative_to(REPO)}", flush=True)
+                continue
+            translate_file(src, dest, lang, translator)
 
 
 if __name__ == "__main__":
