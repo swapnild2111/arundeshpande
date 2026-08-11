@@ -214,11 +214,9 @@ books:
       ur: "آن لائن پڑھیں"
     languages:
       # Player's Guide is rolling out 2 languages/week on a 10-week schedule.
-      # Currently shipping: en, ur (2026-08-04), hi + mr (2026-08-05).
-      # Urdu was a side-effect of setup-language.py during the Urdu rollout
-      # (SKIP_BOOK_PREFIXES only excludes the techniques book). Hindi and
-      # Marathi were the first planned pair. Other non-EN languages stay
-      # false until we deliberately translate them.
+      # Currently shipping: en, ur (2026-08-04), hi + mr (2026-08-05),
+      # gu + bn (2026-08-11). Other non-EN languages stay false until we
+      # deliberately translate them.
       en: true
       da: false
       de: false
@@ -227,13 +225,13 @@ books:
       fr: false
       si: false
       hi: true
-      gu: false
+      gu: true
       pl: false
       mni: false
       ta: false
       te: false
       or: false
-      bn: false
+      bn: true
       as: false
       cs: false
       sr: false
