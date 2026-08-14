@@ -35,7 +35,11 @@ DEEPL_API_KEY = _load_deepl_key()
 DEEPL_URL = "https://api-free.deepl.com/v2/translate"
 
 # Languages that use DeepL for website content (EU languages DeepL supports)
-EU_LANGS = {"da", "de", "it", "fr", "pl", "cs"}
+# DeepL has been unreliable/quota-exhausted since mid-July 2026.
+# All languages now route through Google Translate. If DeepL becomes
+# reliable again, add relevant codes back here — the DEEPL_LANG_MAP
+# below still contains the target-code mapping.
+EU_LANGS: set[str] = set()
 
 # DeepL target language codes (differ from Hugo locale codes where needed)
 DEEPL_LANG_MAP = {

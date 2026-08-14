@@ -213,16 +213,17 @@ books:
       bg: "Прочети онлайн"
       ur: "آن لائن پڑھیں"
     languages:
-      # Player's Guide is rolling out 2 languages/week on a 10-week schedule.
+      # Player's Guide rolling out 2 languages/week on a 10-week schedule.
       # Currently shipping: en, ur (2026-08-04), hi + mr (2026-08-05),
-      # gu + bn (2026-08-11). Other non-EN languages stay false until we
+      # gu + bn (2026-08-11), da + de + it + fr (2026-08-14 — weeks 3+4
+      # combined). Other non-EN languages stay false until we
       # deliberately translate them.
       en: true
-      da: false
-      de: false
+      da: true
+      de: true
       mr: true
-      it: false
-      fr: false
+      it: true
+      fr: true
       si: false
       hi: true
       gu: true
