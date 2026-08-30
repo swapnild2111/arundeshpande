@@ -213,11 +213,11 @@ books:
       bg: "Прочети онлайн"
       ur: "آن لائن پڑھیں"
     languages:
-      # Player's Guide rolling out on an accelerated schedule.
-      # Currently shipping: en, ur (2026-08-04), hi + mr (2026-08-05),
-      # gu + bn (2026-08-11), da + de + it + fr (2026-08-14), pl + cs +
-      # ta + te + si (2026-08-15), or + as + sv (2026-08-16). Remaining
-      # non-EN languages stay false until we deliberately translate them.
+      # Player's Guide now shipping in all 21 languages: en, ur
+      # (2026-08-04), hi + mr (2026-08-05), gu + bn (2026-08-11),
+      # da + de + it + fr (2026-08-14), pl + cs + ta + te + si
+      # (2026-08-15), or + as + sv (2026-08-16), sr + bg + mni
+      # (2026-08-30).
       en: true
       da: true
       de: true
@@ -228,14 +228,14 @@ books:
       hi: true
       gu: true
       pl: true
-      mni: false
+      mni: true
       ta: true
       te: true
       or: true
       bn: true
       as: true
       cs: true
-      sr: false
+      sr: true
       sv: true
-      bg: false
+      bg: true
       ur: true
